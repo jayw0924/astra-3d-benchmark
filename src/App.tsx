@@ -10,6 +10,24 @@ const workPackages = [
   ['04', 'Integrate', 'The selected finish in a tested desktop and mobile browser configurator.'],
 ];
 
+const renderStudies = [
+  {
+    title: 'Viewer-light study',
+    src: '/assets/renders/estuary-viewer-front-three-quarter.png',
+    alt: 'Estuary Enamel under the configurator lighting, front three-quarter view',
+  },
+  {
+    title: 'Neutral-light study',
+    src: '/assets/renders/estuary-neutral-front-three-quarter.png',
+    alt: 'Estuary Enamel under neutral lighting, front three-quarter view',
+  },
+  {
+    title: 'Material close-ups',
+    src: '/assets/renders/estuary-neutral-closeup.png',
+    alt: 'Estuary Enamel paint and mirror close-up under neutral lighting',
+  },
+] as const;
+
 export default function App() {
   return (
     <>
@@ -59,12 +77,21 @@ export default function App() {
             </p>
           </div>
           <div className="render-grid" aria-label="Render study status">
-            {['Viewer-light study', 'Neutral-light study', 'Material close-ups'].map((title, index) => (
-              <article className="render-placeholder" key={title}>
-                <span>0{index + 1}</span>
-                <div>
+            {renderStudies.map((study, index) => (
+              <article className="render-card" key={study.title}>
+                <img
+                  src={study.src}
+                  alt={study.alt}
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+                <div className="render-card-body">
+                  <span>0{index + 1}</span>
+                  <div>
                   <p className="eyebrow">Captured and verified</p>
-                  <h3>{title}</h3>
+                    <h3>{study.title}</h3>
+                  </div>
                 </div>
               </article>
             ))}

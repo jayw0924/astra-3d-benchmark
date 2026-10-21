@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-20-sol-public-render-gallery",
+  "title": "Publish selected Estuary comparison renders",
+  "startedAt": "2026-10-21T03:31:08.601177Z",
+  "endedAt": "2026-10-21T03:37:39.491981Z",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop with Docker terminal backend",
+  "reasoningMode": "not exposed by interface",
+  "tools": ["terminal", "file", "vision"],
+  "workPackage": "integrate",
+  "inputAssets": ["web-product-estuary"],
+  "promptPath": "research/runs/2026-10-20-sol-public-render-gallery/prompt.md",
+  "outputPaths": [
+    "public/assets/renders/estuary-neutral-closeup.png",
+    "public/assets/renders/estuary-neutral-front-three-quarter.png",
+    "public/assets/renders/estuary-viewer-front-three-quarter.png",
+    "research/asset-manifest.json",
+    "research/runs/2026-10-20-sol-public-render-gallery/notes.md",
+    "research/runs/2026-10-20-sol-public-render-gallery/prompt.md",
+    "research/runs/2026-10-20-sol-public-render-gallery/run.json",
+    "src/App.test.tsx",
+    "src/App.tsx",
+    "src/generated/study-data.json",
+    "src/styles.css",
+    "tests/e2e/showcase.spec.ts"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {"path": "public/assets/renders/estuary-neutral-closeup.png", "lane": "mixed", "sourceAssets": ["web-product-estuary"]},
+      {"path": "public/assets/renders/estuary-neutral-front-three-quarter.png", "lane": "mixed", "sourceAssets": ["web-product-estuary"]},
+      {"path": "public/assets/renders/estuary-viewer-front-three-quarter.png", "lane": "mixed", "sourceAssets": ["web-product-estuary"]},
+      {"path": "research/asset-manifest.json", "lane": "mixed", "sourceAssets": ["web-product-estuary"]},
+      {"path": "research/runs/2026-10-20-sol-public-render-gallery/notes.md", "lane": "non_astra_authored_baseline", "sourceAssets": ["web-product-estuary"]},
+      {"path": "research/runs/2026-10-20-sol-public-render-gallery/prompt.md", "lane": "non_astra_authored_baseline", "sourceAssets": []},
+      {"path": "research/runs/2026-10-20-sol-public-render-gallery/run.json", "lane": "non_astra_authored_baseline", "sourceAssets": ["web-product-estuary"]},
+      {"path": "src/App.test.tsx", "lane": "non_astra_authored_baseline", "sourceAssets": ["web-product-estuary"]},
+      {"path": "src/App.tsx", "lane": "non_astra_authored_baseline", "sourceAssets": ["web-product-estuary"]},
+      {"path": "src/generated/study-data.json", "lane": "mixed", "sourceAssets": ["web-product-estuary"]},
+      {"path": "src/styles.css", "lane": "non_astra_authored_baseline", "sourceAssets": ["web-product-estuary"]},
+      {"path": "tests/e2e/showcase.spec.ts", "lane": "non_astra_authored_baseline", "sourceAssets": ["web-product-estuary"]}
+    ]
+  },
+  "elapsedSeconds": 390.890804,
+  "cost": {"amount": null, "currency": "USD", "basis": "not exposed by interface; no external image or 3D generator used"},
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "The apparent loading failure was a status-only UI implementation with no image elements, not a network failure. Replaced with exact verified renders and added browser load assertions. No acceptance blockers remain.",
+  "reviewer": "Sol implementation self-review; automated desktop and mobile Chromium acceptance passed",
+  "publicSummary": "Published three exact, hash-verified Estuary comparison renders in the public gallery, replacing status-only cards with accessible images while preserving source evidence and attribution."
+}

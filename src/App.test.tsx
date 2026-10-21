@@ -29,4 +29,15 @@ describe('App', () => {
     expect(screen.queryByText(/awaiting verified run/i)).not.toBeInTheDocument();
     expect(screen.queryByText(/no Astra production run has been conducted/i)).not.toBeInTheDocument();
   });
+
+  it('shows the selected Estuary render studies as real images', () => {
+    render(<App />);
+
+    expect(screen.getByRole('img', { name: /Estuary Enamel under the configurator lighting/i }))
+      .toHaveAttribute('src', '/assets/renders/estuary-viewer-front-three-quarter.png');
+    expect(screen.getByRole('img', { name: /Estuary Enamel under neutral lighting/i }))
+      .toHaveAttribute('src', '/assets/renders/estuary-neutral-front-three-quarter.png');
+    expect(screen.getByRole('img', { name: /Estuary Enamel paint and mirror close-up/i }))
+      .toHaveAttribute('src', '/assets/renders/estuary-neutral-closeup.png');
+  });
 });

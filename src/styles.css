@@ -261,24 +261,36 @@ h3 {
   background: var(--line);
 }
 
-.render-placeholder {
+.render-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 390px;
-  padding: 1.4rem;
-  background:
-    radial-gradient(circle at 70% 35%, rgba(183, 53, 47, 0.09), transparent 30%),
-    var(--paper);
+  background: var(--paper);
 }
 
-.render-placeholder > span {
+.render-card > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #d7d7d4;
+}
+
+.render-card-body {
+  display: flex;
+  min-height: 170px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.4rem;
+}
+
+.render-card-body > span {
   color: var(--muted);
   font-family: 'DM Mono', monospace;
   font-size: 0.7rem;
 }
 
-.render-placeholder h3 {
+.render-card h3 {
   margin: 0;
   font-size: clamp(1.4rem, 2.5vw, 2.3rem);
   font-weight: 500;

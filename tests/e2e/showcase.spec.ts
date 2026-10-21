@@ -18,6 +18,15 @@ test('loads the real configurator and changes product options', async ({ page })
   ).toBeVisible();
   await expect(page.getByRole('status')).toHaveText('3D model ready');
 
+  const renderImages = page.locator('.render-card img');
+  await expect(renderImages).toHaveCount(3);
+  await expect.poll(() => renderImages.evaluateAll((images) =>
+    images.every((image) => {
+      const element = image as HTMLImageElement;
+      return element.complete && element.naturalWidth === 600 && element.naturalHeight === 400;
+    }),
+  )).toBe(true);
+
   const servedModel = await (await modelResponse).body();
   expect(servedModel.byteLength).toBe(10_191_496);
   expect(createHash('sha256').update(servedModel).digest('hex')).toBe(

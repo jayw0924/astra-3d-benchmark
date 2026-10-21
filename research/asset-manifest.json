@@ -80,6 +80,54 @@
       "localPath": "public/assets/models/product-estuary.glb",
       "status": "available",
       "notes": "Exact byte copy of the evidence-verified Estuary candidate, selected by blind human review and served separately from the preserved sanitized three-variant baseline."
+    },
+    {
+      "id": "estuary-viewer-render",
+      "title": "Selected Estuary Enamel viewer-light render",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-20-sol-material-ab-render",
+      "immutableUrl": "urn:sha256:9b49feaaef6815503135b334876e47be719fb39c8bd83692352c7b3e7ce57c53",
+      "author": "Browser capture and public presentation by Sol; sourced model contributors and Astra-authored Estuary materials retained",
+      "license": "CC-BY-4.0 inherited from the source model; benchmark additions documented by this project",
+      "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept/LICENSE.md",
+      "retrievedAt": "2026-10-21T03:32:03Z",
+      "bytes": 119920,
+      "sha256": "9b49feaaef6815503135b334876e47be719fb39c8bd83692352c7b3e7ce57c53",
+      "localPath": "public/assets/renders/estuary-viewer-front-three-quarter.png",
+      "status": "available",
+      "notes": "Exact copy of the selected candidate's verified viewer-light front three-quarter comparison render."
+    },
+    {
+      "id": "estuary-neutral-render",
+      "title": "Selected Estuary Enamel neutral-light render",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-20-sol-material-ab-render",
+      "immutableUrl": "urn:sha256:95733b45ef2f666c8b7aa2fd737e93f4f92a6491d17f506ca3de5c643e78903b",
+      "author": "Browser capture and public presentation by Sol; sourced model contributors and Astra-authored Estuary materials retained",
+      "license": "CC-BY-4.0 inherited from the source model; benchmark additions documented by this project",
+      "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept/LICENSE.md",
+      "retrievedAt": "2026-10-21T03:32:03Z",
+      "bytes": 75799,
+      "sha256": "95733b45ef2f666c8b7aa2fd737e93f4f92a6491d17f506ca3de5c643e78903b",
+      "localPath": "public/assets/renders/estuary-neutral-front-three-quarter.png",
+      "status": "available",
+      "notes": "Exact copy of the selected candidate's verified neutral-light front three-quarter comparison render."
+    },
+    {
+      "id": "estuary-closeup-render",
+      "title": "Selected Estuary Enamel neutral material close-up",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-20-sol-material-ab-render",
+      "immutableUrl": "urn:sha256:e05740afb457e6595ea3243d40dbeca1f675615618063173b50230a970c5097e",
+      "author": "Browser capture and public presentation by Sol; sourced model contributors and Astra-authored Estuary materials retained",
+      "license": "CC-BY-4.0 inherited from the source model; benchmark additions documented by this project",
+      "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept/LICENSE.md",
+      "retrievedAt": "2026-10-21T03:32:03Z",
+      "bytes": 327218,
+      "sha256": "e05740afb457e6595ea3243d40dbeca1f675615618063173b50230a970c5097e",
+      "localPath": "public/assets/renders/estuary-neutral-closeup.png",
+      "status": "available",
+      "notes": "Exact copy of the selected candidate's verified neutral-light mirror and paint close-up."
     }
   ]
 }

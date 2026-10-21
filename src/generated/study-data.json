@@ -1,11 +1,43 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "runCount": 6,
+    "runCount": 7,
     "astraRunCount": 3,
     "completedAstraRuns": 3
   },
   "runs": [
+    {
+      "id": "2026-10-20-sol-public-render-gallery",
+      "title": "Publish selected Estuary comparison renders",
+      "startedAt": "2026-10-21T03:31:08.601177Z",
+      "model": "gpt-5.6-sol",
+      "provider": "openai-codex",
+      "tools": [
+        "terminal",
+        "file",
+        "vision"
+      ],
+      "workPackage": "integrate",
+      "interventionLevel": 0,
+      "outcome": "pass",
+      "failureNotes": "The apparent loading failure was a status-only UI implementation with no image elements, not a network failure. Replaced with exact verified renders and added browser load assertions. No acceptance blockers remain.",
+      "outputPaths": [
+        "public/assets/renders/estuary-neutral-closeup.png",
+        "public/assets/renders/estuary-neutral-front-three-quarter.png",
+        "public/assets/renders/estuary-viewer-front-three-quarter.png",
+        "research/asset-manifest.json",
+        "research/runs/2026-10-20-sol-public-render-gallery/notes.md",
+        "research/runs/2026-10-20-sol-public-render-gallery/prompt.md",
+        "research/runs/2026-10-20-sol-public-render-gallery/run.json",
+        "src/App.test.tsx",
+        "src/App.tsx",
+        "src/generated/study-data.json",
+        "src/styles.css",
+        "tests/e2e/showcase.spec.ts"
+      ],
+      "publicSummary": "Published three exact, hash-verified Estuary comparison renders in the public gallery, replacing status-only cards with accessible images while preserving source evidence and attribution.",
+      "scores": {}
+    },
     {
       "id": "2026-10-20-sol-estuary-integration",
       "title": "Selected Estuary Enamel public configurator integration",
