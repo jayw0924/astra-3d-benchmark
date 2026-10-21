@@ -22,6 +22,11 @@ npm run build
 npm run dev
 ```
 
+`npm run build` is the strict local research build and requires the private,
+gitignored Astra session exports. Vercel uses `npm run build:app` to compile the
+already validated public application from tracked files without weakening the
+local attribution gate.
+
 Research records are validated with:
 
 ```bash
