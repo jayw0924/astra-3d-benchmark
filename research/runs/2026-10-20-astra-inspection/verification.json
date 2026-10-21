@@ -1,0 +1,58 @@
+{
+  "commands": [
+    {
+      "command": [
+        "npm",
+        "run",
+        "asset:inspect"
+      ],
+      "exitCode": 0,
+      "log": "research/runs/2026-10-20-astra-inspection/asset-inspect.txt"
+    },
+    {
+      "command": [
+        "node",
+        "research/runs/2026-10-20-astra-inspection/inspect.mjs"
+      ],
+      "exitCode": 0,
+      "log": "research/runs/2026-10-20-astra-inspection/independent-inspect.txt"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "research:validate"
+      ],
+      "exitCode": 0,
+      "log": "research/runs/2026-10-20-astra-inspection/research-validate.txt"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "research:build",
+        "--",
+        "--output",
+        "research/runs/2026-10-20-astra-inspection/study-data.json"
+      ],
+      "exitCode": 0,
+      "log": "research/runs/2026-10-20-astra-inspection/research-build.txt"
+    }
+  ],
+  "protectedPathsChecked": 63,
+  "astraProtectedChanges": [],
+  "postReviewIntegrationChanges": [
+    ".gitignore",
+    "src/generated/study-data.json"
+  ],
+  "expectedPostReviewIntegrationChanges": [
+    ".gitignore",
+    "src/generated/study-data.json"
+  ],
+  "assetHashesMatchManifest": true,
+  "isolatedBuildSummary": {
+    "runCount": 2,
+    "astraRunCount": 1,
+    "completedAstraRuns": 1
+  }
+}

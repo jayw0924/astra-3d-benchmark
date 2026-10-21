@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-10-21T00:12:24+00:00",
+  "schemaValid": true,
+  "outputPathsAndProvenanceValid": true,
+  "inputManifestHashesValid": true,
+  "privateSessionEvidenceValid": true,
+  "sessionEvidenceSha256": "4fe5ba9c345779665b0d7de2403c19144b030777d3ad1937ceee4f5861ddaa49",
+  "sessionEvidencePrivate": true,
+  "candidateSha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f",
+  "candidateBytes": 10191496,
+  "candidateChecksPassed": true,
+  "deterministicReplayPassed": true,
+  "hardlinkOutputRegressionPassed": true,
+  "inspectorWritesFiles": false,
+  "researchValidation": "passed: 2 assets, 4 runs",
+  "isolatedStudy": {
+    "runCount": 4,
+    "astraRunCount": 3,
+    "completedAstraRuns": 3
+  },
+  "visualReview": "pending",
+  "runtimePerformance": "pending",
+  "reviewStatus": "independent fail-closed Sol re-review passed the technical package; visual and runtime review pending"
+}

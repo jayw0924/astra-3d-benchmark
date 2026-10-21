@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/astra-3d/asset-manifest.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["assets"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "kind", "sourceUrl", "immutableUrl", "author", "license", "licenseUrl", "retrievedAt", "bytes", "sha256", "localPath", "status"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+          "title": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["model", "texture", "hdri", "image", "other"] },
+          "sourceUrl": { "type": "string", "format": "uri" },
+          "immutableUrl": { "type": "string", "format": "uri" },
+          "author": { "type": "string", "minLength": 1 },
+          "license": { "type": "string", "minLength": 1 },
+          "licenseUrl": { "type": "string", "format": "uri" },
+          "retrievedAt": { "type": "string", "format": "date-time" },
+          "bytes": { "type": "integer", "minimum": 1 },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "localPath": { "type": "string", "pattern": "^(?!/)(?!.*\\.\\.).+$" },
+          "status": { "enum": ["planned", "available", "blocked", "rejected"] },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

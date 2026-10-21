@@ -1,0 +1,17 @@
+{
+  "protocolVersion": 1,
+  "mapping": [
+    {
+      "label": "A",
+      "candidateId": "estuary-enamel-candidate",
+      "candidateName": "Estuary Enamel",
+      "candidateSha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f"
+    },
+    {
+      "label": "B",
+      "candidateId": "fjord-enamel-candidate",
+      "candidateName": "Fjord Enamel",
+      "candidateSha256": "1eaba8fe0cbecfcf45a0ec83337979f6db1bb08ad98b6cef8de6d97e9ab790c3"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "summary": {
+    "runCount": 4,
+    "astraRunCount": 3,
+    "completedAstraRuns": 3
+  },
+  "runs": [
+    {
+      "id": "2026-10-20-astra-material-fjord-ef457b",
+      "title": "Fjord Enamel — isolated automotive material candidate",
+      "startedAt": "2026-10-20T23:29:52.347998+00:00",
+      "model": "gpt-6-astra",
+      "provider": "openai-codex",
+      "tools": [
+        "Hermes skill_view",
+        "Hermes read_file",
+        "Hermes write_file",
+        "Hermes patch",
+        "Hermes terminal",
+        "Hermes parallel tool wrapper",
+        "Node.js v26.10.0",
+        "npm 11.19.1",
+        "Python 3.13.15",
+        "glTF Transform 4.5.1",
+        "Three.js 0.186.1",
+        "Ajv 8.20.0"
+      ],
+      "workPackage": "materials",
+      "interventionLevel": 0,
+      "outcome": "partial",
+      "failureNotes": "Technical material candidate and deterministic checks passed. Visual appearance, browser behavior, and runtime performance remain unmeasured pending a controlled blind A/B render. Blender and a dedicated Khronos validator were unavailable. Earlier infrastructure/preflight failures remain preserved in the private transcript and historical command log.",
+      "outputPaths": [
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/prompt.md",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/notes.md",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/author-material.mjs",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/review.mjs",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/material.test.mjs",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/candidate.glb",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/candidate-repeat.glb",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/inventory.json",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/commands.jsonl",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/protected-before.json",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/protected-verification.json",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/validation.json",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/study-data.json",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/run.json",
+        "research/runs/2026-10-20-astra-material-fjord-ef457b/session-evidence.sha256"
+      ],
+      "publicSummary": "Evidence-verified Astra material run produced deterministic Fjord Enamel: a monochrome dielectric clearcoat candidate preserving all source geometry, textures, supplied variants, and complete history-independent mapping coverage. No visual-quality or runtime-performance claim is made.",
+      "scores": {}
+    },
+    {
+      "id": "2026-10-20-astra-material-estuary-49b949",
+      "title": "Estuary Enamel — isolated material-authoring candidate",
+      "startedAt": "2026-10-20T23:18:53.988048+00:00",
+      "model": "gpt-6-astra",
+      "provider": "openai-codex",
+      "tools": [
+        "terminal",
+        "read_file",
+        "write_file",
+        "patch",
+        "skill_view",
+        "Node.js",
+        "Python",
+        "Three.js",
+        "glTF Transform NodeIO and CLI",
+        "Ajv"
+      ],
+      "workPackage": "materials",
+      "interventionLevel": 0,
+      "outcome": "partial",
+      "failureNotes": "Technical material candidate and deterministic checks passed. Visual appearance, browser behavior, and runtime performance remain unmeasured pending a controlled blind A/B render. Blender and a dedicated Khronos validator were unavailable. Earlier infrastructure/preflight failures remain preserved in the private transcript and historical command log.",
+      "outputPaths": [
+        "research/runs/2026-10-20-astra-material-estuary-49b949/author-material.mjs",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/candidate.glb",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/commands.jsonl",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/environment.json",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/inspect-candidate.mjs",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/inventory.json",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/notes.md",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/prompt.md",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/protected-before.json",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/protected-verification.json",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/run.json",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/study-data.json",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/verification.json",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/material.test.mjs",
+        "research/runs/2026-10-20-astra-material-estuary-49b949/session-evidence.sha256"
+      ],
+      "publicSummary": "Evidence-verified Astra material run produced deterministic Estuary Enamel: a two-tone dielectric clearcoat candidate preserving all source geometry, textures, supplied variants, and complete history-independent mapping coverage. No visual-quality or runtime-performance claim is made.",
+      "scores": {}
+    },
+    {
+      "id": "2026-10-20-astra-inspection",
+      "title": "Verified read-only CarConcept inspection",
+      "startedAt": "2026-10-20T22:55:57+00:00",
+      "model": "gpt-6-astra",
+      "provider": "openai-codex",
+      "tools": [
+        "terminal",
+        "read_file",
+        "search_files",
+        "write_file",
+        "execute_code",
+        "skill_view",
+        "tool_describe",
+        "tool_call/session_search",
+        "Node.js 26.10.0",
+        "Python 3.13.15",
+        "glTF Transform 4.5.1",
+        "Three.js 0.186.1"
+      ],
+      "workPackage": "inspect",
+      "interventionLevel": 0,
+      "outcome": "pass",
+      "failureNotes": "Earlier missing-workspace attempts are excluded infrastructure preflights, not Astra capability failures. Blender and a dedicated Khronos validator were unavailable; no Blender validation, visual-quality judgment, rendering, full conformance certification, or runtime performance measurement is claimed. The private redacted session export is locally validated and intentionally excluded from publication; its SHA-256 is published instead.",
+      "outputPaths": [
+        "research/runs/2026-10-20-astra-inspection/prompt.md",
+        "research/runs/2026-10-20-astra-inspection/notes.md",
+        "research/runs/2026-10-20-astra-inspection/inspect.mjs",
+        "research/runs/2026-10-20-astra-inspection/inventory.json",
+        "research/runs/2026-10-20-astra-inspection/environment.json",
+        "research/runs/2026-10-20-astra-inspection/asset-inspect.txt",
+        "research/runs/2026-10-20-astra-inspection/independent-inspect.txt",
+        "research/runs/2026-10-20-astra-inspection/capture-evidence.py",
+        "research/runs/2026-10-20-astra-inspection/protected-before.json",
+        "research/runs/2026-10-20-astra-inspection/research-validate.txt",
+        "research/runs/2026-10-20-astra-inspection/research-build.txt",
+        "research/runs/2026-10-20-astra-inspection/study-data.json",
+        "research/runs/2026-10-20-astra-inspection/verification.json",
+        "research/runs/2026-10-20-astra-inspection/session-evidence.sha256",
+        "research/runs/2026-10-20-astra-inspection/run.json"
+      ],
+      "publicSummary": "Verified Astra inspection reproduced the baseline inventory and deterministic sanitized GLB, identified interior-changing variants and non-original runtime rim restoration, and made no model or application source edits. Post-review integration updated only generated study data and the transcript privacy ignore rule.",
+      "scores": {}
+    },
+    {
+      "id": "2026-10-20-sol-baseline-setup",
+      "title": "Non-Astra benchmark infrastructure baseline",
+      "startedAt": "2026-10-20T20:38:33Z",
+      "model": "gpt-5.6-sol",
+      "provider": "openai-codex",
+      "tools": [
+        "terminal",
+        "file",
+        "web-search",
+        "delegation"
+      ],
+      "workPackage": "baseline",
+      "interventionLevel": 0,
+      "outcome": "partial",
+      "failureNotes": "This was intentionally excluded from Astra scoring. Blender was unavailable in the Docker backend and the host Astra session could not be invoked from inside the container.",
+      "outputPaths": [
+        "research/protocol.md",
+        "research/asset-candidates.md",
+        "research/assets/upstream/CarConcept.glb",
+        "public/assets/models/product.glb",
+        "src/components/Configurator.tsx",
+        "src/lib/threeViewer.ts"
+      ],
+      "publicSummary": "Built the controlled research and web baseline under Sol; no output from this run is attributed to Astra.",
+      "scores": {
+        "provenance completeness": 3,
+        "reproducibility": 3,
+        "requirement completion": 2
+      }
+    }
+  ]
+}

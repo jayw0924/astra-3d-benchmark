@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/astra-3d/run.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "startedAt", "endedAt", "model", "provider", "interface", "reasoningMode", "tools", "workPackage", "inputAssets", "promptPath", "outputPaths", "provenance", "elapsedSeconds", "cost", "interventionLevel", "outcome", "failureNotes", "reviewer"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "title": { "type": "string", "minLength": 1 },
+    "startedAt": { "type": "string", "format": "date-time" },
+    "endedAt": { "type": "string", "format": "date-time" },
+    "model": { "type": "string", "minLength": 1 },
+    "provider": { "type": "string", "minLength": 1 },
+    "interface": { "type": "string", "minLength": 1 },
+    "reasoningMode": { "type": "string", "minLength": 1 },
+    "tools": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "workPackage": { "enum": ["inspect", "materials", "geometry", "render", "integrate", "baseline"] },
+    "inputAssets": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "promptPath": { "type": "string", "pattern": "^(?!/)(?!.*\\.\\.).+$" },
+    "outputPaths": { "type": "array", "items": { "type": "string", "pattern": "^(?!/)(?!.*\\.\\.).+$" }, "uniqueItems": true },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lane", "outputs"],
+      "properties": {
+        "lane": { "$ref": "#/$defs/provenanceLane" },
+        "outputs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["path", "lane", "sourceAssets"],
+            "properties": {
+              "path": { "type": "string", "pattern": "^(?!/)(?!.*\\.\\.).+$" },
+              "lane": { "$ref": "#/$defs/provenanceLane" },
+              "sourceAssets": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+            }
+          }
+        }
+      }
+    },
+    "sessionEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sessionId"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^(?!/)(?!.*\\.\\.).+$" },
+        "sessionId": { "type": "string", "minLength": 1 }
+      }
+    },
+    "elapsedSeconds": { "type": "number", "minimum": 0 },
+    "cost": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amount", "currency", "basis"],
+      "properties": {
+        "amount": { "type": ["number", "null"], "minimum": 0 },
+        "currency": { "type": "string", "minLength": 3 },
+        "basis": { "type": "string", "minLength": 1 }
+      }
+    },
+    "interventionLevel": { "type": "integer", "minimum": 0, "maximum": 4 },
+    "outcome": { "enum": ["pass", "pass_with_intervention", "partial", "fail", "blocked"] },
+    "failureNotes": { "type": "string" },
+    "reviewer": { "type": "string", "minLength": 1 },
+    "scores": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0, "maximum": 4 }
+    },
+    "publicSummary": { "type": "string" }
+  },
+  "$defs": {
+    "provenanceLane": {
+      "enum": ["sourced_baseline", "non_astra_authored_baseline", "astra_authored", "astra_orchestrated_external", "mixed"]
+    }
+  }
+}

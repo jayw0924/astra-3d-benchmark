@@ -1,0 +1,800 @@
+{
+  "source": {
+    "bytes": 10190148,
+    "sha256": "67b7986109c72f6fcc61745e4e2eef25833fbf5c43fa6ffc0f0cf4e9d9e91f41",
+    "counts": {
+      "nodes": 99,
+      "meshes": 95,
+      "primitives": 107,
+      "triangles": 213195,
+      "uploadVertices": 162646,
+      "renderVertices": 639585,
+      "materials": 28,
+      "textures": 14,
+      "images": 14
+    },
+    "bounds": {
+      "min": [
+        -1.271408303432173,
+        -0.00024107749495599906,
+        -1.940231204032898
+      ],
+      "max": [
+        1.2709126943182742,
+        1.1486550569534302,
+        2.4171547889709473
+      ],
+      "dimensions": [
+        2.5423209977504473,
+        1.1488961344483861,
+        4.357385993003845
+      ],
+      "unit": "metres (glTF convention)"
+    },
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_iridescence",
+      "KHR_materials_transmission",
+      "KHR_materials_variants",
+      "KHR_texture_basisu",
+      "KHR_texture_transform"
+    ],
+    "extensionsRequired": [
+      "KHR_texture_basisu"
+    ],
+    "variants": [
+      {
+        "name": "Carmine Candy",
+        "mappedPrimitives": 25
+      },
+      {
+        "name": "Pearly Swirly",
+        "mappedPrimitives": 25
+      },
+      {
+        "name": "Torched Graphite",
+        "mappedPrimitives": 25
+      }
+    ],
+    "absentNodes": [
+      "License Plate",
+      "InteriorSteeringEmblem"
+    ],
+    "texturePayloads": [
+      {
+        "image": 0,
+        "bytes": 226345,
+        "sha256": "341db23ec51698720db958677c27def788e8a7e297c7eb05d9f9677b3fbfd693"
+      },
+      {
+        "image": 1,
+        "bytes": 153752,
+        "sha256": "e38d981fe93ea6d0d95137a968b141e3919938addf4f1236b1fd6fe0e8b006d6"
+      },
+      {
+        "image": 2,
+        "bytes": 545443,
+        "sha256": "905008376f6701af044e11f15cbc35abad7fa92300b3be6e8c9346fa3a4926b0"
+      },
+      {
+        "image": 3,
+        "bytes": 7081,
+        "sha256": "627acc26f726e7539967cd27f7b9ca5f84c327e5408b870243b45a49c600e62e"
+      },
+      {
+        "image": 4,
+        "bytes": 2858,
+        "sha256": "5b1949805e65f218f4bddd0bcce889f45d195db4f8d33eb77244524d134b9ec1"
+      },
+      {
+        "image": 5,
+        "bytes": 622,
+        "sha256": "7bbd1d7776a087b48d3f7d50395d24840fd00dc5ab2622f8dce5685995df94d3"
+      },
+      {
+        "image": 6,
+        "bytes": 15812,
+        "sha256": "f9b0811444153459ca28d9211bf8cb6fbe97665071e6257b8c5b56b0edaef525"
+      },
+      {
+        "image": 7,
+        "bytes": 21698,
+        "sha256": "518dce1ade4f1d354ffd8d804bb01a899054af909eb70fe6655372e4414d4753"
+      },
+      {
+        "image": 8,
+        "bytes": 1374,
+        "sha256": "08968e9d7d9855ae8d201cfaea889e2748fc9049a95838aa18ce689d29c041ca"
+      },
+      {
+        "image": 9,
+        "bytes": 7011,
+        "sha256": "4a10cfb6134015d6897264fa7e52bc08acb41cd77b64f65726cb6716616b679e"
+      },
+      {
+        "image": 10,
+        "bytes": 7607,
+        "sha256": "d90617659d164fd126d08061cf962aecd43b6f73990ffa3874094a4f3e022935"
+      },
+      {
+        "image": 11,
+        "bytes": 316900,
+        "sha256": "a0379569aef88f88e7b43faf17c93469affbd4bfdd9c923e30136e40b4b451c1"
+      },
+      {
+        "image": 12,
+        "bytes": 53888,
+        "sha256": "4abedc34a3ecde5d14e232d2b3c8a59c42d55bab60ae854aaf11230dbc981f69"
+      },
+      {
+        "image": 13,
+        "bytes": 51521,
+        "sha256": "6cf5fefa01ce9817f207a72536717cc491f0f2534df236f05e92596546d20722"
+      }
+    ]
+  },
+  "candidate": {
+    "bytes": 10191212,
+    "sha256": "1eaba8fe0cbecfcf45a0ec83337979f6db1bb08ad98b6cef8de6d97e9ab790c3",
+    "counts": {
+      "nodes": 99,
+      "meshes": 95,
+      "primitives": 107,
+      "triangles": 213195,
+      "uploadVertices": 162646,
+      "renderVertices": 639585,
+      "materials": 29,
+      "textures": 14,
+      "images": 14
+    },
+    "bounds": {
+      "min": [
+        -1.271408303432173,
+        -0.00024107749495599906,
+        -1.940231204032898
+      ],
+      "max": [
+        1.2709126943182742,
+        1.1486550569534302,
+        2.4171547889709473
+      ],
+      "dimensions": [
+        2.5423209977504473,
+        1.1488961344483861,
+        4.357385993003845
+      ],
+      "unit": "metres (glTF convention)"
+    },
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_iridescence",
+      "KHR_materials_transmission",
+      "KHR_materials_variants",
+      "KHR_texture_basisu",
+      "KHR_texture_transform"
+    ],
+    "extensionsRequired": [
+      "KHR_texture_basisu"
+    ],
+    "variants": [
+      {
+        "name": "Carmine Candy",
+        "mappedPrimitives": 25
+      },
+      {
+        "name": "Pearly Swirly",
+        "mappedPrimitives": 25
+      },
+      {
+        "name": "Torched Graphite",
+        "mappedPrimitives": 25
+      },
+      {
+        "name": "Fjord Enamel",
+        "mappedPrimitives": 25
+      }
+    ],
+    "absentNodes": [
+      "License Plate",
+      "InteriorSteeringEmblem"
+    ],
+    "texturePayloads": [
+      {
+        "image": 0,
+        "bytes": 226345,
+        "sha256": "341db23ec51698720db958677c27def788e8a7e297c7eb05d9f9677b3fbfd693"
+      },
+      {
+        "image": 1,
+        "bytes": 153752,
+        "sha256": "e38d981fe93ea6d0d95137a968b141e3919938addf4f1236b1fd6fe0e8b006d6"
+      },
+      {
+        "image": 2,
+        "bytes": 545443,
+        "sha256": "905008376f6701af044e11f15cbc35abad7fa92300b3be6e8c9346fa3a4926b0"
+      },
+      {
+        "image": 3,
+        "bytes": 7081,
+        "sha256": "627acc26f726e7539967cd27f7b9ca5f84c327e5408b870243b45a49c600e62e"
+      },
+      {
+        "image": 4,
+        "bytes": 2858,
+        "sha256": "5b1949805e65f218f4bddd0bcce889f45d195db4f8d33eb77244524d134b9ec1"
+      },
+      {
+        "image": 5,
+        "bytes": 622,
+        "sha256": "7bbd1d7776a087b48d3f7d50395d24840fd00dc5ab2622f8dce5685995df94d3"
+      },
+      {
+        "image": 6,
+        "bytes": 15812,
+        "sha256": "f9b0811444153459ca28d9211bf8cb6fbe97665071e6257b8c5b56b0edaef525"
+      },
+      {
+        "image": 7,
+        "bytes": 21698,
+        "sha256": "518dce1ade4f1d354ffd8d804bb01a899054af909eb70fe6655372e4414d4753"
+      },
+      {
+        "image": 8,
+        "bytes": 1374,
+        "sha256": "08968e9d7d9855ae8d201cfaea889e2748fc9049a95838aa18ce689d29c041ca"
+      },
+      {
+        "image": 9,
+        "bytes": 7011,
+        "sha256": "4a10cfb6134015d6897264fa7e52bc08acb41cd77b64f65726cb6716616b679e"
+      },
+      {
+        "image": 10,
+        "bytes": 7607,
+        "sha256": "d90617659d164fd126d08061cf962aecd43b6f73990ffa3874094a4f3e022935"
+      },
+      {
+        "image": 11,
+        "bytes": 316900,
+        "sha256": "a0379569aef88f88e7b43faf17c93469affbd4bfdd9c923e30136e40b4b451c1"
+      },
+      {
+        "image": 12,
+        "bytes": 53888,
+        "sha256": "4abedc34a3ecde5d14e232d2b3c8a59c42d55bab60ae854aaf11230dbc981f69"
+      },
+      {
+        "image": 13,
+        "bytes": 51521,
+        "sha256": "6cf5fefa01ce9817f207a72536717cc491f0f2534df236f05e92596546d20722"
+      }
+    ]
+  },
+  "deterministic": {
+    "byteIdentical": true,
+    "firstSha256": "1eaba8fe0cbecfcf45a0ec83337979f6db1bb08ad98b6cef8de6d97e9ab790c3",
+    "secondSha256": "1eaba8fe0cbecfcf45a0ec83337979f6db1bb08ad98b6cef8de6d97e9ab790c3"
+  },
+  "comparison": {
+    "binByteIdentical": true,
+    "unchangedJsonAfterRemovingAdditions": true,
+    "unintendedDifferences": [],
+    "intendedDifferences": [
+      {
+        "path": "/materials/28",
+        "before": null,
+        "after": {
+          "name": "Fjord Enamel",
+          "doubleSided": true,
+          "alphaMode": "OPAQUE",
+          "pbrMetallicRoughness": {
+            "baseColorFactor": [
+              0.018,
+              0.105,
+              0.125,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.32
+          },
+          "extensions": {
+            "KHR_materials_clearcoat": {
+              "clearcoatFactor": 1,
+              "clearcoatRoughnessFactor": 0.12
+            }
+          }
+        }
+      },
+      {
+        "path": "/meshes/8/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/16/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/23/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/30/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/31/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/38/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/39/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/40/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/43/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/46/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/47/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/49/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/51/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/52/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/56/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/57/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/58/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/60/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/61/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/63/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/64/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 26,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/66/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/68/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/70/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/meshes/73/primitives/0/extensions/KHR_materials_variants/mappings/3",
+        "before": null,
+        "after": {
+          "material": 28,
+          "variants": [
+            3
+          ]
+        }
+      },
+      {
+        "path": "/extensions/KHR_materials_variants/variants/3",
+        "before": null,
+        "after": {
+          "name": "Fjord Enamel"
+        }
+      }
+    ],
+    "assignments": [
+      {
+        "mesh": 8,
+        "primitive": 0,
+        "nodes": [
+          "InteriorDashSides"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 16,
+        "primitive": 0,
+        "nodes": [
+          "InteriorSeatsColor1"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 23,
+        "primitive": 0,
+        "nodes": [
+          "InteriorSteeringWheel01"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 30,
+        "primitive": 0,
+        "nodes": [
+          "BodyRoofPanel"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 31,
+        "primitive": 0,
+        "nodes": [
+          "BodyRearPanelsColor1"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 38,
+        "primitive": 0,
+        "nodes": [
+          "BodyPillars"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 39,
+        "primitive": 0,
+        "nodes": [
+          "BodyPanelsColor2"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 40,
+        "primitive": 0,
+        "nodes": [
+          "BodyHood"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 43,
+        "primitive": 0,
+        "nodes": [
+          "BodyHoodTopgrill"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 46,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorRColor1"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 47,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorRColor2"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 49,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorRHandle02"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 51,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorRMirrorColor1"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 52,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorRMirrorColor2"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 56,
+        "primitive": 0,
+        "nodes": [
+          "InteriorDoorR03"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 57,
+        "primitive": 0,
+        "nodes": [
+          "InteriorDoorR04"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 58,
+        "primitive": 0,
+        "nodes": [
+          "InteriorDoorR05"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 60,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorLColor1"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 61,
+        "primitive": 0,
+        "nodes": [
+          "InteriorDoorL04"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 63,
+        "primitive": 0,
+        "nodes": [
+          "InteriorDoorL03"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 64,
+        "primitive": 0,
+        "nodes": [
+          "InteriorDoorL05"
+        ],
+        "material": 26,
+        "materialName": "Interior 3 Graphite"
+      },
+      {
+        "mesh": 66,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorLColor2"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 68,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorLHandle02"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 70,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorLMirrorColor1"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      },
+      {
+        "mesh": 73,
+        "primitive": 0,
+        "nodes": [
+          "BodyDoorLMirrorColor2"
+        ],
+        "material": 28,
+        "materialName": "Fjord Enamel"
+      }
+    ],
+    "byteDelta": 1064,
+    "jsonSerialization": "JSON.stringify compact encoding and space padding; header lengths updated; no semantic normalization outside intended additions"
+  },
+  "independentLibraryRead": "glTF Transform NodeIO succeeded; not a Khronos validator certification"
+}

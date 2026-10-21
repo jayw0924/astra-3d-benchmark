@@ -1,0 +1,164 @@
+{
+  "id": "2026-10-20-astra-material-estuary-49b949",
+  "title": "Estuary Enamel \u2014 isolated material-authoring candidate",
+  "startedAt": "2026-10-20T23:18:53.988048+00:00",
+  "endedAt": "2026-10-20T23:27:56.894495+00:00",
+  "model": "gpt-6-astra",
+  "provider": "openai-codex",
+  "interface": "Hermes TUI; Docker terminal backend",
+  "reasoningMode": "Not exposed by runtime; not inferred",
+  "tools": [
+    "terminal",
+    "read_file",
+    "write_file",
+    "patch",
+    "skill_view",
+    "Node.js",
+    "Python",
+    "Three.js",
+    "glTF Transform NodeIO and CLI",
+    "Ajv"
+  ],
+  "workPackage": "materials",
+  "inputAssets": [
+    "web-product"
+  ],
+  "promptPath": "research/runs/2026-10-20-astra-material-estuary-49b949/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-20-astra-material-estuary-49b949/author-material.mjs",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/candidate.glb",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/commands.jsonl",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/environment.json",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/inspect-candidate.mjs",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/inventory.json",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/notes.md",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/prompt.md",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/protected-before.json",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/protected-verification.json",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/run.json",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/study-data.json",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/verification.json",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/material.test.mjs",
+    "research/runs/2026-10-20-astra-material-estuary-49b949/session-evidence.sha256"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/author-material.mjs",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/candidate.glb",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/commands.jsonl",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/environment.json",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/inspect-candidate.mjs",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/inventory.json",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/notes.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/protected-before.json",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/protected-verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/run.json",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/study-data.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/material.test.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/session-evidence.sha256",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "sessionEvidence": {
+    "path": "research/runs/2026-10-20-astra-material-estuary-49b949/session.jsonl",
+    "sessionId": "20261020_161843_49b949"
+  },
+  "elapsedSeconds": 542.906447,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Hermes export reports subscription_included and cost_status included; token counts are available, estimated cost is 0 under the subscription, and actual charged cost is unavailable (null). No external generator was used."
+  },
+  "interventionLevel": 0,
+  "outcome": "partial",
+  "failureNotes": "Technical material candidate and deterministic checks passed. Visual appearance, browser behavior, and runtime performance remain unmeasured pending a controlled blind A/B render. Blender and a dedicated Khronos validator were unavailable. Earlier infrastructure/preflight failures remain preserved in the private transcript and historical command log.",
+  "reviewer": "Astra technical self-review; independent fail-closed Sol re-review passed the technical package; visual and runtime review pending",
+  "publicSummary": "Evidence-verified Astra material run produced deterministic Estuary Enamel: a two-tone dielectric clearcoat candidate preserving all source geometry, textures, supplied variants, and complete history-independent mapping coverage. No visual-quality or runtime-performance claim is made."
+}

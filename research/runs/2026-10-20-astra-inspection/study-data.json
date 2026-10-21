@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "summary": {
+    "runCount": 2,
+    "astraRunCount": 1,
+    "completedAstraRuns": 1
+  },
+  "runs": [
+    {
+      "id": "2026-10-20-astra-inspection",
+      "title": "Verified read-only CarConcept inspection",
+      "startedAt": "2026-10-20T22:55:57+00:00",
+      "model": "gpt-6-astra",
+      "provider": "openai-codex",
+      "tools": [
+        "terminal",
+        "read_file",
+        "search_files",
+        "write_file",
+        "execute_code",
+        "skill_view",
+        "tool_describe",
+        "tool_call/session_search",
+        "Node.js 26.10.0",
+        "Python 3.13.15",
+        "glTF Transform 4.5.1",
+        "Three.js 0.186.1"
+      ],
+      "workPackage": "inspect",
+      "interventionLevel": 0,
+      "outcome": "pass",
+      "failureNotes": "Earlier missing-workspace attempts are excluded infrastructure preflights, not Astra capability failures. Blender and a dedicated Khronos validator were unavailable; no Blender validation, visual-quality judgment, rendering, full conformance certification, or runtime performance measurement is claimed. The private redacted session export is locally validated and intentionally excluded from publication; its SHA-256 is published instead.",
+      "outputPaths": [
+        "research/runs/2026-10-20-astra-inspection/prompt.md",
+        "research/runs/2026-10-20-astra-inspection/notes.md",
+        "research/runs/2026-10-20-astra-inspection/inspect.mjs",
+        "research/runs/2026-10-20-astra-inspection/inventory.json",
+        "research/runs/2026-10-20-astra-inspection/environment.json",
+        "research/runs/2026-10-20-astra-inspection/asset-inspect.txt",
+        "research/runs/2026-10-20-astra-inspection/independent-inspect.txt",
+        "research/runs/2026-10-20-astra-inspection/capture-evidence.py",
+        "research/runs/2026-10-20-astra-inspection/protected-before.json",
+        "research/runs/2026-10-20-astra-inspection/research-validate.txt",
+        "research/runs/2026-10-20-astra-inspection/research-build.txt",
+        "research/runs/2026-10-20-astra-inspection/study-data.json",
+        "research/runs/2026-10-20-astra-inspection/verification.json",
+        "research/runs/2026-10-20-astra-inspection/session-evidence.sha256",
+        "research/runs/2026-10-20-astra-inspection/run.json"
+      ],
+      "publicSummary": "Verified Astra inspection reproduced the baseline inventory and deterministic sanitized GLB, identified interior-changing variants and non-original runtime rim restoration, and made no model or application source edits. Post-review integration updated only generated study data and the transcript privacy ignore rule.",
+      "scores": {}
+    },
+    {
+      "id": "2026-10-20-sol-baseline-setup",
+      "title": "Non-Astra benchmark infrastructure baseline",
+      "startedAt": "2026-10-20T20:38:33Z",
+      "model": "gpt-5.6-sol",
+      "provider": "openai-codex",
+      "tools": [
+        "terminal",
+        "file",
+        "web-search",
+        "delegation"
+      ],
+      "workPackage": "baseline",
+      "interventionLevel": 0,
+      "outcome": "partial",
+      "failureNotes": "This was intentionally excluded from Astra scoring. Blender was unavailable in the Docker backend and the host Astra session could not be invoked from inside the container.",
+      "outputPaths": [
+        "research/protocol.md",
+        "research/asset-candidates.md",
+        "research/assets/upstream/CarConcept.glb",
+        "public/assets/models/product.glb",
+        "src/components/Configurator.tsx",
+        "src/lib/threeViewer.ts"
+      ],
+      "publicSummary": "Built the controlled research and web baseline under Sol; no output from this run is attributed to Astra.",
+      "scores": {
+        "provenance completeness": 3,
+        "reproducibility": 3,
+        "requirement completion": 2
+      }
+    }
+  ]
+}

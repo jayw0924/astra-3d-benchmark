@@ -1,0 +1,170 @@
+{
+  "id": "2026-10-20-astra-material-fjord-ef457b",
+  "title": "Fjord Enamel \u2014 isolated automotive material candidate",
+  "startedAt": "2026-10-20T23:29:52.347998+00:00",
+  "endedAt": "2026-10-20T23:42:51.151837+00:00",
+  "model": "gpt-6-astra",
+  "provider": "openai-codex",
+  "interface": "Hermes TUI; Docker terminal backend",
+  "reasoningMode": "Not exposed by runtime",
+  "tools": [
+    "Hermes skill_view",
+    "Hermes read_file",
+    "Hermes write_file",
+    "Hermes patch",
+    "Hermes terminal",
+    "Hermes parallel tool wrapper",
+    "Node.js v26.10.0",
+    "npm 11.19.1",
+    "Python 3.13.15",
+    "glTF Transform 4.5.1",
+    "Three.js 0.186.1",
+    "Ajv 8.20.0"
+  ],
+  "workPackage": "materials",
+  "inputAssets": [
+    "web-product"
+  ],
+  "promptPath": "research/runs/2026-10-20-astra-material-fjord-ef457b/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/prompt.md",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/notes.md",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/author-material.mjs",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/review.mjs",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/material.test.mjs",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/candidate.glb",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/candidate-repeat.glb",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/inventory.json",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/commands.jsonl",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/protected-before.json",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/protected-verification.json",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/validation.json",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/study-data.json",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/run.json",
+    "research/runs/2026-10-20-astra-material-fjord-ef457b/session-evidence.sha256"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/notes.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/author-material.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/review.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/material.test.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/candidate.glb",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/candidate-repeat.glb",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/inventory.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/commands.jsonl",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/protected-before.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/protected-verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/validation.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/study-data.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/run.json",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/session-evidence.sha256",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "sessionEvidence": {
+    "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/session.jsonl",
+    "sessionId": "20261020_162838_ef457b"
+  },
+  "elapsedSeconds": 778.803839,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Hermes export reports subscription_included and cost_status included; token counts are available, estimated cost is 0 under the subscription, and actual charged cost is unavailable (null). No external generator was used."
+  },
+  "interventionLevel": 0,
+  "outcome": "partial",
+  "failureNotes": "Technical material candidate and deterministic checks passed. Visual appearance, browser behavior, and runtime performance remain unmeasured pending a controlled blind A/B render. Blender and a dedicated Khronos validator were unavailable. Earlier infrastructure/preflight failures remain preserved in the private transcript and historical command log.",
+  "reviewer": "Astra technical self-review; independent fail-closed Sol re-review passed the technical package; visual and runtime review pending",
+  "publicSummary": "Evidence-verified Astra material run produced deterministic Fjord Enamel: a monochrome dielectric clearcoat candidate preserving all source geometry, textures, supplied variants, and complete history-independent mapping coverage. No visual-quality or runtime-performance claim is made."
+}

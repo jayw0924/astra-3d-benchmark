@@ -1,0 +1,169 @@
+{
+  "id": "2026-10-20-astra-inspection",
+  "title": "Verified read-only CarConcept inspection",
+  "startedAt": "2026-10-20T22:55:57+00:00",
+  "endedAt": "2026-10-20T23:05:42+00:00",
+  "model": "gpt-6-astra",
+  "provider": "openai-codex",
+  "interface": "Hermes TUI with Docker terminal backend",
+  "reasoningMode": "not exposed by interface",
+  "tools": [
+    "terminal",
+    "read_file",
+    "search_files",
+    "write_file",
+    "execute_code",
+    "skill_view",
+    "tool_describe",
+    "tool_call/session_search",
+    "Node.js 26.10.0",
+    "Python 3.13.15",
+    "glTF Transform 4.5.1",
+    "Three.js 0.186.1"
+  ],
+  "workPackage": "inspect",
+  "inputAssets": [
+    "primary-product",
+    "web-product"
+  ],
+  "promptPath": "research/runs/2026-10-20-astra-inspection/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-20-astra-inspection/prompt.md",
+    "research/runs/2026-10-20-astra-inspection/notes.md",
+    "research/runs/2026-10-20-astra-inspection/inspect.mjs",
+    "research/runs/2026-10-20-astra-inspection/inventory.json",
+    "research/runs/2026-10-20-astra-inspection/environment.json",
+    "research/runs/2026-10-20-astra-inspection/asset-inspect.txt",
+    "research/runs/2026-10-20-astra-inspection/independent-inspect.txt",
+    "research/runs/2026-10-20-astra-inspection/capture-evidence.py",
+    "research/runs/2026-10-20-astra-inspection/protected-before.json",
+    "research/runs/2026-10-20-astra-inspection/research-validate.txt",
+    "research/runs/2026-10-20-astra-inspection/research-build.txt",
+    "research/runs/2026-10-20-astra-inspection/study-data.json",
+    "research/runs/2026-10-20-astra-inspection/verification.json",
+    "research/runs/2026-10-20-astra-inspection/session-evidence.sha256",
+    "research/runs/2026-10-20-astra-inspection/run.json"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/prompt.md",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/notes.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/inspect.mjs",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/inventory.json",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/environment.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/asset-inspect.txt",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/independent-inspect.txt",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/capture-evidence.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/protected-before.json",
+        "lane": "astra_authored",
+        "sourceAssets": [
+          "primary-product",
+          "web-product"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/research-validate.txt",
+        "lane": "mixed",
+        "sourceAssets": ["primary-product", "web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/research-build.txt",
+        "lane": "mixed",
+        "sourceAssets": ["primary-product", "web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/study-data.json",
+        "lane": "mixed",
+        "sourceAssets": ["primary-product", "web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/verification.json",
+        "lane": "mixed",
+        "sourceAssets": ["primary-product", "web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/session-evidence.sha256",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/run.json",
+        "lane": "mixed",
+        "sourceAssets": ["primary-product", "web-product"]
+      }
+    ]
+  },
+  "elapsedSeconds": 585,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Not exposed by interface; no price/token estimate invented."
+  },
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "Earlier missing-workspace attempts are excluded infrastructure preflights, not Astra capability failures. Blender and a dedicated Khronos validator were unavailable; no Blender validation, visual-quality judgment, rendering, full conformance certification, or runtime performance measurement is claimed. The private redacted session export is locally validated and intentionally excluded from publication; its SHA-256 is published instead.",
+  "sessionEvidence": {
+    "path": "research/runs/2026-10-20-astra-inspection/session.jsonl",
+    "sessionId": "20261020_155206_63fb07"
+  },
+  "reviewer": "Astra self-review; independent fail-closed Sol review passed",
+  "publicSummary": "Verified Astra inspection reproduced the baseline inventory and deterministic sanitized GLB, identified interior-changing variants and non-original runtime rim restoration, and made no model or application source edits. Post-review integration updated only generated study data and the transcript privacy ignore rule."
+}

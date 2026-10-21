@@ -1,0 +1,5 @@
+
+> astra-3d-benchmark@0.1.0 research:validate
+> node scripts/validate-research.mjs
+
+Research validation passed: 2 assets, 2 runs

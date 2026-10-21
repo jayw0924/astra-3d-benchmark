@@ -1,0 +1,217 @@
+{
+  "protocolVersion": 1,
+  "measurements": [
+    {
+      "label": "A",
+      "candidateId": "estuary-enamel-candidate",
+      "candidateSha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f",
+      "modelUrl": "/research/runs/2026-10-20-astra-material-estuary-49b949/candidate.glb",
+      "candidateVariant": "Estuary Enamel",
+      "lighting": "viewer",
+      "renderer": "WebGL2",
+      "resolution": {
+        "width": 600,
+        "height": 400,
+        "devicePixelRatio": 1
+      },
+      "colorManagement": {
+        "outputColorSpace": "SRGBColorSpace",
+        "toneMapping": "ACESFilmicToneMapping",
+        "exposure": 1.05
+      },
+      "modelLoadMs": 1377.3999998569489,
+      "coldMaterialCompileMs": 21.200000047683716,
+      "frameTimingMs": {
+        "samples": 15,
+        "median": 16.700000047683716,
+        "p95": 97.90000009536743
+      },
+      "transitions": [
+        {
+          "source": "Carmine Candy",
+          "target": "Estuary Enamel",
+          "durationMs": 32.299999952316284,
+          "assignments": 25
+        },
+        {
+          "source": "Pearly Swirly",
+          "target": "Estuary Enamel",
+          "durationMs": 72.79999995231628,
+          "assignments": 25
+        },
+        {
+          "source": "Torched Graphite",
+          "target": "Estuary Enamel",
+          "durationMs": 2.8999998569488525,
+          "assignments": 25
+        }
+      ],
+      "rendererInfo": {
+        "calls": 216,
+        "triangles": 426390,
+        "geometries": 108,
+        "textures": 16,
+        "programs": 30
+      }
+    },
+    {
+      "label": "A",
+      "candidateId": "estuary-enamel-candidate",
+      "candidateSha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f",
+      "modelUrl": "/research/runs/2026-10-20-astra-material-estuary-49b949/candidate.glb",
+      "candidateVariant": "Estuary Enamel",
+      "lighting": "neutral",
+      "renderer": "WebGL2",
+      "resolution": {
+        "width": 600,
+        "height": 400,
+        "devicePixelRatio": 1
+      },
+      "colorManagement": {
+        "outputColorSpace": "SRGBColorSpace",
+        "toneMapping": "ACESFilmicToneMapping",
+        "exposure": 1.05
+      },
+      "modelLoadMs": 16745,
+      "coldMaterialCompileMs": 17.299999952316284,
+      "frameTimingMs": {
+        "samples": 15,
+        "median": 92.5,
+        "p95": 100
+      },
+      "transitions": [
+        {
+          "source": "Carmine Candy",
+          "target": "Estuary Enamel",
+          "durationMs": 74.59999990463257,
+          "assignments": 25
+        },
+        {
+          "source": "Pearly Swirly",
+          "target": "Estuary Enamel",
+          "durationMs": 3,
+          "assignments": 25
+        },
+        {
+          "source": "Torched Graphite",
+          "target": "Estuary Enamel",
+          "durationMs": 3,
+          "assignments": 25
+        }
+      ],
+      "rendererInfo": {
+        "calls": 214,
+        "triangles": 426390,
+        "geometries": 108,
+        "textures": 17,
+        "programs": 31
+      }
+    },
+    {
+      "label": "B",
+      "candidateId": "fjord-enamel-candidate",
+      "candidateSha256": "1eaba8fe0cbecfcf45a0ec83337979f6db1bb08ad98b6cef8de6d97e9ab790c3",
+      "modelUrl": "/research/runs/2026-10-20-astra-material-fjord-ef457b/candidate.glb",
+      "candidateVariant": "Fjord Enamel",
+      "lighting": "viewer",
+      "renderer": "WebGL2",
+      "resolution": {
+        "width": 600,
+        "height": 400,
+        "devicePixelRatio": 1
+      },
+      "colorManagement": {
+        "outputColorSpace": "SRGBColorSpace",
+        "toneMapping": "ACESFilmicToneMapping",
+        "exposure": 1.05
+      },
+      "modelLoadMs": 1494.2000000476837,
+      "coldMaterialCompileMs": 18.700000047683716,
+      "frameTimingMs": {
+        "samples": 15,
+        "median": 16.700000047683716,
+        "p95": 74.70000004768372
+      },
+      "transitions": [
+        {
+          "source": "Carmine Candy",
+          "target": "Fjord Enamel",
+          "durationMs": 198.20000004768372,
+          "assignments": 25
+        },
+        {
+          "source": "Pearly Swirly",
+          "target": "Fjord Enamel",
+          "durationMs": 3,
+          "assignments": 25
+        },
+        {
+          "source": "Torched Graphite",
+          "target": "Fjord Enamel",
+          "durationMs": 3.700000047683716,
+          "assignments": 25
+        }
+      ],
+      "rendererInfo": {
+        "calls": 216,
+        "triangles": 426390,
+        "geometries": 108,
+        "textures": 16,
+        "programs": 30
+      }
+    },
+    {
+      "label": "B",
+      "candidateId": "fjord-enamel-candidate",
+      "candidateSha256": "1eaba8fe0cbecfcf45a0ec83337979f6db1bb08ad98b6cef8de6d97e9ab790c3",
+      "modelUrl": "/research/runs/2026-10-20-astra-material-fjord-ef457b/candidate.glb",
+      "candidateVariant": "Fjord Enamel",
+      "lighting": "neutral",
+      "renderer": "WebGL2",
+      "resolution": {
+        "width": 600,
+        "height": 400,
+        "devicePixelRatio": 1
+      },
+      "colorManagement": {
+        "outputColorSpace": "SRGBColorSpace",
+        "toneMapping": "ACESFilmicToneMapping",
+        "exposure": 1.05
+      },
+      "modelLoadMs": 16135.700000047684,
+      "coldMaterialCompileMs": 16.299999952316284,
+      "frameTimingMs": {
+        "samples": 15,
+        "median": 16.700000047683716,
+        "p95": 102.60000014305115
+      },
+      "transitions": [
+        {
+          "source": "Carmine Candy",
+          "target": "Fjord Enamel",
+          "durationMs": 111.59999990463257,
+          "assignments": 25
+        },
+        {
+          "source": "Pearly Swirly",
+          "target": "Fjord Enamel",
+          "durationMs": 3.299999952316284,
+          "assignments": 25
+        },
+        {
+          "source": "Torched Graphite",
+          "target": "Fjord Enamel",
+          "durationMs": 4.400000095367432,
+          "assignments": 25
+        }
+      ],
+      "rendererInfo": {
+        "calls": 214,
+        "triangles": 426390,
+        "geometries": 108,
+        "textures": 17,
+        "programs": 31
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+prune: Removed types... Mesh (2), Primitive (2), TextureInfo (5), Material (1), Accessor (10)
+{
+  "path": "research/assets/upstream/CarConcept.glb",
+  "counts": {
+    "scenes": 1,
+    "nodes": 101,
+    "reachableNodes": 101,
+    "meshes": 97,
+    "primitives": 109,
+    "materials": 29,
+    "textures": 15,
+    "images": 14,
+    "cameras": 0,
+    "animations": 0,
+    "skins": 0,
+    "triangles": 213347,
+    "renderVertices": 640041,
+    "uploadVertices": 162766
+  },
+  "bounds": {
+    "method": "Decode all POSITION float32 values and apply full scene world matrices; axis-aligned bounds, glTF metres",
+    "min": [
+      -1.2714082962213737,
+      -0.0002410734226865885,
+      -1.940231204032898
+    ],
+    "max": [
+      1.2709126943464768,
+      1.1486550569534302,
+      2.4171547889709473
+    ],
+    "dimensions": [
+      2.5423209905678505,
+      1.1488961303761167,
+      4.357385993003845
+    ]
+  },
+  "variants": [
+    {
+      "name": "Carmine Candy"
+    },
+    {
+      "name": "Pearly Swirly"
+    },
+    {
+      "name": "Torched Graphite"
+    }
+  ],
+  "images": [
+    [
+      512,
+      512
+    ],
+    [
+      512,
+      512
+    ],
+    [
+      2048,
+      2048
+    ],
+    [
+      512,
+      128
+    ],
+    [
+      64,
+      32
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      1024,
+      256
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      1024,
+      1024
+    ],
+    [
+      1024,
+      1024
+    ],
+    [
+      512,
+      128
+    ],
+    [
+      512,
+      512
+    ]
+  ]
+}
+{
+  "path": "public/assets/models/product.glb",
+  "counts": {
+    "scenes": 1,
+    "nodes": 99,
+    "reachableNodes": 99,
+    "meshes": 95,
+    "primitives": 107,
+    "materials": 28,
+    "textures": 14,
+    "images": 14,
+    "cameras": 0,
+    "animations": 0,
+    "skins": 0,
+    "triangles": 213195,
+    "renderVertices": 639585,
+    "uploadVertices": 162646
+  },
+  "bounds": {
+    "method": "Decode all POSITION float32 values and apply full scene world matrices; axis-aligned bounds, glTF metres",
+    "min": [
+      -1.271408303432173,
+      -0.00024107749495599906,
+      -1.940231204032898
+    ],
+    "max": [
+      1.2709126943182742,
+      1.1486550569534302,
+      2.4171547889709473
+    ],
+    "dimensions": [
+      2.5423209977504473,
+      1.1488961344483861,
+      4.357385993003845
+    ]
+  },
+  "variants": [
+    {
+      "name": "Carmine Candy"
+    },
+    {
+      "name": "Pearly Swirly"
+    },
+    {
+      "name": "Torched Graphite"
+    }
+  ],
+  "images": [
+    [
+      512,
+      512
+    ],
+    [
+      512,
+      512
+    ],
+    [
+      2048,
+      2048
+    ],
+    [
+      512,
+      128
+    ],
+    [
+      64,
+      32
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      1024,
+      256
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      1024,
+      1024
+    ],
+    [
+      1024,
+      1024
+    ],
+    [
+      512,
+      128
+    ],
+    [
+      512,
+      512
+    ]
+  ]
+}
+{
+  "method": "Same sanitizer operations in memory; no model files written",
+  "removed": [
+    "InteriorSteeringEmblem",
+    "License Plate"
+  ],
+  "regeneratedSha256": "67b7986109c72f6fcc61745e4e2eef25833fbf5c43fa6ffc0f0cf4e9d9e91f41",
+  "byteIdenticalToServed": true
+}

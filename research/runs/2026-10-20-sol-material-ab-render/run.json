@@ -1,0 +1,695 @@
+{
+  "id": "2026-10-20-sol-material-ab-render",
+  "title": "Controlled blind Estuary versus Fjord browser render comparison",
+  "startedAt": "2026-10-21T00:21:34+00:00",
+  "endedAt": "2026-10-21T02:17:11+00:00",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop with Docker terminal backend",
+  "reasoningMode": "not exposed by interface",
+  "tools": [
+    "terminal",
+    "file",
+    "vision"
+  ],
+  "workPackage": "render",
+  "inputAssets": [
+    "estuary-enamel-candidate",
+    "fjord-enamel-candidate"
+  ],
+  "promptPath": "research/runs/2026-10-20-sol-material-ab-render/prompt.md",
+  "outputPaths": [
+    "package.json",
+    "research/asset-manifest.json",
+    "research/runs/2026-10-20-sol-material-ab-render/blind-decision.json",
+    "research/runs/2026-10-20-sol-material-ab-render/blind-handoff.mjs",
+    "research/runs/2026-10-20-sol-material-ab-render/blind-handoff.test.mjs",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/index.html",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-01.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-02.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-03.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-04.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-05.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-06.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-07.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-08.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-09.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--viewer--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--viewer--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--viewer--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-01.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-02.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-03.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-04.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-05.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-06.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-07.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-08.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-09.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--viewer--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--viewer--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--viewer--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/capture.mjs",
+    "research/runs/2026-10-20-sol-material-ab-render/metrics.json",
+    "research/runs/2026-10-20-sol-material-ab-render/notes.md",
+    "research/runs/2026-10-20-sol-material-ab-render/prompt.md",
+    "research/runs/2026-10-20-sol-material-ab-render/render-camera.js",
+    "research/runs/2026-10-20-sol-material-ab-render/render-camera.test.mjs",
+    "research/runs/2026-10-20-sol-material-ab-render/render-manifest.json",
+    "research/runs/2026-10-20-sol-material-ab-render/render-page.html",
+    "research/runs/2026-10-20-sol-material-ab-render/render-page.js",
+    "research/runs/2026-10-20-sol-material-ab-render/render-plan.mjs",
+    "research/runs/2026-10-20-sol-material-ab-render/render-plan.test.mjs",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-01.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-02.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-03.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-04.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-05.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-06.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-07.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-08.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-09.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--viewer--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--viewer--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/A--viewer--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-01.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-02.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-03.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-04.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-05.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-06.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-07.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-08.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-09.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--viewer--front-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--viewer--rear-three-quarter.png",
+    "research/runs/2026-10-20-sol-material-ab-render/rendered/B--viewer--side.png",
+    "research/runs/2026-10-20-sol-material-ab-render/reveal.json",
+    "research/runs/2026-10-20-sol-material-ab-render/run.json",
+    "src/generated/study-data.json"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {
+        "path": "package.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/asset-manifest.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product",
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind-decision.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind-handoff.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind-handoff.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/index.html",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-01.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-02.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-03.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-04.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-05.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-06.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-07.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-08.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--closeup-09.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--neutral--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--viewer--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--viewer--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/A--viewer--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-01.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-02.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-03.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-04.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-05.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-06.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-07.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-08.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--closeup-09.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--neutral--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--viewer--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--viewer--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/blind/rendered/B--viewer--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/metrics.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/notes.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/render-camera.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/render-camera.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/render-manifest.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/render-page.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/render-page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/render-plan.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/render-plan.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-01.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-02.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-03.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-04.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-05.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-06.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-07.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-08.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--closeup-09.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--neutral--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--viewer--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--viewer--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/A--viewer--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-01.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-02.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-03.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-04.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-05.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-06.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-07.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-08.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--closeup-09.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--neutral--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--viewer--front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--viewer--rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/rendered/B--viewer--side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/reveal.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-material-ab-render/run.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      },
+      {
+        "path": "src/generated/study-data.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "estuary-enamel-candidate",
+          "fjord-enamel-candidate"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 6937,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "not exposed by interface; no external image, 3D, or HDRI generator used"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "Completed after documented remediation: fixed 600x400 resolution replaced an impractical 1200x800 SwiftShader readback; misframed close-ups were repaired with regression coverage; the reviewer handoff was isolated from identity-bearing evidence; and cold candidate-material compilation replaced a warmed compile-call metric. Software-renderer timing remains diagnostic and too noisy for candidate performance ranking. Blender remained unavailable.",
+  "reviewer": "Independent fail-closed technical review passed; Jay completed the human blind review before reveal",
+  "publicSummary": "Produced and independently verified 30 controlled blind WebGL2 comparison renders for two evidence-verified Astra material candidates. Jay recorded a slight blind preference for Candidate A, revealed afterward as Estuary Enamel; no production-GPU performance advantage is claimed."
+}

@@ -1,0 +1,5 @@
+
+> astra-3d-benchmark@0.1.0 research:build
+> node scripts/build-study-data.mjs --output research/runs/2026-10-20-astra-inspection/study-data.json
+
+Generated research/runs/2026-10-20-astra-inspection/study-data.json from 2 runs

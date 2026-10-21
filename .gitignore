@@ -1,0 +1,14 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+.DS_Store
+work/
+.cache/
+*.tsbuildinfo
+
+# Private local model-attribution evidence; publish hashes, not transcripts.
+research/runs/**/session.jsonl
