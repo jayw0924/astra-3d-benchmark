@@ -1,0 +1,488 @@
+[
+  {
+    "target": "front-three-quarter",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 3318,
+    "maxChannelDelta": 105,
+    "meanAbsoluteChannelDelta": 0.04845833333333333,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "front-three-quarter",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 3483,
+    "maxChannelDelta": 143,
+    "meanAbsoluteChannelDelta": 0.053040277777777776,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "front-three-quarter",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 36,
+    "maxChannelDelta": 144,
+    "meanAbsoluteChannelDelta": 0.008815277777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "front-three-quarter",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 36,
+    "maxChannelDelta": 144,
+    "meanAbsoluteChannelDelta": 0.008815277777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "front-three-quarter",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 2,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.00038055555555555553,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "front-three-quarter",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 2,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.00038055555555555553,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "side",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 4951,
+    "maxChannelDelta": 106,
+    "meanAbsoluteChannelDelta": 0.07616388888888889,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "side",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 5317,
+    "maxChannelDelta": 106,
+    "meanAbsoluteChannelDelta": 0.08686666666666666,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "side",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 193,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.04650694444444444,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "side",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 193,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.04650694444444444,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "side",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 6,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0011305555555555557,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "side",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 6,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0011305555555555557,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "rear-three-quarter",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 4786,
+    "maxChannelDelta": 196,
+    "meanAbsoluteChannelDelta": 0.13125694444444444,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "rear-three-quarter",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 5090,
+    "maxChannelDelta": 218,
+    "meanAbsoluteChannelDelta": 0.1428097222222222,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "rear-three-quarter",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 122,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.02667777777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "rear-three-quarter",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 122,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.02667777777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "rear-three-quarter",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 4,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0007527777777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "rear-three-quarter",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 4,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0007527777777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wheel-brake",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 13360,
+    "maxChannelDelta": 144,
+    "meanAbsoluteChannelDelta": 0.5215458333333334,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wheel-brake",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 15464,
+    "maxChannelDelta": 180,
+    "meanAbsoluteChannelDelta": 0.6248041666666667,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wheel-brake",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 2682,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.7226416666666666,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wheel-brake",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 2682,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.7226416666666666,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wheel-brake",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 1,
+    "maxChannelDelta": 49,
+    "meanAbsoluteChannelDelta": 0.0001875,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wheel-brake",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 1,
+    "maxChannelDelta": 49,
+    "meanAbsoluteChannelDelta": 0.0001875,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "mirror-window",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 11998,
+    "maxChannelDelta": 145,
+    "meanAbsoluteChannelDelta": 0.12683194444444446,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "mirror-window",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 16544,
+    "maxChannelDelta": 178,
+    "meanAbsoluteChannelDelta": 0.2127,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "mirror-window",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 1512,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.5249402777777777,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "mirror-window",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 1512,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 0.5249402777777777,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "mirror-window",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 3,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0005652777777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "mirror-window",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 3,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0005652777777777778,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wipers",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 15736,
+    "maxChannelDelta": 54,
+    "meanAbsoluteChannelDelta": 0.1436388888888889,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wipers",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 16075,
+    "maxChannelDelta": 128,
+    "meanAbsoluteChannelDelta": 0.14848194444444446,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wipers",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 12,
+    "maxChannelDelta": 96,
+    "meanAbsoluteChannelDelta": 0.002236111111111111,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wipers",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 12,
+    "maxChannelDelta": 96,
+    "meanAbsoluteChannelDelta": 0.002236111111111111,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wipers",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 2,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.00037777777777777777,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "wipers",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 2,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.00037777777777777777,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "panel-seams",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 12490,
+    "maxChannelDelta": 184,
+    "meanAbsoluteChannelDelta": 0.1506763888888889,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "panel-seams",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 15775,
+    "maxChannelDelta": 231,
+    "meanAbsoluteChannelDelta": 0.23351388888888888,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "panel-seams",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 5856,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 1.8095305555555556,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "panel-seams",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 5856,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 1.8095305555555556,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "panel-seams",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 7,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0013291666666666666,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "panel-seams",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 7,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0013291666666666666,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "interior",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 15526,
+    "maxChannelDelta": 107,
+    "meanAbsoluteChannelDelta": 0.18248472222222223,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "interior",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 16518,
+    "maxChannelDelta": 140,
+    "meanAbsoluteChannelDelta": 0.20347916666666666,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "interior",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 9282,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 3.0629458333333335,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "interior",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 9282,
+    "maxChannelDelta": 191,
+    "meanAbsoluteChannelDelta": 3.0629458333333335,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "interior",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 5,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0009458333333333334,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "interior",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 5,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0009458333333333334,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "glass-edge",
+    "variant": "Estuary Enamel",
+    "mode": "shaded",
+    "changedPixels": 9693,
+    "maxChannelDelta": 69,
+    "meanAbsoluteChannelDelta": 0.0932,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "glass-edge",
+    "variant": "Carmine Candy",
+    "mode": "shaded",
+    "changedPixels": 10636,
+    "maxChannelDelta": 111,
+    "meanAbsoluteChannelDelta": 0.11469305555555556,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "glass-edge",
+    "variant": "Estuary Enamel",
+    "mode": "wireframe",
+    "changedPixels": 0,
+    "maxChannelDelta": 0,
+    "meanAbsoluteChannelDelta": 0.0,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "glass-edge",
+    "variant": "Carmine Candy",
+    "mode": "wireframe",
+    "changedPixels": 0,
+    "maxChannelDelta": 0,
+    "meanAbsoluteChannelDelta": 0.0,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "glass-edge",
+    "variant": "Estuary Enamel",
+    "mode": "silhouette",
+    "changedPixels": 5,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0009402777777777777,
+    "caution": "Diagnostic only, not visual acceptance"
+  },
+  {
+    "target": "glass-edge",
+    "variant": "Carmine Candy",
+    "mode": "silhouette",
+    "changedPixels": 5,
+    "maxChannelDelta": 50,
+    "meanAbsoluteChannelDelta": 0.0009402777777777777,
+    "caution": "Diagnostic only, not visual acceptance"
+  }
+]

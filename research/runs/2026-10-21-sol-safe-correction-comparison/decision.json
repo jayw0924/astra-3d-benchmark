@@ -1,0 +1,17 @@
+{
+  "status": "not-promoted-residual-seam",
+  "promotionApproved": false,
+  "authorship": "gpt-6.1-sol ledger attestation of parent independent findings",
+  "candidate": "safe-webgl-correction-7f2d11f494a5-b",
+  "staticAndTargetedRepair": "pass",
+  "fullVisualGate": "fail: residual rectangular seam patch observed in full matrix",
+  "runtimeSpeedup": "not-established",
+  "firstCorrectFrame": "unavailable",
+  "supersededBy": "safe-webgl-final-d0bf6e206c92",
+  "evidence": [
+    "visual-review.md",
+    "seam-diagnostic.json",
+    "native-comparison-manifest.json"
+  ],
+  "correctionBudget": "exhausted after FINAL; no new correction authorized"
+}

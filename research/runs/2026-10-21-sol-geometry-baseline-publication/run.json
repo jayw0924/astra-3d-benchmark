@@ -1,0 +1,113 @@
+{
+  "id": "2026-10-21-sol-geometry-baseline-publication",
+  "title": "Publish source lineage and geometry baseline",
+  "startedAt": "2026-10-21T12:32:36Z",
+  "endedAt": "2026-10-21T12:47:53Z",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": [
+    "read_file",
+    "patch",
+    "write_file",
+    "terminal"
+  ],
+  "workPackage": "integrate",
+  "inputAssets": [
+    "primary-product",
+    "web-product",
+    "web-product-estuary"
+  ],
+  "promptPath": "research/runs/2026-10-21-sol-geometry-baseline-publication/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-geometry-baseline-publication/notes.md",
+    "public/assets/study/geometry/source-overview.png",
+    "public/assets/study/geometry/sanitized-overview.png",
+    "public/assets/study/geometry/estuary-overview.png",
+    "public/assets/study/geometry/wireframe-wheel-detail.png",
+    "research/asset-manifest.json",
+    "src/App.tsx",
+    "src/App.test.tsx",
+    "src/styles.css",
+    "tests/e2e/showcase.spec.ts",
+    "package.json",
+    "src/generated/study-data.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline-publication/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "public/assets/study/geometry/source-overview.png",
+        "lane": "mixed",
+        "sourceAssets": ["primary-product"]
+      },
+      {
+        "path": "public/assets/study/geometry/sanitized-overview.png",
+        "lane": "mixed",
+        "sourceAssets": ["web-product"]
+      },
+      {
+        "path": "public/assets/study/geometry/estuary-overview.png",
+        "lane": "mixed",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "public/assets/study/geometry/wireframe-wheel-detail.png",
+        "lane": "mixed",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/asset-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "src/App.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "src/App.test.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/styles.css",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "tests/e2e/showcase.spec.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "package.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/generated/study-data.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 917,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "not exposed"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "The first combined desktop acceptance run exceeded its 180-second budget after assertions completed. Geometry image acceptance was separated from the heavyweight SwiftShader configurator path; both focused paths then passed.",
+  "reviewer": "Independent Phase 1 specification and code/data-integrity review: pass",
+  "publicSummary": "Published exact source, sanitized, Estuary, and wheel-topology evidence with measured geometry metrics."
+}

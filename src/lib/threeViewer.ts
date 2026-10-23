@@ -174,7 +174,7 @@ export function createThreeViewer(canvas: HTMLCanvasElement): ViewerController {
 
   return {
     async load(onProgress) {
-      const gltf = await loader.loadAsync('/assets/models/product-estuary.glb', (event) => {
+      const gltf = await loader.loadAsync('/assets/models/product-estuary-safe.glb', (event) => {
         if (event.total > 0) onProgress?.((event.loaded / event.total) * 100);
       });
       if (disposed) {

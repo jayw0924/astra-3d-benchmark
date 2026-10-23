@@ -1,0 +1,133 @@
+[
+  {
+    "argv": [
+      "npx",
+      "playwright",
+      "install",
+      "chromium"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:14.281Z",
+    "endedAt": "2026-10-21T14:09:15.105Z",
+    "elapsedSeconds": 0.824,
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "node",
+      "--test",
+      "scripts/geometry-toolchain.test.mjs"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:15.105Z",
+    "endedAt": "2026-10-21T14:09:15.511Z",
+    "elapsedSeconds": 0.406,
+    "exitCode": 0,
+    "stdout": "✔ pins the deterministic geometry toolchain explicitly (3.124047ms)\n✔ official validator parses the immutable Estuary control without errors (291.888652ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 377.780623\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "./node_modules/.bin/gltf-transform",
+      "simplify",
+      "public/assets/models/product-estuary.glb",
+      ".cache/geometry-preflight/pass-a.glb",
+      "--ratio",
+      "0.95",
+      "--error",
+      "0.001",
+      "--lock-border",
+      "true"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:15.511Z",
+    "endedAt": "2026-10-21T14:09:16.211Z",
+    "elapsedSeconds": 0.7,
+    "exitCode": 0,
+    "stdout": "info: product-estuary.glb (10.19 MB) → pass-a.glb (9.85 MB)\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "./node_modules/.bin/gltf-transform",
+      "simplify",
+      "public/assets/models/product-estuary.glb",
+      ".cache/geometry-preflight/pass-b.glb",
+      "--ratio",
+      "0.95",
+      "--error",
+      "0.001",
+      "--lock-border",
+      "true"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:16.211Z",
+    "endedAt": "2026-10-21T14:09:16.926Z",
+    "elapsedSeconds": 0.715,
+    "exitCode": 0,
+    "stdout": "info: product-estuary.glb (10.19 MB) → pass-b.glb (9.85 MB)\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "node",
+      "scripts/report-geometry.mjs",
+      "--asset-id",
+      "preflight-scratch",
+      "--role",
+      "safe-webgl",
+      ".cache/geometry-preflight/pass-a.glb"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:16.926Z",
+    "endedAt": "2026-10-21T14:09:17.228Z",
+    "elapsedSeconds": 0.302,
+    "exitCode": 0,
+    "stdout": "{\n  \"schemaVersion\": 1,\n  \"id\": \"preflight-scratch-safe-webgl-geometry\",\n  \"assetId\": \"preflight-scratch\",\n  \"role\": \"safe-webgl\",\n  \"sourcePath\": \".cache/geometry-preflight/pass-a.glb\",\n  \"bytes\": 9852752,\n  \"sha256\": \"f067a32c42f4018fb7011693207b2b97909eeb8b6d60c9b230fc904bab2cd2c5\",\n  \"counts\": {\n    \"scenes\": 1,\n    \"nodes\": 99,\n    \"reachableNodes\": 99,\n    \"meshes\": 95,\n    \"primitives\": 107,\n    \"materials\": 30,\n    \"textures\": 14,\n    \"images\": 14,\n    \"cameras\": 0,\n    \"animations\": 0,\n    \"skins\": 0,\n    \"triangles\": 202687,\n    \"submittedTriangleIndices\": 608061,\n    \"positionAccessorEntries\": 156572\n  },\n  \"bounds\": {\n    \"method\": \"Decoded every POSITION accessor and applied full default-scene world transforms; axis-aligned bounds\",\n    \"min\": [\n      -1.271408303432173,\n      -0.00024107749495599906,\n      -1.940231204032898\n    ],\n    \"max\": [\n      1.2709126943182742,\n      1.1486550569534302,\n      2.4171547889709473\n    ],\n    \"dimensions\": [\n      2.5423209977504473,\n      1.1488961344483861,\n      4.357385993003845\n    ],\n    \"units\": \"metres\"\n  },\n  \"variants\": [\n    {\n      \"name\": \"Carmine Candy\",\n      \"mappedPrimitives\": 25\n    },\n    {\n      \"name\": \"Pearly Swirly\",\n      \"mappedPrimitives\": 25\n    },\n    {\n      \"name\": \"Torched Graphite\",\n      \"mappedPrimitives\": 25\n    },\n    {\n      \"name\": \"Estuary Enamel\",\n      \"mappedPrimitives\": 25\n    }\n  ],\n  \"extensionsUsed\": [\n    \"KHR_materials_clearcoat\",\n    \"KHR_materials_emissive_strength\",\n    \"KHR_materials_iridescence\",\n    \"KHR_materials_transmission\",\n    \"KHR_materials_variants\",\n    \"KHR_texture_basisu\",\n    \"KHR_texture_transform\"\n  ],\n  \"extensionsRequired\": [\n    \"KHR_texture_basisu\"\n  ],\n  \"checks\": {\n    \"forbiddenNodesPresent\": [],\n    \"parserValidation\": \"passed with @gltf-transform/core NodeIO (not Khronos Validator certification)\"\n  },\n  \"measurement\": {\n    \"method\": \"Raw GLB JSON/accessor inspection plus independent NodeIO parse\",\n    \"generatedBy\": \"scripts/report-geometry.mjs\"\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "node",
+      "research/runs/2026-10-21-sol-geometry-toolchain-preflight/browser-probe.mjs"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:17.229Z",
+    "endedAt": "2026-10-21T14:09:18.389Z",
+    "elapsedSeconds": 1.16,
+    "exitCode": 0,
+    "stdout": "{\"version\":\"156.0.8078.4\",\"revision\":\"1248\",\"executablePath\":\"/workspace/.cache/ms-playwright/chromium-1248/chrome-linux64/chrome\",\"executableSha256\":\"377a9fc07b495c3b8d0ab8ec1fdfd153641759f9756fea34d8dfce4de82f5025\",\"gpu\":{\"vendor\":\"Google Inc. (Google)\",\"renderer\":\"ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)\"}}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "npm",
+      "audit",
+      "--omit=dev",
+      "--json"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:18.389Z",
+    "endedAt": "2026-10-21T14:09:18.945Z",
+    "elapsedSeconds": 0.556,
+    "exitCode": 0,
+    "stdout": "{\n  \"auditReportVersion\": 2,\n  \"vulnerabilities\": {},\n  \"metadata\": {\n    \"vulnerabilities\": {\n      \"info\": 0,\n      \"low\": 0,\n      \"moderate\": 0,\n      \"high\": 0,\n      \"critical\": 0,\n      \"total\": 0\n    },\n    \"dependencies\": {\n      \"prod\": 11,\n      \"dev\": 453,\n      \"optional\": 56,\n      \"peer\": 7,\n      \"peerOptional\": 0,\n      \"total\": 463\n    }\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "npm",
+      "audit",
+      "--json"
+    ],
+    "cwd": "/workspace",
+    "startedAt": "2026-10-21T14:09:18.945Z",
+    "endedAt": "2026-10-21T14:09:19.536Z",
+    "elapsedSeconds": 0.591,
+    "exitCode": 1,
+    "stdout": "{\n  \"auditReportVersion\": 2,\n  \"vulnerabilities\": {\n    \"@gltf-transform/cli\": {\n      \"name\": \"@gltf-transform/cli\",\n      \"severity\": \"high\",\n      \"isDirect\": true,\n      \"via\": [\n        \"micromatch\"\n      ],\n      \"effects\": [],\n      \"range\": \">=2.1.0\",\n      \"nodes\": [\n        \"node_modules/@gltf-transform/cli\"\n      ],\n      \"fixAvailable\": {\n        \"name\": \"@gltf-transform/cli\",\n        \"version\": \"2.0.5\",\n        \"isSemVerMajor\": true\n      }\n    },\n    \"braces\": {\n      \"name\": \"braces\",\n      \"severity\": \"high\",\n      \"isDirect\": false,\n      \"via\": [\n        {\n          \"source\": 1240992,\n          \"name\": \"braces\",\n          \"dependency\": \"braces\",\n          \"title\": \"braces vulnerable to stack-exhaustion denial of service through deeply nested patterns\",\n          \"url\": \"https://github.com/advisories/GHSA-vfj7-8cjw-p6xm\",\n          \"severity\": \"high\",\n          \"cwe\": [\n            \"CWE-674\"\n          ],\n          \"cvss\": {\n            \"score\": 7.5,\n            \"vectorString\": \"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\"\n          },\n          \"range\": \"<=3.0.3\"\n        }\n      ],\n      \"effects\": [\n        \"micromatch\"\n      ],\n      \"range\": \"*\",\n      \"nodes\": [\n        \"node_modules/braces\"\n      ],\n      \"fixAvailable\": {\n        \"name\": \"@gltf-transform/cli\",\n        \"version\": \"2.0.5\",\n        \"isSemVerMajor\": true\n      }\n    },\n    \"micromatch\": {\n      \"name\": \"micromatch\",\n      \"severity\": \"high\",\n      \"isDirect\": false,\n      \"via\": [\n        \"braces\"\n      ],\n      \"effects\": [\n        \"@gltf-transform/cli\"\n      ],\n      \"range\": \">=0.2.0\",\n      \"nodes\": [\n        \"node_modules/micromatch\"\n      ],\n      \"fixAvailable\": {\n        \"name\": \"@gltf-transform/cli\",\n        \"version\": \"2.0.5\",\n        \"isSemVerMajor\": true\n      }\n    }\n  },\n  \"metadata\": {\n    \"vulnerabilities\": {\n      \"info\": 0,\n      \"low\": 0,\n      \"moderate\": 0,\n      \"high\": 3,\n      \"critical\": 0,\n      \"total\": 3\n    },\n    \"dependencies\": {\n      \"prod\": 11,\n      \"dev\": 453,\n      \"optional\": 56,\n      \"peer\": 7,\n      \"peerOptional\": 0,\n      \"total\": 463\n    }\n  }\n}\n",
+    "stderr": ""
+  }
+]

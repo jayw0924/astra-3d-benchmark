@@ -1,0 +1,42 @@
+[
+  {
+    "variant": "estuary",
+    "box": [
+      415,
+      320,
+      425,
+      342
+    ],
+    "changedPixels": 0
+  },
+  {
+    "variant": "estuary",
+    "box": [
+      418,
+      323,
+      424,
+      340
+    ],
+    "changedPixels": 0
+  },
+  {
+    "variant": "carmine",
+    "box": [
+      415,
+      320,
+      425,
+      342
+    ],
+    "changedPixels": 0
+  },
+  {
+    "variant": "carmine",
+    "box": [
+      418,
+      323,
+      424,
+      340
+    ],
+    "changedPixels": 0
+  }
+]

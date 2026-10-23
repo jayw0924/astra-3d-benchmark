@@ -1,0 +1,13 @@
+{
+  "runSchema": true,
+  "staticChecks": 18,
+  "protectedPrimitiveCount": 8,
+  "captures": 16,
+  "controlPNGsExactPrior": true,
+  "syntaxChecks": true,
+  "reporterRegressionTest": true,
+  "attribution": "pending",
+  "acceptance": "pending",
+  "correctionRoundsConsumedTotal": 2,
+  "correctionRoundsRemaining": 1
+}

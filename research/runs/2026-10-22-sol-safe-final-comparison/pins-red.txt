@@ -1,0 +1,30 @@
+✖ FINAL candidate pin, never prior candidate bytes (1.721478ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55.362914
+
+✖ failing tests:
+
+test at research/runs/2026-10-22-sol-safe-final-comparison/pins.test.mjs:5:1
+✖ FINAL candidate pin, never prior candidate bytes (1.721478ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5-b/candidate.glb'
+  - 'research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb'
+  
+      at TestContext.<anonymous> (file:///workspace/research/runs/2026-10-22-sol-safe-final-comparison/pins.test.mjs:7:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5-b/candidate.glb',
+    expected: 'research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

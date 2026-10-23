@@ -1,0 +1,38 @@
+{
+  "status": "evidence-complete; final verdict reserved for parent",
+  "matrixImages": 108,
+  "freshCorrectedImages": 54,
+  "cryptographicallyVerifiedReusedControls": 54,
+  "sheets": 9,
+  "supplementalComparisons": 6,
+  "allPngsDecodedByPillow": 123,
+  "browserGalleryDecoded": 108,
+  "completedContextOrder": [
+    "control",
+    "safe",
+    "safe",
+    "control"
+  ],
+  "actualAllPairsTransitions": 64,
+  "rawWarmSamples": 120,
+  "captureContexts": 5,
+  "measuredContexts": 4,
+  "interruptedCommands": [],
+  "commandsCompletedWithoutError": 9,
+  "activeCaptureErrors": [],
+  "measuredErrors": [],
+  "protectedFilesChecked": 242,
+  "protectedChanges": [],
+  "testsLog": "tests-final.txt",
+  "testsScope": "isolated package tests, not application/research promotion build",
+  "runJsonAuthored": false,
+  "finalAcceptanceAuthored": false,
+  "residualVisualConcern": {
+    "severity": "minor localized visible quality deviation",
+    "location": "glass-edge native pixels approximately x418\u2013423 y323\u2013339, below windshield image-right corner",
+    "control": "thin continuous seam",
+    "priorRejected": "small stepped rectangular bright/dark patch beside seam",
+    "corrected": "similar localized patch remains in both finishes, especially Carmine",
+    "fullParityEstablished": false
+  }
+}

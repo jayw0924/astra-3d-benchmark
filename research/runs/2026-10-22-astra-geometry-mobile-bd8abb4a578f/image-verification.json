@@ -1,0 +1,1914 @@
+{
+  "allPassed": true,
+  "capturedAt": "2026-10-22T21:10:17.320083+00:00",
+  "count": 108,
+  "records": [
+    {
+      "id": "control--front-three-quarter--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6b748ef8e875704bde56cf16545efa5b33b36835c7df6e6c99c769b52dcd496d",
+      "bytes": 75699,
+      "changedPixels": 29013,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--front-three-quarter--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "8723bf2452d76c2dcf0036b67168ce9903f9c2a20f7cf3ecd860485dfcc9cad4",
+      "bytes": 10278,
+      "changedPixels": 29479,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--front-three-quarter--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "4e2d7b38e7a49983ed6019792c9dcac2a1ae17682172b268e358b13b28ef6f2b",
+      "bytes": 9548,
+      "changedPixels": 29054,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--front-three-quarter--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "1d0958817808b666906b54efb2742ee501cd8a263759c8bc6f58c89212709efa",
+      "bytes": 79830,
+      "changedPixels": 29047,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--front-three-quarter--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "8723bf2452d76c2dcf0036b67168ce9903f9c2a20f7cf3ecd860485dfcc9cad4",
+      "bytes": 10278,
+      "changedPixels": 29479,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--front-three-quarter--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "4e2d7b38e7a49983ed6019792c9dcac2a1ae17682172b268e358b13b28ef6f2b",
+      "bytes": 9548,
+      "changedPixels": 29054,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--side--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "bf6934313060aa416e97292f41a68e0cf529d641176c02df263860f37ec9b63c",
+      "bytes": 83849,
+      "changedPixels": 37756,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--side--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3ef5d38adf5f0eec4792a356bb79367bae204cda54498c73b6408cc90ed36091",
+      "bytes": 13260,
+      "changedPixels": 38380,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--side--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "040c1a406c2deade54d9c796c8217947f34da5ec8e1e98abfe72d458fabc9a2e",
+      "bytes": 10121,
+      "changedPixels": 37848,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--side--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "86e3ecc56b5598c90aadd78b5be99928d46ea95d1401e68baabc29985e19aedc",
+      "bytes": 90259,
+      "changedPixels": 37844,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--side--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3ef5d38adf5f0eec4792a356bb79367bae204cda54498c73b6408cc90ed36091",
+      "bytes": 13260,
+      "changedPixels": 38380,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--side--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "040c1a406c2deade54d9c796c8217947f34da5ec8e1e98abfe72d458fabc9a2e",
+      "bytes": 10121,
+      "changedPixels": 37848,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--rear-three-quarter--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "89028e2d7b3c171fa75ef76a870ee16653f507582ea329e35a81e9175b36f822",
+      "bytes": 69273,
+      "changedPixels": 27041,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--rear-three-quarter--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "cd40454352ead27c426b683540807bf2dbc2e42cb5e40d53d1202fb542eda97c",
+      "bytes": 10419,
+      "changedPixels": 27519,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--rear-three-quarter--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6653c3fc1dcb3a10f4200f955ae057e307a857c9f81663773c352abd0beb8213",
+      "bytes": 9495,
+      "changedPixels": 27120,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--rear-three-quarter--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "14fe6e6e1b51cb3fb3c2d79402b6cf0b1cb1c2aea57638b6c450410caf62b250",
+      "bytes": 71844,
+      "changedPixels": 27119,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--rear-three-quarter--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "cd40454352ead27c426b683540807bf2dbc2e42cb5e40d53d1202fb542eda97c",
+      "bytes": 10419,
+      "changedPixels": 27519,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--rear-three-quarter--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6653c3fc1dcb3a10f4200f955ae057e307a857c9f81663773c352abd0beb8213",
+      "bytes": 9495,
+      "changedPixels": 27120,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--wheel-brake--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "884e09c76c61db70ce314c6c711b51a7157183a90f8076acea14838abebe6434",
+      "bytes": 229591,
+      "changedPixels": 161653,
+      "drawCalls": 148
+    },
+    {
+      "id": "control--wheel-brake--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "f520dfe9029afbeeb60b9ef323b9938164c429fc541a85af4467d7da1cc467b8",
+      "bytes": 71499,
+      "changedPixels": 59128,
+      "drawCalls": 7
+    },
+    {
+      "id": "control--wheel-brake--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "bytes": 10788,
+      "changedPixels": 162375,
+      "drawCalls": 74
+    },
+    {
+      "id": "control--wheel-brake--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "fe7f7ad1d9ecc13720528cfeff344040673bdcabc02869d0c4d711d094d38e95",
+      "bytes": 309451,
+      "changedPixels": 162360,
+      "drawCalls": 148
+    },
+    {
+      "id": "control--wheel-brake--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "f520dfe9029afbeeb60b9ef323b9938164c429fc541a85af4467d7da1cc467b8",
+      "bytes": 71499,
+      "changedPixels": 59128,
+      "drawCalls": 7
+    },
+    {
+      "id": "control--wheel-brake--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "bytes": 10788,
+      "changedPixels": 162375,
+      "drawCalls": 74
+    },
+    {
+      "id": "control--mirror-window--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "cc56eafb987711a95273d9d19344d6742580471bb9c3a49b3426a6ebe8f5169c",
+      "bytes": 213810,
+      "changedPixels": 238513,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--mirror-window--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "bytes": 17881,
+      "changedPixels": 10828,
+      "drawCalls": 6
+    },
+    {
+      "id": "control--mirror-window--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "935a4cc6a99ba7718998345729f9205f26abfd0a19a72584567390ef27402856",
+      "bytes": 8845,
+      "changedPixels": 86805,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--mirror-window--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "d11911210b39b24471349080b6ea72a8e41994cb041a357c49512ba5365fdf1c",
+      "bytes": 297160,
+      "changedPixels": 237198,
+      "drawCalls": 214
+    },
+    {
+      "id": "control--mirror-window--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "bytes": 17881,
+      "changedPixels": 10828,
+      "drawCalls": 6
+    },
+    {
+      "id": "control--mirror-window--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "935a4cc6a99ba7718998345729f9205f26abfd0a19a72584567390ef27402856",
+      "bytes": 8845,
+      "changedPixels": 86805,
+      "drawCalls": 107
+    },
+    {
+      "id": "control--wipers--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "b563e3d80fce70a944cf9f0c3d69f3c6e11e9ff73e5ad68543717eedcab3d361",
+      "bytes": 298352,
+      "changedPixels": 239463,
+      "drawCalls": 186
+    },
+    {
+      "id": "control--wipers--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "bytes": 15703,
+      "changedPixels": 7993,
+      "drawCalls": 3
+    },
+    {
+      "id": "control--wipers--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "70d184c2541c46d4898de02c003b4607161dc7e9daa57daaef8b62c8296a64d9",
+      "bytes": 7356,
+      "changedPixels": 11780,
+      "drawCalls": 93
+    },
+    {
+      "id": "control--wipers--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "d10c80321ed68e3bf47d9e331215d3cef1f422038966f1bc2ee73cacd41d915a",
+      "bytes": 422106,
+      "changedPixels": 239851,
+      "drawCalls": 186
+    },
+    {
+      "id": "control--wipers--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "bytes": 15703,
+      "changedPixels": 7993,
+      "drawCalls": 3
+    },
+    {
+      "id": "control--wipers--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "70d184c2541c46d4898de02c003b4607161dc7e9daa57daaef8b62c8296a64d9",
+      "bytes": 7356,
+      "changedPixels": 11780,
+      "drawCalls": 93
+    },
+    {
+      "id": "control--panel-seams--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "1f19cbea18020d6dcb1b1e14e3babd704c3a26461cbc2cd1602a4895b10c85ff",
+      "bytes": 196667,
+      "changedPixels": 137794,
+      "drawCalls": 210
+    },
+    {
+      "id": "control--panel-seams--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "f72b9b35811939f73f2e4f58ca22b448a2bb13617d7b67f4f34a3c61c386c832",
+      "bytes": 70373,
+      "changedPixels": 64655,
+      "drawCalls": 17
+    },
+    {
+      "id": "control--panel-seams--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "27b3e174be32c3bdade59c331fb79d8da14c896b58bd92c3fb3ba178e8d6435b",
+      "bytes": 9859,
+      "changedPixels": 138670,
+      "drawCalls": 105
+    },
+    {
+      "id": "control--panel-seams--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "bf4645c21c6a84d3dc43dbfc0702e3ca142895d6daec045f49e8844748f10466",
+      "bytes": 270333,
+      "changedPixels": 138194,
+      "drawCalls": 210
+    },
+    {
+      "id": "control--panel-seams--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "f72b9b35811939f73f2e4f58ca22b448a2bb13617d7b67f4f34a3c61c386c832",
+      "bytes": 70373,
+      "changedPixels": 64655,
+      "drawCalls": 17
+    },
+    {
+      "id": "control--panel-seams--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "27b3e174be32c3bdade59c331fb79d8da14c896b58bd92c3fb3ba178e8d6435b",
+      "bytes": 9859,
+      "changedPixels": 138670,
+      "drawCalls": 105
+    },
+    {
+      "id": "control--interior--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "1a7674f8c9b7aa81f454630a9f81dc94b0ea6b2c0aa5f38049c0421657720fcc",
+      "bytes": 264279,
+      "changedPixels": 237043,
+      "drawCalls": 198
+    },
+    {
+      "id": "control--interior--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "37aa63aa159bd9162c87708513061db2f9e03ad03d54a67c88d9eda7d32e9a83",
+      "bytes": 102084,
+      "changedPixels": 213044,
+      "drawCalls": 6
+    },
+    {
+      "id": "control--interior--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "16b8afaa92aa0d796c94789dec4a0529e9a06e46aa0e560c2cc20a46672a3946",
+      "bytes": 9718,
+      "changedPixels": 48794,
+      "drawCalls": 99
+    },
+    {
+      "id": "control--interior--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "618b2127899fcbf1298cb34ec396220741cfc6efa25f2468361b518ab990e742",
+      "bytes": 315537,
+      "changedPixels": 226105,
+      "drawCalls": 198
+    },
+    {
+      "id": "control--interior--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "37aa63aa159bd9162c87708513061db2f9e03ad03d54a67c88d9eda7d32e9a83",
+      "bytes": 102084,
+      "changedPixels": 213044,
+      "drawCalls": 6
+    },
+    {
+      "id": "control--interior--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "16b8afaa92aa0d796c94789dec4a0529e9a06e46aa0e560c2cc20a46672a3946",
+      "bytes": 9718,
+      "changedPixels": 48794,
+      "drawCalls": 99
+    },
+    {
+      "id": "control--glass-edge--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "609554aa560aedcbe3acda9dbda61cf2a1ffb19f51e33f0cdde3682998a68cb0",
+      "bytes": 248792,
+      "changedPixels": 238103,
+      "drawCalls": 192
+    },
+    {
+      "id": "control--glass-edge--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "bytes": 77542,
+      "changedPixels": 42932,
+      "drawCalls": 3
+    },
+    {
+      "id": "control--glass-edge--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "49c7bcdbf0761df728ad94cfae26993addbc8e707199484645917b61d5b20ad9",
+      "bytes": 8461,
+      "changedPixels": 73929,
+      "drawCalls": 96
+    },
+    {
+      "id": "control--glass-edge--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "0decbe9e41de6ad3e4ed74a8638f2f01bfa31df935c4fbc56422c4396aae22e5",
+      "bytes": 315836,
+      "changedPixels": 239821,
+      "drawCalls": 192
+    },
+    {
+      "id": "control--glass-edge--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "bytes": 77542,
+      "changedPixels": 42932,
+      "drawCalls": 3
+    },
+    {
+      "id": "control--glass-edge--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "49c7bcdbf0761df728ad94cfae26993addbc8e707199484645917b61d5b20ad9",
+      "bytes": 8461,
+      "changedPixels": 73929,
+      "drawCalls": 96
+    },
+    {
+      "id": "mobile--front-three-quarter--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "8425086915d90fcfa90fb01a77c533d57c95aa2ba162d810366fc532669366a4",
+      "bytes": 76389,
+      "changedPixels": 29009,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--front-three-quarter--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "c2e30ce971087aa4918028693d835cf8ab0af9945074d215cf02393514df6501",
+      "bytes": 10699,
+      "changedPixels": 29475,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--front-three-quarter--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "822363934b1ec7c469d87cc5cdfccd99ab16aeb41fb0504b1289f697d7b28fff",
+      "bytes": 9526,
+      "changedPixels": 29052,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--front-three-quarter--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "cfb36a731736910b0a22ec99d08939d47b7786e0db738b59d47f8b61935ecb78",
+      "bytes": 80360,
+      "changedPixels": 29043,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--front-three-quarter--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "c2e30ce971087aa4918028693d835cf8ab0af9945074d215cf02393514df6501",
+      "bytes": 10699,
+      "changedPixels": 29475,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--front-three-quarter--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "822363934b1ec7c469d87cc5cdfccd99ab16aeb41fb0504b1289f697d7b28fff",
+      "bytes": 9526,
+      "changedPixels": 29052,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--side--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3552457e1cbbbeec37f1529a18fd5e2ee1b985c62380a1a4c4d7b2281f933b28",
+      "bytes": 85772,
+      "changedPixels": 37751,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--side--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "0806f0e4439937ee71a48b8f461e500731277ea0df19bee069efcb842b860526",
+      "bytes": 14005,
+      "changedPixels": 38370,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--side--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "0d7259c425fcce3ef1e1dde8bb2f2983fb2d8bd3d990796ccd2737e8da368d0c",
+      "bytes": 10120,
+      "changedPixels": 37849,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--side--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "c16d73c7d6aafb931453cc1dcede19ab8f5a9101826477441615ad111c82f449",
+      "bytes": 91445,
+      "changedPixels": 37843,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--side--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "0806f0e4439937ee71a48b8f461e500731277ea0df19bee069efcb842b860526",
+      "bytes": 14005,
+      "changedPixels": 38370,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--side--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "0d7259c425fcce3ef1e1dde8bb2f2983fb2d8bd3d990796ccd2737e8da368d0c",
+      "bytes": 10120,
+      "changedPixels": 37849,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--rear-three-quarter--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6eea515f492449275b2fe238a222fea7fa0d4f48d26aeb76bcc18f9c87a22696",
+      "bytes": 71007,
+      "changedPixels": 27031,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--rear-three-quarter--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3b419ac737a1c0b05a6520ca38265ff8cf632261f5593158bde9e8d62312e1d6",
+      "bytes": 11378,
+      "changedPixels": 27508,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--rear-three-quarter--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "a4607f4f22cd0681a6827165413cada228cccde0d016b45276ba11ceaae81387",
+      "bytes": 9485,
+      "changedPixels": 27118,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--rear-three-quarter--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "37a994c4fe6ee49e32c73b0d79a0064e0817ee8972406ec8c47d9fd7d0d298e1",
+      "bytes": 72905,
+      "changedPixels": 27116,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--rear-three-quarter--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3b419ac737a1c0b05a6520ca38265ff8cf632261f5593158bde9e8d62312e1d6",
+      "bytes": 11378,
+      "changedPixels": 27508,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--rear-three-quarter--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "a4607f4f22cd0681a6827165413cada228cccde0d016b45276ba11ceaae81387",
+      "bytes": 9485,
+      "changedPixels": 27118,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--wheel-brake--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "72f2c22fb8dcaae73457c20de53870350be73bdc9fce8066d6dd1fc13106f7cb",
+      "bytes": 236852,
+      "changedPixels": 161629,
+      "drawCalls": 148
+    },
+    {
+      "id": "mobile--wheel-brake--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "5dd2cae9d9a7a04b26178b983f50032d90f58b278c7991abb5b630336cbeafd6",
+      "bytes": 72963,
+      "changedPixels": 58951,
+      "drawCalls": 7
+    },
+    {
+      "id": "mobile--wheel-brake--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "bytes": 10788,
+      "changedPixels": 162375,
+      "drawCalls": 74
+    },
+    {
+      "id": "mobile--wheel-brake--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "028453097903daf37d82221ee8379f4e3e7258c00871c2017d690d13212a001f",
+      "bytes": 309288,
+      "changedPixels": 162356,
+      "drawCalls": 148
+    },
+    {
+      "id": "mobile--wheel-brake--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "5dd2cae9d9a7a04b26178b983f50032d90f58b278c7991abb5b630336cbeafd6",
+      "bytes": 72963,
+      "changedPixels": 58951,
+      "drawCalls": 7
+    },
+    {
+      "id": "mobile--wheel-brake--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "bytes": 10788,
+      "changedPixels": 162375,
+      "drawCalls": 74
+    },
+    {
+      "id": "mobile--mirror-window--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "1a81dfd7d28fd85c2e8c420ed59ec6ae3e56d44ed371287c45bd9d918a8a9986",
+      "bytes": 222472,
+      "changedPixels": 238493,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--mirror-window--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "bytes": 17881,
+      "changedPixels": 10828,
+      "drawCalls": 6
+    },
+    {
+      "id": "mobile--mirror-window--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "f1888a8bbd357b87e9a14e7e2caaff626dd8aff95b9ecf1cbf1fdf36123db998",
+      "bytes": 8851,
+      "changedPixels": 86805,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--mirror-window--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "c38596cd14cb1d5f30577484053904441045698f83f43497dfa41b76c5f87456",
+      "bytes": 301235,
+      "changedPixels": 237626,
+      "drawCalls": 214
+    },
+    {
+      "id": "mobile--mirror-window--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "bytes": 17881,
+      "changedPixels": 10828,
+      "drawCalls": 6
+    },
+    {
+      "id": "mobile--mirror-window--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "f1888a8bbd357b87e9a14e7e2caaff626dd8aff95b9ecf1cbf1fdf36123db998",
+      "bytes": 8851,
+      "changedPixels": 86805,
+      "drawCalls": 107
+    },
+    {
+      "id": "mobile--wipers--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "62e099663a9849a6c48fb90a396645f4c230ebe4053319d252042c15dcca0d1c",
+      "bytes": 298754,
+      "changedPixels": 239463,
+      "drawCalls": 186
+    },
+    {
+      "id": "mobile--wipers--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "bytes": 15703,
+      "changedPixels": 7993,
+      "drawCalls": 3
+    },
+    {
+      "id": "mobile--wipers--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "1f905e4ffbe1907435ed6f081f139a4c6ebd880eb7a7e7c90df4cab3dba3c3f3",
+      "bytes": 7356,
+      "changedPixels": 11780,
+      "drawCalls": 93
+    },
+    {
+      "id": "mobile--wipers--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "9728e8a7e95054f0c273495f810f12df3580fa52a97e6497598665b50e5f67c5",
+      "bytes": 422360,
+      "changedPixels": 239851,
+      "drawCalls": 186
+    },
+    {
+      "id": "mobile--wipers--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "bytes": 15703,
+      "changedPixels": 7993,
+      "drawCalls": 3
+    },
+    {
+      "id": "mobile--wipers--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "1f905e4ffbe1907435ed6f081f139a4c6ebd880eb7a7e7c90df4cab3dba3c3f3",
+      "bytes": 7356,
+      "changedPixels": 11780,
+      "drawCalls": 93
+    },
+    {
+      "id": "mobile--panel-seams--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3bb951dc2974fa5a13ad5534233d5bffee64f3150c116bc2d26456ea8fc37fac",
+      "bytes": 206232,
+      "changedPixels": 137826,
+      "drawCalls": 210
+    },
+    {
+      "id": "mobile--panel-seams--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "87ecc1bb25a1995786a244d5d36bc74209ff6fdff1f58b8efaf24a208b8b0ff8",
+      "bytes": 71160,
+      "changedPixels": 62267,
+      "drawCalls": 17
+    },
+    {
+      "id": "mobile--panel-seams--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "0a33145fbc6e71809b924978db3c16ee990ddc7467ee37244ca894d877ddcce1",
+      "bytes": 9867,
+      "changedPixels": 138675,
+      "drawCalls": 105
+    },
+    {
+      "id": "mobile--panel-seams--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "57b00919143e2ea18e78bbdc6f475adc8f7921611e79faf05f7cce1d801de153",
+      "bytes": 274552,
+      "changedPixels": 138197,
+      "drawCalls": 210
+    },
+    {
+      "id": "mobile--panel-seams--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "87ecc1bb25a1995786a244d5d36bc74209ff6fdff1f58b8efaf24a208b8b0ff8",
+      "bytes": 71160,
+      "changedPixels": 62267,
+      "drawCalls": 17
+    },
+    {
+      "id": "mobile--panel-seams--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "0a33145fbc6e71809b924978db3c16ee990ddc7467ee37244ca894d877ddcce1",
+      "bytes": 9867,
+      "changedPixels": 138675,
+      "drawCalls": 105
+    },
+    {
+      "id": "mobile--interior--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "248d9e50e943b706d2c1bad192c1c1dd0ff6e1aa516945fe37433672bb9c909d",
+      "bytes": 266866,
+      "changedPixels": 237043,
+      "drawCalls": 198
+    },
+    {
+      "id": "mobile--interior--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3d568f93c9f0f69ed193e25e6c86cd1b3e5f5874e35d2ea2bee89c6507d058f0",
+      "bytes": 100401,
+      "changedPixels": 214247,
+      "drawCalls": 6
+    },
+    {
+      "id": "mobile--interior--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "a273625802a2263a426d7c357fe25263a219c1daa6a365235859377d30a0a816",
+      "bytes": 9725,
+      "changedPixels": 48797,
+      "drawCalls": 99
+    },
+    {
+      "id": "mobile--interior--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "5daadc180be2d559ae7bd3024dbacf1f30c8cf58443bb82bbdf7e86d7cade134",
+      "bytes": 317531,
+      "changedPixels": 226170,
+      "drawCalls": 198
+    },
+    {
+      "id": "mobile--interior--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "3d568f93c9f0f69ed193e25e6c86cd1b3e5f5874e35d2ea2bee89c6507d058f0",
+      "bytes": 100401,
+      "changedPixels": 214247,
+      "drawCalls": 6
+    },
+    {
+      "id": "mobile--interior--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "a273625802a2263a426d7c357fe25263a219c1daa6a365235859377d30a0a816",
+      "bytes": 9725,
+      "changedPixels": 48797,
+      "drawCalls": 99
+    },
+    {
+      "id": "mobile--glass-edge--estuary--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "5865b8528205197e23a1d718ad876487c3bd20ccbad2f73986262e330bc9046e",
+      "bytes": 250003,
+      "changedPixels": 238101,
+      "drawCalls": 192
+    },
+    {
+      "id": "mobile--glass-edge--estuary--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "bytes": 77542,
+      "changedPixels": 42932,
+      "drawCalls": 3
+    },
+    {
+      "id": "mobile--glass-edge--estuary--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "bd5bc15f3140fa2c501254266f5c424d39727057ae7ea186e2d6123fe73b4258",
+      "bytes": 8461,
+      "changedPixels": 73930,
+      "drawCalls": 96
+    },
+    {
+      "id": "mobile--glass-edge--carmine--shaded",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "ad483eb6dd6245a43bd55d0eedb3e65506be90fd412ed7ee4cdb2d7dc125b5ed",
+      "bytes": 316287,
+      "changedPixels": 239819,
+      "drawCalls": 192
+    },
+    {
+      "id": "mobile--glass-edge--carmine--wireframe",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "bytes": 77542,
+      "changedPixels": 42932,
+      "drawCalls": 3
+    },
+    {
+      "id": "mobile--glass-edge--carmine--silhouette",
+      "dimensions": [
+        600,
+        400
+      ],
+      "sha256": "bd5bc15f3140fa2c501254266f5c424d39727057ae7ea186e2d6123fe73b4258",
+      "bytes": 8461,
+      "changedPixels": 73930,
+      "drawCalls": 96
+    }
+  ],
+  "differences": [
+    {
+      "target": "front-three-quarter",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 5060,
+      "meanAbsoluteChannelDifference": 0.09271805555555555,
+      "maxChannelDifference": 130,
+      "changedBoundingBox": [
+        154,
+        134,
+        462,
+        262
+      ]
+    },
+    {
+      "target": "front-three-quarter",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 90,
+      "meanAbsoluteChannelDifference": 0.02093611111111111,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        158,
+        134,
+        463,
+        263
+      ]
+    },
+    {
+      "target": "front-three-quarter",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 6,
+      "meanAbsoluteChannelDifference": 0.0011277777777777777,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        158,
+        134,
+        367,
+        249
+      ]
+    },
+    {
+      "target": "front-three-quarter",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 5368,
+      "meanAbsoluteChannelDifference": 0.12208333333333334,
+      "maxChannelDifference": 142,
+      "changedBoundingBox": [
+        154,
+        134,
+        462,
+        262
+      ]
+    },
+    {
+      "target": "front-three-quarter",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 90,
+      "meanAbsoluteChannelDifference": 0.02093611111111111,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        158,
+        134,
+        463,
+        263
+      ]
+    },
+    {
+      "target": "front-three-quarter",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 6,
+      "meanAbsoluteChannelDifference": 0.0011277777777777777,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        158,
+        134,
+        367,
+        249
+      ]
+    },
+    {
+      "target": "side",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 9002,
+      "meanAbsoluteChannelDifference": 0.1651152777777778,
+      "maxChannelDifference": 202,
+      "changedBoundingBox": [
+        122,
+        136,
+        491,
+        263
+      ]
+    },
+    {
+      "target": "side",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 364,
+      "meanAbsoluteChannelDifference": 0.08788333333333333,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        134,
+        139,
+        480,
+        256
+      ]
+    },
+    {
+      "target": "side",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 5,
+      "meanAbsoluteChannelDifference": 0.0009430555555555556,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        200,
+        136,
+        471,
+        256
+      ]
+    },
+    {
+      "target": "side",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 9685,
+      "meanAbsoluteChannelDifference": 0.21095972222222223,
+      "maxChannelDifference": 247,
+      "changedBoundingBox": [
+        122,
+        136,
+        491,
+        263
+      ]
+    },
+    {
+      "target": "side",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 364,
+      "meanAbsoluteChannelDifference": 0.08788333333333333,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        134,
+        139,
+        480,
+        256
+      ]
+    },
+    {
+      "target": "side",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 5,
+      "meanAbsoluteChannelDifference": 0.0009430555555555556,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        200,
+        136,
+        471,
+        256
+      ]
+    },
+    {
+      "target": "rear-three-quarter",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 7603,
+      "meanAbsoluteChannelDifference": 0.22919444444444445,
+      "maxChannelDifference": 196,
+      "changedBoundingBox": [
+        136,
+        144,
+        435,
+        259
+      ]
+    },
+    {
+      "target": "rear-three-quarter",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 276,
+      "meanAbsoluteChannelDifference": 0.06665,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        141,
+        145,
+        400,
+        254
+      ]
+    },
+    {
+      "target": "rear-three-quarter",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 5,
+      "meanAbsoluteChannelDifference": 0.0009430555555555556,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        184,
+        145,
+        225,
+        249
+      ]
+    },
+    {
+      "target": "rear-three-quarter",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 8157,
+      "meanAbsoluteChannelDifference": 0.280175,
+      "maxChannelDifference": 249,
+      "changedBoundingBox": [
+        136,
+        144,
+        435,
+        259
+      ]
+    },
+    {
+      "target": "rear-three-quarter",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 276,
+      "meanAbsoluteChannelDifference": 0.06665,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        141,
+        145,
+        400,
+        254
+      ]
+    },
+    {
+      "target": "rear-three-quarter",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 5,
+      "meanAbsoluteChannelDifference": 0.0009430555555555556,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        184,
+        145,
+        225,
+        249
+      ]
+    },
+    {
+      "target": "wheel-brake",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 18766,
+      "meanAbsoluteChannelDifference": 0.8336736111111112,
+      "maxChannelDifference": 173,
+      "changedBoundingBox": [
+        88,
+        8,
+        600,
+        330
+      ]
+    },
+    {
+      "target": "wheel-brake",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 1796,
+      "meanAbsoluteChannelDifference": 0.5009125,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        181,
+        97,
+        391,
+        326
+      ]
+    },
+    {
+      "target": "wheel-brake",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "wheel-brake",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 20953,
+      "meanAbsoluteChannelDifference": 1.2218055555555556,
+      "maxChannelDifference": 231,
+      "changedBoundingBox": [
+        88,
+        8,
+        600,
+        330
+      ]
+    },
+    {
+      "target": "wheel-brake",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 1796,
+      "meanAbsoluteChannelDifference": 0.5009125,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        181,
+        97,
+        391,
+        326
+      ]
+    },
+    {
+      "target": "wheel-brake",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "mirror-window",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 32281,
+      "meanAbsoluteChannelDifference": 0.7016,
+      "maxChannelDifference": 200,
+      "changedBoundingBox": [
+        9,
+        123,
+        600,
+        400
+      ]
+    },
+    {
+      "target": "mirror-window",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "mirror-window",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 3,
+      "meanAbsoluteChannelDifference": 0.0005625,
+      "maxChannelDifference": 49,
+      "changedBoundingBox": [
+        433,
+        128,
+        549,
+        395
+      ]
+    },
+    {
+      "target": "mirror-window",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 41224,
+      "meanAbsoluteChannelDifference": 1.0832319444444445,
+      "maxChannelDifference": 247,
+      "changedBoundingBox": [
+        4,
+        123,
+        600,
+        400
+      ]
+    },
+    {
+      "target": "mirror-window",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "mirror-window",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 3,
+      "meanAbsoluteChannelDifference": 0.0005625,
+      "maxChannelDifference": 49,
+      "changedBoundingBox": [
+        433,
+        128,
+        549,
+        395
+      ]
+    },
+    {
+      "target": "wipers",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 15507,
+      "meanAbsoluteChannelDifference": 0.14126388888888888,
+      "maxChannelDifference": 59,
+      "changedBoundingBox": [
+        101,
+        0,
+        599,
+        294
+      ]
+    },
+    {
+      "target": "wipers",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "wipers",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 2,
+      "meanAbsoluteChannelDifference": 0.00037777777777777777,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        164,
+        20,
+        173,
+        25
+      ]
+    },
+    {
+      "target": "wipers",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 15845,
+      "meanAbsoluteChannelDifference": 0.14650416666666666,
+      "maxChannelDifference": 99,
+      "changedBoundingBox": [
+        132,
+        0,
+        600,
+        294
+      ]
+    },
+    {
+      "target": "wipers",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "wipers",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 2,
+      "meanAbsoluteChannelDifference": 0.00037777777777777777,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        164,
+        20,
+        173,
+        25
+      ]
+    },
+    {
+      "target": "panel-seams",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 37529,
+      "meanAbsoluteChannelDifference": 0.9130027777777778,
+      "maxChannelDifference": 206,
+      "changedBoundingBox": [
+        0,
+        74,
+        600,
+        337
+      ]
+    },
+    {
+      "target": "panel-seams",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 13061,
+      "meanAbsoluteChannelDifference": 4.243690277777778,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        102,
+        89,
+        505,
+        311
+      ]
+    },
+    {
+      "target": "panel-seams",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 25,
+      "meanAbsoluteChannelDifference": 0.0047263888888888885,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        299,
+        75,
+        551,
+        337
+      ]
+    },
+    {
+      "target": "panel-seams",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 44093,
+      "meanAbsoluteChannelDifference": 1.3488194444444443,
+      "maxChannelDifference": 248,
+      "changedBoundingBox": [
+        0,
+        74,
+        600,
+        337
+      ]
+    },
+    {
+      "target": "panel-seams",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 13061,
+      "meanAbsoluteChannelDifference": 4.243690277777778,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        102,
+        89,
+        505,
+        311
+      ]
+    },
+    {
+      "target": "panel-seams",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 25,
+      "meanAbsoluteChannelDifference": 0.0047263888888888885,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        299,
+        75,
+        551,
+        337
+      ]
+    },
+    {
+      "target": "interior",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 17909,
+      "meanAbsoluteChannelDifference": 0.3040638888888889,
+      "maxChannelDifference": 107,
+      "changedBoundingBox": [
+        6,
+        23,
+        599,
+        400
+      ]
+    },
+    {
+      "target": "interior",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 9275,
+      "meanAbsoluteChannelDifference": 3.059152777777778,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        0,
+        44,
+        496,
+        400
+      ]
+    },
+    {
+      "target": "interior",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 9,
+      "meanAbsoluteChannelDifference": 0.001698611111111111,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        251,
+        24,
+        554,
+        333
+      ]
+    },
+    {
+      "target": "interior",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 19105,
+      "meanAbsoluteChannelDifference": 0.3973347222222222,
+      "maxChannelDifference": 190,
+      "changedBoundingBox": [
+        2,
+        23,
+        599,
+        400
+      ]
+    },
+    {
+      "target": "interior",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 9275,
+      "meanAbsoluteChannelDifference": 3.059152777777778,
+      "maxChannelDifference": 191,
+      "changedBoundingBox": [
+        0,
+        44,
+        496,
+        400
+      ]
+    },
+    {
+      "target": "interior",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 9,
+      "meanAbsoluteChannelDifference": 0.001698611111111111,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        251,
+        24,
+        554,
+        333
+      ]
+    },
+    {
+      "target": "glass-edge",
+      "variant": "Estuary Enamel",
+      "mode": "shaded",
+      "changedPixels": 11254,
+      "meanAbsoluteChannelDifference": 0.15986666666666666,
+      "maxChannelDifference": 170,
+      "changedBoundingBox": [
+        100,
+        77,
+        600,
+        400
+      ]
+    },
+    {
+      "target": "glass-edge",
+      "variant": "Estuary Enamel",
+      "mode": "wireframe",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "glass-edge",
+      "variant": "Estuary Enamel",
+      "mode": "silhouette",
+      "changedPixels": 9,
+      "meanAbsoluteChannelDifference": 0.0017013888888888888,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        447,
+        78,
+        479,
+        79
+      ]
+    },
+    {
+      "target": "glass-edge",
+      "variant": "Carmine Candy",
+      "mode": "shaded",
+      "changedPixels": 12158,
+      "meanAbsoluteChannelDifference": 0.2340597222222222,
+      "maxChannelDifference": 223,
+      "changedBoundingBox": [
+        98,
+        77,
+        600,
+        400
+      ]
+    },
+    {
+      "target": "glass-edge",
+      "variant": "Carmine Candy",
+      "mode": "wireframe",
+      "changedPixels": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "maxChannelDifference": 0,
+      "changedBoundingBox": null
+    },
+    {
+      "target": "glass-edge",
+      "variant": "Carmine Candy",
+      "mode": "silhouette",
+      "changedPixels": 9,
+      "meanAbsoluteChannelDifference": 0.0017013888888888888,
+      "maxChannelDifference": 50,
+      "changedBoundingBox": [
+        447,
+        78,
+        479,
+        79
+      ]
+    }
+  ],
+  "interpretation": "Pixel diagnostics only; not human visual acceptance. No post-hoc quality threshold."
+}

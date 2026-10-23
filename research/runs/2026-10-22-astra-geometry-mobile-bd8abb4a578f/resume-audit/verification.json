@@ -1,0 +1,157 @@
+{
+  "checkedAt": "2026-10-23T15:09:58.606Z",
+  "passed": true,
+  "historicalRunSchema": true,
+  "historicalGeometryReportSchema": true,
+  "priorArtifactCount": 168,
+  "allPriorArtifactsBytePreserved": true,
+  "authoringRerun": false,
+  "publicConfiguratorChanged": false,
+  "historicalRunRecordPreserved": true,
+  "resumeOutputPaths": [
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/1805c544735c4e81b89c9cb1970c7985.stderr.txt",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/1805c544735c4e81b89c9cb1970c7985.stdout.txt",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/51045341fe3646e2b6577d49bbf4e27b.stderr.txt",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/51045341fe3646e2b6577d49bbf4e27b.stdout.txt",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/audit.py",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/command.py",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/commands.jsonl",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/completed-command-index.json",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/existing-artifacts.json",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/notes.md",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/process-check.json",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/reconciliation.json",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/scope.json",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/verification.json",
+    "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/verify.mjs"
+  ],
+  "resumeProvenance": [
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/1805c544735c4e81b89c9cb1970c7985.stderr.txt",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/1805c544735c4e81b89c9cb1970c7985.stdout.txt",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/51045341fe3646e2b6577d49bbf4e27b.stderr.txt",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/51045341fe3646e2b6577d49bbf4e27b.stdout.txt",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/audit.py",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/command.py",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/commands.jsonl",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/completed-command-index.json",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/existing-artifacts.json",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/notes.md",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/process-check.json",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/reconciliation.json",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/scope.json",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/verification.json",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    },
+    {
+      "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/verify.mjs",
+      "lane": "mixed",
+      "sourceAssets": [
+        "web-product-estuary"
+      ],
+      "basis": "Additive agent-directed audit of existing mixed-provenance evidence; runtime attribution provisional; no new geometry or Sol acceptance"
+    }
+  ],
+  "oneToOneResumeProvenance": true,
+  "limitations": [
+    "Private export absent; attribution unverified",
+    "Sol acceptance pending",
+    "Optional measurement interruption not retried; historical timing/log gaps remain unknown"
+  ],
+  "outcome": "partial; stop for Sol"
+}

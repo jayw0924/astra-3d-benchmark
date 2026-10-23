@@ -1,0 +1,15 @@
+{
+  "timestampBasis": "Failures recorded in authentic tool transcript; no reconstructed timestamps",
+  "failures": [
+    {
+      "action": "browser_exec loopback native PNG navigation",
+      "error": "Blocked: URL targets a private or internal address"
+    },
+    {
+      "action": "browser_exec local-file native PNG navigation",
+      "error": "The local browser could not be started: Command timed out after 120 seconds"
+    }
+  ],
+  "alternative": "Pinned terminal-driven Playwright headless succeeded for ray probes and 16 native captures",
+  "nativeVisualInspection": "unverified; Sol review required"
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "path": "native-comparisons/wipers--estuary--native-threeway.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--shaded.png",
+        "sha256": "b563e3d80fce70a944cf9f0c3d69f3c6e11e9ff73e5ad68543717eedcab3d361"
+      },
+      {
+        "label": "PREVIOUS CORRECTION",
+        "path": "research/runs/2026-10-21-sol-safe-correction-comparison/rendered/safe--wipers--estuary--shaded.png",
+        "sha256": "5e895452e1b47d9d250fc3281600ffd21411988df4a96d8171a3b03d9b6fe9bd"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--shaded.png",
+        "sha256": "0dfd04adcb119893e2f6cc581edd75800aa3cc7a0ef0f2073eefa84129c76cae"
+      }
+    ],
+    "method": "Exact native 600x400 images side-by-side; labels outside native pixels",
+    "sha256": "fee41ffdf7ce54d125740710e7601c789dc1c81c8183231fb3fccd1ed9655bfa"
+  },
+  {
+    "path": "native-comparisons/wipers--estuary--native-pair.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--shaded.png",
+        "sha256": "b563e3d80fce70a944cf9f0c3d69f3c6e11e9ff73e5ad68543717eedcab3d361"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--shaded.png",
+        "sha256": "0dfd04adcb119893e2f6cc581edd75800aa3cc7a0ef0f2073eefa84129c76cae"
+      }
+    ],
+    "method": "Exact native control/final 600x400 pair; no resizing",
+    "sha256": "179a70095f608583e851b3689704937b1aeb94ac6d4b1c1b45e8bb7e43a20fdf"
+  },
+  {
+    "path": "native-comparisons/wipers--carmine--native-threeway.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--shaded.png",
+        "sha256": "d10c80321ed68e3bf47d9e331215d3cef1f422038966f1bc2ee73cacd41d915a"
+      },
+      {
+        "label": "PREVIOUS CORRECTION",
+        "path": "research/runs/2026-10-21-sol-safe-correction-comparison/rendered/safe--wipers--carmine--shaded.png",
+        "sha256": "a7bce3ce36cddc988dc42f385145677ede7084a56883a08b79c48663ed44a788"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--shaded.png",
+        "sha256": "5c054c4ceba42fd48e1f4fc95af80e0b6d60cd5ae3bbead28e28c6f12873fea4"
+      }
+    ],
+    "method": "Exact native 600x400 images side-by-side; labels outside native pixels",
+    "sha256": "11141034a974c4bffe2384589149cefc5ca7ceeb8a9d11318fbc24c32057e1f4"
+  },
+  {
+    "path": "native-comparisons/wipers--carmine--native-pair.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--shaded.png",
+        "sha256": "d10c80321ed68e3bf47d9e331215d3cef1f422038966f1bc2ee73cacd41d915a"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--shaded.png",
+        "sha256": "5c054c4ceba42fd48e1f4fc95af80e0b6d60cd5ae3bbead28e28c6f12873fea4"
+      }
+    ],
+    "method": "Exact native control/final 600x400 pair; no resizing",
+    "sha256": "e025da992068fe5f7fd1018178217c5d7070470a0520c45225eee0c5d188ca14"
+  },
+  {
+    "path": "native-comparisons/glass-edge--estuary--native-threeway.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--shaded.png",
+        "sha256": "609554aa560aedcbe3acda9dbda61cf2a1ffb19f51e33f0cdde3682998a68cb0"
+      },
+      {
+        "label": "PREVIOUS CORRECTION",
+        "path": "research/runs/2026-10-21-sol-safe-correction-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+        "sha256": "1ebac96d0b9c71919c423609f71e14054fa6f4538812cc9a2e01df395a03b3d4"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+        "sha256": "74382475bda200c1bd3639b401eb90d992f68d435fcb390c594b3e0e66957e8f"
+      }
+    ],
+    "method": "Exact native 600x400 images side-by-side; labels outside native pixels",
+    "sha256": "175817cf5570edffeb61ad43565930d654068b70ac53ffb721bafa45bd2a6418"
+  },
+  {
+    "path": "native-comparisons/glass-edge--estuary--native-pair.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--shaded.png",
+        "sha256": "609554aa560aedcbe3acda9dbda61cf2a1ffb19f51e33f0cdde3682998a68cb0"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+        "sha256": "74382475bda200c1bd3639b401eb90d992f68d435fcb390c594b3e0e66957e8f"
+      }
+    ],
+    "method": "Exact native control/final 600x400 pair; no resizing",
+    "sha256": "1f225775358a963a52b0d007341823546112c1e403a97ca8c99edea0a31662ff"
+  },
+  {
+    "path": "native-comparisons/glass-edge--estuary--seam-nearest4x.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--shaded.png",
+        "sha256": "609554aa560aedcbe3acda9dbda61cf2a1ffb19f51e33f0cdde3682998a68cb0"
+      },
+      {
+        "label": "PREVIOUS CORRECTION",
+        "path": "research/runs/2026-10-21-sol-safe-correction-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+        "sha256": "1ebac96d0b9c71919c423609f71e14054fa6f4538812cc9a2e01df395a03b3d4"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+        "sha256": "74382475bda200c1bd3639b401eb90d992f68d435fcb390c594b3e0e66957e8f"
+      }
+    ],
+    "method": "4x nearest-neighbor enlargement, not a new render or matrix image",
+    "sha256": "e363e91a6986f25490154a122ce8e14306a48a7a06e6fb614d9a3c7c190b4b20",
+    "crop": [
+      390,
+      290,
+      455,
+      355
+    ]
+  },
+  {
+    "path": "native-comparisons/glass-edge--carmine--native-threeway.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--shaded.png",
+        "sha256": "0decbe9e41de6ad3e4ed74a8638f2f01bfa31df935c4fbc56422c4396aae22e5"
+      },
+      {
+        "label": "PREVIOUS CORRECTION",
+        "path": "research/runs/2026-10-21-sol-safe-correction-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+        "sha256": "46cce3adcac48597fcc9c28e0d5cca817498e17b6a5badaae399d791b328a6b5"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+        "sha256": "ea55c3f395a9dfe2e1533ebc96d9ce2b6aebb57860db4a6d7b91f8bc6fa5d1f9"
+      }
+    ],
+    "method": "Exact native 600x400 images side-by-side; labels outside native pixels",
+    "sha256": "909ba5b14dfdab718cc3a1fd4022062892107aef07037cd713b46d300ef27a37"
+  },
+  {
+    "path": "native-comparisons/glass-edge--carmine--native-pair.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--shaded.png",
+        "sha256": "0decbe9e41de6ad3e4ed74a8638f2f01bfa31df935c4fbc56422c4396aae22e5"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+        "sha256": "ea55c3f395a9dfe2e1533ebc96d9ce2b6aebb57860db4a6d7b91f8bc6fa5d1f9"
+      }
+    ],
+    "method": "Exact native control/final 600x400 pair; no resizing",
+    "sha256": "82b9f593bbfa3fc0f3ba3670804b3cc8c8a8f23527f2bb3206a3fa1fe91106ef"
+  },
+  {
+    "path": "native-comparisons/glass-edge--carmine--seam-nearest4x.png",
+    "sources": [
+      {
+        "label": "CONTROL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--shaded.png",
+        "sha256": "0decbe9e41de6ad3e4ed74a8638f2f01bfa31df935c4fbc56422c4396aae22e5"
+      },
+      {
+        "label": "PREVIOUS CORRECTION",
+        "path": "research/runs/2026-10-21-sol-safe-correction-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+        "sha256": "46cce3adcac48597fcc9c28e0d5cca817498e17b6a5badaae399d791b328a6b5"
+      },
+      {
+        "label": "FINAL",
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+        "sha256": "ea55c3f395a9dfe2e1533ebc96d9ce2b6aebb57860db4a6d7b91f8bc6fa5d1f9"
+      }
+    ],
+    "method": "4x nearest-neighbor enlargement, not a new render or matrix image",
+    "sha256": "f3f141d5040660c4f28b9f76656dfedf8a65a4107d510d81bf6aa1a0277f517c",
+    "crop": [
+      390,
+      290,
+      455,
+      355
+    ]
+  }
+]

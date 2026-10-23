@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-22T21:12:53.810Z",
+  "allPassed": true,
+  "runSchema": true,
+  "geometrySchema": true,
+  "oneToOneOutputProvenance": true,
+  "outputCount": 167,
+  "reproducibleExactBytes": true,
+  "originalAndPublicSafeUnchanged": true,
+  "unregisteredResearchCandidate": true,
+  "protectedScope": true,
+  "protectedGeometryAndSemantics": true,
+  "nativeFrames": 108,
+  "exactControlReplays": 54,
+  "privatePersistence": "unverified; authentic export pending",
+  "visualAcceptance": "pending Sol; image statistics are not direct inspection",
+  "performance": "unavailable; supplemental measure terminated outer 137",
+  "correctionRounds": 2,
+  "geometryCorrections": 0
+}

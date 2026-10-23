@@ -1,0 +1,24 @@
+[
+  {
+    "finish": "estuary",
+    "box": [
+      415,
+      320,
+      425,
+      342
+    ],
+    "priorCorrectedCropIdentical": false,
+    "controlCorrectedChangedPixels": 125
+  },
+  {
+    "finish": "carmine",
+    "box": [
+      415,
+      320,
+      425,
+      342
+    ],
+    "priorCorrectedCropIdentical": false,
+    "controlCorrectedChangedPixels": 133
+  }
+]

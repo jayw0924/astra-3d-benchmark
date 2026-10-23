@@ -18,7 +18,17 @@ Observe a realistic AI-assisted 3D production workflow while balancing output qu
 - Control asset: Khronos ToyCar, retained as a documented fallback but not yet downloaded
 - Target delivery: static website using Three.js and WebGL2
 - Viewports: 1440×900 desktop and 390×844 mobile
-- Image outputs: 2400×1600 PNG masters plus web derivatives
+- Image outputs: 2400×1600 PNG masters when practical; the accepted controlled
+  material and geometry comparison matrix uses one fixed 600×400 browser
+  resolution because higher-resolution software-rendered readback was not a
+  practical reproducibility target. Promotional derivatives are separate from
+  scored comparison evidence.
+
+## Phase protocols
+
+- Geometry inspection and optimization: `research/protocols/geometry-optimization-v1.md`
+- A phase protocol is frozen before its first scored model run. Later changes
+  require a versioned replacement and do not apply retroactively.
 
 ## Allowed tools
 
@@ -72,7 +82,12 @@ Score each category from 0–4 and preserve the supporting evidence:
 
 ## Performance reporting
 
-Report model size, load-to-first-frame, median steady-state FPS, renderer, browser, viewport, DPR, and named benchmark machine. Measurements apply only to the recorded machine and browser.
+Report model size, transfer encoding, load-to-first-correct-frame, cold shader
+compile, renderer resource counts, warmed frame timing, renderer/GPU identity,
+browser, viewport, DPR, sample count, p50/p95, execution order, and named
+benchmark machine when the work package can measure them. Measurements apply
+only to the recorded machine and browser. Software-renderer timing is regression
+evidence for that harness, not production-GPU performance.
 
 ## Evidence standard
 

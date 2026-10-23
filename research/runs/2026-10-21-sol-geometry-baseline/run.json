@@ -1,0 +1,139 @@
+{
+  "id": "2026-10-21-sol-geometry-baseline",
+  "title": "Source lineage and geometry baseline evidence",
+  "startedAt": "2026-10-21T12:15:05Z",
+  "endedAt": "2026-10-21T12:29:24Z",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": [
+    "read_file",
+    "search_files",
+    "patch",
+    "write_file",
+    "terminal",
+    "vision_analyze"
+  ],
+  "workPackage": "baseline",
+  "inputAssets": [
+    "primary-product",
+    "web-product",
+    "web-product-estuary"
+  ],
+  "promptPath": "research/runs/2026-10-21-sol-geometry-baseline/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-geometry-baseline/notes.md",
+    "scripts/report-geometry.mjs",
+    "scripts/report-geometry.test.mjs",
+    "research/runs/2026-10-21-sol-geometry-baseline/capture.mjs",
+    "research/runs/2026-10-21-sol-geometry-baseline/render-page.html",
+    "research/runs/2026-10-21-sol-geometry-baseline/render-page.js",
+    "research/runs/2026-10-21-sol-geometry-baseline/render-plan.mjs",
+    "research/runs/2026-10-21-sol-geometry-baseline/render-plan.test.mjs",
+    "research/runs/2026-10-21-sol-geometry-baseline/render-manifest.json",
+    "research/runs/2026-10-21-sol-geometry-baseline/rendered/source-overview.png",
+    "research/runs/2026-10-21-sol-geometry-baseline/rendered/sanitized-overview.png",
+    "research/runs/2026-10-21-sol-geometry-baseline/rendered/estuary-overview.png",
+    "research/runs/2026-10-21-sol-geometry-baseline/rendered/wireframe-wheel-detail.png",
+    "research/runs/2026-10-21-sol-geometry-baseline/reports/source/geometry-report.json",
+    "research/runs/2026-10-21-sol-geometry-baseline/reports/sanitized/geometry-report.json",
+    "research/runs/2026-10-21-sol-geometry-baseline/reports/integrated/geometry-report.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "scripts/report-geometry.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "scripts/report-geometry.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/render-page.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/render-page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/render-plan.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/render-plan.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/render-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/rendered/source-overview.png",
+        "lane": "mixed",
+        "sourceAssets": ["primary-product"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/rendered/sanitized-overview.png",
+        "lane": "mixed",
+        "sourceAssets": ["web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/rendered/estuary-overview.png",
+        "lane": "mixed",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/rendered/wireframe-wheel-detail.png",
+        "lane": "mixed",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/reports/source/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/reports/sanitized/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/reports/integrated/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      }
+    ]
+  },
+  "elapsedSeconds": 859,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "not exposed"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "Initial whole-car wireframe was near-solid at 600×400. The first isolated wheel capture rendered zero calls because a hidden ancestor suppressed its descendants. The harness now rejects zero-call wireframes and uses a non-writing ancestor material to preserve the target subtree.",
+  "reviewer": "Sol visual review plus independent Phase 1 specification and code/data-integrity review: pass",
+  "publicSummary": "Pinned source lineage, exact geometry metrics, and controlled shaded/topology captures established before optimization."
+}

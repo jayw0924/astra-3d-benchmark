@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-21-sol-geometry-protocol",
+  "title": "Geometry optimization protocol v1",
+  "startedAt": "2026-10-21T03:59:29Z",
+  "endedAt": "2026-10-21T04:01:37Z",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": [
+    "read_file",
+    "patch",
+    "write_file",
+    "terminal"
+  ],
+  "workPackage": "baseline",
+  "inputAssets": [
+    "web-product-estuary"
+  ],
+  "promptPath": "research/runs/2026-10-21-sol-geometry-protocol/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-geometry-protocol/notes.md",
+    "research/protocols/geometry-optimization-v1.md",
+    "research/schemas/geometry-report.schema.json",
+    "research/protocol.md",
+    "scripts/validate-research.mjs",
+    "scripts/validate-research.test.mjs"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-protocol/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/protocols/geometry-optimization-v1.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/schemas/geometry-report.schema.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/protocol.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "scripts/validate-research.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "scripts/validate-research.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 128,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "not exposed"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "",
+  "reviewer": "Independent Phase 1 specification and code/data-integrity review: pass",
+  "publicSummary": "Frozen geometry optimization protocol with machine-validated identity and metric requirements."
+}

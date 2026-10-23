@@ -1,0 +1,20 @@
+{
+  "status": "unaccepted",
+  "scope": "Visual observations only; final verdict reserved for parent. All nine 12-panel sheets loaded and inspected; all four 1:1 native control/final pairs inspected plus both seam crops and four context threeways.",
+  "targets": [
+    {"target":"front-three-quarter","reviewedPanels":12,"notes":"Shaded body outline, glazing, wheels and paint response remain visually consistent at the fixed overview. No newly obvious silhouette break. Dense overview wireframe is largely filled at sheet scale and is not detailed topology proof."},
+    {"target":"side","reviewedPanels":12,"notes":"Roofline, wheel placement, window boundary and major door highlights remain aligned in both finishes. No obvious new dent or open panel boundary. Minor raster/topology differences are not a blanket pixel-parity claim."},
+    {"target":"rear-three-quarter","reviewedPanels":12,"notes":"Rear body, lamps, wheels and glazing remain present and aligned. No obvious newly broken contour in either finish. Overview scale limits small-detail judgments."},
+    {"target":"wheel-brake","reviewedPanels":12,"notes":"Wheel remains round in perspective with unchanged placement; spokes, tyre and brake forms remain legible. Wire triangulation differs as expected. Opaque full-scene silhouette does not isolate hidden brake details."},
+    {"target":"mirror-window","reviewedPanels":12,"notes":"Mirror shell, adjacent window outline and door highlight remain continuous in both finishes. Wireframe window triangulation changes without an obvious shaded break. Full-scene silhouette is occlusion-limited."},
+    {"target":"wipers","reviewedPanels":12,"notes":"Wiper arms retain their recognizable contours; isolated wireframe is reduced. Native pairs in both finishes show continuous hood-insert highlights and no return of the earlier scalloped highlight defect."},
+    {"target":"panel-seams","reviewedPanels":12,"notes":"Door panel boundaries and long horizontal reflections remain continuous in both finishes. Deliberate wire triangulation changes visible. No newly obvious gap in these fixed shaded views."},
+    {"target":"interior","reviewedPanels":12,"notes":"Seats, dashboard and steering forms remain recognizable through real glazing. Isolated wireframe shows reduced seat/dashboard triangulation; no gross missing primary form observed. Glass/occlusion and opaque silhouette prevent exhaustive interior parity inspection."},
+    {"target":"glass-edge","reviewedPanels":12,"notes":"Windshield boundary, gasket and hood-insert highlight remain continuous. Native control/final pairs show the previous bright-dark rectangular seam patch removed in both finishes; the existing narrow seam and its antialiasing remain. Both declared seam ROIs are pixel-identical to control, separately from visual inspection."}
+  ],
+  "nativePairsInspected": ["native-comparisons/wipers--estuary--native-pair.png","native-comparisons/wipers--carmine--native-pair.png","native-comparisons/glass-edge--estuary--native-pair.png","native-comparisons/glass-edge--carmine--native-pair.png"],
+  "seamDiagnostics": "seam-diagnostic.json",
+  "hoodObservation": "Earlier hood-insert repair retained in native pairs in both finishes; no new scalloped highlight failure observed.",
+  "residualConcern": "No new blocking visual defect observed in the requested fixed matrix or native seam/hood pairs. This is not pixel identity of whole images, arbitrary-view parity, real-device validation, or a promotion decision. Reduced topology and minor raster differences remain; interior and dense overview diagnostics are visibility-limited.",
+  "presentationLimits": "Nine sheets use 300x200 thumbnails of each exact 600x400 render. Native pair images preserve 600x400 panels, with labels outside image pixels. Threeways were context-viewed at tool-downscaled size; native judgments rely on separate unscaled pairs. Seam crops are explicitly 4x nearest-neighbor diagnostics, not evidence of native-scale severity by themselves."
+}

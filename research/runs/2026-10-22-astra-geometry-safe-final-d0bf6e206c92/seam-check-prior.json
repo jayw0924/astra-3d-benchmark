@@ -1,0 +1,39 @@
+{
+  "phase": "prior",
+  "rows": [
+    {
+      "finish": "estuary",
+      "region": [
+        418,
+        323,
+        424,
+        340
+      ],
+      "meanAbsoluteChannelDifference": [
+        16.666666666666668,
+        9.568627450980392,
+        10.735294117647058
+      ],
+      "maxChannelDifference": 70,
+      "exact": false
+    },
+    {
+      "finish": "carmine",
+      "region": [
+        418,
+        323,
+        424,
+        340
+      ],
+      "meanAbsoluteChannelDifference": [
+        24.480392156862745,
+        23.41176470588235,
+        18.00980392156863
+      ],
+      "maxChannelDifference": 98,
+      "exact": false
+    }
+  ],
+  "allExact": false,
+  "limitation": "Exact ROI diagnostic is red-capable but not full visual acceptance"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "control--wipers--estuary--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "control--wipers--estuary--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "control--wipers--carmine--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "control--wipers--carmine--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "control--glass-edge--estuary--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "control--glass-edge--estuary--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "control--glass-edge--carmine--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "control--glass-edge--carmine--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--wipers--estuary--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--wipers--estuary--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--wipers--carmine--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--wipers--carmine--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--glass-edge--estuary--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--glass-edge--estuary--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--glass-edge--carmine--shaded",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  },
+  {
+    "id": "safe--glass-edge--carmine--wireframe",
+    "byteIdenticalToAffectedViewAuthorCapture": true
+  }
+]

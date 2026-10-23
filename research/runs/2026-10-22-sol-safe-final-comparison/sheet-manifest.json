@@ -1,0 +1,56 @@
+[
+  {
+    "path": "sheets/front-three-quarter.png",
+    "bytes": 62977,
+    "sha256": "eb5aba96eb197720dd5750c112da5985583619062c54b46c690941b3f400a2ae",
+    "target": "front-three-quarter"
+  },
+  {
+    "path": "sheets/side.png",
+    "bytes": 74147,
+    "sha256": "ba37fe9dbaab469a18dff82887aa394f01111adf1391b35709b237433f814f12",
+    "target": "side"
+  },
+  {
+    "path": "sheets/rear-three-quarter.png",
+    "bytes": 63194,
+    "sha256": "ec8da94c656994a55fc06599758849d9e5bbf54e3809e1c22a3b039e84eca91a",
+    "target": "rear-three-quarter"
+  },
+  {
+    "path": "sheets/wheel-brake.png",
+    "bytes": 206737,
+    "sha256": "1f99ebe2df22508e07249ad4c1f17227beb9cac4723ee2d7a5f300db02a1c833",
+    "target": "wheel-brake"
+  },
+  {
+    "path": "sheets/mirror-window.png",
+    "bytes": 147169,
+    "sha256": "5d4f27df4e0f3defb3f80440e91e8ff6b180d05012521e1a09331a555afccaa3",
+    "target": "mirror-window"
+  },
+  {
+    "path": "sheets/wipers.png",
+    "bytes": 187261,
+    "sha256": "834579928016c1018c493b2ae84c1fd486ac5a4451adb60c5485d756d058607a",
+    "target": "wipers"
+  },
+  {
+    "path": "sheets/panel-seams.png",
+    "bytes": 198845,
+    "sha256": "a21b16f00c5743347680fbfd7cdbc8afdc6f147fcd060dcdd29e783e0239065c",
+    "target": "panel-seams"
+  },
+  {
+    "path": "sheets/interior.png",
+    "bytes": 265885,
+    "sha256": "dbfc651a2d85cee0d798b9a75364ce6142ebbda75622f199716f576e90618f42",
+    "target": "interior"
+  },
+  {
+    "path": "sheets/glass-edge.png",
+    "bytes": 206138,
+    "sha256": "92cb4e1fbfef23f40d5df916e0282e7fdef3f93f6c9ddf370bde70d7c2b9845b",
+    "target": "glass-edge"
+  }
+]

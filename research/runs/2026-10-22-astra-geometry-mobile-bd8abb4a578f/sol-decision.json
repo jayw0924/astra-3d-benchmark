@@ -1,0 +1,21 @@
+{
+  "decision": "stop-mobile-experiment-retain-safe",
+  "promotionApproved": false,
+  "technicalReproducibility": "pass: independent in-memory reconstruction equals candidate; repeat identical; protected semantics verified",
+  "privateAttribution": "verified by parent from authentic ignored export: exact session descriptor, gpt-6-astra and openai-codex billing provider",
+  "candidateBytes": 9195792,
+  "safeBytes": 9239404,
+  "additionalBytesSavedVsSafe": 43612,
+  "additionalPercentSavedVsSafe": 0.47202178841838716,
+  "candidateTriangles": 183125,
+  "safeTriangles": 183117,
+  "candidatePositionAccessorEntries": 146067,
+  "safePositionAccessorEntries": 144888,
+  "visualFindings": "Independent review of all nine sheets and native panel-seam images found jagged leading-door highlights and lower door/sill shading disturbances. Safe is closer to control at these locations.",
+  "browserHistoryGate": "incomplete: captured two-finish assignments do not replace actual all-four-variant ordered transitions",
+  "candidatePerformance": "unavailable after interrupted measurement; no runtime advantage established",
+  "realDeviceEvidence": "unavailable",
+  "disposition": "Preserve candidate, failures and all evidence as a reproducible low-benefit experiment. Do not spend further correction rounds or add another LOD/selection policy for this candidate. Keep the locally integrated Safe WebGL artifact unchanged.",
+  "rationale": "The 0.472% incremental payload saving does not justify visible quality loss and added asset, selection and validation complexity. Mobile has slightly more topology and POSITION entries than Safe despite a smaller serialized file.",
+  "authorship": "Sol disposition following independent Sol technical and visual review; this is not Astra-authored optimization or a retrospective claim of completed missing gates."
+}

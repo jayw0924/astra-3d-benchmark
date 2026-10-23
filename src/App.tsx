@@ -5,9 +5,9 @@ const Configurator = lazy(() => import('./components/Configurator'));
 
 const workPackages = [
   ['01', 'Inspect', 'Verified asset hierarchy, materials, extensions, dimensions, and web risks.'],
-  ['02', 'Author', 'Two deterministic material candidates; standalone geometry was not performed.'],
+  ['02', 'Author', 'Two material candidates and a corrected Safe geometry derivative; failures retained.'],
   ['03', 'Render', 'Thirty controlled browser renders with fixed, reproducible settings.'],
-  ['04', 'Integrate', 'The selected finish in a tested desktop and mobile browser configurator.'],
+  ['04', 'Integrate', 'The accepted Safe model in a tested desktop and mobile browser configurator.'],
 ];
 
 const renderStudies = [
@@ -28,6 +28,33 @@ const renderStudies = [
   },
 ] as const;
 
+const geometryStudies = [
+  {
+    title: 'Raw licensed source',
+    detail: 'Upstream Carmine Candy before this project removed mark-bearing geometry.',
+    src: '/assets/study/geometry/source-overview.png',
+    alt: 'Raw licensed CarConcept source in Carmine Candy, front three-quarter view',
+  },
+  {
+    title: 'Sanitized web baseline',
+    detail: 'Plate and steering-emblem nodes physically removed; supplied geometry retained.',
+    src: '/assets/study/geometry/sanitized-overview.png',
+    alt: 'Sanitized CarConcept web baseline in Carmine Candy, front three-quarter view',
+  },
+  {
+    title: 'Selected control',
+    detail: 'The immutable historical Estuary control for the scored optimization experiment.',
+    src: '/assets/study/geometry/estuary-overview.png',
+    alt: 'Integrated Estuary geometry control, front three-quarter view',
+  },
+  {
+    title: 'Topology detail',
+    detail: 'Isolated front wheel, rim, brake, and tire triangulation at the same output size.',
+    src: '/assets/study/geometry/wireframe-wheel-detail.png',
+    alt: 'Front wheel topology detail rendered as a dark green wireframe',
+  },
+] as const;
+
 export default function App() {
   return (
     <>
@@ -36,6 +63,7 @@ export default function App() {
           A3D / 01
         </a>
         <nav aria-label="Study navigation">
+          <a href="#geometry">Geometry</a>
           <a href="#configurator">Configurator</a>
           <a href="#methods">Methods</a>
           <a href="#evidence">Evidence</a>
@@ -56,8 +84,8 @@ export default function App() {
           <aside className="study-status" aria-label="Study status">
             <span className="status-dot" aria-hidden="true" />
             <div>
-              <strong>Phase 1 complete</strong>
-              <p>{studyData.summary.astraRunCount} verified Astra runs · Estuary integrated</p>
+              <strong>Safe result integrated locally</strong>
+              <p>{studyData.summary.astraRunCount} verified Astra runs · Safe geometry integrated</p>
             </div>
           </aside>
           <div className="hero-object" aria-label="Selected benchmark object">
@@ -96,6 +124,107 @@ export default function App() {
               </article>
             ))}
           </div>
+        </section>
+
+        <section id="safe-result" className="geometry-section" aria-labelledby="safe-title">
+          <div className="section-heading">
+            <p className="eyebrow">Decision · Accepted and integrated locally</p>
+            <h2 id="safe-title">Accepted Safe geometry</h2>
+            <p>
+              9.34% smaller payload: 9,239,404 bytes versus the 10,191,496-byte control.
+              The FINAL candidate passed 108 fixed-view cases and 64 ordered material
+              transitions. Earlier attempts were rejected for visible surface and seam defects.
+            </p>
+          </div>
+          <div className="geometry-metrics" aria-label="Current Safe model geometry metrics">
+            <article><strong>183,117 triangles</strong><span>complete model topology</span></article>
+            <article><strong>144,888 distinct POSITION accessor entries</strong><span>static source-data count</span></article>
+            <article><strong>549,351 submitted triangle indices</strong><span>static count per complete pass</span></article>
+            <article><strong>107 primitives retained</strong><span>not measured draw calls</span></article>
+          </div>
+          <p className="geometry-note">
+            Fixed-view acceptance only; no arbitrary-view or real-device quality claim.
+            No runtime speedup is established; first-correct-frame timing is unavailable.
+            Optimization is evidence-verified Astra-directed work; comparison captures,
+            acceptance review, and local integration are Sol-authored.
+          </p>
+          <div className="render-grid safe-evidence" aria-label="Safe geometry comparison previews">
+            {([
+              ['before', 'Before: control'],
+              ['first-attempt', 'First attempt: rejected'],
+              ['final', 'Final: accepted'],
+            ] as const).map(([file, label]) => (
+              <article className="render-card" key={file}>
+                <img src={`/assets/study/safe-final/${file}.png`} alt={label} width="600" height="400" loading="lazy" />
+                <div className="render-card-body"><h3>{label}</h3></div>
+              </article>
+            ))}
+          </div>
+          <p className="geometry-note">
+            Exact research PNG copies: Estuary front three-quarter shaded view under the
+            frozen comparison rig, not new runtime screenshots. This preview does not
+            reveal every rejected defect. Before/final: 2026-10-22-sol-safe-final-comparison;
+            first attempt: 2026-10-21-sol-safe-webgl-comparison. Source and derivative
+            attribution remains the CarConcept credit below.
+          </p>
+        </section>
+
+        <section id="geometry" className="geometry-section" aria-labelledby="geometry-title">
+          <div className="section-heading split-heading">
+            <div>
+              <p className="eyebrow">Historical control — not the current runtime</p>
+              <h2 id="geometry-title">Geometry baseline</h2>
+            </div>
+            <p>
+              CarConcept was selected for named, separable parts, material variants,
+              embedded KTX2 textures, and enough real product complexity to expose
+              browser trade-offs. Its CC BY 4.0 package also carries a separate marks
+              notice, so the public derivative removes the plate and steering emblem.
+            </p>
+          </div>
+
+          <div className="geometry-lineage" aria-label="Asset geometry lineage">
+            {geometryStudies.map((study, index) => (
+              <article className="geometry-card" key={study.title}>
+                <img
+                  src={study.src}
+                  alt={study.alt}
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+                <div>
+                  <span>0{index + 1}</span>
+                  <h3>{study.title}</h3>
+                  <p>{study.detail}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="geometry-metrics" aria-label="Historical control geometry metrics">
+            <article>
+              <strong>213,195 triangles</strong>
+              <span>complete model topology</span>
+            </article>
+            <article>
+              <strong>162,646 distinct POSITION accessor entries</strong>
+              <span>static source-data count, not a GPU upload measurement</span>
+            </article>
+            <article>
+              <strong>639,585 submitted triangle indices</strong>
+              <span>static index count per complete pass, not vertex-shader work</span>
+            </article>
+            <article>
+              <strong>107 primitives</strong>
+              <span>static draw-submission proxy</span>
+            </article>
+          </div>
+          <p className="geometry-note">
+            Historical control: 10,191,496 bytes, 99 nodes, 95 meshes, 30 materials,
+            and 14 embedded KTX2 images. Primitive count is not a measured draw-call
+            count, and software-renderer timing is not production-GPU performance.
+          </p>
         </section>
 
         <section id="configurator" className="configurator-section" aria-labelledby="configurator-title">
@@ -156,14 +285,14 @@ export default function App() {
           </div>
           <div className="evidence-grid">
             <article>
-              <p className="eyebrow">Verified baseline</p>
-              <strong>10.19 MB</strong>
+              <p className="eyebrow">Accepted Safe runtime</p>
+              <strong>9.24 MB</strong>
               <span>runtime GLB</span>
             </article>
             <article>
               <p className="eyebrow">Scene complexity</p>
-              <strong>640k</strong>
-              <span>render vertices / pass</span>
+              <strong>549,351</strong>
+              <span>submitted triangle indices / pass</span>
             </article>
             <article>
               <p className="eyebrow">Configurations</p>
@@ -181,8 +310,10 @@ export default function App() {
             <p className="eyebrow">Required disclosure</p>
             <h2>What failed</h2>
             <p>
-              Standalone geometry authoring was not performed because Blender was
-              unavailable. High-resolution software-renderer capture proved impractical,
+              Phase 1 standalone geometry authoring was not performed because Blender was
+              unavailable; later Safe geometry optimization used a pinned non-Blender toolchain.
+              Initial Safe attempts failed visual review before the FINAL repair was accepted.
+              High-resolution software-renderer capture proved impractical,
               and several close-ups required documented camera repair. Runtime timing is
               diagnostic only and is not presented as production-GPU performance.
             </p>

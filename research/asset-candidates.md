@@ -24,7 +24,7 @@ Each category is scored 0–4, multiplied by its published weight in `research/p
 - **Selected immutable artifact:** optimized GLB at Khronos commit `15cd02d304e54cb42a4db4eefe719f76190f4b68`.
 - **Verified upstream artifact:** `research/assets/upstream/CarConcept.glb`, 10,267,996 bytes, SHA-256 `659c592e20aba7afa920db7d14ad767874741384c215ee1df23a5e1c5e1c411c`.
 - **Verified served derivative:** `public/assets/models/product.glb`, 10,190,148 bytes, SHA-256 `67b7986109c72f6fcc61745e4e2eef25833fbf5c43fa6ffc0f0cf4e9d9e91f41`.
-- **Derivative inspection:** glTF 2.0; 1 scene; 639,585 render vertices for one pass; 162,646 upload vertices; 28 materials; 14 KTX2 textures; no animation; `KHR_texture_basisu` required.
+- **Derivative inspection:** glTF 2.0; 1 scene; 639,585 submitted triangle indices for one complete pass; 162,646 distinct POSITION accessor entries; 28 materials; 14 KTX2 textures; no animation; `KHR_texture_basisu` required. The two geometry values are static file-structure counts, not GPU-upload or shader-work measurements.
 - **Risk treatment:** deterministically remove the `License Plate` and `InteriorSteeringEmblem` nodes and their unreferenced resources from the served derivative, preserve credits, retain the exact upstream bytes outside `public/`, and do not imply endorsement.
 
 ## ToyCar

@@ -1,0 +1,26 @@
+{
+  "status": "correction-required",
+  "promotionApproved": false,
+  "deployedControl": "web-product-estuary",
+  "candidate": "safe-webgl-d8fc14b866ab",
+  "evidenceIntegrity": "pass: 108 captures and all 158 inventoried files independently verified",
+  "browserVariants": "pass: 64 actual ordered transitions with 25 assignments each",
+  "visualParity": "fail: native-resolution hood-insert and glass/roof-adjacent bright edging is irregular or scalloped in the candidate in both tested finishes",
+  "deliveryBenefit": {
+    "controlBytes": 10191496,
+    "candidateBytes": 9051644,
+    "savedBytes": 1139852
+  },
+  "runtimeBenefit": "not established; SwiftShader scheduling-bound diagnostics and interrupted extra contexts cannot justify production-GPU ranking",
+  "bestEvidence": [
+    "rendered/control--wipers--estuary--shaded.png",
+    "rendered/safe--wipers--estuary--shaded.png",
+    "rendered/control--glass-edge--estuary--shaded.png",
+    "rendered/safe--glass-edge--estuary--shaded.png"
+  ],
+  "disposition": "Retain immutable Estuary control deployed. Preserve this rejected-for-promotion candidate and comparison evidence. Request a narrowly scoped Astra correction rather than accept smaller size as visual parity.",
+  "proposedCorrection": "Identify primitives causing hood/grill and glazing-adjacent edge artifacts; preserve those source primitives or tighten their simplification tolerance. Rebuild independently from the immutable Estuary control, never from the simplified candidate. Preserve v1 and all failures. Rerun semantic/reproduction checks and fixed affected-view comparisons before the complete acceptance matrix.",
+  "remainingCorrectionBudget": 2,
+  "authorship": "Sol acceptance decision following independent Sol comparison review; not Astra-authored optimization",
+  "limitations": "Human reviewer may explicitly accept a disclosed deviation, but no such acceptance has been given. No Mobile LOD, public integration, commits or pushes are authorized by this decision."
+}

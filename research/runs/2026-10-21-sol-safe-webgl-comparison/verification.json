@@ -1,0 +1,25 @@
+{
+  "status": "evidence technically complete; visually unaccepted; independent decision required",
+  "captures": 108,
+  "remaining": 0,
+  "contactSheets": 9,
+  "panelsReviewed": 108,
+  "completeMeasuredContexts": 4,
+  "rawWarmedSamples": 120,
+  "orderedTransitions": 64,
+  "activeCaptureErrors": [],
+  "measuredSessionErrors": [],
+  "historicalCaptureErrors": [
+    "http://127.0.0.1:37901/node_modules/three/examples/jsm/libs/basis/basis_transcoder.js: net::ERR_ABORTED"
+  ],
+  "galleryDecoded": 108,
+  "inputPinsReverified": true,
+  "harnessHashesReverified": true,
+  "runJsonAuthored": false,
+  "limitations": [
+    "unresolved hood/top-grill glass-adjacent highlight concern",
+    "software-renderer scheduling-bound timings, no production-GPU ranking",
+    "first-correct-frame latency unavailable",
+    "two interrupted measurement contexts excluded; four complete ABBA contexts retained"
+  ]
+}

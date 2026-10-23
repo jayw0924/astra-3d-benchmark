@@ -1,0 +1,169 @@
+{
+  "id": "2026-10-21-sol-geometry-phase1-review",
+  "title": "Fail-closed Phase 1 geometry review",
+  "startedAt": "2026-10-21T13:00:42Z",
+  "endedAt": "2026-10-21T13:13:50Z",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": [
+    "read_file",
+    "search_files",
+    "patch",
+    "write_file",
+    "terminal",
+    "delegate_task"
+  ],
+  "workPackage": "geometry",
+  "inputAssets": [
+    "primary-product",
+    "web-product",
+    "web-product-estuary"
+  ],
+  "promptPath": "research/runs/2026-10-21-sol-geometry-phase1-review/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-geometry-phase1-review/notes.md",
+    "research/protocols/geometry-optimization-v1.md",
+    "research/schemas/geometry-report.schema.json",
+    "scripts/report-geometry.mjs",
+    "scripts/report-geometry.test.mjs",
+    "scripts/validate-research.mjs",
+    "scripts/validate-research.test.mjs",
+    "scripts/geometry-terminology.test.mjs",
+    "src/App.tsx",
+    "src/App.test.tsx",
+    "research/asset-candidates.md",
+    "research/runs/2026-10-20-sol-baseline-setup/notes.md",
+    "research/runs/2026-10-20-astra-inspection/notes.md",
+    "research/runs/2026-10-21-sol-geometry-baseline/notes.md",
+    "research/runs/2026-10-21-sol-geometry-baseline/reports/source/geometry-report.json",
+    "research/runs/2026-10-21-sol-geometry-baseline/reports/sanitized/geometry-report.json",
+    "research/runs/2026-10-21-sol-geometry-baseline/reports/integrated/geometry-report.json",
+    "research/runs/2026-10-21-sol-geometry-protocol/run.json",
+    "research/runs/2026-10-21-sol-geometry-baseline/run.json",
+    "research/runs/2026-10-21-sol-geometry-baseline-publication/notes.md",
+    "research/runs/2026-10-21-sol-geometry-baseline-publication/run.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-phase1-review/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/protocols/geometry-optimization-v1.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/schemas/geometry-report.schema.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "scripts/report-geometry.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "scripts/report-geometry.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "scripts/validate-research.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "scripts/validate-research.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "scripts/geometry-terminology.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/App.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "src/App.test.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/asset-candidates.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-20-sol-baseline-setup/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-inspection/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/reports/source/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/reports/sanitized/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/reports/integrated/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-protocol/run.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline/run.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline-publication/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-baseline-publication/run.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["primary-product", "web-product", "web-product-estuary"]
+      }
+    ]
+  },
+  "elapsedSeconds": 788,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "not exposed"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Initial code/data-integrity review found a symlink containment weakness, a mismatched control ID, unverified geometry-report measurements, and misleading metric terminology. A first re-review found residual legacy terminology. Both correction cycles are documented in notes.md; the final independent review passed with no blockers.",
+  "reviewer": "Independent specification/provenance and code/data-integrity reviewers; final verdict pass",
+  "publicSummary": "Independent review verified the Phase 1 geometry evidence after two documented correction cycles."
+}

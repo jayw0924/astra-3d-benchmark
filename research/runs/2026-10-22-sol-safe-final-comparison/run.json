@@ -1,0 +1,1921 @@
+{
+  "id": "2026-10-22-sol-safe-final-comparison",
+  "title": "FINAL Safe WebGL comparison \u2014 accepted research artifact",
+  "startedAt": "2026-10-22T14:44:19.511437+00:00",
+  "endedAt": "2026-10-22T19:23:52.145964+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes delegated research evaluator; Docker tools",
+  "reasoningMode": "not independently recorded",
+  "tools": [
+    "terminal",
+    "Node.js",
+    "Python",
+    "Playwright Chromium"
+  ],
+  "workPackage": "render",
+  "inputAssets": [
+    "web-product-estuary",
+    "safe-webgl-final-d0bf6e206c92"
+  ],
+  "promptPath": "research/runs/2026-10-22-sol-safe-final-comparison/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-22-sol-safe-final-comparison/affected-view-replay.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/artifact-inventory.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/capture-manifest.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/capture.mjs",
+    "research/runs/2026-10-22-sol-safe-final-comparison/cleanup-test-fixtures.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/cleanup-test-fixtures.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/commands.jsonl",
+    "research/runs/2026-10-22-sol-safe-final-comparison/control-spec.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/decision.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/document.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/document.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/environment.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/evidence-red.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execute.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-0.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-1.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-2.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-3.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-4.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-5.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-6.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-7.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/execution-8.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/fast-render-plans.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/fast-scripts.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/fast-unit.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/fast.config.mjs",
+    "research/runs/2026-10-22-sol-safe-final-comparison/full-execution.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/gallery-check.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/gallery.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/image-differences.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/index.html",
+    "research/runs/2026-10-22-sol-safe-final-comparison/initial-inventory.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/inventory-execution.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/inventory.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/log-command.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/matrix-green.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/matrix-red.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/metrics-summary.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparison-manifest.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--carmine--native-pair.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--carmine--native-threeway.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--carmine--seam-nearest4x.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--estuary--native-pair.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--estuary--native-threeway.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--estuary--seam-nearest4x.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--carmine--native-pair.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--carmine--native-threeway.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--estuary--native-pair.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--estuary--native-threeway.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/notes.md",
+    "research/runs/2026-10-22-sol-safe-final-comparison/package-visual.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/package.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/page.html",
+    "research/runs/2026-10-22-sol-safe-final-comparison/page.js",
+    "research/runs/2026-10-22-sol-safe-final-comparison/pins-green.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/pins-red.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/pins.test.mjs",
+    "research/runs/2026-10-22-sol-safe-final-comparison/plan.mjs",
+    "research/runs/2026-10-22-sol-safe-final-comparison/plan.test.mjs",
+    "research/runs/2026-10-22-sol-safe-final-comparison/prepare-retry.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/prepare.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/prepare.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/prompt.md",
+    "research/runs/2026-10-22-sol-safe-final-comparison/protected-snapshot.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/provenance.test.mjs",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680296237.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680383027.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680471230.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680556335.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680647523.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-0-control.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-1-safe.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-2-safe.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-3-control.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--shaded.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--silhouette.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--wireframe.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/reuse-verification.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/seam-diagnostic.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/setup.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheet-manifest.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/front-three-quarter.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/glass-edge.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/interior.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/mirror-window.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/panel-seams.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/rear-three-quarter.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/side.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/wheel-brake.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/sheets/wipers.png",
+    "research/runs/2026-10-22-sol-safe-final-comparison/summarize.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/summarize.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/tests-final.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/tool-attempts.md",
+    "research/runs/2026-10-22-sol-safe-final-comparison/verification-execution.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/verification-final.txt",
+    "research/runs/2026-10-22-sol-safe-final-comparison/verification.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/verify.py",
+    "research/runs/2026-10-22-sol-safe-final-comparison/visual-review.json",
+    "research/runs/2026-10-22-sol-safe-final-comparison/visual-review.md"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/affected-view-replay.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/artifact-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/capture-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/cleanup-test-fixtures.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/cleanup-test-fixtures.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/commands.jsonl",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/control-spec.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/decision.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/document.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/document.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/environment.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/evidence-red.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execute.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-0.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-1.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-2.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-3.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-4.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-5.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-6.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-7.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/execution-8.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/fast-render-plans.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/fast-scripts.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/fast-unit.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/fast.config.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/full-execution.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/gallery-check.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/gallery.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/image-differences.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/initial-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/inventory-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/inventory.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/log-command.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/matrix-green.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/matrix-red.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/metrics-summary.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparison-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--carmine--native-pair.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--carmine--native-threeway.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--carmine--seam-nearest4x.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--estuary--native-pair.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--estuary--native-threeway.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/glass-edge--estuary--seam-nearest4x.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--carmine--native-pair.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--carmine--native-threeway.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--estuary--native-pair.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons/wipers--estuary--native-threeway.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/package-visual.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/package.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/page.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/pins-green.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/pins-red.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/pins.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/plan.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/plan.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/prepare-retry.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/prepare.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/prepare.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/protected-snapshot.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/provenance.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680296237.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680383027.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680471230.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680556335.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/capture-safe-1792680647523.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-0-control.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-1-safe.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-2-safe.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-3-control.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--front-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--glass-edge--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--interior--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--mirror-window--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--panel-seams--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--rear-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--side--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wheel-brake--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/control--wipers--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--front-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--glass-edge--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--interior--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--mirror-window--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--panel-seams--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--rear-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--side--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wheel-brake--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/rendered/safe--wipers--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/reuse-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/seam-diagnostic.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/setup.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheet-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/front-three-quarter.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/glass-edge.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/interior.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/mirror-window.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/panel-seams.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/rear-three-quarter.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/side.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/wheel-brake.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/sheets/wipers.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/summarize.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/summarize.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/tests-final.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/tool-attempts.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/verification-execution.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/verification-final.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/verify.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/visual-review.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/visual-review.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 16772.634527,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Actual billing unavailable; not estimated"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Authentic private attribution, independent static/reproduction and frozen fixed-view research gates pass. FINAL accepted research artifact only; separate application integration acceptance required. Runtime speedup not established; first-correct-frame unavailable. Correction budget exhausted. 108 matrix cases, 64 actual browser transitions and 120 warmed diagnostic samples. Fixed-view research decision is separate from application acceptance.",
+  "reviewer": "gpt-6.1-sol; independent findings recorded by parent",
+  "publicSummary": "Authentic private attribution, independent static/reproduction and frozen fixed-view research gates pass. FINAL accepted research artifact only; separate application integration acceptance required. Runtime speedup not established; first-correct-frame unavailable. Correction budget exhausted. 108 matrix cases, 64 actual browser transitions and 120 warmed diagnostic samples. Fixed-view research decision is separate from application acceptance."
+}

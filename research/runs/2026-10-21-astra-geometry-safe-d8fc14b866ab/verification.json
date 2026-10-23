@@ -1,0 +1,1171 @@
+{
+  "checks": [
+    {
+      "name": "source pin",
+      "passed": true
+    },
+    {
+      "name": "repeat exact bytes",
+      "passed": true
+    },
+    {
+      "name": "geometry schema baseline",
+      "passed": true
+    },
+    {
+      "name": "geometry schema safe-webgl",
+      "passed": true
+    },
+    {
+      "name": "protected static counts",
+      "passed": true
+    },
+    {
+      "name": "world bounds within 1e-6 m",
+      "passed": true
+    },
+    {
+      "name": "no forbidden nodes",
+      "passed": true
+    },
+    {
+      "name": "hierarchy names and transforms",
+      "passed": true
+    },
+    {
+      "name": "materials equal with glTF default alphaMode OPAQUE",
+      "passed": true
+    },
+    {
+      "name": "textures and samplers exact JSON semantics",
+      "passed": true
+    },
+    {
+      "name": "extension sets and root variant definitions",
+      "passed": true
+    },
+    {
+      "name": "embedded KTX2 image identity",
+      "passed": true
+    },
+    {
+      "name": "primitive identities, assignments, variants and vertex tuples",
+      "passed": true
+    },
+    {
+      "name": "four variants each cover 25 primitives",
+      "passed": true
+    },
+    {
+      "name": "control official validator zero errors",
+      "passed": true
+    },
+    {
+      "name": "candidate official validator zero errors",
+      "passed": true
+    },
+    {
+      "name": "named delivery metric improves",
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "source": {
+    "bytes": 10191496,
+    "sha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f"
+  },
+  "candidate": {
+    "bytes": 9051644,
+    "sha256": "0c57718add772f1265f8cbb3d9f165bc3b06c73629b50f5297f31f844d32c810"
+  },
+  "deltas": {
+    "bytes": {
+      "source": 10191496,
+      "candidate": 9051644,
+      "change": -1139852,
+      "reductionPercent": 11.184344280761136
+    },
+    "scenes": {
+      "source": 1,
+      "candidate": 1,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "nodes": {
+      "source": 99,
+      "candidate": 99,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "reachableNodes": {
+      "source": 99,
+      "candidate": 99,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "meshes": {
+      "source": 95,
+      "candidate": 95,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "primitives": {
+      "source": 107,
+      "candidate": 107,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "materials": {
+      "source": 30,
+      "candidate": 30,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "textures": {
+      "source": 14,
+      "candidate": 14,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "images": {
+      "source": 14,
+      "candidate": 14,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "cameras": {
+      "source": 0,
+      "candidate": 0,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "animations": {
+      "source": 0,
+      "candidate": 0,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "skins": {
+      "source": 0,
+      "candidate": 0,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "triangles": {
+      "source": 213195,
+      "candidate": 177415,
+      "change": -35780,
+      "reductionPercent": 16.782757569361383
+    },
+    "submittedTriangleIndices": {
+      "source": 639585,
+      "candidate": 532245,
+      "change": -107340,
+      "reductionPercent": 16.782757569361383
+    },
+    "positionAccessorEntries": {
+      "source": 162646,
+      "candidate": 141935,
+      "change": -20711,
+      "reductionPercent": 12.733789948722993
+    }
+  },
+  "officialValidator": [
+    {
+      "name": "control",
+      "version": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 28,
+      "infos": 15,
+      "codes": [
+        "UNSUPPORTED_EXTENSION",
+        "VALUE_NOT_IN_LIST",
+        "UNUSED_OBJECT",
+        "IMAGE_UNRECOGNIZED_FORMAT"
+      ]
+    },
+    {
+      "name": "candidate",
+      "version": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 28,
+      "infos": 15,
+      "codes": [
+        "UNSUPPORTED_EXTENSION",
+        "VALUE_NOT_IN_LIST",
+        "UNUSED_OBJECT",
+        "IMAGE_UNRECOGNIZED_FORMAT"
+      ]
+    }
+  ],
+  "perPrimitive": [
+    {
+      "mesh": 0,
+      "primitive": 0,
+      "name": "BodyUnderside",
+      "sourceTriangles": 940,
+      "candidateTriangles": 818,
+      "sourceVertices": 791,
+      "candidateVertices": 718
+    },
+    {
+      "mesh": 1,
+      "primitive": 0,
+      "name": "BodyWindshield",
+      "sourceTriangles": 2880,
+      "candidateTriangles": 2304,
+      "sourceVertices": 1535,
+      "candidateVertices": 1247
+    },
+    {
+      "mesh": 2,
+      "primitive": 0,
+      "name": "BodyWindshieldGasket",
+      "sourceTriangles": 452,
+      "candidateTriangles": 446,
+      "sourceVertices": 549,
+      "candidateVertices": 543
+    },
+    {
+      "mesh": 3,
+      "primitive": 0,
+      "name": "BodyWindshieldWipers",
+      "sourceTriangles": 24336,
+      "candidateTriangles": 19468,
+      "sourceVertices": 30429,
+      "candidateVertices": 26561
+    },
+    {
+      "mesh": 4,
+      "primitive": 0,
+      "name": "BodyWindshieldWipersBase",
+      "sourceTriangles": 496,
+      "candidateTriangles": 396,
+      "sourceVertices": 312,
+      "candidateVertices": 262
+    },
+    {
+      "mesh": 5,
+      "primitive": 0,
+      "name": "Engine",
+      "sourceTriangles": 60,
+      "candidateTriangles": 60,
+      "sourceVertices": 88,
+      "candidateVertices": 88
+    },
+    {
+      "mesh": 6,
+      "primitive": 0,
+      "name": "InteriorCage",
+      "sourceTriangles": 2570,
+      "candidateTriangles": 2442,
+      "sourceVertices": 2006,
+      "candidateVertices": 1924
+    },
+    {
+      "mesh": 7,
+      "primitive": 0,
+      "name": "InteriorDashMid",
+      "sourceTriangles": 420,
+      "candidateTriangles": 408,
+      "sourceVertices": 377,
+      "candidateVertices": 371
+    },
+    {
+      "mesh": 8,
+      "primitive": 0,
+      "name": "InteriorDashSides",
+      "sourceTriangles": 596,
+      "candidateTriangles": 586,
+      "sourceVertices": 408,
+      "candidateVertices": 402
+    },
+    {
+      "mesh": 9,
+      "primitive": 0,
+      "name": "InteriorFloor",
+      "sourceTriangles": 940,
+      "candidateTriangles": 796,
+      "sourceVertices": 719,
+      "candidateVertices": 637
+    },
+    {
+      "mesh": 10,
+      "primitive": 0,
+      "name": "InteriorFloormats",
+      "sourceTriangles": 1088,
+      "candidateTriangles": 1088,
+      "sourceVertices": 921,
+      "candidateVertices": 921
+    },
+    {
+      "mesh": 11,
+      "primitive": 0,
+      "name": "InteriorPedalAccel",
+      "sourceTriangles": 164,
+      "candidateTriangles": 156,
+      "sourceVertices": 281,
+      "candidateVertices": 273
+    },
+    {
+      "mesh": 12,
+      "primitive": 0,
+      "name": "InteriorPedalAccelArm",
+      "sourceTriangles": 156,
+      "candidateTriangles": 156,
+      "sourceVertices": 147,
+      "candidateVertices": 147
+    },
+    {
+      "mesh": 13,
+      "primitive": 0,
+      "name": "InteriorPedalBrake",
+      "sourceTriangles": 428,
+      "candidateTriangles": 418,
+      "sourceVertices": 484,
+      "candidateVertices": 478
+    },
+    {
+      "mesh": 14,
+      "primitive": 0,
+      "name": "InteriorPedalBrakeArm",
+      "sourceTriangles": 204,
+      "candidateTriangles": 204,
+      "sourceVertices": 176,
+      "candidateVertices": 176
+    },
+    {
+      "mesh": 15,
+      "primitive": 0,
+      "name": "InteriorPillar",
+      "sourceTriangles": 2017,
+      "candidateTriangles": 1915,
+      "sourceVertices": 1613,
+      "candidateVertices": 1556
+    },
+    {
+      "mesh": 16,
+      "primitive": 0,
+      "name": "InteriorSeatsColor1",
+      "sourceTriangles": 2376,
+      "candidateTriangles": 2132,
+      "sourceVertices": 1828,
+      "candidateVertices": 1685
+    },
+    {
+      "mesh": 17,
+      "primitive": 0,
+      "name": "InteriorSeatsColor2",
+      "sourceTriangles": 2160,
+      "candidateTriangles": 1850,
+      "sourceVertices": 1668,
+      "candidateVertices": 1495
+    },
+    {
+      "mesh": 18,
+      "primitive": 0,
+      "name": "InteriorSeatsFrame1",
+      "sourceTriangles": 5528,
+      "candidateTriangles": 4422,
+      "sourceVertices": 4034,
+      "candidateVertices": 3431
+    },
+    {
+      "mesh": 19,
+      "primitive": 0,
+      "name": "InteriorSeatsFrame2",
+      "sourceTriangles": 2680,
+      "candidateTriangles": 2144,
+      "sourceVertices": 1839,
+      "candidateVertices": 1571
+    },
+    {
+      "mesh": 20,
+      "primitive": 0,
+      "name": "InteriorSteeringBase",
+      "sourceTriangles": 958,
+      "candidateTriangles": 772,
+      "sourceVertices": 651,
+      "candidateVertices": 546
+    },
+    {
+      "mesh": 21,
+      "primitive": 0,
+      "name": "InteriorSteeringCylinder",
+      "sourceTriangles": 1412,
+      "candidateTriangles": 1188,
+      "sourceVertices": 1061,
+      "candidateVertices": 920
+    },
+    {
+      "mesh": 22,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel04",
+      "sourceTriangles": 96,
+      "candidateTriangles": 96,
+      "sourceVertices": 120,
+      "candidateVertices": 120
+    },
+    {
+      "mesh": 23,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel01",
+      "sourceTriangles": 864,
+      "candidateTriangles": 814,
+      "sourceVertices": 750,
+      "candidateVertices": 709
+    },
+    {
+      "mesh": 24,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel02",
+      "sourceTriangles": 640,
+      "candidateTriangles": 620,
+      "sourceVertices": 468,
+      "candidateVertices": 455
+    },
+    {
+      "mesh": 25,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel03",
+      "sourceTriangles": 32,
+      "candidateTriangles": 24,
+      "sourceVertices": 36,
+      "candidateVertices": 30
+    },
+    {
+      "mesh": 26,
+      "primitive": 0,
+      "name": "InteriorSteeringDash",
+      "sourceTriangles": 196,
+      "candidateTriangles": 180,
+      "sourceVertices": 194,
+      "candidateVertices": 184
+    },
+    {
+      "mesh": 27,
+      "primitive": 0,
+      "name": "InteriorSteeringDashColumn",
+      "sourceTriangles": 160,
+      "candidateTriangles": 158,
+      "sourceVertices": 124,
+      "candidateVertices": 123
+    },
+    {
+      "mesh": 28,
+      "primitive": 0,
+      "name": "InteriorSteeringHandleL",
+      "sourceTriangles": 346,
+      "candidateTriangles": 326,
+      "sourceVertices": 284,
+      "candidateVertices": 271
+    },
+    {
+      "mesh": 29,
+      "primitive": 0,
+      "name": "InteriorSteeringHandleR",
+      "sourceTriangles": 346,
+      "candidateTriangles": 340,
+      "sourceVertices": 286,
+      "candidateVertices": 283
+    },
+    {
+      "mesh": 30,
+      "primitive": 0,
+      "name": "BodyRoofPanel",
+      "sourceTriangles": 2492,
+      "candidateTriangles": 1992,
+      "sourceVertices": 1429,
+      "candidateVertices": 1179
+    },
+    {
+      "mesh": 31,
+      "primitive": 0,
+      "name": "BodyRearPanelsColor1",
+      "sourceTriangles": 12984,
+      "candidateTriangles": 10386,
+      "sourceVertices": 7726,
+      "candidateVertices": 6375
+    },
+    {
+      "mesh": 32,
+      "primitive": 0,
+      "name": "InteriorRearHatch",
+      "sourceTriangles": 918,
+      "candidateTriangles": 864,
+      "sourceVertices": 723,
+      "candidateVertices": 693
+    },
+    {
+      "mesh": 33,
+      "primitive": 0,
+      "name": "BodyWindowsRearSides",
+      "sourceTriangles": 1376,
+      "candidateTriangles": 1100,
+      "sourceVertices": 750,
+      "candidateVertices": 612
+    },
+    {
+      "mesh": 34,
+      "primitive": 0,
+      "name": "BodyTurnsignalsRear",
+      "sourceTriangles": 152,
+      "candidateTriangles": 142,
+      "sourceVertices": 136,
+      "candidateVertices": 130
+    },
+    {
+      "mesh": 35,
+      "primitive": 0,
+      "name": "BodyTaillightsPanels",
+      "sourceTriangles": 1296,
+      "candidateTriangles": 1242,
+      "sourceVertices": 1113,
+      "candidateVertices": 1072
+    },
+    {
+      "mesh": 36,
+      "primitive": 0,
+      "name": "BodyTaillights",
+      "sourceTriangles": 224,
+      "candidateTriangles": 224,
+      "sourceVertices": 192,
+      "candidateVertices": 192
+    },
+    {
+      "mesh": 37,
+      "primitive": 0,
+      "name": "BodyRearwindow",
+      "sourceTriangles": 2848,
+      "candidateTriangles": 2278,
+      "sourceVertices": 1497,
+      "candidateVertices": 1212
+    },
+    {
+      "mesh": 38,
+      "primitive": 0,
+      "name": "BodyPillars",
+      "sourceTriangles": 5748,
+      "candidateTriangles": 4598,
+      "sourceVertices": 3547,
+      "candidateVertices": 2943
+    },
+    {
+      "mesh": 39,
+      "primitive": 0,
+      "name": "BodyPanelsColor2",
+      "sourceTriangles": 13360,
+      "candidateTriangles": 10688,
+      "sourceVertices": 8865,
+      "candidateVertices": 7436
+    },
+    {
+      "mesh": 40,
+      "primitive": 0,
+      "name": "BodyHood",
+      "sourceTriangles": 13296,
+      "candidateTriangles": 10636,
+      "sourceVertices": 7929,
+      "candidateVertices": 6552
+    },
+    {
+      "mesh": 41,
+      "primitive": 0,
+      "name": "BodyHoodInterior01",
+      "sourceTriangles": 3546,
+      "candidateTriangles": 3372,
+      "sourceVertices": 2401,
+      "candidateVertices": 2294
+    },
+    {
+      "mesh": 42,
+      "primitive": 0,
+      "name": "BodyHoodInterior02",
+      "sourceTriangles": 168,
+      "candidateTriangles": 168,
+      "sourceVertices": 153,
+      "candidateVertices": 153
+    },
+    {
+      "mesh": 43,
+      "primitive": 0,
+      "name": "BodyHoodTopgrill",
+      "sourceTriangles": 2672,
+      "candidateTriangles": 2136,
+      "sourceVertices": 1579,
+      "candidateVertices": 1308
+    },
+    {
+      "mesh": 44,
+      "primitive": 0,
+      "name": "BodyHoodUnder",
+      "sourceTriangles": 390,
+      "candidateTriangles": 370,
+      "sourceVertices": 294,
+      "candidateVertices": 283
+    },
+    {
+      "mesh": 45,
+      "primitive": 0,
+      "name": "BodyHeadlights",
+      "sourceTriangles": 288,
+      "candidateTriangles": 284,
+      "sourceVertices": 148,
+      "candidateVertices": 146
+    },
+    {
+      "mesh": 46,
+      "primitive": 0,
+      "name": "BodyDoorRColor1",
+      "sourceTriangles": 2608,
+      "candidateTriangles": 2086,
+      "sourceVertices": 1575,
+      "candidateVertices": 1296
+    },
+    {
+      "mesh": 47,
+      "primitive": 0,
+      "name": "BodyDoorRColor2",
+      "sourceTriangles": 1546,
+      "candidateTriangles": 1236,
+      "sourceVertices": 894,
+      "candidateVertices": 733
+    },
+    {
+      "mesh": 48,
+      "primitive": 0,
+      "name": "BodyDoorRHandle01",
+      "sourceTriangles": 227,
+      "candidateTriangles": 227,
+      "sourceVertices": 173,
+      "candidateVertices": 173
+    },
+    {
+      "mesh": 49,
+      "primitive": 0,
+      "name": "BodyDoorRHandle02",
+      "sourceTriangles": 102,
+      "candidateTriangles": 102,
+      "sourceVertices": 152,
+      "candidateVertices": 152
+    },
+    {
+      "mesh": 50,
+      "primitive": 0,
+      "name": "BodyDoorRMirror",
+      "sourceTriangles": 462,
+      "candidateTriangles": 368,
+      "sourceVertices": 257,
+      "candidateVertices": 210
+    },
+    {
+      "mesh": 51,
+      "primitive": 0,
+      "name": "BodyDoorRMirrorColor1",
+      "sourceTriangles": 540,
+      "candidateTriangles": 540,
+      "sourceVertices": 376,
+      "candidateVertices": 376
+    },
+    {
+      "mesh": 52,
+      "primitive": 0,
+      "name": "BodyDoorRMirrorColor2",
+      "sourceTriangles": 1166,
+      "candidateTriangles": 1148,
+      "sourceVertices": 912,
+      "candidateVertices": 901
+    },
+    {
+      "mesh": 53,
+      "primitive": 0,
+      "name": "BodyDoorRWindow",
+      "sourceTriangles": 1392,
+      "candidateTriangles": 1112,
+      "sourceVertices": 743,
+      "candidateVertices": 603
+    },
+    {
+      "mesh": 54,
+      "primitive": 0,
+      "name": "BodyDoorRWindowGasket",
+      "sourceTriangles": 576,
+      "candidateTriangles": 460,
+      "sourceVertices": 397,
+      "candidateVertices": 336
+    },
+    {
+      "mesh": 55,
+      "primitive": 0,
+      "name": "InteriorDoorR02",
+      "sourceTriangles": 721,
+      "candidateTriangles": 663,
+      "sourceVertices": 521,
+      "candidateVertices": 485
+    },
+    {
+      "mesh": 56,
+      "primitive": 0,
+      "name": "InteriorDoorR03",
+      "sourceTriangles": 195,
+      "candidateTriangles": 185,
+      "sourceVertices": 167,
+      "candidateVertices": 162
+    },
+    {
+      "mesh": 57,
+      "primitive": 0,
+      "name": "InteriorDoorR04",
+      "sourceTriangles": 80,
+      "candidateTriangles": 76,
+      "sourceVertices": 64,
+      "candidateVertices": 62
+    },
+    {
+      "mesh": 58,
+      "primitive": 0,
+      "name": "InteriorDoorR05",
+      "sourceTriangles": 112,
+      "candidateTriangles": 112,
+      "sourceVertices": 162,
+      "candidateVertices": 162
+    },
+    {
+      "mesh": 59,
+      "primitive": 0,
+      "name": "InteriorDoorR06",
+      "sourceTriangles": 764,
+      "candidateTriangles": 610,
+      "sourceVertices": 584,
+      "candidateVertices": 500
+    },
+    {
+      "mesh": 60,
+      "primitive": 0,
+      "name": "BodyDoorLColor1",
+      "sourceTriangles": 2595,
+      "candidateTriangles": 2075,
+      "sourceVertices": 1561,
+      "candidateVertices": 1292
+    },
+    {
+      "mesh": 61,
+      "primitive": 0,
+      "name": "InteriorDoorL04",
+      "sourceTriangles": 80,
+      "candidateTriangles": 78,
+      "sourceVertices": 60,
+      "candidateVertices": 59
+    },
+    {
+      "mesh": 62,
+      "primitive": 0,
+      "name": "InteriorDoorL02",
+      "sourceTriangles": 721,
+      "candidateTriangles": 661,
+      "sourceVertices": 509,
+      "candidateVertices": 472
+    },
+    {
+      "mesh": 63,
+      "primitive": 0,
+      "name": "InteriorDoorL03",
+      "sourceTriangles": 195,
+      "candidateTriangles": 181,
+      "sourceVertices": 168,
+      "candidateVertices": 159
+    },
+    {
+      "mesh": 64,
+      "primitive": 0,
+      "name": "InteriorDoorL05",
+      "sourceTriangles": 112,
+      "candidateTriangles": 112,
+      "sourceVertices": 156,
+      "candidateVertices": 156
+    },
+    {
+      "mesh": 65,
+      "primitive": 0,
+      "name": "InteriorDoorL06",
+      "sourceTriangles": 764,
+      "candidateTriangles": 610,
+      "sourceVertices": 579,
+      "candidateVertices": 496
+    },
+    {
+      "mesh": 66,
+      "primitive": 0,
+      "name": "BodyDoorLColor2",
+      "sourceTriangles": 1546,
+      "candidateTriangles": 1236,
+      "sourceVertices": 868,
+      "candidateVertices": 709
+    },
+    {
+      "mesh": 67,
+      "primitive": 0,
+      "name": "BodyDoorLHandle01",
+      "sourceTriangles": 384,
+      "candidateTriangles": 358,
+      "sourceVertices": 263,
+      "candidateVertices": 249
+    },
+    {
+      "mesh": 68,
+      "primitive": 0,
+      "name": "BodyDoorLHandle02",
+      "sourceTriangles": 102,
+      "candidateTriangles": 102,
+      "sourceVertices": 150,
+      "candidateVertices": 150
+    },
+    {
+      "mesh": 69,
+      "primitive": 0,
+      "name": "BodyDoorLMirror",
+      "sourceTriangles": 462,
+      "candidateTriangles": 368,
+      "sourceVertices": 257,
+      "candidateVertices": 210
+    },
+    {
+      "mesh": 70,
+      "primitive": 0,
+      "name": "BodyDoorLMirrorColor1",
+      "sourceTriangles": 532,
+      "candidateTriangles": 530,
+      "sourceVertices": 384,
+      "candidateVertices": 383
+    },
+    {
+      "mesh": 71,
+      "primitive": 0,
+      "name": "BodyDoorLWindowGasket",
+      "sourceTriangles": 576,
+      "candidateTriangles": 460,
+      "sourceVertices": 397,
+      "candidateVertices": 336
+    },
+    {
+      "mesh": 72,
+      "primitive": 0,
+      "name": "BodyDoorLWindow",
+      "sourceTriangles": 1392,
+      "candidateTriangles": 1112,
+      "sourceVertices": 743,
+      "candidateVertices": 603
+    },
+    {
+      "mesh": 73,
+      "primitive": 0,
+      "name": "BodyDoorLMirrorColor2",
+      "sourceTriangles": 1166,
+      "candidateTriangles": 1132,
+      "sourceVertices": 912,
+      "candidateVertices": 888
+    },
+    {
+      "mesh": 74,
+      "primitive": 0,
+      "name": "WheelFrontLBrakePad",
+      "sourceTriangles": 3150,
+      "candidateTriangles": 2520,
+      "sourceVertices": 1972,
+      "candidateVertices": 1646
+    },
+    {
+      "mesh": 75,
+      "primitive": 0,
+      "name": "WheelFrontLBrakeDisc",
+      "sourceTriangles": 480,
+      "candidateTriangles": 480,
+      "sourceVertices": 498,
+      "candidateVertices": 498
+    },
+    {
+      "mesh": 76,
+      "primitive": 0,
+      "name": "WheelFrontRBrakePad",
+      "sourceTriangles": 3150,
+      "candidateTriangles": 2520,
+      "sourceVertices": 1970,
+      "candidateVertices": 1646
+    },
+    {
+      "mesh": 77,
+      "primitive": 0,
+      "name": "WheelFrontRBrakeDisc",
+      "sourceTriangles": 480,
+      "candidateTriangles": 480,
+      "sourceVertices": 500,
+      "candidateVertices": 500
+    },
+    {
+      "mesh": 78,
+      "primitive": 0,
+      "name": "WheelRearLBrakeDisc",
+      "sourceTriangles": 480,
+      "candidateTriangles": 480,
+      "sourceVertices": 500,
+      "candidateVertices": 500
+    },
+    {
+      "mesh": 79,
+      "primitive": 0,
+      "name": "WheelRearLBrakePad",
+      "sourceTriangles": 3150,
+      "candidateTriangles": 2520,
+      "sourceVertices": 1972,
+      "candidateVertices": 1644
+    },
+    {
+      "mesh": 80,
+      "primitive": 0,
+      "name": "WheelRearRBrakeDisc",
+      "sourceTriangles": 480,
+      "candidateTriangles": 480,
+      "sourceVertices": 500,
+      "candidateVertices": 500
+    },
+    {
+      "mesh": 81,
+      "primitive": 0,
+      "name": "WheelRearRBrakePad",
+      "sourceTriangles": 3150,
+      "candidateTriangles": 2520,
+      "sourceVertices": 1970,
+      "candidateVertices": 1645
+    },
+    {
+      "mesh": 82,
+      "primitive": 0,
+      "name": "Axles",
+      "sourceTriangles": 180,
+      "candidateTriangles": 180,
+      "sourceVertices": 212,
+      "candidateVertices": 212
+    },
+    {
+      "mesh": 83,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 276,
+      "candidateTriangles": 268,
+      "sourceVertices": 219,
+      "candidateVertices": 215
+    },
+    {
+      "mesh": 83,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 3098,
+      "candidateTriangles": 2974,
+      "sourceVertices": 3188,
+      "candidateVertices": 3108
+    },
+    {
+      "mesh": 84,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 176,
+      "candidateTriangles": 174,
+      "sourceVertices": 170,
+      "candidateVertices": 168
+    },
+    {
+      "mesh": 84,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 2982,
+      "candidateTriangles": 2856,
+      "sourceVertices": 2375,
+      "candidateVertices": 2301
+    },
+    {
+      "mesh": 85,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 598,
+      "candidateTriangles": 562,
+      "sourceVertices": 513,
+      "candidateVertices": 493
+    },
+    {
+      "mesh": 85,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 815,
+      "candidateTriangles": 731,
+      "sourceVertices": 587,
+      "candidateVertices": 544
+    },
+    {
+      "mesh": 86,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 598,
+      "candidateTriangles": 564,
+      "sourceVertices": 514,
+      "candidateVertices": 495
+    },
+    {
+      "mesh": 86,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 815,
+      "candidateTriangles": 723,
+      "sourceVertices": 584,
+      "candidateVertices": 536
+    },
+    {
+      "mesh": 87,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 288,
+      "candidateTriangles": 288,
+      "sourceVertices": 216,
+      "candidateVertices": 216
+    },
+    {
+      "mesh": 87,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 216,
+      "candidateTriangles": 216,
+      "sourceVertices": 185,
+      "candidateVertices": 185
+    },
+    {
+      "mesh": 88,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 2060,
+      "candidateTriangles": 1648,
+      "sourceVertices": 1577,
+      "candidateVertices": 1333
+    },
+    {
+      "mesh": 88,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 10116,
+      "candidateTriangles": 8210,
+      "sourceVertices": 7474,
+      "candidateVertices": 6370
+    },
+    {
+      "mesh": 89,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 288,
+      "candidateTriangles": 288,
+      "sourceVertices": 216,
+      "candidateVertices": 216
+    },
+    {
+      "mesh": 89,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 216,
+      "candidateTriangles": 216,
+      "sourceVertices": 185,
+      "candidateVertices": 185
+    },
+    {
+      "mesh": 90,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 2060,
+      "candidateTriangles": 1648,
+      "sourceVertices": 1576,
+      "candidateVertices": 1328
+    },
+    {
+      "mesh": 90,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 10116,
+      "candidateTriangles": 8092,
+      "sourceVertices": 7456,
+      "candidateVertices": 6301
+    },
+    {
+      "mesh": 91,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 288,
+      "candidateTriangles": 288,
+      "sourceVertices": 216,
+      "candidateVertices": 216
+    },
+    {
+      "mesh": 91,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 216,
+      "candidateTriangles": 216,
+      "sourceVertices": 185,
+      "candidateVertices": 185
+    },
+    {
+      "mesh": 92,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 2060,
+      "candidateTriangles": 1648,
+      "sourceVertices": 1577,
+      "candidateVertices": 1332
+    },
+    {
+      "mesh": 92,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 10116,
+      "candidateTriangles": 8234,
+      "sourceVertices": 7471,
+      "candidateVertices": 6384
+    },
+    {
+      "mesh": 93,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 288,
+      "candidateTriangles": 288,
+      "sourceVertices": 216,
+      "candidateVertices": 216
+    },
+    {
+      "mesh": 93,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 216,
+      "candidateTriangles": 216,
+      "sourceVertices": 185,
+      "candidateVertices": 185
+    },
+    {
+      "mesh": 94,
+      "primitive": 0,
+      "name": null,
+      "sourceTriangles": 2060,
+      "candidateTriangles": 1648,
+      "sourceVertices": 1576,
+      "candidateVertices": 1335
+    },
+    {
+      "mesh": 94,
+      "primitive": 1,
+      "name": null,
+      "sourceTriangles": 10116,
+      "candidateTriangles": 8092,
+      "sourceVertices": 7446,
+      "candidateVertices": 6277
+    }
+  ],
+  "limitations": [
+    "Static semantic evidence does not establish visual parity or browser variant behavior",
+    "Validator lacks complete KHR_texture_basisu/KTX2 support; zero errors is not full current Khronos certification",
+    "Fixed-view visual matrix, shader timings, browser performance, session evidence and Sol review pending"
+  ]
+}

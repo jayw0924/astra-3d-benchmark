@@ -1,0 +1,1480 @@
+{
+  "id": "2026-10-21-sol-safe-webgl-comparison",
+  "title": "Original Safe WebGL comparison \u2014 rejected for promotion",
+  "startedAt": "2026-10-21T19:59:07+00:00",
+  "endedAt": "2026-10-22T19:23:52.102966+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes delegated research evaluator; Docker tools",
+  "reasoningMode": "not independently recorded",
+  "tools": [
+    "terminal",
+    "Node.js",
+    "Python",
+    "Playwright Chromium"
+  ],
+  "workPackage": "render",
+  "inputAssets": [
+    "web-product-estuary",
+    "safe-webgl-d8fc14b866ab"
+  ],
+  "promptPath": "research/runs/2026-10-21-sol-safe-webgl-comparison/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/artifact-inventory.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/capture-manifest.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/capture.mjs",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/control-detail-probe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/control-spec.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/decision.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/environment.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/evidence-red.txt",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/evidence.test.mjs",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/gallery-check.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/harness-lessons.md",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/image-differences.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/index.html",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/inventory.py",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/measurement-console.txt",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/metrics-summary.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/notes.md",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/package-console.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/package.py",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/page.html",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/page.js",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/plan.mjs",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/plan.test.mjs",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/prompt.md",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/bootstrap.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792612763961.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792612919162.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792613045712.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792614756155.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-safe-1792613167790.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-safe-1792613274066.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-safe-1792613376859.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-0-control.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-1-safe.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-2-safe.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-3-control.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--carmine--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--carmine--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--carmine--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--estuary--shaded.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--estuary--silhouette.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--estuary--wireframe.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheet-manifest.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/front-three-quarter.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/glass-edge.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/interior.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/mirror-window.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/panel-seams.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/rear-three-quarter.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/side.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/wheel-brake.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/wipers.png",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/test-green.txt",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/test-red.txt",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/tests-final.txt",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/verification.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/visual-review.json",
+    "research/runs/2026-10-21-sol-safe-webgl-comparison/visual-review.md"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/artifact-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/capture-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/control-detail-probe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/control-spec.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/decision.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/environment.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/evidence-red.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/evidence.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/gallery-check.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/harness-lessons.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/image-differences.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/inventory.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/measurement-console.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/metrics-summary.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/package-console.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/package.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/page.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/plan.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/plan.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/bootstrap.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792612763961.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792612919162.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792613045712.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-control-1792614756155.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-safe-1792613167790.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-safe-1792613274066.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/capture-safe-1792613376859.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-0-control.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-1-safe.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-2-safe.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/raw/measure-3-control.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--front-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--glass-edge--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--interior--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--mirror-window--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--panel-seams--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--rear-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--side--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wheel-brake--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/control--wipers--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--glass-edge--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--interior--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--mirror-window--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--panel-seams--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--rear-three-quarter--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--side--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wheel-brake--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--carmine--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--carmine--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--carmine--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--estuary--shaded.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--estuary--silhouette.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--wipers--estuary--wireframe.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheet-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/front-three-quarter.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/glass-edge.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/interior.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/mirror-window.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/panel-seams.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/rear-three-quarter.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/side.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/wheel-brake.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/sheets/wipers.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/test-green.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/test-red.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/tests-final.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/visual-review.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-webgl-comparison/visual-review.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 84285.102966,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Actual billing unavailable; not estimated"
+  },
+  "interventionLevel": 0,
+  "outcome": "fail",
+  "failureNotes": "Static/reproduction and authentic private attribution pass; fixed-view visual acceptance fails: irregular/scalloped highlights in both finishes. Original rejected candidate retained, not promoted. 108 matrix cases, 64 actual browser transitions and 120 warmed diagnostic samples. Fixed-view research decision is separate from application acceptance.",
+  "reviewer": "gpt-6.1-sol; independent findings recorded by parent",
+  "publicSummary": "Static/reproduction and authentic private attribution pass; fixed-view visual acceptance fails: irregular/scalloped highlights in both finishes. Original rejected candidate retained, not promoted. 108 matrix cases, 64 actual browser transitions and 120 warmed diagnostic samples. Fixed-view research decision is separate from application acceptance."
+}

@@ -1,0 +1,1 @@
+{"removedDisposableTestDirectory": "tmp", "files": 91, "reason": "Only test fixture/cache data; real raw command logs retained. Prevent synthetic fixture run.json records entering recursive research discovery."}

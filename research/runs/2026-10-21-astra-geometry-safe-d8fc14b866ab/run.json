@@ -1,0 +1,237 @@
+{
+  "id": "2026-10-21-astra-geometry-safe-d8fc14b866ab",
+  "title": "Original Safe WebGL geometry \u2014 rejected for promotion",
+  "startedAt": "2026-10-21T19:00:33.962Z",
+  "endedAt": "2026-10-21T19:04:23.534812+00:00",
+  "model": "gpt-6-astra",
+  "provider": "openai-codex",
+  "interface": "Hermes CLI",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": [
+    "terminal",
+    "read_file",
+    "search_files",
+    "write_file",
+    "patch",
+    "skill_view"
+  ],
+  "workPackage": "geometry",
+  "inputAssets": [
+    "web-product-estuary"
+  ],
+  "promptPath": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate-geometry-report.pending.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate-validator.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/command.py",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/commands.jsonl",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/control-geometry-report.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/control-validator.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/diagnosis.md",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/environment.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/notes.md",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/package-verification.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/package.mjs",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/prepare.mjs",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/prompt.md",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/repeat.glb",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/scope-verification.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/session-evidence.sha256",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/source-inspection.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/transform.mjs",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verification-initial-failure.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verification.json",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verify-initial.mjs",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verify.mjs",
+    "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/workspace-before.json"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate-geometry-report.pending.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate-validator.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/command.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/commands.jsonl",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/control-geometry-report.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/control-validator.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/diagnosis.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/environment.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/notes.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/package-verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/package.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/prepare.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/repeat.glb",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/scope-verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/session-evidence.sha256",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/source-inspection.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/transform.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verification-initial-failure.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verify-initial.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verify.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/workspace-before.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      }
+    ]
+  },
+  "sessionEvidence": {
+    "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/session.jsonl",
+    "sessionId": "local-d8fc14b866ab86f25880391b832b60f366b81a1d92cd5df6932349a5b4b04c42"
+  },
+  "elapsedSeconds": 229.572812,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Actual billing amount unavailable; no estimate substituted"
+  },
+  "interventionLevel": 0,
+  "outcome": "fail",
+  "failureNotes": "Static/reproduction and authentic private attribution pass; fixed-view visual acceptance fails: irregular/scalloped highlights in both finishes. Original rejected candidate retained, not promoted. Private attribution is not fully reproducible from a public checkout. Canonical reports in Sol finalization package; provisional author reports preserved.",
+  "reviewer": "gpt-6.1-sol independent research acceptance; see Sol comparison decision/current gates",
+  "publicSummary": "Static/reproduction and authentic private attribution pass; fixed-view visual acceptance fails: irregular/scalloped highlights in both finishes. Original rejected candidate retained, not promoted."
+}

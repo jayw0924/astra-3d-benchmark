@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-23T15:09:58.606Z",
+  "passed": true,
+  "historicalRunSchema": true,
+  "historicalGeometryReportSchema": true,
+  "priorArtifactCount": 168,
+  "allPriorArtifactsBytePreserved": true,
+  "authoringRerun": false,
+  "publicConfiguratorChanged": false,
+  "historicalRunRecordPreserved": true,
+  "oneToOneResumeProvenance": true,
+  "limitations": [
+    "Private export absent; attribution unverified",
+    "Sol acceptance pending",
+    "Optional measurement interruption not retried; historical timing/log gaps remain unknown"
+  ],
+  "outcome": "partial; stop for Sol",
+  "resumeOutputCount": 15
+}

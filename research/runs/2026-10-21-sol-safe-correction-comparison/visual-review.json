@@ -1,0 +1,77 @@
+{
+  "status": "unaccepted",
+  "meaning": "Evidence only; final verdict reserved for parent, not a rejection or approval",
+  "targets": [
+    {
+      "target": "front-three-quarter",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels inspected; complete vehicle, correct variants; dense whole-exterior wireframe contextual. Broad appearance close, not parity."
+    },
+    {
+      "target": "side",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels inspected; no gross silhouette failure; small body/fender highlight differences."
+    },
+    {
+      "target": "rear-three-quarter",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels inspected; complete rear vehicle, correct variants; no gross omission at sheet scale."
+    },
+    {
+      "target": "wheel-brake",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels inspected; wheel/spokes/rotor framed; reduced topology, mild fender highlight changes."
+    },
+    {
+      "target": "mirror-window",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels inspected; mirror/window visible; small body highlight differences and reduced topology."
+    },
+    {
+      "target": "wipers",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels plus native control/prior/corrected both finishes inspected; hood scallops repaired; minor residual right-corner panel seam. Wireframe isolates wipers only."
+    },
+    {
+      "target": "panel-seams",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels inspected; door/handle outlines retained, small shading differences."
+    },
+    {
+      "target": "interior",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels inspected; blue/red seats through glazing; dashboard periphery clipped, seats visible; silhouette hides interior."
+    },
+    {
+      "target": "glass-edge",
+      "reviewedPanels": 12,
+      "notes": "All 12 panels plus native control/prior/corrected both finishes inspected; repaired hood/roof-adjacent boundary; residual small seam notch below right windshield corner, clearer Carmine; no full parity."
+    }
+  ],
+  "nativeReview": {
+    "targets": [
+      "wipers",
+      "glass-edge"
+    ],
+    "finishes": [
+      "Estuary Enamel",
+      "Carmine Candy"
+    ],
+    "roles": [
+      "control",
+      "prior rejected",
+      "corrected"
+    ],
+    "nativeImagesInspected": 12,
+    "supplementalCropsInspected": 2
+  },
+  "residualConcern": {
+    "severity": "minor localized visible quality deviation",
+    "location": "glass-edge native pixels approximately x418\u2013423 y323\u2013339, below windshield image-right corner",
+    "control": "thin continuous seam",
+    "priorRejected": "small stepped rectangular bright/dark patch beside seam",
+    "corrected": "similar localized patch remains in both finishes, especially Carmine",
+    "fullParityEstablished": false
+  },
+  "notesPath": "visual-review.md"
+}

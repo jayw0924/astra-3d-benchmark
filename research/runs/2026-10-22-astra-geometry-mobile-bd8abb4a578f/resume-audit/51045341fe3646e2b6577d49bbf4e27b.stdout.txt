@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-23T15:08:40.847187+00:00",
+  "candidateUnchanged": true,
+  "repeatExactBytes": true,
+  "protectedWorkspaceUnchanged": true,
+  "existingArtifacts": 168,
+  "nativeFramesVerified": 108,
+  "controlReplaysVerified": 54,
+  "sheetsVerified": 9,
+  "historicalCommandRecords": 19,
+  "historicalFinalizationCompleted": true,
+  "partialMeasurement": {
+    "controlPresent": true,
+    "candidatePresent": false,
+    "controlTransitionCount": 16
+  },
+  "sessionExportPresent": false,
+  "missingExecutableHandoffSteps": [],
+  "remainingGates": [
+    "Authentic private session export/attribution",
+    "Independent Sol visual and acceptance review"
+  ],
+  "optionalUnavailable": [
+    "Candidate all-pairs browser transition measurement",
+    "Candidate timing/performance; not required for this initial delivery-metric package"
+  ],
+  "correctionRoundsUnchanged": 2,
+  "geometryCorrections": 0,
+  "resumeAuthoringExecutions": 0
+}

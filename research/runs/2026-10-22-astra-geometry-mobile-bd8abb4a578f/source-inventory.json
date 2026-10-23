@@ -1,0 +1,670 @@
+{
+  "meshes": [
+    {
+      "mesh": 0,
+      "nodes": [
+        "BodyUnderside"
+      ],
+      "triangles": 940
+    },
+    {
+      "mesh": 1,
+      "nodes": [
+        "BodyWindshield"
+      ],
+      "triangles": 2880
+    },
+    {
+      "mesh": 2,
+      "nodes": [
+        "BodyWindshieldGasket"
+      ],
+      "triangles": 452
+    },
+    {
+      "mesh": 3,
+      "nodes": [
+        "BodyWindshieldWipers"
+      ],
+      "triangles": 24336
+    },
+    {
+      "mesh": 4,
+      "nodes": [
+        "BodyWindshieldWipersBase"
+      ],
+      "triangles": 496
+    },
+    {
+      "mesh": 5,
+      "nodes": [
+        "Engine"
+      ],
+      "triangles": 60
+    },
+    {
+      "mesh": 6,
+      "nodes": [
+        "InteriorCage"
+      ],
+      "triangles": 2570
+    },
+    {
+      "mesh": 7,
+      "nodes": [
+        "InteriorDashMid"
+      ],
+      "triangles": 420
+    },
+    {
+      "mesh": 8,
+      "nodes": [
+        "InteriorDashSides"
+      ],
+      "triangles": 596
+    },
+    {
+      "mesh": 9,
+      "nodes": [
+        "InteriorFloor"
+      ],
+      "triangles": 940
+    },
+    {
+      "mesh": 10,
+      "nodes": [
+        "InteriorFloormats"
+      ],
+      "triangles": 1088
+    },
+    {
+      "mesh": 11,
+      "nodes": [
+        "InteriorPedalAccel"
+      ],
+      "triangles": 164
+    },
+    {
+      "mesh": 12,
+      "nodes": [
+        "InteriorPedalAccelArm"
+      ],
+      "triangles": 156
+    },
+    {
+      "mesh": 13,
+      "nodes": [
+        "InteriorPedalBrake"
+      ],
+      "triangles": 428
+    },
+    {
+      "mesh": 14,
+      "nodes": [
+        "InteriorPedalBrakeArm"
+      ],
+      "triangles": 204
+    },
+    {
+      "mesh": 15,
+      "nodes": [
+        "InteriorPillar"
+      ],
+      "triangles": 2017
+    },
+    {
+      "mesh": 16,
+      "nodes": [
+        "InteriorSeatsColor1"
+      ],
+      "triangles": 2376
+    },
+    {
+      "mesh": 17,
+      "nodes": [
+        "InteriorSeatsColor2"
+      ],
+      "triangles": 2160
+    },
+    {
+      "mesh": 18,
+      "nodes": [
+        "InteriorSeatsFrame1"
+      ],
+      "triangles": 5528
+    },
+    {
+      "mesh": 19,
+      "nodes": [
+        "InteriorSeatsFrame2"
+      ],
+      "triangles": 2680
+    },
+    {
+      "mesh": 20,
+      "nodes": [
+        "InteriorSteeringBase"
+      ],
+      "triangles": 958
+    },
+    {
+      "mesh": 21,
+      "nodes": [
+        "InteriorSteeringCylinder"
+      ],
+      "triangles": 1412
+    },
+    {
+      "mesh": 22,
+      "nodes": [
+        "InteriorSteeringWheel04"
+      ],
+      "triangles": 96
+    },
+    {
+      "mesh": 23,
+      "nodes": [
+        "InteriorSteeringWheel01"
+      ],
+      "triangles": 864
+    },
+    {
+      "mesh": 24,
+      "nodes": [
+        "InteriorSteeringWheel02"
+      ],
+      "triangles": 640
+    },
+    {
+      "mesh": 25,
+      "nodes": [
+        "InteriorSteeringWheel03"
+      ],
+      "triangles": 32
+    },
+    {
+      "mesh": 26,
+      "nodes": [
+        "InteriorSteeringDash"
+      ],
+      "triangles": 196
+    },
+    {
+      "mesh": 27,
+      "nodes": [
+        "InteriorSteeringDashColumn"
+      ],
+      "triangles": 160
+    },
+    {
+      "mesh": 28,
+      "nodes": [
+        "InteriorSteeringHandleL"
+      ],
+      "triangles": 346
+    },
+    {
+      "mesh": 29,
+      "nodes": [
+        "InteriorSteeringHandleR"
+      ],
+      "triangles": 346
+    },
+    {
+      "mesh": 30,
+      "nodes": [
+        "BodyRoofPanel"
+      ],
+      "triangles": 2492
+    },
+    {
+      "mesh": 31,
+      "nodes": [
+        "BodyRearPanelsColor1"
+      ],
+      "triangles": 12984
+    },
+    {
+      "mesh": 32,
+      "nodes": [
+        "InteriorRearHatch"
+      ],
+      "triangles": 918
+    },
+    {
+      "mesh": 33,
+      "nodes": [
+        "BodyWindowsRearSides"
+      ],
+      "triangles": 1376
+    },
+    {
+      "mesh": 34,
+      "nodes": [
+        "BodyTurnsignalsRear"
+      ],
+      "triangles": 152
+    },
+    {
+      "mesh": 35,
+      "nodes": [
+        "BodyTaillightsPanels"
+      ],
+      "triangles": 1296
+    },
+    {
+      "mesh": 36,
+      "nodes": [
+        "BodyTaillights"
+      ],
+      "triangles": 224
+    },
+    {
+      "mesh": 37,
+      "nodes": [
+        "BodyRearwindow"
+      ],
+      "triangles": 2848
+    },
+    {
+      "mesh": 38,
+      "nodes": [
+        "BodyPillars"
+      ],
+      "triangles": 5748
+    },
+    {
+      "mesh": 39,
+      "nodes": [
+        "BodyPanelsColor2"
+      ],
+      "triangles": 13360
+    },
+    {
+      "mesh": 40,
+      "nodes": [
+        "BodyHood"
+      ],
+      "triangles": 13296
+    },
+    {
+      "mesh": 41,
+      "nodes": [
+        "BodyHoodInterior01"
+      ],
+      "triangles": 3546
+    },
+    {
+      "mesh": 42,
+      "nodes": [
+        "BodyHoodInterior02"
+      ],
+      "triangles": 168
+    },
+    {
+      "mesh": 43,
+      "nodes": [
+        "BodyHoodTopgrill"
+      ],
+      "triangles": 2672
+    },
+    {
+      "mesh": 44,
+      "nodes": [
+        "BodyHoodUnder"
+      ],
+      "triangles": 390
+    },
+    {
+      "mesh": 45,
+      "nodes": [
+        "BodyHeadlights"
+      ],
+      "triangles": 288
+    },
+    {
+      "mesh": 46,
+      "nodes": [
+        "BodyDoorRColor1"
+      ],
+      "triangles": 2608
+    },
+    {
+      "mesh": 47,
+      "nodes": [
+        "BodyDoorRColor2"
+      ],
+      "triangles": 1546
+    },
+    {
+      "mesh": 48,
+      "nodes": [
+        "BodyDoorRHandle01"
+      ],
+      "triangles": 227
+    },
+    {
+      "mesh": 49,
+      "nodes": [
+        "BodyDoorRHandle02"
+      ],
+      "triangles": 102
+    },
+    {
+      "mesh": 50,
+      "nodes": [
+        "BodyDoorRMirror"
+      ],
+      "triangles": 462
+    },
+    {
+      "mesh": 51,
+      "nodes": [
+        "BodyDoorRMirrorColor1"
+      ],
+      "triangles": 540
+    },
+    {
+      "mesh": 52,
+      "nodes": [
+        "BodyDoorRMirrorColor2"
+      ],
+      "triangles": 1166
+    },
+    {
+      "mesh": 53,
+      "nodes": [
+        "BodyDoorRWindow"
+      ],
+      "triangles": 1392
+    },
+    {
+      "mesh": 54,
+      "nodes": [
+        "BodyDoorRWindowGasket"
+      ],
+      "triangles": 576
+    },
+    {
+      "mesh": 55,
+      "nodes": [
+        "InteriorDoorR02"
+      ],
+      "triangles": 721
+    },
+    {
+      "mesh": 56,
+      "nodes": [
+        "InteriorDoorR03"
+      ],
+      "triangles": 195
+    },
+    {
+      "mesh": 57,
+      "nodes": [
+        "InteriorDoorR04"
+      ],
+      "triangles": 80
+    },
+    {
+      "mesh": 58,
+      "nodes": [
+        "InteriorDoorR05"
+      ],
+      "triangles": 112
+    },
+    {
+      "mesh": 59,
+      "nodes": [
+        "InteriorDoorR06"
+      ],
+      "triangles": 764
+    },
+    {
+      "mesh": 60,
+      "nodes": [
+        "BodyDoorLColor1"
+      ],
+      "triangles": 2595
+    },
+    {
+      "mesh": 61,
+      "nodes": [
+        "InteriorDoorL04"
+      ],
+      "triangles": 80
+    },
+    {
+      "mesh": 62,
+      "nodes": [
+        "InteriorDoorL02"
+      ],
+      "triangles": 721
+    },
+    {
+      "mesh": 63,
+      "nodes": [
+        "InteriorDoorL03"
+      ],
+      "triangles": 195
+    },
+    {
+      "mesh": 64,
+      "nodes": [
+        "InteriorDoorL05"
+      ],
+      "triangles": 112
+    },
+    {
+      "mesh": 65,
+      "nodes": [
+        "InteriorDoorL06"
+      ],
+      "triangles": 764
+    },
+    {
+      "mesh": 66,
+      "nodes": [
+        "BodyDoorLColor2"
+      ],
+      "triangles": 1546
+    },
+    {
+      "mesh": 67,
+      "nodes": [
+        "BodyDoorLHandle01"
+      ],
+      "triangles": 384
+    },
+    {
+      "mesh": 68,
+      "nodes": [
+        "BodyDoorLHandle02"
+      ],
+      "triangles": 102
+    },
+    {
+      "mesh": 69,
+      "nodes": [
+        "BodyDoorLMirror"
+      ],
+      "triangles": 462
+    },
+    {
+      "mesh": 70,
+      "nodes": [
+        "BodyDoorLMirrorColor1"
+      ],
+      "triangles": 532
+    },
+    {
+      "mesh": 71,
+      "nodes": [
+        "BodyDoorLWindowGasket"
+      ],
+      "triangles": 576
+    },
+    {
+      "mesh": 72,
+      "nodes": [
+        "BodyDoorLWindow"
+      ],
+      "triangles": 1392
+    },
+    {
+      "mesh": 73,
+      "nodes": [
+        "BodyDoorLMirrorColor2"
+      ],
+      "triangles": 1166
+    },
+    {
+      "mesh": 74,
+      "nodes": [
+        "WheelFrontLBrakePad"
+      ],
+      "triangles": 3150
+    },
+    {
+      "mesh": 75,
+      "nodes": [
+        "WheelFrontLBrakeDisc"
+      ],
+      "triangles": 480
+    },
+    {
+      "mesh": 76,
+      "nodes": [
+        "WheelFrontRBrakePad"
+      ],
+      "triangles": 3150
+    },
+    {
+      "mesh": 77,
+      "nodes": [
+        "WheelFrontRBrakeDisc"
+      ],
+      "triangles": 480
+    },
+    {
+      "mesh": 78,
+      "nodes": [
+        "WheelRearLBrakeDisc"
+      ],
+      "triangles": 480
+    },
+    {
+      "mesh": 79,
+      "nodes": [
+        "WheelRearLBrakePad"
+      ],
+      "triangles": 3150
+    },
+    {
+      "mesh": 80,
+      "nodes": [
+        "WheelRearRBrakeDisc"
+      ],
+      "triangles": 480
+    },
+    {
+      "mesh": 81,
+      "nodes": [
+        "WheelRearRBrakePad"
+      ],
+      "triangles": 3150
+    },
+    {
+      "mesh": 82,
+      "nodes": [
+        "Axles"
+      ],
+      "triangles": 180
+    },
+    {
+      "mesh": 83,
+      "nodes": [
+        "InteriorMid"
+      ],
+      "triangles": 3374
+    },
+    {
+      "mesh": 84,
+      "nodes": [
+        "InteriorRearPanels"
+      ],
+      "triangles": 3158
+    },
+    {
+      "mesh": 85,
+      "nodes": [
+        "InteriorDoorR01"
+      ],
+      "triangles": 1413
+    },
+    {
+      "mesh": 86,
+      "nodes": [
+        "InteriorDoorL01"
+      ],
+      "triangles": 1413
+    },
+    {
+      "mesh": 87,
+      "nodes": [
+        ""
+      ],
+      "triangles": 504
+    },
+    {
+      "mesh": 88,
+      "nodes": [
+        "WheelFrontLRim"
+      ],
+      "triangles": 12176
+    },
+    {
+      "mesh": 89,
+      "nodes": [
+        ""
+      ],
+      "triangles": 504
+    },
+    {
+      "mesh": 90,
+      "nodes": [
+        "WheelFrontRRim"
+      ],
+      "triangles": 12176
+    },
+    {
+      "mesh": 91,
+      "nodes": [
+        ""
+      ],
+      "triangles": 504
+    },
+    {
+      "mesh": 92,
+      "nodes": [
+        "WheelRearLRim"
+      ],
+      "triangles": 12176
+    },
+    {
+      "mesh": 93,
+      "nodes": [
+        ""
+      ],
+      "triangles": 504
+    },
+    {
+      "mesh": 94,
+      "nodes": [
+        "WheelRearRRim"
+      ],
+      "triangles": 12176
+    }
+  ],
+  "embeddedImageBytes": 1411912
+}

@@ -1,0 +1,57 @@
+{
+  "serializedAccessorIsolation": true,
+  "eligiblePrimitives": 98,
+  "protectedPrimitives": [
+    {
+      "mesh": 1,
+      "primitive": 0
+    },
+    {
+      "mesh": 2,
+      "primitive": 0
+    },
+    {
+      "mesh": 4,
+      "primitive": 0
+    },
+    {
+      "mesh": 30,
+      "primitive": 0
+    },
+    {
+      "mesh": 38,
+      "primitive": 0
+    },
+    {
+      "mesh": 40,
+      "primitive": 0
+    },
+    {
+      "mesh": 41,
+      "primitive": 0
+    },
+    {
+      "mesh": 42,
+      "primitive": 0
+    },
+    {
+      "mesh": 43,
+      "primitive": 0
+    }
+  ],
+  "priorCandidatePinsPreserved": [
+    [
+      "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb",
+      "0c57718add772f1265f8cbb3d9f165bc3b06c73629b50f5297f31f844d32c810"
+    ],
+    [
+      "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5-b/candidate.glb",
+      "a30deb208c7c1c4b23859edbb57d2c9d1cb1ad828e00c9431d4ebc29a47d9bce"
+    ]
+  ],
+  "runSchema": true,
+  "outcome": "partial",
+  "sessionPersistence": "unverified",
+  "correctionBudget": "exhausted",
+  "solReview": "pending"
+}

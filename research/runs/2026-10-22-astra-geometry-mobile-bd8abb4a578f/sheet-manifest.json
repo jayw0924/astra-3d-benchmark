@@ -1,0 +1,122 @@
+{
+  "sheets": [
+    {
+      "path": "sheets/front-three-quarter.png",
+      "bytes": 67129,
+      "sha256": "af938a7eaadabbf9365b3f926cffc176004a39f0ba901a61df1e783f78f4ad8e",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/side.png",
+      "bytes": 79858,
+      "sha256": "9d69b1ffd0471deb575c784d35739872e7cc4264214fff3eb859394b4f860f9e",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/rear-three-quarter.png",
+      "bytes": 68976,
+      "sha256": "87526f0cd14624775f9944e5d7b43f9997bf1f9a99ad12c2b2142c6f5362fdff",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/wheel-brake.png",
+      "bytes": 208906,
+      "sha256": "0ef1de5c393eb712673d844060a88137fa3cfcb365977014db60a7957c65a4d8",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/mirror-window.png",
+      "bytes": 162610,
+      "sha256": "1297627fb5fc4617e18b8c51c18a960e4aaf660af3c4e31bb49036caa567e5f6",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/wipers.png",
+      "bytes": 186622,
+      "sha256": "73ebf531dac0bd75047375cce1f5e801073d766875ad436cb9cfe154d77bb748",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/panel-seams.png",
+      "bytes": 229996,
+      "sha256": "76fcec148443612fcf5e40ced2ffd77361d8f8abb33585cce06e7a533461d0ca",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/interior.png",
+      "bytes": 267632,
+      "sha256": "bdf60f61409155b4a14515fdc92aaf043d1901e361f57c7b372f16c63382cbf1",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    },
+    {
+      "path": "sheets/glass-edge.png",
+      "bytes": 205543,
+      "sha256": "cae20004ebc3465569737f68ccc8dad1c8b21e3e8bcd5eb3e20aa6657d54fe23",
+      "dimensions": [
+        1200,
+        660
+      ],
+      "thumbnailPanels": [
+        300,
+        200
+      ]
+    }
+  ],
+  "limitations": "Contact sheets are downscaled convenience images; scored originals remain native 600x400. No visual inspection claimed."
+}

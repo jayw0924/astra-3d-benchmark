@@ -1,0 +1,1720 @@
+{
+  "source": {
+    "path": "public/assets/models/product-estuary.glb",
+    "bytes": 10191496,
+    "sha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f"
+  },
+  "primitives": [
+    {
+      "mesh": 3,
+      "primitive": 0,
+      "name": "BodyWindshieldWipers",
+      "triangles": 24336,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 39,
+      "primitive": 0,
+      "name": "BodyPanelsColor2",
+      "triangles": 13360,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 40,
+      "primitive": 0,
+      "name": "BodyHood",
+      "triangles": 13296,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 10
+    },
+    {
+      "mesh": 31,
+      "primitive": 0,
+      "name": "BodyRearPanelsColor1",
+      "triangles": 12984,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 10
+    },
+    {
+      "mesh": 88,
+      "primitive": 1,
+      "triangles": 10116,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 20
+    },
+    {
+      "mesh": 90,
+      "primitive": 1,
+      "triangles": 10116,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 20
+    },
+    {
+      "mesh": 92,
+      "primitive": 1,
+      "triangles": 10116,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 20
+    },
+    {
+      "mesh": 94,
+      "primitive": 1,
+      "triangles": 10116,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 20
+    },
+    {
+      "mesh": 38,
+      "primitive": 0,
+      "name": "BodyPillars",
+      "triangles": 5748,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 10
+    },
+    {
+      "mesh": 18,
+      "primitive": 0,
+      "name": "InteriorSeatsFrame1",
+      "triangles": 5528,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 41,
+      "primitive": 0,
+      "name": "BodyHoodInterior01",
+      "triangles": 3546,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 74,
+      "primitive": 0,
+      "name": "WheelFrontLBrakePad",
+      "triangles": 3150,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 15
+    },
+    {
+      "mesh": 76,
+      "primitive": 0,
+      "name": "WheelFrontRBrakePad",
+      "triangles": 3150,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 15
+    },
+    {
+      "mesh": 79,
+      "primitive": 0,
+      "name": "WheelRearLBrakePad",
+      "triangles": 3150,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 15
+    },
+    {
+      "mesh": 81,
+      "primitive": 0,
+      "name": "WheelRearRBrakePad",
+      "triangles": 3150,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 15
+    },
+    {
+      "mesh": 83,
+      "primitive": 1,
+      "triangles": 3098,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 27
+    },
+    {
+      "mesh": 84,
+      "primitive": 1,
+      "triangles": 2982,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    },
+    {
+      "mesh": 1,
+      "primitive": 0,
+      "name": "BodyWindshield",
+      "triangles": 2880,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 1
+    },
+    {
+      "mesh": 37,
+      "primitive": 0,
+      "name": "BodyRearwindow",
+      "triangles": 2848,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 1
+    },
+    {
+      "mesh": 19,
+      "primitive": 0,
+      "name": "InteriorSeatsFrame2",
+      "triangles": 2680,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 43,
+      "primitive": 0,
+      "name": "BodyHoodTopgrill",
+      "triangles": 2672,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 46,
+      "primitive": 0,
+      "name": "BodyDoorRColor1",
+      "triangles": 2608,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 10
+    },
+    {
+      "mesh": 60,
+      "primitive": 0,
+      "name": "BodyDoorLColor1",
+      "triangles": 2595,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 10
+    },
+    {
+      "mesh": 6,
+      "primitive": 0,
+      "name": "InteriorCage",
+      "triangles": 2570,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 30,
+      "primitive": 0,
+      "name": "BodyRoofPanel",
+      "triangles": 2492,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 16,
+      "primitive": 0,
+      "name": "InteriorSeatsColor1",
+      "triangles": 2376,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 17,
+      "primitive": 0,
+      "name": "InteriorSeatsColor2",
+      "triangles": 2160,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 7
+    },
+    {
+      "mesh": 88,
+      "primitive": 0,
+      "triangles": 2060,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 19
+    },
+    {
+      "mesh": 90,
+      "primitive": 0,
+      "triangles": 2060,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 19
+    },
+    {
+      "mesh": 92,
+      "primitive": 0,
+      "triangles": 2060,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 19
+    },
+    {
+      "mesh": 94,
+      "primitive": 0,
+      "triangles": 2060,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 19
+    },
+    {
+      "mesh": 15,
+      "primitive": 0,
+      "name": "InteriorPillar",
+      "triangles": 2017,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 47,
+      "primitive": 0,
+      "name": "BodyDoorRColor2",
+      "triangles": 1546,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 66,
+      "primitive": 0,
+      "name": "BodyDoorLColor2",
+      "triangles": 1546,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 21,
+      "primitive": 0,
+      "name": "InteriorSteeringCylinder",
+      "triangles": 1412,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 53,
+      "primitive": 0,
+      "name": "BodyDoorRWindow",
+      "triangles": 1392,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 1
+    },
+    {
+      "mesh": 72,
+      "primitive": 0,
+      "name": "BodyDoorLWindow",
+      "triangles": 1392,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 1
+    },
+    {
+      "mesh": 33,
+      "primitive": 0,
+      "name": "BodyWindowsRearSides",
+      "triangles": 1376,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 1
+    },
+    {
+      "mesh": 35,
+      "primitive": 0,
+      "name": "BodyTaillightsPanels",
+      "triangles": 1296,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 52,
+      "primitive": 0,
+      "name": "BodyDoorRMirrorColor2",
+      "triangles": 1166,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 73,
+      "primitive": 0,
+      "name": "BodyDoorLMirrorColor2",
+      "triangles": 1166,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 10,
+      "primitive": 0,
+      "name": "InteriorFloormats",
+      "triangles": 1088,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 4
+    },
+    {
+      "mesh": 20,
+      "primitive": 0,
+      "name": "InteriorSteeringBase",
+      "triangles": 958,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 0,
+      "primitive": 0,
+      "name": "BodyUnderside",
+      "triangles": 940,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 0
+    },
+    {
+      "mesh": 9,
+      "primitive": 0,
+      "name": "InteriorFloor",
+      "triangles": 940,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 32,
+      "primitive": 0,
+      "name": "InteriorRearHatch",
+      "triangles": 918,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 23,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel01",
+      "triangles": 864,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 85,
+      "primitive": 1,
+      "triangles": 815,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    },
+    {
+      "mesh": 86,
+      "primitive": 1,
+      "triangles": 815,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    },
+    {
+      "mesh": 59,
+      "primitive": 0,
+      "name": "InteriorDoorR06",
+      "triangles": 764,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 5
+    },
+    {
+      "mesh": 65,
+      "primitive": 0,
+      "name": "InteriorDoorL06",
+      "triangles": 764,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 5
+    },
+    {
+      "mesh": 55,
+      "primitive": 0,
+      "name": "InteriorDoorR02",
+      "triangles": 721,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    },
+    {
+      "mesh": 62,
+      "primitive": 0,
+      "name": "InteriorDoorL02",
+      "triangles": 721,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    },
+    {
+      "mesh": 24,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel02",
+      "triangles": 640,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    },
+    {
+      "mesh": 85,
+      "primitive": 0,
+      "triangles": 598,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 0
+    },
+    {
+      "mesh": 86,
+      "primitive": 0,
+      "triangles": 598,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 0
+    },
+    {
+      "mesh": 8,
+      "primitive": 0,
+      "name": "InteriorDashSides",
+      "triangles": 596,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 54,
+      "primitive": 0,
+      "name": "BodyDoorRWindowGasket",
+      "triangles": 576,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 71,
+      "primitive": 0,
+      "name": "BodyDoorLWindowGasket",
+      "triangles": 576,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 51,
+      "primitive": 0,
+      "name": "BodyDoorRMirrorColor1",
+      "triangles": 540,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 10
+    },
+    {
+      "mesh": 70,
+      "primitive": 0,
+      "name": "BodyDoorLMirrorColor1",
+      "triangles": 532,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 10
+    },
+    {
+      "mesh": 4,
+      "primitive": 0,
+      "name": "BodyWindshieldWipersBase",
+      "triangles": 496,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 75,
+      "primitive": 0,
+      "name": "WheelFrontLBrakeDisc",
+      "triangles": 480,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 16
+    },
+    {
+      "mesh": 77,
+      "primitive": 0,
+      "name": "WheelFrontRBrakeDisc",
+      "triangles": 480,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 16
+    },
+    {
+      "mesh": 78,
+      "primitive": 0,
+      "name": "WheelRearLBrakeDisc",
+      "triangles": 480,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 16
+    },
+    {
+      "mesh": 80,
+      "primitive": 0,
+      "name": "WheelRearRBrakeDisc",
+      "triangles": 480,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 16
+    },
+    {
+      "mesh": 50,
+      "primitive": 0,
+      "name": "BodyDoorRMirror",
+      "triangles": 462,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 14
+    },
+    {
+      "mesh": 69,
+      "primitive": 0,
+      "name": "BodyDoorLMirror",
+      "triangles": 462,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 14
+    },
+    {
+      "mesh": 2,
+      "primitive": 0,
+      "name": "BodyWindshieldGasket",
+      "triangles": 452,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 13,
+      "primitive": 0,
+      "name": "InteriorPedalBrake",
+      "triangles": 428,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 4
+    },
+    {
+      "mesh": 7,
+      "primitive": 0,
+      "name": "InteriorDashMid",
+      "triangles": 420,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    },
+    {
+      "mesh": 44,
+      "primitive": 0,
+      "name": "BodyHoodUnder",
+      "triangles": 390,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 67,
+      "primitive": 0,
+      "name": "BodyDoorLHandle01",
+      "triangles": 384,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 28,
+      "primitive": 0,
+      "name": "InteriorSteeringHandleL",
+      "triangles": 346,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 5
+    },
+    {
+      "mesh": 29,
+      "primitive": 0,
+      "name": "InteriorSteeringHandleR",
+      "triangles": 346,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 5
+    },
+    {
+      "mesh": 45,
+      "primitive": 0,
+      "name": "BodyHeadlights",
+      "triangles": 288,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 13
+    },
+    {
+      "mesh": 87,
+      "primitive": 0,
+      "triangles": 288,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 17
+    },
+    {
+      "mesh": 89,
+      "primitive": 0,
+      "triangles": 288,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 17
+    },
+    {
+      "mesh": 91,
+      "primitive": 0,
+      "triangles": 288,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 17
+    },
+    {
+      "mesh": 93,
+      "primitive": 0,
+      "triangles": 288,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 17
+    },
+    {
+      "mesh": 83,
+      "primitive": 0,
+      "triangles": 276,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 27
+    },
+    {
+      "mesh": 48,
+      "primitive": 0,
+      "name": "BodyDoorRHandle01",
+      "triangles": 227,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 36,
+      "primitive": 0,
+      "name": "BodyTaillights",
+      "triangles": 224,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 12
+    },
+    {
+      "mesh": 87,
+      "primitive": 1,
+      "triangles": 216,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 18
+    },
+    {
+      "mesh": 89,
+      "primitive": 1,
+      "triangles": 216,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 18
+    },
+    {
+      "mesh": 91,
+      "primitive": 1,
+      "triangles": 216,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 18
+    },
+    {
+      "mesh": 93,
+      "primitive": 1,
+      "triangles": 216,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 18
+    },
+    {
+      "mesh": 14,
+      "primitive": 0,
+      "name": "InteriorPedalBrakeArm",
+      "triangles": 204,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 5
+    },
+    {
+      "mesh": 26,
+      "primitive": 0,
+      "name": "InteriorSteeringDash",
+      "triangles": 196,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 8
+    },
+    {
+      "mesh": 56,
+      "primitive": 0,
+      "name": "InteriorDoorR03",
+      "triangles": 195,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 63,
+      "primitive": 0,
+      "name": "InteriorDoorL03",
+      "triangles": 195,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 82,
+      "primitive": 0,
+      "name": "Axles",
+      "triangles": 180,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 0
+    },
+    {
+      "mesh": 84,
+      "primitive": 0,
+      "triangles": 176,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 0
+    },
+    {
+      "mesh": 42,
+      "primitive": 0,
+      "name": "BodyHoodInterior02",
+      "triangles": 168,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 11,
+      "primitive": 0,
+      "name": "InteriorPedalAccel",
+      "triangles": 164,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 4
+    },
+    {
+      "mesh": 27,
+      "primitive": 0,
+      "name": "InteriorSteeringDashColumn",
+      "triangles": 160,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 12,
+      "primitive": 0,
+      "name": "InteriorPedalAccelArm",
+      "triangles": 156,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 5
+    },
+    {
+      "mesh": 34,
+      "primitive": 0,
+      "name": "BodyTurnsignalsRear",
+      "triangles": 152,
+      "attributes": [
+        "NORMAL",
+        "POSITION"
+      ],
+      "material": 11
+    },
+    {
+      "mesh": 58,
+      "primitive": 0,
+      "name": "InteriorDoorR05",
+      "triangles": 112,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 64,
+      "primitive": 0,
+      "name": "InteriorDoorL05",
+      "triangles": 112,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 49,
+      "primitive": 0,
+      "name": "BodyDoorRHandle02",
+      "triangles": 102,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 68,
+      "primitive": 0,
+      "name": "BodyDoorLHandle02",
+      "triangles": 102,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 9
+    },
+    {
+      "mesh": 22,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel04",
+      "triangles": 96,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 2
+    },
+    {
+      "mesh": 57,
+      "primitive": 0,
+      "name": "InteriorDoorR04",
+      "triangles": 80,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 61,
+      "primitive": 0,
+      "name": "InteriorDoorL04",
+      "triangles": 80,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 6
+    },
+    {
+      "mesh": 5,
+      "primitive": 0,
+      "name": "Engine",
+      "triangles": 60,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 0
+    },
+    {
+      "mesh": 25,
+      "primitive": 0,
+      "name": "InteriorSteeringWheel03",
+      "triangles": 32,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "material": 3
+    }
+  ],
+  "materials": [
+    {
+      "name": "Mechanical",
+      "extensions": []
+    },
+    {
+      "name": "Glass",
+      "extensions": [
+        "KHR_materials_transmission"
+      ]
+    },
+    {
+      "extensions": []
+    },
+    {
+      "name": "Interior 1",
+      "extensions": []
+    },
+    {
+      "name": "Floormat",
+      "extensions": []
+    },
+    {
+      "name": "Hardware",
+      "extensions": []
+    },
+    {
+      "name": "Interior 3 Carmine",
+      "extensions": []
+    },
+    {
+      "name": "Interior 2",
+      "extensions": []
+    },
+    {
+      "name": "Dashboard",
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "name": "Paint 2 Carmine",
+      "extensions": [
+        "KHR_materials_clearcoat"
+      ]
+    },
+    {
+      "name": "Paint 1 Carmine",
+      "extensions": [
+        "KHR_materials_clearcoat"
+      ]
+    },
+    {
+      "name": "Signallight",
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "name": "Brakelight",
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "name": "Headlight",
+      "extensions": [
+        "KHR_materials_emissive_strength"
+      ]
+    },
+    {
+      "name": "Mirror",
+      "extensions": []
+    },
+    {
+      "name": "Brake",
+      "extensions": []
+    },
+    {
+      "name": "Disc",
+      "extensions": []
+    },
+    {
+      "name": "Tireside",
+      "extensions": []
+    },
+    {
+      "name": "Tiretread",
+      "extensions": []
+    },
+    {
+      "name": "Rim2",
+      "extensions": []
+    },
+    {
+      "name": "Rim1",
+      "extensions": []
+    },
+    {
+      "name": "Paint 1 Pearl",
+      "extensions": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_iridescence"
+      ]
+    },
+    {
+      "name": "Paint 1 Graphite",
+      "extensions": []
+    },
+    {
+      "name": "Paint 2 Pearl",
+      "extensions": []
+    },
+    {
+      "name": "Paint 2 Graphite",
+      "extensions": [
+        "KHR_materials_iridescence"
+      ]
+    },
+    {
+      "name": "Interior 3 Pearl",
+      "extensions": []
+    },
+    {
+      "name": "Interior 3 Graphite",
+      "extensions": []
+    },
+    {
+      "name": "Panel Sides",
+      "extensions": []
+    },
+    {
+      "name": "Estuary Enamel Main",
+      "extensions": [
+        "KHR_materials_clearcoat"
+      ]
+    },
+    {
+      "name": "Estuary Enamel Accent",
+      "extensions": [
+        "KHR_materials_clearcoat"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 226345
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 153752
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 545443
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 7081
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 2858
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 622
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 15812
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 21698
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 1374
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 7011
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 7607
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 316900
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 53888
+    },
+    {
+      "mimeType": "image/ktx2",
+      "bytes": 51521
+    }
+  ],
+  "nodes": [
+    "BodyUnderside",
+    "BodyWindshield",
+    "BodyWindshieldGasket",
+    "BodyWindshieldWipers",
+    "BodyWindshieldWipersBase",
+    "Engine",
+    "InteriorCage",
+    "InteriorDashMid",
+    "InteriorDashSides",
+    "InteriorFloor",
+    "InteriorFloormats",
+    "InteriorMid",
+    "InteriorPedalAccel",
+    "InteriorPedalAccelArm",
+    "InteriorPedalBrake",
+    "InteriorPedalBrakeArm",
+    "InteriorPillar",
+    "InteriorSeatsColor1",
+    "InteriorSeatsColor2",
+    "InteriorSeatsFrame1",
+    "InteriorSeatsFrame2",
+    "InteriorSteeringBase",
+    "InteriorSteeringCylinder",
+    "InteriorSteeringWheel04",
+    "InteriorSteeringWheel01",
+    "InteriorSteeringWheel02",
+    "InteriorSteeringWheel03",
+    "InteriorSteeringDash",
+    "InteriorSteeringDashColumn",
+    "InteriorSteeringHandleL",
+    "InteriorSteeringHandleR",
+    "BodyRoofPanel",
+    "BodyRearPanelsColor1",
+    "InteriorRearHatch",
+    "InteriorRearPanels",
+    "BodyWindowsRearSides",
+    "BodyTurnsignalsRear",
+    "BodyTaillightsPanels",
+    "BodyTaillights",
+    "BodyRearwindow",
+    "BodyPillars",
+    "BodyPanelsColor2",
+    "BodyHood",
+    "BodyHoodInterior01",
+    "BodyHoodInterior02",
+    "BodyHoodTopgrill",
+    "BodyHoodUnder",
+    "BodyHeadlights",
+    "BodyDoorRColor1",
+    "BodyDoorRColor2",
+    "BodyDoorRHandle01",
+    "BodyDoorRHandle02",
+    "BodyDoorRMirror",
+    "BodyDoorRMirrorColor1",
+    "BodyDoorRMirrorColor2",
+    "BodyDoorRWindow",
+    "BodyDoorRWindowGasket",
+    "InteriorDoorR01",
+    "InteriorDoorR02",
+    "InteriorDoorR03",
+    "InteriorDoorR04",
+    "InteriorDoorR05",
+    "InteriorDoorR06",
+    "BodyDoorLColor1",
+    "InteriorDoorL04",
+    "InteriorDoorL01",
+    "InteriorDoorL02",
+    "InteriorDoorL03",
+    "InteriorDoorL05",
+    "InteriorDoorL06",
+    "BodyDoorLColor2",
+    "BodyDoorLHandle01",
+    "BodyDoorLHandle02",
+    "BodyDoorLMirror",
+    "BodyDoorLMirrorColor1",
+    "BodyDoorLWindowGasket",
+    "BodyDoorLWindow",
+    "BodyDoorLMirrorColor2",
+    "WheelFrontL",
+    "WheelFrontLRim",
+    "WheelFrontLBrakePad",
+    "WheelFrontLBrakeDisc",
+    null,
+    "WheelFrontR",
+    "WheelFrontRRim",
+    "WheelFrontRBrakePad",
+    "WheelFrontRBrakeDisc",
+    null,
+    "WheelRearL",
+    "WheelRearLBrakeDisc",
+    "WheelRearLBrakePad",
+    "WheelRearLRim",
+    null,
+    "WheelRearR",
+    "WheelRearRBrakeDisc",
+    "WheelRearRBrakePad",
+    "WheelRearRRim",
+    null,
+    "Axles"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "model": "control",
+  "label": "capture-control-1792678490933",
+  "metrics": {
+    "gpu": {
+      "vendor": "Google Inc. (Google)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "parallelCompile": false
+    },
+    "basisPreloadMs": 10.800000190734863,
+    "load": {
+      "fetchArrayBufferMs": 305.5,
+      "parseDecodeMs": 13703.199999809265,
+      "fetchParseMs": 14008.699999809265
+    },
+    "coldCompileMs": 14.700000047683716,
+    "firstRender": {
+      "cpuSubmitAndFinishMs": 1675.2999999523163,
+      "loadToFirstRenderedFrameMs": 15702.099999904633,
+      "correctness": "not checked at first-frame timestamp; later visual QC is separate"
+    },
+    "resourceTiming": {
+      "name": "http://127.0.0.1:42017/public/assets/models/product-estuary.glb",
+      "entryType": "resource",
+      "startTime": 308.7000000476837,
+      "duration": 187.70000004768372,
+      "navigationId": 7167,
+      "initiatorType": "fetch",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 308.7000000476837,
+      "domainLookupStart": 308.7000000476837,
+      "domainLookupEnd": 308.7000000476837,
+      "connectStart": 308.7000000476837,
+      "secureConnectionStart": 0,
+      "connectEnd": 308.7000000476837,
+      "requestStart": 309.10000014305115,
+      "responseStart": 387.60000014305115,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 387.60000014305115,
+      "responseEnd": 496.40000009536743,
+      "transferSize": 10191796,
+      "encodedBodySize": 10191496,
+      "decodedBodySize": 10191496,
+      "responseStatus": 200,
+      "serverTiming": []
+    },
+    "firstInfo": {
+      "calls": 214,
+      "triangles": 426390,
+      "lines": 0,
+      "geometries": 108,
+      "textures": 15,
+      "programs": 23
+    },
+    "warmSamples": [],
+    "transitions": []
+  },
+  "network": [
+    {
+      "url": "http://127.0.0.1:42017/research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/page.html?model=%2Fpublic%2Fassets%2Fmodels%2Fproduct-estuary.glb",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-store",
+        "Connection": "keep-alive",
+        "Content-Length": "415",
+        "Content-Type": "text/html",
+        "Date": "Thu, 22 Oct 2026 14:14:51 GMT",
+        "Keep-Alive": "timeout=5"
+      },
+      "mimeType": "text/html",
+      "fromDiskCache": false,
+      "encodedDataLength": 589
+    },
+    {
+      "url": "http://127.0.0.1:42017/public/assets/models/product-estuary.glb",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-store",
+        "Content-Length": "10191496",
+        "Keep-Alive": "timeout=5",
+        "Date": "Thu, 22 Oct 2026 14:14:51 GMT",
+        "Content-Type": "model/gltf-binary",
+        "Connection": "keep-alive"
+      },
+      "mimeType": "model/gltf-binary",
+      "fromDiskCache": false,
+      "encodedDataLength": 10191683
+    }
+  ],
+  "errors": []
+}

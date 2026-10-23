@@ -1,0 +1,334 @@
+{
+  "status": "diagnostic, unaccepted",
+  "order": [
+    "control",
+    "safe",
+    "safe",
+    "control"
+  ],
+  "percentileMethod": "nearest rank: sorted[ceil(n*p)-1]",
+  "firstCorrectFrame": {
+    "status": "unavailable",
+    "value": null,
+    "reason": "No correctness check at first-render timestamp; later QC is separate"
+  },
+  "scope": "ABBA completed fresh-context samples; two interrupted extra contexts excluded. First A used original multi-session attempt; later sessions each launched a fresh browser. Shared OS caches and host scheduling uncontrolled. Native transcoder preload/PMREM setup excluded from load start. No production GPU ranking. renderer calls/triangles include transmission prepass and main render, manually reset once before each top-level render, not unique model counts.",
+  "measurements": [
+    {
+      "model": "control",
+      "order": 0,
+      "load": {
+        "fetchArrayBufferMs": 203.29999995231628,
+        "parseDecodeMs": 14700.200000047684,
+        "fetchParseMs": 14903.5
+      },
+      "coldCompileMs": 15,
+      "firstRender": {
+        "cpuSubmitAndFinishMs": 1671.2999999523163,
+        "loadToFirstRenderedFrameMs": 16593.599999904633,
+        "correctness": "not checked at first-frame timestamp; later visual QC is separate"
+      },
+      "warmFrameMs": {
+        "samples": 30,
+        "p50": 9080.400000095367,
+        "p95": 18500.299999952316,
+        "min": 3.799999952316284,
+        "max": 18687.5
+      },
+      "warmSubmitFinishMs": {
+        "p50": 2.8000001907348633,
+        "p95": 83.90000009536743
+      },
+      "counts": {
+        "calls": 214,
+        "triangles": 426390,
+        "lines": 0,
+        "geometries": 108,
+        "textures": 15,
+        "programs": 23
+      },
+      "transitions": 16,
+      "errors": [],
+      "resource": {
+        "name": "http://127.0.0.1:40347/public/assets/models/product-estuary.glb",
+        "entryType": "resource",
+        "startTime": 383.10000014305115,
+        "duration": 24.09999990463257,
+        "navigationId": 2798,
+        "initiatorType": "fetch",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 383.10000014305115,
+        "domainLookupStart": 383.10000014305115,
+        "domainLookupEnd": 383.10000014305115,
+        "connectStart": 383.10000014305115,
+        "secureConnectionStart": 0,
+        "connectEnd": 383.10000014305115,
+        "requestStart": 383.7999999523163,
+        "responseStart": 390.10000014305115,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 390.10000014305115,
+        "responseEnd": 407.2000000476837,
+        "transferSize": 10191796,
+        "encodedBodySize": 10191496,
+        "decodedBodySize": 10191496,
+        "responseStatus": 200,
+        "serverTiming": []
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Google)",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "parallelCompile": false
+      }
+    },
+    {
+      "model": "safe",
+      "order": 1,
+      "load": {
+        "fetchArrayBufferMs": 190.90000009536743,
+        "parseDecodeMs": 16409.5,
+        "fetchParseMs": 16600.400000095367
+      },
+      "coldCompileMs": 15.600000143051147,
+      "firstRender": {
+        "cpuSubmitAndFinishMs": 1682,
+        "loadToFirstRenderedFrameMs": 18301.400000095367,
+        "correctness": "not checked at first-frame timestamp; later visual QC is separate"
+      },
+      "warmFrameMs": {
+        "samples": 30,
+        "p50": 7903.5,
+        "p95": 9298.200000047684,
+        "min": 2.5,
+        "max": 16003
+      },
+      "warmSubmitFinishMs": {
+        "p50": 3,
+        "p95": 62.799999952316284
+      },
+      "counts": {
+        "calls": 214,
+        "triangles": 354830,
+        "lines": 0,
+        "geometries": 108,
+        "textures": 15,
+        "programs": 23
+      },
+      "transitions": 16,
+      "errors": [],
+      "resource": {
+        "name": "http://127.0.0.1:37481/research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb",
+        "entryType": "resource",
+        "startTime": 313,
+        "duration": 86.79999995231628,
+        "navigationId": 960,
+        "initiatorType": "fetch",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 313,
+        "domainLookupStart": 313,
+        "domainLookupEnd": 313,
+        "connectStart": 313,
+        "secureConnectionStart": 0,
+        "connectEnd": 313,
+        "requestStart": 313.39999985694885,
+        "responseStart": 318,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 318,
+        "responseEnd": 399.7999999523163,
+        "transferSize": 9051944,
+        "encodedBodySize": 9051644,
+        "decodedBodySize": 9051644,
+        "responseStatus": 200,
+        "serverTiming": []
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Google)",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "parallelCompile": false
+      }
+    },
+    {
+      "model": "safe",
+      "order": 2,
+      "load": {
+        "fetchArrayBufferMs": 188.5,
+        "parseDecodeMs": 14903.299999952316,
+        "fetchParseMs": 15091.799999952316
+      },
+      "coldCompileMs": 69.60000014305115,
+      "firstRender": {
+        "cpuSubmitAndFinishMs": 1615.3999998569489,
+        "loadToFirstRenderedFrameMs": 16779.89999985695,
+        "correctness": "not checked at first-frame timestamp; later visual QC is separate"
+      },
+      "warmFrameMs": {
+        "samples": 30,
+        "p50": 7997.299999952316,
+        "p95": 16097.599999904633,
+        "min": 3.299999952316284,
+        "max": 16595.89999985695
+      },
+      "warmSubmitFinishMs": {
+        "p50": 2.9000000953674316,
+        "p95": 8.299999952316284
+      },
+      "counts": {
+        "calls": 214,
+        "triangles": 354830,
+        "lines": 0,
+        "geometries": 108,
+        "textures": 15,
+        "programs": 23
+      },
+      "transitions": 16,
+      "errors": [],
+      "resource": {
+        "name": "http://127.0.0.1:38353/research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb",
+        "entryType": "resource",
+        "startTime": 317.09999990463257,
+        "duration": 76.40000009536743,
+        "navigationId": 3780,
+        "initiatorType": "fetch",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 317.09999990463257,
+        "domainLookupStart": 317.09999990463257,
+        "domainLookupEnd": 317.09999990463257,
+        "connectStart": 317.09999990463257,
+        "secureConnectionStart": 0,
+        "connectEnd": 317.09999990463257,
+        "requestStart": 317.59999990463257,
+        "responseStart": 322.09999990463257,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 322.09999990463257,
+        "responseEnd": 393.5,
+        "transferSize": 9051944,
+        "encodedBodySize": 9051644,
+        "decodedBodySize": 9051644,
+        "responseStatus": 200,
+        "serverTiming": []
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Google)",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "parallelCompile": false
+      }
+    },
+    {
+      "model": "control",
+      "order": 3,
+      "load": {
+        "fetchArrayBufferMs": 198.90000009536743,
+        "parseDecodeMs": 14717.099999904633,
+        "fetchParseMs": 14916
+      },
+      "coldCompileMs": 17.700000047683716,
+      "firstRender": {
+        "cpuSubmitAndFinishMs": 1622,
+        "loadToFirstRenderedFrameMs": 16559.299999952316,
+        "correctness": "not checked at first-frame timestamp; later visual QC is separate"
+      },
+      "warmFrameMs": {
+        "samples": 30,
+        "p50": 9196.700000047684,
+        "p95": 18791.39999985695,
+        "min": 4.200000047683716,
+        "max": 20171
+      },
+      "warmSubmitFinishMs": {
+        "p50": 2.799999952316284,
+        "p95": 88.70000004768372
+      },
+      "counts": {
+        "calls": 214,
+        "triangles": 426390,
+        "lines": 0,
+        "geometries": 108,
+        "textures": 15,
+        "programs": 23
+      },
+      "transitions": 16,
+      "errors": [],
+      "resource": {
+        "name": "http://127.0.0.1:35901/public/assets/models/product-estuary.glb",
+        "entryType": "resource",
+        "startTime": 379.90000009536743,
+        "duration": 22.09999990463257,
+        "navigationId": 9433,
+        "initiatorType": "fetch",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 379.90000009536743,
+        "domainLookupStart": 379.90000009536743,
+        "domainLookupEnd": 379.90000009536743,
+        "connectStart": 379.90000009536743,
+        "secureConnectionStart": 0,
+        "connectEnd": 379.90000009536743,
+        "requestStart": 380.60000014305115,
+        "responseStart": 386.5,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 386.5,
+        "responseEnd": 402,
+        "transferSize": 10191796,
+        "encodedBodySize": 10191496,
+        "decodedBodySize": 10191496,
+        "responseStatus": 200,
+        "serverTiming": []
+      },
+      "gpu": {
+        "vendor": "Google Inc. (Google)",
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+        "parallelCompile": false
+      }
+    }
+  ]
+}

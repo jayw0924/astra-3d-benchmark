@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-10-22T20:59:50.193Z",
+  "version": "156.0.8078.4",
+  "executable": "/workspace/.cache/ms-playwright/chromium-1248/chrome-linux64/chrome",
+  "executableSha256": "377a9fc07b495c3b8d0ab8ec1fdfd153641759f9756fea34d8dfce4de82f5025",
+  "headless": true,
+  "viewport": [
+    600,
+    400
+  ],
+  "dpr": 1
+}

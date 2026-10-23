@@ -1,0 +1,11 @@
+{
+  "reviewer": "gpt-6.1-sol",
+  "method": "All three exact public images loaded with vision_analyze and inspected natively during ledger finalization",
+  "scope": "Publication-copy content/framing check only, not a new geometry or application acceptance decision",
+  "images": [
+    {"path": "public/assets/study/safe-final/before.png", "finding": "Nonblank 600x400 front-three-quarter teal car overview on gray background. Entire vehicle visible with generous margins; no canvas-edge clipping. Immutable control evidence."},
+    {"path": "public/assets/study/safe-final/first-attempt.png", "finding": "Nonblank 600x400 front-three-quarter teal car overview, same framing and background. Entire vehicle visible. This is the rejected original candidate, not FINAL; overview alone does not show or negate its native-detail failure."},
+    {"path": "public/assets/study/safe-final/final.png", "finding": "Nonblank 600x400 front-three-quarter teal car overview, same framing and background. Entire vehicle visible with no canvas-edge clipping. FINAL fixed-view research acceptance comes from the separate independent decision, not this overview-copy check."}
+  ],
+  "licensing": "Copies retain the manifest's inherited CC-BY-4.0 attribution and upstream license URL. Byte equality with source evidence is recorded separately in public-copy-registration.json."
+}

@@ -1,0 +1,6 @@
+captured safe--glass-edge--estuary--shaded 249653 remaining 5
+captured safe--glass-edge--estuary--wireframe 77542 remaining 4
+captured safe--glass-edge--estuary--silhouette 8461 remaining 3
+captured safe--glass-edge--carmine--shaded 316228 remaining 2
+captured safe--glass-edge--carmine--wireframe 77542 remaining 1
+captured safe--glass-edge--carmine--silhouette 8461 remaining 0

@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/astra-3d/geometry-report.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "assetId",
+    "role",
+    "sourcePath",
+    "bytes",
+    "sha256",
+    "counts",
+    "bounds",
+    "variants",
+    "extensionsUsed",
+    "extensionsRequired",
+    "checks",
+    "measurement"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "assetId": { "type": "string", "minLength": 1 },
+    "role": { "enum": ["baseline", "safe-webgl", "mobile-lod"] },
+    "sourcePath": { "type": "string", "pattern": "^(?!/)(?!.*\\.\\.).+$" },
+    "bytes": { "type": "integer", "minimum": 1 },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scenes",
+        "nodes",
+        "reachableNodes",
+        "meshes",
+        "primitives",
+        "materials",
+        "textures",
+        "images",
+        "cameras",
+        "animations",
+        "skins",
+        "triangles",
+        "submittedTriangleIndices",
+        "positionAccessorEntries"
+      ],
+      "properties": {
+        "scenes": { "type": "integer", "minimum": 1 },
+        "nodes": { "type": "integer", "minimum": 1 },
+        "reachableNodes": { "type": "integer", "minimum": 1 },
+        "meshes": { "type": "integer", "minimum": 1 },
+        "primitives": { "type": "integer", "minimum": 1 },
+        "materials": { "type": "integer", "minimum": 1 },
+        "textures": { "type": "integer", "minimum": 0 },
+        "images": { "type": "integer", "minimum": 0 },
+        "cameras": { "type": "integer", "minimum": 0 },
+        "animations": { "type": "integer", "minimum": 0 },
+        "skins": { "type": "integer", "minimum": 0 },
+        "triangles": { "type": "integer", "minimum": 1 },
+        "submittedTriangleIndices": { "type": "integer", "minimum": 1 },
+        "positionAccessorEntries": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "bounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "min", "max", "dimensions", "units"],
+      "properties": {
+        "method": { "type": "string", "minLength": 1 },
+        "min": { "$ref": "#/$defs/vector3" },
+        "max": { "$ref": "#/$defs/vector3" },
+        "dimensions": { "$ref": "#/$defs/positiveVector3" },
+        "units": { "const": "metres" }
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "mappedPrimitives"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "mappedPrimitives": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "extensionsUsed": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "extensionsRequired": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["forbiddenNodesPresent", "parserValidation"],
+      "properties": {
+        "forbiddenNodesPresent": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "parserValidation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "measurement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "generatedBy"],
+      "properties": {
+        "method": { "type": "string", "minLength": 1 },
+        "generatedBy": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "$defs": {
+    "vector3": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "number" },
+        { "type": "number" },
+        { "type": "number" }
+      ],
+      "items": false,
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "positiveVector3": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "number", "exclusiveMinimum": 0 },
+        { "type": "number", "exclusiveMinimum": 0 },
+        { "type": "number", "exclusiveMinimum": 0 }
+      ],
+      "items": false,
+      "minItems": 3,
+      "maxItems": 3
+    }
+  }
+}

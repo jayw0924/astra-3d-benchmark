@@ -1,0 +1,55 @@
+Wrote 10 labeled supplemental images; no prior candidate relabeled as FINAL.
+[
+  {
+    "finish": "estuary",
+    "box": [
+      415,
+      320,
+      425,
+      342
+    ],
+    "controlFinalPixelIdentical": true,
+    "controlFinalChangedPixels": 0,
+    "priorFinalPixelIdentical": false,
+    "scope": "Pixel diagnostic, not sole visual acceptance"
+  },
+  {
+    "finish": "estuary",
+    "box": [
+      418,
+      323,
+      424,
+      340
+    ],
+    "controlFinalPixelIdentical": true,
+    "controlFinalChangedPixels": 0,
+    "priorFinalPixelIdentical": false,
+    "scope": "Pixel diagnostic, not sole visual acceptance"
+  },
+  {
+    "finish": "carmine",
+    "box": [
+      415,
+      320,
+      425,
+      342
+    ],
+    "controlFinalPixelIdentical": true,
+    "controlFinalChangedPixels": 0,
+    "priorFinalPixelIdentical": false,
+    "scope": "Pixel diagnostic, not sole visual acceptance"
+  },
+  {
+    "finish": "carmine",
+    "box": [
+      418,
+      323,
+      424,
+      340
+    ],
+    "controlFinalPixelIdentical": true,
+    "controlFinalChangedPixels": 0,
+    "priorFinalPixelIdentical": false,
+    "scope": "Pixel diagnostic, not sole visual acceptance"
+  }
+]

@@ -1,0 +1,61 @@
+✖ all 108 PNG identities, bytes, dimensions, balanced cases, nonblank pixels, identical control cameras (4.704931ms)
+✖ four actual ABBA sessions, 30 raw warmed samples each, 16 all-pairs transitions with exact stable assignments (1.208393ms)
+✖ all target sheets visually reviewed, hashed, and gallery decoded (0.855183ms)
+✖ 54 reused controls exactly source-verified; candidate frames are fresh; frozen harness identity (40.659826ms)
+✖ 64 actual ordered pairs, expected four variants, cross-context stable assignments, raw HTTP encoding (1.752888ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 0
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 139.90924
+
+✖ failing tests:
+
+test at research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs:7:1
+✖ all 108 PNG identities, bytes, dimensions, balanced cases, nonblank pixels, identical control cameras (4.704931ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  54 !== 108
+  
+      at TestContext.<anonymous> (file:///workspace/research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs:9:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 54,
+    expected: 108,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs:14:1
+✖ four actual ABBA sessions, 30 raw warmed samples each, 16 all-pairs transitions with exact stable assignments (1.208393ms)
+  [Error: ENOENT: no such file or directory, open '/workspace/research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-0-control.json'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/workspace/research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-0-control.json' }
+
+test at research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs:22:1
+✖ all target sheets visually reviewed, hashed, and gallery decoded (0.855183ms)
+  [Error: ENOENT: no such file or directory, open '/workspace/research/runs/2026-10-22-sol-safe-final-comparison/visual-review.json'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/workspace/research/runs/2026-10-22-sol-safe-final-comparison/visual-review.json' }
+
+test at research/runs/2026-10-22-sol-safe-final-comparison/provenance.test.mjs:7:1
+✖ 54 reused controls exactly source-verified; candidate frames are fresh; frozen harness identity (40.659826ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 54
+  
+      at TestContext.<anonymous> (file:///workspace/research/runs/2026-10-22-sol-safe-final-comparison/provenance.test.mjs:15:9)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 54,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at research/runs/2026-10-22-sol-safe-final-comparison/provenance.test.mjs:19:1
+✖ 64 actual ordered pairs, expected four variants, cross-context stable assignments, raw HTTP encoding (1.752888ms)
+  [Error: ENOENT: no such file or directory, open '/workspace/research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-0-control.json'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/workspace/research/runs/2026-10-22-sol-safe-final-comparison/raw/measure-0-control.json' }

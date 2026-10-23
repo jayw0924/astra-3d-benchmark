@@ -1,0 +1,12 @@
+✔ all 108 PNG identities, bytes, dimensions, balanced cases, nonblank pixels, identical control cameras (26.487199ms)
+✔ four actual ABBA sessions, 30 raw warmed samples each, 16 all-pairs transitions with exact stable assignments (2.925441ms)
+✔ all target sheets visually reviewed, hashed, and gallery decoded (2.7407ms)
+✔ balanced fixed 108-case hash-pinned matrix (28.035797ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 179.132093

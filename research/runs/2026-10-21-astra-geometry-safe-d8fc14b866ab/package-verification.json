@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-21T19:04:12.715Z",
+  "runSchemaPassed": true,
+  "geometrySchemasPassed": true,
+  "staticChecksPassed": 17,
+  "staticChecksTotal": 17,
+  "syntax": [
+    {
+      "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/package.mjs",
+      "exitStatus": 0
+    },
+    {
+      "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/prepare.mjs",
+      "exitStatus": 0
+    },
+    {
+      "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/transform.mjs",
+      "exitStatus": 0
+    },
+    {
+      "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verify-initial.mjs",
+      "exitStatus": 0
+    },
+    {
+      "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/verify.mjs",
+      "exitStatus": 0
+    }
+  ],
+  "privateExportIgnored": true,
+  "sessionEvidenceVerified": false,
+  "scopePassed": true,
+  "deterministicExactBytes": true,
+  "visualBrowserAcceptance": "pending"
+}

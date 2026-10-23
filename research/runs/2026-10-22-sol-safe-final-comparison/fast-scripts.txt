@@ -1,0 +1,33 @@
+✔ sorts public run summaries deterministically (276.191917ms)
+✔ rejects secret-bearing run records (208.810712ms)
+✔ does not count an unverified Astra model claim (498.052769ms)
+✔ does not count repeated Astra fields when the session export is invalid (398.552049ms)
+✔ Vercel builds the public app without requiring private session transcripts (9.376848ms)
+✔ refuses a download whose SHA-256 does not match (280.562012ms)
+✔ current explanatory copy uses static geometry-count terminology (8.898921ms)
+✔ pins the deterministic geometry toolchain explicitly (3.289914ms)
+✔ official validator parses the immutable Estuary control without errors (579.016997ms)
+✔ reports exact geometry metrics for the integrated Estuary asset (782.207792ms)
+✔ rejects a project-relative symlink that escapes the project root (391.686937ms)
+✔ removes named trademark nodes from the written model (328.746872ms)
+✔ rejects invalid URI and date-time formats (1396.275609ms)
+✔ rejects duplicate asset IDs (1117.063699ms)
+✔ verifies byte count and SHA-256 for available assets (495.196137ms)
+✔ rejects unknown input assets, invalid timing, and missing output provenance (1795.689202ms)
+✔ discovers nested run records and requires notes (510.494025ms)
+✔ rejects Astra attribution without persisted provider evidence (679.973892ms)
+✔ parses persisted Hermes session evidence instead of trusting repeated fields (624.923672ms)
+✔ requires evidence for a run-level Astra provenance claim (1669.605874ms)
+✔ requires the run directory to match the run ID (1122.067166ms)
+✔ rejects geometry reports that omit required measured metrics (1814.094817ms)
+✔ rejects geometry reports for unknown assets (2263.981002ms)
+✔ rejects geometry reports that do not identify the manifest asset bytes (2299.7251ms)
+✔ rejects geometry reports whose measured values do not match the pinned GLB (6309.767743ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27696.230644

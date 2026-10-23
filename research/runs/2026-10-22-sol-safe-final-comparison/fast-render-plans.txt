@@ -1,0 +1,14 @@
+✔ blind handoff rejects candidate identity tokens and source paths (1.57566ms)
+✔ side close-up camera stays outside the surface using its actual world-space side (2.078575ms)
+✔ large secondary surfaces remain close enough to read as details (0.253151ms)
+✔ blind labels are deterministic, balanced, and do not leak candidate names (9.271648ms)
+✔ render plan uses identical exterior matrices and nine neutral close-ups per candidate (0.702283ms)
+✔ geometry baseline plan balances lineage views and isolates wireframe mode (1.755122ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2606.630312

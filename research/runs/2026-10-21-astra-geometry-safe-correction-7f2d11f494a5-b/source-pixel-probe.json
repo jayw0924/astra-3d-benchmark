@@ -1,0 +1,1759 @@
+{
+  "browser": "156.0.8078.4",
+  "gpu": {
+    "vendor": "Google Inc. (Google)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "parallelCompile": false
+  },
+  "errors": [],
+  "results": {
+    "wipers": [
+      {
+        "pixel": [
+          65,
+          282
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 447,
+            "point": [
+              -0.5606546582987504,
+              0.9080240573581166,
+              1.659002237851881
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 19,
+            "point": [
+              -0.5722422182677174,
+              0.8932827803198633,
+              1.6494812113478499
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 24,
+            "point": [
+              -0.6161279425830473,
+              0.8374529402250316,
+              1.6134220974814368
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 908,
+            "point": [
+              -0.8915552142906248,
+              0.4870642710828361,
+              1.3871147160410078
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          86,
+          313
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 109,
+            "point": [
+              -0.44101201508219956,
+              0.8924124760305201,
+              1.7208456818790798
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 19,
+            "point": [
+              -0.4769939910782309,
+              0.8411163301701975,
+              1.6900811545140444
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 914,
+            "point": [
+              -0.8553538598479803,
+              0.3017239683319719,
+              1.3665841198352935
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          160,
+          350
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 1243,
+            "point": [
+              -0.16844740037786904,
+              0.9062154164226195,
+              1.7521451780441397
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 28,
+            "point": [
+              -0.1737689673471275,
+              0.8962001173443568,
+              1.746287767238194
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 20,
+            "point": [
+              -0.19655464753565252,
+              0.8533169960554544,
+              1.7212077315780019
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 15,
+            "point": [
+              -0.43155794319115637,
+              0.4110359341119141,
+              1.462541280256934
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 182,
+            "point": [
+              -0.49711485974424807,
+              0.2876564615391155,
+              1.3903832498044681
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          202,
+          369
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 1122,
+            "point": [
+              -0.030496704308551142,
+              0.9131697755002579,
+              1.7628111983784733
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 32,
+            "point": [
+              -0.04059719623422606,
+              0.8904247074286797,
+              1.7496063916595983
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 22,
+            "point": [
+              -0.059758959061870454,
+              0.8472747694758226,
+              1.7245553964809588
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 368,
+            "point": [
+              -0.2228192174900615,
+              0.4800830816837949,
+              1.5113797202942572
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 167,
+            "point": [
+              -0.30522719907102897,
+              0.2945104220061112,
+              1.4036442281145953
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          280,
+          336
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 45,
+            "point": [
+              0.12546557711468678,
+              0.9565916294651349,
+              1.6112693187881204
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 43,
+            "point": [
+              0.11296381966932546,
+              0.9211405077399117,
+              1.5864965381928935
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 25,
+            "point": [
+              0.09218675170472429,
+              0.8622231620206815,
+              1.5453258669213783
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 264,
+            "point": [
+              0.05452953918611428,
+              0.7554389414289453,
+              1.470706449001261
+            ]
+          },
+          {
+            "object": "InteriorFloormats",
+            "association": {
+              "meshes": 10,
+              "primitives": 0,
+              "nodes": 10
+            },
+            "faceIndex": 139,
+            "point": [
+              -0.1215628699417492,
+              0.2560952724957436,
+              1.1217716184484485
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 219,
+            "point": [
+              -0.12273459364950412,
+              0.25277262606195283,
+              1.1194497965400254
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          342,
+          305
+        ],
+        "hits": [
+          {
+            "object": "BodyHood",
+            "association": {
+              "meshes": 40,
+              "primitives": 0,
+              "nodes": 42
+            },
+            "faceIndex": 141,
+            "point": [
+              0.2448093668899045,
+              0.9854151089115123,
+              1.466533170441532
+            ]
+          },
+          {
+            "object": "BodyHood",
+            "association": {
+              "meshes": 40,
+              "primitives": 0,
+              "nodes": 42
+            },
+            "faceIndex": 10707,
+            "point": [
+              0.2438490705852563,
+              0.9819630544003058,
+              1.4637327150363042
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 217,
+            "point": [
+              0.23751414213268407,
+              0.9591903765955305,
+              1.4452585372842275
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 49,
+            "point": [
+              0.2368951952556299,
+              0.9569653983791309,
+              1.4434535390571133
+            ]
+          },
+          {
+            "object": "InteriorFloormats",
+            "association": {
+              "meshes": 10,
+              "primitives": 0,
+              "nodes": 10
+            },
+            "faceIndex": 85,
+            "point": [
+              0.04962112684978351,
+              0.2837562133149737,
+              0.8973172323906045
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 219,
+            "point": [
+              0.04100757038445657,
+              0.25279236777091113,
+              0.8721980263238975
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          90,
+          250
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 501,
+            "point": [
+              -0.5529783356911702,
+              0.9365315911801191,
+              1.53968478725636
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 14,
+            "point": [
+              -0.5621312181752295,
+              0.9250299069030947,
+              1.5312105302696615
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 24,
+            "point": [
+              -0.6114233563263536,
+              0.8630884790150962,
+              1.4855730770581774
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 819,
+            "point": [
+              -0.8291391143459641,
+              0.5895027626863121,
+              1.283999497726722
+            ]
+          },
+          {
+            "object": "mesh_90_1",
+            "association": {
+              "meshes": 90,
+              "primitives": 1
+            },
+            "faceIndex": 9119,
+            "point": [
+              -1.0814308205978103,
+              0.2724682595039315,
+              1.0504135472773106
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          200,
+          330
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 2209,
+            "point": [
+              -0.09176776005683218,
+              0.9316939670246991,
+              1.6652418086608418
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 7,
+            "point": [
+              -0.09560972262700704,
+              0.9238500195721142,
+              1.66012889954823
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 22,
+            "point": [
+              -0.11909627801911463,
+              0.8758986658113902,
+              1.6288728368212304
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 321,
+            "point": [
+              -0.2348997633296664,
+              0.6394683422435048,
+              1.4747607952534807
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 192,
+            "point": [
+              -0.41002293016403746,
+              0.2819279203136436,
+              1.2417057305092813
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          400,
+          290
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshield",
+            "association": {
+              "meshes": 1,
+              "primitives": 0,
+              "nodes": 1
+            },
+            "faceIndex": 2021,
+            "point": [
+              0.3759149855378591,
+              1.003650668209901,
+              1.3656397338093096
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 320,
+            "point": [
+              0.3750234750052674,
+              0.9989864122421068,
+              1.3614832189907238
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 256,
+            "point": [
+              0.3708015535188459,
+              0.9768979211153097,
+              1.3417992348091794
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 149,
+            "point": [
+              0.36899176897770686,
+              0.9674293864902728,
+              1.3333614250596701
+            ]
+          },
+          {
+            "object": "InteriorDashSides",
+            "association": {
+              "meshes": 8,
+              "primitives": 0,
+              "nodes": 8
+            },
+            "faceIndex": 515,
+            "point": [
+              0.35868751044663016,
+              0.9135189753507138,
+              1.2853195885213538
+            ]
+          },
+          {
+            "object": "InteriorDashSides",
+            "association": {
+              "meshes": 8,
+              "primitives": 0,
+              "nodes": 8
+            },
+            "faceIndex": 457,
+            "point": [
+              0.3319648994696007,
+              0.7737100856427026,
+              1.1607300021320353
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          547,
+          237
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshieldWipersBase",
+            "association": {
+              "meshes": 4,
+              "primitives": 0,
+              "nodes": 4
+            },
+            "faceIndex": 491,
+            "point": [
+              0.7086965901025916,
+              1.0538962330210868,
+              1.0425355697006342
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 316,
+            "point": [
+              0.7089134356196142,
+              1.0484872115053476,
+              1.036291655721926
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 154,
+            "point": [
+              0.7095564007405065,
+              1.0324490096530317,
+              1.0177779277865444
+            ]
+          },
+          {
+            "object": "mesh_83_1",
+            "association": {
+              "meshes": 83,
+              "primitives": 1
+            },
+            "faceIndex": 1677,
+            "point": [
+              0.7098481976377513,
+              1.0251703915976789,
+              1.009375841588652
+            ]
+          },
+          {
+            "object": "InteriorSeatsColor2",
+            "association": {
+              "meshes": 17,
+              "primitives": 0,
+              "nodes": 18
+            },
+            "faceIndex": 1022,
+            "point": [
+              0.7335857118920001,
+              0.4330588870833293,
+              0.32587083255267735
+            ]
+          },
+          {
+            "object": "InteriorSeatsFrame2",
+            "association": {
+              "meshes": 19,
+              "primitives": 0,
+              "nodes": 20
+            },
+            "faceIndex": 1285,
+            "point": [
+              0.7337917661416083,
+              0.42791904428258787,
+              0.3199376455208769
+            ]
+          }
+        ]
+      }
+    ],
+    "glass-edge": [
+      {
+        "pixel": [
+          24,
+          324
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 254,
+            "point": [
+              -0.44704762334040926,
+              0.9018228219434317,
+              1.7166572068507577
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 22,
+            "point": [
+              -0.46883394636363673,
+              0.8877800047316611,
+              1.7048202245132444
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 19,
+            "point": [
+              -0.5435649832398981,
+              0.839610596347301,
+              1.6642172295688817
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 906,
+            "point": [
+              -0.9775175165315594,
+              0.5598976729181102,
+              1.4284413959683235
+            ]
+          },
+          {
+            "object": "mesh_90_1",
+            "association": {
+              "meshes": 90,
+              "primitives": 1
+            },
+            "faceIndex": 6099,
+            "point": [
+              -1.2402589005508362,
+              0.3905423748342318,
+              1.2856882972166825
+            ]
+          },
+          {
+            "object": "mesh_89",
+            "association": {
+              "meshes": 89,
+              "primitives": 0
+            },
+            "faceIndex": 199,
+            "point": [
+              -1.242093431309986,
+              0.38935989075499344,
+              1.2846915568226964
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          46,
+          352
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 101,
+            "point": [
+              -0.25852240216370276,
+              0.8902751456860363,
+              1.7617177472587264
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 20,
+            "point": [
+              -0.31406760555059726,
+              0.8503502826639521,
+              1.7297616578064516
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 914,
+            "point": [
+              -0.9009933159658104,
+              0.4284789569034364,
+              1.3920934279644241
+            ]
+          },
+          {
+            "object": "mesh_89_1",
+            "association": {
+              "meshes": 89,
+              "primitives": 1
+            },
+            "faceIndex": 29,
+            "point": [
+              -1.1999956625132875,
+              0.21356161028685583,
+              1.2200723505339026
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          90,
+          371
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 1127,
+            "point": [
+              -0.03247824421818049,
+              0.9136237929597217,
+              1.7603325279672146
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 31,
+            "point": [
+              -0.052693749831250664,
+              0.8972984318465242,
+              1.747006653727907
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 22,
+            "point": [
+              -0.10618953055399247,
+              0.8540970420298611,
+              1.7117427300898085
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 184,
+            "point": [
+              -0.8086037150248234,
+              0.2868510165283078,
+              1.2487177993597838
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          143,
+          357
+        ],
+        "hits": [
+          {
+            "object": "BodyHoodTopgrill",
+            "association": {
+              "meshes": 43,
+              "primitives": 0,
+              "nodes": 45
+            },
+            "faceIndex": 1081,
+            "point": [
+              0.07891575471530222,
+              0.9466451557846274,
+              1.6456658181004196
+            ]
+          },
+          {
+            "object": "BodyHoodInterior02",
+            "association": {
+              "meshes": 42,
+              "primitives": 0,
+              "nodes": 44
+            },
+            "faceIndex": 36,
+            "point": [
+              0.046692856478424985,
+              0.9193626342890757,
+              1.6202609285252743
+            ]
+          },
+          {
+            "object": "Engine",
+            "association": {
+              "meshes": 5,
+              "primitives": 0,
+              "nodes": 5
+            },
+            "faceIndex": 22,
+            "point": [
+              -0.001585923175646875,
+              0.878485900172596,
+              1.5821974043531746
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 319,
+            "point": [
+              -0.1598380431407409,
+              0.7444968085357939,
+              1.457429681624101
+            ]
+          },
+          {
+            "object": "InteriorSteeringBase",
+            "association": {
+              "meshes": 20,
+              "primitives": 0,
+              "nodes": 21
+            },
+            "faceIndex": 62,
+            "point": [
+              -0.3001283286381385,
+              0.6257156640973489,
+              1.346823267969846
+            ]
+          },
+          {
+            "object": "InteriorSteeringBase",
+            "association": {
+              "meshes": 20,
+              "primitives": 0,
+              "nodes": 21
+            },
+            "faceIndex": 156,
+            "point": [
+              -0.34204637325877796,
+              0.5902244446233266,
+              1.3137746176912493
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          338,
+          111
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshield",
+            "association": {
+              "meshes": 1,
+              "primitives": 0,
+              "nodes": 1
+            },
+            "faceIndex": 1392,
+            "point": [
+              -0.39005126161699377,
+              1.2773247910236611,
+              -0.0999840542378759
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 284,
+            "point": [
+              -0.401092039771333,
+              1.2721516122094054,
+              -0.11658188569830982
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 219,
+            "point": [
+              -0.41526201702352805,
+              1.2655122408630355,
+              -0.13788390725352767
+            ]
+          },
+          {
+            "object": "InteriorPillar",
+            "association": {
+              "meshes": 15,
+              "primitives": 0,
+              "nodes": 16
+            },
+            "faceIndex": 1786,
+            "point": [
+              -0.4732402505966202,
+              1.238346422891191,
+              -0.2250437917985891
+            ]
+          },
+          {
+            "object": "InteriorCage",
+            "association": {
+              "meshes": 6,
+              "primitives": 0,
+              "nodes": 6
+            },
+            "faceIndex": 2415,
+            "point": [
+              -0.5038399493771496,
+              1.2240088724720808,
+              -0.2710449554846521
+            ]
+          },
+          {
+            "object": "BodyDoorRWindow",
+            "association": {
+              "meshes": 53,
+              "primitives": 0,
+              "nodes": 55
+            },
+            "faceIndex": 1197,
+            "point": [
+              -0.7395344471741032,
+              1.1135737413974938,
+              -0.6253693967422558
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          371,
+          137
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshield",
+            "association": {
+              "meshes": 1,
+              "primitives": 0,
+              "nodes": 1
+            },
+            "faceIndex": 1520,
+            "point": [
+              -0.03917258228969525,
+              1.2629536863752613,
+              0.15188187334593628
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 273,
+            "point": [
+              -0.05033841968639732,
+              1.2564534579145534,
+              0.13314047592621236
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 3,
+            "point": [
+              -0.09316977582275818,
+              1.231519045001599,
+              0.06124981167434368
+            ]
+          },
+          {
+            "object": "InteriorPillar",
+            "association": {
+              "meshes": 15,
+              "primitives": 0,
+              "nodes": 16
+            },
+            "faceIndex": 592,
+            "point": [
+              -0.13087282630719013,
+              1.2095700918593306,
+              -0.002033203110857612
+            ]
+          },
+          {
+            "object": "mesh_85_1",
+            "association": {
+              "meshes": 85,
+              "primitives": 1
+            },
+            "faceIndex": 601,
+            "point": [
+              -0.6271616702606864,
+              0.9206539314689729,
+              -0.8350335531119237
+            ]
+          },
+          {
+            "object": "mesh_84",
+            "association": {
+              "meshes": 84,
+              "primitives": 0
+            },
+            "faceIndex": 106,
+            "point": [
+              -0.783019766799584,
+              0.8299206349897407,
+              -1.0966349381705962
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          427,
+          149
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshield",
+            "association": {
+              "meshes": 1,
+              "primitives": 0,
+              "nodes": 1
+            },
+            "faceIndex": 2738,
+            "point": [
+              0.25423357628072285,
+              1.267048143354703,
+              0.17266794965578636
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 279,
+            "point": [
+              0.2451597128562182,
+              1.2605842295299028,
+              0.15409490461703262
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 4,
+            "point": [
+              0.21442164501536304,
+              1.238687468209077,
+              0.09117798690470463
+            ]
+          },
+          {
+            "object": "InteriorPillar",
+            "association": {
+              "meshes": 15,
+              "primitives": 0,
+              "nodes": 16
+            },
+            "faceIndex": 340,
+            "point": [
+              0.18004059686377616,
+              1.2141955707601912,
+              0.020804351560525236
+            ]
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "association": {
+              "meshes": 16,
+              "primitives": 0,
+              "nodes": 17
+            },
+            "faceIndex": 1150,
+            "point": [
+              0.14895114027442036,
+              1.19204849196344,
+              -0.04283181425447977
+            ]
+          },
+          {
+            "object": "InteriorSeatsFrame2",
+            "association": {
+              "meshes": 19,
+              "primitives": 0,
+              "nodes": 20
+            },
+            "faceIndex": 1331,
+            "point": [
+              0.13186882333985211,
+              1.1798796263516014,
+              -0.0777971456628399
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          492,
+          153
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshield",
+            "association": {
+              "meshes": 1,
+              "primitives": 0,
+              "nodes": 1
+            },
+            "faceIndex": 1619,
+            "point": [
+              0.5128657296569209,
+              1.2786235575111267,
+              0.092713289030396
+            ]
+          },
+          {
+            "object": "BodyWindshield",
+            "association": {
+              "meshes": 1,
+              "primitives": 0,
+              "nodes": 1
+            },
+            "faceIndex": 574,
+            "point": [
+              0.5097110881019227,
+              1.2758431569503181,
+              0.08437466869357957
+            ]
+          },
+          {
+            "object": "InteriorPillar",
+            "association": {
+              "meshes": 15,
+              "primitives": 0,
+              "nodes": 16
+            },
+            "faceIndex": 353,
+            "point": [
+              0.466659583423609,
+              1.237898932332603,
+              -0.029422777444902348
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 931,
+            "point": [
+              -0.14301391723040424,
+              0.7005521328387978,
+              -1.640964298958392
+            ]
+          },
+          {
+            "object": "BodyUnderside",
+            "association": {
+              "meshes": 0,
+              "primitives": 0,
+              "nodes": 0
+            },
+            "faceIndex": 629,
+            "point": [
+              -0.32732264519417503,
+              0.5381082920225805,
+              -2.1281450072757586
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 622,
+            "point": [
+              -0.32950339528753775,
+              0.5361862483682195,
+              -2.133909353798493
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          438,
+          302
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshieldWipersBase",
+            "association": {
+              "meshes": 4,
+              "primitives": 0,
+              "nodes": 4
+            },
+            "faceIndex": 472,
+            "point": [
+              0.7301378089731484,
+              1.0613772685422556,
+              0.9923518108277503
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 314,
+            "point": [
+              0.7271731155247749,
+              1.057257830192326,
+              0.9857142912432526
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 156,
+            "point": [
+              0.7171253710192308,
+              1.0432965000355299,
+              0.9632188453912811
+            ]
+          },
+          {
+            "object": "mesh_83_1",
+            "association": {
+              "meshes": 83,
+              "primitives": 1
+            },
+            "faceIndex": 1678,
+            "point": [
+              0.7069266484305115,
+              1.029125385994949,
+              0.9403853814604233
+            ]
+          },
+          {
+            "object": "InteriorFloormats",
+            "association": {
+              "meshes": 10,
+              "primitives": 0,
+              "nodes": 10
+            },
+            "faceIndex": 637,
+            "point": [
+              0.15058932324012814,
+              0.25609527249574365,
+              -0.30517337725855
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 274,
+            "point": [
+              0.148236228518455,
+              0.2528256499171279,
+              -0.310441615803703
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          409,
+          312
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshieldWipersBase",
+            "association": {
+              "meshes": 4,
+              "primitives": 0,
+              "nodes": 4
+            },
+            "faceIndex": 380,
+            "point": [
+              0.6776548865635749,
+              1.0501212551267618,
+              1.083951590646323
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 316,
+            "point": [
+              0.6741371589438224,
+              1.0454865420013797,
+              1.0769343184216966
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 154,
+            "point": [
+              0.6629159612042463,
+              1.0307022727037511,
+              1.054549924933461
+            ]
+          },
+          {
+            "object": "InteriorDashSides",
+            "association": {
+              "meshes": 8,
+              "primitives": 0,
+              "nodes": 8
+            },
+            "faceIndex": 508,
+            "point": [
+              0.6459505148604007,
+              1.0083497811673754,
+              1.0207067260630942
+            ]
+          },
+          {
+            "object": "InteriorDashSides",
+            "association": {
+              "meshes": 8,
+              "primitives": 0,
+              "nodes": 8
+            },
+            "faceIndex": 546,
+            "point": [
+              0.6067465085039139,
+              0.9566973104622187,
+              0.9425013575306593
+            ]
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "association": {
+              "meshes": 16,
+              "primitives": 0,
+              "nodes": 17
+            },
+            "faceIndex": 786,
+            "point": [
+              0.2648458471810585,
+              0.5062327907784927,
+              0.26046730781897587
+            ]
+          }
+        ]
+      },
+      {
+        "pixel": [
+          302,
+          333
+        ],
+        "hits": [
+          {
+            "object": "BodyWindshieldWipersBase",
+            "association": {
+              "meshes": 4,
+              "primitives": 0,
+              "nodes": 4
+            },
+            "faceIndex": 254,
+            "point": [
+              0.4464988805601389,
+              1.0112186040335636,
+              1.329867316416349
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 320,
+            "point": [
+              0.44209167731412535,
+              1.006488024616672,
+              1.3239395800226772
+            ]
+          },
+          {
+            "object": "InteriorDashMid",
+            "association": {
+              "meshes": 7,
+              "primitives": 0,
+              "nodes": 7
+            },
+            "faceIndex": 206,
+            "point": [
+              0.4249731958596353,
+              0.9881134837805312,
+              1.3009150359166246
+            ]
+          },
+          {
+            "object": "BodyWindshieldGasket",
+            "association": {
+              "meshes": 2,
+              "primitives": 0,
+              "nodes": 2
+            },
+            "faceIndex": 150,
+            "point": [
+              0.41565698780344307,
+              0.9781137039623515,
+              1.2883846345570635
+            ]
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "association": {
+              "meshes": 16,
+              "primitives": 0,
+              "nodes": 17
+            },
+            "faceIndex": 1082,
+            "point": [
+              -0.19136095907768258,
+              0.3265561412842528,
+              0.47193888098444303
+            ]
+          },
+          {
+            "object": "InteriorFloor",
+            "association": {
+              "meshes": 9,
+              "primitives": 0,
+              "nodes": 9
+            },
+            "faceIndex": 243,
+            "point": [
+              -0.2600663839620283,
+              0.2528094927536553,
+              0.3795293357931677
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

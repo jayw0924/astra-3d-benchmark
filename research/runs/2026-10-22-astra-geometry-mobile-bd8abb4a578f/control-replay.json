@@ -1,0 +1,331 @@
+{
+  "allPassed": true,
+  "checkedAt": "2026-10-22T20:59:50.017Z",
+  "count": 54,
+  "records": [
+    {
+      "id": "control--front-three-quarter--estuary--shaded",
+      "sha256": "6b748ef8e875704bde56cf16545efa5b33b36835c7df6e6c99c769b52dcd496d",
+      "acceptedSha256": "6b748ef8e875704bde56cf16545efa5b33b36835c7df6e6c99c769b52dcd496d",
+      "exact": true
+    },
+    {
+      "id": "control--front-three-quarter--estuary--wireframe",
+      "sha256": "8723bf2452d76c2dcf0036b67168ce9903f9c2a20f7cf3ecd860485dfcc9cad4",
+      "acceptedSha256": "8723bf2452d76c2dcf0036b67168ce9903f9c2a20f7cf3ecd860485dfcc9cad4",
+      "exact": true
+    },
+    {
+      "id": "control--front-three-quarter--estuary--silhouette",
+      "sha256": "4e2d7b38e7a49983ed6019792c9dcac2a1ae17682172b268e358b13b28ef6f2b",
+      "acceptedSha256": "4e2d7b38e7a49983ed6019792c9dcac2a1ae17682172b268e358b13b28ef6f2b",
+      "exact": true
+    },
+    {
+      "id": "control--front-three-quarter--carmine--shaded",
+      "sha256": "1d0958817808b666906b54efb2742ee501cd8a263759c8bc6f58c89212709efa",
+      "acceptedSha256": "1d0958817808b666906b54efb2742ee501cd8a263759c8bc6f58c89212709efa",
+      "exact": true
+    },
+    {
+      "id": "control--front-three-quarter--carmine--wireframe",
+      "sha256": "8723bf2452d76c2dcf0036b67168ce9903f9c2a20f7cf3ecd860485dfcc9cad4",
+      "acceptedSha256": "8723bf2452d76c2dcf0036b67168ce9903f9c2a20f7cf3ecd860485dfcc9cad4",
+      "exact": true
+    },
+    {
+      "id": "control--front-three-quarter--carmine--silhouette",
+      "sha256": "4e2d7b38e7a49983ed6019792c9dcac2a1ae17682172b268e358b13b28ef6f2b",
+      "acceptedSha256": "4e2d7b38e7a49983ed6019792c9dcac2a1ae17682172b268e358b13b28ef6f2b",
+      "exact": true
+    },
+    {
+      "id": "control--side--estuary--shaded",
+      "sha256": "bf6934313060aa416e97292f41a68e0cf529d641176c02df263860f37ec9b63c",
+      "acceptedSha256": "bf6934313060aa416e97292f41a68e0cf529d641176c02df263860f37ec9b63c",
+      "exact": true
+    },
+    {
+      "id": "control--side--estuary--wireframe",
+      "sha256": "3ef5d38adf5f0eec4792a356bb79367bae204cda54498c73b6408cc90ed36091",
+      "acceptedSha256": "3ef5d38adf5f0eec4792a356bb79367bae204cda54498c73b6408cc90ed36091",
+      "exact": true
+    },
+    {
+      "id": "control--side--estuary--silhouette",
+      "sha256": "040c1a406c2deade54d9c796c8217947f34da5ec8e1e98abfe72d458fabc9a2e",
+      "acceptedSha256": "040c1a406c2deade54d9c796c8217947f34da5ec8e1e98abfe72d458fabc9a2e",
+      "exact": true
+    },
+    {
+      "id": "control--side--carmine--shaded",
+      "sha256": "86e3ecc56b5598c90aadd78b5be99928d46ea95d1401e68baabc29985e19aedc",
+      "acceptedSha256": "86e3ecc56b5598c90aadd78b5be99928d46ea95d1401e68baabc29985e19aedc",
+      "exact": true
+    },
+    {
+      "id": "control--side--carmine--wireframe",
+      "sha256": "3ef5d38adf5f0eec4792a356bb79367bae204cda54498c73b6408cc90ed36091",
+      "acceptedSha256": "3ef5d38adf5f0eec4792a356bb79367bae204cda54498c73b6408cc90ed36091",
+      "exact": true
+    },
+    {
+      "id": "control--side--carmine--silhouette",
+      "sha256": "040c1a406c2deade54d9c796c8217947f34da5ec8e1e98abfe72d458fabc9a2e",
+      "acceptedSha256": "040c1a406c2deade54d9c796c8217947f34da5ec8e1e98abfe72d458fabc9a2e",
+      "exact": true
+    },
+    {
+      "id": "control--rear-three-quarter--estuary--shaded",
+      "sha256": "89028e2d7b3c171fa75ef76a870ee16653f507582ea329e35a81e9175b36f822",
+      "acceptedSha256": "89028e2d7b3c171fa75ef76a870ee16653f507582ea329e35a81e9175b36f822",
+      "exact": true
+    },
+    {
+      "id": "control--rear-three-quarter--estuary--wireframe",
+      "sha256": "cd40454352ead27c426b683540807bf2dbc2e42cb5e40d53d1202fb542eda97c",
+      "acceptedSha256": "cd40454352ead27c426b683540807bf2dbc2e42cb5e40d53d1202fb542eda97c",
+      "exact": true
+    },
+    {
+      "id": "control--rear-three-quarter--estuary--silhouette",
+      "sha256": "6653c3fc1dcb3a10f4200f955ae057e307a857c9f81663773c352abd0beb8213",
+      "acceptedSha256": "6653c3fc1dcb3a10f4200f955ae057e307a857c9f81663773c352abd0beb8213",
+      "exact": true
+    },
+    {
+      "id": "control--rear-three-quarter--carmine--shaded",
+      "sha256": "14fe6e6e1b51cb3fb3c2d79402b6cf0b1cb1c2aea57638b6c450410caf62b250",
+      "acceptedSha256": "14fe6e6e1b51cb3fb3c2d79402b6cf0b1cb1c2aea57638b6c450410caf62b250",
+      "exact": true
+    },
+    {
+      "id": "control--rear-three-quarter--carmine--wireframe",
+      "sha256": "cd40454352ead27c426b683540807bf2dbc2e42cb5e40d53d1202fb542eda97c",
+      "acceptedSha256": "cd40454352ead27c426b683540807bf2dbc2e42cb5e40d53d1202fb542eda97c",
+      "exact": true
+    },
+    {
+      "id": "control--rear-three-quarter--carmine--silhouette",
+      "sha256": "6653c3fc1dcb3a10f4200f955ae057e307a857c9f81663773c352abd0beb8213",
+      "acceptedSha256": "6653c3fc1dcb3a10f4200f955ae057e307a857c9f81663773c352abd0beb8213",
+      "exact": true
+    },
+    {
+      "id": "control--wheel-brake--estuary--shaded",
+      "sha256": "884e09c76c61db70ce314c6c711b51a7157183a90f8076acea14838abebe6434",
+      "acceptedSha256": "884e09c76c61db70ce314c6c711b51a7157183a90f8076acea14838abebe6434",
+      "exact": true
+    },
+    {
+      "id": "control--wheel-brake--estuary--wireframe",
+      "sha256": "f520dfe9029afbeeb60b9ef323b9938164c429fc541a85af4467d7da1cc467b8",
+      "acceptedSha256": "f520dfe9029afbeeb60b9ef323b9938164c429fc541a85af4467d7da1cc467b8",
+      "exact": true
+    },
+    {
+      "id": "control--wheel-brake--estuary--silhouette",
+      "sha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "acceptedSha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "exact": true
+    },
+    {
+      "id": "control--wheel-brake--carmine--shaded",
+      "sha256": "fe7f7ad1d9ecc13720528cfeff344040673bdcabc02869d0c4d711d094d38e95",
+      "acceptedSha256": "fe7f7ad1d9ecc13720528cfeff344040673bdcabc02869d0c4d711d094d38e95",
+      "exact": true
+    },
+    {
+      "id": "control--wheel-brake--carmine--wireframe",
+      "sha256": "f520dfe9029afbeeb60b9ef323b9938164c429fc541a85af4467d7da1cc467b8",
+      "acceptedSha256": "f520dfe9029afbeeb60b9ef323b9938164c429fc541a85af4467d7da1cc467b8",
+      "exact": true
+    },
+    {
+      "id": "control--wheel-brake--carmine--silhouette",
+      "sha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "acceptedSha256": "721cd1ed550e914deeabfe196d7fd56b3c37952b805fa59806f5f390b3a0f751",
+      "exact": true
+    },
+    {
+      "id": "control--mirror-window--estuary--shaded",
+      "sha256": "cc56eafb987711a95273d9d19344d6742580471bb9c3a49b3426a6ebe8f5169c",
+      "acceptedSha256": "cc56eafb987711a95273d9d19344d6742580471bb9c3a49b3426a6ebe8f5169c",
+      "exact": true
+    },
+    {
+      "id": "control--mirror-window--estuary--wireframe",
+      "sha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "acceptedSha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "exact": true
+    },
+    {
+      "id": "control--mirror-window--estuary--silhouette",
+      "sha256": "935a4cc6a99ba7718998345729f9205f26abfd0a19a72584567390ef27402856",
+      "acceptedSha256": "935a4cc6a99ba7718998345729f9205f26abfd0a19a72584567390ef27402856",
+      "exact": true
+    },
+    {
+      "id": "control--mirror-window--carmine--shaded",
+      "sha256": "d11911210b39b24471349080b6ea72a8e41994cb041a357c49512ba5365fdf1c",
+      "acceptedSha256": "d11911210b39b24471349080b6ea72a8e41994cb041a357c49512ba5365fdf1c",
+      "exact": true
+    },
+    {
+      "id": "control--mirror-window--carmine--wireframe",
+      "sha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "acceptedSha256": "6511841489f92823721a80a75c4c02a17ab2334156c644bb23e6705cd3c27e39",
+      "exact": true
+    },
+    {
+      "id": "control--mirror-window--carmine--silhouette",
+      "sha256": "935a4cc6a99ba7718998345729f9205f26abfd0a19a72584567390ef27402856",
+      "acceptedSha256": "935a4cc6a99ba7718998345729f9205f26abfd0a19a72584567390ef27402856",
+      "exact": true
+    },
+    {
+      "id": "control--wipers--estuary--shaded",
+      "sha256": "b563e3d80fce70a944cf9f0c3d69f3c6e11e9ff73e5ad68543717eedcab3d361",
+      "acceptedSha256": "b563e3d80fce70a944cf9f0c3d69f3c6e11e9ff73e5ad68543717eedcab3d361",
+      "exact": true
+    },
+    {
+      "id": "control--wipers--estuary--wireframe",
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "acceptedSha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "exact": true
+    },
+    {
+      "id": "control--wipers--estuary--silhouette",
+      "sha256": "70d184c2541c46d4898de02c003b4607161dc7e9daa57daaef8b62c8296a64d9",
+      "acceptedSha256": "70d184c2541c46d4898de02c003b4607161dc7e9daa57daaef8b62c8296a64d9",
+      "exact": true
+    },
+    {
+      "id": "control--wipers--carmine--shaded",
+      "sha256": "d10c80321ed68e3bf47d9e331215d3cef1f422038966f1bc2ee73cacd41d915a",
+      "acceptedSha256": "d10c80321ed68e3bf47d9e331215d3cef1f422038966f1bc2ee73cacd41d915a",
+      "exact": true
+    },
+    {
+      "id": "control--wipers--carmine--wireframe",
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "acceptedSha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "exact": true
+    },
+    {
+      "id": "control--wipers--carmine--silhouette",
+      "sha256": "70d184c2541c46d4898de02c003b4607161dc7e9daa57daaef8b62c8296a64d9",
+      "acceptedSha256": "70d184c2541c46d4898de02c003b4607161dc7e9daa57daaef8b62c8296a64d9",
+      "exact": true
+    },
+    {
+      "id": "control--panel-seams--estuary--shaded",
+      "sha256": "1f19cbea18020d6dcb1b1e14e3babd704c3a26461cbc2cd1602a4895b10c85ff",
+      "acceptedSha256": "1f19cbea18020d6dcb1b1e14e3babd704c3a26461cbc2cd1602a4895b10c85ff",
+      "exact": true
+    },
+    {
+      "id": "control--panel-seams--estuary--wireframe",
+      "sha256": "f72b9b35811939f73f2e4f58ca22b448a2bb13617d7b67f4f34a3c61c386c832",
+      "acceptedSha256": "f72b9b35811939f73f2e4f58ca22b448a2bb13617d7b67f4f34a3c61c386c832",
+      "exact": true
+    },
+    {
+      "id": "control--panel-seams--estuary--silhouette",
+      "sha256": "27b3e174be32c3bdade59c331fb79d8da14c896b58bd92c3fb3ba178e8d6435b",
+      "acceptedSha256": "27b3e174be32c3bdade59c331fb79d8da14c896b58bd92c3fb3ba178e8d6435b",
+      "exact": true
+    },
+    {
+      "id": "control--panel-seams--carmine--shaded",
+      "sha256": "bf4645c21c6a84d3dc43dbfc0702e3ca142895d6daec045f49e8844748f10466",
+      "acceptedSha256": "bf4645c21c6a84d3dc43dbfc0702e3ca142895d6daec045f49e8844748f10466",
+      "exact": true
+    },
+    {
+      "id": "control--panel-seams--carmine--wireframe",
+      "sha256": "f72b9b35811939f73f2e4f58ca22b448a2bb13617d7b67f4f34a3c61c386c832",
+      "acceptedSha256": "f72b9b35811939f73f2e4f58ca22b448a2bb13617d7b67f4f34a3c61c386c832",
+      "exact": true
+    },
+    {
+      "id": "control--panel-seams--carmine--silhouette",
+      "sha256": "27b3e174be32c3bdade59c331fb79d8da14c896b58bd92c3fb3ba178e8d6435b",
+      "acceptedSha256": "27b3e174be32c3bdade59c331fb79d8da14c896b58bd92c3fb3ba178e8d6435b",
+      "exact": true
+    },
+    {
+      "id": "control--interior--estuary--shaded",
+      "sha256": "1a7674f8c9b7aa81f454630a9f81dc94b0ea6b2c0aa5f38049c0421657720fcc",
+      "acceptedSha256": "1a7674f8c9b7aa81f454630a9f81dc94b0ea6b2c0aa5f38049c0421657720fcc",
+      "exact": true
+    },
+    {
+      "id": "control--interior--estuary--wireframe",
+      "sha256": "37aa63aa159bd9162c87708513061db2f9e03ad03d54a67c88d9eda7d32e9a83",
+      "acceptedSha256": "37aa63aa159bd9162c87708513061db2f9e03ad03d54a67c88d9eda7d32e9a83",
+      "exact": true
+    },
+    {
+      "id": "control--interior--estuary--silhouette",
+      "sha256": "16b8afaa92aa0d796c94789dec4a0529e9a06e46aa0e560c2cc20a46672a3946",
+      "acceptedSha256": "16b8afaa92aa0d796c94789dec4a0529e9a06e46aa0e560c2cc20a46672a3946",
+      "exact": true
+    },
+    {
+      "id": "control--interior--carmine--shaded",
+      "sha256": "618b2127899fcbf1298cb34ec396220741cfc6efa25f2468361b518ab990e742",
+      "acceptedSha256": "618b2127899fcbf1298cb34ec396220741cfc6efa25f2468361b518ab990e742",
+      "exact": true
+    },
+    {
+      "id": "control--interior--carmine--wireframe",
+      "sha256": "37aa63aa159bd9162c87708513061db2f9e03ad03d54a67c88d9eda7d32e9a83",
+      "acceptedSha256": "37aa63aa159bd9162c87708513061db2f9e03ad03d54a67c88d9eda7d32e9a83",
+      "exact": true
+    },
+    {
+      "id": "control--interior--carmine--silhouette",
+      "sha256": "16b8afaa92aa0d796c94789dec4a0529e9a06e46aa0e560c2cc20a46672a3946",
+      "acceptedSha256": "16b8afaa92aa0d796c94789dec4a0529e9a06e46aa0e560c2cc20a46672a3946",
+      "exact": true
+    },
+    {
+      "id": "control--glass-edge--estuary--shaded",
+      "sha256": "609554aa560aedcbe3acda9dbda61cf2a1ffb19f51e33f0cdde3682998a68cb0",
+      "acceptedSha256": "609554aa560aedcbe3acda9dbda61cf2a1ffb19f51e33f0cdde3682998a68cb0",
+      "exact": true
+    },
+    {
+      "id": "control--glass-edge--estuary--wireframe",
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "acceptedSha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "exact": true
+    },
+    {
+      "id": "control--glass-edge--estuary--silhouette",
+      "sha256": "49c7bcdbf0761df728ad94cfae26993addbc8e707199484645917b61d5b20ad9",
+      "acceptedSha256": "49c7bcdbf0761df728ad94cfae26993addbc8e707199484645917b61d5b20ad9",
+      "exact": true
+    },
+    {
+      "id": "control--glass-edge--carmine--shaded",
+      "sha256": "0decbe9e41de6ad3e4ed74a8638f2f01bfa31df935c4fbc56422c4396aae22e5",
+      "acceptedSha256": "0decbe9e41de6ad3e4ed74a8638f2f01bfa31df935c4fbc56422c4396aae22e5",
+      "exact": true
+    },
+    {
+      "id": "control--glass-edge--carmine--wireframe",
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "acceptedSha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "exact": true
+    },
+    {
+      "id": "control--glass-edge--carmine--silhouette",
+      "sha256": "49c7bcdbf0761df728ad94cfae26993addbc8e707199484645917b61d5b20ad9",
+      "acceptedSha256": "49c7bcdbf0761df728ad94cfae26993addbc8e707199484645917b61d5b20ad9",
+      "exact": true
+    }
+  ]
+}

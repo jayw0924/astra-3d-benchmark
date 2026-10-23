@@ -1,0 +1,135 @@
+{
+  "id": "2026-10-21-astra-geometry-safe-correction-7f2d11f494a5",
+  "title": "Unscored correction diagnostic evidence \u2014 retrospective Sol registration",
+  "startedAt": "2026-10-21T21:20:53.814033+00:00",
+  "endedAt": "2026-10-22T19:23:52.154232+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes delegated research evaluator; Docker tools",
+  "reasoningMode": "not independently recorded",
+  "tools": [
+    "terminal",
+    "Node.js",
+    "Python",
+    "Playwright Chromium"
+  ],
+  "workPackage": "integrate",
+  "inputAssets": [
+    "web-product-estuary"
+  ],
+  "promptPath": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/command.py",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/commands.jsonl",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/control-spec.json",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/environment.json",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/notes.md",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/page.html",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/page.js",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/prepare.py",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/probe.mjs",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/prompt.md",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/source-pixel-probe.json",
+    "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/workspace-before.json"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/command.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/commands.jsonl",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/control-spec.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/environment.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/page.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/prepare.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/probe.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/source-pixel-probe.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/workspace-before.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 79378.340199,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Actual billing unavailable; not estimated"
+  },
+  "interventionLevel": 0,
+  "outcome": "blocked",
+  "failureNotes": "Infrastructure/diagnostic evidence only, no candidate and no separately scored model run. Original commands belong to the correction session; registration by gpt-6.1-sol, not a new Astra attribution.",
+  "reviewer": "gpt-6.1-sol; independent findings recorded by parent",
+  "publicSummary": "Infrastructure/diagnostic evidence only, no candidate and no separately scored model run. Original commands belong to the correction session; registration by gpt-6.1-sol, not a new Astra attribution."
+}

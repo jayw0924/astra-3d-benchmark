@@ -1,0 +1,12 @@
+captured safe--mirror-window--estuary--shaded 215265 remaining 29
+captured safe--mirror-window--estuary--wireframe 18322 remaining 28
+captured safe--mirror-window--estuary--silhouette 8845 remaining 27
+captured safe--mirror-window--carmine--shaded 298120 remaining 26
+captured safe--mirror-window--carmine--wireframe 18322 remaining 25
+captured safe--mirror-window--carmine--silhouette 8845 remaining 24
+captured safe--wipers--estuary--shaded 298819 remaining 23
+captured safe--wipers--estuary--wireframe 15660 remaining 22
+captured safe--wipers--estuary--silhouette 7356 remaining 21
+captured safe--wipers--carmine--shaded 422295 remaining 20
+captured safe--wipers--carmine--wireframe 15660 remaining 19
+captured safe--wipers--carmine--silhouette 7356 remaining 18

@@ -1,0 +1,3 @@
+# Ledger finalization request
+
+Finalize research records without rewriting original prompts, logs, provisional reports, private transcripts or binaries. Audit all declared outputs and provenance; retain original rejected / correction not-promoted / FINAL accepted research distinctions. Register immutable correction and FINAL assets, independently regenerate canonical geometry reports, and register exact public copies only if present. Create Sol comparison records from actual evidence times, keep private evidence ignored/0600, run strict validation and public generation. This is registration, not completed app acceptance, commit, push or deployment.

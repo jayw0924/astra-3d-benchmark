@@ -1,0 +1,185 @@
+{
+  "id": "2026-10-22-sol-safe-ledger-finalization",
+  "title": "Safe WebGL ledger finalization \u2014 registration only",
+  "startedAt": "2026-10-22T19:23:51.374445+00:00",
+  "endedAt": "2026-10-22T19:26:54.606410+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes delegated research evaluator; Docker tools",
+  "reasoningMode": "not independently recorded",
+  "tools": [
+    "terminal",
+    "Node.js",
+    "Python",
+    "Playwright Chromium"
+  ],
+  "workPackage": "integrate",
+  "inputAssets": [
+    "web-product-estuary",
+    "safe-webgl-d8fc14b866ab",
+    "safe-webgl-correction-7f2d11f494a5-b",
+    "safe-webgl-final-d0bf6e206c92"
+  ],
+  "promptPath": "research/runs/2026-10-22-sol-safe-ledger-finalization/prompt.md",
+  "outputPaths": [
+    "research/asset-manifest.json",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/commands.jsonl",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/correction/geometry-report.json",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/final/geometry-report.json",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/finalize.py",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/integrity.test.mjs",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/notes.md",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/prompt.md",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/public-copy-inspection.json",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/public-copy-registration.json",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/register-public.py",
+    "research/runs/2026-10-22-sol-safe-ledger-finalization/verification.json",
+    "src/generated/study-data.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/asset-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/commands.jsonl",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/correction/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/final/geometry-report.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/finalize.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/integrity.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/public-copy-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/public-copy-registration.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/register-public.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      },
+      {
+        "path": "src/generated/study-data.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary",
+          "safe-webgl-d8fc14b866ab",
+          "safe-webgl-correction-7f2d11f494a5-b",
+          "safe-webgl-final-d0bf6e206c92"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 183.231965,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Actual billing unavailable; not estimated"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "Ledger and immutable-asset registration only; app acceptance remains with parent. Runtime speedup not established; first-correct-frame unavailable. Public copies only registered when verified present.",
+  "reviewer": "gpt-6.1-sol; independent findings recorded by parent",
+  "publicSummary": "Ledger and immutable-asset registration only; app acceptance remains with parent. Runtime speedup not established; first-correct-frame unavailable. Public copies only registered when verified present."
+}

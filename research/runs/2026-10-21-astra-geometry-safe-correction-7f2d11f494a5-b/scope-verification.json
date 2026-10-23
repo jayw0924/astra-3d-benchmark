@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-10-21T21:36:56.025983+00:00",
+  "protectedFiles": 440,
+  "changed": [],
+  "newOutsideRun": [],
+  "exclusions": [],
+  "ignoredFiles": "Ignored caches and private transcripts are not covered by this git-index/nonignored-file snapshot",
+  "passed": true,
+  "candidateSha256": "a30deb208c7c1c4b23859edbb57d2c9d1cb1ad828e00c9431d4ebc29a47d9bce",
+  "rejectedCandidateSha256": "0c57718add772f1265f8cbb3d9f165bc3b06c73629b50f5297f31f844d32c810"
+}

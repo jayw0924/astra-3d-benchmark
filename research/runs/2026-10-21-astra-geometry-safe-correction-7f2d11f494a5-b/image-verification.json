@@ -1,0 +1,163 @@
+{
+  "expected": 16,
+  "verified": 16,
+  "nonblank": true,
+  "cameraSpecExact": true,
+  "errors": [],
+  "comparisons": [
+    {
+      "id": "control--wipers--estuary--shaded",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "control--wipers--estuary--wireframe",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "control--wipers--carmine--shaded",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "control--wipers--carmine--wireframe",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "control--glass-edge--estuary--shaded",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "control--glass-edge--estuary--wireframe",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "control--glass-edge--carmine--shaded",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "control--glass-edge--carmine--wireframe",
+      "controlExactOldPNG": true,
+      "pixelDifference": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      }
+    },
+    {
+      "id": "safe--wipers--estuary--shaded",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.1886888888888889,
+        "pixelsDifferent": 17832
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 0.5539291666666667,
+        "pixelsDifferent": 40349
+      }
+    },
+    {
+      "id": "safe--wipers--estuary--wireframe",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.002236111111111111,
+        "pixelsDifferent": 12
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 0.07471805555555555,
+        "pixelsDifferent": 236
+      }
+    },
+    {
+      "id": "safe--wipers--carmine--shaded",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.24066666666666667,
+        "pixelsDifferent": 18789
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 1.2012041666666666,
+        "pixelsDifferent": 50668
+      }
+    },
+    {
+      "id": "safe--wipers--carmine--wireframe",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.002236111111111111,
+        "pixelsDifferent": 12
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 0.07471805555555555,
+        "pixelsDifferent": 236
+      }
+    },
+    {
+      "id": "safe--glass-edge--estuary--shaded",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.1360902777777778,
+        "pixelsDifferent": 12687
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 0.4342111111111111,
+        "pixelsDifferent": 26127
+      }
+    },
+    {
+      "id": "safe--glass-edge--estuary--wireframe",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 0.6047180555555555,
+        "pixelsDifferent": 1796
+      }
+    },
+    {
+      "id": "safe--glass-edge--carmine--shaded",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.18575972222222223,
+        "pixelsDifferent": 14541
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 0.7630013888888888,
+        "pixelsDifferent": 31314
+      }
+    },
+    {
+      "id": "safe--glass-edge--carmine--wireframe",
+      "correctedVsControl": {
+        "meanAbsoluteChannelDifference": 0.0,
+        "pixelsDifferent": 0
+      },
+      "rejectedVsControl": {
+        "meanAbsoluteChannelDifference": 0.6047180555555555,
+        "pixelsDifferent": 1796
+      }
+    }
+  ],
+  "nativeVisualInspection": "unverified: browser tool unavailable; statistics do not establish perceptual repair",
+  "scope": "affected-view subset only; not full acceptance"
+}

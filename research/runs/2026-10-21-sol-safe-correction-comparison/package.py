@@ -1,0 +1,42 @@
+from pathlib import Path
+import json,hashlib,math
+from PIL import Image,ImageDraw,ImageChops
+p=Path(__file__).resolve().parent
+m=json.loads((p/'capture-manifest.json').read_text())
+assert len(m['images'])==108
+m['activeCaptureErrors']=[e for name in m['sessions'] for e in json.loads((p/name).read_text())['errors']]
+m['harnessInputs']=[{'path':name,'sha256':hashlib.sha256((p/name).read_bytes()).hexdigest()} for name in ['page.js','page.html','control-spec.json','plan.mjs']]
+(p/'capture-manifest.json').write_text(json.dumps(m,indent=2)+'\n')
+(p/'sheets').mkdir(exist_ok=True)
+targets=list(dict.fromkeys(x['target'] for x in m['matrix']));files=[];diffs=[]
+for target in targets:
+ sheet=Image.new('RGB',(1200,684),'white');d=ImageDraw.Draw(sheet)
+ for row,mode in enumerate(['shaded','wireframe','silhouette']):
+  for col,(variant,model) in enumerate([(v,mod) for v in ['Estuary Enamel','Carmine Candy'] for mod in ['control','safe']]):
+   x=next(i for i in m['images'] if i['target']==target and i['mode']==mode and i['variant']==variant and i['model']==model)
+   im=Image.open(p/x['path']).convert('RGB');im.thumbnail((300,200));sheet.paste(im,(col*300,row*228+28));d.text((col*300+4,row*228+4),f'{model} {variant.split()[0]} {mode}',fill='black')
+ f=p/'sheets'/f'{target}.png';sheet.save(f);b=f.read_bytes();files.append({'path':str(f.relative_to(p)),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),'target':target})
+ for mode in ['shaded','wireframe','silhouette']:
+  for v in ['Estuary Enamel','Carmine Candy']:
+   pair=[next(i for i in m['images'] if i['target']==target and i['mode']==mode and i['variant']==v and i['model']==mod) for mod in ['control','safe']]
+   a,b=[Image.open(p/x['path']).convert('RGB') for x in pair];delta=ImageChops.difference(a,b);pixels=list(delta.get_flattened_data());diffs.append({'target':target,'variant':v,'mode':mode,'changedPixels':sum(any(c for c in pix) for pix in pixels),'maxChannelDelta':max(max(pix) for pix in pixels),'meanAbsoluteChannelDelta':sum(sum(pix) for pix in pixels)/(600*400*3),'caution':'Diagnostic only, not visual acceptance'})
+(p/'sheet-manifest.json').write_text(json.dumps(files,indent=2)+'\n');(p/'image-differences.json').write_text(json.dumps(diffs,indent=2)+'\n')
+parts=['<!doctype html><html lang="en"><meta charset="utf-8"><title>Control vs corrected candidate — evidence only</title><style>body{background:#eee;color:#222;font:16px system-ui;margin:24px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}img{width:100%;height:auto;display:block}figure{margin:0}section{margin:28px 0}@media(max-width:700px){.pair{grid-template-columns:1fr}}</style><header><h1>Control vs corrected Safe WebGL candidate</h1><p>Evidence only. No final acceptance, parity claim, promotion or integration. Safe labels denote corrected candidate a30deb20, never prior candidate images. 108 fixed 600×400 DPR1 PNGs; 54 cryptographically verified unchanged controls reused, 54 corrected captures freshly rendered. Identical frozen control-only cameras, RoomEnvironment PMREM, ACESFilmic 1.05 sRGB. Wireframe/silhouette ignore finish. Opaque silhouettes hide internal forms; interior is through real glazing, not cutaway. Software-renderer metrics diagnostic only.</p><p><a href="capture-manifest.json">Manifest</a> · <a href="metrics-summary.json">Metrics</a> · <a href="visual-review.md">Visual concerns</a> · <a href="native-comparison-manifest.json">Native three-way comparisons</a> · <a href="native-comparisons/glass-edge--carmine--seam-nearest4x.png">Carmine residual seam crop</a> · <a href="native-comparisons/glass-edge--estuary--seam-nearest4x.png">Estuary residual seam crop</a></p></header>']
+for t in targets:
+ parts.append(f'<section id="{t}"><h2>{t}</h2>')
+ for v in ['Estuary Enamel','Carmine Candy']:
+  for mode in ['shaded','wireframe','silhouette']:
+   parts.append(f'<h3>{v} · {mode}</h3><div class="pair">')
+   for mod in ['control','safe']:
+    x=next(i for i in m['images'] if i['target']==t and i['variant']==v and i['mode']==mode and i['model']==mod)
+    parts.append(f'<figure><figcaption>{mod} ({"reused identical control" if mod=="control" else "fresh corrected candidate"})</figcaption><img width="600" height="400" loading="lazy" src="{x["path"]}" alt="{mod}, {t}, {v}, {mode}"></figure>')
+   parts.append('</div>')
+ parts.append('</section>')
+parts.append('</html>');(p/'index.html').write_text('\n'.join(parts)+'\n')
+raws=[json.loads(x.read_text()) for x in sorted((p/'raw').glob('measure-*.json'))];metrics=[]
+def pct(v,q):return sorted(v)[math.ceil(len(v)*q)-1]
+for r in raws:
+ v=[s['renderFinishAndRafMs'] for s in r['metrics']['warmSamples']];sync=[s['submitAndFinishMs'] for s in r['metrics']['warmSamples']]
+ metrics.append({'model':r['model'],'order':r['order'],'load':r['metrics']['load'],'contextColdSynchronousCompileMs':r['metrics']['coldCompileMs'],'firstRenderedFrame':r['metrics']['firstRender'],'warmRenderFinishAndRafMs':{'samples':len(v),'p50':pct(v,.5),'p95':pct(v,.95),'min':min(v),'max':max(v)},'warmSubmitAndFinishMs':{'samples':len(sync),'p50':pct(sync,.5),'p95':pct(sync,.95)},'rendererCounts':r['metrics']['firstInfo'],'transitions':len(r['metrics']['transitions']),'errors':r['errors'],'resource':r['metrics']['resourceTiming'],'network':r['network'],'gpu':r['metrics']['gpu']})
+(p/'metrics-summary.json').write_text(json.dumps({'status':'diagnostic; no final acceptance','completedOrder':[x['model'] for x in metrics],'percentileMethod':'nearest rank: sorted[ceil(n*p)-1]','firstCorrectFrame':{'status':'unavailable','value':None,'reason':'No correctness inspection at first-render timestamp'},'scope':'Four ABBA completed fresh contexts, separate browser process per context. HTTP no-store; driver/OS caches and host scheduling uncontrolled. Software-renderer only, no production GPU ranking. PMREM and basis native prefetch excluded from model-load start. Calls/triangles include transmission prepass and main render reset once per top-level render; not static topology or actual GPU work. Consult commands.jsonl for interrupted attempts.','measurements':metrics},indent=2)+'\n')
+print(json.dumps({'images':len(m['images']),'sheets':len(files),'completedMeasurements':len(metrics)},indent=2))

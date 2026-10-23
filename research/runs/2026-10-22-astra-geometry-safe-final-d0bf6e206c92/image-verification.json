@@ -1,0 +1,113 @@
+{
+  "images": 16,
+  "freshControlsExact": 8,
+  "renderHarnessPageAndCameraExact": true,
+  "rows": [
+    {
+      "id": "control--wipers--estuary--shaded",
+      "sha256": "b563e3d80fce70a944cf9f0c3d69f3c6e11e9ff73e5ad68543717eedcab3d361",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "control--wipers--estuary--wireframe",
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "control--wipers--carmine--shaded",
+      "sha256": "d10c80321ed68e3bf47d9e331215d3cef1f422038966f1bc2ee73cacd41d915a",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "control--wipers--carmine--wireframe",
+      "sha256": "fb6b4652e66cda3d242c2ca0e0bdeb7f1e5f1a620f4b4aca5d37622edb8b74f6",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "control--glass-edge--estuary--shaded",
+      "sha256": "609554aa560aedcbe3acda9dbda61cf2a1ffb19f51e33f0cdde3682998a68cb0",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "control--glass-edge--estuary--wireframe",
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "control--glass-edge--carmine--shaded",
+      "sha256": "0decbe9e41de6ad3e4ed74a8638f2f01bfa31df935c4fbc56422c4396aae22e5",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "control--glass-edge--carmine--wireframe",
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "nonblank": true,
+      "acceptedControlExactBytes": true
+    },
+    {
+      "id": "final--wipers--estuary--shaded",
+      "sha256": "0dfd04adcb119893e2f6cc581edd75800aa3cc7a0ef0f2073eefa84129c76cae",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.1436388888888889,
+      "pixelIdentical": false
+    },
+    {
+      "id": "final--wipers--estuary--wireframe",
+      "sha256": "d5332724c6b82fd6dc015db594fdfcb76e827518bdff5519005689d22e02a576",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.002236111111111111,
+      "pixelIdentical": false
+    },
+    {
+      "id": "final--wipers--carmine--shaded",
+      "sha256": "5c054c4ceba42fd48e1f4fc95af80e0b6d60cd5ae3bbead28e28c6f12873fea4",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.14848194444444443,
+      "pixelIdentical": false
+    },
+    {
+      "id": "final--wipers--carmine--wireframe",
+      "sha256": "d5332724c6b82fd6dc015db594fdfcb76e827518bdff5519005689d22e02a576",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.002236111111111111,
+      "pixelIdentical": false
+    },
+    {
+      "id": "final--glass-edge--estuary--shaded",
+      "sha256": "74382475bda200c1bd3639b401eb90d992f68d435fcb390c594b3e0e66957e8f",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.0932,
+      "pixelIdentical": false
+    },
+    {
+      "id": "final--glass-edge--estuary--wireframe",
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.0,
+      "pixelIdentical": true
+    },
+    {
+      "id": "final--glass-edge--carmine--shaded",
+      "sha256": "ea55c3f395a9dfe2e1533ebc96d9ce2b6aebb57860db4a6d7b91f8bc6fa5d1f9",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.11469305555555555,
+      "pixelIdentical": false
+    },
+    {
+      "id": "final--glass-edge--carmine--wireframe",
+      "sha256": "2c8ab971ff2739816878ccff92a04f76e911f628cef8206b704892c7d6454497",
+      "nonblank": true,
+      "meanAbsoluteRGB": 0.0,
+      "pixelIdentical": true
+    }
+  ],
+  "errors": [],
+  "limitation": "Targeted evidence only; native visual review is separate. Glass-edge wireframe selects windshield/gasket, not pillar. Wipers wireframe isolates wipers, not hood."
+}

@@ -1,0 +1,98 @@
+{
+  "status": "evidence-complete; final verdict reserved for parent",
+  "verifiedAt": "2026-10-22T15:11:34.481142+00:00",
+  "matrixImages": 108,
+  "freshFinalImages": 54,
+  "cryptographicallyVerifiedReusedControls": 54,
+  "sheets": 9,
+  "supplementalComparisons": 10,
+  "allPngsDecodedByPillow": 127,
+  "browserGalleryDecoded": 108,
+  "completedContextOrder": [
+    "control",
+    "safe",
+    "safe",
+    "control"
+  ],
+  "actualAllPairsTransitions": 64,
+  "assignmentsPerTransition": 25,
+  "rawWarmSamples": 120,
+  "captureContexts": 5,
+  "measuredContexts": 4,
+  "successfulExecutionCommands": 9,
+  "failedCommandsPreserved": [
+    {
+      "argv": [
+        "node",
+        "--test",
+        "/workspace/research/runs/2026-10-22-sol-safe-final-comparison/pins.test.mjs"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-22T14:44:19.511437+00:00",
+      "finishedAt": "2026-10-22T14:44:19.594268+00:00",
+      "elapsedSeconds": 0.08283827500417829,
+      "exitCode": 1,
+      "log": "pins-red.txt"
+    },
+    {
+      "argv": [
+        "node",
+        "--test",
+        "/workspace/research/runs/2026-10-22-sol-safe-final-comparison/plan.test.mjs"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-22T14:44:19.725607+00:00",
+      "finishedAt": "2026-10-22T14:44:19.826836+00:00",
+      "elapsedSeconds": 0.10123993316665292,
+      "exitCode": 1,
+      "log": "matrix-red.txt"
+    },
+    {
+      "argv": [
+        "python",
+        "/workspace/research/runs/2026-10-22-sol-safe-final-comparison/prepare.py"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-22T14:44:20.029439+00:00",
+      "finishedAt": "2026-10-22T14:44:20.064966+00:00",
+      "elapsedSeconds": 0.03553406707942486,
+      "exitCode": 1,
+      "log": "prepare.txt"
+    },
+    {
+      "argv": [
+        "node",
+        "--test",
+        "research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs",
+        "research/runs/2026-10-22-sol-safe-final-comparison/provenance.test.mjs"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-22T14:44:45.285072+00:00",
+      "finishedAt": "2026-10-22T14:44:45.452390+00:00",
+      "elapsedSeconds": 0.16732319490984082,
+      "exitCode": 1,
+      "log": "evidence-red.txt"
+    }
+  ],
+  "activeCaptureErrors": [],
+  "measuredErrors": [],
+  "protectedFilesChecked": 738,
+  "protectedChanges": [],
+  "newOutsideScopePaths": [],
+  "scopeExclusions": [],
+  "ignoredFilesCoverage": "Ignored files are excluded from broad Git content snapshot; input binary pins checked explicitly. No claim of whole-host coverage.",
+  "fastTests": {
+    "unit": 18,
+    "scripts": 25,
+    "priorRenderPlans": 6,
+    "package": 7
+  },
+  "affectedViewReplayByteIdentical": 16,
+  "firstCorrectFrame": {
+    "status": "unavailable",
+    "reason": "No correctness inspection at first-render timestamp"
+  },
+  "runJsonAuthored": false,
+  "finalAcceptanceAuthored": false,
+  "visualReview": "visual-review.md"
+}

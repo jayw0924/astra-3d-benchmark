@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-21-sol-geometry-toolchain-preflight",
+  "title": "Pinned geometry toolchain preflight",
+  "startedAt": "2026-10-21T14:06:13Z",
+  "endedAt": "2026-10-21T14:13:47Z",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": ["read_file", "search_files", "patch", "write_file", "terminal"],
+  "workPackage": "geometry",
+  "inputAssets": ["web-product-estuary"],
+  "promptPath": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/notes.md",
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/environment.json",
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/run-preflight.mjs",
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/browser-probe.mjs",
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/preflight.test.mjs",
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/commands.json",
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/verification.json",
+    "research/runs/2026-10-21-sol-geometry-toolchain-preflight/review.json",
+    "scripts/geometry-toolchain.test.mjs",
+    "package.json",
+    "package-lock.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/environment.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/run-preflight.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/browser-probe.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/preflight.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/commands.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-geometry-toolchain-preflight/review.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "scripts/geometry-toolchain.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "package.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "package-lock.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 454,
+  "cost": {"amount": null, "currency": "USD", "basis": "not exposed"},
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "The first npm install attempt could not create the configured /home/pn cache. The same exact install succeeded with the project-local ignored .cache/npm directory. Blender, bpy, and standalone gltfpack remain unavailable, so later work is limited to deterministic glTF/WebGL optimization and may not claim DCC geometry authoring.",
+  "reviewer": "Independent fail-closed preflight review: pass",
+  "publicSummary": "Pinned and exercised the deterministic glTF Transform, meshoptimizer, validator, and real-browser toolchain before scored geometry work."
+}

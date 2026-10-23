@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/research/runs/2026-10-22-sol-safe-final-comparison/prepare.py", line 13, in <module>
+    assert json.loads((o/'environment.json').read_text())['browser']
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'browser'

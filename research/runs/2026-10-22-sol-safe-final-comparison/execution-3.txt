@@ -1,0 +1,12 @@
+captured safe--panel-seams--estuary--shaded 198438 remaining 17
+captured safe--panel-seams--estuary--wireframe 71244 remaining 16
+captured safe--panel-seams--estuary--silhouette 9856 remaining 15
+captured safe--panel-seams--carmine--shaded 270954 remaining 14
+captured safe--panel-seams--carmine--wireframe 71244 remaining 13
+captured safe--panel-seams--carmine--silhouette 9856 remaining 12
+captured safe--interior--estuary--shaded 265506 remaining 11
+captured safe--interior--estuary--wireframe 100405 remaining 10
+captured safe--interior--estuary--silhouette 9719 remaining 9
+captured safe--interior--carmine--shaded 316919 remaining 8
+captured safe--interior--carmine--wireframe 100405 remaining 7
+captured safe--interior--carmine--silhouette 9719 remaining 6

@@ -1,0 +1,38 @@
+[
+  {
+    "output": "transform.mjs",
+    "source": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/transform.mjs",
+    "sourceSha256": "56cb05d57bcf76070002809be66449a7dbddfcf3908b7dd9c04e1db1eccdb6a3",
+    "exactCopy": false
+  },
+  {
+    "output": "verify.mjs",
+    "source": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/verify.mjs",
+    "sourceSha256": "f494f74a0d5ca775739bff26df8671d39bc335f466578431e4300876138b77ed",
+    "exactCopy": false
+  },
+  {
+    "output": "page.html",
+    "source": "research/runs/2026-10-22-sol-safe-final-comparison/page.html",
+    "sourceSha256": "038d9b6e7ef65690df6fed8884d80060fb3b5ac59f5df6618fef2279659d40b0",
+    "exactCopy": true
+  },
+  {
+    "output": "page.js",
+    "source": "research/runs/2026-10-22-sol-safe-final-comparison/page.js",
+    "sourceSha256": "f92d6cf69f0ec284a95a3e28ab577664cb4553780e2693afedbffe96815fde76",
+    "exactCopy": true
+  },
+  {
+    "output": "control-spec.json",
+    "source": "research/runs/2026-10-22-sol-safe-final-comparison/control-spec.json",
+    "sourceSha256": "bcf2f769683e5a3a99bb245c57b9b4e675c667acd00b03df678e88d6790be6c9",
+    "exactCopy": true
+  },
+  {
+    "output": "capture.mjs",
+    "source": "research/runs/2026-10-22-sol-safe-final-comparison/capture.mjs",
+    "sourceSha256": "c8529dbc42014366216f5176a1e3be6d0dec4854853bdff187529be87653801c",
+    "exactCopy": false
+  }
+]

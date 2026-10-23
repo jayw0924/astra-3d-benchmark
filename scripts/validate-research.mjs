@@ -1,7 +1,9 @@
 import { createHash } from 'node:crypto';
+import { spawnSync } from 'node:child_process';
 import { access, readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { isDeepStrictEqual } from 'node:util';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
 import {
@@ -24,24 +26,24 @@ function formatErrors(label, errors = []) {
     .join('\n');
 }
 
-async function existingRunFiles(root) {
+async function existingResearchFiles(root, fileName) {
   const runsRoot = path.join(root, 'research', 'runs');
 
-  async function findRunFiles(directory) {
+  async function findFiles(directory) {
     const entries = await readdir(directory, { withFileTypes: true });
     const nested = await Promise.all(
       entries
         .filter((entry) => entry.isDirectory())
-        .map((entry) => findRunFiles(path.join(directory, entry.name))),
+        .map((entry) => findFiles(path.join(directory, entry.name))),
     );
-    const runFiles = entries
-      .filter((entry) => entry.isFile() && entry.name === 'run.json')
+    const files = entries
+      .filter((entry) => entry.isFile() && entry.name === fileName)
       .map((entry) => path.join(directory, entry.name));
-    return [...runFiles, ...nested.flat()];
+    return [...files, ...nested.flat()];
   }
 
   try {
-    return await findRunFiles(runsRoot);
+    return await findFiles(runsRoot);
   } catch (error) {
     if (error.code === 'ENOENT') return [];
     throw error;
@@ -73,8 +75,10 @@ async function main() {
   addFormats(ajv);
   const assetSchema = await readJson(path.join(schemaRoot, 'asset-manifest.schema.json'));
   const runSchema = await readJson(path.join(schemaRoot, 'run.schema.json'));
+  const geometrySchema = await readJson(path.join(schemaRoot, 'geometry-report.schema.json'));
   const validateAssets = ajv.compile(assetSchema);
   const validateRun = ajv.compile(runSchema);
+  const validateGeometry = ajv.compile(geometrySchema);
 
   const manifest = await readJson(path.join(root, 'research', 'asset-manifest.json'));
   if (!validateAssets(manifest)) {
@@ -86,6 +90,7 @@ async function main() {
     'asset ID',
   );
   const assetIds = new Set(manifest.assets.map((asset) => asset.id));
+  const assetsById = new Map(manifest.assets.map((asset) => [asset.id, asset]));
 
   for (const asset of manifest.assets) {
     if (asset.status === 'available') {
@@ -107,7 +112,69 @@ async function main() {
     }
   }
 
-  const runFiles = await existingRunFiles(root);
+  const geometryFiles = await existingResearchFiles(root, 'geometry-report.json');
+  for (const geometryFile of geometryFiles) {
+    const report = await readJson(geometryFile);
+    if (!validateGeometry(report)) {
+      throw new Error(
+        formatErrors(path.relative(root, geometryFile), validateGeometry.errors),
+      );
+    }
+    if (!assetsById.has(report.assetId)) {
+      throw new Error(
+        `Geometry report ${report.id} references unknown asset: ${report.assetId}`,
+      );
+    }
+    const asset = assetsById.get(report.assetId);
+    if (report.sourcePath !== asset.localPath) {
+      throw new Error(
+        `Geometry report ${report.id} sourcePath does not match manifest asset ${asset.id}`,
+      );
+    }
+    if (report.bytes !== asset.bytes) {
+      throw new Error(
+        `Geometry report ${report.id} bytes do not match manifest asset ${asset.id}`,
+      );
+    }
+    if (report.sha256 !== asset.sha256) {
+      throw new Error(
+        `Geometry report ${report.id} SHA-256 does not match manifest asset ${asset.id}`,
+      );
+    }
+    if (asset.status !== 'available') {
+      throw new Error(`Geometry report ${report.id} requires an available manifest asset`);
+    }
+    const regenerated = spawnSync(
+      process.execPath,
+      [
+        path.join(import.meta.dirname, 'report-geometry.mjs'),
+        '--asset-id',
+        report.assetId,
+        '--role',
+        report.role,
+        report.sourcePath,
+      ],
+      { cwd: root, encoding: 'utf8' },
+    );
+    if (regenerated.status !== 0) {
+      throw new Error(
+        `Geometry report ${report.id} could not be regenerated: ${regenerated.stderr.trim()}`,
+      );
+    }
+    let measuredReport;
+    try {
+      measuredReport = JSON.parse(regenerated.stdout);
+    } catch {
+      throw new Error(`Geometry report ${report.id} regeneration returned invalid JSON`);
+    }
+    if (!isDeepStrictEqual(report, measuredReport)) {
+      throw new Error(
+        `Geometry report ${report.id} measured values do not match the pinned asset`,
+      );
+    }
+  }
+
+  const runFiles = await existingResearchFiles(root, 'run.json');
   const runIds = [];
   for (const runFile of runFiles) {
     const run = await readJson(runFile);

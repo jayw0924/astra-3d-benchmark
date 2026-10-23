@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-import { mkdtemp, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { copyFile, mkdtemp, mkdir, readFile, stat, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
@@ -12,7 +12,11 @@ async function createRoot(prefix = 'astra-research-') {
   const root = await mkdtemp(path.join(tmpdir(), prefix));
   await mkdir(path.join(root, 'research', 'schemas'), { recursive: true });
   await mkdir(path.join(root, 'research', 'runs'), { recursive: true });
-  for (const name of ['asset-manifest.schema.json', 'run.schema.json']) {
+  for (const name of [
+    'asset-manifest.schema.json',
+    'run.schema.json',
+    'geometry-report.schema.json',
+  ]) {
     const source = await readFile(
       path.join(projectRoot, 'research', 'schemas', name),
       'utf8',
@@ -84,6 +88,53 @@ function runRecord(overrides = {}) {
   };
 }
 
+function geometryReport(overrides = {}) {
+  return {
+    schemaVersion: 1,
+    id: 'geometry-one',
+    assetId: 'asset-one',
+    role: 'baseline',
+    sourcePath: 'public/asset.glb',
+    bytes: 5,
+    sha256: createHash('sha256').update('hello').digest('hex'),
+    counts: {
+      scenes: 1,
+      nodes: 1,
+      reachableNodes: 1,
+      meshes: 1,
+      primitives: 1,
+      materials: 1,
+      textures: 0,
+      images: 0,
+      cameras: 0,
+      animations: 0,
+      skins: 0,
+      triangles: 1,
+      submittedTriangleIndices: 3,
+      positionAccessorEntries: 3,
+    },
+    bounds: {
+      method: 'decoded positions with world transforms',
+      min: [0, 0, 0],
+      max: [1, 1, 1],
+      dimensions: [1, 1, 1],
+      units: 'metres',
+    },
+    variants: [],
+    extensionsUsed: [],
+    extensionsRequired: [],
+    checks: {
+      forbiddenNodesPresent: [],
+      parserValidation: 'passed',
+    },
+    measurement: {
+      method: 'decoded GLB accessors',
+      generatedBy: 'fixture',
+    },
+    ...overrides,
+  };
+}
+
 async function writeManifest(root, assets) {
   await writeFile(
     path.join(root, 'research', 'asset-manifest.json'),
@@ -97,6 +148,12 @@ async function writeRun(root, record, relativeDirectory = record.id) {
   await writeFile(path.join(directory, 'prompt.md'), '# Prompt\n');
   await writeFile(path.join(directory, 'notes.md'), '# Notes\n');
   await writeFile(path.join(directory, 'run.json'), JSON.stringify(record));
+}
+
+async function writeGeometryReport(root, report, relativeDirectory = 'geometry-one') {
+  const directory = path.join(root, 'research', 'runs', relativeDirectory);
+  await mkdir(directory, { recursive: true });
+  await writeFile(path.join(directory, 'geometry-report.json'), JSON.stringify(report));
 }
 
 test('rejects invalid URI and date-time formats', async () => {
@@ -229,4 +286,88 @@ test('requires the run directory to match the run ID', async () => {
   const result = validate(root);
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /directory.*run id/i);
+});
+
+test('rejects geometry reports that omit required measured metrics', async () => {
+  const root = await createRoot();
+  await writeManifest(root, [asset()]);
+  await writeGeometryReport(root, {
+    schemaVersion: 1,
+    id: 'geometry-one',
+    assetId: 'asset-one',
+    role: 'baseline',
+  });
+
+  const result = validate(root);
+
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /geometry-report.*required/i);
+});
+
+test('rejects geometry reports for unknown assets', async () => {
+  const root = await createRoot();
+  await writeManifest(root, [asset()]);
+  await writeGeometryReport(root, geometryReport({ assetId: 'missing-asset' }));
+
+  const result = validate(root);
+
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /geometry report.*unknown asset/i);
+});
+
+test('rejects geometry reports that do not identify the manifest asset bytes', async () => {
+  const root = await createRoot();
+  await mkdir(path.join(root, 'public'), { recursive: true });
+  await writeFile(path.join(root, 'public', 'asset.glb'), 'hello');
+  await writeManifest(root, [asset({ status: 'available' })]);
+  await writeGeometryReport(root, geometryReport({ bytes: 6 }));
+
+  const result = validate(root);
+
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /geometry report.*bytes.*manifest asset/i);
+});
+
+test('rejects geometry reports whose measured values do not match the pinned GLB', async () => {
+  const root = await createRoot();
+  const source = path.join(
+    projectRoot,
+    'public',
+    'assets',
+    'models',
+    'product-estuary.glb',
+  );
+  const localPath = 'public/product-estuary.glb';
+  const destination = path.join(root, localPath);
+  await mkdir(path.dirname(destination), { recursive: true });
+  await copyFile(source, destination);
+  const bytes = (await stat(destination)).size;
+  const sha256 = createHash('sha256').update(await readFile(destination)).digest('hex');
+  await writeManifest(root, [asset({
+    id: 'web-product-estuary',
+    localPath,
+    bytes,
+    sha256,
+    status: 'available',
+  })]);
+  await writeGeometryReport(root, geometryReport({
+    id: 'web-product-estuary-baseline-geometry',
+    assetId: 'web-product-estuary',
+    sourcePath: localPath,
+    bytes,
+    sha256,
+    counts: {
+      ...geometryReport().counts,
+      triangles: 1,
+    },
+    measurement: {
+      method: 'Raw GLB JSON/accessor inspection plus independent NodeIO parse',
+      generatedBy: 'scripts/report-geometry.mjs',
+    },
+  }));
+
+  const result = validate(root);
+
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /measured values.*pinned asset/i);
 });

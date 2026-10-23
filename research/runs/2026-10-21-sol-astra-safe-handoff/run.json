@@ -1,0 +1,44 @@
+{
+  "id": "2026-10-21-sol-astra-safe-handoff",
+  "title": "Prepare isolated Astra Safe WebGL launch",
+  "startedAt": "2026-10-21T13:50:40Z",
+  "endedAt": "2026-10-21T13:51:05Z",
+  "model": "gpt-5.6-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": ["read_file", "search_files", "write_file", "terminal"],
+  "workPackage": "geometry",
+  "inputAssets": ["web-product-estuary"],
+  "promptPath": "research/runs/2026-10-21-sol-astra-safe-handoff/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-astra-safe-handoff/notes.md",
+    "research/ASTRA_HANDOFF.md"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-21-sol-astra-safe-handoff/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      },
+      {
+        "path": "research/ASTRA_HANDOFF.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": ["web-product-estuary"]
+      }
+    ]
+  },
+  "elapsedSeconds": 25,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "not exposed"
+  },
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "The active session is gpt-5.6-sol and the Docker backend has no Hermes executable, so an attributable gpt-6-astra package cannot be launched from this process. The exact fresh-session prompt and return boundary are prepared for Hermes Desktop.",
+  "reviewer": "Sol launch-boundary review",
+  "publicSummary": "Prepared the frozen fresh-session brief for the isolated Astra Safe WebGL experiment."
+}

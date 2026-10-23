@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "node",
+    "--test",
+    "research/runs/2026-10-21-sol-safe-correction-comparison/evidence.test.mjs",
+    "research/runs/2026-10-21-sol-safe-correction-comparison/pins.test.mjs",
+    "research/runs/2026-10-21-sol-safe-correction-comparison/plan.test.mjs",
+    "research/runs/2026-10-21-sol-safe-correction-comparison/provenance.test.mjs"
+  ],
+  "exitCode": 0
+}

@@ -1,0 +1,17 @@
+✔ all 108 PNG identities, bytes, dimensions, balanced cases, nonblank pixels, identical control cameras (24.107414ms)
+✔ four actual ABBA sessions, 30 raw warmed samples each, 16 all-pairs transitions with exact stable assignments (2.743195ms)
+✖ all target sheets visually reviewed, hashed, and gallery decoded (0.697393ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 2
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 81.07013
+
+✖ failing tests:
+
+test at research/runs/2026-10-21-sol-safe-webgl-comparison/evidence.test.mjs:22:1
+✖ all target sheets visually reviewed, hashed, and gallery decoded (0.697393ms)
+  [Error: ENOENT: no such file or directory, open '/workspace/research/runs/2026-10-21-sol-safe-webgl-comparison/visual-review.json'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/workspace/research/runs/2026-10-21-sol-safe-webgl-comparison/visual-review.json' }

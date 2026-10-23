@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { spawnSync, execFileSync } from 'node:child_process';
+import Ajv from 'ajv/dist/2020.js';
+import addFormats from 'ajv-formats';
+const dir='research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab';
+const read=name=>JSON.parse(readFileSync(`${dir}/${name}`));
+const save=(name,data)=>writeFileSync(`${dir}/${name}`,JSON.stringify(data,null,2)+'\n');
+const env=read('environment.json'),verification=read('verification.json');
+assert(verification.allPassed);
+const syntax=[];
+for(const name of readdirSync(dir).filter(n=>n.endsWith('.mjs'))) {
+  const result=spawnSync('python',[`${dir}/command.py`,'node','--check',`${dir}/${name}`],{encoding:'utf8'});
+  syntax.push({path:`${dir}/${name}`,exitStatus:result.status});assert.equal(result.status,0,result.stderr);
+}
+const before=read('workspace-before.json');
+const changed=Object.keys(before).filter(file=>createHash('sha256').update(readFileSync(file)).digest('hex')!==before[file]);
+const paths=execFileSync('git',['ls-files','--cached','--others','--exclude-standard','-z'],{encoding:'utf8'}).split('\0').filter(p=>p&&!p.startsWith(dir+'/'));
+const newOutside=paths.filter(p=>!(p in before));
+const scope={checkedAt:new Date().toISOString(),existingFilesChecked:Object.keys(before).length,changedOutsideRun:changed,newOutsideRun:newOutside,passed:!changed.length&&!newOutside.length};
+save('scope-verification.json',scope);assert(scope.passed);
+const ignored=spawnSync('git',['check-ignore',`${dir}/session.jsonl`],{encoding:'utf8'});assert.equal(ignored.status,0);
+const endedAt=new Date().toISOString();
+const outputPaths=[...readdirSync(dir).filter(n=>n!=='run.json'&&n!=='session.jsonl').map(n=>`${dir}/${n}`),`${dir}/package-verification.json`].filter((v,i,a)=>a.indexOf(v)===i).sort();
+const run={id:dir.split('/').at(-1),title:'Isolated Safe WebGL candidate — provisional attribution, pending Sol review',startedAt:env.capturedAt,endedAt,model:env.session.model,provider:env.session.provider,interface:'Hermes CLI',reasoningMode:'provider default (not exposed)',tools:['terminal','read_file','search_files','write_file','patch','skill_view'],workPackage:'geometry',inputAssets:['web-product-estuary'],promptPath:`${dir}/prompt.md`,outputPaths,provenance:{lane:'mixed',outputs:outputPaths.map(path=>({path,lane:'mixed',sourceAssets:['web-product-estuary']}))},sessionEvidence:{path:env.session.privateExportPath,sessionId:env.session.id},elapsedSeconds:(Date.parse(endedAt)-Date.parse(env.capturedAt))/1000,cost:{amount:null,currency:'USD',basis:'not exposed'},interventionLevel:0,outcome:'partial',failureNotes:'Authentic private session evidence, candidate manifest registration and independent Sol visual/browser review pending. Initial strict material comparison rejected omitted default OPAQUE; preserved failure and normalized only that glTF default. No geometry correction. Timing covers package preparation through packaging, not preliminary context reads.',reviewer:'Pending independent Sol review; no promotion approval'};
+const ajv=new Ajv({allErrors:true});addFormats(ajv);
+const validate=ajv.compile(JSON.parse(readFileSync('research/schemas/run.schema.json')));
+assert(validate(run),JSON.stringify(validate.errors));save('run.json',run);
+const results={checkedAt:new Date().toISOString(),runSchemaPassed:true,geometrySchemasPassed:true,staticChecksPassed:verification.checks.filter(x=>x.passed).length,staticChecksTotal:verification.checks.length,syntax,privateExportIgnored:true,sessionEvidenceVerified:false,scopePassed:scope.passed,deterministicExactBytes:readFileSync(`${dir}/candidate.glb`).equals(readFileSync(`${dir}/repeat.glb`)),visualBrowserAcceptance:'pending'};
+save('package-verification.json',results);console.log(JSON.stringify(results,null,2));console.log(JSON.stringify(scope,null,2));

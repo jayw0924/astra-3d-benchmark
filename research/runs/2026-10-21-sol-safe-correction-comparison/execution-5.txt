@@ -1,0 +1,1 @@
+measure-0-control {"load":{"fetchArrayBufferMs":199.79999995231628,"parseDecodeMs":14627.799999952316,"fetchParseMs":14827.599999904633},"compile":17.699999809265137,"frames":30,"transitions":16,"counts":{"calls":214,"triangles":426390,"lines":0,"geometries":108,"textures":15,"programs":23},"errors":[]}

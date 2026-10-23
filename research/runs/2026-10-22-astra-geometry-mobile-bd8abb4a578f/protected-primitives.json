@@ -1,0 +1,2204 @@
+[
+  {
+    "mesh": 1,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 1,
+        "name": "BodyWindshield"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 8640,
+        "sha256": "d202d70d3a40dff68ab8c7c118efc5c3502305122a1a9f95be64c249d9718b92"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1535,
+          "sha256": "f84f20212f9622bfe508d3dece4c65078d36faa932aa58a35ea046349ba78279"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1535,
+          "sha256": "6c8649400f056a67d291985e3f42b8bc676e062cc1a000c6eb0affe0ab08a145"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 8640,
+        "sha256": "d202d70d3a40dff68ab8c7c118efc5c3502305122a1a9f95be64c249d9718b92"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1535,
+          "sha256": "f84f20212f9622bfe508d3dece4c65078d36faa932aa58a35ea046349ba78279"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1535,
+          "sha256": "6c8649400f056a67d291985e3f42b8bc676e062cc1a000c6eb0affe0ab08a145"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 2,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 2,
+        "name": "BodyWindshieldGasket"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1356,
+        "sha256": "793d328c511d24a0794ebf8c3906a284f0ed3306211b1595603ee166375dce38"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "ee3071caa47a433d3ad6edbba38426cd7f26a0e3f6f7106c91ae0e1fc7700044"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "f23ea22c3f2e5b324a3dee657f5c2c6a6ed0597cfcf04b0be468da7070c4fea6"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "cf1a1370620390bb33c52ae4412a226a765a513b6431f2cf6ff03544a287d645"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "86a18120e71ce00d0f5b94746c80a5d93e48e9e87dfa460504bb98ca26c8acee"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1356,
+        "sha256": "793d328c511d24a0794ebf8c3906a284f0ed3306211b1595603ee166375dce38"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "ee3071caa47a433d3ad6edbba38426cd7f26a0e3f6f7106c91ae0e1fc7700044"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "f23ea22c3f2e5b324a3dee657f5c2c6a6ed0597cfcf04b0be468da7070c4fea6"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "cf1a1370620390bb33c52ae4412a226a765a513b6431f2cf6ff03544a287d645"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 549,
+          "sha256": "86a18120e71ce00d0f5b94746c80a5d93e48e9e87dfa460504bb98ca26c8acee"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 3,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 3,
+        "name": "BodyWindshieldWipers"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 73008,
+        "sha256": "c281a07d86e9d53230eacae5b9d31b2e73ece4962e182d97a30c6e6824cd9000"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "a657c93db5996932f099118a59e51eba082603f0e1cac3412e5be6a7b48992eb"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "29405a2d30aca5e401125cb04552b1a9a7fcbfda3a6773b063c45bf2d87d2017"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "82c36cc633e56595e80c45133d36e41fbefe52606cc1e82bb0fc6af63ef963b4"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "0d7075404bafe79351d3f325f5cede0970e53a456720d6b036b3ef9ecdcd6a01"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 73008,
+        "sha256": "c281a07d86e9d53230eacae5b9d31b2e73ece4962e182d97a30c6e6824cd9000"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "a657c93db5996932f099118a59e51eba082603f0e1cac3412e5be6a7b48992eb"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "29405a2d30aca5e401125cb04552b1a9a7fcbfda3a6773b063c45bf2d87d2017"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "82c36cc633e56595e80c45133d36e41fbefe52606cc1e82bb0fc6af63ef963b4"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 30429,
+          "sha256": "0d7075404bafe79351d3f325f5cede0970e53a456720d6b036b3ef9ecdcd6a01"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 4,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 4,
+        "name": "BodyWindshieldWipersBase"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1488,
+        "sha256": "ee81038849004011d232938e13bee995fa3e85320f21e473f1f1a0903a55d47b"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "588021aa461a1c5f04352ff90f564a74faa8ca0ccbaf393b0f9ccfef3c2e7079"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "eebee65a4228ce3fe454431ee2ba08b1ae99420aea99184962e14a92dd7dd902"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "5fa9af992906835e7ff1ea19c65e8d8ac3e76fb10a2621a88e4f6861f0743e6b"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "78410dad580408a1d84e31963169b210ad091030572ae8b3d2c16d41e376bc35"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1488,
+        "sha256": "ee81038849004011d232938e13bee995fa3e85320f21e473f1f1a0903a55d47b"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "588021aa461a1c5f04352ff90f564a74faa8ca0ccbaf393b0f9ccfef3c2e7079"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "eebee65a4228ce3fe454431ee2ba08b1ae99420aea99184962e14a92dd7dd902"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "5fa9af992906835e7ff1ea19c65e8d8ac3e76fb10a2621a88e4f6861f0743e6b"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 312,
+          "sha256": "78410dad580408a1d84e31963169b210ad091030572ae8b3d2c16d41e376bc35"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 30,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 31,
+        "name": "BodyRoofPanel"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 7476,
+        "sha256": "2660e1247e9d13a41f4ea9f59b40ccf49572b768f0f66cec8f80c869d050d30d"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "91bc8bec29fe9ea3ea5e96968bc67732fe34a87dbec541fd58e08819eef4ffcf"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "84d8af6e7e393342766261689b4e2ae56a04425772915a67d3ed447c4537ecb8"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "6713dde5b954cb20a0be3e10edf95dbec0101f8d3e52b0e734b93ff11d22ab53"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "c03cbadfc32876a736e1ad38524eb74c027cb6d92da2d87aeea7e63b5c77dda1"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "74b6b7038980511e59cb550eba6421c107cc3c5142e343fea3008b4ef00138b2"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 7476,
+        "sha256": "2660e1247e9d13a41f4ea9f59b40ccf49572b768f0f66cec8f80c869d050d30d"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "91bc8bec29fe9ea3ea5e96968bc67732fe34a87dbec541fd58e08819eef4ffcf"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "84d8af6e7e393342766261689b4e2ae56a04425772915a67d3ed447c4537ecb8"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "6713dde5b954cb20a0be3e10edf95dbec0101f8d3e52b0e734b93ff11d22ab53"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "c03cbadfc32876a736e1ad38524eb74c027cb6d92da2d87aeea7e63b5c77dda1"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1429,
+          "sha256": "74b6b7038980511e59cb550eba6421c107cc3c5142e343fea3008b4ef00138b2"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 33,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 35,
+        "name": "BodyWindowsRearSides"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 4128,
+        "sha256": "194959c5cd1fd45681e8640725cfd0c7ba2d6dcaa1d183e8522efa0b2605b6c6"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 750,
+          "sha256": "c2a074489ed21af70b5fc518524d1cb969c12146a7c49691ce6e917c304b0a81"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 750,
+          "sha256": "4f4fd225b28c149a29f1df3aa73668e1696610fde840b6587c8af6b9a7c44ef5"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 4128,
+        "sha256": "194959c5cd1fd45681e8640725cfd0c7ba2d6dcaa1d183e8522efa0b2605b6c6"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 750,
+          "sha256": "c2a074489ed21af70b5fc518524d1cb969c12146a7c49691ce6e917c304b0a81"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 750,
+          "sha256": "4f4fd225b28c149a29f1df3aa73668e1696610fde840b6587c8af6b9a7c44ef5"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 34,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 36,
+        "name": "BodyTurnsignalsRear"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 456,
+        "sha256": "cc982f44b99037491d218a96bd87b5f06af8b0065c56b4fc3909abdfe3c44586"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 136,
+          "sha256": "2a0da43fcaaecf63ff902fce6d9c9382ea4e1909c76db95cb5a03e633bc03c45"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 136,
+          "sha256": "44bd8b887182889776520cc0488a21b1dc4147d605972f292f1028d76362c385"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 456,
+        "sha256": "cc982f44b99037491d218a96bd87b5f06af8b0065c56b4fc3909abdfe3c44586"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 136,
+          "sha256": "2a0da43fcaaecf63ff902fce6d9c9382ea4e1909c76db95cb5a03e633bc03c45"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 136,
+          "sha256": "44bd8b887182889776520cc0488a21b1dc4147d605972f292f1028d76362c385"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 35,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 37,
+        "name": "BodyTaillightsPanels"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 3888,
+        "sha256": "f49b524039e0a9552067cb075bd83294f1d017143ed0dfa997272dd83f70f1f3"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "2f3bd5963af217e364aa3d936c799b422ba6e43a35f2237f3763e2c4fee56cae"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "9b412a96fb9938a86aa7e6d7710eba3423108fae213c3188c674666baabde018"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "f4329714de1fac50a03ee2539d88b3cd9e32492b0f8272779851ecb5a77b5882"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "a6d79fe09d0223a8e8c962fcb1956d91df35b4466b76c567b9461d9ce2dacc8e"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 3888,
+        "sha256": "f49b524039e0a9552067cb075bd83294f1d017143ed0dfa997272dd83f70f1f3"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "2f3bd5963af217e364aa3d936c799b422ba6e43a35f2237f3763e2c4fee56cae"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "9b412a96fb9938a86aa7e6d7710eba3423108fae213c3188c674666baabde018"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "f4329714de1fac50a03ee2539d88b3cd9e32492b0f8272779851ecb5a77b5882"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1113,
+          "sha256": "a6d79fe09d0223a8e8c962fcb1956d91df35b4466b76c567b9461d9ce2dacc8e"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 36,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 38,
+        "name": "BodyTaillights"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 672,
+        "sha256": "ad7d2ce47444335e4e81e4bfa29bc0c4772d29a0006208b706c9b4bfbf6a664d"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 192,
+          "sha256": "84f23066fcee7b33c91504bd926a5b271e17b30dec98b73848d7d11f1b2b16bc"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 192,
+          "sha256": "de9ae5598d49f24ef4952b7275a56747e9165dace9b660f2c99d584bd8941d9b"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 672,
+        "sha256": "ad7d2ce47444335e4e81e4bfa29bc0c4772d29a0006208b706c9b4bfbf6a664d"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 192,
+          "sha256": "84f23066fcee7b33c91504bd926a5b271e17b30dec98b73848d7d11f1b2b16bc"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 192,
+          "sha256": "de9ae5598d49f24ef4952b7275a56747e9165dace9b660f2c99d584bd8941d9b"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 37,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 39,
+        "name": "BodyRearwindow"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 8544,
+        "sha256": "22e0b71f186e4b6b4383f640fae428227154210510905259efe705f213ffe0e6"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1497,
+          "sha256": "4851abcae62189dc7fa285c5b9fdf3c76d721b354f96fb5119d1dc3aa5385dbf"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1497,
+          "sha256": "14eabfbd9cd51d762dc4c436c38c0eea8a907147d1b66b5bb36118982a39a4b4"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 8544,
+        "sha256": "22e0b71f186e4b6b4383f640fae428227154210510905259efe705f213ffe0e6"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1497,
+          "sha256": "4851abcae62189dc7fa285c5b9fdf3c76d721b354f96fb5119d1dc3aa5385dbf"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1497,
+          "sha256": "14eabfbd9cd51d762dc4c436c38c0eea8a907147d1b66b5bb36118982a39a4b4"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 38,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 40,
+        "name": "BodyPillars"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 17244,
+        "sha256": "e00982251e847b4b67c53fd08209011305d261ebaddf1f87b60789603b58d535"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "692be12194ea6371b271c1067563aa3faad6f503cd7ab2797bbfad0153eb4eb7"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "44f584a456ff03d01433f5fa6c345b4cb4439be0f03578ee7e1b77269a2dca8a"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "fe514e886b2db3b0af88634da19460ab6f17df473bad6d826e787fd5f578c437"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "5d8edbe9544b9947960b89d4e9c035c7cbab1e6b506b0a630202ef3c30d4e8e3"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "8ad178bee7d9e455ce4f953050b689e8e0e53c525c8ecbd791277973774f8649"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 17244,
+        "sha256": "e00982251e847b4b67c53fd08209011305d261ebaddf1f87b60789603b58d535"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "692be12194ea6371b271c1067563aa3faad6f503cd7ab2797bbfad0153eb4eb7"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "44f584a456ff03d01433f5fa6c345b4cb4439be0f03578ee7e1b77269a2dca8a"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "fe514e886b2db3b0af88634da19460ab6f17df473bad6d826e787fd5f578c437"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "5d8edbe9544b9947960b89d4e9c035c7cbab1e6b506b0a630202ef3c30d4e8e3"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 3547,
+          "sha256": "8ad178bee7d9e455ce4f953050b689e8e0e53c525c8ecbd791277973774f8649"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 40,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 42,
+        "name": "BodyHood"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 39888,
+        "sha256": "940f18e8e1793cf1ca5705d2ea7433b84cb04f147083dc27dc99923c85d426f0"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "90427606cc8ac67d27cb013c87e7bfaadcf12d3e664fed2804265d685aa186ff"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "0826901952bd0333d19ae052e565565266b7311b72a47512c24fcf2dca6b51b6"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "e1a0141983a40aac6360640e27bccdfad2d73337ca4cebe4a125533e8d407c29"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "4225089af49f7b2fccf1577d2157d3985440e93411ac6ea4e6b2dea862c1620f"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "aa100ce56b61e4e30875ed0dc3146d02a3906ff3dc98c6e851837f978a3594ef"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 39888,
+        "sha256": "940f18e8e1793cf1ca5705d2ea7433b84cb04f147083dc27dc99923c85d426f0"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "90427606cc8ac67d27cb013c87e7bfaadcf12d3e664fed2804265d685aa186ff"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "0826901952bd0333d19ae052e565565266b7311b72a47512c24fcf2dca6b51b6"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "e1a0141983a40aac6360640e27bccdfad2d73337ca4cebe4a125533e8d407c29"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "4225089af49f7b2fccf1577d2157d3985440e93411ac6ea4e6b2dea862c1620f"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 7929,
+          "sha256": "aa100ce56b61e4e30875ed0dc3146d02a3906ff3dc98c6e851837f978a3594ef"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 41,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 43,
+        "name": "BodyHoodInterior01"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 10638,
+        "sha256": "478b1ee5750e63068be1e105ce7ee75668fc989cb1c5867a9f72a855265f80ed"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "10c8163d054dd752891c28ca5acf26a9f80c44c7101ae958bb3c26cad2b792f2"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "ec076568d16ec47bc0bf892a1554a7dc804afba34a3b222e7d9c9efc06d65306"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "4fe86a834466fd1118e88a1a2ad14453203a7f3227e57001dcf640bb658e3651"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "b80dfec3b074ced6ea61651d86fa32d013b749d6b2925ad7b11ea64ff81ae561"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 10638,
+        "sha256": "478b1ee5750e63068be1e105ce7ee75668fc989cb1c5867a9f72a855265f80ed"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "10c8163d054dd752891c28ca5acf26a9f80c44c7101ae958bb3c26cad2b792f2"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "ec076568d16ec47bc0bf892a1554a7dc804afba34a3b222e7d9c9efc06d65306"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "4fe86a834466fd1118e88a1a2ad14453203a7f3227e57001dcf640bb658e3651"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 2401,
+          "sha256": "b80dfec3b074ced6ea61651d86fa32d013b749d6b2925ad7b11ea64ff81ae561"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 42,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 44,
+        "name": "BodyHoodInterior02"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 504,
+        "sha256": "57aec9abcab668579e7088c7b8173915ee1f1db1c8131cc74870307e39bf064c"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "0373749f8de96409b948d39116a010e89a11fa64da3a4e5914d1cdbb79e7c56b"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "0524b8cc63196857fc8dde5bd4b2adaeb061931551ca11c01e2294256631937f"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "e005e48f198352bbd9fdd671028442f11d64eb5addf13ca88808e4b0fc838b1c"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "6b024d07fd2b1a05404df2a9baf2fe401ef46ad66742431a73b86a31af2c48bd"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 504,
+        "sha256": "57aec9abcab668579e7088c7b8173915ee1f1db1c8131cc74870307e39bf064c"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "0373749f8de96409b948d39116a010e89a11fa64da3a4e5914d1cdbb79e7c56b"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "0524b8cc63196857fc8dde5bd4b2adaeb061931551ca11c01e2294256631937f"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "e005e48f198352bbd9fdd671028442f11d64eb5addf13ca88808e4b0fc838b1c"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 153,
+          "sha256": "6b024d07fd2b1a05404df2a9baf2fe401ef46ad66742431a73b86a31af2c48bd"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 43,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 45,
+        "name": "BodyHoodTopgrill"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 8016,
+        "sha256": "aba5be36ebd135d6994432fed017888d3ce463f27ac265f3dcb02568bec0da97"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "2be34f7dbd1a196866d2439aa59b40af7258103af8ba13f32134a6efae4d309e"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "a9f2a9c5328fdfc77bc943167445f9fe7515ffda0a4a44027321b25134261bc6"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "111e68f07818e25033169a7b0d50691c1c515c261eb54581fbfb87b41272d5d7"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "e80a638ba6576bad9ead94672a2ec1f68c8462ef48e17f2f22b06fcb8eb025d2"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "2b442b663b97227e6e37eda49262e19e837caa358cc751c38bc7e60ffebdba19"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 8016,
+        "sha256": "aba5be36ebd135d6994432fed017888d3ce463f27ac265f3dcb02568bec0da97"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "2be34f7dbd1a196866d2439aa59b40af7258103af8ba13f32134a6efae4d309e"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "a9f2a9c5328fdfc77bc943167445f9fe7515ffda0a4a44027321b25134261bc6"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "111e68f07818e25033169a7b0d50691c1c515c261eb54581fbfb87b41272d5d7"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "e80a638ba6576bad9ead94672a2ec1f68c8462ef48e17f2f22b06fcb8eb025d2"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 1579,
+          "sha256": "2b442b663b97227e6e37eda49262e19e837caa358cc751c38bc7e60ffebdba19"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 45,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 47,
+        "name": "BodyHeadlights"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 864,
+        "sha256": "9f79dd55417d7187c61ef853fd639a9ebc272f771050bb9f8ed9fa7f4ca575ed"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 148,
+          "sha256": "a01b3b78c5816a6a4858b34061543d3dc830e76df36f905cfe7112192cdff6e1"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 148,
+          "sha256": "77a41930b4f6d1a1d7e525531bb7bdbfccfbdc9a9287925f6f324c339aca03b7"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 864,
+        "sha256": "9f79dd55417d7187c61ef853fd639a9ebc272f771050bb9f8ed9fa7f4ca575ed"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 148,
+          "sha256": "a01b3b78c5816a6a4858b34061543d3dc830e76df36f905cfe7112192cdff6e1"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 148,
+          "sha256": "77a41930b4f6d1a1d7e525531bb7bdbfccfbdc9a9287925f6f324c339aca03b7"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 50,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 52,
+        "name": "BodyDoorRMirror"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1386,
+        "sha256": "2a45a5db019ed99a047ca3339894c387d5c3706ea5c254660c7d11ce58b01748"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "72548cd5f540eb0468f0b592fd62dd268fe31ec2b6c20b241b7df53f8d81a214"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "3e5650b3a112ba960293d60b9461425c1d34ea48afe85dcd057438d324e86eb3"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "94212e77120ec7e088558499caca41b0326ce19660860222704546147f622707"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "45dac202be03279a819d7df8bcbf0e07c127493765e048d5ac9fab6b588ef9ac"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1386,
+        "sha256": "2a45a5db019ed99a047ca3339894c387d5c3706ea5c254660c7d11ce58b01748"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "72548cd5f540eb0468f0b592fd62dd268fe31ec2b6c20b241b7df53f8d81a214"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "3e5650b3a112ba960293d60b9461425c1d34ea48afe85dcd057438d324e86eb3"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "94212e77120ec7e088558499caca41b0326ce19660860222704546147f622707"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "45dac202be03279a819d7df8bcbf0e07c127493765e048d5ac9fab6b588ef9ac"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 51,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 53,
+        "name": "BodyDoorRMirrorColor1"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1620,
+        "sha256": "671705b04250b7e23bb8a7e5d27a0e531d417c2823cd0266e81c60063422457c"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "917c86c022608c588c95ce3b8f0fa354b8f387cae2eba43998d537578491198a"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "330e3ac15f90ebc476eda53f195e906948af7e157bdf6b8f3a47d080c1060729"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "b10597adf491d53d09d7ad639914320145bc9743300489be611a758c120808ed"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "04890864f69c948e0b278f9fc454240cc523e6b53656e8068b58e51360978452"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "a0df90743260988baa25aabcb60db3565d706c235d46c2a22892c9f08fa8bb44"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1620,
+        "sha256": "671705b04250b7e23bb8a7e5d27a0e531d417c2823cd0266e81c60063422457c"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "917c86c022608c588c95ce3b8f0fa354b8f387cae2eba43998d537578491198a"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "330e3ac15f90ebc476eda53f195e906948af7e157bdf6b8f3a47d080c1060729"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "b10597adf491d53d09d7ad639914320145bc9743300489be611a758c120808ed"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "04890864f69c948e0b278f9fc454240cc523e6b53656e8068b58e51360978452"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 376,
+          "sha256": "a0df90743260988baa25aabcb60db3565d706c235d46c2a22892c9f08fa8bb44"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 52,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 54,
+        "name": "BodyDoorRMirrorColor2"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 3498,
+        "sha256": "2a9aa40b24d0c8c536b57b8022de68b4d2f72a8313914304504eb98675bc57dd"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "fa02d4af28d8458ef5d7bc9ceb2f286748ba74ed2ebdbef287a6302cb0dc9177"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "d7b837313b27b687a01232d7ce71171cb2678c62eef2f7699922b7ff68066b6f"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "8f49050415f05f2b110772443d713ebe390088713069651955b2cb5e349e6174"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "c59d0326e73323f1cb39e0a6509e7f62ace29badd0a175a862bd4bb84b3b6ac1"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "6fcc289635340f89b406fd64346855f8ee23b5e069a69986457b616237f65fe1"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 3498,
+        "sha256": "2a9aa40b24d0c8c536b57b8022de68b4d2f72a8313914304504eb98675bc57dd"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "fa02d4af28d8458ef5d7bc9ceb2f286748ba74ed2ebdbef287a6302cb0dc9177"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "d7b837313b27b687a01232d7ce71171cb2678c62eef2f7699922b7ff68066b6f"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "8f49050415f05f2b110772443d713ebe390088713069651955b2cb5e349e6174"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "c59d0326e73323f1cb39e0a6509e7f62ace29badd0a175a862bd4bb84b3b6ac1"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "6fcc289635340f89b406fd64346855f8ee23b5e069a69986457b616237f65fe1"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 53,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 55,
+        "name": "BodyDoorRWindow"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 4176,
+        "sha256": "2c4c3e6e4f70dcdba9a71947b254de0170514703f38875f32ae37017cd4ed18e"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "e40eb46a12729a8ff000cd91c1e11f365570731c7447fe6293de4382b3b83e1e"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "a52bd14b76f5ba8004c3545b4a5d3a74163ff6edc0af2558bdeb4bff57398ec5"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 4176,
+        "sha256": "2c4c3e6e4f70dcdba9a71947b254de0170514703f38875f32ae37017cd4ed18e"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "e40eb46a12729a8ff000cd91c1e11f365570731c7447fe6293de4382b3b83e1e"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "a52bd14b76f5ba8004c3545b4a5d3a74163ff6edc0af2558bdeb4bff57398ec5"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 54,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 56,
+        "name": "BodyDoorRWindowGasket"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1728,
+        "sha256": "78aa697f7781bdc5d6f7981cda37bbe71b08f43e2abf1f11103ea16f3448ae03"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "0b7ce03bfb24311be06407ef1bcfc82a2d4d7b4e9ffb4c0c5c91561b1087d24d"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "02b6265ee460e9b080f6bf7045c62ececd222ad4ed54415f04065681a4223593"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "bf84fd8f3d872e9bbccec6bdfd4778e48424f79e58ea8438a394b0754e4a9437"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "c9ceb7eadcaa9ed8f3a7ed48bfc85704d8e36c58f2c53884b52c0407e580ef6f"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1728,
+        "sha256": "78aa697f7781bdc5d6f7981cda37bbe71b08f43e2abf1f11103ea16f3448ae03"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "0b7ce03bfb24311be06407ef1bcfc82a2d4d7b4e9ffb4c0c5c91561b1087d24d"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "02b6265ee460e9b080f6bf7045c62ececd222ad4ed54415f04065681a4223593"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "bf84fd8f3d872e9bbccec6bdfd4778e48424f79e58ea8438a394b0754e4a9437"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "c9ceb7eadcaa9ed8f3a7ed48bfc85704d8e36c58f2c53884b52c0407e580ef6f"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 69,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 73,
+        "name": "BodyDoorLMirror"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1386,
+        "sha256": "a30496dd6e0f7013a7e3f6485702290b81924ad18af7c83b64c41c353e1dcee7"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "96f08780daa240fef88be4ac4a77bf99d22396ff570589fdf41cf4abbe65602a"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "a5190a3faa756218ea69be49d62d2db64d418669eb14ba0c630d11dcbce92a4f"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "0c6cdb26cdd3d9c5fc1c4cd6675ee3b24ca2170de26af89df4e239072755a76a"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "64b22b81becf7fd64d2ecfc0ccebead6f71359bbbe45bec12cf8d938a9e51162"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1386,
+        "sha256": "a30496dd6e0f7013a7e3f6485702290b81924ad18af7c83b64c41c353e1dcee7"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "96f08780daa240fef88be4ac4a77bf99d22396ff570589fdf41cf4abbe65602a"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "a5190a3faa756218ea69be49d62d2db64d418669eb14ba0c630d11dcbce92a4f"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "0c6cdb26cdd3d9c5fc1c4cd6675ee3b24ca2170de26af89df4e239072755a76a"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 257,
+          "sha256": "64b22b81becf7fd64d2ecfc0ccebead6f71359bbbe45bec12cf8d938a9e51162"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 70,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 74,
+        "name": "BodyDoorLMirrorColor1"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1596,
+        "sha256": "efbe946ce862559df8dd774f9eff2104302dcff4ea0286711b82dfd839b9ebb5"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "330775007d7cfa71f973479b1a4122cbcac3e7db51c658434e8690231b7f0ac7"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "ce3361c053cab9e3768d2470eb5a60412a6dd98d3d265d713538306a6e6306df"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "1e289f5fd5beed0a783887f040b9b754db02ad93970903de727e478ea8498431"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "907a4059c04284007cb1d7b70f361b7a1b0e30d037d0067a99ed8d9bf6874d5c"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "4e542cb801e6b7fa37db9c40a4cfe7f577869c36ef70368035e5f36049b83a68"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1596,
+        "sha256": "efbe946ce862559df8dd774f9eff2104302dcff4ea0286711b82dfd839b9ebb5"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "330775007d7cfa71f973479b1a4122cbcac3e7db51c658434e8690231b7f0ac7"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "ce3361c053cab9e3768d2470eb5a60412a6dd98d3d265d713538306a6e6306df"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "1e289f5fd5beed0a783887f040b9b754db02ad93970903de727e478ea8498431"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "907a4059c04284007cb1d7b70f361b7a1b0e30d037d0067a99ed8d9bf6874d5c"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 384,
+          "sha256": "4e542cb801e6b7fa37db9c40a4cfe7f577869c36ef70368035e5f36049b83a68"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 71,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 75,
+        "name": "BodyDoorLWindowGasket"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1728,
+        "sha256": "d22c2882b415a05164c34a7359f7239e86efc0e1906054741c9e94c52f63f50a"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "acb2d02d963039d21e88b078fdad8639e6c9d006b87527dd246bdf4a490f12d5"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "ab1b752ed37ffc010b2488f16be1371c9f57335827e86e850a235da88d2e9b23"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "1fb5e5333a5ff46b9ce52314a3f0da6c3e88ca70c533d38a227dfbca5cea129c"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "57eaf85de97c8dec78d8c77683ede28a98db5faa6d4ff560f871073791ef9ae3"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 1728,
+        "sha256": "d22c2882b415a05164c34a7359f7239e86efc0e1906054741c9e94c52f63f50a"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "acb2d02d963039d21e88b078fdad8639e6c9d006b87527dd246bdf4a490f12d5"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "ab1b752ed37ffc010b2488f16be1371c9f57335827e86e850a235da88d2e9b23"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "1fb5e5333a5ff46b9ce52314a3f0da6c3e88ca70c533d38a227dfbca5cea129c"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 397,
+          "sha256": "57eaf85de97c8dec78d8c77683ede28a98db5faa6d4ff560f871073791ef9ae3"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 72,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 76,
+        "name": "BodyDoorLWindow"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 4176,
+        "sha256": "4ef21b7134cdc98480a37aa79d427dc86f559bbb3ae244a7f0760f04d41b5c6c"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "5427cf14d871631b9c936ed2464f40b247e8b5dd52b2b977de23df4582cdce57"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "f39d776ecd3143f3c9ff14b30a6bc7103182ae105db674718e252b9eac86797f"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 4176,
+        "sha256": "4ef21b7134cdc98480a37aa79d427dc86f559bbb3ae244a7f0760f04d41b5c6c"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "5427cf14d871631b9c936ed2464f40b247e8b5dd52b2b977de23df4582cdce57"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 743,
+          "sha256": "f39d776ecd3143f3c9ff14b30a6bc7103182ae105db674718e252b9eac86797f"
+        }
+      }
+    },
+    "exact": true
+  },
+  {
+    "mesh": 73,
+    "primitive": 0,
+    "nodes": [
+      {
+        "index": 77,
+        "name": "BodyDoorLMirrorColor2"
+      }
+    ],
+    "before": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 3498,
+        "sha256": "a00efdc4ee97720b604567341276e8c96016583a5cac69bb731697ebd065b695"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "239ed2f55a020c53d3a53ce166f8a81a6cc9761f35d9b21b4010b11f00ce2fc2"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "3f0bbe1e8679b1ee6300ce1f73a8c02e8f91fd9e785872276d83803fa140c99f"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "cf140f760862e1c2e0bc6a80bb933bfedb88dd8e62e7cb93a41ff821909df567"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "35a7df56891ede1be6e4b2846e78e109035ec54e8e60fc4c55f3255c005f61be"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "af5463e9b76db29cda88494d724df7c3a5fc6e628bdc0a13bfa02aadda074094"
+        }
+      }
+    },
+    "after": {
+      "indices": {
+        "type": "SCALAR",
+        "componentType": 5123,
+        "normalized": false,
+        "count": 3498,
+        "sha256": "a00efdc4ee97720b604567341276e8c96016583a5cac69bb731697ebd065b695"
+      },
+      "attributes": {
+        "NORMAL": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "239ed2f55a020c53d3a53ce166f8a81a6cc9761f35d9b21b4010b11f00ce2fc2"
+        },
+        "POSITION": {
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "3f0bbe1e8679b1ee6300ce1f73a8c02e8f91fd9e785872276d83803fa140c99f"
+        },
+        "TANGENT": {
+          "type": "VEC4",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "cf140f760862e1c2e0bc6a80bb933bfedb88dd8e62e7cb93a41ff821909df567"
+        },
+        "TEXCOORD_0": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "35a7df56891ede1be6e4b2846e78e109035ec54e8e60fc4c55f3255c005f61be"
+        },
+        "TEXCOORD_1": {
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 912,
+          "sha256": "af5463e9b76db29cda88494d724df7c3a5fc6e628bdc0a13bfa02aadda074094"
+        }
+      }
+    },
+    "exact": true
+  }
+]

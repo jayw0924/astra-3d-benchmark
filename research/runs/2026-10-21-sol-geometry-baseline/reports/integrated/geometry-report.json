@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "web-product-estuary-baseline-geometry",
+  "assetId": "web-product-estuary",
+  "role": "baseline",
+  "sourcePath": "public/assets/models/product-estuary.glb",
+  "bytes": 10191496,
+  "sha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f",
+  "counts": {
+    "scenes": 1,
+    "nodes": 99,
+    "reachableNodes": 99,
+    "meshes": 95,
+    "primitives": 107,
+    "materials": 30,
+    "textures": 14,
+    "images": 14,
+    "cameras": 0,
+    "animations": 0,
+    "skins": 0,
+    "triangles": 213195,
+    "submittedTriangleIndices": 639585,
+    "positionAccessorEntries": 162646
+  },
+  "bounds": {
+    "method": "Decoded every POSITION accessor and applied full default-scene world transforms; axis-aligned bounds",
+    "min": [
+      -1.271408303432173,
+      -0.00024107749495599906,
+      -1.940231204032898
+    ],
+    "max": [
+      1.2709126943182742,
+      1.1486550569534302,
+      2.4171547889709473
+    ],
+    "dimensions": [
+      2.5423209977504473,
+      1.1488961344483861,
+      4.357385993003845
+    ],
+    "units": "metres"
+  },
+  "variants": [
+    {
+      "name": "Carmine Candy",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Pearly Swirly",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Torched Graphite",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Estuary Enamel",
+      "mappedPrimitives": 25
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_emissive_strength",
+    "KHR_materials_iridescence",
+    "KHR_materials_transmission",
+    "KHR_materials_variants",
+    "KHR_texture_basisu",
+    "KHR_texture_transform"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ],
+  "checks": {
+    "forbiddenNodesPresent": [],
+    "parserValidation": "passed with @gltf-transform/core NodeIO (not Khronos Validator certification)"
+  },
+  "measurement": {
+    "method": "Raw GLB JSON/accessor inspection plus independent NodeIO parse",
+    "generatedBy": "scripts/report-geometry.mjs"
+  }
+}

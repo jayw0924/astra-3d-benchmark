@@ -1,0 +1,15 @@
+✔ all 108 PNG identities, bytes, dimensions, balanced cases, nonblank pixels, identical control cameras (24.76655ms)
+✔ four actual ABBA sessions, 30 raw warmed samples each, 16 all-pairs transitions with exact stable assignments (2.381191ms)
+✔ all target sheets visually reviewed, hashed, and gallery decoded (2.276503ms)
+✔ FINAL candidate pin, never prior candidate bytes (30.065472ms)
+✔ balanced fixed 108-case hash-pinned matrix (36.361898ms)
+✔ 54 reused controls exactly source-verified; candidate frames are fresh; frozen harness identity (20.141137ms)
+✔ 64 actual ordered pairs, expected four variants, cross-context stable assignments, raw HTTP encoding (2.28042ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 338.966317

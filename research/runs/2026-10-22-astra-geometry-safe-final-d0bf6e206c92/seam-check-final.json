@@ -1,0 +1,39 @@
+{
+  "phase": "final",
+  "rows": [
+    {
+      "finish": "estuary",
+      "region": [
+        418,
+        323,
+        424,
+        340
+      ],
+      "meanAbsoluteChannelDifference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxChannelDifference": 0,
+      "exact": true
+    },
+    {
+      "finish": "carmine",
+      "region": [
+        418,
+        323,
+        424,
+        340
+      ],
+      "meanAbsoluteChannelDifference": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxChannelDifference": 0,
+      "exact": true
+    }
+  ],
+  "allExact": true,
+  "limitation": "Exact ROI diagnostic is red-capable but not full visual acceptance"
+}

@@ -1,0 +1,365 @@
+{
+  "uri": "control.glb",
+  "mimeType": "model/gltf-binary",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "validatedAt": "2026-10-22T20:53:03.282Z",
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 28,
+    "numInfos": 15,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "UNSUPPORTED_EXTENSION",
+        "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+        "severity": 2,
+        "pointer": "/extensionsUsed/5"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/0/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/1/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/2/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/3/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/4/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/5/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/6/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/7/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/8/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/9/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/10/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/11/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/12/mimeType"
+      },
+      {
+        "code": "VALUE_NOT_IN_LIST",
+        "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+        "severity": 1,
+        "pointer": "/images/13/mimeType"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/1"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/2"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/3"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/4"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/5"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/6"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/7"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/8"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/9"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/10"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/11"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/12"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/images/13"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/0"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/1"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/2"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/3"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/4"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/5"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/6"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/7"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/8"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/9"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/10"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/11"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/12"
+      },
+      {
+        "code": "IMAGE_UNRECOGNIZED_FORMAT",
+        "message": "Image format not recognized.",
+        "severity": 1,
+        "pointer": "/images/13"
+      }
+    ],
+    "truncated": false
+  },
+  "info": {
+    "version": "2.0",
+    "generator": "glTF-Transform v4.5.1",
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_iridescence",
+      "KHR_materials_transmission",
+      "KHR_materials_variants",
+      "KHR_texture_basisu",
+      "KHR_texture_transform"
+    ],
+    "extensionsRequired": [
+      "KHR_texture_basisu"
+    ],
+    "resources": [
+      {
+        "pointer": "/buffers/0",
+        "mimeType": "application/gltf-buffer",
+        "storage": "glb",
+        "byteLength": 10076768
+      },
+      {
+        "pointer": "/images/0",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/1",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/2",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/3",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/4",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/5",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/6",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/7",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/8",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/9",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/10",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/11",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/12",
+        "storage": "buffer-view"
+      },
+      {
+        "pointer": "/images/13",
+        "storage": "buffer-view"
+      }
+    ],
+    "animationCount": 0,
+    "materialCount": 30,
+    "hasMorphTargets": false,
+    "hasSkins": false,
+    "hasTextures": true,
+    "hasDefaultScene": true,
+    "drawCallCount": 107,
+    "totalVertexCount": 162646,
+    "totalTriangleCount": 213195,
+    "maxUVs": 2,
+    "maxInfluences": 0,
+    "maxAttributes": 5
+  }
+}

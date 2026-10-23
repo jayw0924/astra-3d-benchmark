@@ -40,14 +40,14 @@ Re-run from project root: `node research/runs/2026-10-20-astra-inspection/inspec
 | Meshes | 97 | 95 |
 | Mesh primitives (all indexed TRIANGLES) | 109 | 107 |
 | Triangles per scene/pass | 213,347 | 213,195 |
-| Render vertices (index entries, no vertex-cache allowance) | 640,041 | 639,585 |
-| Unique POSITION accessor vertices | 162,766 | 162,646 |
+| Submitted triangle indices (static index entries per complete pass) | 640,041 | 639,585 |
+| Distinct POSITION accessor entries | 162,766 | 162,646 |
 | Materials | 29 | 28 |
 | glTF texture objects | 15 | 14 |
 | Embedded KTX2 images | 14 | 14 |
 | Cameras / animations / skins | 0 / 0 / 0 | 0 / 0 / 0 |
 
-The independent served counts reproduce CLI's 639,585 render vertices and 162,646 upload vertices, 28 materials, 14 images/textures, and absent animations. Mesh count is not primitive count or draw-call count. Upload vertices are not triangles. Exact counts derive from binary/JSON, not manually counting terminal rows.
+The independent served counts reproduce CLI's 639,585 submitted triangle indices and 162,646 distinct POSITION accessor entries, 28 materials, 14 images/textures, and absent animations. These are static file-structure counts, not GPU-upload, vertex-shader-work, or draw-call measurements. Exact counts derive from binary/JSON, not manually counting terminal rows.
 
 Served world-axis-aligned dimensions X/Y/Z: **2.542320998 × 1.148896134 × 4.357385993 metres** under glTF unit convention. Bounds min [-1.271408303, -0.000241077, -1.940231204], max [1.270912694, 1.148655057, 2.417154789]. These agree with CLI bounds to its printed precision. This is geometry extent, including mirrors, not an independently measured manufacturing specification. Upstream dimensions are effectively identical; minute floating-point differences arise after serializer transform normalization.
 
@@ -68,7 +68,7 @@ All 14 images are embedded KTX2; there are no external buffer/image URIs. Resolu
 5. `src/lib/threeViewer.ts:184-185` still attempts runtime plate hiding, but the served asset already excludes both target nodes. The redundant guard is not the actual trademark-removal mechanism.
 6. Existing geometry/material counts in baseline notes are confirmed, not corrected. Their successful browser tests are historical baseline claims, not re-run performance evidence here. CLI inspection alone does not prove absence of all glTF validation errors.
 
-Web risks: 107 primitives imply substantial potential draw submission work even though there are only 28 materials; transmission and double-sided materials can add passes/cost. 213,195 triangles and 162,646 upload vertices are plausible desktop loads, not evidence of mobile FPS. Wipers alone use 24,336 triangles and 30,429 vertices; inspect visually before any decimation. KTX2 requires loader/transcoder availability, correct deployment paths/MIME/CSP, and device-specific transcode support; GPU texture memory is not compressed transfer size. Current loader configures `/basis/` and detects renderer support. Paint/iridescence/transmission appearance depends on lighting/tone mapping; current runtime has direct/hemisphere lights and no environment map. It runs a continuous requestAnimationFrame loop, so offscreen/idle cost warrants later measurement. All are inspection-derived risks, not observed performance regressions. No FPS/load-to-first-frame, visual fidelity, mobile GPU, browser compatibility, normals/manifoldness, or Blender editability claims are made.
+Web risks: 107 primitives imply substantial potential draw submission work even though there are only 28 materials; transmission and double-sided materials can add passes/cost. 213,195 triangles and 162,646 distinct POSITION accessor entries are plausible desktop-load indicators, not runtime GPU measurements or evidence of mobile FPS. Wipers alone use 24,336 triangles and 30,429 POSITION accessor entries; inspect visually before any decimation. KTX2 requires loader/transcoder availability, correct deployment paths/MIME/CSP, and device-specific transcode support; GPU texture memory is not compressed transfer size. Current loader configures `/basis/` and detects renderer support. Paint/iridescence/transmission appearance depends on lighting/tone mapping; current runtime has direct/hemisphere lights and no environment map. It runs a continuous requestAnimationFrame loop, so offscreen/idle cost warrants later measurement. All are inspection-derived risks, not observed performance regressions. No FPS/load-to-first-frame, visual fidelity, mobile GPU, browser compatibility, normals/manifoldness, or Blender editability claims are made.
 
 ## Validation and attribution result
 

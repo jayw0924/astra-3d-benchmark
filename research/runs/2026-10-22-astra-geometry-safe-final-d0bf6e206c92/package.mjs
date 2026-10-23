@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {chromium} from '@playwright/test';
+import Ajv from 'ajv/dist/2020.js';
+import addFormats from 'ajv-formats';
+const run='research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92';
+const hash=b=>createHash('sha256').update(b).digest('hex');
+const save=(n,d)=>writeFileSync(`${run}/${n}`,JSON.stringify(d,null,2)+'\n',{flag:'wx'});
+const bytes=readFileSync(`${run}/candidate.glb`),json=JSON.parse(bytes.subarray(20,20+bytes.readUInt32LE(12))),protectedMeshes=[1,2,4,30,38,40,41,42,43];
+const refs=p=>[p.indices,...Object.values(p.attributes)];
+const protectedIndices=new Set(protectedMeshes.flatMap(mi=>json.meshes[mi].primitives.flatMap(refs)));
+let eligible=0;
+for(const [mi,m] of json.meshes.entries())if(!protectedMeshes.includes(mi))for(const p of m.primitives){assert(refs(p).every(i=>!protectedIndices.has(i)),'Serialized eligible accessor aliases protected data');eligible++;}
+const oldPins=[['research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb','0c57718add772f1265f8cbb3d9f165bc3b06c73629b50f5297f31f844d32c810'],['research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5-b/candidate.glb','a30deb208c7c1c4b23859edbb57d2c9d1cb1ad828e00c9431d4ebc29a47d9bce']];
+for(const [p,h] of oldPins)assert.equal(hash(readFileSync(p)),h);
+const browser=await chromium.launch({headless:true,args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const browserVersion=browser.version();await browser.close();
+save('browser-environment.json',{browserVersion,executable:chromium.executablePath(),executableSha256:hash(readFileSync(chromium.executablePath())),browsersPath:process.env.PLAYWRIGHT_BROWSERS_PATH,scope:'Headless Chromium SwiftShader, no production GPU claims; GPU details in raw capture metrics'});
+const ajv=new Ajv({allErrors:true});addFormats(ajv);const validate=ajv.compile(JSON.parse(readFileSync('research/schemas/run.schema.json')));const data=JSON.parse(readFileSync(`${run}/run.json`));assert(validate(data),JSON.stringify(validate.errors));assert.equal(data.outcome,'partial');
+save('package-verification.json',{serializedAccessorIsolation:true,eligiblePrimitives:eligible,protectedPrimitives:protectedMeshes.map(mesh=>({mesh,primitive:0})),priorCandidatePinsPreserved:oldPins,runSchema:true,outcome:'partial',sessionPersistence:'unverified',correctionBudget:'exhausted',solReview:'pending'});
+console.log(JSON.stringify({serializedAccessorIsolation:true,eligiblePrimitives:eligible,protectedPrimitives:protectedMeshes.length,priorCandidatePinsPreserved:true,runSchema:true,browserVersion},null,2));

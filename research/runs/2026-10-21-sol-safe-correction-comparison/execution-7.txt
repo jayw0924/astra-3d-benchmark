@@ -1,0 +1,1 @@
+measure-2-safe {"load":{"fetchArrayBufferMs":193.60000014305115,"parseDecodeMs":15769.200000047684,"fetchParseMs":15962.800000190735},"compile":19.199999809265137,"frames":30,"transitions":16,"counts":{"calls":214,"triangles":363934,"lines":0,"geometries":108,"textures":15,"programs":23},"errors":[]}

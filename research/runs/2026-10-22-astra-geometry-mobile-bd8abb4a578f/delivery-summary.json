@@ -1,0 +1,106 @@
+{
+  "original": {
+    "bytes": 10191496,
+    "sha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f"
+  },
+  "candidate": {
+    "bytes": 9195792,
+    "sha256": "3d652b91d18e13910a03fb595b0ce9386c424ab39eb72187f17a6de7eaeb3c5b"
+  },
+  "deltas": {
+    "bytes": {
+      "source": 10191496,
+      "candidate": 9195792,
+      "change": -995704,
+      "reductionPercent": 9.769949377402492
+    },
+    "scenes": {
+      "source": 1,
+      "candidate": 1,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "nodes": {
+      "source": 99,
+      "candidate": 99,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "reachableNodes": {
+      "source": 99,
+      "candidate": 99,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "meshes": {
+      "source": 95,
+      "candidate": 95,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "primitives": {
+      "source": 107,
+      "candidate": 107,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "materials": {
+      "source": 30,
+      "candidate": 30,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "textures": {
+      "source": 14,
+      "candidate": 14,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "images": {
+      "source": 14,
+      "candidate": 14,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "cameras": {
+      "source": 0,
+      "candidate": 0,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "animations": {
+      "source": 0,
+      "candidate": 0,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "skins": {
+      "source": 0,
+      "candidate": 0,
+      "change": 0,
+      "reductionPercent": 0
+    },
+    "triangles": {
+      "source": 213195,
+      "candidate": 183125,
+      "change": -30070,
+      "reductionPercent": 14.104458359717627
+    },
+    "submittedTriangleIndices": {
+      "source": 639585,
+      "candidate": 549375,
+      "change": -90210,
+      "reductionPercent": 14.104458359717627
+    },
+    "positionAccessorEntries": {
+      "source": 162646,
+      "candidate": 146067,
+      "change": -16579,
+      "reductionPercent": 10.193303247543746
+    }
+  },
+  "publicSafeBytes": 9239404,
+  "incrementalBytesSavedVersusSafe": 43612,
+  "incrementalPercentVersusSafe": 0.47202178841838716,
+  "verdict": "Smaller original delivery, but incremental advantage versus existing Safe is modest; no integration recommendation without Sol visual review and real-device/policy evidence."
+}

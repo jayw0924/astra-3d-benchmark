@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "mobile-lod-bd8abb4a578f-mobile-lod-geometry",
+  "assetId": "mobile-lod-bd8abb4a578f",
+  "role": "mobile-lod",
+  "sourcePath": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/candidate.glb",
+  "bytes": 9195792,
+  "sha256": "3d652b91d18e13910a03fb595b0ce9386c424ab39eb72187f17a6de7eaeb3c5b",
+  "counts": {
+    "scenes": 1,
+    "nodes": 99,
+    "reachableNodes": 99,
+    "meshes": 95,
+    "primitives": 107,
+    "materials": 30,
+    "textures": 14,
+    "images": 14,
+    "cameras": 0,
+    "animations": 0,
+    "skins": 0,
+    "triangles": 183125,
+    "submittedTriangleIndices": 549375,
+    "positionAccessorEntries": 146067
+  },
+  "bounds": {
+    "method": "Decoded every POSITION accessor and applied full default-scene world transforms; axis-aligned bounds",
+    "min": [
+      -1.271408303432173,
+      -0.00024107749495599906,
+      -1.940231204032898
+    ],
+    "max": [
+      1.2709126943182742,
+      1.1486550569534302,
+      2.4171547889709473
+    ],
+    "dimensions": [
+      2.5423209977504473,
+      1.1488961344483861,
+      4.357385993003845
+    ],
+    "units": "metres"
+  },
+  "variants": [
+    {
+      "name": "Carmine Candy",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Pearly Swirly",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Torched Graphite",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Estuary Enamel",
+      "mappedPrimitives": 25
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_emissive_strength",
+    "KHR_materials_iridescence",
+    "KHR_materials_transmission",
+    "KHR_materials_variants",
+    "KHR_texture_basisu",
+    "KHR_texture_transform"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ],
+  "checks": {
+    "forbiddenNodesPresent": [],
+    "parserValidation": "passed with @gltf-transform/core NodeIO (not Khronos Validator certification)"
+  },
+  "measurement": {
+    "method": "Raw GLB JSON/accessor inspection plus independent NodeIO parse",
+    "generatedBy": "scripts/report-geometry.mjs"
+  }
+}

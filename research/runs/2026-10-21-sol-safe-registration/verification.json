@@ -1,0 +1,27 @@
+{
+  "status": "attribution-and-static-review-verified; visual/browser-acceptance-pending",
+  "candidateAssetId": "safe-webgl-d8fc14b866ab",
+  "candidateSha256": "0c57718add772f1265f8cbb3d9f165bc3b06c73629b50f5297f31f844d32c810",
+  "candidateBytes": 9051644,
+  "privateEvidence": {
+    "sha256": "81ebf424bb939e097174a036af0527e1670d61515d3fa1048f9e767e092bffa3",
+    "model": "gpt-6-astra",
+    "billingProvider": "openai-codex",
+    "descriptorIdMatches": true,
+    "messageCount": 88,
+    "explicitRuntimeSwitchNotices": 0,
+    "mode": "0600",
+    "gitIgnored": true,
+    "publicRevalidationLimitation": "The authentic redacted session export is private. Clean public checkouts cannot independently revalidate model attribution from the published digest alone."
+  },
+  "staticReview": {
+    "passed": true,
+    "independentInMemoryReproduction": "byte-identical",
+    "repeatOutput": "byte-identical",
+    "protectedSemantics": "passed independent hierarchy, transform, bounds, material, texture, attribute-tuple, extension, and variant checks",
+    "materialDefaultDifference": "Serializer omitted explicit alphaMode OPAQUE on two materials; specification default normalization is valid; all other material fields match.",
+    "scope": "240 pre-existing snapshot files unchanged; ignored-file coverage and historical execution attribution are distinct limitations"
+  },
+  "promotionApproved": false,
+  "remainingGates": ["fixed-view visual review", "real-browser variant behavior", "controlled performance measurements", "independent final acceptance"]
+}

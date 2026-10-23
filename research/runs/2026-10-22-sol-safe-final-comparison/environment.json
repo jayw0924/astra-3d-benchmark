@@ -1,0 +1,138 @@
+{
+  "cwd": "/workspace",
+  "hostProject": "/home/jay/projects/external/configurator-demo",
+  "platform": "Linux-7.2.7-200.fc44.x86_64-x86_64-with-glibc2.41",
+  "python": "3.13.15",
+  "node": "v26.10.0",
+  "browser": "156.0.8078.4",
+  "renderer": {
+    "vendor": "Google Inc. (Google)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "parallelCompile": false
+  },
+  "sourceInputPins": [
+    {
+      "id": "control",
+      "path": "public/assets/models/product-estuary.glb",
+      "bytes": 10191496,
+      "sha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f"
+    },
+    {
+      "id": "safe",
+      "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb",
+      "bytes": 9239404,
+      "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+    }
+  ],
+  "sourceHashes": [
+    {
+      "path": "package.json",
+      "sha256": "6d769deb00053788f8a3d67bf3d9088dc8a943bfd9c39cee7689410c47e16ef3"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "8abaf3bca6ab9a4c29b474250f79e794b3cf97ba0d6e0d1313054f5539576fbe"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "e539ab154aa3358d3b885bb9d8e88147b97572000bf4e3a5b8cefde7c72a834d"
+    },
+    {
+      "path": "research/protocols/geometry-optimization-v1.md",
+      "sha256": "31e4d6bf820e012ea4f872bb9d23ef0f9b7cbdd93bcab9fdb9c45ddd05177bec"
+    },
+    {
+      "path": "research/ASTRA_SAFE_FINAL_CORRECTION.md",
+      "sha256": "21e8ff642be3e5c27e663357f49cb22f3218acbd31300a62ff67a074141358ac"
+    }
+  ],
+  "harnessHashes": [
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/capture.mjs",
+      "sha256": "c8529dbc42014366216f5176a1e3be6d0dec4854853bdff187529be87653801c"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/cleanup-test-fixtures.py",
+      "sha256": "fdb8624c9ed423487ec07f2b73fb74d5c3c3f972c8d71a8b1437d15231ebcbf2"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/document.py",
+      "sha256": "8e1eb516b589f74dfa7cfba24457857f1f7a46832ccd2cf54755e96eda6df000"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/evidence.test.mjs",
+      "sha256": "e69975304d8f643e95ecd97a50efb937a75b4ad8772c04b32dfc7c6513eca868"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/execute.py",
+      "sha256": "9bf1739ade53ab154c1b7ad24dacb093ff7cf27f232f0ad821a265ce8cdb1ade"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/fast.config.mjs",
+      "sha256": "1114e9a0d7c448e18059fdbd0fbffa03ca78967e11cdb57d2575c2a48dbb567e"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/index.html",
+      "sha256": "649a1184ce778c445d632f13b577d02a1206c5f6b0b61e5c0ec8958fdfd4096d"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/inventory.py",
+      "sha256": "47488bf05f8b4de6c63bd5ba21be77f3283294ebc1b43ba42222c6ea78d1d0a3"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/log-command.py",
+      "sha256": "6c66f47a5d9049207924c4c87ca6a2c010808e92e48ca63fab3f8c644e828768"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/native-comparisons.py",
+      "sha256": "3a2e3b5787794d51d3ba5ced12f3a4fb4f7f32a7920e20aefab0fdd486ea6922"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/package.py",
+      "sha256": "0e4bf607b0c12bfb8855febaddf126a4a3d3a8f5cf008ea009fd1f0953dbf78d"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/page.html",
+      "sha256": "038d9b6e7ef65690df6fed8884d80060fb3b5ac59f5df6618fef2279659d40b0"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/page.js",
+      "sha256": "f92d6cf69f0ec284a95a3e28ab577664cb4553780e2693afedbffe96815fde76"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/pins.test.mjs",
+      "sha256": "a6a51b471ab4d3207f7442e3d0d8327d6a5b8e5e58a27f1b3198c856b739bef9"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/plan.mjs",
+      "sha256": "d028f3916a612f6a2f428c6fd11d28220af9d92fb4ca70d5a2577887bf81b085"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/plan.test.mjs",
+      "sha256": "0f27d13ffce769dd26bb4e0f320c67cc5180808e9ea3b437f8b4ed1d7e929832"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/prepare.py",
+      "sha256": "f373f245d362ec1a10324556e01cf9c0cb164003017048983d9778460abb913c"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/provenance.test.mjs",
+      "sha256": "87fbb4645890454452a29e372ce465994c100fe29e0eabaa9e1cfb00fa16b96c"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/setup.py",
+      "sha256": "dfeb5ad8580d805f6eefafb5bebd4fc96d2e4067e8c889f227325f38423db328"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/summarize.py",
+      "sha256": "bd6413d0a32747ebafa25b1b477eb0a2e1bbf2b0872f828ed66c0379f5db1b60"
+    },
+    {
+      "path": "research/runs/2026-10-22-sol-safe-final-comparison/verify.py",
+      "sha256": "d8e86cd1d206cda57f317d63f1c1e6e8e4e929c743281bdab41751086c19852a"
+    }
+  ],
+  "reuseMethodChecks": "reuse-verification.json"
+}

@@ -1,0 +1,526 @@
+{
+  "id": "2026-10-22-astra-geometry-safe-final-d0bf6e206c92",
+  "title": "FINAL Safe WebGL geometry \u2014 accepted research artifact",
+  "startedAt": "2026-10-22T14:12:34.521876+00:00",
+  "endedAt": "2026-10-22T14:20:52.060061+00:00",
+  "model": "gpt-6-astra",
+  "provider": "openai-codex",
+  "interface": "Hermes CLI; Docker terminal and native image inspection",
+  "reasoningMode": "not independently recorded",
+  "tools": [
+    "glTF Transform 4.5.1",
+    "meshoptimizer 1.2.0",
+    "gltf-validator 2.0.0-dev.3.10",
+    "Node.js",
+    "Python",
+    "Playwright Chromium headless",
+    "native image inspection"
+  ],
+  "workPackage": "geometry",
+  "inputAssets": [
+    "web-product-estuary"
+  ],
+  "promptPath": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/browser-environment.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate-authoring.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate-geometry-report.pending.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate-validator.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/capture-manifest.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/capture.mjs",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/check-images.py",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/check-scope.py",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/command.py",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/commands.jsonl",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/control-geometry-report.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/control-spec.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/control-validator.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/diagnosis.md",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/environment.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/handoff-input.md",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/image-verification.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/notes.md",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/package-verification.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/package.mjs",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/package.py",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/page.html",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/page.js",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/plan.mjs",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/probe.mjs",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/prompt.md",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/protected-primitives.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/raw/capture-control-1792678490933.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/raw/capture-final-1792678571299.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--carmine--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--carmine--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--estuary--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--estuary--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--carmine--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--carmine--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--estuary--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--estuary--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--carmine--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--carmine--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--estuary--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--estuary--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--carmine--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--carmine--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--estuary--shaded.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--estuary--wireframe.png",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/repeat-authoring.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/repeat.glb",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/scope-verification.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/seam-check-final.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/seam-check-prior.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/seam-check.py",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/session-evidence.sha256",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/setup.py",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/source-pixel-probe.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/transform.mjs",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/verification.json",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/verify.mjs",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/visual-review.md",
+    "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/workspace-before.json"
+  ],
+  "provenance": {
+    "lane": "mixed",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/browser-environment.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate-authoring.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate-geometry-report.pending.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate-validator.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/capture-manifest.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/capture.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/check-images.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/check-scope.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/command.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/commands.jsonl",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/control-geometry-report.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/control-spec.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/control-validator.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/diagnosis.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/environment.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/handoff-input.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/image-verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/notes.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/package-verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/package.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/package.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/page.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/plan.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/probe.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/protected-primitives.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/raw/capture-control-1792678490933.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/raw/capture-final-1792678571299.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--carmine--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--carmine--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--estuary--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--glass-edge--estuary--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--carmine--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--carmine--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--estuary--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/control--wipers--estuary--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--carmine--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--carmine--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--estuary--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--glass-edge--estuary--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--carmine--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--carmine--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--estuary--shaded.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/rendered/final--wipers--estuary--wireframe.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/repeat-authoring.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/repeat.glb",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/scope-verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/seam-check-final.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/seam-check-prior.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/seam-check.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/session-evidence.sha256",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/setup.py",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/source-pixel-probe.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/transform.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/verification.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/verify.mjs",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/visual-review.md",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/workspace-before.json",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary"
+        ]
+      }
+    ]
+  },
+  "sessionEvidence": {
+    "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/session.jsonl",
+    "sessionId": "local-d0bf6e206c9298befb665382c599a950d599a720fb7d55c9038e54b7a23938b9"
+  },
+  "elapsedSeconds": 497.538185,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Actual billing amount unavailable; no estimate substituted"
+  },
+  "interventionLevel": 2,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Authentic private attribution, independent static/reproduction and frozen fixed-view research gates pass. FINAL accepted research artifact only; separate application integration acceptance required. Runtime speedup not established; first-correct-frame unavailable. Correction budget exhausted. Private attribution is not fully reproducible from a public checkout. Canonical reports in Sol finalization package; provisional author reports preserved.",
+  "reviewer": "gpt-6.1-sol independent research acceptance; see Sol comparison decision/current gates",
+  "publicSummary": "Authentic private attribution, independent static/reproduction and frozen fixed-view research gates pass. FINAL accepted research artifact only; separate application integration acceptance required. Runtime speedup not established; first-correct-frame unavailable. Correction budget exhausted."
+}

@@ -8,7 +8,7 @@ The current chat ran as `gpt-5.6-sol` through `openai-codex`, not Astra. It esta
 
 - Exact upstream asset: 10,267,996 bytes; SHA-256 `659c592e20aba7afa920db7d14ad767874741384c215ee1df23a5e1c5e1c411c`.
 - Served derivative: 10,190,148 bytes; SHA-256 `67b7986109c72f6fcc61745e4e2eef25833fbf5c43fa6ffc0f0cf4e9d9e91f41`.
-- `gltf-transform inspect` on the served derivative reported glTF 2.0, `KHR_materials_variants`, required KTX2 texture support, 639,585 render vertices per pass, 162,646 upload vertices, 28 materials, 14 textures, and no animations.
+- `gltf-transform inspect` on the served derivative reported glTF 2.0, `KHR_materials_variants`, required KTX2 texture support, 639,585 submitted triangle indices per complete pass, 162,646 distinct POSITION accessor entries, 28 materials, 14 textures, and no animations. The index/accessor values are static file-structure counts, not runtime GPU measurements.
 - The served derivative physically excludes the trademark-bearing `License Plate` and `InteriorSteeringEmblem` nodes and their pruned resources; removal is not deferred to runtime.
 
 ## Blockers and limits

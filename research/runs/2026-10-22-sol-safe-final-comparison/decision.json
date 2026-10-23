@@ -1,0 +1,38 @@
+{
+  "status": "accepted-research-candidate",
+  "promotionApproved": false,
+  "candidatePath": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb",
+  "candidateBytes": 9239404,
+  "candidateSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+  "controlAssetId": "web-product-estuary",
+  "controlBytes": 10191496,
+  "savedPayloadBytes": 952092,
+  "savedPayloadPercent": 9.342024,
+  "acceptanceScope": "Frozen fixed-view Safe WebGL research-candidate visual, semantic, reproducibility, private attribution and delivery-byte gates; not deployment authorization or arbitrary-view/real-device quality certification.",
+  "independentFinalReview": {
+    "passed": true,
+    "blockers": [],
+    "matrixCases": 108,
+    "freshFinalCaptures": 54,
+    "validatedReusedControls": 54,
+    "inventoriedFilesVerified": 207,
+    "pngsDecoded": 127,
+    "orderedBrowserVariantTransitions": 64,
+    "assignmentsPerTransition": 25,
+    "warmedSamples": 120,
+    "protectedFilesUnchanged": 738,
+    "readOnlyPackageTestsPassed": 7
+  },
+  "visualResult": "No blocking fixed-view regression observed in independent review of all nine sheets and native seam/hood pairs. Prior scalloping and rectangular seam patch repaired; declared seam ROIs match control in both finishes.",
+  "firstCorrectFrame": {"status": "unavailable"},
+  "runtimeSpeedup": {"status": "not-established", "reason": "SwiftShader wall-clock samples are scheduling-confounded; concurrent ancillary work and uncontrolled driver/OS caches prevent attribution."},
+  "limitations": [
+    "Fixed cameras and occlusion limit quality conclusions; no arbitrary-view parity claim.",
+    "Dense wireframes and opaque silhouettes do not prove hidden-detail parity.",
+    "Cold compilation means before first model render, not globally cold driver caches.",
+    "Authentic attribution evidence remains private and cannot be fully revalidated from a clean public checkout."
+  ],
+  "correctionBudget": "exhausted",
+  "disposition": "Retain the FINAL artifact as the accepted research result. Preserve rejected candidates and all correction evidence. Keep the original public Estuary control deployed pending a separately authorized integration package.",
+  "authorship": "Sol acceptance decision following independent Sol review; optimization remains evidence-verified Astra-directed work."
+}

@@ -1,0 +1,45 @@
+# Visual QC — UNACCEPTED
+
+Framing/content QC and concerns only; independent review and human acceptance remain required. No final candidate verdict.
+
+## front-three-quarter
+
+Reviewed all 12 panels. Complete vehicle, no clipping or blank panels. Both shaded finishes visibly distinct. No gross silhouette change apparent at sheet scale. Dense whole-car wireframe appears nearly solid; isolated detail rows are more diagnostic.
+
+## side
+
+Reviewed all 12 panels. Entire side profile and wheels visible, no blank panels. Door, glazing, wheel positions broadly align. No gross wheel circularity loss apparent at sheet scale. Exterior wireframe is dense, not sufficient for fine topology acceptance.
+
+## rear-three-quarter
+
+Reviewed all 12 panels. Full rear three-quarter vehicle visible with margin. Rear outline/glazing/lamps broadly align, both finishes lit. Near-solid wireframe limitation repeats.
+
+## wheel-brake
+
+Reviewed all 12 panels. External tire/rim, spokes, perforated brake disc and red caliper visible. Isolated wireframe shows changed triangulation; tire outline remains broadly round. Shaded body surrounding wheel intentionally cropped, wheel itself stays in frame. Parent should inspect native PNGs for small spoke/tire/highlight changes.
+
+## mirror-window
+
+Reviewed all 12 panels. External mirror and adjacent window frame clearly visible though mirror is small relative to glazing. No gross missing mirror or disconnected window edge. Isolated topology is nonblank. Opaque full-scene silhouette does not isolate the mirror and is contextual only.
+
+## wipers
+
+Reviewed all 12 panels. External wiper arms/blades visible against windscreen; isolated wireframe spans both wipers without clipping. Shape broadly aligns. Candidate adjacent hood/top-grill highlight and lower edge look more segmented/uneven than control in this view; unresolved visual concern, inspect native paired images. Full-scene silhouette hides internal wiper forms, not acceptance evidence for them.
+
+## panel-seams
+
+Reviewed all 12 panels. Door boundary, handle region, beltline and lower panel seam visible externally. Broad boundaries align. Small lower-door/highlight differences and changed topology warrant native-resolution review, not declared equivalent. Full-scene silhouette is contextual only.
+
+## interior
+
+Reviewed all 12 panels. Seats, steering/dash region visible through external windshield. Both finishes correctly change interior color. Seat-focused isolated wireframe reveals changed triangulation; peripheral dash geometry crosses crop edges, but primary seats remain visible. Opaque silhouette cannot validate interior; shaded and topology views must carry that review.
+
+## glass-edge
+
+Reviewed all 12 panels. Windscreen lower edge/gasket and adjoining body visible externally with bright reflection, no blank images. Glass wireframe broadly aligns. Candidate hood/top-grill adjacent to lower glass edge shows a more scalloped/jagged highlight boundary than control; unresolved concern for independent review at native scale. Geometry reduction is not a visual-parity finding.
+
+## Next review
+
+- Independently inspect native 600x400 shaded wipers and glass-edge pairs, especially hood/top-grill highlight continuity in both finishes.
+- Decide whether visible differences meet frozen Safe WebGL gates; no verdict authored here.
+- Review browser metric semantics and failed-attempt history. Real-device production GPU measurements remain absent.

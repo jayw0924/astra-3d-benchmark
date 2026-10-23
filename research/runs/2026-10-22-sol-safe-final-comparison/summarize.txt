@@ -1,0 +1,80 @@
+{
+  "order": [
+    "control",
+    "safe",
+    "safe",
+    "control"
+  ],
+  "warmSamples": 120,
+  "transitions": 64,
+  "rows": [
+    {
+      "model": "control",
+      "order": 0,
+      "compileMs": 63.799999713897705,
+      "warmRenderFinishRaf": {
+        "samples": 30,
+        "p50": 9499,
+        "p95": 19096.299999713898,
+        "min": 3.4000000953674316,
+        "max": 19298.900000095367
+      },
+      "warmSubmitFinish": {
+        "samples": 30,
+        "p50": 2.5999999046325684,
+        "p95": 96.09999990463257
+      }
+    },
+    {
+      "model": "safe",
+      "order": 1,
+      "compileMs": 69,
+      "warmRenderFinishRaf": {
+        "samples": 30,
+        "p50": 8494.199999809265,
+        "p95": 9689.900000095367,
+        "min": 5.799999713897705,
+        "max": 17301.5
+      },
+      "warmSubmitFinish": {
+        "samples": 30,
+        "p50": 2.8000001907348633,
+        "p95": 59.80000019073486
+      }
+    },
+    {
+      "model": "safe",
+      "order": 2,
+      "compileMs": 14.900000095367432,
+      "warmRenderFinishRaf": {
+        "samples": 30,
+        "p50": 8498.900000095367,
+        "p95": 17204,
+        "min": 12.400000095367432,
+        "max": 17300.300000190735
+      },
+      "warmSubmitFinish": {
+        "samples": 30,
+        "p50": 2.8999996185302734,
+        "p95": 53.10000038146973
+      }
+    },
+    {
+      "model": "control",
+      "order": 3,
+      "compileMs": 69.19999980926514,
+      "warmRenderFinishRaf": {
+        "samples": 30,
+        "p50": 9105,
+        "p95": 19503.599999904633,
+        "min": 2.4000000953674316,
+        "max": 19700.699999809265
+      },
+      "warmSubmitFinish": {
+        "samples": 30,
+        "p50": 2.700000286102295,
+        "p95": 8
+      }
+    }
+  ]
+}

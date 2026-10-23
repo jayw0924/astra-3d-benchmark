@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "/usr/local/bin/python",
+    "research/runs/2026-10-22-sol-safe-final-comparison/inventory.py"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-22T15:12:51.421444+00:00",
+  "hashingFinishedAt": "2026-10-22T15:12:51.438703+00:00",
+  "elapsedHashingSeconds": 0.017258452251553535,
+  "operation": "Finalize retained-file inventory; no external writes; inventory excludes itself only",
+  "expectedExitCodeOnSuccessfulWrite": 0
+}

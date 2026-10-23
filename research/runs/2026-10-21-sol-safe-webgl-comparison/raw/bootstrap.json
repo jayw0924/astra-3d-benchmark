@@ -1,0 +1,22 @@
+{
+  "errors": [
+    "http://127.0.0.1:40557/node_modules/three/examples/jsm/libs/basis/basis_transcoder.wasm: net::ERR_ABORTED"
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:40557/public/assets/models/product-estuary.glb",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-store",
+        "Content-Length": "10191496",
+        "Keep-Alive": "timeout=5",
+        "Date": "Wed, 21 Oct 2026 19:59:07 GMT",
+        "Content-Type": "model/gltf-binary",
+        "Connection": "keep-alive"
+      },
+      "mimeType": "model/gltf-binary",
+      "fromDiskCache": false,
+      "encodedDataLength": 10191683
+    }
+  ]
+}

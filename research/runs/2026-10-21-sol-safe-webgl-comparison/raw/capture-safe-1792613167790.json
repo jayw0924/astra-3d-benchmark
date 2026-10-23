@@ -1,0 +1,104 @@
+{
+  "model": "safe",
+  "label": "capture-safe-1792613167790",
+  "metrics": {
+    "gpu": {
+      "vendor": "Google Inc. (Google)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "parallelCompile": false
+    },
+    "basisPreloadMs": 9.899999856948853,
+    "load": {
+      "fetchArrayBufferMs": 201.70000004768372,
+      "parseDecodeMs": 15483.799999952316,
+      "fetchParseMs": 15685.5
+    },
+    "coldCompileMs": 14.199999809265137,
+    "firstRender": {
+      "cpuSubmitAndFinishMs": 1670.6000001430511,
+      "loadToFirstRenderedFrameMs": 17373.700000047684,
+      "correctness": "not checked at first-frame timestamp; later visual QC is separate"
+    },
+    "resourceTiming": {
+      "name": "http://127.0.0.1:41321/research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb",
+      "entryType": "resource",
+      "startTime": 314.10000014305115,
+      "duration": 86,
+      "navigationId": 8068,
+      "initiatorType": "fetch",
+      "deliveryType": "",
+      "nextHopProtocol": "http/1.1",
+      "renderBlockingStatus": "non-blocking",
+      "contentType": "",
+      "contentEncoding": "",
+      "workerStart": 0,
+      "workerRouterEvaluationStart": 0,
+      "workerCacheLookupStart": 0,
+      "workerMatchedSourceType": "",
+      "workerFinalSourceType": "",
+      "redirectStart": 0,
+      "redirectEnd": 0,
+      "fetchStart": 314.10000014305115,
+      "domainLookupStart": 314.10000014305115,
+      "domainLookupEnd": 314.10000014305115,
+      "connectStart": 314.10000014305115,
+      "secureConnectionStart": 0,
+      "connectEnd": 314.10000014305115,
+      "requestStart": 314.40000009536743,
+      "responseStart": 318.90000009536743,
+      "firstInterimResponseStart": 0,
+      "finalResponseHeadersStart": 318.90000009536743,
+      "responseEnd": 400.10000014305115,
+      "transferSize": 9051944,
+      "encodedBodySize": 9051644,
+      "decodedBodySize": 9051644,
+      "responseStatus": 200,
+      "serverTiming": []
+    },
+    "firstInfo": {
+      "calls": 214,
+      "triangles": 354830,
+      "lines": 0,
+      "geometries": 108,
+      "textures": 15,
+      "programs": 23
+    },
+    "warmSamples": [],
+    "transitions": []
+  },
+  "network": [
+    {
+      "url": "http://127.0.0.1:41321/research/runs/2026-10-21-sol-safe-webgl-comparison/page.html?model=%2Fresearch%2Fruns%2F2026-10-21-astra-geometry-safe-d8fc14b866ab%2Fcandidate.glb",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-store",
+        "Connection": "keep-alive",
+        "Content-Length": "415",
+        "Content-Type": "text/html",
+        "Date": "Wed, 21 Oct 2026 20:06:07 GMT",
+        "Keep-Alive": "timeout=5"
+      },
+      "mimeType": "text/html",
+      "fromDiskCache": false,
+      "encodedDataLength": 589
+    },
+    {
+      "url": "http://127.0.0.1:41321/research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/candidate.glb",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-store",
+        "Content-Length": "9051644",
+        "Keep-Alive": "timeout=5",
+        "Date": "Wed, 21 Oct 2026 20:06:08 GMT",
+        "Content-Type": "model/gltf-binary",
+        "Connection": "keep-alive"
+      },
+      "mimeType": "model/gltf-binary",
+      "fromDiskCache": false,
+      "encodedDataLength": 9051830
+    }
+  ],
+  "errors": []
+}

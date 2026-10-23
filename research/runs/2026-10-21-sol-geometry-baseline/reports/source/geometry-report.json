@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "primary-product-baseline-geometry",
+  "assetId": "primary-product",
+  "role": "baseline",
+  "sourcePath": "research/assets/upstream/CarConcept.glb",
+  "bytes": 10267996,
+  "sha256": "659c592e20aba7afa920db7d14ad767874741384c215ee1df23a5e1c5e1c411c",
+  "counts": {
+    "scenes": 1,
+    "nodes": 101,
+    "reachableNodes": 101,
+    "meshes": 97,
+    "primitives": 109,
+    "materials": 29,
+    "textures": 15,
+    "images": 14,
+    "cameras": 0,
+    "animations": 0,
+    "skins": 0,
+    "triangles": 213347,
+    "submittedTriangleIndices": 640041,
+    "positionAccessorEntries": 162766
+  },
+  "bounds": {
+    "method": "Decoded every POSITION accessor and applied full default-scene world transforms; axis-aligned bounds",
+    "min": [
+      -1.2714082962213737,
+      -0.0002410734226865885,
+      -1.940231204032898
+    ],
+    "max": [
+      1.2709126943464768,
+      1.1486550569534302,
+      2.4171547889709473
+    ],
+    "dimensions": [
+      2.5423209905678505,
+      1.1488961303761167,
+      4.357385993003845
+    ],
+    "units": "metres"
+  },
+  "variants": [
+    {
+      "name": "Carmine Candy",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Pearly Swirly",
+      "mappedPrimitives": 25
+    },
+    {
+      "name": "Torched Graphite",
+      "mappedPrimitives": 25
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_emissive_strength",
+    "KHR_materials_iridescence",
+    "KHR_materials_transmission",
+    "KHR_materials_variants",
+    "KHR_texture_transform",
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ],
+  "checks": {
+    "forbiddenNodesPresent": [
+      "License Plate",
+      "InteriorSteeringEmblem"
+    ],
+    "parserValidation": "passed with @gltf-transform/core NodeIO (not Khronos Validator certification)"
+  },
+  "measurement": {
+    "method": "Raw GLB JSON/accessor inspection plus independent NodeIO parse",
+    "generatedBy": "scripts/report-geometry.mjs"
+  }
+}

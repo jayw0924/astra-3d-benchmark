@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-21-sol-safe-registration",
+  "title": "Research-only Safe WebGL candidate registration",
+  "startedAt": "2026-10-21T19:56:58Z",
+  "endedAt": "2026-10-21T19:57:58Z",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Desktop",
+  "reasoningMode": "provider default (not exposed)",
+  "tools": ["read_file", "write_file", "patch", "terminal"],
+  "workPackage": "integrate",
+  "inputAssets": ["web-product-estuary", "safe-webgl-d8fc14b866ab"],
+  "promptPath": "research/runs/2026-10-21-sol-safe-registration/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-21-sol-safe-registration/notes.md",
+    "research/runs/2026-10-21-sol-safe-registration/verification.json",
+    "research/runs/2026-10-21-sol-safe-registration/geometry-report.json",
+    "research/asset-manifest.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {"path": "research/runs/2026-10-21-sol-safe-registration/notes.md", "lane": "non_astra_authored_baseline", "sourceAssets": ["safe-webgl-d8fc14b866ab"]},
+      {"path": "research/runs/2026-10-21-sol-safe-registration/verification.json", "lane": "non_astra_authored_baseline", "sourceAssets": ["safe-webgl-d8fc14b866ab"]},
+      {"path": "research/runs/2026-10-21-sol-safe-registration/geometry-report.json", "lane": "non_astra_authored_baseline", "sourceAssets": ["safe-webgl-d8fc14b866ab"]},
+      {"path": "research/asset-manifest.json", "lane": "non_astra_authored_baseline", "sourceAssets": ["safe-webgl-d8fc14b866ab", "web-product-estuary"]}
+    ]
+  },
+  "elapsedSeconds": 60,
+  "cost": {"amount": null, "currency": "USD", "basis": "not exposed"},
+  "interventionLevel": 0,
+  "outcome": "pass",
+  "failureNotes": "Registration only; fixed-view visual/browser acceptance and promotion are separate pending gates. Original Astra historical package remains unchanged.",
+  "reviewer": "Sol registration following independent static technical review",
+  "publicSummary": "Registered the evidence-verified Safe WebGL candidate for research comparison only; public Estuary control unchanged."
+}
