@@ -2,6 +2,22 @@
   "$schema": "./schemas/asset-manifest.schema.json",
   "assets": [
     {
+      "id": "refined-viewer-preview",
+      "title": "Current refined viewer — native Estuary preview, not controlled before/after",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-26-sol-lighting-integration",
+      "immutableUrl": "urn:sha256:81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
+      "author": "Capture and refined lighting by Sol (gpt-6.1-sol); sourced CarConcept contributors Unity Fan, DGG and Eric Chadwick retained; Astra-authored Estuary material and Astra-directed Safe geometry retained",
+      "license": "CC-BY-4.0 inherited from CarConcept; source and derivative credits retained",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "retrievedAt": "2026-10-26T18:09:34.739372Z",
+      "bytes": 244385,
+      "sha256": "81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
+      "localPath": "public/assets/viewer/refined-estuary-native.png",
+      "status": "available",
+      "notes": "Exact unretouched 850x778 copy of research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png. Existing Sol Chromium viewer capture, not a new render or a controlled before/after comparison. Release closeout timestamp denotes local source verification, not original capture time."
+    },
+    {
       "id": "primary-product",
       "title": "CarConcept optimized GLB",
       "kind": "model",
@@ -67,7 +83,7 @@
     },
     {
       "id": "web-product-estuary",
-      "title": "Public CarConcept derivative with selected Estuary Enamel variant",
+      "title": "Historical public Estuary control — not the current loader target",
       "kind": "model",
       "sourceUrl": "urn:run:2026-10-20-astra-material-estuary-49b949",
       "immutableUrl": "urn:sha256:bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f",
@@ -79,7 +95,7 @@
       "sha256": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f",
       "localPath": "public/assets/models/product-estuary.glb",
       "status": "available",
-      "notes": "Exact byte copy of the evidence-verified Estuary candidate, selected by blind human review and served separately from the preserved sanitized three-variant baseline."
+      "notes": "Exact byte copy of the evidence-verified Estuary candidate, selected by blind human review. Preserved public-addressable historical control, not the current loader target; current runtime uses web-product-estuary-safe. Binary/hash unchanged."
     },
     {
       "id": "safe-webgl-d8fc14b866ab",
@@ -243,7 +259,7 @@
     },
     {
       "id": "web-product-estuary-safe",
-      "title": "Public exact FINAL Safe WebGL copy \u2014 integration acceptance separate",
+      "title": "Current runtime exact FINAL Safe WebGL copy — subsequent integration accepted",
       "kind": "model",
       "sourceUrl": "urn:run:2026-10-22-astra-geometry-safe-final-d0bf6e206c92",
       "immutableUrl": "urn:sha256:01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
@@ -255,7 +271,7 @@
       "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
       "localPath": "public/assets/models/product-estuary-safe.glb",
       "status": "available",
-      "notes": "Exact byte copy of safe-webgl-final-d0bf6e206c92; mixed source/Astra geometry authorship, non-Astra public copying. Registration proves byte identity only, not completed app tests or deployment. Original public Estuary control is preserved."
+      "notes": "Exact byte copy of safe-webgl-final-d0bf6e206c92; mixed source/Astra geometry authorship, non-Astra public copying. Original registration proved identity only; subsequent local app acceptance is in research/SAFE_WEBGL_INTEGRATION.md and current refined lighting in 2026-10-26-sol-lighting-integration. This does not rewrite the historical research acceptance boundary or prove deployment. Original public Estuary control and frozen Safe comparison PNGs are preserved unchanged."
     },
     {
       "id": "safe-final-image-before",

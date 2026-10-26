@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-26T18:18:18.925215+00:00",
+  "preexistingFileCount": 1594,
+  "changed": [
+    "research/protocol.md",
+    "research/asset-manifest.json",
+    "research/ASTRA_HANDOFF.md",
+    "research/SAFE_WEBGL_INTEGRATION.md",
+    "research/ASTRA_MOBILE_LOD_HANDOFF.md",
+    "licenses/THIRD_PARTY_ASSETS.md"
+  ],
+  "unexpectedChanges": [],
+  "allHistoricalRunFilesUnchanged": true
+}

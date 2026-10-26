@@ -2,7 +2,7 @@
   "id": "2026-10-23-sol-viewer-lighting",
   "title": "Sol controlled viewer lighting — preserved 72-case experiment",
   "startedAt": "2026-10-23T19:28:56.156Z",
-  "endedAt": "2026-10-26T17:59:58.876Z",
+  "endedAt": "2026-10-26T18:03:05.625Z",
   "model": "gpt-6.1-sol",
   "provider": "openai-codex",
   "interface": "Hermes Agent with Docker terminal backend; declared runtime attribution, not authenticated session export",
@@ -1511,7 +1511,7 @@
       }
     ]
   },
-  "elapsedSeconds": 253862.72,
+  "elapsedSeconds": 254049.469,
   "cost": {
     "amount": null,
     "currency": "USD",

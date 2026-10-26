@@ -276,6 +276,15 @@ h3 {
   background: #d7d7d4;
 }
 
+.current-viewer-preview .render-card {
+  max-width: 850px;
+}
+
+.current-viewer-preview .render-card > img {
+  aspect-ratio: 850 / 778;
+  object-fit: contain;
+}
+
 .render-card-body {
   display: flex;
   min-height: 170px;

@@ -1,4 +1,6 @@
-# Current Safe WebGL local integration status
+# Historical Safe WebGL local integration checkpoint
+
+This document preserves the geometry integration checkpoint and its then-current counts, not the latest lighting/test/repository state. Current refined lighting and Jay's subjective checkpoint approval: [lighting integration run](runs/2026-10-26-sol-lighting-integration/run.json), [current acceptance](runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/current-acceptance.json). Historical fixed-view Safe PNGs remain unchanged, not current-lighting captures. The existing Mobile low-benefit experiment is stopped; no rerun is authorized.
 
 ## Result
 
@@ -21,4 +23,4 @@ Payload reduction is 952,092 bytes (9.34%). Frozen fixed-view research acceptanc
 
 Earlier research records that reserve application acceptance to the parent describe the historical research boundary. This note records its subsequent local completion without changing those frozen decisions.
 
-No commit, push, remote deployment, or Mobile LOD work was performed. Assets and evidence remain part of the uncommitted working tree and must be included in any later authorized delivery. Public application integration and the documentation here are Sol-authored work, not Astra-authored geometry optimization.
+At this checkpoint no commit, push, remote deployment, or Mobile LOD work was performed. This is not a claim about the current Git state; inspect it before any later authorized delivery. Public application integration and the documentation here are Sol-authored work, not Astra-authored geometry optimization.

@@ -27,6 +27,7 @@ Observe a realistic AI-assisted 3D production workflow while balancing output qu
 ## Phase protocols
 
 - Geometry inspection and optimization: `research/protocols/geometry-optimization-v1.md`
+- Viewer lighting comparison: `research/protocols/viewer-lighting-v1.md` (separate lighting study; frozen geometry rules and historical evidence remain unchanged).
 - A phase protocol is frozen before its first scored model run. Later changes
   require a versioned replacement and do not apply retroactively.
 

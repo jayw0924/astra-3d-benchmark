@@ -62,7 +62,7 @@ they do not certify physical-device image quality. CPU material compilation can
 be slow, so the full interaction test allows ten minutes. Failed high-DPR mobile
 runs and whole-suite resource termination are not evidence of runtime speedup.
 
-## Refined viewer lighting (local, pending final review)
+## Refined viewer lighting (Jay-approved publication checkpoint)
 
 The actual configurator now selects Jay's `grounded-studio-refined` recipe after
 loading, centering and rotating the unchanged Safe GLB and measuring its world
@@ -88,8 +88,11 @@ render callback. CPU-only tests pace animation submissions at one-second interva
 DPR 1; mobile is layout emulation, not physical-device or performance certification.
 Historical `showcase.spec.ts` finish assertions are UI/URL checks, not rendered
 material proof. Broad glass reflections, pale Pearly highlights and residual
-surface artifacts remain for later diagnosis. Final Jay approval of the actual
-integrated result, commit, push and deployment are all still pending.
+surface artifacts remain for later diagnosis. Jay approved the actual integrated
+result as a publication checkpoint; this is subjective presentation approval, not
+certification of geometry/material realism. Finalization records and the generated
+public projection must accompany the release. A Git push does not itself verify
+that the remote deployment succeeded.
 
 ## Commands
 

@@ -1,0 +1,396 @@
+{
+  "id": "2026-10-26-sol-release-audit-closeout",
+  "title": "Sol narrow release audit closeout \u2014 public copies and historical labels",
+  "startedAt": "2026-10-26T18:09:34.739372+00:00",
+  "endedAt": "2026-10-26T18:18:18.927300+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes subagent Docker terminal; declared runtime attribution, no authenticated session export",
+  "reasoningMode": "not exposed by interface",
+  "tools": [
+    "terminal",
+    "file"
+  ],
+  "workPackage": "integrate",
+  "inputAssets": [
+    "primary-product",
+    "web-product-estuary-safe",
+    "refined-viewer-preview"
+  ],
+  "promptPath": "research/runs/2026-10-26-sol-release-audit-closeout/prompt.md",
+  "outputPaths": [
+    "research/asset-manifest.json",
+    "research/protocol.md",
+    "research/ASTRA_HANDOFF.md",
+    "research/ASTRA_MOBILE_LOD_HANDOFF.md",
+    "research/SAFE_WEBGL_INTEGRATION.md",
+    "licenses/THIRD_PARTY_ASSETS.md",
+    "package.json",
+    "src/App.tsx",
+    "src/App.test.tsx",
+    "src/styles.css",
+    "tests/e2e/showcase.spec.ts",
+    "tests/e2e/release-assets.spec.ts",
+    "scripts/release-audit.test.mjs",
+    "scripts/release-status.test.mjs",
+    "public/assets/viewer/refined-estuary-native.png",
+    "public/licenses/Basis-Universal-APACHE-2.0.txt",
+    "public/licenses/Basis-Universal-NOTICE.md",
+    "src/generated/study-data.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/before.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/command.py",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-joined-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-joined.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-lint-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-lint.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-scripts-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-scripts.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-unit-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/final-unit.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/finalize.py",
+    "research/runs/2026-10-26-sol-release-audit-closeout/focused-e2e-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/focused-e2e.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/http-verification.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/integrity.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/lint-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/lint.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/notes.md",
+    "research/runs/2026-10-26-sol-release-audit-closeout/output-inventory.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/privacy-check.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/production-http-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/production-http.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/prompt.md",
+    "research/runs/2026-10-26-sol-release-audit-closeout/public-build-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/public-build.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/red-image-ratio.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/red-page.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/red-status.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/render-plan-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/render-plan.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/research-build-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/research-build.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/research-validate-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/research-validate.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/scripts-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/scripts.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/strict-build-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/strict-build.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/unit-execution.json",
+    "research/runs/2026-10-26-sol-release-audit-closeout/unit.log",
+    "research/runs/2026-10-26-sol-release-audit-closeout/verify-http.py"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/asset-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/protocol.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/ASTRA_HANDOFF.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/ASTRA_MOBILE_LOD_HANDOFF.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/SAFE_WEBGL_INTEGRATION.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "licenses/THIRD_PARTY_ASSETS.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "package.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/App.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/App.test.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/styles.css",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "tests/e2e/showcase.spec.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "tests/e2e/release-assets.spec.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "scripts/release-audit.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "scripts/release-status.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "public/assets/viewer/refined-estuary-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "public/licenses/Basis-Universal-APACHE-2.0.txt",
+        "lane": "sourced_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "public/licenses/Basis-Universal-NOTICE.md",
+        "lane": "sourced_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/generated/study-data.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/command.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-joined-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-joined.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-lint-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-scripts-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-scripts.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-unit-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/final-unit.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/finalize.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/focused-e2e-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/focused-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/http-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/integrity.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/lint-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/privacy-check.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/production-http-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/production-http.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/public-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/public-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/red-image-ratio.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/red-page.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/red-status.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/render-plan-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/render-plan.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/research-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/research-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/research-validate-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/research-validate.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/scripts-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/scripts.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/strict-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/strict-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/unit-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/unit.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-release-audit-closeout/verify-http.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 524.187928,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Unavailable; not reconstructed. elapsedSeconds is actual baseline-to-closeout wall interval, not active model or billed time."
+  },
+  "interventionLevel": 2,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "TDD failures retained; existing standalone E2E TypeScript file-tool diagnostics reflect default compiler/dependency context, not repository build failure. Heavy full control matrix not rerun for documentation/copy-only edits. No new captures, legal certification, performance or physical-device claim.",
+  "reviewer": "Sol release implementation and automated checks; not new independent human certification",
+  "publicSummary": "Public license copies and exact native refined-viewer preview added separately from historical evidence. Lighting authorship, missing timing/cost, subjective approval and stopped Mobile boundary clarified; Safe GLB/materials unchanged. No deployment."
+}

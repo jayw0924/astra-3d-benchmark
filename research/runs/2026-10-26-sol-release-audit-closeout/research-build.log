@@ -1,0 +1,5 @@
+
+> astra-3d-benchmark@0.1.0 research:build
+> node scripts/build-study-data.mjs
+
+Generated src/generated/study-data.json from 27 runs

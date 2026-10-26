@@ -2,7 +2,7 @@
   "id": "2026-10-26-sol-lighting-integration",
   "title": "Sol refined lighting integration — Jay-approved publication checkpoint",
   "startedAt": "2026-10-26T15:50:57.837128Z",
-  "endedAt": "2026-10-26T17:59:58.876Z",
+  "endedAt": "2026-10-26T18:03:05.625Z",
   "model": "gpt-6.1-sol",
   "provider": "openai-codex",
   "interface": "Hermes Agent with Docker terminal backend; declared runtime attribution, not authenticated session export",
@@ -83,20 +83,31 @@
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/notes.md",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused-execution.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/output-inventory.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix-execution.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/prompt.md",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused-execution.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused.log",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan-execution.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-repeat-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-repeat.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-validate-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-validate.log",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-execution.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry-execution.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry.log",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence.log",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests-execution.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/technical-verification.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/timing-boundaries.json",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-projection-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-projection.log",
     "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit.log",
     "research/runs/2026-10-26-sol-lighting-integration/gallery-check.json",
     "research/runs/2026-10-26-sol-lighting-integration/gallery-check.log",
@@ -500,6 +511,11 @@
         "sourceAssets": []
       },
       {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
         "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix-execution.json",
         "lane": "non_astra_authored_baseline",
         "sourceAssets": []
@@ -507,6 +523,11 @@
       {
         "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix.log",
         "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/prompt.md",
+        "lane": "mixed",
         "sourceAssets": []
       },
       {
@@ -526,6 +547,36 @@
       },
       {
         "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-repeat-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-repeat.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-validate-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-validate.log",
         "lane": "non_astra_authored_baseline",
         "sourceAssets": []
       },
@@ -560,12 +611,27 @@
         "sourceAssets": []
       },
       {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/technical-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
         "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/timing-boundaries.json",
         "lane": "non_astra_authored_baseline",
         "sourceAssets": []
       },
       {
         "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-projection-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-projection.log",
         "lane": "non_astra_authored_baseline",
         "sourceAssets": []
       },
@@ -801,7 +867,7 @@
       }
     ]
   },
-  "elapsedSeconds": 7741.038872,
+  "elapsedSeconds": 7927.787872,
   "cost": {
     "amount": null,
     "currency": "USD",

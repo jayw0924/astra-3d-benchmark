@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python",
+    "research/runs/2026-10-26-sol-release-audit-closeout/verify-http.py"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T18:16:24.964749+00:00",
+  "endedAt": "2026-10-26T18:16:51.083912+00:00",
+  "exitCode": 0
+}

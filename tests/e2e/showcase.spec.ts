@@ -27,7 +27,7 @@ test('loads the real configurator and changes product options', async ({ page })
   ).toBeVisible();
   await expect(page.getByRole('status')).toHaveText('3D model ready');
 
-  const renderImages = page.locator('.output-overview .render-card img');
+  const renderImages = page.locator('.historical-material-evidence img');
   await expect(renderImages).toHaveCount(3);
   await expect.poll(() => renderImages.evaluateAll((images) =>
     images.every((image) => {

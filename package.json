@@ -22,7 +22,8 @@
     "asset:fetch": "node scripts/fetch-asset.mjs primary-product",
     "asset:sanitize": "node scripts/sanitize-model.mjs research/assets/upstream/CarConcept.glb public/assets/models/product.glb 'License Plate' 'InteriorSteeringEmblem'",
     "asset:inspect": "gltf-transform inspect public/assets/models/product.glb",
-    "asset:inspect-integrated": "gltf-transform inspect public/assets/models/product-estuary.glb"
+    "asset:inspect-integrated": "gltf-transform inspect public/assets/models/product-estuary-safe.glb",
+    "asset:inspect-control": "gltf-transform inspect public/assets/models/product-estuary.glb"
   },
   "keywords": [
     "astra",

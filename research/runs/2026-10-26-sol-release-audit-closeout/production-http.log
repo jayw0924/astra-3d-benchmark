@@ -1,0 +1,96 @@
+127.0.0.1 - - [26/Oct/2026 18:16:25] "GET /licenses/Basis-Universal-APACHE-2.0.txt HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:25] "GET /licenses/Basis-Universal-NOTICE.md HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:25] "GET /assets/viewer/refined-estuary-native.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:25] "GET /assets/models/product-estuary-safe.glb HTTP/1.1" 200 -
+[{"url": "/licenses/Basis-Universal-APACHE-2.0.txt", "status": 200, "bytes": 11357, "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4", "exactSource": "licenses/upstream/Basis-Universal-APACHE-2.0.txt"}, {"url": "/licenses/Basis-Universal-NOTICE.md", "status": 200, "bytes": 991, "sha256": "149c6874933d80d81e2c0744deb9f5a6ec6321a8593b8cd909827dd49cb0c59b", "exactSource": "licenses/upstream/Basis-Universal-NOTICE.md"}, {"url": "/assets/viewer/refined-estuary-native.png", "status": 200, "bytes": 244385, "sha256": "81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6", "exactSource": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png"}, {"url": "/assets/models/product-estuary-safe.glb", "status": 200, "bytes": 9239404, "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4", "exactSource": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb"}]
+
+Running 4 tests using 1 worker
+
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET /assets/index-B56vJUZC.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET /assets/index-8rHLGitt.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET /assets/Configurator-C_fe2BS7.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET /assets/renders/estuary-viewer-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET /assets/renders/estuary-neutral-closeup.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET /assets/renders/estuary-neutral-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:26] "GET /assets/viewer/refined-estuary-native.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:27] "GET /assets/study/safe-final/before.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:27] "GET /assets/study/safe-final/first-attempt.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:27] "GET /assets/study/safe-final/final.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:28] "GET /assets/study/geometry/source-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:28] "GET /assets/study/geometry/sanitized-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:28] "GET /assets/study/geometry/wireframe-wheel-detail.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:28] "GET /assets/study/geometry/estuary-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:28] "GET /assets/viewer/refined-estuary-native.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:28] "GET /licenses/Basis-Universal-APACHE-2.0.txt HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:28] "GET /licenses/Basis-Universal-NOTICE.md HTTP/1.1" 200 -
+  ✓  1 [chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions (2.8s)
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET /assets/index-B56vJUZC.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET /assets/index-8rHLGitt.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET /assets/Configurator-C_fe2BS7.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET /assets/renders/estuary-viewer-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET /assets/renders/estuary-neutral-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET /assets/viewer/refined-estuary-native.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:30] "GET /assets/renders/estuary-neutral-closeup.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:32] "GET /assets/study/safe-final/before.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:32] "GET /assets/study/geometry/sanitized-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:32] "GET /assets/study/safe-final/first-attempt.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:32] "GET /assets/study/geometry/source-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:32] "GET /assets/study/safe-final/final.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:32] "GET /assets/study/geometry/estuary-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:32] "GET /assets/study/geometry/wireframe-wheel-detail.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:36] "GET /assets/study/safe-final/before.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:36] "GET /assets/study/safe-final/first-attempt.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:36] "GET /assets/study/safe-final/final.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:36] "GET /assets/study/geometry/source-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:36] "GET /assets/study/geometry/sanitized-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:36] "GET /assets/study/geometry/estuary-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:37] "GET /assets/study/geometry/wireframe-wheel-detail.png HTTP/1.1" 200 -
+  ✓  2 [chromium] › tests/e2e/showcase.spec.ts:79:1 › publishes decoded and hash-pinned geometry baseline images (9.6s)
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET /assets/index-B56vJUZC.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET /assets/index-8rHLGitt.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET /assets/Configurator-C_fe2BS7.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET /assets/renders/estuary-viewer-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET /assets/renders/estuary-neutral-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET /assets/renders/estuary-neutral-closeup.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:40] "GET /assets/viewer/refined-estuary-native.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:41] "GET /assets/study/safe-final/before.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:42] "GET /assets/study/safe-final/first-attempt.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:42] "GET /assets/study/safe-final/final.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:42] "GET /assets/study/geometry/source-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:42] "GET /assets/viewer/refined-estuary-native.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:42] "GET /licenses/Basis-Universal-APACHE-2.0.txt HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:43] "GET /licenses/Basis-Universal-NOTICE.md HTTP/1.1" 200 -
+  ✓  3 [mobile-chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions (3.4s)
+127.0.0.1 - - [26/Oct/2026 18:16:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:44] "GET /assets/index-B56vJUZC.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:44] "GET /assets/index-8rHLGitt.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:45] "GET /assets/Configurator-C_fe2BS7.js HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:45] "GET /assets/renders/estuary-viewer-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:45] "GET /assets/renders/estuary-neutral-front-three-quarter.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:45] "GET /assets/renders/estuary-neutral-closeup.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:45] "GET /assets/viewer/refined-estuary-native.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:46] "GET /assets/study/safe-final/before.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:46] "GET /assets/study/safe-final/first-attempt.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:46] "GET /assets/study/safe-final/final.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:46] "GET /assets/study/geometry/source-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:46] "GET /assets/study/geometry/sanitized-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:46] "GET /assets/study/geometry/estuary-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:46] "GET /assets/study/geometry/wireframe-wheel-detail.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:50] "GET /assets/study/safe-final/before.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:50] "GET /assets/study/safe-final/first-attempt.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:50] "GET /assets/study/safe-final/final.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:50] "GET /assets/study/geometry/source-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:50] "GET /assets/study/geometry/sanitized-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:50] "GET /assets/study/geometry/estuary-overview.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 18:16:50] "GET /assets/study/geometry/wireframe-wheel-detail.png HTTP/1.1" 200 -
+  ✓  4 [mobile-chromium] › tests/e2e/showcase.spec.ts:79:1 › publishes decoded and hash-pinned geometry baseline images (6.1s)
+
+  4 passed (25.0s)
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

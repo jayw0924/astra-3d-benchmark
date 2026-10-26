@@ -1,0 +1,2340 @@
+{
+  "scope": "Current package regular files; excludes three run descriptors and this inventory self-hash. Historical capture inventories preserved unchanged. Hashes finalized after final research checks.",
+  "files": [
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/SHA256SUMS",
+      "bytes": 21174,
+      "sha256": "8cc6b633ce22bbfed4a89586a1800b6b8a68762dcb2f0548f29b1019bab45404"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/artifact-inventory.json",
+      "bytes": 41968,
+      "sha256": "2226da23f941aac4441e1bff3c765431ccd0d45156d98399f3a65ce31a8a4395"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture-manifest-last.json",
+      "bytes": 329736,
+      "sha256": "c298736f0d4b2c577f26555672454e84faa22755efbb11b082e3dd5bebb81897"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture-manifest.json",
+      "bytes": 308354,
+      "sha256": "567c02e56da3b4fa863b2dbe8277e87f7c111ef8b6336fa08de3838216564152"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture.mjs",
+      "bytes": 5389,
+      "sha256": "4bb558bf990b333565379ee8b093df2eedeb7fafe72d59f0a028795dd4ed7180"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-front-three-quarter.png",
+      "bytes": 85804,
+      "sha256": "d126618bc54eeff7babdeb581033f21926129e55e236951b8f782a30f56f5420"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-glass.png",
+      "bytes": 355398,
+      "sha256": "3b9a08f9506b2b644a959108ff2a607595b73815433f1ede67b6f55e55b08f35"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-paint.png",
+      "bytes": 289950,
+      "sha256": "8fe1a5b63f47cb610ea59c07dd2338c41029138f3af1fae5c7d7de4e65398ea9"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-rear-three-quarter.png",
+      "bytes": 81713,
+      "sha256": "21772e221ad0cfa5e33aa6e185116d9780c67aa73fc41dd60c7ac674083adb43"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-side.png",
+      "bytes": 97241,
+      "sha256": "dcd72e2c0b3e2660c2a2c6b41812753a9a4cb6203df5168b344a708118f60082"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-wheel.png",
+      "bytes": 332424,
+      "sha256": "aa141a91f124b5026eb98af74b7e6488d754f7a35b53a1d634b1c6f2d8385d70"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-front-three-quarter.png",
+      "bytes": 84351,
+      "sha256": "b687499c481b65ceea9281686abeb199171660ea1f2035ad9029dabdd89ade1c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-glass.png",
+      "bytes": 299015,
+      "sha256": "37d5886ed7fdc91a4adb35b6ebff2ce8d49ef1c02206a343d7570d03537b289d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-paint.png",
+      "bytes": 250196,
+      "sha256": "5dfad256a4b982325cdfa032c0b88f56174d39fbe6f8a941203156c0c5e8fc5b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-rear-three-quarter.png",
+      "bytes": 82246,
+      "sha256": "9bc481deb968f4a59974aa31cadd09c0de5d42a5bf2d88918f55aa6928462d8a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-side.png",
+      "bytes": 95076,
+      "sha256": "cf6c3c6ba97750f40b042a15a9fba88ca999514db2c8c280429aeb49c884b7b6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/page.js",
+      "bytes": 8078,
+      "sha256": "95c8b09bcd237b6238c46991be53007f0ff54fd29d11f2c4d5197bece3d8f411"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/plan-frozen.json",
+      "bytes": 11896,
+      "sha256": "c14d8560a1b2457740bb03c2b05462bd0201dbf370aff393f4a27206d40526e5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/viewerLighting.ts",
+      "bytes": 5225,
+      "sha256": "752b06a92b216e11d782a7d7fab29f5703e6160d231e9ac7560ac6998bad2788"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/capture-manifest.json",
+      "bytes": 400878,
+      "sha256": "ce54b63e9f1d956adb4881180655ac5cd441450cb3675d6fd8ef831b5572bc4a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/capture.mjs",
+      "bytes": 6111,
+      "sha256": "f5cc955d1ebfba6833980c060ddfdc091e03b7cf3e03b280b5ec02a37948715c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/control-spec.json",
+      "bytes": 2884,
+      "sha256": "383b69be64df293471287f4e7522a25d01467162086877ad41a2464c9584f99b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/diagnostics-summary.json",
+      "bytes": 10262,
+      "sha256": "9cc6d8d02e9daf73c98ce800ca581d7d51e2379e51f8121eaeade6d1f49c839f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-1280.png",
+      "bytes": 251028,
+      "sha256": "2f40f84805b3e1a98a4f11806adc22f575866f9ea49a671f6ae91bc40d28f21e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-390.png",
+      "bytes": 98045,
+      "sha256": "90de19c6077300c20c01edfdb4f20bda96ad161f74a7416551cb7d8e376a1356"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-check.json",
+      "bytes": 610,
+      "sha256": "d2c94db3de80205fbb8cfb8a5582619d552ffc10ccb2f4a8c7a5e453186f5137"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-check.mjs",
+      "bytes": 1492,
+      "sha256": "2822165fccb0c434c1604d82fc042d7ef276107bd02b5808a16cadf3e1940410"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/index.html",
+      "bytes": 21930,
+      "sha256": "baef2423335ca6577a0132dd1062a5b1a604704af0abf62fbdab166167694102"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/notes.md",
+      "bytes": 10093,
+      "sha256": "82f1d157184ae03e6bffcc33ac5c5aba0c2164741826001c5c00c8089913a1c7"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/package.py",
+      "bytes": 5154,
+      "sha256": "b6d2096cec90b4725b93ffde894f34947724ebc7ec6d1abf3838549ef58512eb"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/page.html",
+      "bytes": 252,
+      "sha256": "2642af94265ce437a9b45f086957e97c2bd8a87b2628d691df0b8cfad592846a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/page.js",
+      "bytes": 8078,
+      "sha256": "95c8b09bcd237b6238c46991be53007f0ff54fd29d11f2c4d5197bece3d8f411"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/plan-frozen.json",
+      "bytes": 11896,
+      "sha256": "297ea454cc305e25a982f32af9876022359bddcb37cd076d6caf4097b74402fc"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/plan.mjs",
+      "bytes": 744,
+      "sha256": "5f681e7632b14433cce579a9e284f2a41569d019ef825f21ddd7838c4edca39b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/plan.test.mjs",
+      "bytes": 580,
+      "sha256": "b5e3127647de6ac631104ad0c51009088bc99def5b406444850c1002bf3d651c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/prepare-shadow-repair.mjs",
+      "bytes": 1742,
+      "sha256": "023831e214a02f6cd7e15339a9a803ca79eccc326fbed429ce59af6e9a247a30"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/prompt.md",
+      "bytes": 2372,
+      "sha256": "07764efc72c2a08ed69f7d1157bff6bed3f4af9877138ddcb1e76be5f559da46"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-1.log",
+      "bytes": 1055,
+      "sha256": "69b15c672137d62259f3e49acfc2930e87b39d4a04b24296a2b7c39128723e79"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-2.log",
+      "bytes": 332,
+      "sha256": "fdbb98f4d7f2280c3555bb21870ee468246270f51a77e91b26df4fc0f3332a0d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-3.log",
+      "bytes": 332,
+      "sha256": "025c0b2cacae17b01e515a177b40cd5d8e0b6c6ceef5c87a4655439d4572d2f2"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-4.log",
+      "bytes": 332,
+      "sha256": "18c174a14182852600a1ef2fdf0d8f27b5e725e6f63de45b00a13fc4f9d8b670"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-5.log",
+      "bytes": 232,
+      "sha256": "f9622ae6646dc336c5cd3c0880ae36e44b6506d092abd22c8a5519dfd0ddf42d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-6.log",
+      "bytes": 324,
+      "sha256": "7af50e6ef523cce22e0a6441498a991a5e56bd19df7d47958d1e91647614bc2e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-7.log",
+      "bytes": 238,
+      "sha256": "b154a7864eced3ebe80ab53cde2e04f9d6ac7ac0150726710999535cd516ffa2"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784219253.json",
+      "bytes": 1588,
+      "sha256": "f88c687b1c18f0c4c8357282267ec4fdae0ac45de06aff34b151a5a79554b822"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784414650.json",
+      "bytes": 1587,
+      "sha256": "59c6550f0ecd5dfc66aed28b7e1ae332105157da2e2c344a6e64f2c1143f5f37"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784626449.json",
+      "bytes": 1589,
+      "sha256": "beb3b5d7fdacd4a1cc93fdce3671eb6df779c2850df0c8240310f7f98621cf11"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784750445.json",
+      "bytes": 1562,
+      "sha256": "e7a74be3a665eef80098607c9ab1d02eeb77ddbcfe359c3d9a388e3aac1c87bd"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784753767.json",
+      "bytes": 696,
+      "sha256": "25e807d88497cbd0b8c6058de55f61dd727501b9a6b603d2c9f4a574d0bae507"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784928480.json",
+      "bytes": 696,
+      "sha256": "009ad46e6915174c4bdf8adf63f74c2a5c8b1922b621ed28aaf90b061a0aa217"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785208154.json",
+      "bytes": 2330,
+      "sha256": "8d6264fa3c52bb59c18c93cd6a2d2ea7bb12c824935d049784adf5c4d76d9954"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785211450.json",
+      "bytes": 696,
+      "sha256": "867ec9e27565bb5203edceee352c1f2b32f2a78c06a6ee90da04069858caa0b7"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785390938.json",
+      "bytes": 696,
+      "sha256": "fc70745f40dd6ef24a3d01472a7c83033f79a8e7c2150afcdf505b8b90cbc3a4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785569652.json",
+      "bytes": 696,
+      "sha256": "da5a1d3ccb074cce9e2267b282217348a6f2ae33ec793788f680a35c824c9efa"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785738179.json",
+      "bytes": 696,
+      "sha256": "c4f42460923a71f97d9accce9accd4cff651a088715ebe7f26e53e1a4a99c006"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784219256.json",
+      "bytes": 1588,
+      "sha256": "f88c687b1c18f0c4c8357282267ec4fdae0ac45de06aff34b151a5a79554b822"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784414653.json",
+      "bytes": 1587,
+      "sha256": "59c6550f0ecd5dfc66aed28b7e1ae332105157da2e2c344a6e64f2c1143f5f37"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784626539.json",
+      "bytes": 1589,
+      "sha256": "beb3b5d7fdacd4a1cc93fdce3671eb6df779c2850df0c8240310f7f98621cf11"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784750450.json",
+      "bytes": 1562,
+      "sha256": "e7a74be3a665eef80098607c9ab1d02eeb77ddbcfe359c3d9a388e3aac1c87bd"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784925036.json",
+      "bytes": 1725,
+      "sha256": "1f52b7208060e1a68bf456af106ec7a3f2573d12af2ff7d08caa169e33eb45e7"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785208157.json",
+      "bytes": 2330,
+      "sha256": "8d6264fa3c52bb59c18c93cd6a2d2ea7bb12c824935d049784adf5c4d76d9954"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785377648.json",
+      "bytes": 1614,
+      "sha256": "0e6a8e67073ec9b68b819819cf0795d47d88396ea08a77328df81f0a03acf113"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785566053.json",
+      "bytes": 1613,
+      "sha256": "4dae4ff8632404ff216df096e0ef469a1c5683b20ecd1c54227b9234a59503c5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785734742.json",
+      "bytes": 1601,
+      "sha256": "55a808ab0b5b8234e94cd3f4bfb05316c1a3d52075cb2308184a1bdafe4bf4e3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785906559.json",
+      "bytes": 1613,
+      "sha256": "637fd2a0807793a1293bf4cf28840c133014634c6d5821518470e478509b7d4d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792783970360.json",
+      "bytes": 1572,
+      "sha256": "e0ae156d7f95125e3aa25159346f3614abec110ccb3cd5ce2820e169d0802eeb"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784063475.json",
+      "bytes": 696,
+      "sha256": "2c8455ec7ae323d10ce6fd62c8990952e60ae4695181d6620cca38cac65ddfac"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784229369.json",
+      "bytes": 696,
+      "sha256": "57c546f486b15a81062e7ba7091f1de7b60c2b3d9bbb290a8da2e43089977943"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784418234.json",
+      "bytes": 696,
+      "sha256": "61e41e844912f9bb89e841b9d64007707aca2718f7f263a8406ea4134d3968ba"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784632269.json",
+      "bytes": 682,
+      "sha256": "9766bfe6756f92f0a47bc223c20299fca5a3468b4ced8e3f5fb38438c7cb3b84"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784753764.json",
+      "bytes": 696,
+      "sha256": "25e807d88497cbd0b8c6058de55f61dd727501b9a6b603d2c9f4a574d0bae507"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784928476.json",
+      "bytes": 696,
+      "sha256": "009ad46e6915174c4bdf8adf63f74c2a5c8b1922b621ed28aaf90b061a0aa217"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785208151.json",
+      "bytes": 2330,
+      "sha256": "8d6264fa3c52bb59c18c93cd6a2d2ea7bb12c824935d049784adf5c4d76d9954"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785211446.json",
+      "bytes": 696,
+      "sha256": "867ec9e27565bb5203edceee352c1f2b32f2a78c06a6ee90da04069858caa0b7"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785390873.json",
+      "bytes": 696,
+      "sha256": "fc70745f40dd6ef24a3d01472a7c83033f79a8e7c2150afcdf505b8b90cbc3a4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785569648.json",
+      "bytes": 696,
+      "sha256": "da5a1d3ccb074cce9e2267b282217348a6f2ae33ec793788f680a35c824c9efa"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785738176.json",
+      "bytes": 696,
+      "sha256": "c4f42460923a71f97d9accce9accd4cff651a088715ebe7f26e53e1a4a99c006"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792783672598.json",
+      "bytes": 91,
+      "sha256": "f1507a8cf0d25d1748ea7280bcad1add9d08103f92aea9493d9c533d54e20311"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784219337.json",
+      "bytes": 261,
+      "sha256": "8abe8b30c77f8d8ee8ce8501da2ae11c92822d0926a647b0e6984fa81dda8a81"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784414744.json",
+      "bytes": 260,
+      "sha256": "826b707d9e891d757408de41db0f82d82f4ad1252a39b08e0a765d11821f7fcd"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784626750.json",
+      "bytes": 261,
+      "sha256": "fac5c81c8877c3e55511a9b26b5bc8ee5003061d969989bad8c689174482cdce"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784750480.json",
+      "bytes": 261,
+      "sha256": "37f09da5379aada08d9dfce358108d141cb57b0984146cf52c62df76016e7493"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784925071.json",
+      "bytes": 400,
+      "sha256": "b65096d57bbf8d9d352f0e5bb55239ff52cdb8373f1e59ec8fdfe4d582e30938"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785208245.json",
+      "bytes": 260,
+      "sha256": "0ed419ec65cd6ef0d06efccc4ab10f7ff352c006a0de5e25007bf20d3894718b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785377679.json",
+      "bytes": 261,
+      "sha256": "2a737febfef1874c13833ca42623ff758e8cff6bd59e9490e3fcee3c684a9242"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785566080.json",
+      "bytes": 261,
+      "sha256": "ea9da04946ead43ab9ba5a295225dead210aaf8a2979d4e8a7649d92d1aa1763"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785734774.json",
+      "bytes": 261,
+      "sha256": "4c46b03a1a7b6d4a3d1901b84723c0d4cabc45c6e95326b114c8bac242e03499"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785906665.json",
+      "bytes": 260,
+      "sha256": "b7f050aefe35e6ec242b873ffa944c898d7e89ce82339115177c6e75fdabbe13"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/final-tests.log",
+      "bytes": 2584,
+      "sha256": "95a788cda88f64a75596a82c1d86fd9093374d5fa715743349334c7c1408ac19"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-1.log",
+      "bytes": 324,
+      "sha256": "d09deb50459fd9778fd2d0004a36d978b5b1f68bfe4d3dafaeb1520e78af9e54"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-2.log",
+      "bytes": 324,
+      "sha256": "e2ca937fdb9e822d30a6980cb835becc085274ea3241531d26fbd6a22a3c45b7"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-3.log",
+      "bytes": 324,
+      "sha256": "f3d8f7faaeb64a4f0ca34e1effa740d370150d48c93d4645d6934c247f2c9c99"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-4.log",
+      "bytes": 324,
+      "sha256": "95464d1505ceb276d63994fdc05910f165af4a9fa0985ab893570dd6f6ca3895"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-parity.log",
+      "bytes": 92,
+      "sha256": "d5fbc43eae89e3f19f19e9d7406e74b7eb276940987ff3b3eb93233a0f5a3401"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784219275.json",
+      "bytes": 68936,
+      "sha256": "64f0c254e65cb1f95220b14368f54cc4c8b05ec97b8e1b194c61f8ff92bd809c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784414741.json",
+      "bytes": 68935,
+      "sha256": "2fc92beecbe7829507cfa28e994dc1a250146ea4b4ee92520b60f46ec977dc25"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784626747.json",
+      "bytes": 68937,
+      "sha256": "762fa90fcf3077cda5beb66e1fe8e77109bea33e77858df7f434fe53feffef0e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784750478.json",
+      "bytes": 68910,
+      "sha256": "2e36d04d173185f77a2678d67c4fb198ab4a164de6a334c15d2f8f393422f7b2"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784925068.json",
+      "bytes": 69071,
+      "sha256": "d157b2b980c3f0732fd027162069342b53fa61e570e9a808addd8b0d796c37b7"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785208241.json",
+      "bytes": 69678,
+      "sha256": "a16b7026d661cc26389977318b9b6c930a209bbcd461a771b3a819eb69a15d8a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785377676.json",
+      "bytes": 68960,
+      "sha256": "6dc074eefb1982a5eb41660da4afe1d198c5159df6573fc8ebcc0d520688d405"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785566077.json",
+      "bytes": 68959,
+      "sha256": "0a7b26b582e2ba67b561b0a18919cdf3549dc68735ee5d2a8d1d9c561cfe7408"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785734771.json",
+      "bytes": 68947,
+      "sha256": "0a1e5703e371d465a10ca0df3305a8dce473267725b23c3fb540a5909c6e64fb"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785906662.json",
+      "bytes": 68959,
+      "sha256": "7a459ac1b56748d2104f9ff2f5753b939fb09fbf3a37bc98f0234210bc872074"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/recipe.md",
+      "bytes": 5173,
+      "sha256": "a63539218d417011bd0f2d29a69666a3ced71061d440d014a35d6f6cf36ef6c3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-front-three-quarter.png",
+      "bytes": 124113,
+      "sha256": "be7a9cfac45fd5fbba8a9bf376d06e5d675f859b3a1f11a7ac0feb8b33e8bfac"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-glass.png",
+      "bytes": 366223,
+      "sha256": "79e9888db4bf993124fa2376bba6c4dcdc2c7d706f96e4f6d2d2c9fe1e1e4a76"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-paint.png",
+      "bytes": 284659,
+      "sha256": "508779b8237f35f17bafc6b47520c801e0b4ab2bdad38060ef72a4d76fd18be6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-rear-three-quarter.png",
+      "bytes": 116967,
+      "sha256": "b88a1bb54572453932559ba758a0c482abd9a6c21998b2c7dab96c0d6537f0a4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-side.png",
+      "bytes": 94467,
+      "sha256": "078175795ad584aacdf8138327399537bd781dbf60f0f35c51a3f10397d425a8"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-wheel.png",
+      "bytes": 328145,
+      "sha256": "6fa03abe96b4ec836bd6aed63552342c99022ea244e9f6ef1208db24e04610bd"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-front-three-quarter.png",
+      "bytes": 123083,
+      "sha256": "8c92c1f4b192b243d411ebe4e472de7dfcb1d406ddcdaa9972f6bc4292155a24"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-glass.png",
+      "bytes": 310186,
+      "sha256": "6d6bfd26eacef3133618d925d031f91ac98dbcc0ce1e3b20e5fa70aeac8d080d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-paint.png",
+      "bytes": 244974,
+      "sha256": "15fe7edfa4d9b44a3343e1658fc9e824410e8ffc7e791495725ba44a41b43043"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-rear-three-quarter.png",
+      "bytes": 117809,
+      "sha256": "6039bb1e016e59e8df8d3a6488bb7cde7c75852007b18ad9466ec63637e8ddd0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-side.png",
+      "bytes": 92285,
+      "sha256": "7f3d583cdf257756abf4763652b46bdc18f65c8412f736593715304eae32a8aa"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-wheel.png",
+      "bytes": 296083,
+      "sha256": "dac26c7e99960e7b938cf85e4c705f8bea1b3d20cfecf290b3de708872969380"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-front-three-quarter.png",
+      "bytes": 114878,
+      "sha256": "5587078edac3f3c4e20d58b54e9ad20272e4559641753cdf9ac6ef6a9901eb47"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-glass.png",
+      "bytes": 291923,
+      "sha256": "e6170576c78cbd58c265c50d027019bca945338a12883a2f8d6114c9674be2b9"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-paint.png",
+      "bytes": 184260,
+      "sha256": "7aae31d7de50459887d8219d5a16b43559644449d242e6b55d353877af74a70c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-rear-three-quarter.png",
+      "bytes": 113205,
+      "sha256": "a46c31035af8c1ed8500af15c419f058938773ef3e3772738358896f7094eaaa"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-side.png",
+      "bytes": 81790,
+      "sha256": "ebed467a388da57eb4cea5c3a23c10fee6cc4dcdcb4c9eecd2e26d1d5d91771b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-wheel.png",
+      "bytes": 221131,
+      "sha256": "7f58c91df5eb5a2d5bfa87626bbbb02cecf4ce336a91aaae8d6a441211e9d1b2"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-front-three-quarter.png",
+      "bytes": 118503,
+      "sha256": "d9b2a270c9b45f076f35346aa02bd425d1f2b5e36fe78d7bb61df82560ecb915"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-glass.png",
+      "bytes": 284785,
+      "sha256": "fae74fddf28d580c9126f37ad415c3b23907152a463a6e59ca8694f31e6a654c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-paint.png",
+      "bytes": 207649,
+      "sha256": "2740bc67e7ede79308733a0eb2f3c7763f373689d785bd36fb69a148a7962fc9"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-rear-three-quarter.png",
+      "bytes": 112965,
+      "sha256": "52dcdbab9d49b72fbba4433ff2a5057364c8fd7ad813695be4b47bd6a9b98d04"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-side.png",
+      "bytes": 87569,
+      "sha256": "b8abdb31e24f3410fa5b1614453a5c8b62161f32045bee23c54f2b170b9b2666"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-wheel.png",
+      "bytes": 251479,
+      "sha256": "bd1a85880d51235185ff64c66d408de931e28d8844862177fc18916b4beebf7a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-front-three-quarter.png",
+      "bytes": 87651,
+      "sha256": "695530fd9b4e057228d9c04c7eba63f92c84f0d7014a920b38d08a5381d225b6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-glass.png",
+      "bytes": 355398,
+      "sha256": "3b9a08f9506b2b644a959108ff2a607595b73815433f1ede67b6f55e55b08f35"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-paint.png",
+      "bytes": 300103,
+      "sha256": "b74df30b860bf7c76c44f99d4c7a4475b28599396381e4ffbc7123894f8f3683"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-rear-three-quarter.png",
+      "bytes": 84518,
+      "sha256": "90c5df314d3c67e223ed276b66ef91c9f370521872452241c84445143dff853c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-side.png",
+      "bytes": 99934,
+      "sha256": "79d156660c42fd76f2af71991cbbed95556b980af5292899a42186f87240fbd4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-wheel.png",
+      "bytes": 342711,
+      "sha256": "cc04be2e0b2c85e6d4988237896cd6939c0a95e5cccc1507667dfbf606525432"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-front-three-quarter.png",
+      "bytes": 86205,
+      "sha256": "1723e2fbebd11357756ef6973838d074726ea83fa6de149a3c213333262827b4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-glass.png",
+      "bytes": 299015,
+      "sha256": "37d5886ed7fdc91a4adb35b6ebff2ce8d49ef1c02206a343d7570d03537b289d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-paint.png",
+      "bytes": 260399,
+      "sha256": "a5d77ddc6066ecb13e39d35e4e6f54cd925b7cdcd954479788d3930590debcba"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-rear-three-quarter.png",
+      "bytes": 85047,
+      "sha256": "0e51445eea14e08470c1a53b00651b325e8ac1e1a95c8238bba5e7a2a33891dc"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-side.png",
+      "bytes": 97868,
+      "sha256": "e311da26e8cbe1bac0db53e977de160dc5ba4c9b77173726ba2570396e3fce4c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-wheel.png",
+      "bytes": 310733,
+      "sha256": "a2cc168b29326ddc88d4458efbfe5483313f6080e08125a42beeda21ad6e6b8c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-front-three-quarter.png",
+      "bytes": 79314,
+      "sha256": "5e82e9fb6d9d513f0b0aa501620f28959a5665a136ed6be40d35d0f87819d462"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-glass.png",
+      "bytes": 280725,
+      "sha256": "0ecbaced929ba4c6c621c24187c3951c88817cc66d74036895329cbdb4862118"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-paint.png",
+      "bytes": 199612,
+      "sha256": "14882716a6fef9be058176b1c33607d8b84c9564ff783983e2073c6f310ff278"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-rear-three-quarter.png",
+      "bytes": 81080,
+      "sha256": "494a79245ce6d8ea031d268d83a30f4b66217df5d3e762cc6b25068b76182fc1"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-side.png",
+      "bytes": 87015,
+      "sha256": "6855621eb567172f07a8a2634e5c2095162408f66d5d56400bb01cacaf5c0a8a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-wheel.png",
+      "bytes": 235890,
+      "sha256": "f0622a11e81a83dd2ddc56355285eeb7c04abc8c7a1f0ef62ae91b8dfbdd35f5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-front-three-quarter.png",
+      "bytes": 82338,
+      "sha256": "41ec4536bd94d87aedc05a11f3e854c009e6734607bbe392bf04c5f367522f68"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-glass.png",
+      "bytes": 273521,
+      "sha256": "49db62c09eb9d83bb249deabe5ce00224bf7f0eb51ff79de6f4f8bb16cc90068"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-paint.png",
+      "bytes": 222859,
+      "sha256": "6427eef449171c8bcb766c66dde2ee3bec1dfc30800b5382b76d4dc1fa979d57"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-rear-three-quarter.png",
+      "bytes": 80669,
+      "sha256": "97c5c93495945f64785658b9337358e9be9283c65c575b2dc76c2aa0958398f3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-side.png",
+      "bytes": 92092,
+      "sha256": "91de4f21c0be1b8d1ffff8915a80ca2cd23bf33513d4a8f22dbe091eca2c0a14"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-wheel.png",
+      "bytes": 266285,
+      "sha256": "fbab9e0c29122204592001c61095aa077862e4ae2c6b1c76cc9c483001baedec"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-front-three-quarter.png",
+      "bytes": 113065,
+      "sha256": "41b8ce96b21ef8fba13972b09caa1e7a702f7cf0bb3c1f37d50bba4bf9ed9eac"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-glass.png",
+      "bytes": 316993,
+      "sha256": "ba933d2be7f88801a820842ac360e6cbb3c97e91e42bbf7821f39becce226459"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-paint.png",
+      "bytes": 220067,
+      "sha256": "69d147b2e43228fb91022002032b4681c2f0fcfbd65888dfe74424d7af05f0b9"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-rear-three-quarter.png",
+      "bytes": 100687,
+      "sha256": "c596d797f92819f5f1a8f0ae0a422a6c7fc9dd7a682dbadd27840e223fbf256e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-side.png",
+      "bytes": 86385,
+      "sha256": "3ac99aabcf5eaa2e1430ae5c3077d915a5d59b083424a918eb7f06a9c57e5a63"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-wheel.png",
+      "bytes": 237531,
+      "sha256": "992deeb04261dedfb05850b7a1c9c0328790d06463eb3ff734a039752c7675a0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-front-three-quarter.png",
+      "bytes": 124206,
+      "sha256": "69f4db41c4f7e11cbe1c898bf7385a8569c26c2ac7a94965dafabf46108f755b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-glass.png",
+      "bytes": 313948,
+      "sha256": "45963c24ef4cba78a34b0e24c3550cf0a00e871bf13fea25f5896302c10c7b64"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-paint.png",
+      "bytes": 247914,
+      "sha256": "035cc25441845ceb37a77aa49aa63ad2677b47e35ae227d822b28d623f2905ef"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-rear-three-quarter.png",
+      "bytes": 113830,
+      "sha256": "77094b36847cc8fd95d8466cff3e2e4542b34d5fcdac180819852c239959755d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-side.png",
+      "bytes": 94220,
+      "sha256": "bcea4554fd392d2e725e3ac909f6c912969e0a6346969bcde7cd1d8b4c561183"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-wheel.png",
+      "bytes": 272859,
+      "sha256": "3ad7100bd29e7551c0f0fb9240a0d17615008193fc507a7445fe40397d4396dd"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-front-three-quarter.png",
+      "bytes": 110822,
+      "sha256": "48a0d42a7f2377dbd4f5c4da606c01a6095f55a858249200eaac59435105b693"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-glass.png",
+      "bytes": 260088,
+      "sha256": "6baf6f343db5125bede41f75985767be9d2c7e971e318c978d5374d3d5a4c7ba"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-paint.png",
+      "bytes": 153956,
+      "sha256": "ee2ed0ab32c79f619303bf584f5ef6f814287e0a8f98eed9ed033d7382f65ede"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-rear-three-quarter.png",
+      "bytes": 103593,
+      "sha256": "fe0d24a4ed6d9bafe434002b80edae41ee58ca6a173bbb7ee4ca460a782d329e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-side.png",
+      "bytes": 78955,
+      "sha256": "6bc17b8e8a054784347179a333aac37c29bb9bcfd49c6ad0fe02d2a01a6d6413"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-wheel.png",
+      "bytes": 185390,
+      "sha256": "72254b5195dad00bc7b88802fdf388cd97408eca67434d2f5b96d139d8224b75"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-front-three-quarter.png",
+      "bytes": 117907,
+      "sha256": "e9f9305ec2bf9cf03b3ae9d1d94feaf973df50832d048dd230f81a0b8909e64f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-glass.png",
+      "bytes": 269934,
+      "sha256": "a808c8ffdc565486bc85627eef25570cef0c71acc8b0865e2f2e007f7c25e6fa"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-paint.png",
+      "bytes": 196874,
+      "sha256": "c41e2c0e3d24b6e81d7063502001be5dbc0d26105aa080f04441f53063aae413"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-rear-three-quarter.png",
+      "bytes": 107627,
+      "sha256": "493a25cd150472d0314c146c9e3e077aaf56e4df67516a276cf7536f3789b782"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-side.png",
+      "bytes": 88317,
+      "sha256": "50d5e3557624278e2bb393dad40907c9650765cb5d9a6eff9483ae261e3e0c34"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-wheel.png",
+      "bytes": 216858,
+      "sha256": "2801b9a02d6626dd38c7554d2937d1e8641d280ce020efb147a0bc72a74c0e76"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/repair-parity.json",
+      "bytes": 576,
+      "sha256": "7b3843c84605e592d0089cf794134e23643409c21c249dfff9ffe41d0ce25842"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/shadow-repair.json",
+      "bytes": 1758,
+      "sha256": "9a6c76c5dd512ca343f43561ae5198fd2139390504b719bec8356357b714944f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-0.png",
+      "bytes": 554682,
+      "sha256": "7f74dca370c5beafe4580eabb916889d0b3d3271feffce70214f35b1d6477625"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-1.png",
+      "bytes": 551922,
+      "sha256": "8f8e834e0dd3a13a19cf3b6c4d0673afed6ee169777184ed9feae675becfaa27"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-2.png",
+      "bytes": 485783,
+      "sha256": "a167df01e13313dc9ed87c2f93e8d9cad7469f5aa0a299ec4e001cf38eceb364"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-3.png",
+      "bytes": 507156,
+      "sha256": "e574c642b99a46ff4c3156235413b7496d4f43c7fab00c774fc2d0fb36fd4e7d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-glass.png",
+      "bytes": 489325,
+      "sha256": "ec46be46f2768c3145c0023b0864d319eca41a97927acff3036ad387eb48fac9"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-paint.png",
+      "bytes": 376270,
+      "sha256": "1617a92274dfff68bf0f35e6db7a0f8acff027c69e6df020f30b6a9f792c8299"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-wheel.png",
+      "bytes": 467430,
+      "sha256": "fd3296323ee4d8920362860bd84ba7f4897cbbc53780c951967f14b9fcaa99db"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-glass.png",
+      "bytes": 423332,
+      "sha256": "5ef8b7c9ef31cdb071f8440dbf9b558e5a2ccf077bfbbbd942e07dd994f6e4bf"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-paint.png",
+      "bytes": 335241,
+      "sha256": "8f947ba49c62969718f9b1101a83650b65239a90a38b54563313716f5d32f067"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-wheel.png",
+      "bytes": 456648,
+      "sha256": "a52fd3b409ffec982f1fda97df0ba57f20fedd5092451c5a720d63693724b655"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-glass.png",
+      "bytes": 358624,
+      "sha256": "a85c3b9b2fe67212b0c5283ae48eaa304ea323028aef22973a491bb0db3efa11"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-paint.png",
+      "bytes": 230269,
+      "sha256": "09b28f6b241d58be11042d1e65d6fcc6a8bb8aa5625ff44fdeedcb32360f5e6c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-wheel.png",
+      "bytes": 338197,
+      "sha256": "fb78233cd3bceb52740a3f3b10aa6246eedfcbbbad35ec9950db668364e1d6c1"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-glass.png",
+      "bytes": 350745,
+      "sha256": "cd5eba094dce66b63a021aaa0537d285ea050306d9103d1f7132e891ca5164b6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-paint.png",
+      "bytes": 254939,
+      "sha256": "1d54f798f9bf45a698ed14ec6ee6a3a53b22b622e49937467899b026fa8cd333"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-wheel.png",
+      "bytes": 367572,
+      "sha256": "ca49754e084a261402c01b3d8a6674b5a21ccd189332ae6c85f4c9bf7e85b755"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-glass.png",
+      "bytes": 189896,
+      "sha256": "66255b05a3c0f7620b0bc7f46072a765d6e7be9dc3674fedd53faa9ad0fdaab2"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-paint.png",
+      "bytes": 167494,
+      "sha256": "1605f3e622c722d953bd1e162c19b6ded3e455914daf03174bfb2b6b551b6e04"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-wheel.png",
+      "bytes": 214476,
+      "sha256": "aed10248ff7a6340f0d0e092268c1ac9fbfa14ecbf5739bee7d2c59af06d07a0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-glass.png",
+      "bytes": 176014,
+      "sha256": "a86eb46d8a48a685561854f2d0b627f18e4bc0079767d267beec3604a8551256"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-paint.png",
+      "bytes": 142135,
+      "sha256": "59717669303747eaf790e234c02e95a04f74ac9555555dc1ac490cb9646a9cca"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-wheel.png",
+      "bytes": 214252,
+      "sha256": "8c63563ee5382084a637d3dc2bcba49d839da52835e02c353585674f839f60c1"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-glass.png",
+      "bytes": 172955,
+      "sha256": "fb72bf929ee7dd35f108b7c7c9525207f09366b61ee8ce4fb407bd6799f348ef"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-paint.png",
+      "bytes": 82415,
+      "sha256": "074863e928c61a2431eebf841f279d3fb527fdebf02bb6a556045029d41f8352"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-wheel.png",
+      "bytes": 210045,
+      "sha256": "e22aa84356b21c0ad297d19bb49b13565598d4cf2a47dfad904e26c7f4692f08"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-glass.png",
+      "bytes": 170988,
+      "sha256": "c1b3328f88c01468f2c2523cd9b18638dbbb791339fd17a01efc8b2031bd4c05"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-paint.png",
+      "bytes": 94547,
+      "sha256": "69e456bc2b3b4e9a2b67dfdbd25c5231a60143d204b7ea3d8dd4cd2362b967a8"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-wheel.png",
+      "bytes": 211797,
+      "sha256": "734d9cdc24a1d34d23e416cf5136824a2ada7ce57db0108df52aadf25fa65190"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/verification.json",
+      "bytes": 231,
+      "sha256": "02d6b8b684bd1bf4001c31a85ed2aa25288b32ef4d408c253f635f4065e292fe"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/verify.mjs",
+      "bytes": 2532,
+      "sha256": "640323c67568192375174ab93b4169af82d5f015cfcaecb0cfb61daa58be31f5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting/verify.test.mjs",
+      "bytes": 346,
+      "sha256": "875bb0e434a55c8f394497b0b922740a11441727370311a96cdcc811ebcef3b6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/SHA256SUMS",
+      "bytes": 12596,
+      "sha256": "601f4179560cd5a2adacc851ee35a09974923b32853da3074e388bc8df6c17ae"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/artifact-inventory.json",
+      "bytes": 21541,
+      "sha256": "c8b709bee6ff32969daa54467543b1143308488e377acd37b8b1d16209c2819c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/baseline-parity.json",
+      "bytes": 4251,
+      "sha256": "118214087c8dd6abfd11165567785df40969292faac6e718a287d83914d869b0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/brief.md",
+      "bytes": 2884,
+      "sha256": "d42c5282bf9e72ba1bdbae03e2b76f27c0044792c5f30e684698a2f5b86b16dd"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/capture-manifest.json",
+      "bytes": 182282,
+      "sha256": "9f3d7e9e098e9a9c2968c768ced1f26d80bd3eb4c99cecab3f793529ea5123ec"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/capture.mjs",
+      "bytes": 5357,
+      "sha256": "b218f346af09a56f7ef91312ef9cf90fcf0a6342230af7e64168e6b97feffa46"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/control-spec.json",
+      "bytes": 2884,
+      "sha256": "383b69be64df293471287f4e7522a25d01467162086877ad41a2464c9584f99b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/diagnostics-summary.json",
+      "bytes": 3501,
+      "sha256": "da9569cd8e05e36f9d7c05990e1da4cc3d2da5ad4468f07eb36a07ee0eb1afe8"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/gallery-1280.png",
+      "bytes": 185693,
+      "sha256": "3de7cae054dd595e6e550b4a50d55a5915d6b36654e900f4efa0f69637f05c3b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/gallery-390.png",
+      "bytes": 84807,
+      "sha256": "791678c99f46fe09542931ef32f5d665537ca09a59b96a56212f561d4793b014"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/gallery-check.json",
+      "bytes": 2144,
+      "sha256": "c50724c2e184dfcabddae8bafe65484f103626b1ccf897f4ab407d53b4bd3cb7"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/gallery-check.mjs",
+      "bytes": 1514,
+      "sha256": "040a7895a202be9a775d1944c1ad022c8c85fc022d359f17df5cab9e2e1c1748"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/index.html",
+      "bytes": 11652,
+      "sha256": "504490b854e602e877520123c6b11f0377a847765718ebfb5642f61a6450eaf5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/notes.md",
+      "bytes": 9644,
+      "sha256": "f67cc1ac585cd1a8c98c16188dda0c0f7f942354923d59ed822c770905416f3c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/package.py",
+      "bytes": 3982,
+      "sha256": "74cfdd6b45b70bc18b5d6aaa27ed8975ded923759088ff2c38671687aad27131"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/page.html",
+      "bytes": 252,
+      "sha256": "2642af94265ce437a9b45f086957e97c2bd8a87b2628d691df0b8cfad592846a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/page.js",
+      "bytes": 8640,
+      "sha256": "afabc95ee148af86fd2b381ce6c14d731d6edc441db47fa3ce463ecdf888b60e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/parity.py",
+      "bytes": 1653,
+      "sha256": "a6a4626e6b630172c4107d6ed3cf293967564a0e0685cebaafd9bcf537c60a3c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/plan-frozen.json",
+      "bytes": 6868,
+      "sha256": "9f81a708736b737aa34f19389e24dfb4f9ccfc9d1c955d6cc6d4df6524e1488f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/plan.mjs",
+      "bytes": 724,
+      "sha256": "ad289d0ae92852a2ad051b2249e3b976d30eb92158be56608e93c100324c18ef"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/plan.test.mjs",
+      "bytes": 1170,
+      "sha256": "6b110c3078f8326d6fd468593d88557a2ec36f5bcfdf4821bd6f6ea652c7fbb4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/preference.json",
+      "bytes": 797,
+      "sha256": "7ed2e077929b715a1bdeec8ad1ed6bc33cada1cf0dc5a8009475a789d7ff20d6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/prompt.md",
+      "bytes": 1896,
+      "sha256": "ba67ff31b95a20526271af1d19df1d21eca04531d75f33dfcc4f61f682a74221"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-1.log",
+      "bytes": 248,
+      "sha256": "07f32010d949e8e310eebabc0a06e2d5dbc284f901398202af53e7228fcd5b80"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-2.log",
+      "bytes": 250,
+      "sha256": "68467de0a8f38519cdadbf2a821825d073db9b25a52be615b0075e98e964f5ad"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-3.log",
+      "bytes": 252,
+      "sha256": "99b1d97d6be3b4f07ea0303a8fae8fa56eedc0137b61c1d5bdd06497079d979b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-4.log",
+      "bytes": 255,
+      "sha256": "fb11d3c467d7264aea401605ac29f9c9f0ae04fec6e05b90e88181098bdcd013"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-5.log",
+      "bytes": 253,
+      "sha256": "31425c81c13c73d29178d5812bc2c601e9d49c6b66c4c8f3b7789109545747e0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-6.log",
+      "bytes": 255,
+      "sha256": "2c90684f2f810b57ef3e8399a221ffe13c54a397774323e2c8ac45d09a852077"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-7.log",
+      "bytes": 253,
+      "sha256": "1e672951e05111f1d716ad0b23ccb8c0894138b83a5e48cc197c9ff0f86c9e40"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/batch-8.log",
+      "bytes": 255,
+      "sha256": "e4e913ed174cd30276d8f1d378b8758afbc5c84394df531a76a1e0ebe32e637e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/build-final.log",
+      "bytes": 1220,
+      "sha256": "79db4aaac756db35f29d0670a9697ac9949b7015071bbba69945876799d75ef3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/build.log",
+      "bytes": 1220,
+      "sha256": "9b6acb33c30b1d994a8298ab75444e2e921648c61ce5d222ec7190e2695850f3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/candidate-green.log",
+      "bytes": 394,
+      "sha256": "1da29ab134a8f8882a635882dc339aef1d67f66dba029c0dda1342a3fa9cd1d3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/candidate-red.log",
+      "bytes": 1371,
+      "sha256": "31a602ae02235613f7deb65e7b62a0ac4736be8d59929ab724e457fe4c63567b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792960376183.json",
+      "bytes": 1614,
+      "sha256": "ba120c0922e06db92b3c0f2a802e3397a7f91a440f9e660af9f8df9436d1cf00"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792960535689.json",
+      "bytes": 1614,
+      "sha256": "0fc0ebca24d38a4ed160d7951cde5f5b8d5e2453d9a40f8377d9fea7bf058bd1"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792960702988.json",
+      "bytes": 1613,
+      "sha256": "2d1e91f9051fed0c9205c967042f362872ba3e6368d79e3f9b560bc4076b0cf5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792960837798.json",
+      "bytes": 1598,
+      "sha256": "bd7f18096cf45278bfc38f6ee9d11f1831f191f1cb29993157ca8775f48213cb"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792961026494.json",
+      "bytes": 1614,
+      "sha256": "b8d8ccc5a7b1fbeac990f01d0e6760f35184f7e4a3b9f807a6504ca72250b898"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792961179773.json",
+      "bytes": 1615,
+      "sha256": "db3b85e4b56f3b4b01f07c48d7ea34af4d490fb0f7bfb54908c1a27a5f868c3b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792961307678.json",
+      "bytes": 1614,
+      "sha256": "f2cd1bc073170caf04aab6d21bfebffc8c67ca16ad564c09c11104c1572d7a95"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-1792961438887.json",
+      "bytes": 1614,
+      "sha256": "3380f5d3900fc7f08bc62c5838c09002dee507bd6a2e16e14215565c29a8013b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792960431974.json",
+      "bytes": 2370,
+      "sha256": "28a10181c3e09114b55eefbf1aa1508c6a938a7aa00024584117f80995dcbb69"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792960613988.json",
+      "bytes": 2353,
+      "sha256": "0e1890e2b5d3c640166458e0d3b8ba7e133607f7edba8f82a4ecc53e25097714"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792960763486.json",
+      "bytes": 2370,
+      "sha256": "b3a19e01f553249d2d3d326aed18917687543408de01ff303135248ca553cb1f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792960923473.json",
+      "bytes": 2355,
+      "sha256": "a499728d96398674d6093f27d1b3d60ad79ea5c59013205e80972a42017febb5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792961085079.json",
+      "bytes": 2371,
+      "sha256": "5059247a3af57c1a0dc465df7e8d37ef5e7d47053e4ad4db845f7c442134eac2"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792961242775.json",
+      "bytes": 2371,
+      "sha256": "aff8c764caf03e1c0cd941d64d14103d645f88e98b7b18aa372ff534097d84b4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792961365179.json",
+      "bytes": 2369,
+      "sha256": "644e902c35d8de1b1d565e3b56f6723787e4fa21d35edaf659e54f3cbca9cb78"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/checkpoint-grounded-studio-refined-1792961501772.json",
+      "bytes": 2355,
+      "sha256": "a09f8dd2026e683f7322c2a1813d6da8e0b415a3cf484087adbeb542e9c34c66"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792960432008.json",
+      "bytes": 261,
+      "sha256": "2328617f32bb42cab3f148a437c990f263ad57a05fbb5304dc0d62969be06ba1"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792960614095.json",
+      "bytes": 261,
+      "sha256": "9f70fd59aac3a00513ac0a4480883da69e7231073e3add5a5397c4744afc8be9"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792960763585.json",
+      "bytes": 260,
+      "sha256": "cd9636da797988c0ee06c6629d6bf53da1354c5664b33ea36e85379f4f012c00"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792960923874.json",
+      "bytes": 260,
+      "sha256": "939fdc7b6373d1828b14ab5d8bee04171c376edadd798d99875476b19238642e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792961085274.json",
+      "bytes": 261,
+      "sha256": "0dc214ff6643e57337d88da4609bed8d2ea75a4d12d2fcc4732fb51e350b2160"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792961242809.json",
+      "bytes": 261,
+      "sha256": "ec7451a9fdd118806cd949f88cffc5f56215f4f2852ff6dc015303bc969ac4cb"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792961365212.json",
+      "bytes": 260,
+      "sha256": "8d72403fb27e0c839f34bc34501c080a1724f56156760fa37a6ecf59cfcf7e6f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/execution-1792961501808.json",
+      "bytes": 261,
+      "sha256": "45ce0ae4d6f5ba4220d6b77757a2d200d1ec8f86feb57acab80097386b556c9d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/lint-final.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/lint.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/parity.log",
+      "bytes": 4251,
+      "sha256": "118214087c8dd6abfd11165567785df40969292faac6e718a287d83914d869b0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/plan-final.log",
+      "bytes": 304,
+      "sha256": "5eac7b5b9e2a09f68a85e5441c837ae4bcb19abb3fe3d69281f5d8660892145d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792960432007.json",
+      "bytes": 69757,
+      "sha256": "b943e785d98f18bf182549f48e75d16a59c93ac2ed2000969fec297678251c21"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792960614093.json",
+      "bytes": 69740,
+      "sha256": "2f4dbd5cf7e4e9cd67f8950e348532c8139455554a45ccea066864dd3d8f8967"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792960763583.json",
+      "bytes": 69757,
+      "sha256": "54182821640cd3ef50d6d71dfb9864496488eae9160eeaaae91c21c726b83637"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792960923871.json",
+      "bytes": 69742,
+      "sha256": "d0e76af73006a389f90d3e04723c1d85da3b1e0fda59d7b5d9121621e0a56cee"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792961085270.json",
+      "bytes": 69758,
+      "sha256": "5734491de8892aba1c416d402f3128bfb1f1cc1fce9765b926ecbd87b4c1f8ea"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792961242807.json",
+      "bytes": 69758,
+      "sha256": "7fe767f5d07862cd69934b63a0f57355d3e772cf00206aa71530c6871e0cb6d5"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792961365210.json",
+      "bytes": 69756,
+      "sha256": "81a72d09776e9dec0ed92a5c9e51ad4df0e061af6a33ba8d8a6a09207a3ab38b"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/session-1792961501806.json",
+      "bytes": 69742,
+      "sha256": "38981a52492ad5c774b71a99f8c9adc1a9c402eb4c540b296d917ba89dfe8fc8"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/shadow-green.log",
+      "bytes": 405,
+      "sha256": "dfce82ce0423e502206d32b117294c2155859fe6920b1d5b6b35a9817bbe86a3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/shadow-red.log",
+      "bytes": 2262,
+      "sha256": "a36fb6315f98cab4c354edad6e2165838d292a5e1b1a203aecca0c0d48302931"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/unit-concurrent-timeout.log",
+      "bytes": 1617,
+      "sha256": "6566bbc9350e111e425f0805e22ccf76cab0684c9939c0deafa5c3d68b2d3294"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/unit-final.log",
+      "bytes": 746,
+      "sha256": "7729ddcd9eee5a97f0e88b102bd73e6b69e85d98a4ad2a4eadf9d280960a10b2"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/raw/verify.log",
+      "bytes": 1639,
+      "sha256": "5ac4f2e3362b686ea1ad571f0b75d565cc890314adf9ef8b076b5f7e7b1e9706"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/recipe.md",
+      "bytes": 4182,
+      "sha256": "f25e11e33bab9129169177ce839056a45b5edeeb6af82931ef5ddfa9453d7762"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-0-front-three-quarter.png",
+      "bytes": 87651,
+      "sha256": "695530fd9b4e057228d9c04c7eba63f92c84f0d7014a920b38d08a5381d225b6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-0-glass.png",
+      "bytes": 355398,
+      "sha256": "3b9a08f9506b2b644a959108ff2a607595b73815433f1ede67b6f55e55b08f35"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-0-rear-three-quarter.png",
+      "bytes": 84511,
+      "sha256": "de4d57c4c029cf370d886eea36276c9d4f991ef1e96ab564bde17fe737db0eb8"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-0-side.png",
+      "bytes": 99934,
+      "sha256": "79d156660c42fd76f2af71991cbbed95556b980af5292899a42186f87240fbd4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-1-front-three-quarter.png",
+      "bytes": 86197,
+      "sha256": "cdb9852e1d24ca4a8638b83514733c40136f47c4e767ba34dfe4473673f23cb6"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-1-glass.png",
+      "bytes": 299015,
+      "sha256": "37d5886ed7fdc91a4adb35b6ebff2ce8d49ef1c02206a343d7570d03537b289d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-1-rear-three-quarter.png",
+      "bytes": 85076,
+      "sha256": "a6970c40cd18adf74087e543caf0c017798a39c57943156bd0effa319f9df274"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-1-side.png",
+      "bytes": 97868,
+      "sha256": "e311da26e8cbe1bac0db53e977de160dc5ba4c9b77173726ba2570396e3fce4c"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-2-front-three-quarter.png",
+      "bytes": 79314,
+      "sha256": "229e2fac31d5e8c6e5512dd7a58b93b7954b2378d4c3160184727438c9a97079"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-2-glass.png",
+      "bytes": 280725,
+      "sha256": "0ecbaced929ba4c6c621c24187c3951c88817cc66d74036895329cbdb4862118"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-2-rear-three-quarter.png",
+      "bytes": 81062,
+      "sha256": "25579a2a3fd785002dbff8b039d080e1914119137fb8de30233d73c4da8f94d8"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-2-side.png",
+      "bytes": 87015,
+      "sha256": "6855621eb567172f07a8a2634e5c2095162408f66d5d56400bb01cacaf5c0a8a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-3-front-three-quarter.png",
+      "bytes": 82338,
+      "sha256": "41ec4536bd94d87aedc05a11f3e854c009e6734607bbe392bf04c5f367522f68"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-3-glass.png",
+      "bytes": 273521,
+      "sha256": "49db62c09eb9d83bb249deabe5ce00224bf7f0eb51ff79de6f4f8bb16cc90068"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-3-rear-three-quarter.png",
+      "bytes": 80662,
+      "sha256": "38120734e76538148a03b117f64443b591a7fac6e740154846366d9130b0f2c4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-3-side.png",
+      "bytes": 92092,
+      "sha256": "91de4f21c0be1b8d1ffff8915a80ca2cd23bf33513d4a8f22dbe091eca2c0a14"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-0-front-three-quarter.png",
+      "bytes": 85400,
+      "sha256": "76b7581dd7c2c517bb0e96892c8e38768ce942fcf93e36904c01d75e5b9e84a4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-0-glass.png",
+      "bytes": 354597,
+      "sha256": "99a41d2f243bfc5f52f484e1bc52a09664973886b261414b4ee94a5f8bb24490"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-0-rear-three-quarter.png",
+      "bytes": 81068,
+      "sha256": "006e295284b677c3412801e2a59827a90d4e861d84cc32b105d0c4858729acb0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-0-side.png",
+      "bytes": 97277,
+      "sha256": "a1c3f303cad865c6cd130284cf9959a7d3753513f23433bb914b7aef0df7c5d3"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-1-front-three-quarter.png",
+      "bytes": 86110,
+      "sha256": "ad3360dd3f5cd3f50956d962627477bff67e92c7c180e44f9e0b5e5f34016b1d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-1-glass.png",
+      "bytes": 304228,
+      "sha256": "618f224203b9c5795d3009209d255d214cd4c34c8840118b880d4b68256ef251"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-1-rear-three-quarter.png",
+      "bytes": 83122,
+      "sha256": "c3e62c9b82dccc7076cc06860d0c5c466e15403b00f057824602e37c333b3841"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-1-side.png",
+      "bytes": 97308,
+      "sha256": "c6f22e257f421043a5c8e80bb3d37d19c99074de4ab842199972a4f170a62ba0"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-2-front-three-quarter.png",
+      "bytes": 76979,
+      "sha256": "f8b5a1c8994261ec4831a19231e4bd1495abd90b22e87eb9e61b1a87e885b3aa"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-2-glass.png",
+      "bytes": 276225,
+      "sha256": "4408b714eddd57db6112886904f40d0c0c343d2816b072b050695904db49c01d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-2-rear-three-quarter.png",
+      "bytes": 77346,
+      "sha256": "a70ed8267e483f620d136849a2890e157eb314ea0d1aee5e14ec08c71560621e"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-2-side.png",
+      "bytes": 85289,
+      "sha256": "c5d2ca7fb5e07d9ea67f40d96f4ecb3c8d774023184c377850433026da5c94fe"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-3-front-three-quarter.png",
+      "bytes": 81559,
+      "sha256": "cf936470070a046f18bae220c9cc72d71ed38db60d561907e64cc49ba2ef403f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-3-glass.png",
+      "bytes": 273272,
+      "sha256": "3c106670f595781ab022bdcce363cc9a798d9cb3147d01c25cd93fede4557e27"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-3-rear-three-quarter.png",
+      "bytes": 77302,
+      "sha256": "0b1306bffa1436658af9a751585a5f1a7439dfaeb4d585b3599137dd2bbdd137"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/rendered/grounded-studio-refined-3-side.png",
+      "bytes": 91017,
+      "sha256": "53f1f36fede802a3786b4cbc64e04026b3951be3a23fcac7dfe8383fcbc14636"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/audit.py",
+      "bytes": 3787,
+      "sha256": "d65be90105a4f517e2ce8815864d4b5f3c75fe346e53bf1a9a960a0c552ae83f"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/before.json",
+      "bytes": 239134,
+      "sha256": "fb60c19d12d2c5ca1c7bbec72fe2d355ed65f1924e8a3b6509ab89440b7fbe63"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/closeout.py",
+      "bytes": 4218,
+      "sha256": "f67a345e0b11edc823fe5f2e8ea03bd66b8bf1d3680e31cb3510399f21a6cd41"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/independent-evidence.json",
+      "bytes": 15430,
+      "sha256": "cd3cff891c07b1cddd8eb0b8de2c82b0f604668f54131d7ea9e0caa9ae5e7a35"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/lint-execution.json",
+      "bytes": 319,
+      "sha256": "6a94ee71d8ca06b616c77d776eff493c79847f86996c825790ff55e531abe022"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/lint.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/parity-pixel-context.png",
+      "bytes": 41132,
+      "sha256": "808eab8edcba4beaf374dcb5ff9b90cd638a91bf1ee395e8733be13e0912af80"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/resume-audit/preservation.json",
+      "bytes": 252,
+      "sha256": "2f75d3aad8daa0d33c53c146eb00797867bc3f86f976b0c0ccaed7a15724ba6a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/finish-0.png",
+      "bytes": 430042,
+      "sha256": "c4a95c85916ec4496f01db801fc87bbef1d021b74cbe52b68973efe5161e2123"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/finish-1.png",
+      "bytes": 394862,
+      "sha256": "81b6494163569bd4efdc9f7f7de59f826a5e3a5ba567043c57f3a4397b72e6dc"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/finish-2.png",
+      "bytes": 367648,
+      "sha256": "00ce3800a2d987919fff5dc65d2a636cf939acdf2ffb4d8526d3cb6a588b9278"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/finish-3.png",
+      "bytes": 364941,
+      "sha256": "0ece495c58bae9c309c10018bb21b96004b4493d84c740b698f7f3a441d8f4ba"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/native-0-glass.png",
+      "bytes": 503390,
+      "sha256": "a50ed9470ea1cda5d0a296369da5980d067357bf86a6d1fd314f2d20a1160f15"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/native-1-front-three-quarter.png",
+      "bytes": 119700,
+      "sha256": "d2d08b27728e4c45a3cbc8d2f759bc1782dfe84fd253b6777d1946551e08a00d"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/native-1-glass.png",
+      "bytes": 395234,
+      "sha256": "c545ab687ce863073e261b09fc7313a367bb1ff6f439118bea85111f15317282"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/native-1-rear-three-quarter.png",
+      "bytes": 114715,
+      "sha256": "41953ab6941d09ade46f74a1fdd612d8304f006445faad92d2b563089e0743e1"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/native-1-side.png",
+      "bytes": 130638,
+      "sha256": "a338d8b97ca80b27abb3a85916f948fc2324249bcbfe0bf2db64e8c17fd0ed3a"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/native-2-glass.png",
+      "bytes": 349769,
+      "sha256": "b6b9237546d902293ff778e489bc6cf73583f30153e4787ce3dbe945583fb247"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/sheets/native-3-glass.png",
+      "bytes": 335169,
+      "sha256": "fa5311bdffb474a89223c539ce5225709cecf14c9be08e03f191a689fa441ca4"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/verification.json",
+      "bytes": 3319,
+      "sha256": "eeff9fd727d7fc7e44a9cfee81474f1f64368febf89316b4732974601a469019"
+    },
+    {
+      "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/verify.mjs",
+      "bytes": 3958,
+      "sha256": "21584e472cd4deea3bee851e1ba6e33793ee7e344e9365ca8915414c617fe7d6"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-carmine-candy-native.png",
+      "bytes": 273686,
+      "sha256": "a1a783c04d1f178fbfff29988b0024b6bde66e0358e405bc54ca3c8ec8ad05cd"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-carmine-candy-orbit.png",
+      "bytes": 267112,
+      "sha256": "ec96d9700a57b6030597be59fa0e9e001ca19057b667b758b01a58146894a9d9"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png",
+      "bytes": 244385,
+      "sha256": "81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-pearly-swirly-native.png",
+      "bytes": 263065,
+      "sha256": "73c000cdbfc04c9856c37f19518481194bb6e6326551e704329453ddcc052009"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-torched-graphite-native.png",
+      "bytes": 227519,
+      "sha256": "89a5feff6eb01e6fb466d9904e89c45518b4a6341fcaf912688a2b13e69ae695"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-carmine-candy-native.png",
+      "bytes": 95317,
+      "sha256": "f80cda562c9eb0a0b8015438f8eb1fdd32f96132f1ea4c4079904a06bf5e017b"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-carmine-candy-orbit.png",
+      "bytes": 92945,
+      "sha256": "1c05f89048908cc6aa5652729f5c02ac71fc8fc7e3ddc98e24f66056de6c9e62"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-estuary-enamel-native.png",
+      "bytes": 89732,
+      "sha256": "cc6c4ed708407ddef2bd882d0150584e585c567a16cf19077b15c607a0d3ea35"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-pearly-swirly-native.png",
+      "bytes": 95476,
+      "sha256": "dbc07b709f95f680b3c853dcc40a4dddeade36143a21215b08a09c6da1d390f5"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-torched-graphite-native.png",
+      "bytes": 84724,
+      "sha256": "494bc3ef75c227429957e0efafb2031a4d7d36f0376cb2b4aa2c126cca171caf"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-chromium-carmine-candy-native.png",
+      "bytes": 3607,
+      "sha256": "1e50c6caf25b4ef12a9dc6124916b18ac44f65742e287fc43773b57678bcf2cf"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-native.png",
+      "bytes": 1316,
+      "sha256": "c7bb4786ad2bfb53d0272c3d51e64a9e320b0373175b4559f62a1da7739610c3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-orbit.png",
+      "bytes": 1316,
+      "sha256": "c7bb4786ad2bfb53d0272c3d51e64a9e320b0373175b4559f62a1da7739610c3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-archive-guard.log",
+      "bytes": 623,
+      "sha256": "9251983f3d83c11241037a7be2726cab51a0f6920781ce444e5563fd4d0a8295"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-captures.json",
+      "bytes": 289,
+      "sha256": "bbe2d5e6a5b2f261f14b159c446020a4ca519983f0b45e36d61605449d0df6be"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-original-desktop-native.png",
+      "bytes": 168361,
+      "sha256": "65a2849b34b15de4794eb35137f9d4242e15f2e00b7da2f33ab59ead0e7f3eb5"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-original-desktop-page.png",
+      "bytes": 212305,
+      "sha256": "2572c0d37a0941e42b6d5641baf2d9b3f957bbee3a66db7c55ca9a6ee8af786c"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-original-mobile-native.png",
+      "bytes": 65052,
+      "sha256": "939058e3d58058a5fe37661b0386101b3827c8264dc438e8178e2c675c2ec90a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-retry.log",
+      "bytes": 453,
+      "sha256": "6ef450db5e163afd87ec06c7f5733978473e370d8c37baf89fca5dc99682c4d9"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-throttled-retry.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before-throttled.log",
+      "bytes": 452,
+      "sha256": "dce43366d797979e094b65396b16f4cb1181a8e2c0f5d9e9d1215684edeec603"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/before.log",
+      "bytes": 644,
+      "sha256": "96a48284b7a4dcfe1b929c4919b949b5c9d1bd442effd88759785dfaced9330f"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/build-app-final.log",
+      "bytes": 1220,
+      "sha256": "c6e7f04cee4ffe7e78dd7d41e56b6a8ceda98212a8775a417a9fc1b440866a46"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/build-app.log",
+      "bytes": 369,
+      "sha256": "b5c41c9cf6f67001cdf875fc78d89581778db8066acc363fe0239ab065e35de0"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/capture-before.mjs",
+      "bytes": 2072,
+      "sha256": "625b3bae6c258e3af9195f57e67bf3ea14cffb3885d4e8a241e8d6ae7be6add1"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-carmine-candy-inspection.json",
+      "bytes": 70668,
+      "sha256": "46dafa2d0db4dc64560d1858e307c20484b34b039fa983d480aaa016d9e1db3e"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-carmine-candy-transitions.json",
+      "bytes": 70578,
+      "sha256": "721ae59a779a66bad5e8a9d1dfb6813fa878a89882b7d7c1ba0fc0a4857a850c"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-estuary-enamel-inspection.json",
+      "bytes": 70942,
+      "sha256": "eda3c8d16df96dc6f0e61de348511eb1cc069ce5d42a6d6b3c2b67da25637c2a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-pearly-swirly-inspection.json",
+      "bytes": 70657,
+      "sha256": "07d8ae1d462387de7c83ed075d07117d103f9bd3bfb9be6dd5d333633fa0d6d3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-torched-graphite-inspection.json",
+      "bytes": 70783,
+      "sha256": "6fc3dcf57a99a417e9d1600e7ca67ee7a0dc763c7a6b2ac468a51ed5a04fd98f"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-batches.json",
+      "bytes": 288,
+      "sha256": "e17d57317a0ca607ca99fca1514985256c70462189b15c22bfb38e9f0e5a127f"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-chromium-carmine-candy.log",
+      "bytes": 560,
+      "sha256": "18a7c99c7887da7120696af1617e42eae674b5456f455807d1c9f612818aa4da"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-chromium-pearly-swirly.log",
+      "bytes": 229,
+      "sha256": "efea4753706af1c8bf490119eff20624d9ac007d17f628c1f9a5b4de281488da"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-batches.json",
+      "bytes": 288,
+      "sha256": "f5bafd6adb8359ce680f0b72e48f5c1c532fd188ff8b626da431ea53e10d6f06"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-bounded-transitions-pointer.log",
+      "bytes": 2710,
+      "sha256": "70343fb4dcd3815c029175a00dd595c34589e43440ae20de25451364226a87df"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-carmine-candy-framebuffer.log",
+      "bytes": 560,
+      "sha256": "40a8231dbdc94d5dd917cc57783116e0c0395af8e0597c30a9cce4d5fae80323"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-estuary.log",
+      "bytes": 562,
+      "sha256": "a3d4bef350232f42d7177b56cfe144ca3f80b445afd7072db2bf1fce69c16a1a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-pearly-retry.log",
+      "bytes": 560,
+      "sha256": "13fdebadf58ddf0b4fcfe7415346f2468cbea69efb9a3d7b91541f9d712d50df"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-pearly-swirly-framebuffer.log",
+      "bytes": 229,
+      "sha256": "efea4753706af1c8bf490119eff20624d9ac007d17f628c1f9a5b4de281488da"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-reset-fixed.log",
+      "bytes": 560,
+      "sha256": "d6d26b1712e982175b8faaca69fef6d7cf3ede2bf1f6bb46591e0ecefbf606e1"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-torched.log",
+      "bytes": 566,
+      "sha256": "b745235e94752d9faf02d1c3aa7df2ec31f90a93643d404cedb8d9e26c416b72"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-transitions-pointer.log",
+      "bytes": 229,
+      "sha256": "69dc6d9e3971c9b63062fe09a008b52eaa85f9023e920a77c8167eb9250b4f30"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-bounded-transitions.log",
+      "bytes": 575,
+      "sha256": "8a539f1d636cfa46399f48e60862f13fd71d5f9ca7096b4476a9b5a173af2d4c"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-cdp.log",
+      "bytes": 236,
+      "sha256": "6d0e8a7c4b104eee55281ab2eede0f8d77f45a56f45d6300fa5e606ef61352e3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-framebuffer.log",
+      "bytes": 574,
+      "sha256": "e1730d2b04f36540ffa8635606da11a88ddf395a849cb88cab2a2c8a859d46f2"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-paced.log",
+      "bytes": 574,
+      "sha256": "bf5ef2fba1f8f53a5c52b85a1c5db9389e598572f1c822d0961556307e02892f"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-paused.log",
+      "bytes": 2605,
+      "sha256": "a2c926e0ba37deb9f42e0c737e869e03d6e20b3a110a1b6cc1cc25d517be8644"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine.log",
+      "bytes": 2392,
+      "sha256": "d03e2485cbebf68857d457838aec9add0c6296cc12274554a75111dd1af6f915"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-estuary.log",
+      "bytes": 576,
+      "sha256": "091b7c33179f319d7543c9f62f3f380617bf41cd7df57e565f8ce3b4a1cb6a1d"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-pearly-framebuffer.log",
+      "bytes": 574,
+      "sha256": "b937b6bcdedbea36e290b7566563e20f4dd22a8ff46e8c0ed04892939d2b19af"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-torched.log",
+      "bytes": 580,
+      "sha256": "1866109fc959df141b882c4ac09017ddb4e53b30215059271c2544e61afc7ac6"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/execution-notes.json",
+      "bytes": 2013,
+      "sha256": "e4c02e9f55061243f1e505130bd8b6098e2fabef0f4fb66e38f40f44e68ea9fd"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-23-sol-viewer-lighting-historical-notes.md",
+      "bytes": 9132,
+      "sha256": "11131c7b768f08119ee0ec1fde04afb2c3ac98a299914b8eb0c145a24fbf57e1"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-23-sol-viewer-lighting-refinement-historical-notes.md",
+      "bytes": 8683,
+      "sha256": "a018a90a5c4186b6022f48f9f41ebf0bdbb17a9a3142751cef7f822edbc09342"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-26-sol-lighting-integration-historical-notes.md",
+      "bytes": 8788,
+      "sha256": "66f84ef88f26ad211b7d45a09876394c6305ef9a4de42d43545409c165650c26"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/before.json",
+      "bytes": 88765,
+      "sha256": "9c1e9a3bd10bcd6b300567081eb8681bac8ce1c0d00ac6bef0dd0c948eb22edf"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/current-acceptance.json",
+      "bytes": 2317,
+      "sha256": "0a6d7ae65f9ff89f0341f018c873c2ab3fd141415d86ab81c36e3000aa2ea7ce"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py",
+      "bytes": 21158,
+      "sha256": "f5574f27c8b07e891811e93a626585f36bfcd9e56d1090e54e1325056dcfa63e"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/lint-execution.json",
+      "bytes": 255,
+      "sha256": "021af798d910315128f2f2036771ff7307ea13546ee66bdab92ac3d8b7419233"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/lint.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/notes.md",
+      "bytes": 3918,
+      "sha256": "e821dcc43f735cd54ec31c67c12d8a784b24d5c58f3df46fac434393814f7322"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused-execution.json",
+      "bytes": 394,
+      "sha256": "1199a3e4f1262f1713f96af9d43c32408f06eedb4d8c92ff0e29544eae11b550"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused.log",
+      "bytes": 252,
+      "sha256": "6f9bc977cafdb83614ebe0e948ecc6f4ab8db49ddda0cb179065fddffcd9f550"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix-execution.json",
+      "bytes": 647,
+      "sha256": "353f16a8d045c1b413a4591d40315012b060732ec50d8079e4ff3c2bd4112072"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix.log",
+      "bytes": 245,
+      "sha256": "3e467a974a4113322ab44bd6bf142fd67b4863d08a07c0dec40f6a0c84a57b2f"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/prompt.md",
+      "bytes": 1871,
+      "sha256": "7a921bc678d98766e0b7bc510a092ed1e9fe0f7483621bf9a7d2883ae73f0bcd"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused-execution.json",
+      "bytes": 341,
+      "sha256": "263529ad15a1c0383b23cb5484e0317e14d90ed6c6bdd442450236ae543f6b35"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused.log",
+      "bytes": 304,
+      "sha256": "fb2626d9250a2ec8c3244a20c409d66eea14f2880144f0437628e9a45080a225"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan-execution.json",
+      "bytes": 276,
+      "sha256": "4a88e0936187f7ac8af5e7c30ba7eeb336e235fcc6925eddb8f70b08404f8b7a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan.log",
+      "bytes": 838,
+      "sha256": "77c55f132979b44fe07b7c928f13ea16e26159ad310d08d848b38907612dd504"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-execution.json",
+      "bytes": 368,
+      "sha256": "3bb9d40aaa8593192e2124441cb1cf12db05bd7954962e8930b38724a804ee6d"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-repeat-execution.json",
+      "bytes": 374,
+      "sha256": "17680cc63e33690438c224ab0bc9afb9e2f5343f1d515b094d5696eab104665d"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build-repeat.log",
+      "bytes": 133,
+      "sha256": "6f89e37e8bb50ba53a0cce2c460c4fdbcef317f5a8211f5a84ebf163021c04f4"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-build.log",
+      "bytes": 133,
+      "sha256": "6f89e37e8bb50ba53a0cce2c460c4fdbcef317f5a8211f5a84ebf163021c04f4"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-validate-execution.json",
+      "bytes": 283,
+      "sha256": "34d9b8bc02f0c98c1136ff825a5bc0978be8068ced93a28dce7cb582013e8438"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/research-validate.log",
+      "bytes": 340,
+      "sha256": "737dababd39e77ccca65f21fd2bf52d2f743f0eba1ad14f594cdb26d32136bef"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-execution.json",
+      "bytes": 357,
+      "sha256": "307470ad904e3fbac88a7c2f4c9ec974a0d8785454906c34f397b968f4b4bd03"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry-execution.json",
+      "bytes": 363,
+      "sha256": "1c1274fcf143f65fbffcec3afa2352d81a818514e88f7c589edc142a89cfcaae"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry.log",
+      "bytes": 5919,
+      "sha256": "99dc51a6bb4fa36c34b115d0c86580a2692d43e2cddd709ca4419a42be417eb5"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence.log",
+      "bytes": 1660,
+      "sha256": "3eb7e5453ddbe8910e471fe96e2de951378b52b45ab73791ede55d65fcacdce6"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests-execution.json",
+      "bytes": 272,
+      "sha256": "3fda307d24ec2319c3df5bf4a2276be772d32476b6bbaa9559ee1ef29f277ac2"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests.log",
+      "bytes": 2298,
+      "sha256": "450950d03915d40f995681e61d49c02d20562d868543230e3ba2f0b9ad85cf74"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/technical-verification.json",
+      "bytes": 5278,
+      "sha256": "0199a9c4a8a6e0920a50de92b4494818f59a2a6e68ec04a161dcd8262fdc3d53"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/timing-boundaries.json",
+      "bytes": 1538,
+      "sha256": "d10599e22e8798a8f5dff74410268f881b39a2de3407ebf15957ffb3f3efec65"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-execution.json",
+      "bytes": 261,
+      "sha256": "13253ccb802e119858c9e3f3c31ff5d3607af858d014055fad393a669b2a7685"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-projection-execution.json",
+      "bytes": 271,
+      "sha256": "e19ef7167cf71dd1307af262afb57697b50f39c283e010dc55377fb43c343178"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-projection.log",
+      "bytes": 746,
+      "sha256": "124cb223421e7048b11d2d33d28465a2a156207150a5d054240b5dccf1e93b13"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit.log",
+      "bytes": 757,
+      "sha256": "b0eea62d8fd5186ae0b68a844575a90c3d08a37978b5182b21837b04e82f69c5"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/gallery-check.json",
+      "bytes": 338,
+      "sha256": "d0405d5fe0505682358a5a2bdeda511a2ba4c634c3fb2b727f4dab2b9f3fd1d3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/gallery-check.log",
+      "bytes": 339,
+      "sha256": "4b09c039efc3d6c87d5831a2c9d9f393cfc1c373f46dd9261a014382c6fc5093"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/gallery-check.mjs",
+      "bytes": 1497,
+      "sha256": "dc7052b4583227819100f5ec33c30840910f062b1d4bb0c15c53e54c9483de78"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-cached-shadow.log",
+      "bytes": 395,
+      "sha256": "73bf543f088fb763b967a58bb9243f6a303064a5058c25f46d62182df8865f8f"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-casters.log",
+      "bytes": 393,
+      "sha256": "eae0d5b3aa47c637e4c8ba4cb78eeb3587db328e7fe8b0e3871435983c6363ad"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-inspection.log",
+      "bytes": 394,
+      "sha256": "7f6bdbfd8fa732064d654b021806df5b01c95d11d2ef01c4e98e8166713ac4d0"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-late-dependency.log",
+      "bytes": 593,
+      "sha256": "214d9274151582f231760bdeb0252eeb06fdf36f649537ed2e6fe50fae0f9c88"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-lifecycle.log",
+      "bytes": 394,
+      "sha256": "e22c3b6fe0e059b1d27ccb703696dbaa40d6203abe08c6ddce74ebb839aa7ecf"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-reset-momentum.log",
+      "bytes": 393,
+      "sha256": "6a2f763c6c1fddd98b4327cc6e5c81e55cd9163d10bcd1cd64d98d254d7f7d31"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-rig-refresh.log",
+      "bytes": 394,
+      "sha256": "1454979e5ca2407ff8504839977b6ab17938f6c87f8faa27a893037f6248b7ca"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/green-variant.log",
+      "bytes": 394,
+      "sha256": "53d8d9bb961a98a1276424f8ad082719c1d3cb97ce7f95f557221710f3228590"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/images.json",
+      "bytes": 3816,
+      "sha256": "546d85fb8f42bb2f64f16da455ae915f07053b1257fc2a05292953ffd711fd87"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/index.html",
+      "bytes": 4542,
+      "sha256": "a20a49bd3dafbfddabad83e3b7291200cd60569cf5e1bc70dac3ddfeb92c7c2e"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/inventory.json",
+      "bytes": 242765,
+      "sha256": "67ee1d11749f91154ea7e525ed1543c9c7c5b70453e6e0dee51fbbf191ed51e3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/lint-closeout.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/lint-final.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/lint.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-carmine-candy-inspection.json",
+      "bytes": 70668,
+      "sha256": "bf88e26d2d37fb9bc6c42017158e1cbf943265aea96af0fddcbf042b3797f375"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-carmine-candy-transitions.json",
+      "bytes": 70578,
+      "sha256": "000f4b2d5bab67bf0f548587cfaac5bce461a9f03a217f75a444a9bf7c4a14fb"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-estuary-enamel-inspection.json",
+      "bytes": 70941,
+      "sha256": "fd13ca0155d70741b33a39f75e887b14956a16b136b16bcd3083ff353413e631"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-pearly-swirly-inspection.json",
+      "bytes": 70656,
+      "sha256": "59601217093a1dd4dc34ad028e61eb1b08978b88fbc7297554084c23a5030999"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-torched-graphite-inspection.json",
+      "bytes": 70782,
+      "sha256": "978e1e9f00cea5667480a03f27d73677f02e97ac64bf2e53fbb9a82dbb01ca4b"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/notes.md",
+      "bytes": 9749,
+      "sha256": "2eb9943ee18e02b9cb201c0ad4aae564dac11a5b62774588acc073277004b63c"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/prompt.md",
+      "bytes": 2245,
+      "sha256": "be18976800b9239369f9f671bed86ec760f1b48bd707463a37b4e404e859ff57"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-cached-shadow.log",
+      "bytes": 1011,
+      "sha256": "08203a31fcbcbdb4d08418edfa51fa246bccf0b2dc520ad36318d1f643d33403"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-casters.log",
+      "bytes": 1434,
+      "sha256": "2e9237f516662e33b14e7f2a24d897d079d11664ffd169c24441059feb00098b"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-inspection.log",
+      "bytes": 1016,
+      "sha256": "1e44ee67e348ded095d76cf9ca7837ec4fc6a83f8f537c0ef8f95089197a9598"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-late-dependency.log",
+      "bytes": 1358,
+      "sha256": "cb6fb23229d930e2f1b6076d2d2e6e8193f2831a71b3e5ffc1498902ed39577d"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-lifecycle-behavior.log",
+      "bytes": 1532,
+      "sha256": "6b8d05b16cb5dd1f181d68fc155f6118402e4ab7c0007f4182bf1cf1fa98dd8a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-lifecycle.log",
+      "bytes": 1537,
+      "sha256": "f62a107f6c9913cb9139ea3d45d6e11a5c10b8946d1b0605d644d1c2e9f071be"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-reset-momentum.log",
+      "bytes": 2120,
+      "sha256": "834e7095e5d2fa1e405c97dc02934fca7a94cec2b1e78a0565234a34c2912f77"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-rig-refresh.log",
+      "bytes": 1258,
+      "sha256": "b5e837befd8efeb260d780f160c959a9a30f8e33192db2d6a70f2817f84b386c"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/red-variant.log",
+      "bytes": 1981,
+      "sha256": "9d14e3594435f35666b70407620edc50b0fa1abcdb876c99e12dbc8807664bee"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/unit-final.log",
+      "bytes": 732,
+      "sha256": "e6b3b629cce0c627ebbb615530ba396fcacc2eb1029fbc7afd0eb85e60607477"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/unit.log",
+      "bytes": 746,
+      "sha256": "075cc1b7575241d21a6f122bf64e45567028eef5302bff5f7474583b9efe6cb4"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/verification.json",
+      "bytes": 2615,
+      "sha256": "1aebdd6dde76a18cd6978e810f81938957cf26a146d8f020755e2b19e1f107e9"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/verify-closeout.log",
+      "bytes": 268,
+      "sha256": "f4091d66d004098107e112a141b8ccd2eaedc32377abd15e9e1c7e30a7750e6a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/verify.log",
+      "bytes": 268,
+      "sha256": "f4091d66d004098107e112a141b8ccd2eaedc32377abd15e9e1c7e30a7750e6a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-lighting-integration/verify.py",
+      "bytes": 7464,
+      "sha256": "2153e0023f593cc53ba732122cbe4985696260c4741d48a23e1616c29fa554c0"
+    }
+  ]
+}

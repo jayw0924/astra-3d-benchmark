@@ -1,0 +1,47 @@
+
+> astra-3d-benchmark@0.1.0 test:scripts
+> node --test scripts/*.test.mjs
+
+✔ sorts public run summaries deterministically (40.966729ms)
+✔ rejects secret-bearing run records (36.723144ms)
+✔ does not count an unverified Astra model claim (30.793749ms)
+✔ does not count repeated Astra fields when the session export is invalid (30.120682ms)
+✔ Vercel builds the public app without requiring private session transcripts (6.535024ms)
+✔ refuses a download whose SHA-256 does not match (136.982526ms)
+✔ current explanatory copy uses static geometry-count terminology (6.757246ms)
+✔ pins the deterministic geometry toolchain explicitly (3.207578ms)
+✔ official validator parses the immutable Estuary control without errors (291.534933ms)
+✔ ships an exact upstream Basis-Universal-APACHE-2.0.txt copy (3.463464ms)
+✔ ships an exact upstream Basis-Universal-NOTICE.md copy (0.685161ms)
+✔ registers the exact native current viewer preview separately from historical renders (1.308253ms)
+✔ inspection commands distinguish current Safe runtime from historical control (0.517963ms)
+✔ historical handoffs explicitly stop Mobile reruns and link current lighting acceptance (6.381012ms)
+✔ reports exact geometry metrics for the integrated Estuary asset (296.271764ms)
+✔ rejects a project-relative symlink that escapes the project root (91.608923ms)
+✔ removes named trademark nodes from the written model (123.998191ms)
+✔ rejects invalid URI and date-time formats (176.889495ms)
+✔ rejects duplicate asset IDs (133.71239ms)
+✔ verifies byte count and SHA-256 for available assets (182.630531ms)
+✔ rejects unknown input assets, invalid timing, and missing output provenance (173.323185ms)
+✔ discovers nested run records and requires notes (144.227819ms)
+✔ rejects Astra attribution without persisted provider evidence (181.031516ms)
+✔ parses persisted Hermes session evidence instead of trusting repeated fields (178.197157ms)
+✔ requires evidence for a run-level Astra provenance claim (146.729298ms)
+✔ requires the run directory to match the run ID (180.43302ms)
+✔ rejects geometry reports that omit required measured metrics (168.661987ms)
+✔ rejects geometry reports for unknown assets (146.643193ms)
+✔ rejects geometry reports that do not identify the manifest asset bytes (176.982711ms)
+✔ rejects geometry reports whose measured values do not match the pinned GLB (525.486997ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4114.322801
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

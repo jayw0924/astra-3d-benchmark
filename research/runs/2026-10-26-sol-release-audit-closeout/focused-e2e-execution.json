@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "npx",
+    "playwright",
+    "test",
+    "tests/e2e/release-assets.spec.ts",
+    "tests/e2e/showcase.spec.ts",
+    "--grep",
+    "release images|publishes decoded",
+    "--reporter=list"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T18:13:26.292700+00:00",
+  "endedAt": "2026-10-26T18:14:04.493507+00:00",
+  "exitCode": 0
+}

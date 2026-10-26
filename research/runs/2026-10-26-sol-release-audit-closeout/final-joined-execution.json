@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "bash",
+    "-lc",
+    "set -e; python research/runs/2026-10-26-sol-release-audit-closeout/finalize.py; npm run build; npm run build:app; python research/runs/2026-10-26-sol-release-audit-closeout/verify-http.py; git diff --check"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T18:18:18.704704+00:00",
+  "endedAt": "2026-10-26T18:18:59.200215+00:00",
+  "exitCode": 0
+}

@@ -1,0 +1,126 @@
+✖ historical handoffs explicitly stop Mobile reruns and link current lighting acceptance (6.993714ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 49.934767
+
+✖ failing tests:
+
+test at scripts/release-status.test.mjs:5:1
+✖ historical handoffs explicitly stop Mobile reruns and link current lighting acceptance (6.993714ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Current notice.*historical/i. Input:
+  
+  '# Astra execution handoff — Safe WebGL geometry run\n' +
+    '\n' +
+    '## Status\n' +
+    '\n' +
+    'Safe WebGL authoring, corrections and local integration are complete and independently accepted. This file and both correction briefs are historical instructions—do not execute them again. The active next research package is `research/ASTRA_MOBILE_LOD_HANDOFF.md`, starting independently from the original Estuary control. Mobile LOD stays research-only; do not change the working Safe WebGL configurator. No remote deployment, commit or push is authorized.\n' +
+    '\n' +
+    'User-facing project: `~/projects/external/configurator-demo`\n' +
+    'Tool/backend project root: `/workspace`\n' +
+    '\n' +
+    '## Required launch conditions\n' +
+    '\n' +
+    'Start a **fresh Hermes session** in this project with:\n' +
+    '\n' +
+    '- model: `gpt-6-astra`;\n' +
+    '- billing provider: `openai-codex`;\n' +
+    '- project mounted at `/workspace`;\n' +
+    '- private Hermes session persistence enabled.\n' +
+    '\n' +
+    'In Hermes Desktop, choose `gpt-6-astra` in the model picker **before** creating the chat, then press **Ctrl+N**. The picker is sticky, so the new chat should open on Astra. Selecting Astra inside an existing Sol conversation is a mid-session model switch and does not satisfy this requirement, even when the terminal is correctly mounted at `/workspace`.\n' +
+    '\n' +
+    'In the interactive CLI, **Ctrl+N is not the new-session command**. Exit the existing conversation with `/quit`, then launch a new process from the host shell with the model/provider fixed at creation:\n' +
+    '\n' +
+    '`hermes --cli --in /home/jay/projects/external/configurator-demo --provider openai-codex --model gpt-6-astra --pass-session-id`\n' +
+    '\n' +
+    "Run `/status` before the first work message and verify the new session reports `gpt-6-astra` and `openai-codex`. The agent's Docker terminal tools should then report `/workspace`; that is the expected mount of the host project.\n" +
+    '\n' +
+    'Do not run this prompt with Sol or another model and relabel the output as Astra-authored. Astra attribution is accepted only after a private persisted JSONL export verifies the exact model, provider, billing provider, and session identity.\n' +
+    '\n' +
+    '## Frozen prompt to give Astra\n' +
+    '\n' +
+    '> Execute the Safe WebGL geometry-optimization work package in `/workspace`. This is a scored experiment, not a request to modify the public app.\n' +
+    '>\n' +
+    '> Read these files completely before changing anything:\n' +
+    '>\n' +
+    '> - `research/protocols/geometry-optimization-v1.md`\n' +
+    '> - `research/runs/2026-10-21-sol-geometry-toolchain-preflight/{prompt.md,notes.md,environment.json,verification.json,run.json}`\n' +
+    '> - `research/runs/2026-10-21-sol-geometry-baseline/{prompt.md,notes.md,run.json}`\n' +
+    '> - `research/runs/2026-10-21-sol-geometry-baseline/reports/integrated/geometry-report.json`\n' +
+    '> - `research/asset-manifest.json`\n' +
+    '> - `research/schemas/geometry-report.schema.json`\n' +
+    '> - `scripts/report-geometry.mjs`\n' +
+    '>\n' +
+    '> Treat this exact asset as immutable input:\n' +
+    '>\n' +
+    '> - asset ID: `web-product-estuary`\n' +
+    '> - path: `public/assets/models/product-estuary.glb`\n' +
+    '> - bytes: `10191496`\n' +
+    '> - SHA-256: `bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f`\n' +
+    '>\n' +
+    '> Create one uniquely named run directory under `research/runs/` using the form `2026-10-21-astra-geometry-safe-<session-suffix>/`. Write all new work there. Do not overwrite or modify upstream, sanitized, Estuary, public, protocol, schema, application, or completed-run files. Do not commit or push.\n' +
+    '>\n' +
+    '> Before transforming the model, inspect it and rank the plausible browser bottlenecks: geometry, primitive submissions, textures, material/shader complexity, shader compilation, and continuous rendering. State which metric the candidate is intended to improve. Polygon reduction is a hypothesis, not automatic success.\n' +
+    '>\n' +
+    '> Produce a deterministic **Safe WebGL** candidate from the immutable Estuary control using only the accepted pinned glTF Transform 4.5.1 / meshoptimizer 1.2.0 path. Blender and `gltfpack` are unavailable: do not claim Blender/DCC authoring, retopology, or `gltfpack` work. Use repository-controlled paths and arguments only. Maximum three correction rounds.\n' +
+    '>\n' +
+    '> Prioritize visual and semantic parity. Explain every transformation and parameter. Preserve:\n' +
+    '>\n' +
+    '> - absence of `License Plate` and `InteriorSteeringEmblem`;\n' +
+    '> - all four variant names and exactly 25 mapped primitives per variant;\n' +
+    '> - history-independent variant behavior;\n' +
+    '> - required hierarchy/names used by configuration and inspection;\n' +
+    '> - world orientation, origin, scale, and dimensions;\n' +
+    '> - materials, KTX2 textures, UVs, normals, tangents, and assignments required for accepted rendering;\n' +
+    '> - silhouette, wheel circularity/placement, lamps, mirrors, panel boundaries, wipers, glass, and primary interior forms.\n' +
+    '>\n' +
+    '> Required run artifacts include:\n' +
+    '>\n' +
+    '> - exact `prompt.md` containing this prompt;\n' +
+    '> - `notes.md` with diagnosis, transformations, failures, limitations, and measured result;\n' +
+    '> - `environment.json` with exact session/tool/source identity;\n' +
+    '> - deterministic transformation script or complete editable recipe;\n' +
+    '> - `candidate.glb` and a second independently generated repeat output or exact byte-comparison evidence;\n' +
+    '> - a candidate geometry report generated with `scripts/report-geometry.mjs` (use a pending filename if strict repository validation cannot accept the unregistered candidate yet);\n' +
+    '> - official validator output with its known KTX2-support limitation disclosed;\n' +
+    '> - independent protected-semantics comparison against the immutable control;\n' +
+    '> - exact timestamped command log with argv, cwd, exit status, stdout, and stderr;\n' +
+    '> - source and candidate SHA-256/byte counts;\n' +
+    '> - current Hermes session ID and an explicit request/path for the private `session.jsonl` export;\n' +
+    '> - `run.json` conforming to the run schema, honestly marked partial or blocked until authentic session evidence and Sol review are integrated.\n' +
+    '>\n' +
+    '> Run deterministic authoring twice from the immutable control and compare exact bytes. Parse both source and candidate independently. Preserve rejected attempts. Do not use runtime hiding to mask broken content. Do not promote the candidate, modify `research/asset-manifest.json`, update generated study data, or run public integration.\n' +
+    '>\n' +
+    "> The official npm validator's zero-error result is not full current-Khronos certification because it does not fully support `KHR_texture_basisu`/KTX2. Preserve and explain its warning codes.\n" +
+    '>\n' +
+    '> Finish by stating the exact run-directory path, candidate bytes/hash, metric deltas, whether deterministic reproduction passed, remaining visual/browser gates, and the exact private session evidence needed. Then stop for Sol review. Do not begin Mobile LOD.\n' +
+    '\n' +
+    '## Return to Sol\n' +
+    '\n' +
+    'After the Astra session stops, return to this Sol session with the new run-directory path. Sol must then:\n' +
+    '\n' +
+    '1. copy the authentic private Hermes session JSONL into the declared ignored path;\n' +
+    '2. verify session metadata before any Astra attribution;\n' +
+    '3. register the research candidate without promoting it publicly;\n' +
+    '4. rename/finalize the geometry report if it was left pending;\n' +
+    '5. run independent semantic, visual, browser, provenance, and reproducibility review;\n' +
+    '6. accept, reject, or request at most the remaining correction rounds;\n' +
+    '7. launch Mobile LOD only in a second fresh Astra session starting again from `web-product-estuary`.\n' +
+    '\n' +
+    'Do not publish private session JSONL or require it in the clean Vercel build.\n'
+  
+      at TestContext.<anonymous> (file:///workspace/scripts/release-status.test.mjs:8:12)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "# Astra execution handoff — Safe WebGL geometry run\n\n## Status\n\nSafe WebGL authoring, corrections and local integration are complete and independently accepted. This file and both correction briefs are historical instructions—do not execute them again. The active next research package is `research/ASTRA_MOBILE_LOD_HANDOFF.md`, starting independently from the original Estuary control. Mobile LOD stays research-only; do not change the working Safe WebGL configurator. No remote deployment, commit or push is authorized.\n\nUser-facing project: `~/projects/external/configurator-demo`\nTool/backend project root: `/workspace`\n\n## Required launch conditions\n\nStart a **fresh Hermes session** in this project with:\n\n- model: `gpt-6-astra`;\n- billing provider: `openai-codex`;\n- project mounted at `/workspace`;\n- private Hermes session persistence enabled.\n\nIn Hermes Desktop, choose `gpt-6-astra` in the model picker **before** creating the chat, then press **Ctrl+N**. The picker is sticky, so the new chat should open on Astra. Selecting Astra inside an existing Sol conversation is a mid-session model switch and does not satisfy this requirement, even when the terminal is correctly mounted at `/workspace`.\n\nIn the interactive CLI, **Ctrl+N is not the new-session command**. Exit the existing conversation with `/quit`, then launch a new process from the host shell with the model/provider fixed at creation:\n\n`hermes --cli --in /home/jay/projects/external/configurator-demo --provider openai-codex --model gpt-6-astra --pass-session-id`\n\nRun `/status` before the first work message and verify the new session reports `gpt-6-astra` and `openai-codex`. The agent's Docker terminal tools should then report `/workspace`; that is the expected mount of the host project.\n\nDo not run this prompt with Sol or another model and relabel the output as Astra-authored. Astra attribution is accepted only after a private persisted JSONL export verifies the exact model, provider, billing provider, and session identity.\n\n## Frozen prompt to give Astra\n\n> Execute the Safe WebGL geometry-optimization work package in `/workspace`. This is a scored experiment, not a request to modify the public app.\n>\n> Read these files completely before changing anything:\n>\n> - `research/protocols/geometry-optimization-v1.md`\n> - `research/runs/2026-10-21-sol-geometry-toolchain-preflight/{prompt.md,notes.md,environment.json,verification.json,run.json}`\n> - `research/runs/2026-10-21-sol-geometry-baseline/{prompt.md,notes.md,run.json}`\n> - `research/runs/2026-10-21-sol-geometry-baseline/reports/integrated/geometry-report.json`\n> - `research/asset-manifest.json`\n> - `research/schemas/geometry-report.schema.json`\n> - `scripts/report-geometry.mjs`\n>\n> Treat this exact asset as immutable input:\n>\n> - asset ID: `web-product-estuary`\n> - path: `public/assets/models/product-estuary.glb`\n> - bytes: `10191496`\n> - SHA-256: `bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f`\n>\n> Create one uniquely named run directory under `research/runs/` using the form `2026-10-21-astra-geometry-safe-<session-suffix>/`. Write all new work there. Do not overwrite or modify upstream, sanitized, Estuary, public, protocol, schema, application, or completed-run files. Do not commit or push.\n>\n> Before transforming the model, inspect it and rank the plausible browser bottlenecks: geometry, primitive submissions, textures, material/shader complexity, shader compilation, and continuous rendering. State which metric the candidate is intended to improve. Polygon reduction is a hypothesis, not automatic success.\n>\n> Produce a deterministic **Safe WebGL** candidate from the immutable Estuary control using only the accepted pinned glTF Transform 4.5.1 / meshoptimizer 1.2.0 path. Blender and `gltfpack` are unavailable: do not claim Blender/DCC authoring, retopology, or `gltfpack` work. Use repository-controlled paths and arguments only. Maximum three correction rounds.\n>\n> Prioritize visual and semantic parity. Explain every transformation and parameter. Preserve:\n>\n> - absence of `License Plate` and `InteriorSteeringEmblem`;\n> - all four variant names and exactly 25 mapped primitives per variant;\n> - history-independent variant behavior;\n> - required hierarchy/names used by configuration and inspection;\n> - world orientation, origin, scale, and dimensions;\n> - materials, KTX2 textures, UVs, normals, tangents, and assignments required for accepted rendering;\n> - silhouette, wheel circularity/placement, lamps, mirrors, panel boundaries, wipers, glass, and primary interior forms.\n>\n> Required run artifacts include:\n>\n> - exact `prompt.md` containing this prompt;\n> - `notes.md` with diagnosis, transformations, failures, limitations, and measured result;\n> - `environment.json` with exact session/tool/source identity;\n> - deterministic transformation script or complete editable recipe;\n> - `candidate.glb` and a second independently generated repeat output or exact byte-comparison evidence;\n> - a candidate geometry report generated with `scripts/report-geometry.mjs` (use a pending filename if strict repository validation cannot accept the unregistered candidate yet);\n> - official validator output with its known KTX2-support limitation disclosed;\n> - independent protected-semantics comparison against the immutable control;\n> - exact timestamped command log with argv, cwd, exit status, stdout, and stderr;\n> - source and candidate SHA-256/byte counts;\n> - current Hermes session ID and an explicit request/path for the private `session.jsonl` export;\n> - `run.json` conforming to the run schema, honestly marked partial or blocked until authentic session evidence and Sol review are integrated.\n>\n> Run deterministic authoring twice from the immutable control and compare exact bytes. Parse both source and candidate independently. Preserve rejected attempts. Do not use runtime hiding to mask broken content. Do not promote the candidate, modify `research/asset-manifest.json`, update generated study data, or run public integration.\n>\n> The official npm validator's zero-error result is not full current-Khronos certification because it does not fully support `KHR_texture_basisu`/KTX2. Preserve and explain its warning codes.\n>\n> Finish by stating the exact run-directory path, candidate bytes/hash, metric deltas, whether deterministic reproduction passed, remaining visual/browser gates, and the exact private session evidence needed. Then stop for Sol review. Do not begin Mobile LOD.\n\n## Return to Sol\n\nAfter the Astra session stops, return to this Sol session with the new run-directory path. Sol must then:\n\n1. copy the authentic private Hermes session JSONL into the declared ignored path;\n2. verify session metadata before any Astra attribution;\n3. register the research candidate without promoting it publicly;\n4. rename/finalize the geometry report if it was left pending;\n5. run independent semantic, visual, browser, provenance, and reproducibility review;\n6. accept, reject, or request at most the remaining correction rounds;\n7. launch Mobile LOD only in a second fresh Astra session starting again from `web-product-estuary`.\n\nDo not publish private session JSONL or require it in the clean Vercel build.\n",
+    expected: /Current notice.*historical/i,
+    operator: 'match',
+    diff: 'simple'
+  }

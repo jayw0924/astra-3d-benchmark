@@ -1,0 +1,43 @@
+
+Running 1 test using 1 worker
+
+  ✘  1 [chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions (4.7s)
+
+
+  1) [chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "850 / 778"
+    Received: "3 / 2"
+
+      16 |   await preview.scrollIntoViewIfNeeded();
+      17 |   await expect.poll(() => preview.evaluate((node: HTMLImageElement) => node.complete && node.naturalWidth === 850 && node.naturalHeight === 778)).toBe(true);
+    > 18 |   expect(await preview.evaluate((node) => getComputedStyle(node).aspectRatio)).toBe('850 / 778');
+         |                                                                                ^
+      19 |   const response = await request.get('/assets/viewer/refined-estuary-native.png');
+      20 |   expect(response.ok()).toBe(true);
+      21 |   const body = await response.body();
+        at /workspace/tests/e2e/release-assets.spec.ts:18:80
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/release-assets-release-ima-457a4-bytes-and-native-dimensions-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/release-assets-release-ima-457a4-bytes-and-native-dimensions-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/release-assets-release-ima-457a4-bytes-and-native-dimensions-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/release-assets-release-ima-457a4-bytes-and-native-dimensions-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions 
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,76 @@
+{
+  "recordedAt": "2026-10-26T18:18:18.925645+00:00",
+  "files": {
+    "research/asset-manifest.json": {
+      "bytes": 24461,
+      "sha256": "58396a554446033d97e3239eb543ab86df05f3dd588e6ea365989692ddf2d831"
+    },
+    "research/protocol.md": {
+      "bytes": 4488,
+      "sha256": "ca9e65e44eb776c0777ab088d4ef7de1ca26ca721f140d43aca7ebfb805065e3"
+    },
+    "research/ASTRA_HANDOFF.md": {
+      "bytes": 7429,
+      "sha256": "cadd4f0ff3a34a7288dde570584ab8c22b9e72a1651af50e5875de315370d2a6"
+    },
+    "research/ASTRA_MOBILE_LOD_HANDOFF.md": {
+      "bytes": 8707,
+      "sha256": "ee7152bd9a31e4e25276d52ec392d3d50593834c29cfe09f74a089029b016d8a"
+    },
+    "research/SAFE_WEBGL_INTEGRATION.md": {
+      "bytes": 3358,
+      "sha256": "b624c2acc4387645eb6fd148241d50e4b3a89460d246c654df3de12e15460b82"
+    },
+    "licenses/THIRD_PARTY_ASSETS.md": {
+      "bytes": 3969,
+      "sha256": "66e5d7ecf362908b14f2a7e551cf6075fd5a1775e9c4a8df41292661cd465e5d"
+    },
+    "package.json": {
+      "bytes": 3047,
+      "sha256": "9cf89ea0104d946c8792018ec980224c09228e0bbca9b47a8fe70ba7d32d1ce4"
+    },
+    "src/App.tsx": {
+      "bytes": 19596,
+      "sha256": "746f84c2df92505060b6827340aab12506bafe191bbb650aeffbc602a59f6345"
+    },
+    "src/App.test.tsx": {
+      "bytes": 5869,
+      "sha256": "c512915128a0f9d2c94a07d71c1cc496a39e72fe4cb6accfafdd78be6ee5c147"
+    },
+    "src/styles.css": {
+      "bytes": 14403,
+      "sha256": "e872d2171755e5fb9c6451ae20ce8b8910acad0f229b1eb88a52e412c1ff9564"
+    },
+    "tests/e2e/showcase.spec.ts": {
+      "bytes": 7097,
+      "sha256": "be1d7f291b3ab625f55055b7f12167ba2657affce86377df448daa0ee8b9d822"
+    },
+    "tests/e2e/release-assets.spec.ts": {
+      "bytes": 1926,
+      "sha256": "a3e40cd942287fa3bb8d4142f0140df23084ea6910b1a4f5436759d0fb345732"
+    },
+    "scripts/release-audit.test.mjs": {
+      "bytes": 1538,
+      "sha256": "7c87649166b4f295b5138c3c2546573f3cf078065925f9769cad1740bc0b58ee"
+    },
+    "scripts/release-status.test.mjs": {
+      "bytes": 941,
+      "sha256": "add82539fdb5886cb01c1cd40de1fb9728e0f9206357c5aa4a9768a4db6be815"
+    },
+    "public/assets/viewer/refined-estuary-native.png": {
+      "bytes": 244385,
+      "sha256": "81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
+      "exactSourceCopy": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png"
+    },
+    "public/licenses/Basis-Universal-APACHE-2.0.txt": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "exactSourceCopy": "licenses/upstream/Basis-Universal-APACHE-2.0.txt"
+    },
+    "public/licenses/Basis-Universal-NOTICE.md": {
+      "bytes": 991,
+      "sha256": "149c6874933d80d81e2c0744deb9f5a6ec6321a8593b8cd909827dd49cb0c59b",
+      "exactSourceCopy": "licenses/upstream/Basis-Universal-NOTICE.md"
+    }
+  }
+}

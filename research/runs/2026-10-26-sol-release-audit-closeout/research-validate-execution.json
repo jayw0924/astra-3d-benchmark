@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "npm",
+    "run",
+    "research:validate"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T18:15:43.615058+00:00",
+  "endedAt": "2026-10-26T18:15:46.112314+00:00",
+  "exitCode": 0
+}

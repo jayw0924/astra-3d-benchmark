@@ -2,7 +2,7 @@
   "id": "2026-10-23-sol-viewer-lighting-refinement",
   "title": "Sol bounded studio refinement — selected lighting, preserved 32-case evidence",
   "startedAt": "2026-10-25T20:32:33.788Z",
-  "endedAt": "2026-10-26T17:59:58.876Z",
+  "endedAt": "2026-10-26T18:03:05.625Z",
   "model": "gpt-6.1-sol",
   "provider": "openai-codex",
   "interface": "Hermes Agent with Docker terminal backend; declared runtime attribution, not authenticated session export",
@@ -897,7 +897,7 @@
       }
     ]
   },
-  "elapsedSeconds": 77245.088,
+  "elapsedSeconds": 77431.837,
   "cost": {
     "amount": null,
     "currency": "USD",

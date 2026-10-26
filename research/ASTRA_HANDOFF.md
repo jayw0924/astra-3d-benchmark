@@ -1,8 +1,8 @@
 # Astra execution handoff — Safe WebGL geometry run
 
-## Status
+## Current notice — historical handoff
 
-Safe WebGL authoring, corrections and local integration are complete and independently accepted. This file and both correction briefs are historical instructions—do not execute them again. The active next research package is `research/ASTRA_MOBILE_LOD_HANDOFF.md`, starting independently from the original Estuary control. Mobile LOD stays research-only; do not change the working Safe WebGL configurator. No remote deployment, commit or push is authorized.
+Safe WebGL authoring, corrections and local integration are complete and independently accepted. This file and both correction briefs are historical instructions—do not execute them again. The existing Mobile LOD low-benefit experiment is stopped; this handoff gives no authority to rerun it or start further authoring. Current refined lighting acceptance is recorded in [the lighting integration record](runs/2026-10-26-sol-lighting-integration/run.json) and [current acceptance](runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/current-acceptance.json). No remote deployment, commit or push is authorized.
 
 User-facing project: `~/projects/external/configurator-demo`
 Tool/backend project root: `/workspace`

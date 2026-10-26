@@ -24,7 +24,7 @@
   "currentExecutedChecks": {
     "originalFocusedTests": {"passed": 2, "evidence": "original-focused.log"},
     "refinementFocusedTests": {"passed": 2, "evidence": "refinement-focused.log"},
-    "fullUnitTests": {"passed": 36, "files": 6, "evidence": "unit.log"},
+    "fullUnitTests": {"passed": 36, "files": 6, "evidence": "unit.log", "rerunAgainstGeneratedProjection": "unit-projection.log; 36 passed"},
     "scriptTests": {"passed": 25, "evidence": "script-tests.log"},
     "renderPlanTests": {"passed": 6, "evidence": "render-plan.log"},
     "pairedMatrixValidation": {"captures": [72,32], "evidence": "paired-matrix.log"},

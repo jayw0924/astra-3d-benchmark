@@ -1,5 +1,9 @@
 # Astra Mobile LOD — isolated research candidate
 
+## Current notice — historical instructions, not authorization
+
+The existing Mobile LOD low-benefit experiment is stopped. This retained brief gives no authority to rerun it, spend remaining corrections, promote it, or start further authoring. The imperative instructions below are historical evidence only. The accepted Safe runtime remains unchanged; current refined lighting acceptance is in [the lighting integration record](runs/2026-10-26-sol-lighting-integration/run.json) and [current acceptance](runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/current-acceptance.json). No commit, push or deployment is authorized.
+
 ## Work-package boundary
 
 Safe WebGL is locally integrated and preserved. Execute ONE independent Mobile LOD authoring experiment, not application integration. Start from the original Estuary control, NEVER from the accepted Safe WebGL candidate or any rejected/corrected candidate. Mobile LOD is a target, not a mobile performance or quality verdict. It stays research-only until separate visual/browser review, a tested selection policy and real-device evidence justify integration.

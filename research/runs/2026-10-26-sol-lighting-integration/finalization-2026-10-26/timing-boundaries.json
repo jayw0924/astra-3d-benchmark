@@ -1,5 +1,5 @@
 {
-  "finalizedAt": "2026-10-26T17:59:58.876Z",
+  "finalizedAt": "2026-10-26T18:03:05.625Z",
   "scope": "Observed retained-evidence boundaries through this record finalization; NOT full original or active runtime. Original launch times and cost unavailable.",
   "runs": {
     "2026-10-23-sol-viewer-lighting": {
@@ -9,7 +9,7 @@
         "field": "images timestamp",
         "id": "original-0-front-three-quarter"
       },
-      "endedAt": "2026-10-26T17:59:58.876Z",
+      "endedAt": "2026-10-26T18:03:05.625Z",
       "endBoundary": "Actual records finalization clock, not historical execution completion"
     },
     "2026-10-23-sol-viewer-lighting-refinement": {
@@ -19,7 +19,7 @@
         "field": "images timestamp",
         "id": "grounded-studio-0-front-three-quarter"
       },
-      "endedAt": "2026-10-26T17:59:58.876Z",
+      "endedAt": "2026-10-26T18:03:05.625Z",
       "endBoundary": "Actual records finalization clock, not historical execution completion"
     },
     "2026-10-26-sol-lighting-integration": {
@@ -29,7 +29,7 @@
         "field": "time",
         "unixSeconds": 1793029857.837128
       },
-      "endedAt": "2026-10-26T17:59:58.876Z",
+      "endedAt": "2026-10-26T18:03:05.625Z",
       "endBoundary": "Actual records finalization clock, not historical execution completion"
     }
   }

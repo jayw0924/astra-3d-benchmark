@@ -1,0 +1,33 @@
+{
+  "baseURL": "http://127.0.0.1:45937",
+  "results": [
+    {
+      "url": "/licenses/Basis-Universal-APACHE-2.0.txt",
+      "status": 200,
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "exactSource": "licenses/upstream/Basis-Universal-APACHE-2.0.txt"
+    },
+    {
+      "url": "/licenses/Basis-Universal-NOTICE.md",
+      "status": 200,
+      "bytes": 991,
+      "sha256": "149c6874933d80d81e2c0744deb9f5a6ec6321a8593b8cd909827dd49cb0c59b",
+      "exactSource": "licenses/upstream/Basis-Universal-NOTICE.md"
+    },
+    {
+      "url": "/assets/viewer/refined-estuary-native.png",
+      "status": 200,
+      "bytes": 244385,
+      "sha256": "81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
+      "exactSource": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png"
+    },
+    {
+      "url": "/assets/models/product-estuary-safe.glb",
+      "status": 200,
+      "bytes": 9239404,
+      "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+      "exactSource": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/candidate.glb"
+    }
+  ]
+}

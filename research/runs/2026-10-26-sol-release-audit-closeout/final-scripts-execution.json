@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "npm",
+    "run",
+    "test:scripts"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T18:17:56.087952+00:00",
+  "endedAt": "2026-10-26T18:18:00.470621+00:00",
+  "exitCode": 0
+}

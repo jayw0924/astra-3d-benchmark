@@ -12,19 +12,19 @@ const workPackages = [
 
 const renderStudies = [
   {
-    title: 'Viewer-light study',
+    title: 'Historical viewer-light study',
     src: '/assets/renders/estuary-viewer-front-three-quarter.png',
-    alt: 'Estuary Enamel under the configurator lighting, front three-quarter view',
+    alt: 'Historical Estuary Enamel under the configurator lighting (original rig), front three-quarter view',
   },
   {
     title: 'Neutral-light study',
     src: '/assets/renders/estuary-neutral-front-three-quarter.png',
-    alt: 'Estuary Enamel under neutral lighting, front three-quarter view',
+    alt: 'Historical Estuary Enamel under neutral lighting, front three-quarter view',
   },
   {
     title: 'Material close-ups',
     src: '/assets/renders/estuary-neutral-closeup.png',
-    alt: 'Estuary Enamel paint and mirror close-up under neutral lighting',
+    alt: 'Historical Estuary Enamel paint and mirror close-up under neutral lighting',
   },
 ] as const;
 
@@ -98,13 +98,13 @@ export default function App() {
         <section className="output-overview" aria-labelledby="output-title">
           <div className="section-heading">
             <p className="eyebrow">Output 01</p>
-            <h2 id="output-title">Rendered studies</h2>
+            <h2 id="output-title">Historical material comparison</h2>
             <p>
-              The comparison package contains 30 controlled browser renders covering
+              The historical material comparison package contains 30 controlled browser renders covering
               two material candidates, two light rigs, exterior views, and close-ups.
             </p>
           </div>
-          <div className="render-grid" aria-label="Render study status">
+          <div className="render-grid historical-material-evidence" aria-label="Historical material comparison renders">
             {renderStudies.map((study, index) => (
               <article className="render-card" key={study.title}>
                 <img
@@ -117,13 +117,26 @@ export default function App() {
                 <div className="render-card-body">
                   <span>0{index + 1}</span>
                   <div>
-                  <p className="eyebrow">Captured and verified</p>
+                  <p className="eyebrow">Historical material evidence · original rig</p>
                     <h3>{study.title}</h3>
                   </div>
                 </div>
               </article>
             ))}
           </div>
+        </section>
+
+        <section className="output-overview current-viewer-preview" aria-labelledby="current-preview-title">
+          <div className="section-heading">
+            <p className="eyebrow">Current viewer · refined lighting</p>
+            <h2 id="current-preview-title">Refined viewer preview</h2>
+            <p>Existing Sol Chromium capture at native 850×778; not a controlled before/after comparison.
+              Source: 2026-10-26-sol-lighting-integration. Safe GLB and materials are unchanged.</p>
+          </div>
+          <article className="render-card">
+            <img src="/assets/viewer/refined-estuary-native.png" alt="Current refined viewer: Estuary Enamel" width="850" height="778" loading="lazy" />
+            <div className="render-card-body"><p>Sol-authored lighting and capture; sourced CarConcept, Astra Estuary material and Safe geometry credits retained.</p></div>
+          </article>
         </section>
 
         <section id="safe-result" className="geometry-section" aria-labelledby="safe-title">
@@ -236,7 +249,8 @@ export default function App() {
             <p>
               Three supplied finishes plus Estuary Enamel, a controlled wheel finish,
               and an inspectable WebGL2 implementation. Trademark-bearing plate and
-              emblem nodes are removed from the served derivative.
+              emblem nodes are removed from the served derivative. The current viewer uses
+              the refined Sol-authored lighting rig on the unchanged accepted Safe GLB.
             </p>
           </div>
           <Suspense fallback={<p role="status">Preparing 3D configurator…</p>}>
@@ -249,10 +263,19 @@ export default function App() {
             <p className="eyebrow">How the study works</p>
             <h2 id="methods-title">Methods</h2>
             <p>
-              Each run records the exact model, tools, inputs, prompt, elapsed time,
-              cost basis, human intervention, outputs, and failure notes.
+              Run records retain available model, tool, input, prompt, intervention,
+              output and failure evidence; missing fields are explicitly qualified.
             </p>
           </div>
+          <p>Sol (gpt-6.1-sol), not Astra, authored the lighting study and integration:
+            72 initial lighting captures, 32 refinement captures, and 16 paired comparisons.
+            Procedural studio reflections, direct-light rebalance and grounding are bundled presentation interventions,
+            not isolated single-variable causal tests.
+            Jay gave subjective approval of the refined lighting checkpoint, not technical or legal certification.
+            The accepted Safe GLB and materials remain unchanged.
+            Full active timing and billing cost are unavailable and not reconstructed.
+            Run IDs: 2026-10-23-sol-viewer-lighting, 2026-10-23-sol-viewer-lighting-refinement,
+            2026-10-26-sol-lighting-integration.</p>
           <ol className="method-list">
             {workPackages.map(([number, title, copy]) => (
               <li key={number}>
@@ -364,6 +387,12 @@ export default function App() {
             Chadwick. The supplied CarConcept package is licensed CC BY 4.0, excluding
             logos and trademarks. No endorsement is implied.
           </p>
+          <p>Project derivatives remove mark-bearing nodes; Astra authored Estuary Enamel and directed Safe geometry optimization.
+            Sol authored comparison captures, refined lighting, public preview copying and integration.
+            These model-derived images retain the source attribution and license; no legal certification is claimed.</p>
+          <p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>{' · '}
+            <a href="/licenses/Basis-Universal-APACHE-2.0.txt">Basis Universal Apache 2.0 license</a>{' · '}
+            <a href="/licenses/Basis-Universal-NOTICE.md">Basis Universal NOTICE</a></p>
           <a href="https://github.com/KhronosGroup/glTF-Sample-Assets/tree/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept">
             View the immutable upstream source
           </a>

@@ -3,6 +3,22 @@ import { describe, expect, it } from 'vitest';
 import App from './App';
 
 describe('App', () => {
+  it('distinguishes current refined preview from historical evidence and discloses lighting authorship', () => {
+    render(<App />);
+    expect(screen.getByRole('heading', { name: 'Historical material comparison' })).toBeVisible();
+    const preview = screen.getByRole('img', { name: 'Current refined viewer: Estuary Enamel' });
+    expect(preview).toHaveAttribute('src', '/assets/viewer/refined-estuary-native.png');
+    expect(preview).toHaveAttribute('width', '850');
+    expect(preview).toHaveAttribute('height', '778');
+    expect(screen.getByText(/not a controlled before\/after comparison/i)).toBeVisible();
+    expect(screen.getByText(/72 initial lighting captures, 32 refinement captures, and 16 paired comparisons/)).toBeVisible();
+    expect(screen.getByText(/Jay.*subjective approval/)).toBeVisible();
+    expect(screen.getByText(/unavailable.*not reconstructed/)).toBeVisible();
+    expect(screen.getByRole('link', { name: 'CC BY 4.0 license' })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/4.0/');
+    expect(screen.getByRole('link', { name: 'Basis Universal Apache 2.0 license' })).toHaveAttribute('href', '/licenses/Basis-Universal-APACHE-2.0.txt');
+    expect(screen.getByRole('link', { name: 'Basis Universal NOTICE' })).toHaveAttribute('href', '/licenses/Basis-Universal-NOTICE.md');
+    expect(screen.queryByText(/Each run records the exact model/)).not.toBeInTheDocument();
+  });
   it('publishes the accepted Safe result with fixed-view limits and historical control', () => {
     render(<App />);
     expect(screen.getByRole('heading', { name: 'Accepted Safe geometry' })).toBeVisible();
