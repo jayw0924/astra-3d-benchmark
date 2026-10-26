@@ -1,0 +1,53 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/threeViewer.integration.test.ts (4 tests | 2 failed) 14ms
+   ❯ live lighting lifecycle (4)
+     × refreshes shadows only after assignments commit, not stale async completions 7ms
+     × does not request or attach variants after disposal 2ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/threeViewer.integration.test.ts > live lighting lifecycle > refreshes shadows only after assignments commit, not stale async completions
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+ ❯ src/lib/threeViewer.integration.test.ts:27:40
+     25|   asset.parser.getDependency.mockImplementationOnce(() => new Promise(…
+     26|   const stale=viewer.setFinish('Carmine Candy'); await viewer.setFinis…
+     27|   expect(state.rigs[1].refreshCasters).toHaveBeenCalledOnce();expect(a…
+       |                                        ^
+     28|   resolveFirst(new MeshStandardMaterial());await stale;
+     29|   expect(state.rigs[1].refreshCasters).toHaveBeenCalledOnce();expect(a…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/lib/threeViewer.integration.test.ts > live lighting lifecycle > does not request or attach variants after disposal
+AssertionError: expected "vi.fn()" to not be called at all, but actually been called 1 times
+
+Received:
+
+  1st vi.fn() call:
+
+    Array [
+      "material",
+      0,
+    ]
+
+
+Number of calls: 1
+
+ ❯ src/lib/threeViewer.integration.test.ts:39:42
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 2 passed (4)
+   Start at  16:11:56
+   Duration  848ms (environment 75%, setup 10%, transform 9%, import 4%, tests 2%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

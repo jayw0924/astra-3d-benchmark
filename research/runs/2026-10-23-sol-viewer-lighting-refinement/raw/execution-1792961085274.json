@@ -1,0 +1,11 @@
+{
+  "action": "capture",
+  "errors": [],
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x1524001ce200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    }
+  ],
+  "modelRequests": 1
+}

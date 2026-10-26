@@ -1,0 +1,11 @@
+# Local lighting integration brief
+
+Attribution: Sol local viewer-lighting integration; not Astra geometry work.
+
+## Delegated user prompt (verbatim)
+
+Integrate Jay-selected refined lighting as actual local viewer default with strictTDD and real browser verification. Load webgl-lighting-experiments/TDD/project delivery skills. Trace model centering/rotation/worldbounds setup; create grounded rig only when loaded transformed model ready,dispose old rig before replacement safely and on teardown. Preserve source recipe presets for rollback; no material mutations beyond preexistingwheel treatment. Shadowcaster eligibility should refresh on actual variant changes and invalidate cached shadows; asyncload/dispose leaks covered tests. Add failing tests beforeminimal fixes and verify renderer shadow/environmentstate restoration. Live browser served unchangedGLB hash all4finishes material assignments if instrumentable using safe test seam, wheel/orbit/zoom/reset, shadows following model correctly, no page/requesterrors. DPR1SwiftShader sequential,bounded tests, disclose tests that only verify UI not actualvisual. Capture native beforeoriginal/afterrefined actualapp fixedcamera,desktopmobile screenshots,persist images/hashes/logs. Check all4finishes native view plusglass/ground contact; don't infer subjectiveapproval; note artifacts/tradeoffs. Run actualunit/lint/build:app and focused desktop/mobile E2E. Document rollback one line/preserved recipes,SolnotAstra attribution,pending finalJayapproval,no commit/push/deploy. Produce prompt,notes,verification/testlogs innewdir no finalrun.json/preference invention. Don't overwrite historical evidence or generatedstudydata,manifest/protocol. Finish real execution not plan.
+
+## Scope and authorization context
+
+User-visible repo: `/home/jay/projects/external/configurator-demo`; tools resolve that mounted repository to `/workspace`. Initial inventory is `inventory.json`. Existing lighting factory, tests, protocol and October 23 experiment directories were already uncommitted before this task. Jay's existing preference is `../2026-10-23-sol-viewer-lighting-refinement/preference.json`; it was not edited. Final actual-result approval and commit/push/deployment are not authorized.

@@ -1,0 +1,45 @@
+
+> astra-3d-benchmark@0.1.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test tests/e2e/lighting.spec.ts --project=mobile-chromium --grep Carmine Candy --workers=1 --reporter=list
+
+
+Running 1 test using 1 worker
+
+  ✘  1 [mobile-chromium] › tests/e2e/lighting.spec.ts:15:2 › refined live lighting Carmine Candy (2.5m)
+
+
+  1) [mobile-chromium] › tests/e2e/lighting.spec.ts:15:2 › refined live lighting Carmine Candy ─────
+
+    TimeoutError: page.screenshot: Timeout 120000ms exceeded.
+    Call log:
+      - taking page screenshot
+      - waiting for fonts to load...
+      - fonts loaded
+
+
+      30 |   // Native app pixels; no custom render harness or model/camera overrides.
+      31 |   if(process.env.CAPTURE_LIGHTING==='1') {
+    > 32 |    await page.screenshot({path:path.join(out,`after-refined-${label}-native.png`),clip:(await canvas.boundingBox())!,timeout:120000});
+         |               ^
+      33 |   }
+      34 |   const frames=initial.renderedFrames;await expect.poll(async()=>(await inspect(page)).renderedFrames,{timeout:120000}).toBeGreaterThan(frames);
+      35 |   if(finish==='Carmine Candy') {
+        at /workspace/tests/e2e/lighting.spec.ts:32:15
+
+    Error Context: test-results/lighting-refined-live-lighting-Carmine-Candy-mobile-chromium/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/lighting-refined-live-lighting-Carmine-Candy-mobile-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/lighting-refined-live-lighting-Carmine-Candy-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [mobile-chromium] › tests/e2e/lighting.spec.ts:15:2 › refined live lighting Carmine Candy ──────
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

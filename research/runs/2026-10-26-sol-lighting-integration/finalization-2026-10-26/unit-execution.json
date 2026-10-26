@@ -1,0 +1,13 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T17:59:01.976075+00:00",
+  "endedAt": "2026-10-26T17:59:08.633941+00:00",
+  "elapsedSeconds": 6.657874144962989,
+  "exitCode": 0,
+  "log": "unit.log"
+}

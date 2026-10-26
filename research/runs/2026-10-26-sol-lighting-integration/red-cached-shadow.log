@@ -1,0 +1,27 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/threeViewer.integration.test.ts (7 tests | 1 failed) 20ms
+   ❯ live lighting lifecycle (7)
+     × does not invalidate cached shadows when finish assignments are unchanged 7ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/threeViewer.integration.test.ts > live lighting lifecycle > does not invalidate cached shadows when finish assignments are unchanged
+AssertionError: expected "vi.fn()" to be called once, but got 2 times
+ ❯ src/lib/threeViewer.integration.test.ts:23:263
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 6 passed (7)
+   Start at  16:17:01
+   Duration  910ms (environment 74%, setup 10%, import 9%, transform 5%, tests 3%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

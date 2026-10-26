@@ -1,0 +1,24 @@
+[
+  {
+    "layout": "desktop",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "images": 13,
+    "bad": [],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "layout": "mobile",
+    "viewport": {
+      "width": 393,
+      "height": 851
+    },
+    "images": 13,
+    "bad": [],
+    "overflow": 0,
+    "errors": []
+  }
+]

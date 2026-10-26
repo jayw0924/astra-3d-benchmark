@@ -1,0 +1,166 @@
+{
+  "scope": "Historical package retained byte-for-byte. Re-render parity is measured, not assumed or repaired. Differences may depend on context/material/program history; cause unisolated. No pixel retouching.",
+  "historicalFilesVerified": 209,
+  "baselineFramesCompared": 16,
+  "exactByteFrames": 10,
+  "rows": [
+    {
+      "id": "grounded-studio-0-front-three-quarter",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-0-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-0-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "meanAbsoluteChannelDeltaAllPixels": 8.75e-05,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ]
+    },
+    {
+      "id": "grounded-studio-0-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-1-front-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 4,
+      "meanAbsoluteChannelDeltaAllPixels": 5e-05,
+      "differenceBounds": [
+        251,
+        184,
+        446,
+        256
+      ]
+    },
+    {
+      "id": "grounded-studio-1-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-1-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "meanAbsoluteChannelDeltaAllPixels": 8.75e-05,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ]
+    },
+    {
+      "id": "grounded-studio-1-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-2-front-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 4,
+      "meanAbsoluteChannelDeltaAllPixels": 5e-05,
+      "differenceBounds": [
+        251,
+        184,
+        446,
+        256
+      ]
+    },
+    {
+      "id": "grounded-studio-2-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-2-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "meanAbsoluteChannelDeltaAllPixels": 8.75e-05,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ]
+    },
+    {
+      "id": "grounded-studio-2-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-3-front-three-quarter",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-3-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    },
+    {
+      "id": "grounded-studio-3-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "meanAbsoluteChannelDeltaAllPixels": 8.75e-05,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ]
+    },
+    {
+      "id": "grounded-studio-3-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDeltaAllPixels": 0.0,
+      "differenceBounds": null
+    }
+  ]
+}

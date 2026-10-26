@@ -1,0 +1,10 @@
+✔ balanced 72 cases with unique outputs and immutable pins (1.250273ms)
+✔ incomplete or duplicate evidence fails closed (14.08329ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 109.247983

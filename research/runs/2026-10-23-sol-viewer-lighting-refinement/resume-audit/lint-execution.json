@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "npm",
+    "run",
+    "lint"
+  ],
+  "cwd": "/workspace",
+  "start": "2026-10-26T14:13:00.863204+00:00",
+  "reason": "Historical lint log has no explicit exit status; establish status without replaying captures or completed tests/build.",
+  "exitCode": 0,
+  "end": "2026-10-26T14:13:05.015010+00:00"
+}

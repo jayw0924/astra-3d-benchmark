@@ -1,0 +1,463 @@
+{
+  "settings": {
+    "width": 600,
+    "height": 400,
+    "dpr": 1,
+    "fov": 32,
+    "near": 0.01,
+    "far": 100,
+    "exposure": 1.05,
+    "background": "#ddd9d0",
+    "rotationY": -0.22
+  },
+  "model": {
+    "url": "/assets/models/product-estuary-safe.glb",
+    "path": "public/assets/models/product-estuary-safe.glb",
+    "bytes": 9239404,
+    "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+  },
+  "matrix": [
+    {
+      "rig": "original",
+      "finish": "Carmine Candy",
+      "target": "front-three-quarter",
+      "id": "original-0-front-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Carmine Candy",
+      "target": "side",
+      "id": "original-0-side"
+    },
+    {
+      "rig": "original",
+      "finish": "Carmine Candy",
+      "target": "rear-three-quarter",
+      "id": "original-0-rear-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Carmine Candy",
+      "target": "paint",
+      "id": "original-0-paint"
+    },
+    {
+      "rig": "original",
+      "finish": "Carmine Candy",
+      "target": "glass",
+      "id": "original-0-glass"
+    },
+    {
+      "rig": "original",
+      "finish": "Carmine Candy",
+      "target": "wheel",
+      "id": "original-0-wheel"
+    },
+    {
+      "rig": "original",
+      "finish": "Pearly Swirly",
+      "target": "front-three-quarter",
+      "id": "original-1-front-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Pearly Swirly",
+      "target": "side",
+      "id": "original-1-side"
+    },
+    {
+      "rig": "original",
+      "finish": "Pearly Swirly",
+      "target": "rear-three-quarter",
+      "id": "original-1-rear-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Pearly Swirly",
+      "target": "paint",
+      "id": "original-1-paint"
+    },
+    {
+      "rig": "original",
+      "finish": "Pearly Swirly",
+      "target": "glass",
+      "id": "original-1-glass"
+    },
+    {
+      "rig": "original",
+      "finish": "Pearly Swirly",
+      "target": "wheel",
+      "id": "original-1-wheel"
+    },
+    {
+      "rig": "original",
+      "finish": "Torched Graphite",
+      "target": "front-three-quarter",
+      "id": "original-2-front-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Torched Graphite",
+      "target": "side",
+      "id": "original-2-side"
+    },
+    {
+      "rig": "original",
+      "finish": "Torched Graphite",
+      "target": "rear-three-quarter",
+      "id": "original-2-rear-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Torched Graphite",
+      "target": "paint",
+      "id": "original-2-paint"
+    },
+    {
+      "rig": "original",
+      "finish": "Torched Graphite",
+      "target": "glass",
+      "id": "original-2-glass"
+    },
+    {
+      "rig": "original",
+      "finish": "Torched Graphite",
+      "target": "wheel",
+      "id": "original-2-wheel"
+    },
+    {
+      "rig": "original",
+      "finish": "Estuary Enamel",
+      "target": "front-three-quarter",
+      "id": "original-3-front-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Estuary Enamel",
+      "target": "side",
+      "id": "original-3-side"
+    },
+    {
+      "rig": "original",
+      "finish": "Estuary Enamel",
+      "target": "rear-three-quarter",
+      "id": "original-3-rear-three-quarter"
+    },
+    {
+      "rig": "original",
+      "finish": "Estuary Enamel",
+      "target": "paint",
+      "id": "original-3-paint"
+    },
+    {
+      "rig": "original",
+      "finish": "Estuary Enamel",
+      "target": "glass",
+      "id": "original-3-glass"
+    },
+    {
+      "rig": "original",
+      "finish": "Estuary Enamel",
+      "target": "wheel",
+      "id": "original-3-wheel"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Carmine Candy",
+      "target": "front-three-quarter",
+      "id": "environment-only-0-front-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Carmine Candy",
+      "target": "side",
+      "id": "environment-only-0-side"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Carmine Candy",
+      "target": "rear-three-quarter",
+      "id": "environment-only-0-rear-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Carmine Candy",
+      "target": "paint",
+      "id": "environment-only-0-paint"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Carmine Candy",
+      "target": "glass",
+      "id": "environment-only-0-glass"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Carmine Candy",
+      "target": "wheel",
+      "id": "environment-only-0-wheel"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Pearly Swirly",
+      "target": "front-three-quarter",
+      "id": "environment-only-1-front-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Pearly Swirly",
+      "target": "side",
+      "id": "environment-only-1-side"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Pearly Swirly",
+      "target": "rear-three-quarter",
+      "id": "environment-only-1-rear-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Pearly Swirly",
+      "target": "paint",
+      "id": "environment-only-1-paint"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Pearly Swirly",
+      "target": "glass",
+      "id": "environment-only-1-glass"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Pearly Swirly",
+      "target": "wheel",
+      "id": "environment-only-1-wheel"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Torched Graphite",
+      "target": "front-three-quarter",
+      "id": "environment-only-2-front-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Torched Graphite",
+      "target": "side",
+      "id": "environment-only-2-side"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Torched Graphite",
+      "target": "rear-three-quarter",
+      "id": "environment-only-2-rear-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Torched Graphite",
+      "target": "paint",
+      "id": "environment-only-2-paint"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Torched Graphite",
+      "target": "glass",
+      "id": "environment-only-2-glass"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Torched Graphite",
+      "target": "wheel",
+      "id": "environment-only-2-wheel"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Estuary Enamel",
+      "target": "front-three-quarter",
+      "id": "environment-only-3-front-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Estuary Enamel",
+      "target": "side",
+      "id": "environment-only-3-side"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Estuary Enamel",
+      "target": "rear-three-quarter",
+      "id": "environment-only-3-rear-three-quarter"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Estuary Enamel",
+      "target": "paint",
+      "id": "environment-only-3-paint"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Estuary Enamel",
+      "target": "glass",
+      "id": "environment-only-3-glass"
+    },
+    {
+      "rig": "environment-only",
+      "finish": "Estuary Enamel",
+      "target": "wheel",
+      "id": "environment-only-3-wheel"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Carmine Candy",
+      "target": "front-three-quarter",
+      "id": "grounded-studio-0-front-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Carmine Candy",
+      "target": "side",
+      "id": "grounded-studio-0-side"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Carmine Candy",
+      "target": "rear-three-quarter",
+      "id": "grounded-studio-0-rear-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Carmine Candy",
+      "target": "paint",
+      "id": "grounded-studio-0-paint"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Carmine Candy",
+      "target": "glass",
+      "id": "grounded-studio-0-glass"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Carmine Candy",
+      "target": "wheel",
+      "id": "grounded-studio-0-wheel"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Pearly Swirly",
+      "target": "front-three-quarter",
+      "id": "grounded-studio-1-front-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Pearly Swirly",
+      "target": "side",
+      "id": "grounded-studio-1-side"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Pearly Swirly",
+      "target": "rear-three-quarter",
+      "id": "grounded-studio-1-rear-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Pearly Swirly",
+      "target": "paint",
+      "id": "grounded-studio-1-paint"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Pearly Swirly",
+      "target": "glass",
+      "id": "grounded-studio-1-glass"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Pearly Swirly",
+      "target": "wheel",
+      "id": "grounded-studio-1-wheel"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Torched Graphite",
+      "target": "front-three-quarter",
+      "id": "grounded-studio-2-front-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Torched Graphite",
+      "target": "side",
+      "id": "grounded-studio-2-side"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Torched Graphite",
+      "target": "rear-three-quarter",
+      "id": "grounded-studio-2-rear-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Torched Graphite",
+      "target": "paint",
+      "id": "grounded-studio-2-paint"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Torched Graphite",
+      "target": "glass",
+      "id": "grounded-studio-2-glass"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Torched Graphite",
+      "target": "wheel",
+      "id": "grounded-studio-2-wheel"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Estuary Enamel",
+      "target": "front-three-quarter",
+      "id": "grounded-studio-3-front-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Estuary Enamel",
+      "target": "side",
+      "id": "grounded-studio-3-side"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Estuary Enamel",
+      "target": "rear-three-quarter",
+      "id": "grounded-studio-3-rear-three-quarter"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Estuary Enamel",
+      "target": "paint",
+      "id": "grounded-studio-3-paint"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Estuary Enamel",
+      "target": "glass",
+      "id": "grounded-studio-3-glass"
+    },
+    {
+      "rig": "grounded-studio",
+      "finish": "Estuary Enamel",
+      "target": "wheel",
+      "id": "grounded-studio-3-wheel"
+    }
+  ],
+  "pins": {
+    "src/lib/viewerLighting.ts": "f62729cb2d8cd5a617a724d93a561f81690a0b6f6373daf2b82614906c1c539f",
+    "src/lib/threeViewer.ts": "9a27ee2bd06484557176741bb66463fc7375d84913c09dfd46369fc136df00f2",
+    "research/runs/2026-10-23-sol-viewer-lighting/plan.mjs": "5f681e7632b14433cce579a9e284f2a41569d019ef825f21ddd7838c4edca39b",
+    "research/runs/2026-10-23-sol-viewer-lighting/page.js": "95c8b09bcd237b6238c46991be53007f0ff54fd29d11f2c4d5197bece3d8f411",
+    "research/runs/2026-10-23-sol-viewer-lighting/page.html": "2642af94265ce437a9b45f086957e97c2bd8a87b2628d691df0b8cfad592846a",
+    "research/protocols/viewer-lighting-v1.md": "f6c05629dda6e53056c9d603faeb521ac120ec6d4690001002177d1797c98615"
+  },
+  "specHash": "383b69be64df293471287f4e7522a25d01467162086877ad41a2464c9584f99b",
+  "matrixHash": "8d7969f42b31087177828f92246ce7e58bcfd8b864bef276db437ea82cc3236b"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "lint"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T17:59:54.515591+00:00",
+  "endedAt": "2026-10-26T17:59:58.827229+00:00",
+  "elapsedSeconds": 4.31164465699112,
+  "exitCode": 0,
+  "log": "lint.log"
+}

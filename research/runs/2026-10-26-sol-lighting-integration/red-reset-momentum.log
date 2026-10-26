@@ -1,0 +1,56 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/threeViewer.integration.test.ts (8 tests | 2 failed) 33ms
+   ❯ live lighting lifecycle (8)
+     × clears real OrbitControls damping momentum before resetting the camera 12ms
+     × offers a read-only dev inspection snapshot and removes the seam on teardown 7ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/threeViewer.integration.test.ts > live lighting lifecycle > clears real OrbitControls damping momentum before resetting the camera
+AssertionError: expected 5.957845538229985 to be close to 6.4, received difference is 0.4421544617700155, but expected 5e-9
+ ❯ src/lib/threeViewer.integration.test.ts:32:69
+     30|   const read=vi.fn();canvas.dispatchEvent(new CustomEvent('viewer:insp…
+     31|   const camera=read.mock.calls[0][0].camera as number[];
+     32|   for(const [i,value] of [6.4,3.25,7.2].entries())expect(camera[i]).to…
+       |                                                                     ^
+     33|   viewer.dispose();
+     34|  });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/lib/threeViewer.integration.test.ts > live lighting lifecycle > offers a read-only dev inspection snapshot and removes the seam on teardown
+AssertionError: expected { finish: 'Carmine Candy', …(10) } to match object { finish: 'Carmine Candy', …(2) }
+(14 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+    "camera": [
+      6.4,
+-     3.25,
++     3.250000000000001,
+      7.2,
+    ],
+    "environment": false,
+    "finish": "Carmine Candy",
+  }
+
+ ❯ src/lib/threeViewer.integration.test.ts:41:69
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 6 passed (8)
+   Start at  17:14:49
+   Duration  973ms (environment 70%, setup 11%, transform 10%, tests 4%, import 4%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

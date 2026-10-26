@@ -1,0 +1,32 @@
+{
+  "reason": "Native review: default-radius PCF cast shadow too hard/polygonal. Three r186 removed PCFSoftShadowMap. Replace deprecated constant with supported PCFShadowMap, radius6, opacity0.18. No light/camera/material/environment changes.",
+  "retainedCount": 48,
+  "rejectedCount": 11,
+  "rejectedIds": [
+    "grounded-studio-0-front-three-quarter",
+    "grounded-studio-0-side",
+    "grounded-studio-0-rear-three-quarter",
+    "grounded-studio-0-paint",
+    "grounded-studio-0-glass",
+    "grounded-studio-0-wheel",
+    "grounded-studio-1-front-three-quarter",
+    "grounded-studio-1-side",
+    "grounded-studio-1-rear-three-quarter",
+    "grounded-studio-1-paint",
+    "grounded-studio-1-glass"
+  ],
+  "oldPins": {
+    "src/lib/viewerLighting.ts": "752b06a92b216e11d782a7d7fab29f5703e6160d231e9ac7560ac6998bad2788",
+    "src/lib/threeViewer.ts": "9a27ee2bd06484557176741bb66463fc7375d84913c09dfd46369fc136df00f2",
+    "research/runs/2026-10-23-sol-viewer-lighting/plan.mjs": "5f681e7632b14433cce579a9e284f2a41569d019ef825f21ddd7838c4edca39b",
+    "research/runs/2026-10-23-sol-viewer-lighting/page.js": "95c8b09bcd237b6238c46991be53007f0ff54fd29d11f2c4d5197bece3d8f411",
+    "research/runs/2026-10-23-sol-viewer-lighting/page.html": "2642af94265ce437a9b45f086957e97c2bd8a87b2628d691df0b8cfad592846a",
+    "research/protocols/viewer-lighting-v1.md": "f6c05629dda6e53056c9d603faeb521ac120ec6d4690001002177d1797c98615"
+  },
+  "newLightingSourceHash": "f62729cb2d8cd5a617a724d93a561f81690a0b6f6373daf2b82614906c1c539f",
+  "parityRequired": [
+    "original-0-front-three-quarter",
+    "environment-only-0-front-three-quarter"
+  ],
+  "scope": "Parity probes establish these exact two frames only; static diff limits changed behavior to grounded shadows."
+}

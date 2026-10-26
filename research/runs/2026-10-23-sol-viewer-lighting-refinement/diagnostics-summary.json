@@ -1,0 +1,147 @@
+{
+  "scope": "16 image-associated warm synchronous submit+finish samples per rig; cumulative program caches; transmission passes counted; SwiftShader diagnostics only, no performance ranking. Each fresh context captures 2 cases per rig then switches once, one shared model load.",
+  "rigs": {
+    "grounded-studio": {
+      "captures": 16,
+      "warmSamples": 16,
+      "medianWarmSubmitFinishMs": 4.300000011920929,
+      "rendererCountsDistinct": [
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 17,
+          "triangles": 329248
+        },
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 18,
+          "triangles": 329248
+        },
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 17,
+          "triangles": 329248
+        },
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 19,
+          "triangles": 329248
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 17,
+          "triangles": 366236
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 18,
+          "triangles": 366236
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 17,
+          "triangles": 366236
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 19,
+          "triangles": 366236
+        }
+      ]
+    },
+    "grounded-studio-refined": {
+      "captures": 16,
+      "warmSamples": 16,
+      "medianWarmSubmitFinishMs": 3.6500000059604645,
+      "rendererCountsDistinct": [
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 17,
+          "triangles": 329248
+        },
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 18,
+          "triangles": 329248
+        },
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 17,
+          "triangles": 329248
+        },
+        {
+          "calls": 193,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 19,
+          "triangles": 329248
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 17,
+          "triangles": 366236
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 22,
+          "textures": 18,
+          "triangles": 366236
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 17,
+          "triangles": 366236
+        },
+        {
+          "calls": 215,
+          "geometries": 108,
+          "lines": 0,
+          "programs": 24,
+          "textures": 19,
+          "triangles": 366236
+        }
+      ]
+    }
+  }
+}

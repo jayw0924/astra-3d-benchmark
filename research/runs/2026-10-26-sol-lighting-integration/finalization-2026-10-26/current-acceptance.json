@@ -1,0 +1,35 @@
+{
+  "recordedAt": "2026-10-26T17:59:00.644Z",
+  "feedbackSource": "Exact user-provided finalization context; occurrence timestamps unavailable, not reconstructed.",
+  "reviewer": "Jay",
+  "selectedRecipe": "grounded-studio-refined",
+  "verbatimFeedbackInOrder": [
+    "holy shit! now we're getting somehwere. still some issues but we have made some major progress, nice work!",
+    "i’m happy with this as a published checkpoint."
+  ],
+  "decision": "Subjective acceptance of integrated lighting as a published checkpoint, with residual issues explicitly retained.",
+  "doesNotCertify": [
+    "geometry fidelity",
+    "material realism",
+    "objective physical realism",
+    "mobile-device quality",
+    "production-GPU performance",
+    "exhaustive transition or arbitrary-angle correctness"
+  ],
+  "technicalEvidence": "Separate historical verification.json files plus read-only closeout checks; technical attestation is not Jay approval.",
+  "historicalPreference": "research/runs/2026-10-23-sol-viewer-lighting-refinement/preference.json",
+  "historicalState": "Preserved, including earlier pending labels in frozen manifests, verification, gallery and logs; this record supersedes only their current approval status.",
+  "publication": "Approved checkpoint intent. No commit, push or deployment performed by this finalizer; operational authorization/execution remains with parent/user.",
+  "remainingReleaseGates": [
+    "Parent confirms explicit operational authorization and final reviewed publication file set before staging/commit/push/deploy.",
+    "Parent runs joined final-tree release checks (including app build and desired browser acceptance) and reviews generated projection/current public copy.",
+    "After authorized push/deployment, verify remote commit/deployment and served asset/application behavior; local approval does not prove remote publication."
+  ],
+  "separateFutureQualityGatesNotClaimedForCheckpoint": [
+    "Physical mobile-device/gesture testing",
+    "Exhaustive ordered live finish transitions",
+    "Production-GPU timing",
+    "Geometry/material diagnosis under frozen accepted lighting"
+  ],
+  "authorship": "Sol gpt-6.1-sol / openai-codex research closeout with verbatim human feedback; declared runtime identity, not authenticated single-model session-export evidence."
+}

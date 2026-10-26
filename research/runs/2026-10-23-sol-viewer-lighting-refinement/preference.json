@@ -1,0 +1,12 @@
+{
+  "reviewer": "Jay",
+  "selectedRecipe": "grounded-studio-refined",
+  "comparison": "grounded-studio versus grounded-studio-refined static captured gallery",
+  "verbatimFeedback": "grounded-studio-refined is much better. geometry and materials are still a little off, but this round of lighting really helped",
+  "interpretation": "Explicit subjective preference for the refined lighting presentation. Not acceptance of geometric/material fidelity or proof of objective realism.",
+  "remainingConcerns": ["geometry appearance", "material appearance"],
+  "modelAndMaterialChangesInExperiment": false,
+  "liveViewerAcceptance": "pending",
+  "commitPushDeploymentAuthorized": false,
+  "authorship": "Human preference; lighting experiment and integration are separate Sol-authored work packages."
+}

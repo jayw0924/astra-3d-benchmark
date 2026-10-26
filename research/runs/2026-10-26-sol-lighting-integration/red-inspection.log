@@ -1,0 +1,27 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/threeViewer.integration.test.ts (6 tests | 1 failed) 17ms
+   ❯ live lighting lifecycle (6)
+     × offers a read-only dev inspection snapshot and removes the seam on teardown 7ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/threeViewer.integration.test.ts > live lighting lifecycle > offers a read-only dev inspection snapshot and removes the seam on teardown
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+ ❯ src/lib/threeViewer.integration.test.ts:25:16
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 5 passed (6)
+   Start at  16:14:49
+   Duration  908ms (environment 72%, setup 12%, import 9%, transform 5%, tests 2%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

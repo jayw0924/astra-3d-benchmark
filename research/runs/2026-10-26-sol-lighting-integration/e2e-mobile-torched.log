@@ -1,0 +1,15 @@
+
+> astra-3d-benchmark@0.1.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test tests/e2e/lighting.spec.ts --project=mobile-chromium --grep Torched Graphite --workers=1 --reporter=list
+
+
+Running 1 test using 1 worker
+
+  ✓  1 [mobile-chromium] › tests/e2e/lighting.spec.ts:28:2 › refined live lighting Torched Graphite (1.7m)
+
+  1 passed (2.2m)
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

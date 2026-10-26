@@ -1,0 +1,18 @@
+
+> astra-3d-benchmark@0.1.0 test:render-plan
+> node --test research/runs/2026-10-20-sol-material-ab-render/*.test.mjs research/runs/2026-10-21-sol-geometry-baseline/*.test.mjs
+
+✔ blind handoff rejects candidate identity tokens and source paths (0.960974ms)
+✔ side close-up camera stays outside the surface using its actual world-space side (0.736699ms)
+✔ large secondary surfaces remain close enough to read as details (0.172186ms)
+✔ blind labels are deterministic, balanced, and do not leak candidate names (7.521566ms)
+✔ render plan uses identical exterior matrices and nine neutral close-ups per candidate (0.721098ms)
+✔ geometry baseline plan balances lineage views and isolates wireframe mode (1.159731ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 217.405768

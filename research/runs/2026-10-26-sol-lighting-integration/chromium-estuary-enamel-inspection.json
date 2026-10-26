@@ -1,0 +1,3134 @@
+{
+  "initial": {
+    "finish": "Estuary Enamel",
+    "recipe": "grounded-studio-refined",
+    "camera": [
+      6.400000000000001,
+      3.250000000000001,
+      7.2
+    ],
+    "target": [
+      0,
+      0.55,
+      0.1
+    ],
+    "bounds": {
+      "min": [
+        -1.7371991037440258,
+        0,
+        -2.375912426720423
+      ],
+      "max": [
+        1.5197008011738995,
+        1.3079541074180576,
+        2.3618050295395916
+      ]
+    },
+    "floorY": -0.003,
+    "environment": true,
+    "shadows": {
+      "enabled": true,
+      "type": 1,
+      "autoUpdate": false,
+      "needsUpdate": true
+    },
+    "renderedFrames": 6,
+    "shadowUpdates": 0,
+    "meshes": [
+      {
+        "name": "BodyUnderside",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshield",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshieldGasket",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshieldWipers",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshieldWipersBase",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "Engine",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "InteriorCage",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorDashMid",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDashSides",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorFloor",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorFloormats",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Floormat",
+            "index": 4,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "mesh_83",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Panel Sides",
+            "index": 27,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_83_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Panel Sides",
+            "index": 27,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalAccel",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Floormat",
+            "index": 4,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalAccelArm",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalBrake",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Floormat",
+            "index": 4,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalBrakeArm",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPillar",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsColor1",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsColor2",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 2",
+            "index": 7,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsFrame1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsFrame2",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringBase",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringCylinder",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel04",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel01",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel03",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringDash",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Dashboard",
+            "index": 8,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringDashColumn",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringHandleL",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringHandleR",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyRoofPanel",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyRearPanelsColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "InteriorRearHatch",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "mesh_84",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "mesh_84_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "BodyWindowsRearSides",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyTurnsignalsRear",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Signallight",
+            "index": 11,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyTaillightsPanels",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyTaillights",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brakelight",
+            "index": 12,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyRearwindow",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyPillars",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyPanelsColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyHood",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodInterior01",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodInterior02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodTopgrill",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodUnder",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyHeadlights",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Headlight",
+            "index": 13,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRHandle01",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRHandle02",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRMirror",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mirror",
+            "index": 14,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRMirrorColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRMirrorColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRWindow",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRWindowGasket",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "mesh_85",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "mesh_85_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR03",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR04",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR05",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR06",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL04",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_86",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "mesh_86_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL03",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL05",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL06",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLHandle01",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLHandle02",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLMirror",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mirror",
+            "index": 14,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLMirrorColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLWindowGasket",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLWindow",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLMirrorColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "mesh_88",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_88_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontLBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontLBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "mesh_87",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_87_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "mesh_90",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_90_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontRBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontRBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "mesh_89",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_89_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "WheelRearLBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "WheelRearLBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "mesh_92",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_92_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_91",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_91_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "WheelRearRBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "WheelRearRBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "mesh_94",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_94_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_93",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_93_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "Axles",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      }
+    ]
+  },
+  "final": {
+    "finish": "Estuary Enamel",
+    "recipe": "grounded-studio-refined",
+    "camera": [
+      6.400000000000001,
+      3.250000000000001,
+      7.2
+    ],
+    "target": [
+      0,
+      0.55,
+      0.1
+    ],
+    "bounds": {
+      "min": [
+        -1.7371991037440258,
+        0,
+        -2.375912426720423
+      ],
+      "max": [
+        1.5197008011738995,
+        1.3079541074180576,
+        2.3618050295395916
+      ]
+    },
+    "floorY": -0.003,
+    "environment": true,
+    "shadows": {
+      "enabled": true,
+      "type": 1,
+      "autoUpdate": false,
+      "needsUpdate": false
+    },
+    "renderedFrames": 10,
+    "shadowUpdates": 1,
+    "meshes": [
+      {
+        "name": "BodyUnderside",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshield",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshieldGasket",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshieldWipers",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyWindshieldWipersBase",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "Engine",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "InteriorCage",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorDashMid",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDashSides",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorFloor",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorFloormats",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Floormat",
+            "index": 4,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "mesh_83",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Panel Sides",
+            "index": 27,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_83_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Panel Sides",
+            "index": 27,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalAccel",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Floormat",
+            "index": 4,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalAccelArm",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalBrake",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Floormat",
+            "index": 4,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPedalBrakeArm",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorPillar",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsColor1",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsColor2",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 2",
+            "index": 7,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsFrame1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSeatsFrame2",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringBase",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringCylinder",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel04",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel01",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringWheel03",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringDash",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Dashboard",
+            "index": 8,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringDashColumn",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringHandleL",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "InteriorSteeringHandleR",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyRoofPanel",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyRearPanelsColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "InteriorRearHatch",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "mesh_84",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "mesh_84_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "BodyWindowsRearSides",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyTurnsignalsRear",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Signallight",
+            "index": 11,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyTaillightsPanels",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyTaillights",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brakelight",
+            "index": 12,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyRearwindow",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyPillars",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyPanelsColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyHood",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodInterior01",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodInterior02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodTopgrill",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyHoodUnder",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyHeadlights",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Headlight",
+            "index": 13,
+            "transparent": false,
+            "color": "040404",
+            "metalness": 0,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRHandle01",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRHandle02",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRMirror",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mirror",
+            "index": 14,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRMirrorColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRMirrorColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRWindow",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorRWindowGasket",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "mesh_85",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "mesh_85_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR03",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR04",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR05",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorR06",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL04",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_86",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      },
+      {
+        "name": "mesh_86_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL02",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Interior 1",
+            "index": 3,
+            "transparent": false,
+            "color": "0c0c0c",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL03",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL05",
+        "castShadow": true,
+        "expectedMaterial": 26,
+        "materials": [
+          {
+            "name": "Interior 3 Graphite",
+            "index": 26,
+            "transparent": false,
+            "color": "273f59",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "InteriorDoorL06",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Hardware",
+            "index": 5,
+            "transparent": false,
+            "color": "8e8e8e",
+            "metalness": 1,
+            "roughness": 0.5
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLHandle01",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLHandle02",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLMirror",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mirror",
+            "index": 14,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLMirrorColor1",
+        "castShadow": true,
+        "expectedMaterial": 28,
+        "materials": [
+          {
+            "name": "Estuary Enamel Main",
+            "index": 28,
+            "transparent": false,
+            "color": "245b52",
+            "metalness": 0,
+            "roughness": 0.32
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLWindowGasket",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "",
+            "index": 2,
+            "transparent": false,
+            "color": "0a0a0a",
+            "metalness": 0,
+            "roughness": 0.8
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLWindow",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Glass",
+            "index": 1,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0
+          }
+        ]
+      },
+      {
+        "name": "BodyDoorLMirrorColor2",
+        "castShadow": true,
+        "expectedMaterial": 29,
+        "materials": [
+          {
+            "name": "Estuary Enamel Accent",
+            "index": 29,
+            "transparent": false,
+            "color": "1d2c2a",
+            "metalness": 0,
+            "roughness": 0.36
+          }
+        ]
+      },
+      {
+        "name": "mesh_88",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_88_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontLBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontLBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "mesh_87",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_87_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "mesh_90",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_90_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontRBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "WheelFrontRBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "mesh_89",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_89_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "WheelRearLBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "WheelRearLBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "mesh_92",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_92_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_91",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_91_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "WheelRearRBrakeDisc",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Disc",
+            "index": 16,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.73
+          }
+        ]
+      },
+      {
+        "name": "WheelRearRBrakePad",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Brake",
+            "index": 15,
+            "transparent": false,
+            "color": "d30000",
+            "metalness": 1,
+            "roughness": 0.2
+          }
+        ]
+      },
+      {
+        "name": "mesh_94",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim2",
+            "index": 19,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_94_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Rim1",
+            "index": 20,
+            "transparent": false,
+            "color": "030303",
+            "metalness": 1,
+            "roughness": 0.24
+          }
+        ]
+      },
+      {
+        "name": "mesh_93",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tireside",
+            "index": 17,
+            "transparent": false,
+            "color": "ffffff",
+            "metalness": 0,
+            "roughness": 0.4
+          }
+        ]
+      },
+      {
+        "name": "mesh_93_1",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Tiretread",
+            "index": 18,
+            "transparent": false,
+            "color": "181818",
+            "metalness": 0,
+            "roughness": 0.6
+          }
+        ]
+      },
+      {
+        "name": "Axles",
+        "castShadow": true,
+        "materials": [
+          {
+            "name": "Mechanical",
+            "index": 0,
+            "transparent": false,
+            "color": "404040",
+            "metalness": 1,
+            "roughness": 1
+          }
+        ]
+      }
+    ]
+  },
+  "errors": [],
+  "served": {
+    "bytes": 9239404,
+    "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "dpr": 1
+}

@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "finishCases": 8,
+  "nativeAfterImages": 8,
+  "baselineChanged": [
+    "README.md",
+    "tsconfig.app.tsbuildinfo",
+    "src/lib/threeViewer.ts",
+    "src/lib/viewerLighting.test.ts",
+    "src/lib/viewerLighting.ts"
+  ],
+  "imageRecords": 16
+}

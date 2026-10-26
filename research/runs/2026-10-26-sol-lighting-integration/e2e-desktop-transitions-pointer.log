@@ -1,0 +1,7 @@
+
+> astra-3d-benchmark@0.1.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test tests/e2e/lighting.spec.ts --project=chromium --grep Carmine Candy --workers=1 --reporter=list
+
+
+Running 1 test using 1 worker
+

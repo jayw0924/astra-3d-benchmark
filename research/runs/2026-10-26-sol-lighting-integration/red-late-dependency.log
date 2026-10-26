@@ -1,0 +1,32 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/threeViewer.integration.test.ts (5 tests | 1 failed) 16ms
+   ❯ live lighting lifecycle (5)
+     × releases each late dependency even when a sibling rejected, sharing textures only once 9ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/threeViewer.integration.test.ts > live lighting lifecycle > releases each late dependency even when a sibling rejected, sharing textures only once
+AssertionError: expected "dispose" to be called once, but got 0 times
+ ❯ src/lib/threeViewer.integration.test.ts:30:20
+     28|   const pending=viewer.setFinish('Carmine Candy');await expect(pending…
+     29|   const disposal=vi.spyOn(asset.material,'dispose');resolve(asset.mate…
+     30|   expect(disposal).toHaveBeenCalledOnce();
+       |                    ^
+     31|   expect(textureDisposal).toHaveBeenCalledOnce();
+     32|  });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 4 passed (5)
+   Start at  16:13:27
+   Duration  895ms (environment 72%, setup 11%, import 9%, transform 5%, tests 2%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

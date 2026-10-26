@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "id": "original-0-front-three-quarter",
+      "sha256": "41b8ce96b21ef8fba13972b09caa1e7a702f7cf0bb3c1f37d50bba4bf9ed9eac",
+      "identical": true
+    },
+    {
+      "id": "environment-only-0-front-three-quarter",
+      "sha256": "be7a9cfac45fd5fbba8a9bf376d06e5d675f859b3a1f11a7ac0feb8b33e8bfac",
+      "identical": true
+    }
+  ],
+  "errors": [],
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x1b34001c7600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    }
+  ]
+}

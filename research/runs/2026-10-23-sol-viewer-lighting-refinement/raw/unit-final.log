@@ -1,0 +1,22 @@
+
+> astra-3d-benchmark@0.1.0 test:unit
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  5 passed (5)
+      Tests  27 passed (27)
+   Start at  20:51:55
+   Duration  5.42s (environment 56%, tests 31%, setup 9%, import 3%, transform 1%)
+
+Environment  jsdom was created 5 times · 2.68s total, 56% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,199 @@
+/workspace/research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py:142: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  count = sum(any(pixel) for pixel in diff.getdata())
+{
+  "checkedAt": "2026-10-26T17:59:53.373Z",
+  "scope": "Independent read-only retained-evidence checks; not new browser execution or image aesthetic review.",
+  "preexistingFilesChecked": 431,
+  "appendOnlyNotes": [
+    "research/runs/2026-10-23-sol-viewer-lighting/notes.md",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/notes.md",
+    "research/runs/2026-10-26-sol-lighting-integration/notes.md"
+  ],
+  "allOtherHistoricalBytesPreserved": true,
+  "protectedSourceHashesUnchanged": true,
+  "matrices": [
+    {
+      "package": "2026-10-23-sol-viewer-lighting",
+      "captures": 72,
+      "sessions": 10,
+      "supersededSourcePins": [
+        "src/lib/viewerLighting.ts",
+        "src/lib/threeViewer.ts"
+      ]
+    },
+    {
+      "package": "2026-10-23-sol-viewer-lighting-refinement",
+      "captures": 32,
+      "sessions": 8,
+      "supersededSourcePins": [
+        "src/lib/viewerLighting.ts",
+        "src/lib/threeViewer.ts"
+      ]
+    }
+  ],
+  "baselineParity": [
+    {
+      "id": "grounded-studio-0-front-three-quarter",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-0-side",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-0-rear-three-quarter",
+      "exactPNG": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12
+    },
+    {
+      "id": "grounded-studio-0-glass",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-1-front-three-quarter",
+      "exactPNG": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 4
+    },
+    {
+      "id": "grounded-studio-1-side",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-1-rear-three-quarter",
+      "exactPNG": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12
+    },
+    {
+      "id": "grounded-studio-1-glass",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-2-front-three-quarter",
+      "exactPNG": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 4
+    },
+    {
+      "id": "grounded-studio-2-side",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-2-rear-three-quarter",
+      "exactPNG": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12
+    },
+    {
+      "id": "grounded-studio-2-glass",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-3-front-three-quarter",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-3-side",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "id": "grounded-studio-3-rear-three-quarter",
+      "exactPNG": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12
+    },
+    {
+      "id": "grounded-studio-3-glass",
+      "exactPNG": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0
+    }
+  ],
+  "integrationFinishCases": 8,
+  "integrationNativeAfterImages": 8,
+  "allRetainedPNGsDecoded": 175,
+  "privacy": {
+    "trackedFilesScanned": 1159,
+    "candidateFiles": 1607,
+    "trackedPrivatePaths": [],
+    "credentialPatternFindings": [],
+    "publicCommandLedgers": [
+      {
+        "path": "research/runs/2026-10-20-astra-material-estuary-49b949/commands.jsonl",
+        "rows": 15,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-20-astra-material-fjord-ef457b/commands.jsonl",
+        "rows": 18,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5-b/commands.jsonl",
+        "rows": 20,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/commands.jsonl",
+        "rows": 3,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/commands.jsonl",
+        "rows": 19,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-21-sol-safe-correction-comparison/commands.jsonl",
+        "rows": 9,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/commands.jsonl",
+        "rows": 19,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/commands.jsonl",
+        "rows": 4,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/commands.jsonl",
+        "rows": 19,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-final-comparison/commands.jsonl",
+        "rows": 29,
+        "allowlistedCommandRecordShape": true
+      },
+      {
+        "path": "research/runs/2026-10-22-sol-safe-ledger-finalization/commands.jsonl",
+        "rows": 12,
+        "allowlistedCommandRecordShape": true
+      }
+    ],
+    "scopeLimit": "Pattern/path scan is not a proof of absence of all possible secrets; no matching credential values printed. Raw session JSON is browser telemetry, not session export."
+  }
+}

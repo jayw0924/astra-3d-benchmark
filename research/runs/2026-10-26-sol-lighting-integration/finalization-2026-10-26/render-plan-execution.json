@@ -1,0 +1,13 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "test:render-plan"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T17:59:54.047524+00:00",
+  "endedAt": "2026-10-26T17:59:54.515436+00:00",
+  "elapsedSeconds": 0.4679249540204182,
+  "exitCode": 0,
+  "log": "render-plan.log"
+}

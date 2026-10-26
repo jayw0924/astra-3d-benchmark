@@ -1,11 +1,10 @@
+/// <reference types="vite/client" />
 import {
   ACESFilmicToneMapping,
   Box3,
   BufferGeometry,
   Color,
-  DirectionalLight,
-  GridHelper,
-  HemisphereLight,
+
   LineSegments,
   Material,
   Mesh,
@@ -22,6 +21,7 @@ import { GLTFLoader, type GLTF, type GLTFParser } from 'three/addons/loaders/GLT
 import { KTX2Loader } from 'three/addons/loaders/KTX2Loader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import type { Finish } from './configuration';
+import { createLightingRig } from './viewerLighting';
 import type { ViewerController } from '../components/Configurator';
 
 type VariantMapping = { material: number; variants: number[] };
@@ -47,6 +47,7 @@ type VariantAssignment = { object: Mesh; material: Material };
 export function disposeObject(
   root: Object3D,
   additionalMaterials: Iterable<Material> = [],
+  disposedResources = new Set<BufferGeometry | Material | Texture>(),
 ) {
   const geometries = new Set<BufferGeometry>();
   const materials = new Set<Material>(additionalMaterials);
@@ -59,20 +60,24 @@ export function disposeObject(
       : [object.material];
     for (const material of objectMaterials) materials.add(material);
   });
-  for (const geometry of geometries) geometry.dispose();
+  for (const geometry of geometries) {
+    if (!disposedResources.has(geometry)) { disposedResources.add(geometry); geometry.dispose(); }
+  }
   for (const material of materials) {
     for (const value of Object.values(material)) {
       if (value instanceof Texture) textures.add(value);
     }
-    material.dispose();
+    if (!disposedResources.has(material)) { disposedResources.add(material); material.dispose(); }
   }
-  for (const texture of textures) texture.dispose();
+  for (const texture of textures) {
+    if (!disposedResources.has(texture)) { disposedResources.add(texture); texture.dispose(); }
+  }
 }
 
 async function applyVariant(
   model: LoadedModel,
   finish: Finish,
-  knownMaterials: Set<Material>,
+  retainMaterial: (material: Material) => void,
 ): Promise<VariantAssignment[]> {
   const json = model.parser.json as GltfJson;
   const variants = json.extensions?.KHR_materials_variants?.variants ?? [];
@@ -96,7 +101,7 @@ async function applyVariant(
     if (!mapping) return;
     changes.push(
       model.parser.getDependency('material', mapping.material).then((material) => {
-        knownMaterials.add(material);
+        retainMaterial(material);
         return { object, material };
       }),
     );
@@ -130,16 +135,7 @@ export function createThreeViewer(canvas: HTMLCanvasElement): ViewerController {
   controls.maxPolarAngle = Math.PI * 0.49;
   controls.target.set(0, 0.55, 0.1);
 
-  scene.add(new HemisphereLight(0xf7f3ea, 0x30363d, 2.5));
-  const key = new DirectionalLight(0xffffff, 5.5);
-  key.position.set(4, 8, 5);
-  scene.add(key);
-  const rim = new DirectionalLight(0x93b6d4, 3.5);
-  rim.position.set(-5, 3, -4);
-  scene.add(rim);
-  const grid = new GridHelper(24, 24, 0x9c9a94, 0xc9c5bb);
-  grid.position.y = -0.015;
-  scene.add(grid);
+  let lighting = createLightingRig({ scene });
 
   const ktx2Loader = new KTX2Loader()
     .setTranscoderPath('/basis/')
@@ -149,10 +145,49 @@ export function createThreeViewer(canvas: HTMLCanvasElement): ViewerController {
   let disposed = false;
   let variantRequest = 0;
   let frame = 0;
+  let renderedFrames = 0;
+  let shadowUpdates = 0;
+  let appliedFinish: Finish | null = null;
   const originalRimColors = new Map<MeshStandardMaterial, Color>();
   const knownMaterials = new Set<Material>();
+  const disposedResources = new Set<BufferGeometry | Material | Texture>();
+  function retainMaterial(material: Material) {
+    knownMaterials.add(material);
+    if (disposed) disposeObject(new Object3D(), [material], disposedResources);
+  }
+
+  // Opt-in, read-only development seam: copies only; never exposes scene objects.
+  function inspect(event: Event) {
+    const receive = (event as CustomEvent<unknown>).detail;
+    if (typeof receive !== 'function' || disposed) return;
+    const json = model?.parser.json as GltfJson | undefined;
+    const variant = json?.extensions?.KHR_materials_variants?.variants.findIndex(v => v.name === appliedFinish);
+    const meshes: Array<unknown> = [];
+    model?.gltf.scene.traverse(object => {
+      if (!(object instanceof Mesh)) return;
+      const association = model!.parser.associations.get(object) as Association | undefined;
+      const mappings = association?.meshes === undefined || association.primitives === undefined ? undefined :
+        json?.meshes?.[association.meshes]?.primitives[association.primitives]?.extensions?.KHR_materials_variants?.mappings;
+      const materials = Array.isArray(object.material) ? object.material : [object.material];
+      meshes.push({ name: object.name, castShadow: object.castShadow,
+        expectedMaterial: mappings?.find(m => m.variants.includes(variant ?? -1))?.material,
+        materials: materials.map(material => ({ name: material.name,
+          index: (model!.parser.associations.get(material) as { materials?: number } | undefined)?.materials,
+          transparent: material.transparent,
+          ...(material instanceof MeshStandardMaterial ? { color: material.color.getHexString(), metalness: material.metalness, roughness: material.roughness } : {}),
+        })) });
+    });
+    const bounds = model ? new Box3().setFromObject(model.gltf.scene) : null;
+    receive({ finish: appliedFinish, recipe: lighting.recipe?.id, camera: camera.position.toArray(), target: controls.target.toArray(),
+      bounds: bounds ? { min: bounds.min.toArray(), max: bounds.max.toArray() } : null,
+      floorY: lighting.floor?.position.y, environment: !!scene.environment,
+      shadows: { enabled: renderer.shadowMap.enabled, type: renderer.shadowMap.type, autoUpdate: renderer.shadowMap.autoUpdate, needsUpdate: renderer.shadowMap.needsUpdate },
+      renderedFrames, shadowUpdates, meshes });
+  }
+  if (import.meta.env.DEV) canvas.addEventListener('viewer:inspect', inspect);
 
   function resize() {
+    // Size follows the native application layout.
     const width = Math.max(canvas.clientWidth, 1);
     const height = Math.max(canvas.clientHeight, 1);
     if (canvas.width !== Math.round(width * renderer.getPixelRatio()) ||
@@ -167,7 +202,9 @@ export function createThreeViewer(canvas: HTMLCanvasElement): ViewerController {
     if (disposed) return;
     resize();
     controls.update();
+    if (renderer.shadowMap.enabled && renderer.shadowMap.needsUpdate) shadowUpdates += 1;
     renderer.render(scene, camera);
+    renderedFrames += 1;
     frame = requestAnimationFrame(animate);
   }
   frame = requestAnimationFrame(animate);
@@ -178,7 +215,7 @@ export function createThreeViewer(canvas: HTMLCanvasElement): ViewerController {
         if (event.total > 0) onProgress?.((event.loaded / event.total) * 100);
       });
       if (disposed) {
-        disposeObject(gltf.scene);
+        disposeObject(gltf.scene, [], disposedResources);
         return;
       }
       const licensePlate = gltf.scene.getObjectByName('License Plate');
@@ -206,17 +243,23 @@ export function createThreeViewer(canvas: HTMLCanvasElement): ViewerController {
       gltf.scene.rotation.y = -0.22;
       scene.add(gltf.scene);
       model = { gltf, parser: gltf.parser };
+      gltf.scene.updateMatrixWorld(true);
+      lighting.dispose();
+      lighting = createLightingRig({ scene, renderer, model: gltf.scene,
+        bounds: new Box3().setFromObject(gltf.scene), preset: 'grounded-studio-refined' });
     },
     async setFinish(finish) {
-      if (!model) return;
+      if (!model || disposed) return;
       const request = ++variantRequest;
-      const assignments = await applyVariant(model, finish, knownMaterials);
+      const assignments = await applyVariant(model, finish, retainMaterial);
       if (disposed) {
-        disposeObject(new Object3D(), assignments.map(({ material }) => material));
         return;
       }
       if (request !== variantRequest) return;
+      const changed = assignments.some(({ object, material }) => object.material !== material);
       for (const { object, material } of assignments) object.material = material;
+      appliedFinish = finish;
+      if (changed) lighting.refreshCasters();
     },
     setTrim(trim) {
       for (const [material, originalColor] of originalRimColors) {
@@ -250,17 +293,25 @@ export function createThreeViewer(canvas: HTMLCanvasElement): ViewerController {
       controls.update();
     },
     resetCamera() {
+      // Drain pending orbit/pan/dolly deltas before overwriting the home pose.
+      const damping = controls.enableDamping;
+      controls.enableDamping = false;
+      controls.update();
       camera.position.copy(defaultCameraPosition);
       controls.target.set(0, 0.55, 0.1);
       controls.update();
+      controls.enableDamping = damping;
     },
     dispose() {
+      if (disposed) return;
       disposed = true;
+      canvas.removeEventListener('viewer:inspect', inspect);
       variantRequest += 1;
       cancelAnimationFrame(frame);
       controls.dispose();
       ktx2Loader.dispose();
-      disposeObject(scene, knownMaterials);
+      lighting.dispose();
+      disposeObject(scene, knownMaterials, disposedResources);
       renderer.dispose();
     },
   };

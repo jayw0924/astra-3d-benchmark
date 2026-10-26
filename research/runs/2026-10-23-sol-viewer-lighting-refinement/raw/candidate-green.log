@@ -1,0 +1,14 @@
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  20:28:59
+   Duration  820ms (environment 75%, setup 12%, transform 6%, import 4%, tests 3%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

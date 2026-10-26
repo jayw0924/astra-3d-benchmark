@@ -1,0 +1,41 @@
+
+> astra-3d-benchmark@0.1.0 test:unit
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/App.test.tsx (5 tests | 1 failed) 9814ms
+   ❯ App (5)
+     × publishes the accepted Safe result with fixed-view limits and historical control 7496ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > App > publishes the accepted Safe result with fixed-view limits and historical control
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/App.test.tsx:6:3
+      4|
+      5| describe('App', () => {
+      6|   it('publishes the accepted Safe result with fixed-view limits and hi…
+       |   ^
+      7|     render(<App />);
+      8|     expect(screen.getByRole('heading', { name: 'Accepted Safe geometry…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 4 passed (5)
+      Tests  1 failed | 26 passed (27)
+   Start at  20:36:28
+   Duration  50.40s (environment 64%, tests 27%, setup 7%, transform 1%, import 1%)
+
+Environment  jsdom was created 5 times · 29.31s total, 64% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

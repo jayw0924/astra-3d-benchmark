@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py",
+    "checks"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T17:59:00.672625+00:00",
+  "endedAt": "2026-10-26T17:59:01.741860+00:00",
+  "elapsedSeconds": 1.0692394830402918,
+  "exitCode": 1,
+  "log": "retained-evidence.log"
+}

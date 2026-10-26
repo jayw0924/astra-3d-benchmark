@@ -1,0 +1,2563 @@
+{
+  "metrics": {
+    "gpu": {
+      "vendor": "Google Inc. (Google)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "parallelCompile": false
+    },
+    "loadMs": 1422.3999999910593,
+    "servedHash": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "servedBytes": 9239404,
+    "rigs": [
+      {
+        "rig": "grounded-studio",
+        "setupMs": 117.59999999403954,
+        "compileMs": 47.29999999701977,
+        "compileScope": "first compile for rig in shared context, materials may be cached",
+        "recipe": {
+          "id": "grounded-studio",
+          "hemisphere": 0.65,
+          "key": 2.4,
+          "rim": 1.1,
+          "environment": true,
+          "grounded": true
+        },
+        "settings": {
+          "background": "#ddd9d0",
+          "exposure": 1.05,
+          "pmremSigma": 0.08,
+          "shadowMapSize": 1024,
+          "shadowOpacity": 0.18,
+          "shadowRadius": 6,
+          "floorOffset": 0.003,
+          "shadowBias": -0.00015,
+          "shadowNormalBias": 0.015
+        }
+      }
+    ],
+    "transitions": [
+      {
+        "source": "Carmine Candy",
+        "target": "Carmine Candy",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Carmine Candy",
+        "target": "Pearly Swirly",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Carmine Candy",
+        "target": "Torched Graphite",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Carmine Candy",
+        "target": "Estuary Enamel",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Pearly Swirly",
+        "target": "Carmine Candy",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Pearly Swirly",
+        "target": "Pearly Swirly",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Pearly Swirly",
+        "target": "Torched Graphite",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Pearly Swirly",
+        "target": "Estuary Enamel",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Torched Graphite",
+        "target": "Carmine Candy",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Torched Graphite",
+        "target": "Pearly Swirly",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Torched Graphite",
+        "target": "Torched Graphite",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Torched Graphite",
+        "target": "Estuary Enamel",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Estuary Enamel",
+        "target": "Carmine Candy",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 6,
+            "name": "Interior 3 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 10,
+            "name": "Paint 1 Carmine",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 9,
+            "name": "Paint 2 Carmine",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Estuary Enamel",
+        "target": "Pearly Swirly",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 25,
+            "name": "Interior 3 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 21,
+            "name": "Paint 1 Pearl",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 23,
+            "name": "Paint 2 Pearl",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Estuary Enamel",
+        "target": "Torched Graphite",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 22,
+            "name": "Paint 1 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 24,
+            "name": "Paint 2 Graphite",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "source": "Estuary Enamel",
+        "target": "Estuary Enamel",
+        "assignments": [
+          {
+            "object": "InteriorDashSides",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSeatsColor1",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorSteeringWheel01",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyRoofPanel",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyRearPanelsColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPillars",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyPanelsColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyHood",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyHoodTopgrill",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorRMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorR05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL04",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL03",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "InteriorDoorL05",
+            "index": 26,
+            "name": "Interior 3 Graphite",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLHandle02",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor1",
+            "index": 28,
+            "name": "Estuary Enamel Main",
+            "verified": true
+          },
+          {
+            "object": "BodyDoorLMirrorColor2",
+            "index": 29,
+            "name": "Estuary Enamel Accent",
+            "verified": true
+          }
+        ]
+      }
+    ]
+  },
+  "transitions": 16,
+  "disposal": {
+    "environmentRestored": true,
+    "shadowFlagsRestored": true,
+    "remainingSceneChildren": 1,
+    "resources": {
+      "calls": 149,
+      "triangles": 265834,
+      "lines": 0,
+      "geometries": 107,
+      "textures": 14,
+      "programs": 21
+    }
+  },
+  "errors": [],
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0xe54001cb600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    }
+  ],
+  "modelRequests": 1,
+  "browser": "156.0.8078.4",
+  "scope": "Sequential single browser context; same model load; cached material/program history, no randomized timing. Per-image first plus one warmed synchronous submit+gl.finish sample. Renderer counters include transmission passes; not GPU-work or end-user performance."
+}

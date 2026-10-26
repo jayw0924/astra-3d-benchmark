@@ -1,0 +1,10 @@
+/workspace/research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py:142: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  count = sum(any(pixel) for pixel in diff.getdata())
+Traceback (most recent call last):
+  File "/workspace/research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py", line 242, in <module>
+    {'prepare':prepare,'checks':checks,'records':records}[sys.argv[1]]()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/workspace/research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py", line 178, in checks
+    assert not private, private
+           ^^^^^^^^^^^
+AssertionError: ['research/runs/2026-10-20-astra-material-estuary-49b949/commands.jsonl', 'research/runs/2026-10-20-astra-material-fjord-ef457b/commands.jsonl', 'research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5-b/commands.jsonl', 'research/runs/2026-10-21-astra-geometry-safe-correction-7f2d11f494a5/commands.jsonl', 'research/runs/2026-10-21-astra-geometry-safe-d8fc14b866ab/commands.jsonl', 'research/runs/2026-10-21-sol-safe-correction-comparison/commands.jsonl', 'research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/commands.jsonl', 'research/runs/2026-10-22-astra-geometry-mobile-bd8abb4a578f/resume-audit/commands.jsonl', 'research/runs/2026-10-22-astra-geometry-safe-final-d0bf6e206c92/commands.jsonl', 'research/runs/2026-10-22-sol-safe-final-comparison/commands.jsonl', 'research/runs/2026-10-22-sol-safe-ledger-finalization/commands.jsonl']

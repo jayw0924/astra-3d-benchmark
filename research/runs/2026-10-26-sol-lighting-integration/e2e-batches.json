@@ -1,0 +1,18 @@
+[
+  {
+    "command": [
+      "npm",
+      "run",
+      "test:e2e",
+      "--",
+      "tests/e2e/lighting.spec.ts",
+      "--project=chromium",
+      "--grep",
+      "Carmine Candy",
+      "--workers=1",
+      "--reporter=list"
+    ],
+    "code": 0,
+    "seconds": 215.83685517311096
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "action": "capture",
+  "errors": [],
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead."
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x16b4001cee00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    }
+  ],
+  "modelRequests": 1
+}

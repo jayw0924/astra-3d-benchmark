@@ -1,0 +1,69 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/viewerLighting.test.ts (6 tests | 2 failed) 33ms
+   ❯ viewer lighting (6)
+     × restores prior shadow needsUpdate=false after grounded teardown 13ms
+     × restores prior shadow needsUpdate=true after grounded teardown 2ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/viewerLighting.test.ts > viewer lighting > restores prior shadow needsUpdate=false after grounded teardown
+AssertionError: expected { enabled: false, type: +0, …(2) } to deeply equal { enabled: false, type: +0, …(2) }
+
+- Expected
++ Received
+
+  {
+    "autoUpdate": true,
+    "enabled": false,
+-   "needsUpdate": false,
++   "needsUpdate": true,
+    "type": 0,
+  }
+
+ ❯ src/lib/viewerLighting.test.ts:20:32
+     18|     renderer.shadowMap.needsUpdate = !needsUpdate;
+     19|     rig.dispose(); rig.dispose();
+     20|     expect(renderer.shadowMap).toEqual(prior);
+       |                                ^
+     21|     expect(scene.environment).toBe(previous);
+     22|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/lib/viewerLighting.test.ts > viewer lighting > restores prior shadow needsUpdate=true after grounded teardown
+AssertionError: expected { enabled: false, type: +0, …(2) } to deeply equal { enabled: false, type: +0, …(2) }
+
+- Expected
++ Received
+
+  {
+    "autoUpdate": true,
+    "enabled": false,
+-   "needsUpdate": true,
++   "needsUpdate": false,
+    "type": 0,
+  }
+
+ ❯ src/lib/viewerLighting.test.ts:20:32
+     18|     renderer.shadowMap.needsUpdate = !needsUpdate;
+     19|     rig.dispose(); rig.dispose();
+     20|     expect(renderer.shadowMap).toEqual(prior);
+       |                                ^
+     21|     expect(scene.environment).toBe(previous);
+     22|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 4 passed (6)
+   Start at  20:27:16
+   Duration  820ms (environment 76%, setup 12%, tests 4%, import 4%, transform 3%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

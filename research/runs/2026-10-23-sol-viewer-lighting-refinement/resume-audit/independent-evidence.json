@@ -1,0 +1,694 @@
+{
+  "captures": 32,
+  "pairs": 16,
+  "dimensions": [
+    600,
+    400
+  ],
+  "pinsVerified": {
+    "src/lib/viewerLighting.ts": "e857ac0f409258a31d71ae7c7f19b97975036e7bed62e1aff1c872e6e65e0030",
+    "src/lib/threeViewer.ts": "9a27ee2bd06484557176741bb66463fc7375d84913c09dfd46369fc136df00f2",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/plan.mjs": "ad289d0ae92852a2ad051b2249e3b976d30eb92158be56608e93c100324c18ef",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/page.js": "afabc95ee148af86fd2b381ce6c14d731d6edc441db47fa3ce463ecdf888b60e",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/page.html": "2642af94265ce437a9b45f086957e97c2bd8a87b2628d691df0b8cfad592846a",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/brief.md": "d42c5282bf9e72ba1bdbae03e2b76f27c0044792c5f30e684698a2f5b86b16dd",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/capture.mjs": "b218f346af09a56f7ef91312ef9cf90fcf0a6342230af7e64168e6b97feffa46",
+    "research/protocols/viewer-lighting-v1.md": "f6c05629dda6e53056c9d603faeb521ac120ec6d4690001002177d1797c98615"
+  },
+  "source": {
+    "url": "/assets/models/product-estuary-safe.glb",
+    "path": "public/assets/models/product-estuary-safe.glb",
+    "bytes": 9239404,
+    "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+  },
+  "sessions": 8,
+  "historicalFilesVerified": 209,
+  "baselineExactBytes": 10,
+  "baselinePixelDifferences": [
+    {
+      "id": "grounded-studio-0-front-three-quarter",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-0-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-0-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ],
+      "coordinates": [
+        [
+          413,
+          184,
+          5,
+          5,
+          5
+        ],
+        [
+          404,
+          215,
+          12,
+          12,
+          11
+        ],
+        [
+          273,
+          229,
+          0,
+          0,
+          1
+        ],
+        [
+          269,
+          249,
+          1,
+          2,
+          3
+        ],
+        [
+          267,
+          251,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "grounded-studio-0-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-1-front-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 4,
+      "differenceBounds": [
+        251,
+        184,
+        446,
+        256
+      ],
+      "coordinates": [
+        [
+          445,
+          184,
+          2,
+          2,
+          2
+        ],
+        [
+          420,
+          204,
+          3,
+          3,
+          3
+        ],
+        [
+          421,
+          210,
+          3,
+          3,
+          4
+        ],
+        [
+          251,
+          250,
+          3,
+          3,
+          3
+        ],
+        [
+          257,
+          255,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "grounded-studio-1-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-1-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ],
+      "coordinates": [
+        [
+          413,
+          184,
+          5,
+          5,
+          5
+        ],
+        [
+          404,
+          215,
+          12,
+          12,
+          11
+        ],
+        [
+          273,
+          229,
+          0,
+          0,
+          1
+        ],
+        [
+          269,
+          249,
+          1,
+          2,
+          3
+        ],
+        [
+          267,
+          251,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "grounded-studio-1-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-2-front-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 4,
+      "differenceBounds": [
+        251,
+        184,
+        446,
+        256
+      ],
+      "coordinates": [
+        [
+          445,
+          184,
+          2,
+          2,
+          2
+        ],
+        [
+          420,
+          204,
+          3,
+          3,
+          3
+        ],
+        [
+          421,
+          210,
+          3,
+          3,
+          4
+        ],
+        [
+          251,
+          250,
+          3,
+          3,
+          3
+        ],
+        [
+          257,
+          255,
+          1,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "grounded-studio-2-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-2-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ],
+      "coordinates": [
+        [
+          413,
+          184,
+          5,
+          5,
+          5
+        ],
+        [
+          404,
+          215,
+          12,
+          12,
+          11
+        ],
+        [
+          273,
+          229,
+          0,
+          0,
+          1
+        ],
+        [
+          269,
+          249,
+          1,
+          2,
+          3
+        ],
+        [
+          267,
+          251,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "grounded-studio-2-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-3-front-three-quarter",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-3-side",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    },
+    {
+      "id": "grounded-studio-3-rear-three-quarter",
+      "byteIdentical": false,
+      "differingPixels": 5,
+      "maxChannelDelta": 12,
+      "differenceBounds": [
+        267,
+        184,
+        414,
+        252
+      ],
+      "coordinates": [
+        [
+          413,
+          184,
+          5,
+          5,
+          5
+        ],
+        [
+          404,
+          215,
+          12,
+          12,
+          11
+        ],
+        [
+          273,
+          229,
+          0,
+          0,
+          1
+        ],
+        [
+          269,
+          249,
+          1,
+          2,
+          3
+        ],
+        [
+          267,
+          251,
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "grounded-studio-3-glass",
+      "byteIdentical": true,
+      "differingPixels": 0,
+      "maxChannelDelta": 0,
+      "differenceBounds": null,
+      "coordinates": []
+    }
+  ],
+  "images": [
+    {
+      "path": "rendered/grounded-studio-0-front-three-quarter.png",
+      "bytes": 87651,
+      "sha256": "695530fd9b4e057228d9c04c7eba63f92c84f0d7014a920b38d08a5381d225b6",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-0-side.png",
+      "bytes": 99934,
+      "sha256": "79d156660c42fd76f2af71991cbbed95556b980af5292899a42186f87240fbd4",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-0-front-three-quarter.png",
+      "bytes": 85400,
+      "sha256": "76b7581dd7c2c517bb0e96892c8e38768ce942fcf93e36904c01d75e5b9e84a4",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-0-side.png",
+      "bytes": 97277,
+      "sha256": "a1c3f303cad865c6cd130284cf9959a7d3753513f23433bb914b7aef0df7c5d3",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-0-rear-three-quarter.png",
+      "bytes": 84511,
+      "sha256": "de4d57c4c029cf370d886eea36276c9d4f991ef1e96ab564bde17fe737db0eb8",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-0-glass.png",
+      "bytes": 355398,
+      "sha256": "3b9a08f9506b2b644a959108ff2a607595b73815433f1ede67b6f55e55b08f35",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-0-rear-three-quarter.png",
+      "bytes": 81068,
+      "sha256": "006e295284b677c3412801e2a59827a90d4e861d84cc32b105d0c4858729acb0",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-0-glass.png",
+      "bytes": 354597,
+      "sha256": "99a41d2f243bfc5f52f484e1bc52a09664973886b261414b4ee94a5f8bb24490",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-1-front-three-quarter.png",
+      "bytes": 86197,
+      "sha256": "cdb9852e1d24ca4a8638b83514733c40136f47c4e767ba34dfe4473673f23cb6",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-1-side.png",
+      "bytes": 97868,
+      "sha256": "e311da26e8cbe1bac0db53e977de160dc5ba4c9b77173726ba2570396e3fce4c",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-1-front-three-quarter.png",
+      "bytes": 86110,
+      "sha256": "ad3360dd3f5cd3f50956d962627477bff67e92c7c180e44f9e0b5e5f34016b1d",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-1-side.png",
+      "bytes": 97308,
+      "sha256": "c6f22e257f421043a5c8e80bb3d37d19c99074de4ab842199972a4f170a62ba0",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-1-rear-three-quarter.png",
+      "bytes": 85076,
+      "sha256": "a6970c40cd18adf74087e543caf0c017798a39c57943156bd0effa319f9df274",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-1-glass.png",
+      "bytes": 299015,
+      "sha256": "37d5886ed7fdc91a4adb35b6ebff2ce8d49ef1c02206a343d7570d03537b289d",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-1-rear-three-quarter.png",
+      "bytes": 83122,
+      "sha256": "c3e62c9b82dccc7076cc06860d0c5c466e15403b00f057824602e37c333b3841",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-1-glass.png",
+      "bytes": 304228,
+      "sha256": "618f224203b9c5795d3009209d255d214cd4c34c8840118b880d4b68256ef251",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-2-front-three-quarter.png",
+      "bytes": 79314,
+      "sha256": "229e2fac31d5e8c6e5512dd7a58b93b7954b2378d4c3160184727438c9a97079",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-2-side.png",
+      "bytes": 87015,
+      "sha256": "6855621eb567172f07a8a2634e5c2095162408f66d5d56400bb01cacaf5c0a8a",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-2-front-three-quarter.png",
+      "bytes": 76979,
+      "sha256": "f8b5a1c8994261ec4831a19231e4bd1495abd90b22e87eb9e61b1a87e885b3aa",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-2-side.png",
+      "bytes": 85289,
+      "sha256": "c5d2ca7fb5e07d9ea67f40d96f4ecb3c8d774023184c377850433026da5c94fe",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-2-rear-three-quarter.png",
+      "bytes": 81062,
+      "sha256": "25579a2a3fd785002dbff8b039d080e1914119137fb8de30233d73c4da8f94d8",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-2-glass.png",
+      "bytes": 280725,
+      "sha256": "0ecbaced929ba4c6c621c24187c3951c88817cc66d74036895329cbdb4862118",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-2-rear-three-quarter.png",
+      "bytes": 77346,
+      "sha256": "a70ed8267e483f620d136849a2890e157eb314ea0d1aee5e14ec08c71560621e",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-2-glass.png",
+      "bytes": 276225,
+      "sha256": "4408b714eddd57db6112886904f40d0c0c343d2816b072b050695904db49c01d",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-3-front-three-quarter.png",
+      "bytes": 82338,
+      "sha256": "41ec4536bd94d87aedc05a11f3e854c009e6734607bbe392bf04c5f367522f68",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-3-side.png",
+      "bytes": 92092,
+      "sha256": "91de4f21c0be1b8d1ffff8915a80ca2cd23bf33513d4a8f22dbe091eca2c0a14",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-3-front-three-quarter.png",
+      "bytes": 81559,
+      "sha256": "cf936470070a046f18bae220c9cc72d71ed38db60d561907e64cc49ba2ef403f",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-3-side.png",
+      "bytes": 91017,
+      "sha256": "53f1f36fede802a3786b4cbc64e04026b3951be3a23fcac7dfe8383fcbc14636",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-3-rear-three-quarter.png",
+      "bytes": 80662,
+      "sha256": "38120734e76538148a03b117f64443b591a7fac6e740154846366d9130b0f2c4",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-3-glass.png",
+      "bytes": 273521,
+      "sha256": "49db62c09eb9d83bb249deabe5ce00224bf7f0eb51ff79de6f4f8bb16cc90068",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-3-rear-three-quarter.png",
+      "bytes": 77302,
+      "sha256": "0b1306bffa1436658af9a751585a5f1a7439dfaeb4d585b3599137dd2bbdd137",
+      "dimensions": [
+        600,
+        400
+      ]
+    },
+    {
+      "path": "rendered/grounded-studio-refined-3-glass.png",
+      "bytes": 273272,
+      "sha256": "3c106670f595781ab022bdcce363cc9a798d9cb3147d01c25cd93fede4557e27",
+      "dimensions": [
+        600,
+        400
+      ]
+    }
+  ],
+  "pairedCamerasTransformsAssignments": true
+}

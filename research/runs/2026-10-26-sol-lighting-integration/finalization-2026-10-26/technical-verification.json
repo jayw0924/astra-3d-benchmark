@@ -1,0 +1,55 @@
+{
+  "attestationType": "Technical retained-evidence and ledger reconciliation, NOT Jay subjective approval",
+  "approvalRecord": "current-acceptance.json",
+  "identityBasis": "Sol gpt-6.1-sol / openai-codex declared runtime/task context; no authenticated session export claimed",
+  "historicalEvidence": {
+    "preFinalizationFiles": 431,
+    "historicalInventoryEntriesVerified": {"original": 208, "refinement": 127},
+    "noteHandling": "Original note bytes preserved in this finalization directory, then current status appended to originals. Old inventory hashes resolve to the historical note copies; old inventories/checksums themselves are unchanged.",
+    "originalCaptures": 72,
+    "refinementCaptures": 32,
+    "refinementPairs": 16,
+    "baselineReplayExactPNGMatches": 10,
+    "baselineReplayNonidenticalFrames": 6,
+    "baselineReplayDifferingPixelsPerNonidenticalFrame": 5,
+    "baselineReplayMaximumChannelDelta": 12,
+    "baselineReplayCause": "unisolated",
+    "allRetainedPNGsIndependentlyDecodedIncludingAttemptsAndSheets": 175,
+    "historicalIntegrationFinishCases": 8,
+    "historicalIntegrationNativeAfterImages": 8,
+    "browserScope": "DPR1 Chromium SwiftShader desktop and emulated-mobile. Existing actual served bytes, live lighting state and 25 mapped materials checked for eight isolated finish cases; bounded two-finish round trips, wheel/camera/reset evidence retained. Not exhaustive ordered live transitions, physical-mobile certification or real-GPU performance.",
+    "captureReplayPerformedInFinalization": false,
+    "sourcePinCaveat": "Both historical capture manifests pin earlier viewerLighting.ts and threeViewer.ts bytes, superseded by subsequent integration. Retained PNG/model hashes, shared matrix/pair validator and telemetry are rechecked independently without claiming present source matches old pins. Historical integration writer verify.py was deliberately not run because it overwrites archived verification/gallery and asserts an obsolete whole-tree boundary."
+  },
+  "currentExecutedChecks": {
+    "originalFocusedTests": {"passed": 2, "evidence": "original-focused.log"},
+    "refinementFocusedTests": {"passed": 2, "evidence": "refinement-focused.log"},
+    "fullUnitTests": {"passed": 36, "files": 6, "evidence": "unit.log"},
+    "scriptTests": {"passed": 25, "evidence": "script-tests.log"},
+    "renderPlanTests": {"passed": 6, "evidence": "render-plan.log"},
+    "pairedMatrixValidation": {"captures": [72,32], "evidence": "paired-matrix.log"},
+    "lint": {"exitCode": 0, "evidence": "lint.log"},
+    "retainedEvidencePrivacyAndPreservation": {"exitCode": 0, "evidence": "retained-evidence-retry.log"},
+    "researchCommands": "Actual research:validate / research:build execution logs and metadata retained separately; final validation/projection evidence is in research-validate.log, research-build.log and research-build-repeat.log."
+  },
+  "privacy": {
+    "trackedPrivateSessionExports": 0,
+    "trackedPrivatePathsFound": 0,
+    "credentialPatternFindings": 0,
+    "trackedFilesScanned": 1159,
+    "publicCommandJSONLLedgersAllowlistChecked": 11,
+    "limitation": "Path/credential pattern scan, not proof that all possible secrets are absent. No credential values or transcript text printed or added. Existing raw/session-*.json files are browser telemetry; commands.jsonl are structured public command ledgers, not session exports."
+  },
+  "finalizerIssue": "First privacy check falsely classified all JSONL as session exports (retained-evidence.log, exit 1). Independently inspected key shapes and confirmed the 11 existing tracked commands.jsonl files are command ledgers, then narrowed the rule to allowlisted command-record keys. Retry passed; the failed log was retained. No existing ledger was removed or changed to make the check pass.",
+  "changesAndLimits": "Only three append-only notes, three new run records, additive finalization outputs and research:build-generated public projection. README/app sources/assets unchanged by finalizer. No new PNG or private export, no staging/commit/push/deploy. Original runtime, cost and feedback occurrence timestamps unavailable. Record finalization and observed evidence boundaries explicitly distinguished in timing-boundaries.json.",
+  "remainingReleaseGates": [
+    "Parent confirms explicit operational authorization and reviews exact publication file set before staging/commit/push/deploy.",
+    "Joined final-tree release checks including app build and desired browser acceptance, plus generated projection/current public-copy review remain parent responsibility. Finalization reran research validation/build and focused/unit/script/render-plan/lint checks only, not heavyweight live E2E or app compilation.",
+    "After authorized publication, verify actual remote commit/deployment and served application/asset bytes. Nothing here establishes remote publication."
+  ],
+  "futureQualityWorkNotMisrepresentedAsCheckpointReleaseRequirement": [
+    "Physical mobile devices, gesture/pinch and production-GPU performance",
+    "Exhaustive live transition histories and arbitrary-view behavior",
+    "Residual geometry/material diagnosis under the accepted fixed lighting baseline"
+  ]
+}

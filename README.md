@@ -62,6 +62,35 @@ they do not certify physical-device image quality. CPU material compilation can
 be slow, so the full interaction test allows ten minutes. Failed high-DPR mobile
 runs and whole-suite resource termination are not evidence of runtime speedup.
 
+## Refined viewer lighting (local, pending final review)
+
+The actual configurator now selects Jay's `grounded-studio-refined` recipe after
+loading, centering and rotating the unchanged Safe GLB and measuring its world
+bounds. The shared factory retains `original`, `environment-only`, and
+`grounded-studio` unchanged for rollback/comparison. The procedural environment,
+light rebalance and shadow-only floor are Sol presentation/integration work,
+not Astra geometry/material authoring. No new HDR, postprocessing, dependency,
+model or paint/glass material edits were introduced; existing wheel treatment remains.
+
+One-line lighting rollback: change the post-load `preset: 'grounded-studio-refined'`
+to `preset: 'original'` in `src/lib/threeViewer.ts`, then `npm run build:app`.
+
+Local evidence, native desktop/mobile images, TDD failures and test logs are in
+`research/runs/2026-10-26-sol-lighting-integration/`. Opt-in development-only
+`viewer:inspect` canvas events return copied diagnostic state (no scene references);
+production does not install the listener. Focused tests verify real GLTF material
+indices/caster flags, camera state, wheel parameters, cached shadow updates, served
+GLB hash and request/page errors—not merely checked radio controls. Run each finish
+and project sequentially, e.g. `npm run test:e2e -- tests/e2e/lighting.spec.ts
+--project=chromium --grep 'Carmine Candy' --workers=1 --reporter=list`.
+`CAPTURE_LIGHTING=1` also captures the app framebuffer immediately after its own
+render callback. CPU-only tests pace animation submissions at one-second intervals,
+DPR 1; mobile is layout emulation, not physical-device or performance certification.
+Historical `showcase.spec.ts` finish assertions are UI/URL checks, not rendered
+material proof. Broad glass reflections, pale Pearly highlights and residual
+surface artifacts remain for later diagnosis. Final Jay approval of the actual
+integrated result, commit, push and deployment are all still pending.
+
 ## Commands
 
 ```bash

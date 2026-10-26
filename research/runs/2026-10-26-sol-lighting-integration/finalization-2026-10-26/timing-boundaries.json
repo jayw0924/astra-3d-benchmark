@@ -1,0 +1,36 @@
+{
+  "finalizedAt": "2026-10-26T17:59:58.876Z",
+  "scope": "Observed retained-evidence boundaries through this record finalization; NOT full original or active runtime. Original launch times and cost unavailable.",
+  "runs": {
+    "2026-10-23-sol-viewer-lighting": {
+      "startedAt": "2026-10-23T19:28:56.156Z",
+      "source": {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/capture-manifest.json",
+        "field": "images timestamp",
+        "id": "original-0-front-three-quarter"
+      },
+      "endedAt": "2026-10-26T17:59:58.876Z",
+      "endBoundary": "Actual records finalization clock, not historical execution completion"
+    },
+    "2026-10-23-sol-viewer-lighting-refinement": {
+      "startedAt": "2026-10-25T20:32:33.788Z",
+      "source": {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting-refinement/capture-manifest.json",
+        "field": "images timestamp",
+        "id": "grounded-studio-0-front-three-quarter"
+      },
+      "endedAt": "2026-10-26T17:59:58.876Z",
+      "endBoundary": "Actual records finalization clock, not historical execution completion"
+    },
+    "2026-10-26-sol-lighting-integration": {
+      "startedAt": "2026-10-26T15:50:57.837128Z",
+      "source": {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/inventory.json",
+        "field": "time",
+        "unixSeconds": 1793029857.837128
+      },
+      "endedAt": "2026-10-26T17:59:58.876Z",
+      "endBoundary": "Actual records finalization clock, not historical execution completion"
+    }
+  }
+}

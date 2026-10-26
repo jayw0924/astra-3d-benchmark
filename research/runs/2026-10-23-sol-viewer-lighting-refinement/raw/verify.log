@@ -1,0 +1,77 @@
+{
+  "captures": 32,
+  "pairedCameras": true,
+  "pairedTransforms": true,
+  "pairedAssignments": true,
+  "baselineComparedPNGs": 16,
+  "baselineExactPNGs": 10,
+  "baselineParity": [
+    {
+      "id": "grounded-studio-0-front-three-quarter",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-0-side",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-0-rear-three-quarter",
+      "identical": false
+    },
+    {
+      "id": "grounded-studio-0-glass",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-1-front-three-quarter",
+      "identical": false
+    },
+    {
+      "id": "grounded-studio-1-side",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-1-rear-three-quarter",
+      "identical": false
+    },
+    {
+      "id": "grounded-studio-1-glass",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-2-front-three-quarter",
+      "identical": false
+    },
+    {
+      "id": "grounded-studio-2-side",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-2-rear-three-quarter",
+      "identical": false
+    },
+    {
+      "id": "grounded-studio-2-glass",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-3-front-three-quarter",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-3-side",
+      "identical": true
+    },
+    {
+      "id": "grounded-studio-3-rear-three-quarter",
+      "identical": false
+    },
+    {
+      "id": "grounded-studio-3-glass",
+      "identical": true
+    }
+  ],
+  "hashedPNGs": 32,
+  "completedSessions": 8,
+  "glbHash": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+}

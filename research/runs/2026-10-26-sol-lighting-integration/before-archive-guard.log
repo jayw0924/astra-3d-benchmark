@@ -1,0 +1,8 @@
+file:///workspace/research/runs/2026-10-26-sol-lighting-integration/capture-before.mjs:8
+if(createHash('sha256').update(source).digest('hex')!==baseline.files['src/lib/threeViewer.ts']) throw Error('Before capture requires the exact pre-integration viewer source; evidence is already retained.');
+                                                                                                       ^
+
+Error: Before capture requires the exact pre-integration viewer source; evidence is already retained.
+    at file:///workspace/research/runs/2026-10-26-sol-lighting-integration/capture-before.mjs:8:104
+
+Node.js v26.10.0

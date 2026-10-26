@@ -1,0 +1,130 @@
+[
+  {
+    "path": "after-refined-chromium-carmine-candy-native.png",
+    "width": 850,
+    "height": 778,
+    "bytes": 273686,
+    "sha256": "a1a783c04d1f178fbfff29988b0024b6bde66e0358e405bc54ca3c8ec8ad05cd",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-chromium-carmine-candy-orbit.png",
+    "width": 850,
+    "height": 778,
+    "bytes": 267112,
+    "sha256": "ec96d9700a57b6030597be59fa0e9e001ca19057b667b758b01a58146894a9d9",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-chromium-estuary-enamel-native.png",
+    "width": 850,
+    "height": 778,
+    "bytes": 244385,
+    "sha256": "81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-chromium-pearly-swirly-native.png",
+    "width": 850,
+    "height": 778,
+    "bytes": 263065,
+    "sha256": "73c000cdbfc04c9856c37f19518481194bb6e6326551e704329453ddcc052009",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-chromium-torched-graphite-native.png",
+    "width": 850,
+    "height": 778,
+    "bytes": 227519,
+    "sha256": "89a5feff6eb01e6fb466d9904e89c45518b4a6341fcaf912688a2b13e69ae695",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-mobile-chromium-carmine-candy-native.png",
+    "width": 353,
+    "height": 440,
+    "bytes": 95317,
+    "sha256": "f80cda562c9eb0a0b8015438f8eb1fdd32f96132f1ea4c4079904a06bf5e017b",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-mobile-chromium-carmine-candy-orbit.png",
+    "width": 353,
+    "height": 440,
+    "bytes": 92945,
+    "sha256": "1c05f89048908cc6aa5652729f5c02ac71fc8fc7e3ddc98e24f66056de6c9e62",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-mobile-chromium-estuary-enamel-native.png",
+    "width": 353,
+    "height": 440,
+    "bytes": 89732,
+    "sha256": "cc6c4ed708407ddef2bd882d0150584e585c567a16cf19077b15c607a0d3ea35",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-mobile-chromium-pearly-swirly-native.png",
+    "width": 353,
+    "height": 440,
+    "bytes": 95476,
+    "sha256": "dbc07b709f95f680b3c853dcc40a4dddeade36143a21215b08a09c6da1d390f5",
+    "accepted": true
+  },
+  {
+    "path": "after-refined-mobile-chromium-torched-graphite-native.png",
+    "width": 353,
+    "height": 440,
+    "bytes": 84724,
+    "sha256": "494bc3ef75c227429957e0efafb2031a4d7d36f0376cb2b4aa2c126cca171caf",
+    "accepted": true
+  },
+  {
+    "path": "attempts-cdp-viewport-clip/after-refined-chromium-carmine-candy-native.png",
+    "width": 850,
+    "height": 778,
+    "bytes": 3607,
+    "sha256": "1e50c6caf25b4ef12a9dc6124916b18ac44f65742e287fc43773b57678bcf2cf",
+    "accepted": false
+  },
+  {
+    "path": "attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-native.png",
+    "width": 353,
+    "height": 440,
+    "bytes": 1316,
+    "sha256": "c7bb4786ad2bfb53d0272c3d51e64a9e320b0373175b4559f62a1da7739610c3",
+    "accepted": false
+  },
+  {
+    "path": "attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-orbit.png",
+    "width": 353,
+    "height": 440,
+    "bytes": 1316,
+    "sha256": "c7bb4786ad2bfb53d0272c3d51e64a9e320b0373175b4559f62a1da7739610c3",
+    "accepted": false
+  },
+  {
+    "path": "before-original-desktop-native.png",
+    "width": 850,
+    "height": 778,
+    "bytes": 168361,
+    "sha256": "65a2849b34b15de4794eb35137f9d4242e15f2e00b7da2f33ab59ead0e7f3eb5",
+    "accepted": true
+  },
+  {
+    "path": "before-original-desktop-page.png",
+    "width": 1280,
+    "height": 900,
+    "bytes": 212305,
+    "sha256": "2572c0d37a0941e42b6d5641baf2d9b3f957bbee3a66db7c55ca9a6ee8af786c",
+    "accepted": true
+  },
+  {
+    "path": "before-original-mobile-native.png",
+    "width": 352,
+    "height": 440,
+    "bytes": 65052,
+    "sha256": "939058e3d58058a5fe37661b0386101b3827c8264dc438e8178e2c675c2ec90a",
+    "accepted": true
+  }
+]

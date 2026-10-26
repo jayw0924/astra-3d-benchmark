@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "gpu": {
+      "vendor": "Google Inc. (Google)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+      "parallelCompile": false
+    },
+    "loadMs": 1408,
+    "servedHash": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "servedBytes": 9239404,
+    "rigs": [],
+    "transitions": []
+  },
+  "errors": [],
+  "consoleMessages": [],
+  "modelRequests": 1,
+  "browser": "156.0.8078.4"
+}

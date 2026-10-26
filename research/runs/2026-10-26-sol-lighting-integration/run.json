@@ -1,0 +1,815 @@
+{
+  "id": "2026-10-26-sol-lighting-integration",
+  "title": "Sol refined lighting integration — Jay-approved publication checkpoint",
+  "startedAt": "2026-10-26T15:50:57.837128Z",
+  "endedAt": "2026-10-26T17:59:58.876Z",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Agent with Docker terminal backend; declared runtime attribution, not authenticated session export",
+  "reasoningMode": "not exposed by interface",
+  "tools": [
+    "terminal",
+    "file",
+    "browser",
+    "vision"
+  ],
+  "workPackage": "integrate",
+  "inputAssets": [
+    "web-product-estuary-safe"
+  ],
+  "promptPath": "research/runs/2026-10-26-sol-lighting-integration/prompt.md",
+  "outputPaths": [
+    "README.md",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-carmine-candy-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-carmine-candy-orbit.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-pearly-swirly-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-torched-graphite-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-carmine-candy-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-carmine-candy-orbit.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-estuary-enamel-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-pearly-swirly-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-torched-graphite-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-chromium-carmine-candy-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-orbit.png",
+    "research/runs/2026-10-26-sol-lighting-integration/before-archive-guard.log",
+    "research/runs/2026-10-26-sol-lighting-integration/before-captures.json",
+    "research/runs/2026-10-26-sol-lighting-integration/before-original-desktop-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/before-original-desktop-page.png",
+    "research/runs/2026-10-26-sol-lighting-integration/before-original-mobile-native.png",
+    "research/runs/2026-10-26-sol-lighting-integration/before-retry.log",
+    "research/runs/2026-10-26-sol-lighting-integration/before-throttled-retry.log",
+    "research/runs/2026-10-26-sol-lighting-integration/before-throttled.log",
+    "research/runs/2026-10-26-sol-lighting-integration/before.log",
+    "research/runs/2026-10-26-sol-lighting-integration/build-app-final.log",
+    "research/runs/2026-10-26-sol-lighting-integration/build-app.log",
+    "research/runs/2026-10-26-sol-lighting-integration/capture-before.mjs",
+    "research/runs/2026-10-26-sol-lighting-integration/chromium-carmine-candy-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/chromium-carmine-candy-transitions.json",
+    "research/runs/2026-10-26-sol-lighting-integration/chromium-estuary-enamel-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/chromium-pearly-swirly-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/chromium-torched-graphite-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-batches.json",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-chromium-carmine-candy.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-chromium-pearly-swirly.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-batches.json",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-bounded-transitions-pointer.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-carmine-candy-framebuffer.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-estuary.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-pearly-retry.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-pearly-swirly-framebuffer.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-reset-fixed.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-torched.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-transitions-pointer.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-bounded-transitions.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-cdp.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-framebuffer.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-paced.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-paused.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-estuary.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-pearly-framebuffer.log",
+    "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-torched.log",
+    "research/runs/2026-10-26-sol-lighting-integration/execution-notes.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-23-sol-viewer-lighting-historical-notes.md",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-23-sol-viewer-lighting-refinement-historical-notes.md",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-26-sol-lighting-integration-historical-notes.md",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/before.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/current-acceptance.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/lint-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/lint.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/notes.md",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests.log",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/timing-boundaries.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-execution.json",
+    "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit.log",
+    "research/runs/2026-10-26-sol-lighting-integration/gallery-check.json",
+    "research/runs/2026-10-26-sol-lighting-integration/gallery-check.log",
+    "research/runs/2026-10-26-sol-lighting-integration/gallery-check.mjs",
+    "research/runs/2026-10-26-sol-lighting-integration/green-cached-shadow.log",
+    "research/runs/2026-10-26-sol-lighting-integration/green-casters.log",
+    "research/runs/2026-10-26-sol-lighting-integration/green-inspection.log",
+    "research/runs/2026-10-26-sol-lighting-integration/green-late-dependency.log",
+    "research/runs/2026-10-26-sol-lighting-integration/green-lifecycle.log",
+    "research/runs/2026-10-26-sol-lighting-integration/green-reset-momentum.log",
+    "research/runs/2026-10-26-sol-lighting-integration/green-rig-refresh.log",
+    "research/runs/2026-10-26-sol-lighting-integration/green-variant.log",
+    "research/runs/2026-10-26-sol-lighting-integration/images.json",
+    "research/runs/2026-10-26-sol-lighting-integration/index.html",
+    "research/runs/2026-10-26-sol-lighting-integration/inventory.json",
+    "research/runs/2026-10-26-sol-lighting-integration/lint-closeout.log",
+    "research/runs/2026-10-26-sol-lighting-integration/lint-final.log",
+    "research/runs/2026-10-26-sol-lighting-integration/lint.log",
+    "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-carmine-candy-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-carmine-candy-transitions.json",
+    "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-estuary-enamel-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-pearly-swirly-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-torched-graphite-inspection.json",
+    "research/runs/2026-10-26-sol-lighting-integration/notes.md",
+    "research/runs/2026-10-26-sol-lighting-integration/prompt.md",
+    "research/runs/2026-10-26-sol-lighting-integration/red-cached-shadow.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-casters.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-inspection.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-late-dependency.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-lifecycle-behavior.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-lifecycle.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-reset-momentum.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-rig-refresh.log",
+    "research/runs/2026-10-26-sol-lighting-integration/red-variant.log",
+    "research/runs/2026-10-26-sol-lighting-integration/unit-final.log",
+    "research/runs/2026-10-26-sol-lighting-integration/unit.log",
+    "research/runs/2026-10-26-sol-lighting-integration/verification.json",
+    "research/runs/2026-10-26-sol-lighting-integration/verify-closeout.log",
+    "research/runs/2026-10-26-sol-lighting-integration/verify.log",
+    "research/runs/2026-10-26-sol-lighting-integration/verify.py",
+    "src/generated/study-data.json",
+    "src/lib/threeViewer.integration.test.ts",
+    "src/lib/threeViewer.ts",
+    "src/lib/viewerLighting.test.ts",
+    "src/lib/viewerLighting.ts",
+    "tests/e2e/lighting.spec.ts"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "README.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-carmine-candy-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-carmine-candy-orbit.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-pearly-swirly-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-torched-graphite-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-carmine-candy-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-carmine-candy-orbit.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-estuary-enamel-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-pearly-swirly-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/after-refined-mobile-chromium-torched-graphite-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-chromium-carmine-candy-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/attempts-cdp-viewport-clip/after-refined-mobile-chromium-carmine-candy-orbit.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-archive-guard.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-original-desktop-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-original-desktop-page.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-original-mobile-native.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-throttled-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before-throttled.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/before.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/build-app-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/build-app.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/capture-before.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-carmine-candy-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-carmine-candy-transitions.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-estuary-enamel-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-pearly-swirly-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/chromium-torched-graphite-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-batches.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-chromium-carmine-candy.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-chromium-pearly-swirly.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-batches.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-bounded-transitions-pointer.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-carmine-candy-framebuffer.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-estuary.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-pearly-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-pearly-swirly-framebuffer.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-reset-fixed.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-torched.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-desktop-transitions-pointer.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-bounded-transitions.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-cdp.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-framebuffer.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-paced.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine-paused.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-carmine.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-estuary.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-pearly-framebuffer.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/e2e-mobile-torched.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/execution-notes.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-23-sol-viewer-lighting-historical-notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-23-sol-viewer-lighting-refinement-historical-notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/2026-10-26-sol-lighting-integration-historical-notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/current-acceptance.json",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/finalize.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/lint-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/notes.md",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/original-focused.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/paired-matrix.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/refinement-focused.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/render-plan.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/retained-evidence.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/script-tests.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/timing-boundaries.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/finalization-2026-10-26/unit.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/gallery-check.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/gallery-check.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/gallery-check.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-cached-shadow.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-casters.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-inspection.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-late-dependency.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-lifecycle.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-reset-momentum.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-rig-refresh.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/green-variant.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/images.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/lint-closeout.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/lint-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-carmine-candy-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-carmine-candy-transitions.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-estuary-enamel-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-pearly-swirly-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/mobile-chromium-torched-graphite-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/notes.md",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/prompt.md",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-cached-shadow.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-casters.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-inspection.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-late-dependency.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-lifecycle-behavior.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-lifecycle.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-reset-momentum.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-rig-refresh.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/red-variant.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/unit-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/unit.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/verify-closeout.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/verify.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-lighting-integration/verify.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/generated/study-data.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/lib/threeViewer.integration.test.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/lib/threeViewer.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/lib/viewerLighting.test.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/lib/viewerLighting.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "tests/e2e/lighting.spec.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 7741.038872,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Not exposed/retained. Calendar evidence-to-finalization interval is not active runtime or billed time."
+  },
+  "interventionLevel": 2,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Original launch/full active runtime and billing unavailable. startedAt is first retained capture timestamp (comparison) or pre-edit inventory timestamp (integration); endedAt is later ledger finalization. Interval includes idle/interruption. Declared Sol attribution only; no private transcript fabricated. Historical pending labels intentionally preserved and superseded by current-acceptance.json. Original exit-137 causes unknown. Static historical source pins were superseded by integration; see separate checks. No physical-device, exhaustive live-transition, geometry/material realism or production-performance claim. See notes and finalization-2026-10-26 release gates.",
+  "reviewer": "Sol additive evaluator reconciliation; existing technical evidence retained; Jay subjective checkpoint approval separately quoted in current-acceptance.json. No new independent human technical certification.",
+  "publicSummary": "Refined lighting integrated locally. Eight retained isolated desktop/emulated-mobile finish cases verify served GLB and actual mapped materials; bounded round trips and controls verified. Jay accepts published lighting checkpoint; no geometry/material realism, physical-mobile or performance certification. No remote publication performed."
+}

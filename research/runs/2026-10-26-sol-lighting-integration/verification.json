@@ -1,0 +1,88 @@
+{
+  "verifiedAtUnix": 1793035467.8839545,
+  "baselineFiles": 1516,
+  "changedBaselineFiles": [
+    "README.md",
+    "tsconfig.app.tsbuildinfo",
+    "src/lib/threeViewer.ts",
+    "src/lib/viewerLighting.test.ts",
+    "src/lib/viewerLighting.ts"
+  ],
+  "unexpectedBaselineChanges": [],
+  "scopeLimit": "Content inventory excludes Git, dependencies, caches, build/report outputs and this run; tsconfig.app.tsbuildinfo is an expected build cache change.",
+  "servedModelHash": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+  "servedModelBytes": 9239404,
+  "initialFinishCases": [
+    {
+      "label": "chromium-carmine-candy",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    },
+    {
+      "label": "chromium-pearly-swirly",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    },
+    {
+      "label": "chromium-torched-graphite",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    },
+    {
+      "label": "chromium-estuary-enamel",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    },
+    {
+      "label": "mobile-chromium-carmine-candy",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    },
+    {
+      "label": "mobile-chromium-pearly-swirly",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    },
+    {
+      "label": "mobile-chromium-torched-graphite",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    },
+    {
+      "label": "mobile-chromium-estuary-enamel",
+      "meshes": 107,
+      "mapped": 25,
+      "errors": []
+    }
+  ],
+  "passingCaseLogs": [
+    "e2e-desktop-reset-fixed.log",
+    "e2e-mobile-bounded-transitions.log",
+    "e2e-desktop-pearly-retry.log",
+    "e2e-desktop-torched.log",
+    "e2e-desktop-estuary.log",
+    "e2e-mobile-pearly-framebuffer.log",
+    "e2e-mobile-torched.log",
+    "e2e-mobile-estuary.log"
+  ],
+  "unitTests": 36,
+  "lint": "pass",
+  "buildApp": "pass; chunk size warning",
+  "ownershipIssues": [],
+  "sourceHashes": {
+    "src/lib/threeViewer.ts": "16620bdac00cfc608a1a479c838645605c44ea1db5b40a00c3484c0808b321a3",
+    "src/lib/viewerLighting.ts": "bef1520d13da50bd367c9b2108a3f067e878cf3b322442018e9a7af7eb5fd5d4",
+    "src/lib/threeViewer.integration.test.ts": "445505d35978acc5e82ce784ba47823719f4dfd39ec797939ec133fbdc194635",
+    "src/lib/viewerLighting.test.ts": "c2403a112fb556f64f3b373d953b299e1d3b81c2a20db91cd5b01f26225db9ae",
+    "tests/e2e/lighting.spec.ts": "88447dd2ef30e53ae88944a88da32670d46da9361c902bba121d97d0f2203fab"
+  },
+  "subjectiveApproval": "pending final Jay review",
+  "commitPushDeployment": "not authorized; not performed"
+}

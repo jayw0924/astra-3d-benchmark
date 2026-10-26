@@ -1,0 +1,14 @@
+{
+  "command": [
+    "node",
+    "--input-type=module",
+    "-e",
+    "import {readFile} from 'node:fs/promises'; for (const dir of ['2026-10-23-sol-viewer-lighting','2026-10-23-sol-viewer-lighting-refinement']) { const base='./research/runs/'+dir; const {validateEvidence}=await import(base+'/verify.mjs'); console.log(dir, JSON.stringify(validateEvidence(JSON.parse(await readFile(base+'/capture-manifest.json','utf8'))))); }"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T17:59:54.003686+00:00",
+  "endedAt": "2026-10-26T17:59:54.047374+00:00",
+  "elapsedSeconds": 0.043695212982129306,
+  "exitCode": 0,
+  "log": "paired-matrix.log"
+}

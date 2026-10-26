@@ -1,0 +1,14 @@
+[
+  {
+    "layout": "desktop",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "dpr": 1,
+    "recipe": "original",
+    "camera": "unmodified application default",
+    "sha256": "8ebf7d18eea0eee68cfe8d0400637a41f88ebbee008b622f2ef671ebede56d4e",
+    "errors": []
+  }
+]

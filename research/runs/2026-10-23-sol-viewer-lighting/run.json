@@ -1,0 +1,1525 @@
+{
+  "id": "2026-10-23-sol-viewer-lighting",
+  "title": "Sol controlled viewer lighting — preserved 72-case experiment",
+  "startedAt": "2026-10-23T19:28:56.156Z",
+  "endedAt": "2026-10-26T17:59:58.876Z",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Agent with Docker terminal backend; declared runtime attribution, not authenticated session export",
+  "reasoningMode": "not exposed by interface",
+  "tools": [
+    "terminal",
+    "file",
+    "browser",
+    "vision"
+  ],
+  "workPackage": "render",
+  "inputAssets": [
+    "web-product-estuary-safe"
+  ],
+  "promptPath": "research/runs/2026-10-23-sol-viewer-lighting/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-23-sol-viewer-lighting/SHA256SUMS",
+    "research/runs/2026-10-23-sol-viewer-lighting/artifact-inventory.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture-manifest-last.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture-manifest.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture.mjs",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/page.js",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/plan-frozen.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/viewerLighting.ts",
+    "research/runs/2026-10-23-sol-viewer-lighting/capture-manifest.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/capture.mjs",
+    "research/runs/2026-10-23-sol-viewer-lighting/control-spec.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/diagnostics-summary.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/gallery-1280.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/gallery-390.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/gallery-check.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/gallery-check.mjs",
+    "research/runs/2026-10-23-sol-viewer-lighting/index.html",
+    "research/runs/2026-10-23-sol-viewer-lighting/notes.md",
+    "research/runs/2026-10-23-sol-viewer-lighting/package.py",
+    "research/runs/2026-10-23-sol-viewer-lighting/page.html",
+    "research/runs/2026-10-23-sol-viewer-lighting/page.js",
+    "research/runs/2026-10-23-sol-viewer-lighting/plan-frozen.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/plan.mjs",
+    "research/runs/2026-10-23-sol-viewer-lighting/plan.test.mjs",
+    "research/runs/2026-10-23-sol-viewer-lighting/prepare-shadow-repair.mjs",
+    "research/runs/2026-10-23-sol-viewer-lighting/prompt.md",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-1.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-2.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-3.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-4.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-5.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-6.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-7.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784219253.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784414650.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784626449.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784750445.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784753767.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784928480.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785208154.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785211450.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785390938.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785569652.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785738179.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784219256.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784414653.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784626539.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784750450.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784925036.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785208157.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785377648.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785566053.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785734742.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785906559.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792783970360.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784063475.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784229369.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784418234.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784632269.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784753764.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784928476.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785208151.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785211446.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785390873.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785569648.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785738176.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792783672598.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784219337.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784414744.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784626750.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784750480.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784925071.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785208245.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785377679.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785566080.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785734774.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785906665.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/final-tests.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-1.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-2.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-3.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-4.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-parity.log",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784219275.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784414741.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784626747.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784750478.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784925068.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785208241.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785377676.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785566077.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785734771.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785906662.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/recipe.md",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-front-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-rear-three-quarter.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-side.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/repair-parity.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/shadow-repair.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-0.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-1.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-2.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-3.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-glass.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-paint.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-wheel.png",
+    "research/runs/2026-10-23-sol-viewer-lighting/verification.json",
+    "research/runs/2026-10-23-sol-viewer-lighting/verify.mjs",
+    "research/runs/2026-10-23-sol-viewer-lighting/verify.test.mjs"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/SHA256SUMS",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/artifact-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture-manifest-last.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-0-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/grounded-studio-1-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/plan-frozen.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/attempts/grounded-v1/viewerLighting.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/capture-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/control-spec.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/diagnostics-summary.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-1280.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-390.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-check.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/gallery-check.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/notes.md",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/package.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/page.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/page.js",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/plan-frozen.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/plan.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/plan.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/prepare-shadow-repair.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/prompt.md",
+        "lane": "mixed",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-1.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-2.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-3.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-4.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-5.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-6.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/capture-attempt-7.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784219253.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784414650.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784626449.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784750445.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784753767.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792784928480.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785208154.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785211450.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785390938.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785569652.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-environment-only-1792785738179.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784219256.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784414653.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784626539.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784750450.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792784925036.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785208157.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785377648.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785566053.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785734742.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-grounded-studio-1792785906559.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792783970360.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784063475.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784229369.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784418234.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784632269.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784753764.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792784928476.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785208151.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785211446.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785390873.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785569648.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/checkpoint-original-1792785738176.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792783672598.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784219337.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784414744.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784626750.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784750480.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792784925071.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785208245.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785377679.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785566080.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785734774.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/execution-1792785906665.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/final-tests.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-1.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-2.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-3.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-capture-4.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/repair-parity.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784219275.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784414741.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784626747.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784750478.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792784925068.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785208241.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785377676.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785566077.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785734771.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/raw/session-1792785906662.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/recipe.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-0-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-1-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-2-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/environment-only-3-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-0-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-1-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-2-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/grounded-studio-3-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-0-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-1-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-2-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-front-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-rear-three-quarter.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/rendered/original-3-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/repair-parity.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/shadow-repair.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-0.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-1.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-2.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/finish-3.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-0-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-1-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-2-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-3-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-0-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-1-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-2-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-glass.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-paint.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/sheets/native-crop-3-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/verify.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-23-sol-viewer-lighting/verify.test.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 253862.72,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Not exposed/retained. Calendar evidence-to-finalization interval is not active runtime or billed time."
+  },
+  "interventionLevel": 2,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Original launch/full active runtime and billing unavailable. startedAt is first retained capture timestamp (comparison) or pre-edit inventory timestamp (integration); endedAt is later ledger finalization. Interval includes idle/interruption. Declared Sol attribution only; no private transcript fabricated. Historical pending labels intentionally preserved and superseded by current-acceptance.json. Original exit-137 causes unknown. Static historical source pins were superseded by integration; see separate checks. No physical-device, exhaustive live-transition, geometry/material realism or production-performance claim. See notes and finalization-2026-10-26 release gates.",
+  "reviewer": "Sol additive evaluator reconciliation; existing technical evidence retained; Jay subjective checkpoint approval separately quoted in current-acceptance.json. No new independent human technical certification.",
+  "publicSummary": "72 fixed-lighting captures across three rigs and four finishes; retained negative glass/shadow observations. Historical original-default boundary superseded by later refined integration, accepted by Jay only as a lighting checkpoint."
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "test:unit"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T18:02:22.431937+00:00",
+  "endedAt": "2026-10-26T18:02:29.225006+00:00",
+  "elapsedSeconds": 6.79307787201833,
+  "exitCode": 0,
+  "log": "unit-projection.log"
+}

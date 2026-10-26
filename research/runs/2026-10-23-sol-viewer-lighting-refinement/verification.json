@@ -1,0 +1,92 @@
+{
+  "status": "evidence complete; human preference pending; no promotion",
+  "captures": 32,
+  "pairs": 16,
+  "dimensions": [
+    600,
+    400
+  ],
+  "source": {
+    "url": "/assets/models/product-estuary-safe.glb",
+    "path": "public/assets/models/product-estuary-safe.glb",
+    "bytes": 9239404,
+    "sha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+  },
+  "pins": {
+    "src/lib/viewerLighting.ts": "e857ac0f409258a31d71ae7c7f19b97975036e7bed62e1aff1c872e6e65e0030",
+    "src/lib/threeViewer.ts": "9a27ee2bd06484557176741bb66463fc7375d84913c09dfd46369fc136df00f2",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/plan.mjs": "ad289d0ae92852a2ad051b2249e3b976d30eb92158be56608e93c100324c18ef",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/page.js": "afabc95ee148af86fd2b381ce6c14d731d6edc441db47fa3ce463ecdf888b60e",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/page.html": "2642af94265ce437a9b45f086957e97c2bd8a87b2628d691df0b8cfad592846a",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/brief.md": "d42c5282bf9e72ba1bdbae03e2b76f27c0044792c5f30e684698a2f5b86b16dd",
+    "research/runs/2026-10-23-sol-viewer-lighting-refinement/capture.mjs": "b218f346af09a56f7ef91312ef9cf90fcf0a6342230af7e64168e6b97feffa46",
+    "research/protocols/viewer-lighting-v1.md": "f6c05629dda6e53056c9d603faeb521ac120ec6d4690001002177d1797c98615"
+  },
+  "pairedCamerasTransformsAssignments": true,
+  "completedCaptureSessions": 8,
+  "modelRequestsPerSession": 1,
+  "finishAssignmentTransitionsPerSession": 16,
+  "sourceAndServedResponsePinsVerified": true,
+  "historicalFilesVerifiedByPublishedChecksums": 209,
+  "baselineParity": {
+    "compared": 16,
+    "exactByteMatches": 10,
+    "nonidenticalFrames": 6,
+    "differingPixelsEach": 5,
+    "maxChannelDelta": 12,
+    "cause": "unisolated",
+    "detail": "resume-audit/independent-evidence.json"
+  },
+  "visualInspection": {
+    "finishSheets": 4,
+    "nativePairSheets": 7,
+    "galleryPreviews": 2,
+    "parityNeighborhoods": 30,
+    "assessment": "notes.md; author inspection, not human preference"
+  },
+  "tests": {
+    "unit": {
+      "passed": 27,
+      "files": 5,
+      "evidence": "raw/unit-final.log",
+      "rerunOnRecovery": false
+    },
+    "plan": {
+      "passed": 2,
+      "evidence": "raw/plan-final.log",
+      "rerunOnRecovery": false
+    },
+    "lint": {
+      "exitCode": 0,
+      "evidence": "resume-audit/lint-execution.json",
+      "rerunOnRecovery": true
+    },
+    "build:app": {
+      "result": "TypeScript and Vite build success in retained log",
+      "evidence": "raw/build-final.log",
+      "warning": "chunk >500 kB",
+      "rerunOnRecovery": false
+    },
+    "liveAppE2E": {
+      "run": false,
+      "scope": "pending until selecting default"
+    }
+  },
+  "recovery": {
+    "captureReplay": false,
+    "sourceEdits": false,
+    "interruptedOwnerExitStatus": null,
+    "interruptionCause": null,
+    "failureDisclosure": "notes.md",
+    "preservation": "resume-audit/preservation.json",
+    "newAuditWarning": "Pillow getdata deprecation, nonfatal"
+  },
+  "originalDefaultRetained": true,
+  "promotion": false,
+  "runJsonCreated": false,
+  "blockers": [],
+  "pending": [
+    "Human preference/default selection",
+    "Live-app E2E if proposing default change"
+  ]
+}

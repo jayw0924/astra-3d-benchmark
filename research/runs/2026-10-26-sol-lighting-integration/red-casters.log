@@ -1,0 +1,32 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/viewerLighting.test.ts (9 tests | 1 failed) 25ms
+   ❯ viewer lighting (9)
+     × refreshes caster eligibility from actual material assignments and preserves original flags 6ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/viewerLighting.test.ts > viewer lighting > refreshes caster eligibility from actual material assignments and preserves original flags
+TypeError: grounding.refreshCasters is not a function
+ ❯ src/lib/viewerLighting.test.ts:12:38
+     10|     const mesh = new Mesh(new BoxGeometry(), opaque); model.add(mesh);
+     11|     const grounding = createGrounding(model, new Box3().setFromObject(…
+     12|     mesh.material = glass; grounding.refreshCasters(); expect(mesh.cas…
+       |                                      ^
+     13|     mesh.material = opaque; grounding.refreshCasters(); expect(mesh.ca…
+     14|     grounding.dispose(); expect(mesh.castShadow).toBe(false);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 8 passed (9)
+   Start at  16:08:46
+   Duration  892ms (environment 75%, setup 11%, import 6%, transform 4%, tests 3%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

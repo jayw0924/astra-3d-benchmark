@@ -1,0 +1,13 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "test:scripts"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-26T17:59:08.634072+00:00",
+  "endedAt": "2026-10-26T17:59:12.914997+00:00",
+  "elapsedSeconds": 4.280931412009522,
+  "exitCode": 0,
+  "log": "script-tests.log"
+}

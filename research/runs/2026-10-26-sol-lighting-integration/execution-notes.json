@@ -1,0 +1,18 @@
+{
+  "source": "Actual terminal tool exit results; wall-clock start/end times not retained for these interrupted commands",
+  "interruptedCommands": [
+    {"log":"before-throttled-retry.log","command":"PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright node research/runs/2026-10-26-sol-lighting-integration/capture-before.mjs","exitCode":137,"cause":"unknown; not proven OOM"},
+    {"log":"e2e-mobile-carmine-cdp.log","command":"CAPTURE_LIGHTING=1 npm run test:e2e -- tests/e2e/lighting.spec.ts --project=mobile-chromium --grep 'Carmine Candy' --workers=1 --reporter=list","exitCode":137,"cause":"unknown; not proven OOM"},
+    {"log":"e2e-desktop-pearly-swirly-framebuffer.log","command":"Python sequential desktop capture batch; Carmine completed, next Pearly case interrupted","exitCode":137,"cause":"unknown; later isolated Pearly case passed"},
+    {"log":"e2e-desktop-transitions-pointer.log","command":"npm run test:e2e -- tests/e2e/lighting.spec.ts --project=chromium --grep 'Carmine Candy' --workers=1 --reporter=list (four-finish transition attempt)","exitCode":137,"cause":"unknown; bounded two-finish round trip later passed"}
+  ],
+  "abortedBatch": {"processSession":"proc_4c6783ab9fc1","reason":"Stopped after inspecting blank CDP image; owned descendants explicitly terminated before retrying sequentially","partialResults":"e2e-batches.json is an incomplete abandoned attempt, not final verification"},
+  "finalVerification":"verification.json and the eight explicitly named passingCaseLogs are authoritative for this local verification package",
+  "appBuild":"build-app-final.log exit 0",
+  "unit":"unit-final.log exit 0, 36 tests",
+  "lint":"lint-final.log and lint-closeout.log exit 0",
+  "evidenceVerifier":"verify.log and verify-closeout.log exit 0",
+  "gallery":"gallery-check.log exit 0, desktop/mobile image decoding and overflow checks",
+  "archiveGuard":"before-archive-guard.log exit 1 expected, prevents before-capture mislabeling after integration",
+  "commitPushDeploy":"not performed"
+}
