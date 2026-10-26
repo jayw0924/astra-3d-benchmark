@@ -1,0 +1,64 @@
+{
+  "started": "2026-10-26T19:59:56.759Z",
+  "command": "/usr/local/bin/node /workspace/research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/capture.mjs",
+  "cwd": "/workspace",
+  "head": "ffe0a56982a0bb22c34d705b1c00f0a62d147a0f",
+  "status": " M src/lib/viewerLighting.test.ts\n M src/lib/viewerLighting.ts\n M tests/e2e/lighting.spec.ts\n?? research/FROZEN_LIGHTING_CHECKPOINT.md\n?? research/runs/2026-10-26-sol-ground-contact/\n?? research/runs/2026-10-26-sol-material-diagnosis/\n",
+  "baseline": {
+    "revision": "ffe0a56982a0bb22c34d705b1c00f0a62d147a0f",
+    "path": "src/lib/viewerLighting.ts",
+    "sha256": "bef1520d13da50bd367c9b2108a3f067e878cf3b322442018e9a7af7eb5fd5d4"
+  },
+  "after": {
+    "sha256": "8943174891711038f08a0f1fbf659fb491b8ea126551d84a8ae0a162e6acafdb"
+  },
+  "protocol": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "dpr": 1,
+    "rafPacingMs": 500,
+    "framebufferOnly": true,
+    "views": [
+      "side",
+      "front",
+      "wheel"
+    ],
+    "finishes": [
+      "Carmine Candy",
+      "Estuary Enamel"
+    ]
+  },
+  "events": [
+    {
+      "phase": "before",
+      "finish": "Carmine Candy",
+      "started": "2026-10-26T19:59:56.910Z",
+      "ended": "2026-10-26T20:04:12.452Z",
+      "elapsedSeconds": 255.542007465
+    },
+    {
+      "phase": "before",
+      "finish": "Estuary Enamel",
+      "started": "2026-10-26T20:04:12.452Z",
+      "ended": "2026-10-26T20:07:35.986Z",
+      "elapsedSeconds": 203.53357500100003
+    },
+    {
+      "phase": "after",
+      "finish": "Carmine Candy",
+      "started": "2026-10-26T20:07:36.055Z",
+      "ended": "2026-10-26T20:11:32.253Z",
+      "elapsedSeconds": 236.19838506399998
+    },
+    {
+      "phase": "after",
+      "finish": "Estuary Enamel",
+      "started": "2026-10-26T20:11:32.254Z",
+      "ended": "2026-10-26T20:14:40.436Z",
+      "elapsedSeconds": 188.18155937000003
+    }
+  ],
+  "ended": "2026-10-26T20:14:40.537Z"
+}

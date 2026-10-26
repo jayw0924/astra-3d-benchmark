@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python",
+    "research/runs/2026-10-26-sol-ground-finalization/verify-readonly.py"
+  ],
+  "startedAt": "2026-10-26T20:26:32.542376+00:00",
+  "endedAt": "2026-10-26T20:26:34.541945+00:00",
+  "elapsedSeconds": 1.9995761740137823,
+  "exitCode": 0
+}

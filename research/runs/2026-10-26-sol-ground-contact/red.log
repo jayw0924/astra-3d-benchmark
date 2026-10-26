@@ -1,0 +1,32 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/lib/viewerLighting.test.ts (10 tests | 1 failed) 53ms
+   ❯ viewer lighting (10)
+     × grounds only the refined recipe at actual transformed vertices, not conservative transformed boxes 10ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/lib/viewerLighting.test.ts > viewer lighting > grounds only the refined recipe at actual transformed vertices, not conservative transformed boxes
+AssertionError: expected -0.7101067811865476 to be close to -0.000500000000000111, received difference is 0.7096067811865475, but expected 5e-9
+ ❯ src/lib/viewerLighting.test.ts:24:37
+     22|       const renderer = {shadowMap:{enabled:false,type:BasicShadowMap,a…
+     23|       const rig = createLightingRig({scene,renderer,model,bounds,prese…
+     24|       expect(rig.floor!.position.y).toBeCloseTo(preset === 'grounded-s…
+       |                                     ^
+     25|       expect(model.matrixWorld.equals(before)).toBe(true);
+     26|       rig.dispose();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 9 passed (10)
+   Start at  19:30:18
+   Duration  979ms (environment 75%, setup 11%, tests 6%, transform 4%, import 3%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

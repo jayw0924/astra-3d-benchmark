@@ -1,10 +1,31 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { PMREMGenerator, WebGLRenderTarget, Texture, BasicShadowMap, PCFShadowMap, type WebGLRenderer } from 'three';
+import { PMREMGenerator, Float32BufferAttribute, WebGLRenderTarget, Texture, BasicShadowMap, PCFShadowMap, type WebGLRenderer } from 'three';
 afterEach(() => vi.restoreAllMocks());
 import { Scene, DirectionalLight, HemisphereLight, GridHelper, Box3, Vector3, Group, Mesh, BoxGeometry, MeshStandardMaterial } from 'three';
 import { createLightingRig, createGrounding, lightingRecipes, lightingSettings } from './viewerLighting';
 
 describe('viewer lighting', () => {
+  it('grounds only the refined recipe at actual transformed vertices, not conservative transformed boxes', () => {
+    vi.spyOn(PMREMGenerator.prototype, 'fromScene').mockReturnValue(new WebGLRenderTarget());
+    vi.spyOn(PMREMGenerator.prototype, 'dispose').mockImplementation(() => {});
+    const model = new Group();
+    const mesh = new Mesh(new BoxGeometry(), new MeshStandardMaterial());
+    // A sparse triangle: its transformed local AABB contains empty space below every vertex.
+    mesh.geometry.setIndex([0, 1, 2]);
+    mesh.geometry.setAttribute('position', new Float32BufferAttribute([0,0,0, 1,1,0, 0,1,1],3));
+    mesh.geometry.computeBoundingBox(); mesh.rotation.z = -Math.PI / 4; model.add(mesh); model.updateMatrixWorld(true);
+    const bounds = new Box3().setFromObject(model), precise = new Box3().setFromObject(model,true);
+    expect(precise.min.y - bounds.min.y).toBeGreaterThan(.1);
+    const before = model.matrixWorld.clone();
+    for (const preset of ['grounded-studio','grounded-studio-refined'] as const) {
+      const scene = new Scene();
+      const renderer = {shadowMap:{enabled:false,type:BasicShadowMap,autoUpdate:true,needsUpdate:false}} as WebGLRenderer;
+      const rig = createLightingRig({scene,renderer,model,bounds,preset});
+      expect(rig.floor!.position.y).toBeCloseTo(preset === 'grounded-studio-refined' ? precise.min.y - .0005 : bounds.min.y - .003,8);
+      expect(model.matrixWorld.equals(before)).toBe(true);
+      rig.dispose();
+    }
+  });
   it('refreshes caster eligibility from actual material assignments and preserves original flags', () => {
     const model = new Group(), opaque = new MeshStandardMaterial(), glass = new MeshStandardMaterial({transparent:true});
     const mesh = new Mesh(new BoxGeometry(), opaque); model.add(mesh);

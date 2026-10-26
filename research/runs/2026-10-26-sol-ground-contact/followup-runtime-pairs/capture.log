@@ -1,0 +1,14 @@
+7:59:56 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+before-Carmine-side 2026-10-26T20:02:20.068Z
+before-Carmine-front 2026-10-26T20:03:10.768Z
+before-Carmine-wheel 2026-10-26T20:04:12.302Z
+before-Estuary-side 2026-10-26T20:05:29.650Z
+before-Estuary-front 2026-10-26T20:06:18.571Z
+before-Estuary-wheel 2026-10-26T20:07:17.357Z
+after-Carmine-side 2026-10-26T20:09:42.259Z
+after-Carmine-front 2026-10-26T20:10:31.436Z
+after-Carmine-wheel 2026-10-26T20:11:32.144Z
+after-Estuary-side 2026-10-26T20:12:52.477Z
+after-Estuary-front 2026-10-26T20:13:40.671Z
+after-Estuary-wheel 2026-10-26T20:14:40.275Z
+PASS 12 images, 6 runtime-asserted pairs; historical files unchanged

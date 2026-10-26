@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import App from './App';
 
@@ -6,7 +6,7 @@ describe('App', () => {
   it('distinguishes current refined preview from historical evidence and discloses lighting authorship', () => {
     render(<App />);
     expect(screen.getByRole('heading', { name: 'Historical material comparison' })).toBeVisible();
-    const preview = screen.getByRole('img', { name: 'Current refined viewer: Estuary Enamel' });
+    const preview = screen.getByRole('img', { name: 'Pre-ground-correction refined viewer: Estuary Enamel' });
     expect(preview).toHaveAttribute('src', '/assets/viewer/refined-estuary-native.png');
     expect(preview).toHaveAttribute('width', '850');
     expect(preview).toHaveAttribute('height', '778');
@@ -18,6 +18,13 @@ describe('App', () => {
     expect(screen.getByRole('link', { name: 'Basis Universal Apache 2.0 license' })).toHaveAttribute('href', '/licenses/Basis-Universal-APACHE-2.0.txt');
     expect(screen.getByRole('link', { name: 'Basis Universal NOTICE' })).toHaveAttribute('href', '/licenses/Basis-Universal-NOTICE.md');
     expect(screen.queryByText(/Each run records the exact model/)).not.toBeInTheDocument();
+  });
+  it('qualifies the retained preview and reports grounding-only approval', () => {
+    render(<App />);
+    expect(screen.getByRole('img', { name: 'Pre-ground-correction refined viewer: Estuary Enamel' })).toBeVisible();
+    expect(screen.getByText(/This retained preview predates the ground-contact correction/)).toBeVisible();
+    expect(within(screen.getByRole('region', { name: 'Methods' })).getByText(/yes tires feel planted/)).toBeVisible();
+    expect(screen.getByText(/Historical desktop-before telemetry remains unavailable/)).toBeVisible();
   });
   it('publishes the accepted Safe result with fixed-view limits and historical control', () => {
     render(<App />);

@@ -1,0 +1,275 @@
+{
+  "scope": "Finalization artifacts and edited/new registration/public files; self excluded to avoid circular hash. Earlier inventories remain unchanged.",
+  "files": [
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/before.json",
+      "bytes": 387552,
+      "sha256": "3e2dfc2cd9901d7749f1dfad587bfec331f9aa4f2521440683234f1c5a18d1d4"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/command.py",
+      "bytes": 1042,
+      "sha256": "2deeed1b4f4d75443dcc5363dae3fb26041ffead8c37303deb7c1ca8c2a88e09"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-integrity-execution.json",
+      "bytes": 267,
+      "sha256": "e108b7be2a26ea965b0cd0b9607177deb38e5a479e9a2159d31851d511feacf9"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-integrity.log",
+      "bytes": 2285,
+      "sha256": "2f94f2bcd6960e8a37df5572df69ca9d89f55793a40cd7eb94375bd1f4c46410"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-production-http-execution.json",
+      "bytes": 265,
+      "sha256": "53076ee37c0a750964f614f38ae136869be56645dd8db6e0522adec293c0d243"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-production-http.log",
+      "bytes": 721,
+      "sha256": "f0235aeefc7e2b27f1218d4d5e5026e02e4f49d83b03e2b168dae99de5bd437b"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-public-build-execution.json",
+      "bytes": 217,
+      "sha256": "7bcb582216398b050c47921478a519057608df1ff0c01a7d69518e349a273992"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-public-build.log",
+      "bytes": 1220,
+      "sha256": "fcc7fa30e5890d88151506cfb2ce3e8d066ac6d1bb23b6bbfd895caebc063429"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-strict-build-execution.json",
+      "bytes": 213,
+      "sha256": "6fd9a13f581a8b1888f17ebb6a5484fb73ded84c076aabe00690d47754bd0921"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/final-strict-build.log",
+      "bytes": 1744,
+      "sha256": "b28ba08e19e94c1c660aa5f4b26a10aa0cf754ce7ee9ab5fa50a215ddb343891"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/finalize.py",
+      "bytes": 3357,
+      "sha256": "c9d55cbe166411cd80ea0909e4ddcfeba41f156b92c3900d205866d08130a5eb"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/green-public-label.log",
+      "bytes": 10084,
+      "sha256": "6cedcda6a5b380e215b7e433a8b5ef3f8042d2611b58a06830be85a23436cc3d"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/integrity-execution.json",
+      "bytes": 268,
+      "sha256": "0b15993abb36926d516818abda286965fb77a39b430cad0111e3ac8506896d42"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/integrity.json",
+      "bytes": 1759,
+      "sha256": "da5911945e37b71119dfab1df0e7e264cde5cc83bf9860fde66e4ff341dfb057"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/integrity.log",
+      "bytes": 2207,
+      "sha256": "14fc46ae1533d02c1faaf615cdf17febab12ac41075bf39f116650ee8a821b6a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/lint-execution.json",
+      "bytes": 212,
+      "sha256": "e0fbdc8975c69b619ee9b5f32e90db577581d029c11487b231be88372060e478"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/lint.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/notes.md",
+      "bytes": 5942,
+      "sha256": "1bda3463791217e8427e6759d4f285379472047680f4070a7b63d5f3ba4f9201"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/original-followup-notes.md",
+      "bytes": 8583,
+      "sha256": "8a2e2c66bc6745f6cd35b36129ada21dbf4366cb6e0fa4f1b140fdac746cceb8"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/original-ground-notes.md",
+      "bytes": 10239,
+      "sha256": "298746a7ff65afff168dc5baa538d878940ba1e8b23ee57d02ef5f720fd7ed58"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/production-http-execution.json",
+      "bytes": 264,
+      "sha256": "27d74c34109ac366599bb32efc33da56713d618b4c4780ecb7ec269b416a137f"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/production-http.log",
+      "bytes": 721,
+      "sha256": "5498152d0b8f33e0e6547465e192097b0efb9632d64ea9575a07b4a7fa75522c"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/prompt.md",
+      "bytes": 660,
+      "sha256": "cfe6e79647bddac5ed1770679a31c2e65c36919c591612628f99e4e70e3f8da0"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/public-build-execution.json",
+      "bytes": 217,
+      "sha256": "338fd9e7ae17a35e4a34057206bfb1916134a8d63bc4ef191aa6a1e300e129fd"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/public-build.log",
+      "bytes": 1220,
+      "sha256": "139bbdf6b9e865add3452ed3b2da2ef8113b33bbae63ae17fdb0f4b9fb889d76"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/red-public-label.log",
+      "bytes": 33719,
+      "sha256": "d455eb56886667912765d524256b82ea836425426b483b2f72f18dbdaf48225c"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/register.py",
+      "bytes": 12292,
+      "sha256": "eaf5d3c1371e8e0def8147c57e5dbdb34fc9930eb7632b6f87da6107878f59c7"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/release-e2e-execution.json",
+      "bytes": 260,
+      "sha256": "57925968fd5ff76efcb4b37c393c98a614e2bd0047a458ab07133ebfb76c69c3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/release-e2e.log",
+      "bytes": 550,
+      "sha256": "32409265652637bd4ced87cc3bd8d62bd9ed4c92cc8afadd577f3fbe4123f613"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/render-plan-execution.json",
+      "bytes": 226,
+      "sha256": "e7e4506b069885ba10d50e74187e450faee69eba43bf9e3cbea1ecc7faf3c67b"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/render-plan.log",
+      "bytes": 837,
+      "sha256": "5ec0adec2e5fd6d226b3c606e46fb741e729eac2d3529161a78573773cae1959"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/research-validate-execution.json",
+      "bytes": 226,
+      "sha256": "8ad3aafcd348b0fc030876a642fe2afc51b075a4b974a3f6504134192f4386d9"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/research-validate.log",
+      "bytes": 340,
+      "sha256": "a89085fbd069cc133e2e02b77f787685db9401ffd9618c73daa08ca7a100a68d"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/run.json",
+      "bytes": 12789,
+      "sha256": "1574ee5d94f933041fff26026473f77f65de6810332be72c497ceb201fe9a02e"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/scripts-execution.json",
+      "bytes": 220,
+      "sha256": "fc55f3b94d8cca2b1330e7575fda044d50ce46bd35076e656dae85a06f05228b"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/scripts.log",
+      "bytes": 2743,
+      "sha256": "a9bf5bb47cf61bc14ebb34ffb264eb645625672433cbeecb80104ff46974e3ba"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/snapshot.py",
+      "bytes": 1353,
+      "sha256": "87c2be08d15d7a3521216ebd13d2227d45f732a3abc8c20846990773a273a296"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/strict-build-execution.json",
+      "bytes": 213,
+      "sha256": "c37116a289ba8ad510d82b4521c03b5df2166b0f08b3c0466f55c13b458359f8"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/strict-build.log",
+      "bytes": 1744,
+      "sha256": "3f42956be8c36be907a587e1f4346a8bc79c86c8a63fcb298482867862abcf12"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/unit-execution.json",
+      "bytes": 217,
+      "sha256": "baef0abe388fbd32324fa9100ab2fe1e585607ad10f4fc95251f91979050ac98"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/unit.log",
+      "bytes": 746,
+      "sha256": "1c1bb5d004d0ab2abd8a4df69e2efd4e62c806f904b15d682150b927b5d1eb59"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/verify-public.py",
+      "bytes": 1944,
+      "sha256": "be71dbda5db0384f60299fb8ac8f01d8d667b464f15cfa3c64f33b5ff3ae41fb"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-finalization/verify-readonly.py",
+      "bytes": 6360,
+      "sha256": "c3d5f09e136689234775c69d987874abcc75b7a026c7fbba285a1dc9160fbf08"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-contact/run.json",
+      "bytes": 38402,
+      "sha256": "cd643ac65a00fc16526cc9625e3245e8ce18fdedbc96fd6c096fb41e1a309000"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-ground-contact/FINAL_STATUS.md",
+      "bytes": 1376,
+      "sha256": "5e34b137996607345fbe5933b57657dd2e1c09b6b2bfd0f6b95dd182d26a6455"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/run.json",
+      "bytes": 4929,
+      "sha256": "8f146c62488738f5a87c7297a0e1446270c895996f8192b42c94db7cbaf7d533"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/notes.md",
+      "bytes": 774,
+      "sha256": "35c243e315de8e47e25dd507ed7d1cc42d14dfd71b586be2836b2393b60df05a"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/prompt.md",
+      "bytes": 377,
+      "sha256": "0572d81c1d55d6e12c70ce5600b15e1a5a6f83914253ce2b0cdbe6628cdbe36b"
+    },
+    {
+      "path": "research/asset-manifest.json",
+      "bytes": 24652,
+      "sha256": "c013a75ebd2346434876b89e11ee8cf44c8220e13cd81c491d678141c0209403"
+    },
+    {
+      "path": "research/protocol.md",
+      "bytes": 5833,
+      "sha256": "f6b6ac708b205ca26ac16cef1e73f0b833fd863550b5ca151d2997c6ccfebb22"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 20425,
+      "sha256": "5f40e8fe390277462cebbf382fa0856187c75a2acc217e4cf86654ebde4ed2f5"
+    },
+    {
+      "path": "src/App.test.tsx",
+      "bytes": 6448,
+      "sha256": "8fcd32bbda8d3831d54ebbce49e9562c28609ed1033c0d679759b1660ff0a5fd"
+    },
+    {
+      "path": "src/generated/study-data.json",
+      "bytes": 208452,
+      "sha256": "5b6a01470937124747a034f4661a0de24a55b368d9aff69cba079958caca7597"
+    },
+    {
+      "path": "tests/e2e/release-assets.spec.ts",
+      "bytes": 2050,
+      "sha256": "3d5a6e7a70ea53bf232995e91d8eb0a4ec3fb8946794930a69663a2dbb89418b"
+    }
+  ]
+}

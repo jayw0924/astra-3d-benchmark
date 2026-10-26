@@ -1,0 +1,207 @@
+{
+  "imageCount": 12,
+  "pairCount": 6,
+  "historicalFileCount": 65,
+  "historicalPngCount": 14,
+  "historicalFilesUnchanged": true,
+  "upperRegionCaveat": "Upper 55% is a disclosed spatial diagnostic, NOT a floor/model segmentation. Nonzero changes there are not certified floor-only; cause unknown unless isolated.",
+  "pairs": [
+    {
+      "finish": "Carmine Candy",
+      "view": "side",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 29120,
+      "maxChannelDelta": 51,
+      "changedBBox": [
+        49,
+        337,
+        822,
+        546
+      ],
+      "bodyInteriorROI": {
+        "box": [
+          260,
+          335,
+          550,
+          395
+        ],
+        "changedPixels": 2,
+        "maxChannelDelta": 39
+      },
+      "upper55Percent": {
+        "rows": 427,
+        "changedPixels": 11,
+        "maxChannelDelta": 51
+      },
+      "runtimeCameraModelMaterialsShadowRendererEqual": true
+    },
+    {
+      "finish": "Carmine Candy",
+      "view": "front",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 17234,
+      "maxChannelDelta": 31,
+      "changedBBox": [
+        130,
+        387,
+        616,
+        544
+      ],
+      "bodyInteriorROI": {
+        "box": [
+          250,
+          350,
+          500,
+          420
+        ],
+        "changedPixels": 1,
+        "maxChannelDelta": 2
+      },
+      "upper55Percent": {
+        "rows": 427,
+        "changedPixels": 140,
+        "maxChannelDelta": 31
+      },
+      "runtimeCameraModelMaterialsShadowRendererEqual": true
+    },
+    {
+      "finish": "Carmine Candy",
+      "view": "wheel",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 60114,
+      "maxChannelDelta": 31,
+      "changedBBox": [
+        0,
+        368,
+        850,
+        489
+      ],
+      "bodyInteriorROI": {
+        "box": [
+          490,
+          205,
+          780,
+          300
+        ],
+        "changedPixels": 0,
+        "maxChannelDelta": 0
+      },
+      "upper55Percent": {
+        "rows": 427,
+        "changedPixels": 21449,
+        "maxChannelDelta": 31
+      },
+      "runtimeCameraModelMaterialsShadowRendererEqual": true
+    },
+    {
+      "finish": "Estuary Enamel",
+      "view": "side",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 29119,
+      "maxChannelDelta": 38,
+      "changedBBox": [
+        49,
+        337,
+        822,
+        546
+      ],
+      "bodyInteriorROI": {
+        "box": [
+          260,
+          335,
+          550,
+          395
+        ],
+        "changedPixels": 0,
+        "maxChannelDelta": 0
+      },
+      "upper55Percent": {
+        "rows": 427,
+        "changedPixels": 9,
+        "maxChannelDelta": 38
+      },
+      "runtimeCameraModelMaterialsShadowRendererEqual": true
+    },
+    {
+      "finish": "Estuary Enamel",
+      "view": "front",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 17235,
+      "maxChannelDelta": 31,
+      "changedBBox": [
+        130,
+        387,
+        616,
+        544
+      ],
+      "bodyInteriorROI": {
+        "box": [
+          250,
+          350,
+          500,
+          420
+        ],
+        "changedPixels": 1,
+        "maxChannelDelta": 2
+      },
+      "upper55Percent": {
+        "rows": 427,
+        "changedPixels": 141,
+        "maxChannelDelta": 31
+      },
+      "runtimeCameraModelMaterialsShadowRendererEqual": true
+    },
+    {
+      "finish": "Estuary Enamel",
+      "view": "wheel",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 60114,
+      "maxChannelDelta": 31,
+      "changedBBox": [
+        0,
+        368,
+        850,
+        489
+      ],
+      "bodyInteriorROI": {
+        "box": [
+          490,
+          205,
+          780,
+          300
+        ],
+        "changedPixels": 0,
+        "maxChannelDelta": 0
+      },
+      "upper55Percent": {
+        "rows": 427,
+        "changedPixels": 21449,
+        "maxChannelDelta": 31
+      },
+      "runtimeCameraModelMaterialsShadowRendererEqual": true
+    }
+  ],
+  "verificationElapsedSeconds": 1.919905662536621
+}
+/workspace/research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify.py:25: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  diff=ImageChops.difference(im1,im2);pixels=list(diff.getdata());w,h=im1.size
+/workspace/research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify.py:30: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  roi_pixels=list(diff.crop(roi).getdata())

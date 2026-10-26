@@ -1,0 +1,240 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/App.test.tsx (7 tests | 1 failed) 1177ms
+   ❯ App (7)
+     × qualifies the retained preview and reports grounding-only approval 93ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > App > qualifies the retained preview and reports grounding-only approval
+TestingLibraryElementError: Found multiple elements with the text: /yes tires feel planted/
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<p>[39m
+  [0mSol subsequently corrected the shadow receiver using precise transformed tire vertices, preserving the GLB, materials, illumination and shadow settings. Six new desktop pairs (12 native captures) retain actual camera/model/material telemetry in both arms. Jay approved grounding only: “yes tires feel planted”; this is not publication authorization. Historical desktop-before telemetry remains unavailable; mobile framing is cropped and sparse off-receiver pixel differences remain unexplained. Run: 2026-10-26-sol-ground-contact. Material diagnosis remains read-only; comparisons and candidates are pending.[0m
+[36m</p>[39m
+
+Ignored nodes: comments, script, style
+[36m<p>[39m
+  [0mSol corrected only receiver height from -0.003 to 0.1585579729696714 using transformed tire vertices. Six new desktop pairs / 12 native PNGs retain actual paired telemetry; original 14 PNGs remain historical. Jay: “yes tires feel planted” — grounding only, no publication authorization. GLB/materials/illumination unchanged. Historical telemetry gap and unexplained sparse off-receiver pixels remain disclosed.[0m
+[36m</p>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<header[39m
+      [33mclass[39m=[32m"site-header"[39m
+    [36m>[39m
+      [36m<a[39m
+        [33maria-label[39m=[32m"Astra 3D benchmark home"[39m
+        [33mclass[39m=[32m"wordmark"[39m
+        [33mhref[39m=[32m"#top"[39m
+      [36m>[39m
+        [0mA3D / 01[0m
+      [36m</a>[39m
+      [36m<nav[39m
+        [33maria-label[39m=[32m"Study navigation"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#geometry"[39m
+        [36m>[39m
+          [0mGeometry[0m
+        [36m</a>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#configurator"[39m
+        [36m>[39m
+          [0mConfigurator[0m
+        [36m</a>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#methods"[39m
+        [36m>[39m
+          [0mMethods[0m
+        [36m</a>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#evidence"[39m
+        [36m>[39m
+          [0mEvidence[0m
+        [36m</a>[39m
+      [36m</nav>[39m
+    [36m</header>[39m
+    [36m<main[39m
+      [33mid[39m=[32m"top"[39m
+    [36m>[39m
+      [36m<section[39m
+        [33maria-labelledby[39m=[32m"hero-title"[39m
+        [33mclass[39m=[32m"hero section-grid"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"hero-copy"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"eyebrow"[39m
+          [36m>[39m
+            [0mAI-assisted 3D workflow study · Case 01[0m
+          [36m</p>[39m
+          [36m<h1[39m
+            [33mid[39m=[32m"hero-title"[39m
+          [36m>[39m
+            [0mAstra 3D benchmark[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"lede"[39m
+          [36m>[39m
+            [0mA transparent experiment in product visualization: source a real asset, direct an AI-assisted 3D workflow, ship an interactive result, and keep the failures visible.[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<aside[39m
+          [33maria-label[39m=[32m"Study status"[39m
+          [33mclass[39m=[32m"study-status"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33maria-hidden[39m=[32m"true"[39m
+            [33mclass[39m=[32m"status-dot"[39m
+          [36m/>[39m
+          [36m<div>[39m
+            [36m<strong>[39m
+              [0mSafe result integrated locally[0m
+            [36m</strong>[39m
+            [36m<p>[39m
+              [0m7[0m
+              [0m verified Astra runs · Safe geometry integrated[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</aside>[39m
+        [36m<div[39m
+          [33maria-label[39m=[32m"Selected benchmark object"[39m
+          [33mclass[39m=[32m"hero-object"[39m
+        [36m>[39m
+          [36m<span>[39m
+            [0mPrimary subject[0m
+          [36m</span>[39m
+          [36m<strong>[39m
+            [0mCarConcept[0m
+          [36m</strong>[39m
+          [36m<small>[39m
+            [0mCC BY 4.0 · Khronos sample asset[0m
+          [36m</small>[39m
+        [36m</div>[39m
+      [36m</section>[39m
+      [36m<section[39m
+        [33maria-labelledby[39m=[32m"output-title"[39m
+        [33mclass[39m=[32m"output-overview"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"section-heading"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"eyebrow"[39m
+          [36m>[39m
+            [0mOutput 01[0m
+          [36m</p>[39m
+          [36m<h2[39m
+            [33mid[39m=[32m"output-title"[39m
+          [36m>[39m
+            [0mHistorical material comparison[0m
+          [36m</h2>[39m
+          [36m<p>[39m
+            [0mThe historical material comparison package contains 30 controlled browser renders covering two material candidates, two light rigs, exterior views, and close-ups.[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33maria-label[39m=[32m"Historical material comparison renders"[39m
+          [33mclass[39m=[32m"render-grid historical-material-evidence"[39m
+        [36m>[39m
+          [36m<article[39m
+            [33mclass[39m=[32m"render-card"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"Historical Estuary Enamel under the configurator lighting (original rig), front three-quarter view"[39m
+              [33mheight[39m=[32m"400"[39m
+              [33mloading[39m=[32m"lazy"[39m
+              [33msrc[39m=[32m"/assets/renders/estuary-viewer-front-three-quarter.png"[39m
+              [33mwidth[39m=[32m"600"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"render-card-body"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m0[0m
+                [0m1[0m
+              [36m</span>[39m
+              [36m<div>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"eyebrow"[39m
+                [36m>[39m
+                  [0mHistorical material evidence · original rig[0m
+                [36m</p>[39m
+                [36m<h3>[39m
+                  [0mHistorical viewer-light study[0m
+                [36m</h3>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</article>[39m
+          [36m<article[39m
+            [33mclass[39m=[32m"render-card"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"Historical Estuary Enamel under neutral lighting, front three-quarter view"[39m
+              [33mheight[39m=[32m"400"[39m
+              [33mloading[39m=[32m"lazy"[39m
+              [33msrc[39m=[32m"/assets/renders/estuary-neutral-front-three-quarter.png"[39m
+              [33mwidth[39m=[32m"600"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"render-card-body"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m0[0m
+                [0m2[0m
+              [36m</span>[39m
+              [36m<div>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"eyebrow"[39m
+                [36m>[39m
+                  [0mHistorical material evidence · original rig[0m
+                [36m</p>[39m
+                [36m<h3>[39m
+                  [0mNeutral-light study[0m
+                [36m</h3>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</article>[39m
+          [36m<article[39m
+            [33mclass[39m=[32m"render-card"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"Historical Estuary Enamel paint and mirror close-up under neutral lighting"[39m
+              [33mheight[39m=[32m"400"[39m
+              [33mloading[39m=[32m"lazy"[39m
+              [33msrc[39m=[32m"/assets/renders/estuary-n...
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ getElementError node_modules/@testing-library/dom/dist/query-helpers.js:20:35
+ ❯ getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:23:10
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:26:19
+     24|     expect(screen.getByRole('img', { name: 'Pre-ground-correction refi…
+     25|     expect(screen.getByText(/This retained preview predates the ground…
+     26|     expect(screen.getByText(/yes tires feel planted/)).toBeVisible();
+       |                   ^
+     27|     expect(screen.getByText(/Historical desktop-before telemetry remai…
+     28|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 6 passed (7)
+   Start at  20:24:13
+   Duration  2.09s (tests 59%, environment 28%, transform 8%, setup 3%, import 1%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -3,7 +3,7 @@
   "assets": [
     {
       "id": "refined-viewer-preview",
-      "title": "Current refined viewer — native Estuary preview, not controlled before/after",
+      "title": "Pre-ground-correction refined viewer \u2014 native Estuary preview, not controlled before/after",
       "kind": "image",
       "sourceUrl": "urn:run:2026-10-26-sol-lighting-integration",
       "immutableUrl": "urn:sha256:81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
@@ -15,7 +15,7 @@
       "sha256": "81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
       "localPath": "public/assets/viewer/refined-estuary-native.png",
       "status": "available",
-      "notes": "Exact unretouched 850x778 copy of research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png. Existing Sol Chromium viewer capture, not a new render or a controlled before/after comparison. Release closeout timestamp denotes local source verification, not original capture time."
+      "notes": "Exact unretouched 850x778 copy of research/runs/2026-10-26-sol-lighting-integration/after-refined-chromium-estuary-enamel-native.png. Existing Sol Chromium viewer capture, not a new render or a controlled before/after comparison. Release closeout timestamp denotes local source verification, not original capture time. Retained historical preview predates the user-approved precise-vertex ground correction registered in 2026-10-26-sol-ground-contact; image bytes are intentionally unchanged."
     },
     {
       "id": "primary-product",

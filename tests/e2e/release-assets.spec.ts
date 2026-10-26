@@ -12,7 +12,8 @@ test('release images and licenses retain exact bytes and native dimensions', asy
     await image.scrollIntoViewIfNeeded();
     await expect.poll(() => image.evaluate((node: HTMLImageElement) => node.complete && node.naturalWidth === 600 && node.naturalHeight === 400)).toBe(true);
   }
-  const preview = page.getByRole('img', { name: 'Current refined viewer: Estuary Enamel' });
+  const preview = page.getByRole('img', { name: 'Pre-ground-correction refined viewer: Estuary Enamel' });
+  await expect(page.getByText(/This retained preview predates the ground-contact correction/)).toBeVisible();
   await preview.scrollIntoViewIfNeeded();
   await expect.poll(() => preview.evaluate((node: HTMLImageElement) => node.complete && node.naturalWidth === 850 && node.naturalHeight === 778)).toBe(true);
   expect(await preview.evaluate((node) => getComputedStyle(node).aspectRatio)).toBe('850 / 778');

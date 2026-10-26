@@ -128,13 +128,14 @@ export default function App() {
 
         <section className="output-overview current-viewer-preview" aria-labelledby="current-preview-title">
           <div className="section-heading">
-            <p className="eyebrow">Current viewer · refined lighting</p>
+            <p className="eyebrow">Retained preview · pre-ground correction</p>
             <h2 id="current-preview-title">Refined viewer preview</h2>
             <p>Existing Sol Chromium capture at native 850×778; not a controlled before/after comparison.
-              Source: 2026-10-26-sol-lighting-integration. Safe GLB and materials are unchanged.</p>
+              Source: 2026-10-26-sol-lighting-integration. Safe GLB and materials are unchanged.
+              This retained preview predates the ground-contact correction; the interactive viewer below includes it.</p>
           </div>
           <article className="render-card">
-            <img src="/assets/viewer/refined-estuary-native.png" alt="Current refined viewer: Estuary Enamel" width="850" height="778" loading="lazy" />
+            <img src="/assets/viewer/refined-estuary-native.png" alt="Pre-ground-correction refined viewer: Estuary Enamel" width="850" height="778" loading="lazy" />
             <div className="render-card-body"><p>Sol-authored lighting and capture; sourced CarConcept, Astra Estuary material and Safe geometry credits retained.</p></div>
           </article>
         </section>
@@ -276,6 +277,12 @@ export default function App() {
             Full active timing and billing cost are unavailable and not reconstructed.
             Run IDs: 2026-10-23-sol-viewer-lighting, 2026-10-23-sol-viewer-lighting-refinement,
             2026-10-26-sol-lighting-integration.</p>
+          <p>Sol subsequently corrected the shadow receiver using precise transformed tire vertices,
+            preserving the GLB, materials, illumination and shadow settings.
+            Six new desktop pairs (12 native captures) retain actual camera/model/material telemetry in both arms.
+            Jay approved grounding only: “yes tires feel planted”; this is not publication authorization.
+            Historical desktop-before telemetry remains unavailable; mobile framing is cropped and sparse off-receiver pixel differences remain unexplained.
+            Run: 2026-10-26-sol-ground-contact. Material diagnosis remains read-only; comparisons and candidates are pending.</p>
           <ol className="method-list">
             {workPackages.map(([number, title, copy]) => (
               <li key={number}>

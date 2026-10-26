@@ -1,0 +1,18 @@
+{
+  "recordedAtUtc": "2026-10-26T20:20:38Z",
+  "reviewer": "Jay",
+  "statement": "yes tires feel planted",
+  "decision": "ground-contact visual approval",
+  "evidenceGallery": "followup-runtime-pairs/index.html",
+  "scope": "Subjective approval of tire grounding after the precise transformed-vertex floor correction. Preserve selected illumination, model and materials.",
+  "baselineCommit": "ffe0a56982a0bb22c34d705b1c00f0a62d147a0f",
+  "implementationState": "Uncommitted working-tree grounding fix",
+  "notEstablished": [
+    "Approval of residual materials or geometry realism",
+    "Physical-device or production-GPU performance certification",
+    "Resolution of disclosed sparse off-receiver pixel differences",
+    "Recovery of missing historical desktop-before telemetry"
+  ],
+  "publicationAuthorized": false,
+  "nextStep": "Finalize grounding research record and generated projection before opening controlled material comparisons. No commit, push or deployment without authorization."
+}

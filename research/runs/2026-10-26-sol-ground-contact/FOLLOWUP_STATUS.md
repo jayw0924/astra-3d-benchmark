@@ -1,0 +1,11 @@
+# Additive status qualification — grounding evidence
+
+The original files in this directory remain historical and unchanged. Read the new [follow-up gallery](followup-runtime-pairs/index.html) and [follow-up notes](followup-runtime-pairs/notes.md) before interpreting the original evidence claims.
+
+- Original `before-captures.json` remains the literal `[]`. Missing historical desktop camera telemetry was not reconstructed. Exact camera equality for the **original six desktop pairs remains uncertifiable**, regardless of shared requested camera settings. Original seven-pair visual/dimension results are not converted into stronger runtime evidence.
+- The follow-up contains **six newly rendered desktop pairs / 12 native PNGs**, both finishes × side/front/wheel. Actual post-render camera position/quaternion/projection/target, model transforms/material assignment and floor/shadow telemetry exist for every new image in both arms; camera/model/material/shadow/renderer equalities were asserted against the new before arm at runtime.
+- Before uses the actual lighting module pinned to `ffe0a56982a0bb22c34d705b1c00f0a62d147a0f`; after uses a snapshot of the current receiver-only fix. This is new controlled evidence, not certification of historical cameras.
+- Non-floor pixel residuals are disclosed in the new gallery/verification/notes. Carmine side includes two changed interior-body pixels (max channel delta 39); each front view includes one (delta 2). Cause remains unknown; no floor-only pixel claim.
+- All **65 original files**, including **14 original PNGs**, original notes, gallery and checksum inventories, pass byte-for-byte preservation checks. The follow-up adds 12 native PNGs, six diagnostic difference PNGs and six JPEG presentation pairs; do not count derivatives as extra captures.
+- Exact historical `[]` writer event is unresolved. Retained harness resume logic skips existing PNGs without recovering their telemetry; its current nonempty-write guard cannot by itself explain writing `[]`. See detailed diagnosis in follow-up notes.
+- No mobile recapture, exhaustive matrix, material/shadow tuning, production-source change, commit, push or deployment in this evidence repair. Grounding visual approval is still pending.

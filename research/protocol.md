@@ -93,3 +93,9 @@ evidence for that harness, not production-GPU performance.
 ## Evidence standard
 
 Every external asset must have an official source URL, immutable revision or download URL, author, license, retrieval time, byte count, SHA-256, and local path. Every public finding must link to a run ID. Preserve failures and intervention notes alongside successful outputs.
+
+## Grounding checkpoint — 2026-10-26
+
+`2026-10-26-sol-ground-contact` registers the Sol-authored receiver correction and additive six-desktop-pair runtime evidence. Jay's exact grounding-only approval, “yes tires feel planted”, is retained in `user-approval.json`; it grants no commit, push or deployment permission. The pre-correction source is pinned to `ffe0a56982a0bb22c34d705b1c00f0a62d147a0f`. Selected illumination, shadow parameters, model and materials are preserved. Precise transformed tire vertices replace conservative box corners for receiver placement only.
+
+Original desktop-before telemetry remains unavailable (`before-captures.json` is still `[]`); the new 12 native PNGs have same-frame actual camera/model/material telemetry in both arms. Sparse off-receiver pixel differences remain unexplained, and the original mobile composition is cropped. Historical files/inventories are immutable. `2026-10-26-sol-ground-finalization` records additive preservation and release checks; the retained public preview is explicitly pre-ground correction, not recaptured. `2026-10-26-sol-material-diagnosis` registers read-only inspection/preparation only: no fresh comparison, candidate, Blender installation or material change. Timing scopes and unavailable cost are qualified in the records, not reconstructed as active runtime.

@@ -1,0 +1,218 @@
+{
+  "capture.mjs": {
+    "bytes": 9181,
+    "sha256": "d183143f0d018e5ccc711227c71d9e8a3457e321f611b3b86d1fde2eed8d58f6"
+  },
+  "capture.log": {
+    "bytes": 697,
+    "sha256": "572835e8cdd48b88eba9c7c3223b517aae799d3729af29e9522b2711bf714921"
+  },
+  "historical-files-before.json": {
+    "bytes": 6196,
+    "sha256": "414c2a3d94bc14519d1bf769bab3cbd810041cbd22eaf131eca1e1aa3c5f7052"
+  },
+  "baseline-viewerLighting.ts.txt": {
+    "bytes": 6363,
+    "sha256": "bef1520d13da50bd367c9b2108a3f067e878cf3b322442018e9a7af7eb5fd5d4"
+  },
+  "current-viewerLighting.ts.txt": {
+    "bytes": 6666,
+    "sha256": "8943174891711038f08a0f1fbf659fb491b8ea126551d84a8ae0a162e6acafdb"
+  },
+  "provenance.json": {
+    "bytes": 1954,
+    "sha256": "a1bd8e65e198deef821cce3f1398d954985e2ccceec336cd48c2f050a54f666e"
+  },
+  "verify.py": {
+    "bytes": 5165,
+    "sha256": "ad9bd6485b67cebe3ced4468725d241085805451e7907fedfbc0623be8216e99"
+  },
+  "before-Carmine-side.png": {
+    "bytes": 317574,
+    "sha256": "a04ccaac815ad7623a8ff75c10543ff424499e9f13cc412ca7ba0c446a77f187"
+  },
+  "before-Carmine-side.json": {
+    "bytes": 142791,
+    "sha256": "4f6443c6dad0d61a6ebb63feb3d616c86b226e95893819788dd98c5bfe23505a"
+  },
+  "captures.json": {
+    "bytes": 1844352,
+    "sha256": "f7207fd497990b38c0dc79b58cb42f1a7effeecf12e97637ddfe4b9312177baf"
+  },
+  "before-Carmine-front.png": {
+    "bytes": 203195,
+    "sha256": "407ac033db5e1e6ef0db54e30a788fd1fe80873075a3a8348addb7dced4ea852"
+  },
+  "before-Carmine-front.json": {
+    "bytes": 142594,
+    "sha256": "320a4c8bc86e2fc31833ff3b91f1dd2ac241f32d69118cee778588b5e776ee1b"
+  },
+  "before-Carmine-wheel.png": {
+    "bytes": 472840,
+    "sha256": "a68b4a3ba104234952e55809e9a189b60b8c45605234a5cd2c29322080cc4e79"
+  },
+  "before-Carmine-wheel.json": {
+    "bytes": 142748,
+    "sha256": "e5237fe14c249dae558f2fec54798fb2186a94f15067c240ca1e2a9cac9afa47"
+  },
+  "before-Estuary-side.png": {
+    "bytes": 268952,
+    "sha256": "eaa20ef5140c28b786423f939312689e06dd3d2f53ab4fea63262a36fc3d8e9c"
+  },
+  "before-Estuary-side.json": {
+    "bytes": 143050,
+    "sha256": "cb50b65cd57b53a025ef396b5a5268c7dfac49608f455312fb089041471df3e1"
+  },
+  "before-Estuary-front.png": {
+    "bytes": 168869,
+    "sha256": "f26df48e35ef925973db06b276a3926fe7b061fa0081d5760dff3f21b9110706"
+  },
+  "before-Estuary-front.json": {
+    "bytes": 142853,
+    "sha256": "745a9aafcb98c982f078f67e95e83b4c196fe812469690a85ac4019838c93cf7"
+  },
+  "before-Estuary-wheel.png": {
+    "bytes": 342089,
+    "sha256": "6f04a5d9dcc5d2de3403c0145e775e6cf51edf3c5c86a24b3ed409985c9e26b8"
+  },
+  "before-Estuary-wheel.json": {
+    "bytes": 143007,
+    "sha256": "73e56cffe3922d39c4992d10e84d9cb6ee23d52edf449400502d455d9c015798"
+  },
+  "after-Carmine-side.png": {
+    "bytes": 315200,
+    "sha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+  },
+  "after-Carmine-side.json": {
+    "bytes": 142813,
+    "sha256": "e6f3739620da156a1262bfb8fe77204469389673894a03381870739caea04299"
+  },
+  "after-Carmine-front.png": {
+    "bytes": 199843,
+    "sha256": "3c7d9a6413e44d02b287cdc4483b31b09f4881a5579d258394ac68564a781103"
+  },
+  "after-Carmine-front.json": {
+    "bytes": 142616,
+    "sha256": "a37e6dc08d5192dc29116cac1ef1fa5e5c7baedd6ab24b9fb28d398847ea31ff"
+  },
+  "after-Carmine-wheel.png": {
+    "bytes": 465112,
+    "sha256": "8cb48103006fcf95981b52ec2464faa7b108285a9cf2858c23716b0a6595eca9"
+  },
+  "after-Carmine-wheel.json": {
+    "bytes": 142770,
+    "sha256": "f5598c827ede98eb4d59c7c9abff1e34ac154a8997f3ad5eaf1fe7c626df3e7c"
+  },
+  "after-Estuary-side.png": {
+    "bytes": 266464,
+    "sha256": "ac4fc660955cef9cb36ad0ad19b4d6c9f1d8f03ec05ad230e30e97301cd697f1"
+  },
+  "after-Estuary-side.json": {
+    "bytes": 143072,
+    "sha256": "2efa0294fccda648c57d115fbf70149079d6ed2cc0da207c8eb19f789436c83f"
+  },
+  "after-Estuary-front.png": {
+    "bytes": 166407,
+    "sha256": "ab2ca8e6e2537492f4cac1c33914d222d088063d13921e3f842be63624d6cda2"
+  },
+  "after-Estuary-front.json": {
+    "bytes": 142875,
+    "sha256": "7e03c4f32004d41e784997ddb5f45696f5ad319b58ab26f1887ba0fb94717575"
+  },
+  "after-Estuary-wheel.png": {
+    "bytes": 334261,
+    "sha256": "f7558aff51d06be68d53a35b6b0b97d4cac5cb30b193f0ef652318596e357cca"
+  },
+  "after-Estuary-wheel.json": {
+    "bytes": 143029,
+    "sha256": "7bf112ef70e5a7efa7cad97e281c5c6d22503af7c537ccedd39d6b5e626ef025"
+  },
+  "historical-preservation.json": {
+    "bytes": 85,
+    "sha256": "9c79186b5daddb74fd195027a3c66c080067bd42cf6b46e863af56d1bd43878b"
+  },
+  "verify.log": {
+    "bytes": 4130,
+    "sha256": "563076ea5fafafe2262176dcd0cba25984056fd68277dff9fe4dac42fe4bed3b"
+  },
+  "pair-Carmine-side.jpg": {
+    "bytes": 155704,
+    "sha256": "628b6c530e16c066b19506ae82c64a38e008761f33a245fc86e037a325ff9086"
+  },
+  "diff8x-Carmine-side.png": {
+    "bytes": 21996,
+    "sha256": "98679ed3bfa979aa4d70c09caef036174a211cdc2190b7452a0f867cca5b7e43"
+  },
+  "pair-Carmine-front.jpg": {
+    "bytes": 106874,
+    "sha256": "ff99729514a8fe479ea5fad4244f4dd120c21d3269ffdb1f991a12517d4d11e3"
+  },
+  "diff8x-Carmine-front.png": {
+    "bytes": 15374,
+    "sha256": "48b52a5889ccc19392fb381a5b1566333d1a28dd89b5c9d7387fc7d535151d57"
+  },
+  "pair-Carmine-wheel.jpg": {
+    "bytes": 211115,
+    "sha256": "328bf2fe95f744579c84d1a2b044eefdaf0ceeacccee6c613118592198a59d7a"
+  },
+  "diff8x-Carmine-wheel.png": {
+    "bytes": 22249,
+    "sha256": "57ea3a048969cb565b18bd2f5f6cc62cd532c16b480ec7c343f7a95780852f09"
+  },
+  "pair-Estuary-side.jpg": {
+    "bytes": 128260,
+    "sha256": "d04b7a88e250d2857581381486ad98a03c5b13846dc28c4594ac0701d0f7d2e7"
+  },
+  "diff8x-Estuary-side.png": {
+    "bytes": 22006,
+    "sha256": "da9478b2f54c4d0756c1219642e3f1f82ffee00e4b0a324ebb12d80b627ae7a6"
+  },
+  "pair-Estuary-front.jpg": {
+    "bytes": 88719,
+    "sha256": "28b36ca447f00b8380ce9684d77e3d9703df78979b6ed5a50d4d71de1237e9dd"
+  },
+  "diff8x-Estuary-front.png": {
+    "bytes": 15387,
+    "sha256": "29eb03fe6b036fae14375823241f2f8ceef6304bbd3ba797e5bb1ca1f23ebaf6"
+  },
+  "pair-Estuary-wheel.jpg": {
+    "bytes": 151681,
+    "sha256": "d5832959a35f585f7d7ee08c24fa84342b97a31241a6944e4e762c2a08753506"
+  },
+  "diff8x-Estuary-wheel.png": {
+    "bytes": 22255,
+    "sha256": "b425acca54f67a4177ed61fe1b2808600010339ebd7c84bef9385fdc11bab991"
+  },
+  "verification.json": {
+    "bytes": 4129,
+    "sha256": "b99353bd10f897d3b52dde8a80dc38b1f7ed2fb7bb866ef9d5356b98e3006c5c"
+  },
+  "index.html": {
+    "bytes": 7580,
+    "sha256": "74aecaaf7009d7a1bf179c2754320e73d36e8b562425640f858027e410fd40b2"
+  },
+  "notes.md": {
+    "bytes": 8583,
+    "sha256": "8a2e2c66bc6745f6cd35b36129ada21dbf4366cb6e0fa4f1b140fdac746cceb8"
+  },
+  "finalize.py": {
+    "bytes": 2872,
+    "sha256": "0a1dc04c455437d9cc1aa55d168a85a98c225a87b1af7d74d16e2d748900bc9d"
+  },
+  "verify-final.log": {
+    "bytes": 4702,
+    "sha256": "23062c241a69ee4f633875881a624a9b8cf0ab6d4b494c4021046cd9e222eb2e"
+  },
+  "source.diff": {
+    "bytes": 956,
+    "sha256": "cd72df9c4f8fd1ffdbefead7dab4b0c4e8ec3be9a5fc85b51c415fc817c1f2e9"
+  },
+  "image-sha256.json": {
+    "bytes": 3306,
+    "sha256": "f346efd9d39195ba0d816d8c7e66cd19ee2bb0f2b4890358c1271dace67f60b1"
+  },
+  "closeout-verification.json": {
+    "bytes": 1038,
+    "sha256": "e2c6ffef36e55c584a9f6355559d394bcf8f5228d10147948508b9c92510edd3"
+  }
+}

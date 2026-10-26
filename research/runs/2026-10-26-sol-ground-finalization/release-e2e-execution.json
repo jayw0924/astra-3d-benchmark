@@ -1,0 +1,12 @@
+{
+  "command": [
+    "npx",
+    "playwright",
+    "test",
+    "tests/e2e/release-assets.spec.ts"
+  ],
+  "startedAt": "2026-10-26T20:25:35.941075+00:00",
+  "endedAt": "2026-10-26T20:25:46.449292+00:00",
+  "elapsedSeconds": 10.508228461025283,
+  "exitCode": 0
+}

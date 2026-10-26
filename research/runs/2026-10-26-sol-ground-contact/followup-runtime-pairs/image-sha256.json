@@ -1,0 +1,98 @@
+{
+  "before-Carmine-side.png": {
+    "bytes": 317574,
+    "sha256": "a04ccaac815ad7623a8ff75c10543ff424499e9f13cc412ca7ba0c446a77f187"
+  },
+  "before-Carmine-front.png": {
+    "bytes": 203195,
+    "sha256": "407ac033db5e1e6ef0db54e30a788fd1fe80873075a3a8348addb7dced4ea852"
+  },
+  "before-Carmine-wheel.png": {
+    "bytes": 472840,
+    "sha256": "a68b4a3ba104234952e55809e9a189b60b8c45605234a5cd2c29322080cc4e79"
+  },
+  "before-Estuary-side.png": {
+    "bytes": 268952,
+    "sha256": "eaa20ef5140c28b786423f939312689e06dd3d2f53ab4fea63262a36fc3d8e9c"
+  },
+  "before-Estuary-front.png": {
+    "bytes": 168869,
+    "sha256": "f26df48e35ef925973db06b276a3926fe7b061fa0081d5760dff3f21b9110706"
+  },
+  "before-Estuary-wheel.png": {
+    "bytes": 342089,
+    "sha256": "6f04a5d9dcc5d2de3403c0145e775e6cf51edf3c5c86a24b3ed409985c9e26b8"
+  },
+  "after-Carmine-side.png": {
+    "bytes": 315200,
+    "sha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+  },
+  "after-Carmine-front.png": {
+    "bytes": 199843,
+    "sha256": "3c7d9a6413e44d02b287cdc4483b31b09f4881a5579d258394ac68564a781103"
+  },
+  "after-Carmine-wheel.png": {
+    "bytes": 465112,
+    "sha256": "8cb48103006fcf95981b52ec2464faa7b108285a9cf2858c23716b0a6595eca9"
+  },
+  "after-Estuary-side.png": {
+    "bytes": 266464,
+    "sha256": "ac4fc660955cef9cb36ad0ad19b4d6c9f1d8f03ec05ad230e30e97301cd697f1"
+  },
+  "after-Estuary-front.png": {
+    "bytes": 166407,
+    "sha256": "ab2ca8e6e2537492f4cac1c33914d222d088063d13921e3f842be63624d6cda2"
+  },
+  "after-Estuary-wheel.png": {
+    "bytes": 334261,
+    "sha256": "f7558aff51d06be68d53a35b6b0b97d4cac5cb30b193f0ef652318596e357cca"
+  },
+  "diff8x-Carmine-side.png": {
+    "bytes": 21996,
+    "sha256": "98679ed3bfa979aa4d70c09caef036174a211cdc2190b7452a0f867cca5b7e43"
+  },
+  "diff8x-Carmine-front.png": {
+    "bytes": 15374,
+    "sha256": "48b52a5889ccc19392fb381a5b1566333d1a28dd89b5c9d7387fc7d535151d57"
+  },
+  "diff8x-Carmine-wheel.png": {
+    "bytes": 22249,
+    "sha256": "57ea3a048969cb565b18bd2f5f6cc62cd532c16b480ec7c343f7a95780852f09"
+  },
+  "diff8x-Estuary-side.png": {
+    "bytes": 22006,
+    "sha256": "da9478b2f54c4d0756c1219642e3f1f82ffee00e4b0a324ebb12d80b627ae7a6"
+  },
+  "diff8x-Estuary-front.png": {
+    "bytes": 15387,
+    "sha256": "29eb03fe6b036fae14375823241f2f8ceef6304bbd3ba797e5bb1ca1f23ebaf6"
+  },
+  "diff8x-Estuary-wheel.png": {
+    "bytes": 22255,
+    "sha256": "b425acca54f67a4177ed61fe1b2808600010339ebd7c84bef9385fdc11bab991"
+  },
+  "pair-Carmine-side.jpg": {
+    "bytes": 155704,
+    "sha256": "628b6c530e16c066b19506ae82c64a38e008761f33a245fc86e037a325ff9086"
+  },
+  "pair-Carmine-front.jpg": {
+    "bytes": 106874,
+    "sha256": "ff99729514a8fe479ea5fad4244f4dd120c21d3269ffdb1f991a12517d4d11e3"
+  },
+  "pair-Carmine-wheel.jpg": {
+    "bytes": 211115,
+    "sha256": "328bf2fe95f744579c84d1a2b044eefdaf0ceeacccee6c613118592198a59d7a"
+  },
+  "pair-Estuary-side.jpg": {
+    "bytes": 128260,
+    "sha256": "d04b7a88e250d2857581381486ad98a03c5b13846dc28c4594ac0701d0f7d2e7"
+  },
+  "pair-Estuary-front.jpg": {
+    "bytes": 88719,
+    "sha256": "28b36ca447f00b8380ce9684d77e3d9703df78979b6ed5a50d4d71de1237e9dd"
+  },
+  "pair-Estuary-wheel.jpg": {
+    "bytes": 151681,
+    "sha256": "d5832959a35f585f7d7ee08c24fa84342b97a31241a6944e4e762c2a08753506"
+  }
+}

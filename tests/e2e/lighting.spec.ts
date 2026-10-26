@@ -41,7 +41,7 @@ for (const finish of ['Carmine Candy','Pearly Swirly','Torched Graphite','Estuar
   await expect(page.getByRole('status')).toHaveText('3D model ready',{timeout:180000});
   const bytes=await (await response).body();expect(bytes.length).toBe(9239404);expect(createHash('sha256').update(bytes).digest('hex')).toBe('01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4');
   await expect.poll(async()=> (await inspect(page))?.finish,{timeout:120000}).toBe(finish);
-  const initial=await inspect(page);expect(initial.recipe).toBe('grounded-studio-refined');expect(initial.environment).toBe(true);expect(initial.shadows).toMatchObject({enabled:true,autoUpdate:false});expect(initial.floorY).toBeCloseTo(initial.bounds.min[1]-.003,6);
+  const initial=await inspect(page);expect(initial.recipe).toBe('grounded-studio-refined');expect(initial.environment).toBe(true);expect(initial.shadows).toMatchObject({enabled:true,autoUpdate:false});expect(initial.floorY).toBeCloseTo(0.1590579729696714 - .0005,6); // Verified transformed Tiretread minimum, not conservative AABB min.
   const variantMeshes=initial.meshes.filter(m=>m.expectedMaterial!==undefined);expect(variantMeshes.length).toBeGreaterThan(0);for(const mesh of variantMeshes)expect(mesh.materials.map(m=>m.index)).toEqual([mesh.expectedMaterial]);
   for(const mesh of initial.meshes)expect(mesh.castShadow).toBe(mesh.materials.every(m=>!m.transparent));
   const canvas=page.getByTestId('configurator-canvas');await canvas.scrollIntoViewIfNeeded();

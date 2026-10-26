@@ -1,0 +1,62 @@
+[
+  {
+    "finish": "Carmine Candy",
+    "view": "side",
+    "filename": "after-Carmine-side.png",
+    "sha256": "cc966d77025ce14cee506592eebfed97c8d66c3b5d5cea230aa60c661bfbe116",
+    "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "errors": [],
+    "camera": {
+      "position": [
+        8,
+        1.7999999999999996,
+        4.898587196589413e-16
+      ],
+      "target": [
+        0,
+        0.55,
+        0
+      ]
+    }
+  },
+  {
+    "finish": "Carmine Candy",
+    "view": "front",
+    "filename": "after-Carmine-front.png",
+    "sha256": "e54170891c1e43e8adf7a37dbda4985b56700c3de08bb9ebb03b69b8d948311b",
+    "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "errors": [],
+    "camera": {
+      "position": [
+        0,
+        1.5000000000000009,
+        9
+      ],
+      "target": [
+        0,
+        0.55,
+        0
+      ]
+    }
+  },
+  {
+    "finish": "Carmine Candy",
+    "view": "wheel",
+    "filename": "after-Carmine-wheel.png",
+    "sha256": "19c0c8866282790fd1763b6cbf3afb05d0c4c7e7c9e27167c5df84699915b3ff",
+    "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "errors": [],
+    "camera": {
+      "position": [
+        4.2,
+        0.6499999999999999,
+        3.5
+      ],
+      "target": [
+        1,
+        0.28,
+        1.25
+      ]
+    }
+  }
+]

@@ -1,0 +1,5561 @@
+{
+  "phase": "before",
+  "finish": "Carmine Candy",
+  "view": "front",
+  "requested": {
+    "position": [
+      0,
+      1.5,
+      9
+    ],
+    "target": [
+      0,
+      0.55,
+      0
+    ]
+  },
+  "png": "before-Carmine-front.png",
+  "sha256": "407ac033db5e1e6ef0db54e30a788fd1fe80873075a3a8348addb7dced4ea852",
+  "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+  "modelBytes": 9239404,
+  "errors": [],
+  "telemetry": {
+    "sampledAt": "2026-10-26T20:03:10.653Z",
+    "camera": {
+      "position": [
+        0,
+        1.5000000000000009,
+        9
+      ],
+      "quaternion": [
+        -0.052558833122763715,
+        0,
+        0,
+        0.9986178293325098
+      ],
+      "projection": [
+        3.192009926244973,
+        0,
+        0,
+        0,
+        0,
+        3.4874144438409087,
+        0,
+        0,
+        0,
+        0,
+        -1.0002000200020003,
+        -1,
+        0,
+        0,
+        -0.020002000200020003,
+        0
+      ],
+      "matrixWorld": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.994475138121547,
+        -0.10497237569060783,
+        0,
+        0,
+        0.10497237569060783,
+        0.994475138121547,
+        0,
+        0,
+        1.5000000000000009,
+        9,
+        1
+      ],
+      "target": [
+        0,
+        0.55,
+        0
+      ],
+      "fov": 32,
+      "aspect": 1.0925449871465296,
+      "near": 0.01,
+      "far": 100,
+      "zoom": 1
+    },
+    "model": {
+      "position": [
+        0.0052169566892141805,
+        0.1592990504646274,
+        -0.23846179246902466
+      ],
+      "quaternion": [
+        0,
+        -0.10977830083717481,
+        0,
+        0.9939560979566968
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "matrixWorld": [
+        0.9758974493306055,
+        0,
+        0.21822962308086932,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -0.21822962308086932,
+        0,
+        0.9758974493306055,
+        0,
+        0.0052169566892141805,
+        0.1592990504646274,
+        -0.23846179246902466,
+        1
+      ],
+      "meshes": [
+        {
+          "name": "BodyUnderside",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mechanical",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshield",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Glass",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0,
+              "clearcoat": 0,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshieldGasket",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshieldWipers",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.3588678109730876,
+            1.008750294342038,
+            1.3030913849773522,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshieldWipersBase",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "Engine",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.44776098092984534,
+            0.29929903615951214,
+            1.7872027698606465,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mechanical",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorCage",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDashMid",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDashSides",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorFloor",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorFloormats",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Floormat",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_83",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Panel Sides",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_83_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Panel Sides",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalAccel",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.3862316667288139,
+            0.2885069595718353,
+            1.1688671488165192,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Floormat",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalAccelArm",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.38756445604750367,
+            0.2885069595718353,
+            1.1685691112400676,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Hardware",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalBrake",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.25267178325687467,
+            0.3690981166505783,
+            1.2640540955463306,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Floormat",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalBrakeArm",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.23182038100961233,
+            0.2879976974868744,
+            1.1709834463116293,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Hardware",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorPillar",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsColor1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.47247332165088257,
+            -0.0004580868339566224,
+            0.002789597629398427,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsColor2",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.1703802757042787,
+            -0.03355595003128342,
+            0.5467885726421344,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 2",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsFrame1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.13755716527801445,
+            -0.021144266233446785,
+            -0.8302717868336816,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsFrame2",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.1703802757042787,
+            -0.03355595003128342,
+            0.5467885726421344,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringBase",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.1975483619076282,
+            0.800858472480771,
+            0.6682810931627806,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringCylinder",
+          "matrixWorld": [
+            0.9217807847436371,
+            0.24051376885910736,
+            0.3040942483363044,
+            0,
+            0.20279530687077196,
+            0.36938930580787255,
+            -0.9068768407427639,
+            0,
+            -0.33044553015017003,
+            0.897610532334529,
+            0.2917209006221652,
+            0,
+            -0.2475845871500164,
+            0.7105642901802034,
+            0.8962599024715288,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel04",
+          "matrixWorld": [
+            0.9217807851198658,
+            0.24051376031071783,
+            0.30409425395694667,
+            0,
+            0.3105155933833734,
+            0.011696472484709952,
+            -0.9504963223537315,
+            0,
+            -0.23216427472203455,
+            0.9705752539842152,
+            -0.06390168940649937,
+            0,
+            -0.2073548035142821,
+            0.7828867466635,
+            0.7171128505015368,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel01",
+          "matrixWorld": [
+            0.9217807851198658,
+            0.24051376031071783,
+            0.30409425395694667,
+            0,
+            0.3105155933833734,
+            0.011696472484709952,
+            -0.9504963223537315,
+            0,
+            -0.23216427472203455,
+            0.9705752539842152,
+            -0.06390168940649937,
+            0,
+            -0.19611249101941863,
+            0.8010403045160921,
+            0.6686767872368801,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel02",
+          "matrixWorld": [
+            0.9217807851198658,
+            0.24051376031071783,
+            0.30409425395694667,
+            0,
+            0.3105155933833734,
+            0.011696472484709952,
+            -0.9504963223537315,
+            0,
+            -0.23216427472203455,
+            0.9705752539842152,
+            -0.06390168940649937,
+            0,
+            -0.19611249101941863,
+            0.8010403045160921,
+            0.6686767872368801,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel03",
+          "matrixWorld": [
+            0.9217807851198658,
+            0.24051376031071783,
+            0.30409425395694667,
+            0,
+            0.3105155933833734,
+            0.011696472484709952,
+            -0.9504963223537315,
+            0,
+            -0.23216427472203455,
+            0.9705752539842152,
+            -0.06390168940649937,
+            0,
+            -0.19611249101941863,
+            0.8010403045160921,
+            0.6686767872368801,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringDash",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.22354479047318992,
+            0.7723806249046297,
+            0.7578132358074905,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Dashboard",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringDashColumn",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.22354479047318992,
+            0.7723806249046297,
+            0.7578132358074905,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringHandleL",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.18609472683481146,
+            0.6888233767890901,
+            0.947982011550955,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Hardware",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringHandleR",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.32513172562522946,
+            0.6888233767890901,
+            0.9168906383117477,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Hardware",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyRoofPanel",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyRearPanelsColor1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.42607870248436996,
+            0.5823128270053841,
+            -2.120506486695154,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 1 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25,
+              "clearcoat": 1,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorRearHatch",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0055417279283210275,
+            0.152569775476453,
+            -0.23991413161247288,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_84",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0055417279283210275,
+            0.152569775476453,
+            -0.23991413161247288,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mechanical",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_84_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0055417279283210275,
+            0.152569775476453,
+            -0.23991413161247288,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyWindowsRearSides",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0055417279283210275,
+            0.152569775476453,
+            -0.23991413161247288,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Glass",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0,
+              "clearcoat": 0,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyTurnsignalsRear",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005541571838331039,
+            0.15256941784858435,
+            -0.2399134335962232,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Signallight",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyTaillightsPanels",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005541571838331039,
+            0.15256941784858435,
+            -0.2399134335962232,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyTaillights",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005541571838331039,
+            0.15256941784858435,
+            -0.2399134335962232,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Brakelight",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyRearwindow",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0055417279283210275,
+            0.152569775476453,
+            -0.23991413161247288,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Glass",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0,
+              "clearcoat": 0,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyPillars",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 1 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25,
+              "clearcoat": 1,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyPanelsColor2",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0052169566892141805,
+            0.1592990504646274,
+            -0.23846179246902466,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyHood",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.5140361153382623,
+            0.33531366755008374,
+            2.0835774444894724,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 1 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25,
+              "clearcoat": 1,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodInterior01",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005008680612612948,
+            0.14684306551456178,
+            -0.23753040611990217,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodInterior02",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005008680612612948,
+            0.14684306551456178,
+            -0.23753040611990217,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodTopgrill",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005008680612612948,
+            0.14684306551456178,
+            -0.23753040611990217,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodUnder",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005008680612612948,
+            0.14684306551456178,
+            -0.23753040611990217,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyHeadlights",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.005008680612612948,
+            0.14684306551456178,
+            -0.23753040611990217,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Headlight",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRColor1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -1.2734720412867486,
+            0.802265201702115,
+            0.49777833372121316,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 1 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25,
+              "clearcoat": 1,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRColor2",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRHandle01",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRHandle02",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRMirror",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mirror",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRMirrorColor1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 1 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25,
+              "clearcoat": 1,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRMirrorColor2",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRWindow",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Glass",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0,
+              "clearcoat": 0,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRWindowGasket",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_85",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mechanical",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_85_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR02",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR03",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR04",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR05",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR06",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.007779259499641089,
+            0.15929905046462745,
+            -0.23399455820131776,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Hardware",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLColor1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.8499597539922439,
+            0.8023175941848726,
+            0.9726476294884965,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 1 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25,
+              "clearcoat": 1,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL04",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_86",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mechanical",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_86_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL02",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL03",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL05",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Interior 3 Carmine",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL06",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Hardware",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLColor2",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLHandle01",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLHandle02",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLMirror",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mirror",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLMirrorColor1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 1 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25,
+              "clearcoat": 1,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLWindowGasket",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLWindow",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Glass",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0,
+              "clearcoat": 0,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLMirrorColor2",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            0.0009946635820288208,
+            0.15929905046462745,
+            -0.23550628978488097,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Paint 2 Carmine",
+              "type": "MeshPhysicalMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3,
+              "clearcoat": 0.25,
+              "clearcoatRoughness": 0,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_88",
+          "matrixWorld": [
+            0.7360371689252526,
+            5.577977579829251e-9,
+            0.6769411246371264,
+            0,
+            -0.3384705984772419,
+            0.8660253771082249,
+            0.3680186177354555,
+            0,
+            -0.5862481902990236,
+            -0.5000000491656943,
+            0.6374268688771779,
+            0,
+            0.632106593291486,
+            0.5430767731760215,
+            1.4234454577156495,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim2",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_88_1",
+          "matrixWorld": [
+            0.7360371689252526,
+            5.577977579829251e-9,
+            0.6769411246371264,
+            0,
+            -0.3384705984772419,
+            0.8660253771082249,
+            0.3680186177354555,
+            0,
+            -0.5862481902990236,
+            -0.5000000491656943,
+            0.6374268688771779,
+            0,
+            0.632106593291486,
+            0.5430767731760215,
+            1.4234454577156495,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontLBrakePad",
+          "matrixWorld": [
+            0.7360371689252526,
+            5.577977579829251e-9,
+            0.6769411246371264,
+            0,
+            -0.3384705984772419,
+            0.8660253771082249,
+            0.3680186177354555,
+            0,
+            -0.5862481902990236,
+            -0.5000000491656943,
+            0.6374268688771779,
+            0,
+            0.6321063836327951,
+            0.5430765943620697,
+            1.423445685677262,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Brake",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontLBrakeDisc",
+          "matrixWorld": [
+            0.7360371689252526,
+            5.577977579829251e-9,
+            0.6769411246371264,
+            0,
+            -0.3384705984772419,
+            0.8660253771082249,
+            0.3680186177354555,
+            0,
+            -0.5862481902990236,
+            -0.5000000491656943,
+            0.6374268688771779,
+            0,
+            0.6321063836327951,
+            0.5430765943620697,
+            1.423445685677262,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Disc",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_87",
+          "matrixWorld": [
+            0.7360371689252526,
+            5.577977579829251e-9,
+            0.6769411246371264,
+            0,
+            -0.3384705984772419,
+            0.8660253771082249,
+            0.3680186177354555,
+            0,
+            -0.5862481902990236,
+            -0.5000000491656943,
+            0.6374268688771779,
+            0,
+            0.6329787622355637,
+            0.5430580722236602,
+            1.4242916079637196,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tireside",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_87_1",
+          "matrixWorld": [
+            0.7360371689252526,
+            5.577977579829251e-9,
+            0.6769411246371264,
+            0,
+            -0.3384705984772419,
+            0.8660253771082249,
+            0.3680186177354555,
+            0,
+            -0.5862481902990236,
+            -0.5000000491656943,
+            0.6374268688771779,
+            0,
+            0.6329787622355637,
+            0.5430580722236602,
+            1.4242916079637196,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tiretread",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_90",
+          "matrixWorld": [
+            0.7360371651744512,
+            4.967448397064073e-10,
+            0.6769411283723045,
+            0,
+            0.47866966242297687,
+            0.7071067802190492,
+            -0.5204568714749533,
+            0,
+            -0.47866966218181534,
+            0.7071067818448896,
+            0.5204568696236966,
+            0,
+            -1.2726585393180203,
+            0.542052178080535,
+            0.9971434732684487,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim2",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_90_1",
+          "matrixWorld": [
+            0.7360371651744512,
+            4.967448397064073e-10,
+            0.6769411283723045,
+            0,
+            0.47866966242297687,
+            0.7071067802190492,
+            -0.5204568714749533,
+            0,
+            -0.47866966218181534,
+            0.7071067818448896,
+            0.5204568696236966,
+            0,
+            -1.2726585393180203,
+            0.542052178080535,
+            0.9971434732684487,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontRBrakePad",
+          "matrixWorld": [
+            0.7360371651744512,
+            4.967448397064073e-10,
+            0.6769411283723045,
+            0,
+            0.47866966242297687,
+            0.7071067802190492,
+            -0.5204568714749533,
+            0,
+            -0.47866966218181534,
+            0.7071067818448896,
+            0.5204568696236966,
+            0,
+            -1.2726584690655134,
+            0.5420521780805347,
+            0.9971433088330256,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Brake",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontRBrakeDisc",
+          "matrixWorld": [
+            0.7360371651744512,
+            4.967448397064073e-10,
+            0.6769411283723045,
+            0,
+            0.47866966242297687,
+            0.7071067802190492,
+            -0.5204568714749533,
+            0,
+            -0.47866966218181534,
+            0.7071067818448896,
+            0.5204568696236966,
+            0,
+            -1.2726584690655134,
+            0.5420521780805347,
+            0.9971433088330256,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Disc",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_89",
+          "matrixWorld": [
+            0.7360371651744512,
+            4.967448397064073e-10,
+            0.6769411283723045,
+            0,
+            0.47866966242297687,
+            0.7071067802190492,
+            -0.5204568714749533,
+            0,
+            -0.47866966218181534,
+            0.7071067818448896,
+            0.5204568696236966,
+            0,
+            -1.271763486676315,
+            0.5430580126190154,
+            0.9965998795458726,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tireside",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_89_1",
+          "matrixWorld": [
+            0.7360371651744512,
+            4.967448397064073e-10,
+            0.6769411283723045,
+            0,
+            0.47866966242297687,
+            0.7071067802190492,
+            -0.5204568714749533,
+            0,
+            -0.47866966218181534,
+            0.7071067818448896,
+            0.5204568696236966,
+            0,
+            -1.271763486676315,
+            0.5430580126190154,
+            0.9965998795458726,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tiretread",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelRearLBrakeDisc",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            -0.07463892358112074,
+            -0.9396926264280238,
+            0.33377657036325187,
+            0,
+            0.20506876767725976,
+            -0.34202012782408464,
+            -0.9170436372858859,
+            0,
+            1.250820703170861,
+            0.5431106620615006,
+            -1.3064570868412824,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Disc",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelRearLBrakePad",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            -0.07463892358112074,
+            -0.9396926264280238,
+            0.33377657036325187,
+            0,
+            0.20506876767725976,
+            -0.34202012782408464,
+            -0.9170436372858859,
+            0,
+            1.250820703170861,
+            0.5431106620615006,
+            -1.3064570868412824,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Brake",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_92",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            -0.07463892358112074,
+            -0.9396926264280238,
+            0.33377657036325187,
+            0,
+            0.20506876767725976,
+            -0.34202012782408464,
+            -0.9170436372858859,
+            0,
+            1.250820703170861,
+            0.5431106620615006,
+            -1.3064570868412824,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim2",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_92_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            -0.07463892358112074,
+            -0.9396926264280238,
+            0.33377657036325187,
+            0,
+            0.20506876767725976,
+            -0.34202012782408464,
+            -0.9170436372858859,
+            0,
+            1.250820703170861,
+            0.5431106620615006,
+            -1.3064570868412824,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_91",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            -0.07463892358112074,
+            -0.9396926264280238,
+            0.33377657036325187,
+            0,
+            0.20506876767725976,
+            -0.34202012782408464,
+            -0.9170436372858859,
+            0,
+            1.2508168702820508,
+            0.5430580126190161,
+            -1.3064383078404112,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tireside",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_91_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            -0.07463892358112074,
+            -0.9396926264280238,
+            0.33377657036325187,
+            0,
+            0.20506876767725976,
+            -0.34202012782408464,
+            -0.9170436372858859,
+            0,
+            1.2508168702820508,
+            0.5430580126190161,
+            -1.3064383078404112,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tiretread",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelRearRBrakeDisc",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.12517137024174105,
+            -0.8191520419506289,
+            -0.5597517844901616,
+            0,
+            0.17876324136081018,
+            0.5735764396905746,
+            -0.7994083883535759,
+            0,
+            -0.6668553444064128,
+            0.5431011253293158,
+            -1.7352361257321864,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Disc",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73,
+              "side": 2,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "WheelRearRBrakePad",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.12517137024174105,
+            -0.8191520419506289,
+            -0.5597517844901616,
+            0,
+            0.17876324136081018,
+            0.5735764396905746,
+            -0.7994083883535759,
+            0,
+            -0.6668553444064128,
+            0.5431011253293158,
+            -1.7352361257321864,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Brake",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_94",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.12517137024174105,
+            -0.8191520419506289,
+            -0.5597517844901616,
+            0,
+            0.17876324136081018,
+            0.5735764396905746,
+            -0.7994083883535759,
+            0,
+            -0.6668552671402109,
+            0.5431008275154571,
+            -1.7352364712576396,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim2",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_94_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.12517137024174105,
+            -0.8191520419506289,
+            -0.5597517844901616,
+            0,
+            0.17876324136081018,
+            0.5735764396905746,
+            -0.7994083883535759,
+            0,
+            -0.6668552671402109,
+            0.5431008275154571,
+            -1.7352364712576396,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Rim1",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_93",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.12517137024174105,
+            -0.8191520419506289,
+            -0.5597517844901616,
+            0,
+            0.17876324136081018,
+            0.5735764396905746,
+            -0.7994083883535759,
+            0,
+            -0.6660589511378912,
+            0.5430580126190161,
+            -1.735088970149491,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tireside",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "mesh_93_1",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.12517137024174105,
+            -0.8191520419506289,
+            -0.5597517844901616,
+            0,
+            0.17876324136081018,
+            0.5735764396905746,
+            -0.7994083883535759,
+            0,
+            -0.6660589511378912,
+            0.5430580126190161,
+            -1.735088970149491,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Tiretread",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        },
+        {
+          "name": "Axles",
+          "matrixWorld": [
+            0.9758974493306055,
+            0,
+            0.21822962308086932,
+            0,
+            0.21822962308086932,
+            2.220446049250313e-16,
+            -0.9758974493306055,
+            0,
+            -4.845671043993012e-17,
+            1,
+            2.1669276358396006e-16,
+            0,
+            -0.014727045063099426,
+            0.543167178525922,
+            -0.15001280551573973,
+            1
+          ],
+          "visible": true,
+          "materialParams": [
+            {
+              "name": "Mechanical",
+              "type": "MeshStandardMaterial",
+              "opacity": 1,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1,
+              "side": 0,
+              "depthWrite": true
+            }
+          ]
+        }
+      ]
+    },
+    "inspection": {
+      "finish": "Carmine Candy",
+      "recipe": "grounded-studio-refined",
+      "camera": [
+        0,
+        1.5000000000000009,
+        9
+      ],
+      "target": [
+        0,
+        0.55,
+        0
+      ],
+      "bounds": {
+        "min": [
+          -1.7371991037440258,
+          0,
+          -2.375912426720423
+        ],
+        "max": [
+          1.5197008011738995,
+          1.3079541074180576,
+          2.3618050295395916
+        ]
+      },
+      "floorY": -0.003,
+      "environment": true,
+      "shadows": {
+        "enabled": true,
+        "type": 1,
+        "autoUpdate": false,
+        "needsUpdate": false
+      },
+      "renderedFrames": 18,
+      "shadowUpdates": 1,
+      "meshes": [
+        {
+          "name": "BodyUnderside",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mechanical",
+              "index": 0,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshield",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Glass",
+              "index": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshieldGasket",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshieldWipers",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyWindshieldWipersBase",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "Engine",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mechanical",
+              "index": 0,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1
+            }
+          ]
+        },
+        {
+          "name": "InteriorCage",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorDashMid",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDashSides",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorFloor",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorFloormats",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Floormat",
+              "index": 4,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "mesh_83",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Panel Sides",
+              "index": 27,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "mesh_83_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Panel Sides",
+              "index": 27,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalAccel",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Floormat",
+              "index": 4,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalAccelArm",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Hardware",
+              "index": 5,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalBrake",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Floormat",
+              "index": 4,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "InteriorPedalBrakeArm",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Hardware",
+              "index": 5,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "InteriorPillar",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsColor1",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsColor2",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 2",
+              "index": 7,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsFrame1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorSeatsFrame2",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringBase",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringCylinder",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel04",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel01",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel02",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringWheel03",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringDash",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Dashboard",
+              "index": 8,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringDashColumn",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringHandleL",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Hardware",
+              "index": 5,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "InteriorSteeringHandleR",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Hardware",
+              "index": 5,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "BodyRoofPanel",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyRearPanelsColor1",
+          "castShadow": true,
+          "expectedMaterial": 10,
+          "materials": [
+            {
+              "name": "Paint 1 Carmine",
+              "index": 10,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25
+            }
+          ]
+        },
+        {
+          "name": "InteriorRearHatch",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "mesh_84",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mechanical",
+              "index": 0,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1
+            }
+          ]
+        },
+        {
+          "name": "mesh_84_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "BodyWindowsRearSides",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Glass",
+              "index": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0
+            }
+          ]
+        },
+        {
+          "name": "BodyTurnsignalsRear",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Signallight",
+              "index": 11,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "BodyTaillightsPanels",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyTaillights",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Brakelight",
+              "index": 12,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "BodyRearwindow",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Glass",
+              "index": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0
+            }
+          ]
+        },
+        {
+          "name": "BodyPillars",
+          "castShadow": true,
+          "expectedMaterial": 10,
+          "materials": [
+            {
+              "name": "Paint 1 Carmine",
+              "index": 10,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25
+            }
+          ]
+        },
+        {
+          "name": "BodyPanelsColor2",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyHood",
+          "castShadow": true,
+          "expectedMaterial": 10,
+          "materials": [
+            {
+              "name": "Paint 1 Carmine",
+              "index": 10,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodInterior01",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodInterior02",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodTopgrill",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyHoodUnder",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyHeadlights",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Headlight",
+              "index": 13,
+              "transparent": false,
+              "color": "040404",
+              "metalness": 0,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRColor1",
+          "castShadow": true,
+          "expectedMaterial": 10,
+          "materials": [
+            {
+              "name": "Paint 1 Carmine",
+              "index": 10,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRColor2",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRHandle01",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRHandle02",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRMirror",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mirror",
+              "index": 14,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRMirrorColor1",
+          "castShadow": true,
+          "expectedMaterial": 10,
+          "materials": [
+            {
+              "name": "Paint 1 Carmine",
+              "index": 10,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRMirrorColor2",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRWindow",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Glass",
+              "index": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorRWindowGasket",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "mesh_85",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mechanical",
+              "index": 0,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1
+            }
+          ]
+        },
+        {
+          "name": "mesh_85_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR02",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR03",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR04",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR05",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorR06",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Hardware",
+              "index": 5,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLColor1",
+          "castShadow": true,
+          "expectedMaterial": 10,
+          "materials": [
+            {
+              "name": "Paint 1 Carmine",
+              "index": 10,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL04",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "mesh_86",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mechanical",
+              "index": 0,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1
+            }
+          ]
+        },
+        {
+          "name": "mesh_86_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL02",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Interior 1",
+              "index": 3,
+              "transparent": false,
+              "color": "0c0c0c",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL03",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL05",
+          "castShadow": true,
+          "expectedMaterial": 6,
+          "materials": [
+            {
+              "name": "Interior 3 Carmine",
+              "index": 6,
+              "transparent": false,
+              "color": "801000",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "InteriorDoorL06",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Hardware",
+              "index": 5,
+              "transparent": false,
+              "color": "8e8e8e",
+              "metalness": 1,
+              "roughness": 0.5
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLColor2",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLHandle01",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLHandle02",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLMirror",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mirror",
+              "index": 14,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLMirrorColor1",
+          "castShadow": true,
+          "expectedMaterial": 10,
+          "materials": [
+            {
+              "name": "Paint 1 Carmine",
+              "index": 10,
+              "transparent": false,
+              "color": "d50000",
+              "metalness": 1,
+              "roughness": 0.25
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLWindowGasket",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "",
+              "index": 2,
+              "transparent": false,
+              "color": "0a0a0a",
+              "metalness": 0,
+              "roughness": 0.8
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLWindow",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Glass",
+              "index": 1,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0
+            }
+          ]
+        },
+        {
+          "name": "BodyDoorLMirrorColor2",
+          "castShadow": true,
+          "expectedMaterial": 9,
+          "materials": [
+            {
+              "name": "Paint 2 Carmine",
+              "index": 9,
+              "transparent": false,
+              "color": "373737",
+              "metalness": 1,
+              "roughness": 0.3
+            }
+          ]
+        },
+        {
+          "name": "mesh_88",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim2",
+              "index": 19,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "mesh_88_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim1",
+              "index": 20,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontLBrakePad",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Brake",
+              "index": 15,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontLBrakeDisc",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Disc",
+              "index": 16,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73
+            }
+          ]
+        },
+        {
+          "name": "mesh_87",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tireside",
+              "index": 17,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "mesh_87_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tiretread",
+              "index": 18,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6
+            }
+          ]
+        },
+        {
+          "name": "mesh_90",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim2",
+              "index": 19,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "mesh_90_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim1",
+              "index": 20,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontRBrakePad",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Brake",
+              "index": 15,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2
+            }
+          ]
+        },
+        {
+          "name": "WheelFrontRBrakeDisc",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Disc",
+              "index": 16,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73
+            }
+          ]
+        },
+        {
+          "name": "mesh_89",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tireside",
+              "index": 17,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "mesh_89_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tiretread",
+              "index": 18,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6
+            }
+          ]
+        },
+        {
+          "name": "WheelRearLBrakeDisc",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Disc",
+              "index": 16,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73
+            }
+          ]
+        },
+        {
+          "name": "WheelRearLBrakePad",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Brake",
+              "index": 15,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2
+            }
+          ]
+        },
+        {
+          "name": "mesh_92",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim2",
+              "index": 19,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "mesh_92_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim1",
+              "index": 20,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "mesh_91",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tireside",
+              "index": 17,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "mesh_91_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tiretread",
+              "index": 18,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6
+            }
+          ]
+        },
+        {
+          "name": "WheelRearRBrakeDisc",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Disc",
+              "index": 16,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.73
+            }
+          ]
+        },
+        {
+          "name": "WheelRearRBrakePad",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Brake",
+              "index": 15,
+              "transparent": false,
+              "color": "d30000",
+              "metalness": 1,
+              "roughness": 0.2
+            }
+          ]
+        },
+        {
+          "name": "mesh_94",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim2",
+              "index": 19,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "mesh_94_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Rim1",
+              "index": 20,
+              "transparent": false,
+              "color": "030303",
+              "metalness": 1,
+              "roughness": 0.24
+            }
+          ]
+        },
+        {
+          "name": "mesh_93",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tireside",
+              "index": 17,
+              "transparent": false,
+              "color": "ffffff",
+              "metalness": 0,
+              "roughness": 0.4
+            }
+          ]
+        },
+        {
+          "name": "mesh_93_1",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Tiretread",
+              "index": 18,
+              "transparent": false,
+              "color": "181818",
+              "metalness": 0,
+              "roughness": 0.6
+            }
+          ]
+        },
+        {
+          "name": "Axles",
+          "castShadow": true,
+          "materials": [
+            {
+              "name": "Mechanical",
+              "index": 0,
+              "transparent": false,
+              "color": "404040",
+              "metalness": 1,
+              "roughness": 1
+            }
+          ]
+        }
+      ]
+    },
+    "floor": {
+      "position": [
+        -0.10874915128506313,
+        -0.003,
+        -0.0070536985904157135
+      ],
+      "quaternion": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "opacity": 0.14,
+      "depthWrite": false,
+      "receiveShadow": true
+    },
+    "shadow": {
+      "bias": -0.00015,
+      "normalBias": 0.015,
+      "radius": 8,
+      "mapSize": [
+        1024,
+        1024
+      ],
+      "allocated": [
+        1024,
+        1024
+      ],
+      "camera": {
+        "projection": [
+          0.21107210576238258,
+          0,
+          0,
+          0,
+          0,
+          0.21107210576238258,
+          0,
+          0,
+          0,
+          0,
+          -0.08482326199503952,
+          0,
+          0,
+          0,
+          -1.0084823261995042,
+          1
+        ],
+        "matrixWorld": [
+          0.7071067811865475,
+          5.551115123125783e-17,
+          -0.7071067811865476,
+          0,
+          -0.7001400420140049,
+          0.14002800840280072,
+          -0.700140042014005,
+          0,
+          0.09901475429766737,
+          0.9901475429766745,
+          0.09901475429766715,
+          0,
+          1,
+          10,
+          1,
+          1
+        ],
+        "left": -4.737717456260015,
+        "right": 4.737717456260015,
+        "top": 4.737717456260015,
+        "bottom": -4.737717456260015,
+        "near": 0.1,
+        "far": 23.678437718145766
+      },
+      "enabled": true,
+      "type": 1,
+      "autoUpdate": false
+    },
+    "renderer": {
+      "exposure": 1.05,
+      "toneMapping": 4,
+      "colorSpace": "srgb",
+      "dpr": 1,
+      "width": 850,
+      "height": 778,
+      "drawCalls": 215,
+      "environment": true
+    }
+  }
+}

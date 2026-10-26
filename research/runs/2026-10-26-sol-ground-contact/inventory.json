@@ -1,0 +1,322 @@
+[
+  {
+    "file": "after-Carmine-captures.json",
+    "bytes": 1383,
+    "sha256": "731d0296c6234bbeb50a4056d4b7b53ece456a45fcc0beb6121ca594a451191e"
+  },
+  {
+    "file": "after-Carmine-front.png",
+    "bytes": 199852,
+    "sha256": "e54170891c1e43e8adf7a37dbda4985b56700c3de08bb9ebb03b69b8d948311b"
+  },
+  {
+    "file": "after-Carmine-inspection.json",
+    "bytes": 35326,
+    "sha256": "3fdd74f5b31bb367f56f628475fbda376694e92064f0dfeca9ec124067c1f892"
+  },
+  {
+    "file": "after-Carmine-measurement.json",
+    "bytes": 43752,
+    "sha256": "092b24c6abbebf454c5739a601ab5c0c1c076182973b613ecccd2312d0dd4dc5"
+  },
+  {
+    "file": "after-Carmine-side.png",
+    "bytes": 315158,
+    "sha256": "cc966d77025ce14cee506592eebfed97c8d66c3b5d5cea230aa60c661bfbe116"
+  },
+  {
+    "file": "after-Carmine-wheel.png",
+    "bytes": 465167,
+    "sha256": "19c0c8866282790fd1763b6cbf3afb05d0c4c7e7c9e27167c5df84699915b3ff"
+  },
+  {
+    "file": "after-Carmine.log",
+    "bytes": 572,
+    "sha256": "797810a167782d78dacfb4b0deece93831b5a148b700b713da948eb85252e884"
+  },
+  {
+    "file": "after-Estuary-captures.json",
+    "bytes": 1386,
+    "sha256": "5b5472bd51f4a4b3a51366558f345dc70c26474d122275c2560f4f1368f43f46"
+  },
+  {
+    "file": "after-Estuary-front.png",
+    "bytes": 166417,
+    "sha256": "d76c1d5964cca787376a72fa1011644e6b2012e4b97df40aca5fc2616a8f4138"
+  },
+  {
+    "file": "after-Estuary-inspection.json",
+    "bytes": 35463,
+    "sha256": "d276962ee607eb15318dfea977b7ec39786e931fb89dd6390fad0da6413dcaed"
+  },
+  {
+    "file": "after-Estuary-measurement.json",
+    "bytes": 43843,
+    "sha256": "7709ecc6b91ccf7c47b1915f60ad625faaa144693e42d3d57cdd4bcd6374ac05"
+  },
+  {
+    "file": "after-Estuary-side.png",
+    "bytes": 266464,
+    "sha256": "c2d5ad6691e300edc91f3eeb7a367fbdc6f05a384d1594cc5a46bad1a476a5a7"
+  },
+  {
+    "file": "after-Estuary-wheel.png",
+    "bytes": 334261,
+    "sha256": "f7558aff51d06be68d53a35b6b0b97d4cac5cb30b193f0ef652318596e357cca"
+  },
+  {
+    "file": "after-Estuary.log",
+    "bytes": 572,
+    "sha256": "eba3b1fdb2e4d9ac16d6c758df1a3c261cf3666eb6804a30f79474a79217b66f"
+  },
+  {
+    "file": "after-captures.json",
+    "bytes": 1386,
+    "sha256": "5b5472bd51f4a4b3a51366558f345dc70c26474d122275c2560f4f1368f43f46"
+  },
+  {
+    "file": "after-mobile-Carmine-captures.json",
+    "bytes": 479,
+    "sha256": "27905fb1baec4c19772739bed1fed53e8ddfa69c259f241ecf3ef424f72b30d7"
+  },
+  {
+    "file": "after-mobile-Carmine-measurement.json",
+    "bytes": 43752,
+    "sha256": "092b24c6abbebf454c5739a601ab5c0c1c076182973b613ecccd2312d0dd4dc5"
+  },
+  {
+    "file": "after-mobile-Carmine-side.png",
+    "bytes": 94077,
+    "sha256": "eb6e874d296b67fe4485cc7ff4ff1359175a9647bfe8bf4e588541cbb9ab45d5"
+  },
+  {
+    "file": "after-mobile-captures.json",
+    "bytes": 479,
+    "sha256": "27905fb1baec4c19772739bed1fed53e8ddfa69c259f241ecf3ef424f72b30d7"
+  },
+  {
+    "file": "after-mobile.log",
+    "bytes": 531,
+    "sha256": "26126f2273ef5fefb25bb69e3d6e19aa6bceea54c8ebb3340e59025b7f7bac16"
+  },
+  {
+    "file": "before-Carmine-front.png",
+    "bytes": 203199,
+    "sha256": "c134ca5907c2dc4da4969a73363d9ff8dd598f5a913895e2bed9284fba2938b2"
+  },
+  {
+    "file": "before-Carmine-measurement.json",
+    "bytes": 43740,
+    "sha256": "132ffb91d3ace5e1c0123baa7a753361a819e9dcbd2c1ae5023009585ea7e81d"
+  },
+  {
+    "file": "before-Carmine-side.png",
+    "bytes": 317532,
+    "sha256": "8547d15dbfe481948d08eca2b6e5eb9d1c039cb25b8fec54eb95a31cf17b07ff"
+  },
+  {
+    "file": "before-Carmine-wheel.png",
+    "bytes": 472840,
+    "sha256": "a68b4a3ba104234952e55809e9a189b60b8c45605234a5cd2c29322080cc4e79"
+  },
+  {
+    "file": "before-Estuary-front.png",
+    "bytes": 168858,
+    "sha256": "553c58c8b5aedb1c603ab7dc7473f0e25df22d1091d49ad4d0da9ea905c2699b"
+  },
+  {
+    "file": "before-Estuary-measurement.json",
+    "bytes": 43831,
+    "sha256": "6c3a9efb2af232a2f20428ad7468b5124032be0c6310e76bdc8af85633dbfebe"
+  },
+  {
+    "file": "before-Estuary-side.png",
+    "bytes": 268986,
+    "sha256": "2b9d4945d10cfc2372a5807f420f3e6f0db668ad01036b855243f658118e81e7"
+  },
+  {
+    "file": "before-Estuary-wheel.png",
+    "bytes": 342089,
+    "sha256": "6f04a5d9dcc5d2de3403c0145e775e6cf51edf3c5c86a24b3ed409985c9e26b8"
+  },
+  {
+    "file": "before-captures.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "before-mobile-Carmine-captures.json",
+    "bytes": 480,
+    "sha256": "7b9dca4899ec1b46bc20fb7cf3313a6d4ee0c3790fca1f6852af44693c97dcd8"
+  },
+  {
+    "file": "before-mobile-Carmine-measurement.json",
+    "bytes": 43740,
+    "sha256": "132ffb91d3ace5e1c0123baa7a753361a819e9dcbd2c1ae5023009585ea7e81d"
+  },
+  {
+    "file": "before-mobile-Carmine-side.png",
+    "bytes": 94252,
+    "sha256": "c0421af8800ef3fea274fecfd5d21d819a4a85a40957900e8d90296ab6ed8401"
+  },
+  {
+    "file": "before-mobile-captures.json",
+    "bytes": 480,
+    "sha256": "7b9dca4899ec1b46bc20fb7cf3313a6d4ee0c3790fca1f6852af44693c97dcd8"
+  },
+  {
+    "file": "before-mobile.log",
+    "bytes": 532,
+    "sha256": "f914c16a86bbcc2492dc9ec10eac02bad61d6336bb577c7b374a84684be0208b"
+  },
+  {
+    "file": "before-resume.log",
+    "bytes": 256,
+    "sha256": "513a29bc792b1aec9dff28364e9ec09b07b0c1cbbe4a19070813bd4760c7fb3f"
+  },
+  {
+    "file": "before-resume2.log",
+    "bytes": 611,
+    "sha256": "1600b50415b0465902965e0f8c86b4ee604048fa2bad353d1a589d721fbc24fb"
+  },
+  {
+    "file": "before.log",
+    "bytes": 148,
+    "sha256": "bd2bab4ad9b1c2e3938a6815ad1e2ebb1aa9158965ffa76afaca7ac69c2fcb1c"
+  },
+  {
+    "file": "build-app-final.log",
+    "bytes": 1220,
+    "sha256": "21a6dea2d1bd584fa4b14d9e97527f7c4db241b7881df566811632174328eb86"
+  },
+  {
+    "file": "build-app.log",
+    "bytes": 1220,
+    "sha256": "d6ecee4b362456cee6fc9103ee3671b909f68cecab94a7fe35010b987699a27d"
+  },
+  {
+    "file": "capture.mjs",
+    "bytes": 6798,
+    "sha256": "92cb0ba14b09314e0818f8e34dd9c09a973f9ef77a7591eccd8d82520ff1afb4"
+  },
+  {
+    "file": "focused-browser-Estuary.log",
+    "bytes": 608,
+    "sha256": "8e9052edb0369fa3065329f5a37076be6e2f048bce818fac7d866cdcbb105eab"
+  },
+  {
+    "file": "focused-browser.log",
+    "bytes": 924,
+    "sha256": "831b586ae5bb2a6d598ded238f681437efb8b3907bb55db9e4367eb6bf985fe6"
+  },
+  {
+    "file": "frozen-before-viewerLighting.ts.txt",
+    "bytes": 6363,
+    "sha256": "bef1520d13da50bd367c9b2108a3f067e878cf3b322442018e9a7af7eb5fd5d4"
+  },
+  {
+    "file": "index.html",
+    "bytes": 1872,
+    "sha256": "bad6c355f08d3736eaaaa0534adeec344671427b7e4ebfc6402c6f0dc429bd46"
+  },
+  {
+    "file": "lint-final.log",
+    "bytes": 254,
+    "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+  },
+  {
+    "file": "lint.log",
+    "bytes": 254,
+    "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+  },
+  {
+    "file": "notes.md",
+    "bytes": 10239,
+    "sha256": "298746a7ff65afff168dc5baa538d878940ba1e8b23ee57d02ef5f720fd7ed58"
+  },
+  {
+    "file": "pair-Carmine-front.jpg",
+    "bytes": 106039,
+    "sha256": "8f8ffab501b1ceecc11bc14bd5ca5dd02b619199544e6095a02fc69fde6ea5f0"
+  },
+  {
+    "file": "pair-Carmine-side.jpg",
+    "bytes": 154927,
+    "sha256": "8a155880c3212206c22fb1ee6397ce252ac78818b5005e2d8a35b9b41610f15b"
+  },
+  {
+    "file": "pair-Carmine-wheel.jpg",
+    "bytes": 210398,
+    "sha256": "b40a129366e3b6c26b549e428efaafd0b49f25df0c4234f933746b56f3ac8e70"
+  },
+  {
+    "file": "pair-Estuary-front.jpg",
+    "bytes": 87775,
+    "sha256": "48c6568b8d006b2a834820212601c358b930f219c3cf5c918fe6518f7b9a211c"
+  },
+  {
+    "file": "pair-Estuary-side.jpg",
+    "bytes": 127364,
+    "sha256": "80e1c56d78b8c2c94412293a4bdcf494d1d6a431924d8f2060f11b9d3b354054"
+  },
+  {
+    "file": "pair-Estuary-wheel.jpg",
+    "bytes": 150903,
+    "sha256": "cce37bdcbc084b85191813e68a59fd90d9f1afeedd72076607599cac5c7d13fe"
+  },
+  {
+    "file": "pair-mobile-Carmine-side.jpg",
+    "bytes": 52405,
+    "sha256": "42203276621bcc696eca8c94eeca0887b41bab7a103b7e202f645aa1fa0fb1e2"
+  },
+  {
+    "file": "prompt.md",
+    "bytes": 1353,
+    "sha256": "951024b8ef51c77c29ed533b24bd25645bf18ab37f799d9a2005cbd908774e71"
+  },
+  {
+    "file": "raw-glb-bounds.json",
+    "bytes": 60403,
+    "sha256": "177e38b84b8583b1f0e1a1bda20799c11dc74ce1c5c84ba07ad7b427bf2ba724"
+  },
+  {
+    "file": "raw-glb-bounds.log",
+    "bytes": 3471,
+    "sha256": "c3ff7a8a467f03af935b0dd5521e1b06b67b79ff83ea175d8678dabb702a414f"
+  },
+  {
+    "file": "raw-glb-bounds.mjs",
+    "bytes": 1667,
+    "sha256": "b7a180c456f246df2e79bcc08f6843626c77ceb1c84594fe200db9946729e2ef"
+  },
+  {
+    "file": "red.log",
+    "bytes": 1490,
+    "sha256": "9b3050680e28adf8d0298bec838553de0e68598f111861130438760d8c057b4a"
+  },
+  {
+    "file": "unit-final.log",
+    "bytes": 732,
+    "sha256": "dd8e5fdc789411032ddc89ee940cc9486c837795987d2804ded760e8797a0964"
+  },
+  {
+    "file": "unit.log",
+    "bytes": 747,
+    "sha256": "0181519d85019fedc0a0ad0c8b2e59a8a5895764961226c94996bc7bc6751849"
+  },
+  {
+    "file": "verification.json",
+    "bytes": 4185,
+    "sha256": "8f36b1b3bb72bb5c776ff26b39b969e833649ff4a9401154a6b3c7bc8b54e784"
+  },
+  {
+    "file": "verify.log",
+    "bytes": 474,
+    "sha256": "c1ae9694fafd628cf1f0b7644176774779e2bad3e0d337b16404f77c9535ebfb"
+  },
+  {
+    "file": "verify.py",
+    "bytes": 3458,
+    "sha256": "28430085b5aace2843e0280bcc98e4c2dfd1b8d15b2c792a1183078692618391"
+  }
+]

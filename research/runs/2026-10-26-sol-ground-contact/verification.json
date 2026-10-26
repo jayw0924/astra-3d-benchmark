@@ -1,0 +1,133 @@
+{
+  "modelBytes": 9239404,
+  "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+  "pairs": [
+    {
+      "finish": "Carmine",
+      "mobile": false,
+      "view": "side",
+      "before": "before-Carmine-side.png",
+      "after": "after-Carmine-side.png",
+      "pair": "pair-Carmine-side.jpg",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 29140,
+      "maximumChannelDelta": 61,
+      "imageHashes": {
+        "before-Carmine-side.png": "8547d15dbfe481948d08eca2b6e5eb9d1c039cb25b8fec54eb95a31cf17b07ff",
+        "after-Carmine-side.png": "cc966d77025ce14cee506592eebfed97c8d66c3b5d5cea230aa60c661bfbe116"
+      }
+    },
+    {
+      "finish": "Carmine",
+      "mobile": false,
+      "view": "front",
+      "before": "before-Carmine-front.png",
+      "after": "after-Carmine-front.png",
+      "pair": "pair-Carmine-front.jpg",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 17238,
+      "maximumChannelDelta": 32,
+      "imageHashes": {
+        "before-Carmine-front.png": "c134ca5907c2dc4da4969a73363d9ff8dd598f5a913895e2bed9284fba2938b2",
+        "after-Carmine-front.png": "e54170891c1e43e8adf7a37dbda4985b56700c3de08bb9ebb03b69b8d948311b"
+      }
+    },
+    {
+      "finish": "Carmine",
+      "mobile": false,
+      "view": "wheel",
+      "before": "before-Carmine-wheel.png",
+      "after": "after-Carmine-wheel.png",
+      "pair": "pair-Carmine-wheel.jpg",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 60127,
+      "maximumChannelDelta": 49,
+      "imageHashes": {
+        "before-Carmine-wheel.png": "a68b4a3ba104234952e55809e9a189b60b8c45605234a5cd2c29322080cc4e79",
+        "after-Carmine-wheel.png": "19c0c8866282790fd1763b6cbf3afb05d0c4c7e7c9e27167c5df84699915b3ff"
+      }
+    },
+    {
+      "finish": "Estuary",
+      "mobile": false,
+      "view": "side",
+      "before": "before-Estuary-side.png",
+      "after": "after-Estuary-side.png",
+      "pair": "pair-Estuary-side.jpg",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 29107,
+      "maximumChannelDelta": 31,
+      "imageHashes": {
+        "before-Estuary-side.png": "2b9d4945d10cfc2372a5807f420f3e6f0db668ad01036b855243f658118e81e7",
+        "after-Estuary-side.png": "c2d5ad6691e300edc91f3eeb7a367fbdc6f05a384d1594cc5a46bad1a476a5a7"
+      }
+    },
+    {
+      "finish": "Estuary",
+      "mobile": false,
+      "view": "front",
+      "before": "before-Estuary-front.png",
+      "after": "after-Estuary-front.png",
+      "pair": "pair-Estuary-front.jpg",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 17234,
+      "maximumChannelDelta": 31,
+      "imageHashes": {
+        "before-Estuary-front.png": "553c58c8b5aedb1c603ab7dc7473f0e25df22d1091d49ad4d0da9ea905c2699b",
+        "after-Estuary-front.png": "d76c1d5964cca787376a72fa1011644e6b2012e4b97df40aca5fc2616a8f4138"
+      }
+    },
+    {
+      "finish": "Estuary",
+      "mobile": false,
+      "view": "wheel",
+      "before": "before-Estuary-wheel.png",
+      "after": "after-Estuary-wheel.png",
+      "pair": "pair-Estuary-wheel.jpg",
+      "dimensions": [
+        850,
+        778
+      ],
+      "changedPixels": 60114,
+      "maximumChannelDelta": 31,
+      "imageHashes": {
+        "before-Estuary-wheel.png": "6f04a5d9dcc5d2de3403c0145e775e6cf51edf3c5c86a24b3ed409985c9e26b8",
+        "after-Estuary-wheel.png": "f7558aff51d06be68d53a35b6b0b97d4cac5cb30b193f0ef652318596e357cca"
+      }
+    },
+    {
+      "finish": "Carmine",
+      "mobile": true,
+      "view": "side",
+      "before": "before-mobile-Carmine-side.png",
+      "after": "after-mobile-Carmine-side.png",
+      "pair": "pair-mobile-Carmine-side.jpg",
+      "dimensions": [
+        353,
+        440
+      ],
+      "changedPixels": 6988,
+      "maximumChannelDelta": 31,
+      "imageHashes": {
+        "before-mobile-Carmine-side.png": "c0421af8800ef3fea274fecfd5d21d819a4a85a40957900e8d90296ab6ed8401",
+        "after-mobile-Carmine-side.png": "eb6e874d296b67fe4485cc7ff4ff1359175a9647bfe8bf4e588541cbb9ab45d5"
+      }
+    }
+  ],
+  "status": "technical checks passed; visual approval separate"
+}

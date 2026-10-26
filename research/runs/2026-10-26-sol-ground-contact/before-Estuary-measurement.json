@@ -1,0 +1,2057 @@
+{
+  "meshes": [
+    {
+      "name": "BodyUnderside",
+      "min": 0.24795701076030435,
+      "max": 0.9921225654029822,
+      "point": [
+        -0.6858475657827376,
+        0.24795701076030435,
+        0.6695717177879771
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mechanical",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyWindshield",
+      "min": 0.9741652356529205,
+      "max": 1.2854782687568638,
+      "point": [
+        -0.3612588097068367,
+        0.9741652356529205,
+        1.400389977300272
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Glass",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyWindshieldGasket",
+      "min": 0.9186503039741485,
+      "max": 1.28030720819473,
+      "point": [
+        -0.36189801068357513,
+        0.9186503039741485,
+        1.403233570480994
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyWindshieldWipers",
+      "min": 1.0104401563362746,
+      "max": 1.087342982187268,
+      "point": [
+        0.3526494282533737,
+        1.0104401563362746,
+        1.3211078834226222
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyWindshieldWipersBase",
+      "min": 1.0002194391632049,
+      "max": 1.0638435231590242,
+      "point": [
+        0.2758816491169512,
+        1.0002194391632049,
+        1.3574215758222672
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "Engine",
+      "min": 0.2992990361595122,
+      "max": 0.9074309812927214,
+      "point": [
+        -0.95122635780471,
+        0.2992990361595122,
+        1.446128911489232
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mechanical",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorCage",
+      "min": 0.9675521003150913,
+      "max": 1.2732192622566196,
+      "point": [
+        0.6590806366767735,
+        0.9675521003150913,
+        -0.6306199318824519
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDashMid",
+      "min": 0.29260020424365685,
+      "max": 1.0125584947013824,
+      "point": [
+        -0.6134472102235592,
+        0.29260020424365685,
+        1.2250748006606715
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDashSides",
+      "min": 0.28303213138818445,
+      "max": 1.0213422523879976,
+      "point": [
+        -0.9353462069967674,
+        0.28303213138818445,
+        0.48521253886231897
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorFloor",
+      "min": 0.2519059078836416,
+      "max": 0.9969805227661108,
+      "point": [
+        0.4794034300365739,
+        0.2519059078836416,
+        -1.1411146524613969
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorFloormats",
+      "min": 0.256095265045163,
+      "max": 0.28737625946044637,
+      "point": [
+        0.12007491037790247,
+        0.256095265045163,
+        0.9838801439465596
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Floormat",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_83",
+      "min": 0.3112470852279634,
+      "max": 1.0509143816375703,
+      "point": [
+        -1.2030815690925147,
+        0.3112470852279634,
+        0.44970229605822987
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Panel Sides",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_83_1",
+      "min": 0.27852306236266794,
+      "max": 1.0583939896964998,
+      "point": [
+        0.7967288484447228,
+        0.27852306236266794,
+        0.9713560673074868
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Panel Sides",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorPedalAccel",
+      "min": 0.2878882619620829,
+      "max": 0.4652113514089553,
+      "point": [
+        -0.4018498290121106,
+        0.2878882619620829,
+        1.169317867038086
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Floormat",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorPedalAccelArm",
+      "min": 0.37599064876079247,
+      "max": 0.5987498508834808,
+      "point": [
+        -0.40516442826899407,
+        0.37599064876079247,
+        1.2793435078359268
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Hardware",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorPedalBrake",
+      "min": 0.35012328718542746,
+      "max": 0.4280777098679512,
+      "point": [
+        -0.24285114089990545,
+        0.35012328718542746,
+        1.2201373270909186
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Floormat",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorPedalBrakeArm",
+      "min": 0.3712000744485825,
+      "max": 0.5987210022354095,
+      "point": [
+        -0.25316739920641457,
+        0.3712000744485825,
+        1.3003502314012776
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Hardware",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorPillar",
+      "min": 0.2888133572483035,
+      "max": 1.2919333325767492,
+      "point": [
+        -0.06849086979901982,
+        0.2888133572483035,
+        0.09115102017334903
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSeatsColor1",
+      "min": 0.26643220056533523,
+      "max": 1.2280388223075842,
+      "point": [
+        0.10870555303527346,
+        0.26643220056533523,
+        0.5214265073614587
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSeatsColor2",
+      "min": 0.26688516606330587,
+      "max": 1.1049770461463901,
+      "point": [
+        -0.06061618742630619,
+        0.26688516606330587,
+        0.39477513253607155
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 2",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSeatsFrame1",
+      "min": 0.2532609747791265,
+      "max": 1.2115330742740604,
+      "point": [
+        0.469510409888077,
+        0.2532609747791265,
+        -1.0924560986268144
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSeatsFrame2",
+      "min": 0.25497282017707573,
+      "max": 1.2177634583854648,
+      "point": [
+        0.3746521860186818,
+        0.25497282017707573,
+        -1.1259590196098963
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringBase",
+      "min": 0.523789231672284,
+      "max": 0.7584513137185545,
+      "point": [
+        -0.22891109534425724,
+        0.523789231672284,
+        1.268609911898974
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringCylinder",
+      "min": 0.6526828907885625,
+      "max": 0.8453861979815218,
+      "point": [
+        -0.28262255521320206,
+        0.6526828907885625,
+        0.8649745256239616
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringWheel04",
+      "min": 0.7386831392920062,
+      "max": 0.8608725936865651,
+      "point": [
+        -0.3287569617903502,
+        0.7386831392920062,
+        0.6225602499073617
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringWheel01",
+      "min": 0.6778199616094763,
+      "max": 0.945686390516238,
+      "point": [
+        -0.2633805016704529,
+        0.6778199616094763,
+        0.6262506876440228
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringWheel02",
+      "min": 0.6679583329601224,
+      "max": 0.9540723381018303,
+      "point": [
+        -0.2628781209811233,
+        0.6679583329601224,
+        0.6042512900798042
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringWheel03",
+      "min": 0.9049307648762321,
+      "max": 0.9326190998561438,
+      "point": [
+        -0.2443949961004036,
+        0.9049307648762321,
+        0.708388798630345
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringDash",
+      "min": 0.8329635160112351,
+      "max": 0.9722740100765199,
+      "point": [
+        -0.48101344149618375,
+        0.8329635160112351,
+        1.021002862619265
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Dashboard",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringDashColumn",
+      "min": 0.6154733495855301,
+      "max": 0.8400543751263589,
+      "point": [
+        -0.33842132534352415,
+        0.6154733495855301,
+        1.2715277180618776
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringHandleL",
+      "min": 0.6835519522497029,
+      "max": 0.835712616338727,
+      "point": [
+        -0.19723658832735483,
+        0.6835519522497029,
+        0.9513225229860042
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Hardware",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorSteeringHandleR",
+      "min": 0.6835518367657036,
+      "max": 0.8357123481178255,
+      "point": [
+        -0.33240418755659884,
+        0.6835518367657036,
+        0.9210965715128699
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Hardware",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyRoofPanel",
+      "min": 1.275508795871732,
+      "max": 1.3079541074180576,
+      "point": [
+        0.5413609158810646,
+        1.275508795871732,
+        0.04864160290289943
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyRearPanelsColor1",
+      "min": 0.5065518366241433,
+      "max": 1.2959981011295292,
+      "point": [
+        1.4397970607331037,
+        0.5065518366241433,
+        -1.7193607216750562
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Main",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorRearHatch",
+      "min": 1.0837345765972115,
+      "max": 1.2966320561313602,
+      "point": [
+        0.3503811708791375,
+        1.0837345765972115,
+        -1.78199594458239
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_84",
+      "min": 0.6688144253635381,
+      "max": 1.1140290545368168,
+      "point": [
+        -0.9259171470513312,
+        0.6688144253635381,
+        -1.1338533527857433
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mechanical",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_84_1",
+      "min": 0.35143778194427266,
+      "max": 1.2662612246417972,
+      "point": [
+        1.2011629541805775,
+        0.35143778194427266,
+        -1.8338539517060126
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyWindowsRearSides",
+      "min": 1.1168085979366276,
+      "max": 1.2690923260593387,
+      "point": [
+        1.0250423268199396,
+        1.1168085979366276,
+        -0.580877851461493
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Glass",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyTurnsignalsRear",
+      "min": 1.1325116800212838,
+      "max": 1.1521140383625008,
+      "point": [
+        1.0876579836441271,
+        1.1325116800212838,
+        -1.3799986126184252
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Signallight",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyTaillightsPanels",
+      "min": 1.0822926210308053,
+      "max": 1.1609878586673712,
+      "point": [
+        0.7600685626032414,
+        1.0822926210308053,
+        -1.7780619595411624
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyTaillights",
+      "min": 1.10324234236717,
+      "max": 1.142760758295057,
+      "point": [
+        0.7312696639190782,
+        1.10324234236717,
+        -1.7265068908727024
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Brakelight",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyRearwindow",
+      "min": 1.142880980863569,
+      "max": 1.30251801480293,
+      "point": [
+        0.3600472505743781,
+        1.142880980863569,
+        -1.8252215317660456
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Glass",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyPillars",
+      "min": 0.2681354926967591,
+      "max": 1.30203572381973,
+      "point": [
+        -1.2375730936198894,
+        0.2681354926967591,
+        0.4744406813118973
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Main",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyPanelsColor2",
+      "min": 0.26714657713412976,
+      "max": 0.6810371028327917,
+      "point": [
+        1.17847837487919,
+        0.26714657713412976,
+        -0.5156246008673455
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyHood",
+      "min": 0.2878222810173003,
+      "max": 1.036746074452397,
+      "point": [
+        -1.338956787564942,
+        0.2878222810173003,
+        1.6195464609927992
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Main",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyHoodInterior01",
+      "min": 0.28884329368114153,
+      "max": 1.0331990616464586,
+      "point": [
+        0.5054406914508071,
+        0.28884329368114153,
+        1.9211612753056682
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyHoodInterior02",
+      "min": 0.886216153397557,
+      "max": 0.9829554455423324,
+      "point": [
+        -0.5265664718822177,
+        0.886216153397557,
+        1.7131830376151462
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyHoodTopgrill",
+      "min": 0.8942266600275008,
+      "max": 0.9888184564256637,
+      "point": [
+        -0.5761576961491623,
+        0.8942266600275008,
+        1.7046973007485215
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyHoodUnder",
+      "min": 0.30062556733131085,
+      "max": 0.4236282305860487,
+      "point": [
+        -1.0941150900160328,
+        0.30062556733131085,
+        1.904068798482906
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyHeadlights",
+      "min": 0.7805465357446639,
+      "max": 0.8507206933641402,
+      "point": [
+        0.017984700560744884,
+        0.7805465357446639,
+        2.068276015228844
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Headlight",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRColor1",
+      "min": 0.3145773457431764,
+      "max": 1.119289313449857,
+      "point": [
+        -1.2288097681183634,
+        0.3145773457431764,
+        0.38799930863164667
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Main",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRColor2",
+      "min": 0.3148491578245134,
+      "max": 0.6664584027671788,
+      "point": [
+        -1.227551192973745,
+        0.3148491578245134,
+        0.38219958276274546
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRHandle01",
+      "min": 1.0952930795097324,
+      "max": 1.2671854840660068,
+      "point": [
+        -0.745039746937758,
+        1.0952930795097324,
+        -0.9159160062333451
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRHandle02",
+      "min": 1.1207438455963108,
+      "max": 1.1839590417289707,
+      "point": [
+        -0.7706929582686097,
+        1.1207438455963108,
+        -0.9410984225605632
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRMirror",
+      "min": 1.0792739139938328,
+      "max": 1.1613593446159336,
+      "point": [
+        -1.134642405884701,
+        1.0792739139938328,
+        -0.1418619543175451
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mirror",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRMirrorColor1",
+      "min": 1.1220273124122593,
+      "max": 1.1735395537757847,
+      "point": [
+        -1.0452514106706485,
+        1.1220273124122593,
+        0.13847437167271248
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Main",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRMirrorColor2",
+      "min": 1.032655988826749,
+      "max": 1.169947420253751,
+      "point": [
+        -1.0986023717813276,
+        1.032655988826749,
+        0.039030849793724676
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRWindow",
+      "min": 1.0619991170310945,
+      "max": 1.274014507427213,
+      "point": [
+        -1.0679462168970322,
+        1.0619991170310945,
+        0.32329920408793
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Glass",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorRWindowGasket",
+      "min": 1.061808978214261,
+      "max": 1.1243539201164219,
+      "point": [
+        -1.0711058418913069,
+        1.061808978214261,
+        0.3337174141707263
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_85",
+      "min": 0.317308668985364,
+      "max": 1.1144976960563633,
+      "point": [
+        -1.0425524316068653,
+        0.317308668985364,
+        0.3122455887054095
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mechanical",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_85_1",
+      "min": 0.35118711461066915,
+      "max": 1.117744599475858,
+      "point": [
+        -0.9806642278749612,
+        0.35118711461066915,
+        0.31886107931104624
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorR02",
+      "min": 0.5485560940647097,
+      "max": 1.0420459853553745,
+      "point": [
+        -0.9206696516966874,
+        0.5485560940647097,
+        0.06571427373793931
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorR03",
+      "min": 0.7825493561172457,
+      "max": 0.9856846081161472,
+      "point": [
+        -0.9133747472902266,
+        0.7825493561172457,
+        0.12048593228088189
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorR04",
+      "min": 0.6422700332546207,
+      "max": 0.8197221504592869,
+      "point": [
+        -0.7918988547008626,
+        0.6422700332546207,
+        -0.5486423333773974
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorR05",
+      "min": 0.7882898794555636,
+      "max": 0.9662670837783786,
+      "point": [
+        -0.8914611742847705,
+        0.7882898794555636,
+        0.06381854763847683
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorR06",
+      "min": 0.7968247281455966,
+      "max": 0.8040170418167087,
+      "point": [
+        -0.8557681953176229,
+        0.7968247281455966,
+        -0.13603571422933988
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Hardware",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLColor1",
+      "min": 0.3148978697204561,
+      "max": 1.1192892538452122,
+      "point": [
+        0.8548526762741901,
+        0.3148978697204561,
+        0.8543380789024729
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Main",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorL04",
+      "min": 0.6422700332546207,
+      "max": 0.8197221504592869,
+      "point": [
+        0.8585257920761611,
+        0.6422700332546207,
+        -0.17956990804335715
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_86",
+      "min": 0.317308668985364,
+      "max": 1.1144976960563633,
+      "point": [
+        0.7159759529801164,
+        0.317308668985364,
+        0.7069397657559636
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mechanical",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_86_1",
+      "min": 0.35118711461066915,
+      "max": 1.117744599475858,
+      "point": [
+        0.6571646410222454,
+        0.35118711461066915,
+        0.6865645004854675
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorL02",
+      "min": 0.5485560940647097,
+      "max": 1.0420459853553745,
+      "point": [
+        0.713352579672406,
+        0.5485560940647097,
+        0.4311186324658859
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorL03",
+      "min": 0.7825493561172457,
+      "max": 0.9856846081161472,
+      "point": [
+        0.6834231500050922,
+        0.7825493561172457,
+        0.4775662069568327
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorL05",
+      "min": 0.7882898794555636,
+      "max": 0.9662670837783786,
+      "point": [
+        0.6877337420506098,
+        0.7882898794555636,
+        0.41696245389516184
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Interior 3 Graphite",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "InteriorDoorL06",
+      "min": 0.7968247281455966,
+      "max": 0.8040170418167087,
+      "point": [
+        0.7405662708521963,
+        0.7968247281455966,
+        0.22094095878478814
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Hardware",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLColor2",
+      "min": 0.3148491578245134,
+      "max": 0.6664586411857579,
+      "point": [
+        0.856200361662472,
+        0.3148491578245134,
+        0.8481720915229254
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLHandle01",
+      "min": 1.1151716457748386,
+      "max": 1.270582948818204,
+      "point": [
+        1.0067464990211255,
+        1.1151716457748386,
+        -0.5475445584090197
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLHandle02",
+      "min": 1.1207438455963108,
+      "max": 1.1839590417289707,
+      "point": [
+        1.006502242438208,
+        1.1207438455963108,
+        -0.5436775629452015
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLMirror",
+      "min": 1.0792739139938328,
+      "max": 1.1613593446159336,
+      "point": [
+        0.9953596794386396,
+        1.0792739139938328,
+        0.33445319351332203
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mirror",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLMirrorColor1",
+      "min": 1.1220272528076145,
+      "max": 1.1735396729850742,
+      "point": [
+        0.7950768072939989,
+        1.1220272528076145,
+        0.5500126947022479
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Main",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLWindowGasket",
+      "min": 1.0618090378189058,
+      "max": 1.124353860511777,
+      "point": [
+        0.7353067683664701,
+        1.0618090378189058,
+        0.7376714875476466
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLWindow",
+      "min": 1.061998997821805,
+      "max": 1.274014507427213,
+      "point": [
+        0.7368859552279858,
+        1.061998997821805,
+        0.7268999218806069
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Glass",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "BodyDoorLMirrorColor2",
+      "min": 1.032655988826749,
+      "max": 1.169947420253751,
+      "point": [
+        0.8857030274311645,
+        1.032655988826749,
+        0.4827653278825442
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Estuary Enamel Accent",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_88",
+      "min": 0.36593196492399344,
+      "max": 0.6973336227649632,
+      "point": [
+        0.6998672520235687,
+        0.36593196492399344,
+        1.5110616523911113
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim2",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_88_1",
+      "min": 0.2397800091729716,
+      "max": 0.8463734256958488,
+      "point": [
+        0.53798289434357,
+        0.2397800091729716,
+        1.3370249480342726
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelFrontLBrakePad",
+      "min": 0.5364412200654002,
+      "max": 0.7663682526420226,
+      "point": [
+        0.6912595852046446,
+        0.5364412200654002,
+        1.2607398036292494
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Brake",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelFrontLBrakeDisc",
+      "min": 0.3424057055299628,
+      "max": 0.7437474528591987,
+      "point": [
+        0.5902896120226935,
+        0.3424057055299628,
+        1.3780406455424643
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Disc",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_87",
+      "min": 0.18240359215512092,
+      "max": 0.9037125086585802,
+      "point": [
+        0.5351616464713929,
+        0.18240359215512092,
+        1.3343280761435246
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tireside",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_87_1",
+      "min": 0.1590580353062846,
+      "max": 0.9270580580568343,
+      "point": [
+        0.547942295765029,
+        0.1590580353062846,
+        1.3460825976047865
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tiretread",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_90",
+      "min": 0.36612454680440615,
+      "max": 0.7007586621431418,
+      "point": [
+        -1.3341607243867577,
+        0.36612454680440615,
+        0.9027224064469754
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim2",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_90_1",
+      "min": 0.2391654319116273,
+      "max": 0.8449387452885362,
+      "point": [
+        -1.1892807101836365,
+        0.2391654319116273,
+        1.0952479111126292
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelFrontRBrakePad",
+      "min": 0.5760076599933455,
+      "max": 0.7713109299079673,
+      "point": [
+        -1.126059770788494,
+        0.5760076599933455,
+        0.9281902131323083
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Brake",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelFrontRBrakeDisc",
+      "min": 0.34138874593300395,
+      "max": 0.7427155786641034,
+      "point": [
+        -1.2329029317667914,
+        0.34138874593300395,
+        1.0410395182869523
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Disc",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_89",
+      "min": 0.1837759381311062,
+      "max": 0.9023400661057739,
+      "point": [
+        -1.3908591242546307,
+        0.1837759381311062,
+        0.929772255046781
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tireside",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_89_1",
+      "min": 0.16051921230843458,
+      "max": 0.9255967708596997,
+      "point": [
+        -1.3794558440351055,
+        0.16051921230843458,
+        0.9430243878650849
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tiretread",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelRearLBrakeDisc",
+      "min": 0.3423836242352891,
+      "max": 0.7438377342505004,
+      "point": [
+        1.2835652803610396,
+        0.3423836242352891,
+        -1.2971938236456297
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Disc",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelRearLBrakePad",
+      "min": 0.3208315925124333,
+      "max": 0.4503226904203318,
+      "point": [
+        1.2037979332464919,
+        0.3208315925124333,
+        -1.3735328214016944
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Brake",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_92",
+      "min": 0.36509881193852556,
+      "max": 0.6907794237470081,
+      "point": [
+        1.356017992300842,
+        0.36509881193852556,
+        -1.2765633176076014
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim2",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_92_1",
+      "min": 0.23999871991863553,
+      "max": 0.8462263481672978,
+      "point": [
+        1.1238105985889693,
+        0.23999871991863553,
+        -1.324012624805
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_91",
+      "min": 0.18240351711190061,
+      "max": 0.9037124521417976,
+      "point": [
+        1.3805107838769106,
+        0.18240351711190061,
+        -1.277436197903836
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tireside",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_91_1",
+      "min": 0.1590579729696714,
+      "max": 0.927058031933795,
+      "point": [
+        1.3635650415778255,
+        0.1590579729696714,
+        -1.2812255865128643
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tiretread",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelRearRBrakeDisc",
+      "min": 0.34237161469132305,
+      "max": 0.7438306951818775,
+      "point": [
+        -0.6333461450358981,
+        0.34237161469132305,
+        -1.7293919760682557
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Disc",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "WheelRearRBrakePad",
+      "min": 0.31668744986026814,
+      "max": 0.5540879241715337,
+      "point": [
+        -0.6318269837248922,
+        0.31668744986026814,
+        -1.7855286081955595
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Brake",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_94",
+      "min": 0.37468458691091944,
+      "max": 0.7134383867531264,
+      "point": [
+        -0.7860641326146622,
+        0.37468458691091944,
+        -1.7024712499879218
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim2",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_94_1",
+      "min": 0.2398523020745369,
+      "max": 0.8463533930845297,
+      "point": [
+        -0.5433333678545622,
+        0.2398523020745369,
+        -1.702080651683811
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Rim1",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_93",
+      "min": 0.1837759592130454,
+      "max": 0.9023401362086185,
+      "point": [
+        -0.8026124179305838,
+        0.1837759592130454,
+        -1.7334154793911027
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tireside",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh_93_1",
+      "min": 0.16051923820416358,
+      "max": 0.925596849319017,
+      "point": [
+        -0.7715034101795879,
+        0.16051923820416358,
+        -1.7929627003399466
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Tiretread",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "Axles",
+      "min": 0.4481634544277161,
+      "max": 0.6381665961885429,
+      "point": [
+        0.22675983973429256,
+        0.4481634544277161,
+        1.3570120580682123
+      ],
+      "castShadow": true,
+      "visible": true,
+      "materials": [
+        {
+          "name": "Mechanical",
+          "transparent": false,
+          "opacity": 1
+        }
+      ]
+    }
+  ],
+  "floorY": -0.003,
+  "shadow": {
+    "bias": -0.00015,
+    "normalBias": 0.015,
+    "radius": 8,
+    "mapSize": [
+      1024,
+      1024
+    ],
+    "camera": {
+      "left": -4.737717456260015,
+      "right": 4.737717456260015,
+      "near": 0.1,
+      "far": 23.678437718145766
+    },
+    "opacity": 0.14,
+    "type": 1,
+    "enabled": true
+  },
+  "exposure": 1.05
+}

@@ -1,0 +1,1714 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/App.test.tsx (7 tests | 1 failed) 1378ms
+   ❯ App (7)
+     × qualifies the retained preview and reports grounding-only approval 500ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > App > qualifies the retained preview and reports grounding-only approval
+TestingLibraryElementError: Unable to find an accessible element with the role "img" and name "Pre-ground-correction refined viewer: Estuary Enamel"
+
+Here are the accessible roles:
+
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"site-header"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "Astra 3D benchmark home":
+  [36m<a[39m
+    [33maria-label[39m=[32m"Astra 3D benchmark home"[39m
+    [33mclass[39m=[32m"wordmark"[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  Name "Geometry":
+  [36m<a[39m
+    [33mhref[39m=[32m"#geometry"[39m
+  [36m/>[39m
+
+  Name "Configurator":
+  [36m<a[39m
+    [33mhref[39m=[32m"#configurator"[39m
+  [36m/>[39m
+
+  Name "Methods":
+  [36m<a[39m
+    [33mhref[39m=[32m"#methods"[39m
+  [36m/>[39m
+
+  Name "Evidence":
+  [36m<a[39m
+    [33mhref[39m=[32m"#evidence"[39m
+  [36m/>[39m
+
+  Name "CC BY 4.0 license":
+  [36m<a[39m
+    [33mhref[39m=[32m"https://creativecommons.org/licenses/by/4.0/"[39m
+  [36m/>[39m
+
+  Name "Basis Universal Apache 2.0 license":
+  [36m<a[39m
+    [33mhref[39m=[32m"/licenses/Basis-Universal-APACHE-2.0.txt"[39m
+  [36m/>[39m
+
+  Name "Basis Universal NOTICE":
+  [36m<a[39m
+    [33mhref[39m=[32m"/licenses/Basis-Universal-NOTICE.md"[39m
+  [36m/>[39m
+
+  Name "View the immutable upstream source":
+  [36m<a[39m
+    [33mhref[39m=[32m"https://github.com/KhronosGroup/glTF-Sample-Assets/tree/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept"[39m
+  [36m/>[39m
+
+  Name "Back to top":
+  [36m<a[39m
+    [33mhref[39m=[32m"#top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  navigation:
+
+  Name "Study navigation":
+  [36m<nav[39m
+    [33maria-label[39m=[32m"Study navigation"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  main:
+
+  Name "":
+  [36m<main[39m
+    [33mid[39m=[32m"top"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  region:
+
+  Name "Astra 3D benchmark":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"hero-title"[39m
+    [33mclass[39m=[32m"hero section-grid"[39m
+  [36m/>[39m
+
+  Name "Historical material comparison":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"output-title"[39m
+    [33mclass[39m=[32m"output-overview"[39m
+  [36m/>[39m
+
+  Name "Refined viewer preview":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"current-preview-title"[39m
+    [33mclass[39m=[32m"output-overview current-viewer-preview"[39m
+  [36m/>[39m
+
+  Name "Accepted Safe geometry":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"safe-title"[39m
+    [33mclass[39m=[32m"geometry-section"[39m
+    [33mid[39m=[32m"safe-result"[39m
+  [36m/>[39m
+
+  Name "Geometry baseline":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"geometry-title"[39m
+    [33mclass[39m=[32m"geometry-section"[39m
+    [33mid[39m=[32m"geometry"[39m
+  [36m/>[39m
+
+  Name "Real-time configurator":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"configurator-title"[39m
+    [33mclass[39m=[32m"configurator-section"[39m
+    [33mid[39m=[32m"configurator"[39m
+  [36m/>[39m
+
+  Name "Methods":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"methods-title"[39m
+    [33mclass[39m=[32m"methods-section"[39m
+    [33mid[39m=[32m"methods"[39m
+  [36m/>[39m
+
+  Name "Evidence before conclusions":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"evidence-title"[39m
+    [33mclass[39m=[32m"evidence-section"[39m
+    [33mid[39m=[32m"evidence"[39m
+  [36m/>[39m
+
+  Name "Streamed engine configurator":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"streaming-title"[39m
+    [33mclass[39m=[32m"streaming-section"[39m
+  [36m/>[39m
+
+  Name "Credits":
+  [36m<section[39m
+    [33maria-labelledby[39m=[32m"credits-title"[39m
+    [33mclass[39m=[32m"credits-section"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"lede"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "Astra 3D benchmark":
+  [36m<h1[39m
+    [33mid[39m=[32m"hero-title"[39m
+  [36m/>[39m
+
+  Name "Historical material comparison":
+  [36m<h2[39m
+    [33mid[39m=[32m"output-title"[39m
+  [36m/>[39m
+
+  Name "Historical viewer-light study":
+  [36m<h3 />[39m
+
+  Name "Neutral-light study":
+  [36m<h3 />[39m
+
+  Name "Material close-ups":
+  [36m<h3 />[39m
+
+  Name "Refined viewer preview":
+  [36m<h2[39m
+    [33mid[39m=[32m"current-preview-title"[39m
+  [36m/>[39m
+
+  Name "Accepted Safe geometry":
+  [36m<h2[39m
+    [33mid[39m=[32m"safe-title"[39m
+  [36m/>[39m
+
+  Name "Before: control":
+  [36m<h3 />[39m
+
+  Name "First attempt: rejected":
+  [36m<h3 />[39m
+
+  Name "Final: accepted":
+  [36m<h3 />[39m
+
+  Name "Geometry baseline":
+  [36m<h2[39m
+    [33mid[39m=[32m"geometry-title"[39m
+  [36m/>[39m
+
+  Name "Raw licensed source":
+  [36m<h3 />[39m
+
+  Name "Sanitized web baseline":
+  [36m<h3 />[39m
+
+  Name "Selected control":
+  [36m<h3 />[39m
+
+  Name "Topology detail":
+  [36m<h3 />[39m
+
+  Name "Real-time configurator":
+  [36m<h2[39m
+    [33mid[39m=[32m"configurator-title"[39m
+  [36m/>[39m
+
+  Name "Methods":
+  [36m<h2[39m
+    [33mid[39m=[32m"methods-title"[39m
+  [36m/>[39m
+
+  Name "Inspect":
+  [36m<h3 />[39m
+
+  Name "Author":
+  [36m<h3 />[39m
+
+  Name "Render":
+  [36m<h3 />[39m
+
+  Name "Integrate":
+  [36m<h3 />[39m
+
+  Name "Four provenance lanes":
+  [36m<h3 />[39m
+
+  Name "Evidence before conclusions":
+  [36m<h2[39m
+    [33mid[39m=[32m"evidence-title"[39m
+  [36m/>[39m
+
+  Name "What failed":
+  [36m<h2 />[39m
+
+  Name "Run log":
+  [36m<h2[39m
+    [33mid[39m=[32m"run-log-title"[39m
+  [36m/>[39m
+
+  Name "Sol narrow release audit closeout — public copies and historical labels":
+  [36m<h3 />[39m
+
+  Name "Sol refined lighting integration — Jay-approved publication checkpoint":
+  [36m<h3 />[39m
+
+  Name "Sol bounded studio refinement — selected lighting, preserved 32-case evidence":
+  [36m<h3 />[39m
+
+  Name "Sol controlled viewer lighting — preserved 72-case experiment":
+  [36m<h3 />[39m
+
+  Name "Initial isolated Mobile LOD candidate — partial, awaiting Sol":
+  [36m<h3 />[39m
+
+  Name "Safe WebGL ledger finalization — registration only":
+  [36m<h3 />[39m
+
+  Name "FINAL Safe WebGL comparison — accepted research artifact":
+  [36m<h3 />[39m
+
+  Name "FINAL Safe WebGL geometry — accepted research artifact":
+  [36m<h3 />[39m
+
+  Name "Correction comparison — residual seam, not promoted":
+  [36m<h3 />[39m
+
+  Name "Safe WebGL correction — not promoted":
+  [36m<h3 />[39m
+
+  Name "Unscored correction diagnostic evidence — retrospective Sol registration":
+  [36m<h3 />[39m
+
+  Name "Original Safe WebGL comparison — rejected for promotion":
+  [36m<h3 />[39m
+
+  Name "Research-only Safe WebGL candidate registration":
+  [36m<h3 />[39m
+
+  Name "Original Safe WebGL geometry — rejected for promotion":
+  [36m<h3 />[39m
+
+  Name "Pinned geometry toolchain preflight":
+  [36m<h3 />[39m
+
+  Name "Prepare isolated Astra Safe WebGL launch":
+  [36m<h3 />[39m
+
+  Name "Fail-closed Phase 1 geometry review":
+  [36m<h3 />[39m
+
+  Name "Publish source lineage and geometry baseline":
+  [36m<h3 />[39m
+
+  Name "Source lineage and geometry baseline evidence":
+  [36m<h3 />[39m
+
+  Name "Geometry optimization protocol v1":
+  [36m<h3 />[39m
+
+  Name "Publish selected Estuary comparison renders":
+  [36m<h3 />[39m
+
+  Name "Selected Estuary Enamel public configurator integration":
+  [36m<h3 />[39m
+
+  Name "Controlled blind Estuary versus Fjord browser render comparison":
+  [36m<h3 />[39m
+
+  Name "Fjord Enamel — isolated automotive material candidate":
+  [36m<h3 />[39m
+
+  Name "Estuary Enamel — isolated material-authoring candidate":
+  [36m<h3 />[39m
+
+  Name "Verified read-only CarConcept inspection":
+  [36m<h3 />[39m
+
+  Name "Non-Astra benchmark infrastructure baseline":
+  [36m<h3 />[39m
+
+  Name "Streamed engine configurator":
+  [36m<h2[39m
+    [33mid[39m=[32m"streaming-title"[39m
+  [36m/>[39m
+
+  Name "Credits":
+  [36m<h2[39m
+    [33mid[39m=[32m"credits-title"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  complementary:
+
+  Name "Study status":
+  [36m<aside[39m
+    [33maria-label[39m=[32m"Study status"[39m
+    [33mclass[39m=[32m"study-status"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------
+  article:
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"geometry-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"geometry-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"geometry-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"geometry-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  Name "":
+  [36m<article />[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "Historical Estuary Enamel under the configurator lighting (original rig), front three-quarter view":
+  [36m<img[39m
+    [33malt[39m=[32m"Historical Estuary Enamel under the configurator lighting (original rig), front three-quarter view"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/renders/estuary-viewer-front-three-quarter.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Historical Estuary Enamel under neutral lighting, front three-quarter view":
+  [36m<img[39m
+    [33malt[39m=[32m"Historical Estuary Enamel under neutral lighting, front three-quarter view"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/renders/estuary-neutral-front-three-quarter.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Historical Estuary Enamel paint and mirror close-up under neutral lighting":
+  [36m<img[39m
+    [33malt[39m=[32m"Historical Estuary Enamel paint and mirror close-up under neutral lighting"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/renders/estuary-neutral-closeup.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Current refined viewer: Estuary Enamel":
+  [36m<img[39m
+    [33malt[39m=[32m"Current refined viewer: Estuary Enamel"[39m
+    [33mheight[39m=[32m"778"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/viewer/refined-estuary-native.png"[39m
+    [33mwidth[39m=[32m"850"[39m
+  [36m/>[39m
+
+  Name "Before: control":
+  [36m<img[39m
+    [33malt[39m=[32m"Before: control"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/safe-final/before.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "First attempt: rejected":
+  [36m<img[39m
+    [33malt[39m=[32m"First attempt: rejected"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/safe-final/first-attempt.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Final: accepted":
+  [36m<img[39m
+    [33malt[39m=[32m"Final: accepted"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/safe-final/final.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Raw licensed CarConcept source in Carmine Candy, front three-quarter view":
+  [36m<img[39m
+    [33malt[39m=[32m"Raw licensed CarConcept source in Carmine Candy, front three-quarter view"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/geometry/source-overview.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Sanitized CarConcept web baseline in Carmine Candy, front three-quarter view":
+  [36m<img[39m
+    [33malt[39m=[32m"Sanitized CarConcept web baseline in Carmine Candy, front three-quarter view"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/geometry/sanitized-overview.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Integrated Estuary geometry control, front three-quarter view":
+  [36m<img[39m
+    [33malt[39m=[32m"Integrated Estuary geometry control, front three-quarter view"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/geometry/estuary-overview.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  Name "Front wheel topology detail rendered as a dark green wireframe":
+  [36m<img[39m
+    [33malt[39m=[32m"Front wheel topology detail rendered as a dark green wireframe"[39m
+    [33mheight[39m=[32m"400"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/geometry/wireframe-wheel-detail.png"[39m
+    [33mwidth[39m=[32m"600"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  [36m<p[39m
+    [33mrole[39m=[32m"status"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  list:
+
+  Name "":
+  [36m<ol[39m
+    [33mclass[39m=[32m"method-list"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  listitem:
+
+  Name "":
+  [36m<li />[39m
+
+  Name "":
+  [36m<li />[39m
+
+  Name "":
+  [36m<li />[39m
+
+  Name "":
+  [36m<li />[39m
+
+  --------------------------------------------------
+  term:
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  Name "":
+  [36m<dt />[39m
+
+  --------------------------------------------------
+  definition:
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  Name "":
+  [36m<dd />[39m
+
+  --------------------------------------------------
+  contentinfo:
+
+  Name "":
+  [36m<footer />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<header[39m
+      [33mclass[39m=[32m"site-header"[39m
+    [36m>[39m
+      [36m<a[39m
+        [33maria-label[39m=[32m"Astra 3D benchmark home"[39m
+        [33mclass[39m=[32m"wordmark"[39m
+        [33mhref[39m=[32m"#top"[39m
+      [36m>[39m
+        [0mA3D / 01[0m
+      [36m</a>[39m
+      [36m<nav[39m
+        [33maria-label[39m=[32m"Study navigation"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#geometry"[39m
+        [36m>[39m
+          [0mGeometry[0m
+        [36m</a>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#configurator"[39m
+        [36m>[39m
+          [0mConfigurator[0m
+        [36m</a>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#methods"[39m
+        [36m>[39m
+          [0mMethods[0m
+        [36m</a>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"#evidence"[39m
+        [36m>[39m
+          [0mEvidence[0m
+        [36m</a>[39m
+      [36m</nav>[39m
+    [36m</header>[39m
+    [36m<main[39m
+      [33mid[39m=[32m"top"[39m
+    [36m>[39m
+      [36m<section[39m
+        [33maria-labelledby[39m=[32m"hero-title"[39m
+        [33mclass[39m=[32m"hero section-grid"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"hero-copy"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"eyebrow"[39m
+          [36m>[39m
+            [0mAI-assisted 3D workflow study · Case 01[0m
+          [36m</p>[39m
+          [36m<h1[39m
+            [33mid[39m=[32m"hero-title"[39m
+          [36m>[39m
+            [0mAstra 3D benchmark[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"lede"[39m
+          [36m>[39m
+            [0mA transparent experiment in product visualization: source a real asset, direct an AI-assisted 3D workflow, ship an interactive result, and keep the failures visible.[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<aside[39m
+          [33maria-label[39m=[32m"Study status"[39m
+          [33mclass[39m=[32m"study-status"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33maria-hidden[39m=[32m"true"[39m
+            [33mclass[39m=[32m"status-dot"[39m
+          [36m/>[39m
+          [36m<div>[39m
+            [36m<strong>[39m
+              [0mSafe result integrated locally[0m
+            [36m</strong>[39m
+            [36m<p>[39m
+              [0m7[0m
+              [0m verified Astra runs · Safe geometry integrated[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</aside>[39m
+        [36m<div[39m
+          [33maria-label[39m=[32m"Selected benchmark object"[39m
+          [33mclass[39m=[32m"hero-object"[39m
+        [36m>[39m
+          [36m<span>[39m
+            [0mPrimary subject[0m
+          [36m</span>[39m
+          [36m<strong>[39m
+            [0mCarConcept[0m
+          [36m</strong>[39m
+          [36m<small>[39m
+            [0mCC BY 4.0 · Khronos sample asset[0m
+          [36m</small>[39m
+        [36m</div>[39m
+      [36m</section>[39m
+      [36m<section[39m
+        [33maria-labelledby[39m=[32m"output-title"[39m
+        [33mclass[39m=[32m"output-overview"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"section-heading"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"eyebrow"[39m
+          [36m>[39m
+            [0mOutput 01[0m
+          [36m</p>[39m
+          [36m<h2[39m
+            [33mid[39m=[32m"output-title"[39m
+          [36m>[39m
+            [0mHistorical material comparison[0m
+          [36m</h2>[39m
+          [36m<p>[39m
+            [0mThe historical material comparison package contains 30 controlled browser renders covering two material candidates, two light rigs, exterior views, and close-ups.[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33maria-label[39m=[32m"Historical material comparison renders"[39m
+          [33mclass[39m=[32m"render-grid historical-material-evidence"[39m
+        [36m>[39m
+          [36m<article[39m
+            [33mclass[39m=[32m"render-card"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"Historical Estuary Enamel under the configurator lighting (original rig), front three-quarter view"[39m
+              [33mheight[39m=[32m"400"[39m
+              [33mloading[39m=[32m"lazy"[39m
+              [33msrc[39m=[32m"/assets/renders/estuary-viewer-front-three-quarter.png"[39m
+              [33mwidth[39m=[32m"600"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"render-card-body"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m0[0m
+                [0m1[0m
+              [36m</span>[39m
+              [36m<div>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"eyebrow"[39m
+                [36m>[39m
+                  [0mHistorical material evidence · original rig[0m
+                [36m</p>[39m
+                [36m<h3>[39m
+                  [0mHistorical viewer-light study[0m
+                [36m</h3>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</article>[39m
+          [36m<article[39m
+            [33mclass[39m=[32m"render-card"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"Historical Estuary Enamel under neutral lighting, front three-quarter view"[39m
+              [33mheight[39m=[32m"400"[39m
+              [33mloading[39m=[32m"lazy"[39m
+              [33msrc[39m=[32m"/assets/renders/estuary-neutral-front-three-quarter.png"[39m
+              [33mwidth[39m=[32m"600"[39m
+            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"render-card-body"[39m
+            [36m>[39m
+              [36m<span>[39m
+                [0m0[0m
+                [0m2[0m
+              [36m</span>[39m
+              [36m<div>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"eyebrow"[39m
+                [36m>[39m
+                  [0mHistorical material evidence · original rig[0m
+                [36m</p>[39m
+                [36m<h3>[39m
+                  [0mNeutral-light study[0m
+                [36m</h3>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</article>[39m
+          [36m<article[39m
+            [33mclass[39m=[32m"render-card"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"Historical Estuary Enamel paint and mirror close-up under neutral lighting"[39m
+              [33mheight[39m=[32m"400"[39m
+              [33mloading[39m=[32m"lazy"[39m
+              [33msrc[39m=[32m"/assets/renders/estuary-n...
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:24:19
+     22|   it('qualifies the retained preview and reports grounding-only approv…
+     23|     render(<App />);
+     24|     expect(screen.getByRole('img', { name: 'Pre-ground-correction refi…
+       |                   ^
+     25|     expect(screen.getByText(/This retained preview predates the ground…
+     26|     expect(screen.getByText(/yes tires feel planted/)).toBeVisible();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 6 passed (7)
+   Start at  20:22:20
+   Duration  2.18s (tests 67%, environment 26%, setup 3%, transform 3%, import 1%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

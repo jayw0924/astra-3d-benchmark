@@ -65,6 +65,11 @@ export function createLightingRig({ scene, renderer, model, bounds, preset = 'or
   const grid = new GridHelper(24, 24, 0x9c9a94, 0xc9c5bb); grid.position.y = -0.015;
   scene.add(hemi, key, rim);
   const grounding = recipe.grounded && model && bounds ? createGrounding(model, bounds, refined ? 0.14 : lightingSettings.shadowOpacity) : undefined;
+  if (refined && grounding && model) {
+    // Transformed local AABBs contain empty space below the Sol tire tread.
+    // Fit only the receiver to actual world vertices; leave model and light fitting unchanged.
+    grounding.floor.position.y = new Box3().setFromObject(model, true).min.y - 0.0005;
+  }
   const priorShadows = renderer ? { enabled: renderer.shadowMap.enabled, type: renderer.shadowMap.type, autoUpdate: renderer.shadowMap.autoUpdate, needsUpdate: renderer.shadowMap.needsUpdate } : undefined;
   if (grounding && bounds && renderer) {
     scene.add(grounding.floor, key.target);

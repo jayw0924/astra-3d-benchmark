@@ -1,0 +1,11 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "test:render-plan"
+  ],
+  "startedAt": "2026-10-26T20:25:28.414481+00:00",
+  "endedAt": "2026-10-26T20:25:28.911106+00:00",
+  "elapsedSeconds": 0.49663350597256795,
+  "exitCode": 0
+}

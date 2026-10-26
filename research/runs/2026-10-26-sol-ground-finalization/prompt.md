@@ -1,0 +1,3 @@
+# Grounding finalization authorization
+
+Finalize existing user-approved grounding evidence into the repository schema and generated public projection. Preserve all historical files/inventories, parent checkpoint and user approval. Register read-only material preparation as pending, without new comparisons or Blender installation. Qualify the retained preview as pre-ground correction without recapture/image replacement. Run unit, lint, strict research validation/build, public build and fast relevant checks; verify model identity, preservation and privacy. No commit, push or deployment. This is a task-scope record, not a verbatim private session export.

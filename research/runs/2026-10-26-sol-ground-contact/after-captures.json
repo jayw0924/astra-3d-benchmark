@@ -1,0 +1,62 @@
+[
+  {
+    "finish": "Estuary Enamel",
+    "view": "side",
+    "filename": "after-Estuary-side.png",
+    "sha256": "c2d5ad6691e300edc91f3eeb7a367fbdc6f05a384d1594cc5a46bad1a476a5a7",
+    "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "errors": [],
+    "camera": {
+      "position": [
+        8,
+        1.7999999999999996,
+        4.898587196589413e-16
+      ],
+      "target": [
+        0,
+        0.55,
+        0
+      ]
+    }
+  },
+  {
+    "finish": "Estuary Enamel",
+    "view": "front",
+    "filename": "after-Estuary-front.png",
+    "sha256": "d76c1d5964cca787376a72fa1011644e6b2012e4b97df40aca5fc2616a8f4138",
+    "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "errors": [],
+    "camera": {
+      "position": [
+        0,
+        1.5000000000000009,
+        9
+      ],
+      "target": [
+        0,
+        0.55,
+        0
+      ]
+    }
+  },
+  {
+    "finish": "Estuary Enamel",
+    "view": "wheel",
+    "filename": "after-Estuary-wheel.png",
+    "sha256": "f7558aff51d06be68d53a35b6b0b97d4cac5cb30b193f0ef652318596e357cca",
+    "modelSha256": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
+    "errors": [],
+    "camera": {
+      "position": [
+        4.2,
+        0.6499999999999999,
+        3.5
+      ],
+      "target": [
+        1,
+        0.28,
+        1.25
+      ]
+    }
+  }
+]

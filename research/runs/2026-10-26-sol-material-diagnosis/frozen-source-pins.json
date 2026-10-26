@@ -1,0 +1,16 @@
+[
+  {
+    "source": "src/lib/threeViewer.ts",
+    "gitCommit": "ffe0a56982a0bb22c34d705b1c00f0a62d147a0f",
+    "frozenCopy": "research/runs/2026-10-26-sol-material-diagnosis/frozen-threeViewer.ts.txt",
+    "sha256": "16620bdac00cfc608a1a479c838645605c44ea1db5b40a00c3484c0808b321a3",
+    "matchesInspectedWorkingSource": true
+  },
+  {
+    "source": "src/lib/viewerLighting.ts",
+    "gitCommit": "ffe0a56982a0bb22c34d705b1c00f0a62d147a0f",
+    "frozenCopy": "research/runs/2026-10-26-sol-material-diagnosis/frozen-viewerLighting.ts.txt",
+    "sha256": "bef1520d13da50bd367c9b2108a3f067e878cf3b322442018e9a7af7eb5fd5d4",
+    "matchesInspectedWorkingSource": true
+  }
+]

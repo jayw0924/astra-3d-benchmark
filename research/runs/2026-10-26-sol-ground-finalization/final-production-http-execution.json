@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python",
+    "research/runs/2026-10-26-sol-ground-finalization/verify-public.py"
+  ],
+  "startedAt": "2026-10-26T20:30:38.107105+00:00",
+  "endedAt": "2026-10-26T20:30:47.872069+00:00",
+  "elapsedSeconds": 9.764970073010772,
+  "exitCode": 0
+}

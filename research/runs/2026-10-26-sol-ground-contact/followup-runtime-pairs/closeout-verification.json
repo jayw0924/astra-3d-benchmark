@@ -1,0 +1,27 @@
+{
+  "started": "2026-10-26T20:17:08.708874+00:00",
+  "ended": "2026-10-26T20:17:10.739954+00:00",
+  "verificationCommand": [
+    "/usr/local/bin/python",
+    "/workspace/research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify.py"
+  ],
+  "verificationExitCode": 0,
+  "elapsedSeconds": 2.0310833919793367,
+  "captureStarted": "2026-10-26T19:59:56.759Z",
+  "captureEnded": "2026-10-26T20:14:40.537Z",
+  "captureElapsedSeconds": 883.778,
+  "nativeImages": 12,
+  "diffDiagnosticPngs": 6,
+  "pairDerivativeJpegs": 6,
+  "galleryRelativeLinkCount": 39,
+  "galleryRelativeLinksExist": true,
+  "currentSourceEqualsAfterSnapshot": true,
+  "baselineSourceEqualsGitPin": true,
+  "historicalFilePreservation": {
+    "verified": true,
+    "fileCount": 65,
+    "pngCount": 14,
+    "beforeManifest": "[]"
+  },
+  "productionGitDiff": " src/lib/viewerLighting.test.ts | 23 ++++++++++++++++++++++-\n src/lib/viewerLighting.ts      |  5 +++++\n tests/e2e/lighting.spec.ts     |  2 +-\n 3 files changed, 28 insertions(+), 2 deletions(-)\n"
+}

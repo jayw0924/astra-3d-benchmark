@@ -1,0 +1,13 @@
+runtime {
+  ground: true,
+  model: true,
+  errors: 'eview copying and integration. These model-derived images retain the source attribution and license; no legal certification is claimed.\n' +
+    '\n' +
+    'CC BY 4.0 license · Basis Universal Apache 2.0 license · Basis Universal NOTICE\n' +
+    '\n' +
+    'View the immutable upstream source\n' +
+    'ASTRA 3D BENCHMARK · RESEARCH BUILD\n' +
+    'BACK TO TOP',
+  modules: [ 'http://127.0.0.1:5173/src/lib/threeViewer.ts?t=1793043025853' ]
+} []
+before-mobile-Carmine-side.png

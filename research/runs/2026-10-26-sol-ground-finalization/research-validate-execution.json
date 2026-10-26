@@ -1,0 +1,11 @@
+{
+  "command": [
+    "npm",
+    "run",
+    "research:validate"
+  ],
+  "startedAt": "2026-10-26T20:25:33.254891+00:00",
+  "endedAt": "2026-10-26T20:25:35.758044+00:00",
+  "elapsedSeconds": 2.5031604500254616,
+  "exitCode": 0
+}

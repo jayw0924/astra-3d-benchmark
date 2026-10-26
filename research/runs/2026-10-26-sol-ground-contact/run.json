@@ -1,0 +1,929 @@
+{
+  "id": "2026-10-26-sol-ground-contact",
+  "title": "Sol precise-vertex ground-contact correction — grounding approved",
+  "startedAt": "2026-10-26T19:59:56.759Z",
+  "endedAt": "2026-10-26T20:14:40.537Z",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Docker subagent; declared runtime attribution, no authenticated session export",
+  "reasoningMode": "not exposed by interface",
+  "tools": [
+    "terminal",
+    "file"
+  ],
+  "workPackage": "integrate",
+  "inputAssets": [
+    "primary-product",
+    "web-product-estuary-safe"
+  ],
+  "promptPath": "research/runs/2026-10-26-sol-ground-contact/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-26-sol-ground-contact/FINAL_STATUS.md",
+    "research/runs/2026-10-26-sol-ground-contact/FOLLOWUP_STATUS.md",
+    "research/runs/2026-10-26-sol-ground-contact/after-Carmine-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-Carmine-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/after-Carmine-inspection.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-Carmine-measurement.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-Carmine-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/after-Carmine-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/after-Carmine.log",
+    "research/runs/2026-10-26-sol-ground-contact/after-Estuary-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-Estuary-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/after-Estuary-inspection.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-Estuary-measurement.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-Estuary-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/after-Estuary-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/after-Estuary.log",
+    "research/runs/2026-10-26-sol-ground-contact/after-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-mobile-Carmine-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-mobile-Carmine-measurement.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-mobile-Carmine-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/after-mobile-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/after-mobile.log",
+    "research/runs/2026-10-26-sol-ground-contact/before-Carmine-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/before-Carmine-measurement.json",
+    "research/runs/2026-10-26-sol-ground-contact/before-Carmine-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/before-Carmine-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/before-Estuary-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/before-Estuary-measurement.json",
+    "research/runs/2026-10-26-sol-ground-contact/before-Estuary-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/before-Estuary-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/before-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/before-mobile-Carmine-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/before-mobile-Carmine-measurement.json",
+    "research/runs/2026-10-26-sol-ground-contact/before-mobile-Carmine-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/before-mobile-captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/before-mobile.log",
+    "research/runs/2026-10-26-sol-ground-contact/before-resume.log",
+    "research/runs/2026-10-26-sol-ground-contact/before-resume2.log",
+    "research/runs/2026-10-26-sol-ground-contact/before.log",
+    "research/runs/2026-10-26-sol-ground-contact/build-app-final.log",
+    "research/runs/2026-10-26-sol-ground-contact/build-app.log",
+    "research/runs/2026-10-26-sol-ground-contact/capture.mjs",
+    "research/runs/2026-10-26-sol-ground-contact/focused-browser-Estuary.log",
+    "research/runs/2026-10-26-sol-ground-contact/focused-browser.log",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-front.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-side.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-wheel.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-front.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-side.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-wheel.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/baseline-viewerLighting.ts.txt",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-front.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-side.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-wheel.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-front.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-side.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-wheel.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/capture.log",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/capture.mjs",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/captures.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/closeout-verification.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/current-viewerLighting.ts.txt",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Carmine-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Carmine-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Carmine-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Estuary-front.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Estuary-side.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Estuary-wheel.png",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/finalize.py",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/historical-files-before.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/historical-preservation.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/image-sha256.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/index.html",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/inventory.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/notes.md",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Carmine-front.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Carmine-side.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Carmine-wheel.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Estuary-front.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Estuary-side.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Estuary-wheel.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/provenance.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/source.diff",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verification.json",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify-final.log",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify.log",
+    "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify.py",
+    "research/runs/2026-10-26-sol-ground-contact/frozen-before-viewerLighting.ts.txt",
+    "research/runs/2026-10-26-sol-ground-contact/index.html",
+    "research/runs/2026-10-26-sol-ground-contact/inventory.json",
+    "research/runs/2026-10-26-sol-ground-contact/lint-final.log",
+    "research/runs/2026-10-26-sol-ground-contact/lint.log",
+    "research/runs/2026-10-26-sol-ground-contact/notes.md",
+    "research/runs/2026-10-26-sol-ground-contact/pair-Carmine-front.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/pair-Carmine-side.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/pair-Carmine-wheel.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/pair-Estuary-front.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/pair-Estuary-side.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/pair-Estuary-wheel.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/pair-mobile-Carmine-side.jpg",
+    "research/runs/2026-10-26-sol-ground-contact/prompt.md",
+    "research/runs/2026-10-26-sol-ground-contact/raw-glb-bounds.json",
+    "research/runs/2026-10-26-sol-ground-contact/raw-glb-bounds.log",
+    "research/runs/2026-10-26-sol-ground-contact/raw-glb-bounds.mjs",
+    "research/runs/2026-10-26-sol-ground-contact/red.log",
+    "research/runs/2026-10-26-sol-ground-contact/unit-final.log",
+    "research/runs/2026-10-26-sol-ground-contact/unit.log",
+    "research/runs/2026-10-26-sol-ground-contact/user-approval.json",
+    "research/runs/2026-10-26-sol-ground-contact/verification.json",
+    "research/runs/2026-10-26-sol-ground-contact/verify.log",
+    "research/runs/2026-10-26-sol-ground-contact/verify.py",
+    "src/lib/viewerLighting.test.ts",
+    "src/lib/viewerLighting.ts",
+    "tests/e2e/lighting.spec.ts"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/FINAL_STATUS.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/FOLLOWUP_STATUS.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Carmine-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Carmine-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Carmine-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Carmine-measurement.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Carmine-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Carmine-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Carmine.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Estuary-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Estuary-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Estuary-inspection.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Estuary-measurement.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Estuary-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Estuary-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-Estuary.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-mobile-Carmine-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-mobile-Carmine-measurement.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-mobile-Carmine-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-mobile-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/after-mobile.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Carmine-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Carmine-measurement.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Carmine-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Carmine-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Estuary-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Estuary-measurement.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Estuary-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-Estuary-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-mobile-Carmine-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-mobile-Carmine-measurement.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-mobile-Carmine-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-mobile-captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-mobile.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-resume.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before-resume2.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/before.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/build-app-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/build-app.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/focused-browser-Estuary.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/focused-browser.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-front.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-side.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-wheel.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-front.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-side.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-wheel.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Estuary-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/baseline-viewerLighting.ts.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-front.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-side.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-wheel.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Carmine-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-front.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-side.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-wheel.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/before-Estuary-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/capture.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/captures.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/closeout-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/current-viewerLighting.ts.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Carmine-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Carmine-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Carmine-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Estuary-front.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Estuary-side.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/diff8x-Estuary-wheel.png",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/finalize.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/historical-files-before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/historical-preservation.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/image-sha256.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Carmine-front.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Carmine-side.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Carmine-wheel.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Estuary-front.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Estuary-side.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/pair-Estuary-wheel.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/provenance.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/source.diff",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/verify.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/frozen-before-viewerLighting.ts.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/lint-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/pair-Carmine-front.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/pair-Carmine-side.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/pair-Carmine-wheel.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/pair-Estuary-front.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/pair-Estuary-side.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/pair-Estuary-wheel.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/pair-mobile-Carmine-side.jpg",
+        "lane": "mixed",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/raw-glb-bounds.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/raw-glb-bounds.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/raw-glb-bounds.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/red.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/unit-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/unit.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/user-approval.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/verify.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-ground-contact/verify.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/lib/viewerLighting.test.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "src/lib/viewerLighting.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "tests/e2e/lighting.spec.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 883.778,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Unavailable; not reconstructed. elapsedSeconds covers only the logged additive capture-command wall interval in followup-runtime-pairs/provenance.json, not original diagnosis/implementation, total active work or billed time."
+  },
+  "interventionLevel": 2,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Historical desktop-before manifest remains []; original six desktop camera equalities are uncertifiable. Additive six-pair evidence has actual same-frame telemetry in both arms. Sparse off-receiver pixel differences remain unexplained; original mobile framing is cropped. Capture interruption/retry and original failed browser timeout are retained. No exhaustive matrix or physical-device/GPU certification. See research/runs/2026-10-26-sol-ground-finalization/notes.md for current status; historical pending-approval text is superseded only by user-approval.json.",
+  "reviewer": "Sol technical evidence and automated checks; Jay grounding-only subjective approval is separate; no new independent session authentication",
+  "publicSummary": "Sol corrected only receiver height from -0.003 to 0.1585579729696714 using transformed tire vertices. Six new desktop pairs / 12 native PNGs retain actual paired telemetry; original 14 PNGs remain historical. Jay: “yes tires feel planted” — grounding only, no publication authorization. GLB/materials/illumination unchanged. Historical telemetry gap and unexplained sparse off-receiver pixels remain disclosed."
+}

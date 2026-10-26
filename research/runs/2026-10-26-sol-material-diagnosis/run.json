@@ -1,0 +1,110 @@
+{
+  "id": "2026-10-26-sol-material-diagnosis",
+  "title": "Sol read-only material diagnosis preparation — comparisons pending",
+  "startedAt": "2026-10-26T20:24:12.549315+00:00",
+  "endedAt": "2026-10-26T20:24:12.554315+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes Docker subagent; declared runtime attribution, no authenticated session export",
+  "reasoningMode": "not exposed by interface",
+  "tools": [
+    "terminal",
+    "file"
+  ],
+  "workPackage": "inspect",
+  "inputAssets": [
+    "primary-product",
+    "web-product-estuary-safe"
+  ],
+  "promptPath": "research/runs/2026-10-26-sol-material-diagnosis/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-26-sol-material-diagnosis/blender-brief.md",
+    "research/runs/2026-10-26-sol-material-diagnosis/diagnosis.md",
+    "research/runs/2026-10-26-sol-material-diagnosis/final-verification.json",
+    "research/runs/2026-10-26-sol-material-diagnosis/frozen-source-pins.json",
+    "research/runs/2026-10-26-sol-material-diagnosis/frozen-threeViewer.ts.txt",
+    "research/runs/2026-10-26-sol-material-diagnosis/frozen-viewerLighting.ts.txt",
+    "research/runs/2026-10-26-sol-material-diagnosis/inspect.py",
+    "research/runs/2026-10-26-sol-material-diagnosis/inventory.json",
+    "research/runs/2026-10-26-sol-material-diagnosis/notes.md",
+    "research/runs/2026-10-26-sol-material-diagnosis/prompt.md",
+    "research/runs/2026-10-26-sol-material-diagnosis/proposed-protocol.md",
+    "research/runs/2026-10-26-sol-material-diagnosis/verification.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/blender-brief.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/diagnosis.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/final-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/frozen-source-pins.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/frozen-threeViewer.ts.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/frozen-viewerLighting.ts.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/inspect.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/proposed-protocol.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      },
+      {
+        "path": "research/runs/2026-10-26-sol-material-diagnosis/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": []
+      }
+    ]
+  },
+  "elapsedSeconds": 0.005,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Unavailable; not reconstructed. elapsedSeconds is observed retrospective registration wall interval only; original inspection active/runtime and billing are unavailable."
+  },
+  "interventionLevel": 2,
+  "outcome": "partial",
+  "failureNotes": "No causal visual localization, new controlled comparison, candidate or Blender inspection. Original strict replay failed on concurrent grounding source drift; final verification separates immutable asset equality from drift. Proposed image matrices are plans, not captures. Original prompt and execution timing are unavailable.",
+  "reviewer": "Sol technical evidence and automated checks; Jay grounding-only subjective approval is separate; no new independent session authentication",
+  "publicSummary": "Read-only static material/control inventory and a proposed protocol/Blender brief are retained. No fresh comparisons, candidates, material edits or Blender installation. Original inspection runtime is unavailable; timestamps cover retrospective registration only. Further comparisons require a separate decision."
+}

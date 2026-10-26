@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "replayCompleteInventoryEqual": false,
+    "allAssetPinsStillMatch": true,
+    "allPrimitivesMatched": true,
+    "allJointTuplesRetained": true,
+    "allMappingsEqual": true,
+    "noNonfiniteSafeAttributes": true,
+    "normalChecksPass": true,
+    "hoodWindshieldIndexSequencesUnchanged": true,
+    "plannedMatrixCounts": {
+      "stageA": 32,
+      "stageB": 8
+    },
+    "noCandidateOrBlendAuthored": true
+  },
+  "sourcePinsStillMatch": {
+    "research/FROZEN_LIGHTING_CHECKPOINT.md": true,
+    "src/lib/threeViewer.ts": true,
+    "src/lib/viewerLighting.ts": false,
+    "package.json": true,
+    "package-lock.json": true,
+    "node_modules/three/src/renderers/shaders/ShaderChunk/normal_fragment_maps.glsl.js": true,
+    "node_modules/three/examples/jsm/loaders/GLTFLoader.js": true,
+    "node_modules/three/examples/jsm/environments/RoomEnvironment.js": true,
+    "research/runs/2026-10-22-sol-safe-final-comparison/page.js": true,
+    "research/runs/2026-10-22-sol-safe-final-comparison/control-spec.json": true
+  },
+  "outputs": [
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/blender-brief.md",
+      "bytes": 7207,
+      "sha256": "85eb997e61a0a880b632fed7dc18dc975673c40f8258c09678f0c6766605051e"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/diagnosis.md",
+      "bytes": 14887,
+      "sha256": "4ec54fb88c38a7282044758d7d2b3f3d4aa0d12f1a99fabb90b5d1f4d4bfcece"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/frozen-source-pins.json",
+      "bytes": 667,
+      "sha256": "2c22ed4f0194595e889b1cdfdf5a2429f428b3c9d99dbac0da234401f6e5c803"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/frozen-threeViewer.ts.txt",
+      "bytes": 12344,
+      "sha256": "16620bdac00cfc608a1a479c838645605c44ea1db5b40a00c3484c0808b321a3"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/frozen-viewerLighting.ts.txt",
+      "bytes": 6363,
+      "sha256": "bef1520d13da50bd367c9b2108a3f067e878cf3b322442018e9a7af7eb5fd5d4"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/inspect.py",
+      "bytes": 8352,
+      "sha256": "b3f30569007451cf09852a4326d6676421531809b7ba6cd182959ed1bf2dd891"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/inventory.json",
+      "bytes": 1949596,
+      "sha256": "8c238068aae1c1804c9c615ca2c436a307d892ebb4f08d54e77605fdf6786b03"
+    },
+    {
+      "path": "research/runs/2026-10-26-sol-material-diagnosis/proposed-protocol.md",
+      "bytes": 7452,
+      "sha256": "bf31711c87b396ea10bea746caf5f59d53be8256ad89dbb6f0972641d6fb1da7"
+    }
+  ],
+  "gitStatusAtVerification": " M src/lib/viewerLighting.test.ts\n M src/lib/viewerLighting.ts\n?? research/FROZEN_LIGHTING_CHECKPOINT.md\n?? research/runs/2026-10-26-sol-ground-contact/\n?? research/runs/2026-10-26-sol-material-diagnosis/\n",
+  "scope": "Read-only source/GLB investigation; newly created diagnosis package only. No visual acceptance, capture or performance result.",
+  "availability": {
+    "blender": null,
+    "bpy": false
+  }
+}

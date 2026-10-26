@@ -1,0 +1,187 @@
+<!doctype html><meta charset="utf-8"><title>Grounding follow-up: actual runtime pairs</title><style>body{background:#eeeae1;color:#222;font:16px system-ui;margin:24px auto;max-width:1700px}section{border-top:1px solid #aaa;margin-top:30px}pre{white-space:pre-wrap}</style><h1>Grounding follow-up — 6 desktop pairs / 12 new native framebuffers</h1><p>Before: pinned ffe0a56982a0bb22c34d705b1c00f0a62d147a0f lighting module; after: snapshotted current receiver fix. Actual camera position/quaternion/projection/target, model transforms/material assignments and shadow settings are asserted equal per pair. Both arms have same-frame telemetry. 500 ms RAF pacing on software SwiftShader; not performance evidence. No mobile or full finish/trim matrix. User visual approval pending.</p><p>All prior artifacts remain historical and unchanged. These new captures do not repair missing historical camera telemetry. Pixel changes outside the obvious floor region, when present, remain disclosed and unattributed; upper-region counts are diagnostic, not a floor-only certification. See <a href="notes.md">notes</a>, <a href="verification.json">verification</a> and <a href="provenance.json">source/timing provenance</a>.</p><section><h2>Carmine Candy side</h2><img src="pair-Carmine-side.jpg" style="width:100%"><p><a href="before-Carmine-side.png">Native before</a> · <a href="after-Carmine-side.png">Native after</a> · <a href="diff8x-Carmine-side.png">8× difference</a> · <a href="before-Carmine-side.json">Before telemetry</a> · <a href="after-Carmine-side.json">After telemetry</a></p><pre>{
+  &quot;finish&quot;: &quot;Carmine Candy&quot;,
+  &quot;view&quot;: &quot;side&quot;,
+  &quot;dimensions&quot;: [
+    850,
+    778
+  ],
+  &quot;changedPixels&quot;: 29120,
+  &quot;maxChannelDelta&quot;: 51,
+  &quot;changedBBox&quot;: [
+    49,
+    337,
+    822,
+    546
+  ],
+  &quot;bodyInteriorROI&quot;: {
+    &quot;box&quot;: [
+      260,
+      335,
+      550,
+      395
+    ],
+    &quot;changedPixels&quot;: 2,
+    &quot;maxChannelDelta&quot;: 39
+  },
+  &quot;upper55Percent&quot;: {
+    &quot;rows&quot;: 427,
+    &quot;changedPixels&quot;: 11,
+    &quot;maxChannelDelta&quot;: 51
+  },
+  &quot;runtimeCameraModelMaterialsShadowRendererEqual&quot;: true
+}</pre></section><section><h2>Carmine Candy front</h2><img src="pair-Carmine-front.jpg" style="width:100%"><p><a href="before-Carmine-front.png">Native before</a> · <a href="after-Carmine-front.png">Native after</a> · <a href="diff8x-Carmine-front.png">8× difference</a> · <a href="before-Carmine-front.json">Before telemetry</a> · <a href="after-Carmine-front.json">After telemetry</a></p><pre>{
+  &quot;finish&quot;: &quot;Carmine Candy&quot;,
+  &quot;view&quot;: &quot;front&quot;,
+  &quot;dimensions&quot;: [
+    850,
+    778
+  ],
+  &quot;changedPixels&quot;: 17234,
+  &quot;maxChannelDelta&quot;: 31,
+  &quot;changedBBox&quot;: [
+    130,
+    387,
+    616,
+    544
+  ],
+  &quot;bodyInteriorROI&quot;: {
+    &quot;box&quot;: [
+      250,
+      350,
+      500,
+      420
+    ],
+    &quot;changedPixels&quot;: 1,
+    &quot;maxChannelDelta&quot;: 2
+  },
+  &quot;upper55Percent&quot;: {
+    &quot;rows&quot;: 427,
+    &quot;changedPixels&quot;: 140,
+    &quot;maxChannelDelta&quot;: 31
+  },
+  &quot;runtimeCameraModelMaterialsShadowRendererEqual&quot;: true
+}</pre></section><section><h2>Carmine Candy wheel</h2><img src="pair-Carmine-wheel.jpg" style="width:100%"><p><a href="before-Carmine-wheel.png">Native before</a> · <a href="after-Carmine-wheel.png">Native after</a> · <a href="diff8x-Carmine-wheel.png">8× difference</a> · <a href="before-Carmine-wheel.json">Before telemetry</a> · <a href="after-Carmine-wheel.json">After telemetry</a></p><pre>{
+  &quot;finish&quot;: &quot;Carmine Candy&quot;,
+  &quot;view&quot;: &quot;wheel&quot;,
+  &quot;dimensions&quot;: [
+    850,
+    778
+  ],
+  &quot;changedPixels&quot;: 60114,
+  &quot;maxChannelDelta&quot;: 31,
+  &quot;changedBBox&quot;: [
+    0,
+    368,
+    850,
+    489
+  ],
+  &quot;bodyInteriorROI&quot;: {
+    &quot;box&quot;: [
+      490,
+      205,
+      780,
+      300
+    ],
+    &quot;changedPixels&quot;: 0,
+    &quot;maxChannelDelta&quot;: 0
+  },
+  &quot;upper55Percent&quot;: {
+    &quot;rows&quot;: 427,
+    &quot;changedPixels&quot;: 21449,
+    &quot;maxChannelDelta&quot;: 31
+  },
+  &quot;runtimeCameraModelMaterialsShadowRendererEqual&quot;: true
+}</pre></section><section><h2>Estuary Enamel side</h2><img src="pair-Estuary-side.jpg" style="width:100%"><p><a href="before-Estuary-side.png">Native before</a> · <a href="after-Estuary-side.png">Native after</a> · <a href="diff8x-Estuary-side.png">8× difference</a> · <a href="before-Estuary-side.json">Before telemetry</a> · <a href="after-Estuary-side.json">After telemetry</a></p><pre>{
+  &quot;finish&quot;: &quot;Estuary Enamel&quot;,
+  &quot;view&quot;: &quot;side&quot;,
+  &quot;dimensions&quot;: [
+    850,
+    778
+  ],
+  &quot;changedPixels&quot;: 29119,
+  &quot;maxChannelDelta&quot;: 38,
+  &quot;changedBBox&quot;: [
+    49,
+    337,
+    822,
+    546
+  ],
+  &quot;bodyInteriorROI&quot;: {
+    &quot;box&quot;: [
+      260,
+      335,
+      550,
+      395
+    ],
+    &quot;changedPixels&quot;: 0,
+    &quot;maxChannelDelta&quot;: 0
+  },
+  &quot;upper55Percent&quot;: {
+    &quot;rows&quot;: 427,
+    &quot;changedPixels&quot;: 9,
+    &quot;maxChannelDelta&quot;: 38
+  },
+  &quot;runtimeCameraModelMaterialsShadowRendererEqual&quot;: true
+}</pre></section><section><h2>Estuary Enamel front</h2><img src="pair-Estuary-front.jpg" style="width:100%"><p><a href="before-Estuary-front.png">Native before</a> · <a href="after-Estuary-front.png">Native after</a> · <a href="diff8x-Estuary-front.png">8× difference</a> · <a href="before-Estuary-front.json">Before telemetry</a> · <a href="after-Estuary-front.json">After telemetry</a></p><pre>{
+  &quot;finish&quot;: &quot;Estuary Enamel&quot;,
+  &quot;view&quot;: &quot;front&quot;,
+  &quot;dimensions&quot;: [
+    850,
+    778
+  ],
+  &quot;changedPixels&quot;: 17235,
+  &quot;maxChannelDelta&quot;: 31,
+  &quot;changedBBox&quot;: [
+    130,
+    387,
+    616,
+    544
+  ],
+  &quot;bodyInteriorROI&quot;: {
+    &quot;box&quot;: [
+      250,
+      350,
+      500,
+      420
+    ],
+    &quot;changedPixels&quot;: 1,
+    &quot;maxChannelDelta&quot;: 2
+  },
+  &quot;upper55Percent&quot;: {
+    &quot;rows&quot;: 427,
+    &quot;changedPixels&quot;: 141,
+    &quot;maxChannelDelta&quot;: 31
+  },
+  &quot;runtimeCameraModelMaterialsShadowRendererEqual&quot;: true
+}</pre></section><section><h2>Estuary Enamel wheel</h2><img src="pair-Estuary-wheel.jpg" style="width:100%"><p><a href="before-Estuary-wheel.png">Native before</a> · <a href="after-Estuary-wheel.png">Native after</a> · <a href="diff8x-Estuary-wheel.png">8× difference</a> · <a href="before-Estuary-wheel.json">Before telemetry</a> · <a href="after-Estuary-wheel.json">After telemetry</a></p><pre>{
+  &quot;finish&quot;: &quot;Estuary Enamel&quot;,
+  &quot;view&quot;: &quot;wheel&quot;,
+  &quot;dimensions&quot;: [
+    850,
+    778
+  ],
+  &quot;changedPixels&quot;: 60114,
+  &quot;maxChannelDelta&quot;: 31,
+  &quot;changedBBox&quot;: [
+    0,
+    368,
+    850,
+    489
+  ],
+  &quot;bodyInteriorROI&quot;: {
+    &quot;box&quot;: [
+      490,
+      205,
+      780,
+      300
+    ],
+    &quot;changedPixels&quot;: 0,
+    &quot;maxChannelDelta&quot;: 0
+  },
+  &quot;upper55Percent&quot;: {
+    &quot;rows&quot;: 427,
+    &quot;changedPixels&quot;: 21449,
+    &quot;maxChannelDelta&quot;: 31
+  },
+  &quot;runtimeCameraModelMaterialsShadowRendererEqual&quot;: true
+}</pre></section>
