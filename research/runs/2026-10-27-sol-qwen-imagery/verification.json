@@ -1,0 +1,124 @@
+{
+  "verifiedAt": "2026-10-27T19:30:52.099689+00:00",
+  "checks": [
+    {
+      "label": "test",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "startedAt": "2026-10-27T19:29:56.556733+00:00",
+      "endedAt": "2026-10-27T19:30:09.461096+00:00",
+      "wallSeconds": 12.904368371993769,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/test.log"
+    },
+    {
+      "label": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "startedAt": "2026-10-27T19:30:09.461374+00:00",
+      "endedAt": "2026-10-27T19:30:13.690569+00:00",
+      "wallSeconds": 4.229206083982717,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/lint.log"
+    },
+    {
+      "label": "case-index",
+      "command": [
+        "node",
+        "scripts/validate-case-studies.mjs"
+      ],
+      "startedAt": "2026-10-27T19:30:13.691127+00:00",
+      "endedAt": "2026-10-27T19:30:13.831987+00:00",
+      "wallSeconds": 0.14086371898883954,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/case-index.log"
+    },
+    {
+      "label": "research-validate",
+      "command": [
+        "npm",
+        "run",
+        "research:validate"
+      ],
+      "startedAt": "2026-10-27T19:30:13.832294+00:00",
+      "endedAt": "2026-10-27T19:30:16.328559+00:00",
+      "wallSeconds": 2.496270950010512,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/research-validate.log"
+    },
+    {
+      "label": "strict-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-10-27T19:30:16.328830+00:00",
+      "endedAt": "2026-10-27T19:30:23.830738+00:00",
+      "wallSeconds": 7.501914883032441,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/strict-build.log"
+    },
+    {
+      "label": "public-app-build",
+      "command": [
+        "npm",
+        "run",
+        "build:app"
+      ],
+      "startedAt": "2026-10-27T19:30:23.831023+00:00",
+      "endedAt": "2026-10-27T19:30:28.505595+00:00",
+      "wallSeconds": 4.674578838981688,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/public-app-build.log"
+    },
+    {
+      "label": "public-e2e",
+      "command": [
+        "npm",
+        "run",
+        "test:e2e",
+        "--",
+        "tests/e2e/ai-imagery.spec.ts",
+        "tests/e2e/release-assets.spec.ts"
+      ],
+      "startedAt": "2026-10-27T19:30:28.505859+00:00",
+      "endedAt": "2026-10-27T19:30:51.834968+00:00",
+      "wallSeconds": 23.32911684899591,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/public-e2e.log"
+    }
+  ],
+  "publicCopiesAndDistDecode": "pass",
+  "historicalSnapshotCount": 1840,
+  "changedExistingPaths": [
+    "research/asset-manifest.json",
+    "research/case-studies/index.json",
+    "research/case-studies/case01/README.md",
+    "src/App.test.tsx",
+    "src/App.tsx",
+    "src/styles.css",
+    "src/generated/study-data.json"
+  ],
+  "unexpectedChangedPaths": [],
+  "historicalRunFilesChanged": 0,
+  "caseCount": 2,
+  "pendingCase02RunCount": 0,
+  "ledger": {
+    "runCount": 31,
+    "astraRunCount": 7,
+    "completedAstraRuns": 7
+  },
+  "limitations": [
+    "No new image generation; two additional manual generations remain unexecuted.",
+    "Original generation time, runtime, job ID and cost unknown.",
+    "Browser smoke/PNG checks only, no new WebGL quality capture matrix.",
+    "Embedded graph corroborates settings but is not independently authenticated cloud execution.",
+    "Standalone file-tool E2E type checking emits pre-existing dependency/target diagnostics; actual repository lint/build/Playwright checks recorded here are authoritative."
+  ]
+}

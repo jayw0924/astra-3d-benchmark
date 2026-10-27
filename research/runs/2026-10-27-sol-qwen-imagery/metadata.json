@@ -1,0 +1,71 @@
+{
+  "caseId": "case01",
+  "observedAt": "2026-10-27T19:25:38.312417+00:00",
+  "observationBasis": "Local retrospective inspection/registration; not original generation or cloud download time. No EXIF/mtime-derived execution claims.",
+  "input": {
+    "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-side.png",
+    "bytes": 315200,
+    "sha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252",
+    "dimensions": [
+      850,
+      778
+    ]
+  },
+  "output": {
+    "path": "work/Qwen_image_2.1_00001.png",
+    "bytes": 881194,
+    "sha256": "a8276bf9432f8d8d3b4fdfee189a7801333749608a9f2ab3a8c7647f796f9e03",
+    "dimensions": [
+      864,
+      768
+    ]
+  },
+  "cloudInputFilename": "69e92f11e6d8c4fcaa0d8405fcd1a24697f07cd4b5bc9fd3998fd93c11845714.png",
+  "cloudInputChangeToken": [
+    "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+  ],
+  "inputLinkBasis": "Jay UI operation and reviewed workflow screenshot associate the uploaded original Carmine side image with this run. Local source copy/hash verified. Cloud hashed filename differs from the local SHA-256. The embedded is_changed token DOES equal the local source SHA-256; this is corroborating embedded metadata, not independent retrieval/authentication of remote uploaded bytes.",
+  "effectivePositivePrompt": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle’s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+  "effectivePromptTrace": [
+    "459:474 TextEncodeQwenImage21.prompt",
+    "459:480 PreviewAny.source",
+    "459:484 ComfySwitchNode switch=false on_false"
+  ],
+  "negativePrompt": "",
+  "models": {
+    "diffusion": "qwen_image_2.1_int8_convrot.safetensors",
+    "textEncoder": "qwen3vl_8b_int8_convrot.safetensors",
+    "vae": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "sampler": {
+    "cfg": 1.0,
+    "denoise": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "seed": 891836227295375,
+    "steps": 25
+  },
+  "inputTrace": "459:474 images.image_1 -> 470 LoadImage; only one connected image; SaveImageAdvanced 461 -> VAEDecode 459:457 -> KSampler 459:458",
+  "sizing": {
+    "resolution": 0,
+    "latentSwitch": false,
+    "basis": "Qwen conditioning latent selected, not disconnected EmptyLatentImage 1024x1024. Actual PNG dimensions are authoritative."
+  },
+  "unusedEnhancer": "459:479 system prompt / 459:500 TextGenerate branch is not the effective positive prompt: 459:484 switch=false. Thinking false on unused branch is not evidence of enhancer execution.",
+  "interpretation": "Generative image editing, not GLB or material mutation. Denoise 1.0 inside this Qwen reference-conditioning graph is not generic img2img preservation semantics.",
+  "generation": {
+    "startedAt": null,
+    "endedAt": null,
+    "runtimeSeconds": null,
+    "cost": null,
+    "jobId": null,
+    "basis": "Unknown; embedded settings are not authenticated execution/billing history or a reproducibility guarantee."
+  },
+  "authorship": {
+    "image": "Qwen Image 2.1",
+    "promptAndGuidance": "Sol",
+    "cloudUIExecutionAndReview": "Jay",
+    "archiveAndTechnicalReview": "Sol (declared gpt-6.1-sol runtime)",
+    "astra": "Not AI-image author; historical source geometry attribution retained."
+  }
+}

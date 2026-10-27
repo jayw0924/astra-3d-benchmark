@@ -3,7 +3,7 @@
   "assets": [
     {
       "id": "refined-viewer-preview",
-      "title": "Pre-ground-correction refined viewer \u2014 native Estuary preview, not controlled before/after",
+      "title": "Pre-ground-correction refined viewer — native Estuary preview, not controlled before/after",
       "kind": "image",
       "sourceUrl": "urn:run:2026-10-26-sol-lighting-integration",
       "immutableUrl": "urn:sha256:81679125d519c638705adbf02d860da1f1fbc1c0bb56d979bdffbed48f0991f6",
@@ -99,7 +99,7 @@
     },
     {
       "id": "safe-webgl-d8fc14b866ab",
-      "title": "Astra Safe WebGL geometry candidate \u2014 research only",
+      "title": "Astra Safe WebGL geometry candidate — research only",
       "kind": "model",
       "sourceUrl": "urn:run:2026-10-21-astra-geometry-safe-d8fc14b866ab",
       "immutableUrl": "urn:sha256:0c57718add772f1265f8cbb3d9f165bc3b06c73629b50f5297f31f844d32c810",
@@ -223,11 +223,11 @@
       "sha256": "37b657b4bb86d9987369b53d649a9d7a46c8a0550153a98673f3eb48f8f07a79",
       "localPath": "public/assets/study/geometry/wireframe-wheel-detail.png",
       "status": "available",
-      "notes": "Exact copy of the isolated front-wheel wireframe evidence render; a whole-car wireframe was rejected as unreadably dense at 600\u00d7400."
+      "notes": "Exact copy of the isolated front-wheel wireframe evidence render; a whole-car wireframe was rejected as unreadably dense at 600×400."
     },
     {
       "id": "safe-webgl-correction-7f2d11f494a5-b",
-      "title": "Safe WebGL correction \u2014 research only, not promoted",
+      "title": "Safe WebGL correction — research only, not promoted",
       "kind": "model",
       "sourceUrl": "urn:run:2026-10-21-astra-geometry-safe-correction-7f2d11f494a5-b",
       "immutableUrl": "urn:sha256:a30deb208c7c1c4b23859edbb57d2c9d1cb1ad828e00c9431d4ebc29a47d9bce",
@@ -243,7 +243,7 @@
     },
     {
       "id": "safe-webgl-final-d0bf6e206c92",
-      "title": "FINAL Safe WebGL \u2014 accepted research artifact",
+      "title": "FINAL Safe WebGL — accepted research artifact",
       "kind": "model",
       "sourceUrl": "urn:run:2026-10-22-astra-geometry-safe-final-d0bf6e206c92",
       "immutableUrl": "urn:sha256:01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4",
@@ -320,6 +320,70 @@
       "localPath": "public/assets/study/safe-final/first-attempt.png",
       "status": "available",
       "notes": "Rejected original attempt; exact unretouched evidence copy of research/runs/2026-10-21-sol-safe-webgl-comparison/rendered/safe--front-three-quarter--estuary--shaded.png. Inherited CC-BY-4.0; source contributors and project sanitization retained. Identity registration only, not app image/browser acceptance."
+    },
+    {
+      "id": "qwen-imagery-source",
+      "title": "Original Carmine viewer input for Qwen imagery",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-27-sol-qwen-imagery",
+      "immutableUrl": "urn:sha256:79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252",
+      "author": "Sol browser capture; Unity Fan, DGG and Eric Chadwick source credits and Astra-directed Safe geometry retained",
+      "license": "CC-BY-4.0 inherited from CarConcept; AI interpretation and source/derivative credits disclosed",
+      "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept/LICENSE.md",
+      "retrievedAt": "2026-10-27T19:25:38.312417+00:00",
+      "bytes": 315200,
+      "sha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252",
+      "localPath": "public/assets/study/ai-imagery/after-Carmine-side.png",
+      "status": "available",
+      "notes": "Exact native PNG copy of research/runs/2026-10-27-sol-qwen-imagery/after-Carmine-side.png. Dimensions [850, 778]. Local retrospective verification/copy timestamp, not original generation/retrieval. Original input; cloud name does not authenticate uploaded bytes."
+    },
+    {
+      "id": "qwen-imagery-first-result",
+      "title": "First Qwen Image 2.1 interpretation — not improved 3D",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-27-sol-qwen-imagery",
+      "immutableUrl": "urn:sha256:a8276bf9432f8d8d3b4fdfee189a7801333749608a9f2ab3a8c7647f796f9e03",
+      "author": "Qwen Image 2.1 image generation; Sol prompt/guidance and technical review; Jay Comfy Cloud UI execution/review; Unity Fan, DGG, Eric Chadwick and historical source derivative credits retained",
+      "license": "CC-BY-4.0 inherited from CarConcept; AI interpretation and source/derivative credits disclosed",
+      "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept/LICENSE.md",
+      "retrievedAt": "2026-10-27T19:25:38.312417+00:00",
+      "bytes": 881194,
+      "sha256": "a8276bf9432f8d8d3b4fdfee189a7801333749608a9f2ab3a8c7647f796f9e03",
+      "localPath": "public/assets/study/ai-imagery/Qwen_image_2.1_00001.png",
+      "status": "available",
+      "notes": "Exact native PNG copy of research/runs/2026-10-27-sol-qwen-imagery/Qwen_image_2.1_00001.png. Dimensions [864, 768]. Local retrospective verification/copy timestamp, not original generation/retrieval. Interpretive generated image, not mesh/material improvement or faithful design certification. Jay approved first-image report inclusion. Cloud terms/output-rights not independently audited; this records inherited source attribution, not a new legal guarantee."
+    },
+    {
+      "id": "qwen-imagery-seed42",
+      "title": "Qwen Image 2.1 interpretation — seed 42, not improved 3D",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-27-sol-qwen-imagery",
+      "immutableUrl": "urn:sha256:2aa56bf1c84163a1c0b39e9584d7b1d69413a1dff63298fac5b0a081e76492dd",
+      "author": "Qwen Image 2.1 image generation; Sol prompt/guidance and technical review; Jay Comfy Cloud UI execution/review; Unity Fan, DGG, Eric Chadwick and historical source derivative credits retained",
+      "license": "CC-BY-4.0 inherited from CarConcept; AI interpretation and source/derivative credits disclosed",
+      "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept/LICENSE.md",
+      "retrievedAt": "2026-10-27T20:04:38.268015+00:00",
+      "bytes": 872620,
+      "sha256": "2aa56bf1c84163a1c0b39e9584d7b1d69413a1dff63298fac5b0a081e76492dd",
+      "localPath": "public/assets/study/ai-imagery/Qwen_image_2.1_seed42.png",
+      "status": "available",
+      "notes": "Exact native PNG copy of research/runs/2026-10-27-sol-qwen-imagery/followup-seed42/Qwen_image_2.1_seed42.png. Dimensions [864, 768]. Local finalization/copy timestamp, not generation time. Complete bounded comparison; no winner selected by Jay. Inherited source attribution retained, cloud terms/output rights not independently audited; no legal guarantee. Reviewed embedded metadata retains cloud opaque input filename and editor graph ID, no credential found. Separate graph exports remain research-only."
+    },
+    {
+      "id": "qwen-imagery-seed12345",
+      "title": "Qwen Image 2.1 interpretation — seed 12345, not improved 3D",
+      "kind": "image",
+      "sourceUrl": "urn:run:2026-10-27-sol-qwen-imagery",
+      "immutableUrl": "urn:sha256:e83966d523d0036451dfd7dcd3d7c5755dca38bc9fb3348e78b42721c83c0597",
+      "author": "Qwen Image 2.1 image generation; Sol prompt/guidance and technical review; Jay Comfy Cloud UI execution/review; Unity Fan, DGG, Eric Chadwick and historical source derivative credits retained",
+      "license": "CC-BY-4.0 inherited from CarConcept; AI interpretation and source/derivative credits disclosed",
+      "licenseUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/CarConcept/LICENSE.md",
+      "retrievedAt": "2026-10-27T20:04:38.268015+00:00",
+      "bytes": 897076,
+      "sha256": "e83966d523d0036451dfd7dcd3d7c5755dca38bc9fb3348e78b42721c83c0597",
+      "localPath": "public/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png",
+      "status": "available",
+      "notes": "Exact native PNG copy of research/runs/2026-10-27-sol-qwen-imagery/followup-seed12345/Qwen_image_2.1_seed12345.png. Dimensions [864, 768]. Local finalization/copy timestamp, not generation time. Complete bounded comparison; no winner selected by Jay. Inherited source attribution retained, cloud terms/output rights not independently audited; no legal guarantee. Reviewed embedded metadata retains cloud opaque input filename and editor graph ID, no credential found. Separate graph exports remain research-only."
     }
   ]
 }

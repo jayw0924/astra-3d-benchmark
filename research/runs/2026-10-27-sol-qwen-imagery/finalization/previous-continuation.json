@@ -1,0 +1,22 @@
+{
+  "caseId": "case01",
+  "status": "frozen_not_executed",
+  "maxAdditionalGenerations": 2,
+  "executedAdditionalGenerations": 0,
+  "actualAdditionalOutputs": [],
+  "inputSha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252",
+  "effectivePositivePrompt": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle’s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+  "settings": {
+    "cfg": 1.0,
+    "denoise": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "seed": 891836227295375,
+    "steps": 25
+  },
+  "varyOnly": "seed",
+  "plannedSeeds": null,
+  "cost": null,
+  "runtimeSeconds": null,
+  "noAutomaticExecution": true
+}

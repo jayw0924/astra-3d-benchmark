@@ -1,0 +1,16 @@
+{
+  "recordedAtUtc": "2026-10-27T20:01:12.485451+00:00",
+  "outputFilename": "Qwen_image_2.1_seed12345.png",
+  "originalReceivedFilename": "Qwen_image_2.1_00001.png",
+  "sha256": "e83966d523d0036451dfd7dcd3d7c5755dca38bc9fb3348e78b42721c83c0597",
+  "bytes": 897076,
+  "dimensions": [
+    864,
+    768
+  ],
+  "seed": 12345,
+  "basis": "User-supplied PNG embedded execution metadata; not independently authenticated cloud history.",
+  "jobId": null,
+  "cost": null,
+  "runtimeSeconds": null
+}

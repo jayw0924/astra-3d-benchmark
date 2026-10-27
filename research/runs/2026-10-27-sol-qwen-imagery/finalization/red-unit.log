@@ -1,0 +1,43 @@
+
+> astra-3d-benchmark@0.1.0 test:unit
+> vitest run src/App.test.tsx
+
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/App.test.tsx (8 tests | 1 failed) 1218ms
+   ❯ App (8)
+     × separates interpretive Qwen imagery from 3D results and pending manual generations 298ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > App > separates interpretive Qwen imagery from 3D results and pending manual generations
+AssertionError: expected [ <img …(5)></img>, <img …(5)></img> ] to have a length of 4 but got 2
+
+- Expected
++ Received
+
+- 4
++ 2
+
+ ❯ src/App.test.tsx:12:49
+     10|     expect(within(section).getByRole('img', { name: 'First Qwen Image …
+     11|     expect(within(section).getByText(/not mesh or material improvement…
+     12|     expect(within(section).getAllByRole('img')).toHaveLength(4);
+       |                                                 ^
+     13|     expect(within(section).getByRole('img', { name: 'Qwen interpretati…
+     14|     expect(within(section).getByRole('img', { name: 'Qwen interpretati…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 7 passed (8)
+   Start at  20:03:03
+   Duration  2.16s (tests 62%, environment 29%, transform 5%, setup 4%, import 1%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,792 @@
+{
+  "observedAt": "2026-10-27T20:04:38.268015+00:00",
+  "basis": "Actual PNG metadata, all graph leaf differences retained; not authenticated cloud execution history.",
+  "source": {
+    "path": "research/runs/2026-10-26-sol-ground-contact/followup-runtime-pairs/after-Carmine-side.png",
+    "bytes": 315200,
+    "sha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252",
+    "dimensions": [
+      850,
+      778
+    ]
+  },
+  "firstSeed": 891836227295375,
+  "followups": [
+    {
+      "seed": 42,
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/followup-seed42/Qwen_image_2.1_seed42.png",
+      "publicPath": "public/assets/study/ai-imagery/Qwen_image_2.1_seed42.png",
+      "bytes": 872620,
+      "sha256": "2aa56bf1c84163a1c0b39e9584d7b1d69413a1dff63298fac5b0a081e76492dd",
+      "dimensions": [
+        864,
+        768
+      ],
+      "promptDifferencesFromFirst": [
+        {
+          "path": "/459:458/inputs/seed",
+          "before": 891836227295375,
+          "after": 42
+        },
+        {
+          "path": "/459:500/inputs/sampling_mode.seed",
+          "before": 891836227295375,
+          "after": 42
+        }
+      ],
+      "editorWorkflowDifferencesFromFirst": [
+        {
+          "path": "/definitions/subgraphs/0/links/34/id",
+          "before": 717,
+          "after": 718
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/34/origin_slot",
+          "before": 27,
+          "after": 28
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/35/id",
+          "before": 718,
+          "after": 719
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/35/origin_slot",
+          "before": 28,
+          "after": 29
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/36/id",
+          "before": 719,
+          "after": 711
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/36/origin_slot",
+          "before": 29,
+          "after": 21
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/36/target_slot",
+          "before": 9,
+          "after": 10
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/37/id",
+          "before": 711,
+          "after": 712
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/37/origin_slot",
+          "before": 21,
+          "after": 22
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/38/id",
+          "before": 712,
+          "after": 713
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/38/origin_slot",
+          "before": 22,
+          "after": 23
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/39/id",
+          "before": 713,
+          "after": 714
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/39/origin_slot",
+          "before": 23,
+          "after": 24
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/40/id",
+          "before": 714,
+          "after": 715
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/40/origin_slot",
+          "before": 24,
+          "after": 25
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/41/id",
+          "before": 715,
+          "after": 716
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/41/origin_slot",
+          "before": 25,
+          "after": 26
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/42/id",
+          "before": 716,
+          "after": 717
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/42/origin_slot",
+          "before": 26,
+          "after": 27
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/5/widgets_values/1",
+          "before": "randomize",
+          "after": "fixed"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/5/widgets_values_named/control_after_generate",
+          "before": "randomize",
+          "after": "fixed"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/7/link",
+          "before": 717,
+          "after": 718
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/7/localized_name",
+          "before": "image_8",
+          "after": "image_9"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/7/name",
+          "before": "images.image_8",
+          "after": "images.image_9"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/8/link",
+          "before": 718,
+          "after": 719
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/8/localized_name",
+          "before": "image_9",
+          "after": "image_10"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/8/name",
+          "before": "images.image_9",
+          "after": "images.image_10"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/9/link",
+          "before": 719,
+          "after": null
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/9/localized_name",
+          "before": "image_10",
+          "after": "image_11"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/9/name",
+          "before": "images.image_10",
+          "after": "images.image_11"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/10/link",
+          "before": null,
+          "after": 711
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/10/localized_name",
+          "before": "image_11",
+          "after": "image_2"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/10/name",
+          "before": "images.image_11",
+          "after": "images.image_2"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/11/link",
+          "before": 711,
+          "after": 712
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/11/localized_name",
+          "before": "image_2",
+          "after": "image_3"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/11/name",
+          "before": "images.image_2",
+          "after": "images.image_3"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/12/link",
+          "before": 712,
+          "after": 713
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/12/localized_name",
+          "before": "image_3",
+          "after": "image_4"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/12/name",
+          "before": "images.image_3",
+          "after": "images.image_4"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/13/link",
+          "before": 713,
+          "after": 714
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/13/localized_name",
+          "before": "image_4",
+          "after": "image_5"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/13/name",
+          "before": "images.image_4",
+          "after": "images.image_5"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/14/link",
+          "before": 714,
+          "after": 715
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/14/localized_name",
+          "before": "image_5",
+          "after": "image_6"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/14/name",
+          "before": "images.image_5",
+          "after": "images.image_6"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/15/link",
+          "before": 715,
+          "after": 716
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/15/localized_name",
+          "before": "image_6",
+          "after": "image_7"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/15/name",
+          "before": "images.image_6",
+          "after": "images.image_7"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/16/link",
+          "before": 716,
+          "after": 717
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/16/localized_name",
+          "before": "image_7",
+          "after": "image_8"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/16/name",
+          "before": "images.image_7",
+          "after": "images.image_8"
+        },
+        {
+          "path": "/extra/ds/offset/0",
+          "before": 37.86636934296337,
+          "after": 597.7286371979351
+        },
+        {
+          "path": "/extra/ds/offset/1",
+          "before": -2328.366638422909,
+          "after": -1790.345523173729
+        },
+        {
+          "path": "/extra/ds/scale",
+          "before": 1.0553818250522429,
+          "after": 0.5054470284992947
+        },
+        {
+          "path": "/links/2/0",
+          "before": 672,
+          "after": 704
+        },
+        {
+          "path": "/links/2/1",
+          "before": 459,
+          "after": 470
+        },
+        {
+          "path": "/links/2/3",
+          "before": 461,
+          "after": 459
+        },
+        {
+          "path": "/links/2/4",
+          "before": 0,
+          "after": 9
+        },
+        {
+          "path": "/links/3/0",
+          "before": 704,
+          "after": 672
+        },
+        {
+          "path": "/links/3/1",
+          "before": 470,
+          "after": 459
+        },
+        {
+          "path": "/links/3/3",
+          "before": 459,
+          "after": 461
+        },
+        {
+          "path": "/links/3/4",
+          "before": 9,
+          "after": 0
+        },
+        {
+          "path": "/nodes/0/widgets_values/13",
+          "before": 891836227295375,
+          "after": 42
+        },
+        {
+          "path": "/nodes/0/widgets_values_named/seed",
+          "before": 891836227295375,
+          "after": 42
+        },
+        {
+          "path": "/nodes/1/pos/0",
+          "before": 1410,
+          "after": 1257.0049799392305
+        },
+        {
+          "path": "/nodes/1/pos/1",
+          "before": 2420,
+          "after": 2340.0863314469557
+        }
+      ],
+      "cloudInput": {
+        "_meta": {
+          "title": "Load Image"
+        },
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "69e92f11e6d8c4fcaa0d8405fcd1a24697f07cd4b5bc9fd3998fd93c11845714.png"
+        },
+        "is_changed": [
+          "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+        ]
+      },
+      "models": {
+        "diffusion": "qwen_image_2.1_int8_convrot.safetensors",
+        "textEncoder": "qwen3vl_8b_int8_convrot.safetensors",
+        "vae": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "sampler": {
+        "cfg": 1.0,
+        "denoise": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "seed": 42,
+        "steps": 25
+      },
+      "effectivePositivePrompt": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle’s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+      "refinePrompt": false,
+      "generation": {
+        "jobId": null,
+        "runtimeSeconds": null,
+        "cost": null
+      }
+    },
+    {
+      "seed": 12345,
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/followup-seed12345/Qwen_image_2.1_seed12345.png",
+      "publicPath": "public/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png",
+      "bytes": 897076,
+      "sha256": "e83966d523d0036451dfd7dcd3d7c5755dca38bc9fb3348e78b42721c83c0597",
+      "dimensions": [
+        864,
+        768
+      ],
+      "promptDifferencesFromFirst": [
+        {
+          "path": "/459:458/inputs/seed",
+          "before": 891836227295375,
+          "after": 12345
+        },
+        {
+          "path": "/459:500/inputs/sampling_mode.seed",
+          "before": 891836227295375,
+          "after": 12345
+        }
+      ],
+      "editorWorkflowDifferencesFromFirst": [
+        {
+          "path": "/definitions/subgraphs/0/links/34/id",
+          "before": 717,
+          "after": 718
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/34/origin_slot",
+          "before": 27,
+          "after": 28
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/35/id",
+          "before": 718,
+          "after": 719
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/35/origin_slot",
+          "before": 28,
+          "after": 29
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/36/id",
+          "before": 719,
+          "after": 711
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/36/origin_slot",
+          "before": 29,
+          "after": 21
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/36/target_slot",
+          "before": 9,
+          "after": 10
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/37/id",
+          "before": 711,
+          "after": 712
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/37/origin_slot",
+          "before": 21,
+          "after": 22
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/38/id",
+          "before": 712,
+          "after": 713
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/38/origin_slot",
+          "before": 22,
+          "after": 23
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/39/id",
+          "before": 713,
+          "after": 714
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/39/origin_slot",
+          "before": 23,
+          "after": 24
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/40/id",
+          "before": 714,
+          "after": 715
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/40/origin_slot",
+          "before": 24,
+          "after": 25
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/41/id",
+          "before": 715,
+          "after": 716
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/41/origin_slot",
+          "before": 25,
+          "after": 26
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/42/id",
+          "before": 716,
+          "after": 717
+        },
+        {
+          "path": "/definitions/subgraphs/0/links/42/origin_slot",
+          "before": 26,
+          "after": 27
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/5/widgets_values/1",
+          "before": "randomize",
+          "after": "fixed"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/5/widgets_values_named/control_after_generate",
+          "before": "randomize",
+          "after": "fixed"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/7/link",
+          "before": 717,
+          "after": 718
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/7/localized_name",
+          "before": "image_8",
+          "after": "image_9"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/7/name",
+          "before": "images.image_8",
+          "after": "images.image_9"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/8/link",
+          "before": 718,
+          "after": 719
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/8/localized_name",
+          "before": "image_9",
+          "after": "image_10"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/8/name",
+          "before": "images.image_9",
+          "after": "images.image_10"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/9/link",
+          "before": 719,
+          "after": null
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/9/localized_name",
+          "before": "image_10",
+          "after": "image_11"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/9/name",
+          "before": "images.image_10",
+          "after": "images.image_11"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/10/link",
+          "before": null,
+          "after": 711
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/10/localized_name",
+          "before": "image_11",
+          "after": "image_2"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/10/name",
+          "before": "images.image_11",
+          "after": "images.image_2"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/11/link",
+          "before": 711,
+          "after": 712
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/11/localized_name",
+          "before": "image_2",
+          "after": "image_3"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/11/name",
+          "before": "images.image_2",
+          "after": "images.image_3"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/12/link",
+          "before": 712,
+          "after": 713
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/12/localized_name",
+          "before": "image_3",
+          "after": "image_4"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/12/name",
+          "before": "images.image_3",
+          "after": "images.image_4"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/13/link",
+          "before": 713,
+          "after": 714
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/13/localized_name",
+          "before": "image_4",
+          "after": "image_5"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/13/name",
+          "before": "images.image_4",
+          "after": "images.image_5"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/14/link",
+          "before": 714,
+          "after": 715
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/14/localized_name",
+          "before": "image_5",
+          "after": "image_6"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/14/name",
+          "before": "images.image_5",
+          "after": "images.image_6"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/15/link",
+          "before": 715,
+          "after": 716
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/15/localized_name",
+          "before": "image_6",
+          "after": "image_7"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/15/name",
+          "before": "images.image_6",
+          "after": "images.image_7"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/16/link",
+          "before": 716,
+          "after": 717
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/16/localized_name",
+          "before": "image_7",
+          "after": "image_8"
+        },
+        {
+          "path": "/definitions/subgraphs/0/nodes/8/inputs/16/name",
+          "before": "images.image_7",
+          "after": "images.image_8"
+        },
+        {
+          "path": "/extra/ds/offset/0",
+          "before": 37.86636934296337,
+          "after": -411.1771258243844
+        },
+        {
+          "path": "/extra/ds/offset/1",
+          "before": -2328.366638422909,
+          "after": -2832.8772031562125
+        },
+        {
+          "path": "/extra/ds/scale",
+          "before": 1.0553818250522429,
+          "after": 2.3225154419887883
+        },
+        {
+          "path": "/links/2/0",
+          "before": 672,
+          "after": 704
+        },
+        {
+          "path": "/links/2/1",
+          "before": 459,
+          "after": 470
+        },
+        {
+          "path": "/links/2/3",
+          "before": 461,
+          "after": 459
+        },
+        {
+          "path": "/links/2/4",
+          "before": 0,
+          "after": 9
+        },
+        {
+          "path": "/links/3/0",
+          "before": 704,
+          "after": 672
+        },
+        {
+          "path": "/links/3/1",
+          "before": 470,
+          "after": 459
+        },
+        {
+          "path": "/links/3/3",
+          "before": 459,
+          "after": 461
+        },
+        {
+          "path": "/links/3/4",
+          "before": 9,
+          "after": 0
+        },
+        {
+          "path": "/nodes/0/widgets_values/13",
+          "before": 891836227295375,
+          "after": 12345
+        },
+        {
+          "path": "/nodes/0/widgets_values_named/seed",
+          "before": 891836227295375,
+          "after": 12345
+        },
+        {
+          "path": "/nodes/1/pos/0",
+          "before": 1410,
+          "after": 1257.0049799392305
+        },
+        {
+          "path": "/nodes/1/pos/1",
+          "before": 2420,
+          "after": 2340.0863314469557
+        }
+      ],
+      "cloudInput": {
+        "_meta": {
+          "title": "Load Image"
+        },
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "69e92f11e6d8c4fcaa0d8405fcd1a24697f07cd4b5bc9fd3998fd93c11845714.png"
+        },
+        "is_changed": [
+          "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+        ]
+      },
+      "models": {
+        "diffusion": "qwen_image_2.1_int8_convrot.safetensors",
+        "textEncoder": "qwen3vl_8b_int8_convrot.safetensors",
+        "vae": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "sampler": {
+        "cfg": 1.0,
+        "denoise": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "seed": 12345,
+        "steps": 25
+      },
+      "effectivePositivePrompt": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle’s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+      "refinePrompt": false,
+      "generation": {
+        "jobId": null,
+        "runtimeSeconds": null,
+        "cost": null
+      }
+    }
+  ],
+  "effectiveSettingsComparison": "Only active sampler seed differs. Inactive TextGenerate sampling_mode.seed also differs; editor layout/widget differences retained separately. All other submitted graph fields identical.",
+  "metadataPublicationReview": "Reviewed keys, graph values and URLs: public model/template documentation links, opaque cloud input filename, editor graph UUID/layout. No credential/account token found. No separate graph downloads were previously public or added; native PNG embedded metadata necessarily remains public unchanged."
+}

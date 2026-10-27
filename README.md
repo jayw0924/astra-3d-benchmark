@@ -2,7 +2,21 @@
 
 This repository contains a reproducible, evidence-backed case study of Astra assisting a realistic 3D content workflow. It includes a controlled baseline, evidence-verified Astra runs, a blind material comparison, and the selected Estuary Enamel integration.
 
-## Current scope
+## Case studies and project map
+
+- **[Case 01 — car](research/case-studies/case01/README.md):** frozen accepted
+  checkpoint `83ca4ec`. The configurator and existing evidence remain unchanged.
+- **[Case 02 — Astra + Blender](research/case-studies/case02/README.md):** pending
+  asset selection; shopping rubric, intake and staged approval checklist only.
+  No new asset is selected, fetched or promoted; no tool installation is authorized.
+- [Machine case index](research/case-studies/index.json) links canonical evidence;
+  [project map](docs/PROJECT_MAP.md) explains directory and command boundaries.
+
+Validate the index/intake with `node scripts/validate-case-studies.mjs`. Its tests
+run automatically under `npm test` via the existing script-test glob. This is a
+navigation/intake gate, not attribution, technical acceptance or promotion.
+
+## Current scope (Case 01)
 
 - licensed source-asset selection, deterministic sanitization, and provenance;
 - completed Astra-assisted asset inspection and two isolated material candidates;

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/astra-3d/case-studies.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "cases"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schemaVersion": {"const": 1},
+    "cases": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "title", "status", "checkpoint", "assetIds", "runIds", "overviewPath", "intakePath"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^case[0-9]{2}$"},
+          "title": {"type": "string", "minLength": 1},
+          "status": {"enum": ["frozen", "pending_asset"]},
+          "checkpoint": {"type": ["string", "null"], "pattern": "^[a-f0-9]{40}$"},
+          "assetIds": {"$ref": "#/$defs/ids"},
+          "runIds": {"$ref": "#/$defs/ids"},
+          "overviewPath": {"$ref": "#/$defs/path"},
+          "intakePath": {"anyOf": [{"$ref": "#/$defs/path"}, {"type": "null"}]}
+        },
+        "allOf": [{
+          "if": {"properties": {"status": {"const": "pending_asset"}}},
+          "then": {"properties": {"checkpoint": {"type": "null"}, "assetIds": {"type": "array", "maxItems": 0}, "runIds": {"type": "array", "maxItems": 0}, "intakePath": {"type": "string"}}},
+          "else": {"properties": {"checkpoint": {"type": "string"}, "assetIds": {"type": "array", "minItems": 1}, "intakePath": {"type": "null"}}}
+        }]
+      }
+    }
+  },
+  "$defs": {
+    "path": {"type": "string", "pattern": "^research/(?!.*\\.\\.)(?!.*\\\\).+$"},
+    "ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"}},
+    "intake": {
+      "type": "object", "additionalProperties": false,
+      "required": ["caseId", "status", "researchQuestion", "roles", "selectionApproval", "sourcePageUrl", "licenseEvidencePath", "redistributionDecision", "sourceBlendAssetId", "baselineGlbAssetId", "protocolPath", "attemptBudget", "preflight", "promotion"],
+      "properties": {
+        "caseId": {"type": "string", "pattern": "^case[0-9]{2}$"},
+        "status": {"const": "pending_asset"},
+        "researchQuestion": {"type": "string", "minLength": 1},
+        "roles": {"const": {"author": "Astra", "verifier": "Sol", "approver": "Jay"}},
+        "selectionApproval": {"const": "pending"},
+        "sourcePageUrl": {"type": "null"},
+        "licenseEvidencePath": {"type": "null"},
+        "redistributionDecision": {"const": "pending"},
+        "sourceBlendAssetId": {"type": "null"},
+        "baselineGlbAssetId": {"type": "null"},
+        "protocolPath": {"type": "null"},
+        "attemptBudget": {"type": "null"},
+        "preflight": {"const": {"blender": "pending", "texturesKtx2": "pending", "variantsExtensions": "pending", "immutableInputs": "pending", "pairedTelemetry": "pending"}},
+        "promotion": {"const": "not_authorized"}
+      }
+    }
+  }
+}

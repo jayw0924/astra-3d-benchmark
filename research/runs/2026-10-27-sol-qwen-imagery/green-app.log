@@ -1,0 +1,18 @@
+
+> astra-3d-benchmark@0.1.0 test:unit
+> vitest run src/App.test.tsx
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  1 passed (1)
+      Tests  8 passed (8)
+   Start at  19:26:10
+   Duration  2.07s (tests 63%, environment 28%, setup 4%, transform 4%, import 1%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

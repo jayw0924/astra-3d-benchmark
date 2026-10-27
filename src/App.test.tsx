@@ -3,6 +3,21 @@ import { describe, expect, it } from 'vitest';
 import App from './App';
 
 describe('App', () => {
+  it('separates the complete bounded Qwen comparison from 3D results', () => {
+    render(<App />);
+    const section = screen.getByRole('region', { name: 'AI-enhanced imagery' });
+    expect(within(section).getByRole('img', { name: 'Original Carmine viewer input' })).toHaveAttribute('src', '/assets/study/ai-imagery/after-Carmine-side.png');
+    expect(within(section).getByRole('img', { name: 'First Qwen Image 2.1 interpretation' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_00001.png');
+    expect(within(section).getByText(/not mesh or material improvement/)).toBeVisible();
+    expect(within(section).getAllByRole('img')).toHaveLength(4);
+    expect(within(section).getByRole('img', { name: 'Qwen interpretation · seed 42' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_seed42.png');
+    expect(within(section).getByRole('img', { name: 'Qwen interpretation · seed 12345' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png');
+    expect(within(section).getByText(/Two additional successful outputs/)).toBeVisible();
+    expect(within(section).getByText(/No winner has been selected/)).toBeVisible();
+    expect(within(section).getByText(/seed 891836227295375/)).toBeVisible();
+    expect(within(section).getByText(/Qwen.*Sol.*Jay/)).toBeVisible();
+    expect(within(section).getByText(/not an aligned pixel comparison/)).toBeVisible();
+  });
   it('distinguishes current refined preview from historical evidence and discloses lighting authorship', () => {
     render(<App />);
     expect(screen.getByRole('heading', { name: 'Historical material comparison' })).toBeVisible();

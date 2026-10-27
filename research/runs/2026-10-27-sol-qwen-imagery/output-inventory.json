@@ -1,0 +1,145 @@
+{
+  "basis": "Actual local archive bytes; excludes this inventory and mutable run.json to avoid circular hashes. No generation timestamps inferred.",
+  "files": [
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/Qwen_image_2.1_00001.png",
+      "bytes": 881194,
+      "sha256": "a8276bf9432f8d8d3b4fdfee189a7801333749608a9f2ab3a8c7647f796f9e03"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/after-Carmine-side.png",
+      "bytes": 315200,
+      "sha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/archive.py",
+      "bytes": 17069,
+      "sha256": "1dc3d9b0f40fc64923e57315d70d7a55229cdfa1cf37b0871da02a426119ea77"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/before.json",
+      "bytes": 293762,
+      "sha256": "e3f4df8975eb2e7e76f551a9b4db8261464119fc43c9844e991e515d6d3db169"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/case-index.log",
+      "bytes": 70,
+      "sha256": "41f426fddd05fcf66a22acda9fbffd641ed65037a96b0f98372580600a3be3cf"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/continuation.json",
+      "bytes": 965,
+      "sha256": "36e463be537a00a0c90a2deb468b58aeb3aabc5fb20590635e31a4a576413887"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/continuation.md",
+      "bytes": 2054,
+      "sha256": "511d5aca075205eb8ce9de5b36506295074e333130b58823170e972a7b8510dc"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/effective-positive.txt",
+      "bytes": 405,
+      "sha256": "ed1e2cfb7d5551ee5c520303c61dd52bbb0cfc27d5a0e4f8eab0f61534597b7f"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/embedded-metadata.json",
+      "bytes": 86579,
+      "sha256": "82bc3b2d4774b2fa820d37b436a52683807188a014aeefe0646f048fa9dd99ad"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/green-app.log",
+      "bytes": 463,
+      "sha256": "a50aa4ffa335dc9c78d7c23e8d655de2e6e6e3a4b6cf5f9d708a4ae7fe65173f"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/green-archive.log",
+      "bytes": 222,
+      "sha256": "541f1a7ed89ea79c7b28b13d8bcd29ca01d82b3ac433886f26f5f93c7993b3a9"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/green-e2e.log",
+      "bytes": 982,
+      "sha256": "f72ccb4ba27e97592cbd8e6bea9f686df94d8641a24b60b62da29d2fe3134cff"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/lint.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/metadata.json",
+      "bytes": 3569,
+      "sha256": "029d06292984ebaf8b8b389b3eb78cac4c69051e28711161dbcf793b5cbacd6d"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/notes.md",
+      "bytes": 4372,
+      "sha256": "d265635da3869f7dda26d5444f06ef808ea91401d5a27a5b25d7eedef280cead"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/prompt.json",
+      "bytes": 15443,
+      "sha256": "1ccf7a729a9d9069e5f0afcbb81d63c354dd882de4f4527ad6431d3205be3448"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/prompt.md",
+      "bytes": 590,
+      "sha256": "b3d500a1d3135bb26490f8d83ad873c5fba6bfcaa2c044d3e323366a8cf24ab5"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/public-app-build.log",
+      "bytes": 1220,
+      "sha256": "0ac1570ced7b2443b83c0a9c24379fe046738cf34ece689830da39f18ce0404a"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/public-e2e.log",
+      "bytes": 982,
+      "sha256": "847490e0bf86295b49b81a196b143e78310097926f1e309a1df19e1b505adb88"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/red-app.log",
+      "bytes": 34915,
+      "sha256": "043e56daa7be5cc6d2ccfa7d7a23bb35fd55829edd4135d7e9e22c8ff01a5e77"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/red-archive.log",
+      "bytes": 1072,
+      "sha256": "8418433f4dfac3aa907ea00c9345f46f03ce4a61b3cc7e98b0e1bff5827c1443"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/red-e2e.log",
+      "bytes": 3130,
+      "sha256": "4c56584632df610503dd6978e3dd35e1588f6ba069bc445f80830f1ed7adbfa8"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/research-validate.log",
+      "bytes": 340,
+      "sha256": "aae716e44ee59dfde54e145b9c106f13d3feb8c40b8ba47c7322ebdbe7b802c1"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/strict-build.log",
+      "bytes": 1744,
+      "sha256": "a7759bb17434fc364e14f1c7420c816bf95cef70ee28dde23c7af7319ddf226f"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/test.log",
+      "bytes": 5558,
+      "sha256": "5efda01d4d74938cc2e53554ae6ee10d4d2bc0cb6438ac351adfbcf5f9c21955"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/verification.json",
+      "bytes": 3756,
+      "sha256": "a1379d8a1a8ff3b62a9924fc4dfb78d55b13be05fcf15171cbdbe8eed342086b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/verify.py",
+      "bytes": 4946,
+      "sha256": "73f5ca72947fbdf108610bcaf4af194cdb78a35ea40cdf5be0e4c034c90c433d"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/workflow.json",
+      "bytes": 65158,
+      "sha256": "f25e371dfcb5bb0d65d6632ba3ad2d37fc9cdf3f636a905b3aa53d364ea660f8"
+    }
+  ]
+}

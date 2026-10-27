@@ -1,0 +1,44 @@
+{
+  "caseId": "case01",
+  "status": "completed_bounded_comparison",
+  "maxAdditionalGenerations": 2,
+  "executedAdditionalGenerations": 2,
+  "actualAdditionalOutputs": [
+    {
+      "seed": 42,
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/followup-seed42/Qwen_image_2.1_seed42.png",
+      "sha256": "2aa56bf1c84163a1c0b39e9584d7b1d69413a1dff63298fac5b0a081e76492dd"
+    },
+    {
+      "seed": 12345,
+      "path": "research/runs/2026-10-27-sol-qwen-imagery/followup-seed12345/Qwen_image_2.1_seed12345.png",
+      "sha256": "e83966d523d0036451dfd7dcd3d7c5755dca38bc9fb3348e78b42721c83c0597"
+    }
+  ],
+  "inputSha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252",
+  "effectivePositivePrompt": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle’s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+  "settings": {
+    "cfg": 1.0,
+    "denoise": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "seed": 891836227295375,
+    "steps": 25
+  },
+  "varyOnly": "seed",
+  "plannedSeeds": [
+    42,
+    12345
+  ],
+  "cost": null,
+  "runtimeSeconds": null,
+  "noAutomaticExecution": true,
+  "reportedFailedAdditionalAttempts": 1,
+  "attemptedJobsFromUserSequence": 4,
+  "attemptCountBasis": "Three successful PNGs plus one user-reported failure; not authenticated cloud job history.",
+  "failureNotePath": "research/runs/2026-10-27-sol-qwen-imagery/seed-42-failure-note.md",
+  "furtherGenerationAuthorized": false,
+  "preference": null,
+  "graphDifferenceNote": "Active sampler seed and inactive text-enhancer seed changed; other submitted graph fields identical.",
+  "historyPath": "research/runs/2026-10-27-sol-qwen-imagery/finalization/previous-continuation.json"
+}

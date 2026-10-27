@@ -140,6 +140,61 @@ export default function App() {
           </article>
         </section>
 
+        <section id="ai-imagery" className="output-overview ai-imagery" aria-labelledby="ai-imagery-title">
+          <div className="section-heading">
+            <p className="eyebrow">Case 01 · Separate interpretive experiment</p>
+            <h2 id="ai-imagery-title">AI-enhanced imagery</h2>
+            <p>Qwen Image 2.1 image generation; Sol prompt and guidance; Jay Comfy Cloud UI execution and review.
+              This is generative image editing, not mesh or material improvement. The accepted 3D model is unchanged.</p>
+          </div>
+          <div className="render-grid ai-imagery-pair">
+            <article className="render-card">
+              <img src="/assets/study/ai-imagery/after-Carmine-side.png" alt="Original Carmine viewer input" width="850" height="778" loading="lazy" />
+              <div className="render-card-body"><h3>Original viewer input · 850×778</h3></div>
+            </article>
+            <article className="render-card">
+              <img src="/assets/study/ai-imagery/Qwen_image_2.1_00001.png" alt="First Qwen Image 2.1 interpretation" width="864" height="768" loading="lazy" />
+              <div className="render-card-body"><h3>First interpretation · seed 891836227295375 · 864×768</h3></div>
+            </article>
+            <article className="render-card">
+              <img src="/assets/study/ai-imagery/Qwen_image_2.1_seed42.png" alt="Qwen interpretation · seed 42" width="864" height="768" loading="lazy" />
+              <div className="render-card-body"><h3>Second interpretation · seed 42 · 864×768</h3><p>Invented door handle, more angular body treatment and reconstructed grain.</p><a href="/assets/study/ai-imagery/Qwen_image_2.1_seed42.png" download>Download seed 42 PNG</a></div>
+            </article>
+            <article className="render-card">
+              <img src="/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png" alt="Qwen interpretation · seed 12345" width="864" height="768" loading="lazy" />
+              <div className="render-card-body"><h3>Third interpretation · seed 12345 · 864×768</h3><p>Apparent perspective, roof and framing drift; wheel details reconstructed.</p><a href="/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png" download>Download seed 12345 PNG</a></div>
+            </article>
+          </div>
+          <p className="geometry-note">Exact native PNG copies displayed responsively; not an aligned pixel comparison.
+            The studio floor, contact shadow and reflections read more photographically, but wheel spokes/tread,
+            lower trim, seams and surface grain are reconstructed. Faithful product imagery is not established.</p>
+          <p className="geometry-note">Two additional successful outputs complete the bounded comparison; one reported cloud failure
+            before the successful seed-42 retry is retained. No winner has been selected by Jay.
+            Jay approved the first image for report inclusion, not blanket design fidelity. No more generation is authorized.</p>
+          <details className="geometry-note">
+            <summary>Technical settings, cloud failure and provenance limits</summary>
+            <p>Embedded submitted graphs share the same original input reference and matching is_changed token, effective prompt,
+              models and sampling settings: 25 steps, CFG 1, Euler/simple, denoise 1; prompt refinement is off.
+              Differences are the sampler seed and the inactive text-enhancer seed, not a different prompt or model.
+              Editor exports also change post-run seed control from randomize to fixed, layout and input/link ordering;
+              this is not a claim that all workflow bytes differ only by seed.
+              Diffusion: qwen_image_2.1_int8_convrot.safetensors; encoder: qwen3vl_8b_int8_convrot.safetensors;
+              VAE: qwen_image_2.1_vae_bf16.safetensors.</p>
+            <p>The reported KSampler failure was AttributeError: module &apos;os&apos; has no attribute &apos;memfd_create&apos;,
+              a cloud runtime boundary, not evidence that seed 42 is invalid. The retry produced an image;
+              the root cause and any service fix remain unverified. Three successful PNGs plus one reported failure
+              imply four attempted jobs from the user sequence, not authenticated cloud history.
+              Job IDs, actual cloud runtime and cost, including the failed attempt, are unknown and not reconstructed.</p>
+            <p>Embedded settings corroborate the supervised input flow, not independent cloud-upload authentication,
+              billing history or exact reproducibility. The ledger interval denotes first retrospective registration only.
+              All three look more photographic but reconstruct product details; this small sample does not establish reliability.
+              Original workflow exports remain in the research archive; no separate public workflow download is added
+              because editor graphs include cloud-specific metadata. The native PNGs retain their reviewed embedded graphs.</p>
+          </details>
+          <p className="geometry-note">Source CarConcept credits: Unity Fan, DGG and Eric Chadwick; historical Astra-directed
+            Safe geometry and Sol viewer capture retained. Inherited CC BY 4.0 source attribution applies; the generated image is a disclosed interpretation.</p>
+        </section>
+
         <section id="safe-result" className="geometry-section" aria-labelledby="safe-title">
           <div className="section-heading">
             <p className="eyebrow">Decision · Accepted and integrated locally</p>

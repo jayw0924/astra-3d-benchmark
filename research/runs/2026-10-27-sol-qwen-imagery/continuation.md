@@ -1,0 +1,7 @@
+# Bounded continuation — completed
+
+Two additional successful outputs are retained: seed 42 and seed 12345, both from the original source, not chained generated images. The first seed-42 attempt failed with the user-reported cloud AttributeError; the retry produced the actual seed-42 PNG. Three successes plus one reported failure imply four attempted jobs in the supplied sequence, not an authenticated cloud-history count. Original execution timestamps, runtime, job IDs and cost including failure remain unknown. No more generation is authorized.
+
+The maximum two additional successful outputs are complete; the failed attempt and retry are not silently omitted from the attempt accounting. Compare actual embedded graphs in finalization/comparison.json: common source filename/is_changed corroboration, effective prompt, model files and all non-seed submitted parameters match. Active sampler seed and inactive text-enhancer seed differ. Refinement is false. This is corroborating embedded evidence, not independent verification of remote bytes or billing.
+
+No winner is selected by Jay; original first-image report approval is retained separately from comparative preference. All outputs appear more photographic while reconstructing product details. See finalization/notes.md. Prior prospective plan and original run record are retained verbatim in finalization/previous-continuation.md, previous-continuation.json and previous-run.json. The original output-inventory.json and first technical notes are unchanged historical snapshots, not current inventories.

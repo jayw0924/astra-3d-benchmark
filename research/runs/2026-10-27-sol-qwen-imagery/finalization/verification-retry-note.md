@@ -1,0 +1,5 @@
+# Public-build verification retry
+
+The first full finalization pass passed unit/script/render-plan/lint/case-index/research validation/strict build/app build and narrow development-server E2E. A subsequent pass added explicit dist-preview E2E. Its preflight exact-index-byte assertion failed before public E2E because the earlier task-owned npm development-server child still occupied port 5189 after its wrapper was stopped. The response contained /@vite/client and /src/main.tsx rather than dist's hashed bundle references. This was a verification-server selection issue, not a generated-image or app test failure.
+
+Process inspection identified this task's surviving vite child and parent; only those processes were terminated. A socket probe then returned connection refused for 5189. The verifier was rerun with a strict-port dist preview, checks the served index against dist/index.html before E2E, and terminates its own direct preview child afterwards. Final verification.json records actual subsequent results. No unrelated listener was killed. Original RED unit/script/browser logs are retained separately.

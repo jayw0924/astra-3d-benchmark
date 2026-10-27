@@ -1,0 +1,170 @@
+{
+  "verifiedAt": "2026-10-27T20:14:19.194886+00:00",
+  "checks": [
+    {
+      "label": "unit",
+      "command": [
+        "npm",
+        "run",
+        "test:unit"
+      ],
+      "startedAt": "2026-10-27T20:12:46.683419+00:00",
+      "endedAt": "2026-10-27T20:12:53.695896+00:00",
+      "wallSeconds": 7.012476565956604,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/unit.log"
+    },
+    {
+      "label": "scripts",
+      "command": [
+        "npm",
+        "run",
+        "test:scripts"
+      ],
+      "startedAt": "2026-10-27T20:12:53.696167+00:00",
+      "endedAt": "2026-10-27T20:12:58.849309+00:00",
+      "wallSeconds": 5.1531487699830905,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/scripts.log"
+    },
+    {
+      "label": "render-plan",
+      "command": [
+        "npm",
+        "run",
+        "test:render-plan"
+      ],
+      "startedAt": "2026-10-27T20:12:58.849626+00:00",
+      "endedAt": "2026-10-27T20:12:59.338161+00:00",
+      "wallSeconds": 0.4885410029673949,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/render-plan.log"
+    },
+    {
+      "label": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "startedAt": "2026-10-27T20:12:59.338371+00:00",
+      "endedAt": "2026-10-27T20:13:03.487895+00:00",
+      "wallSeconds": 4.149533468997106,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/lint.log"
+    },
+    {
+      "label": "case-index",
+      "command": [
+        "node",
+        "scripts/validate-case-studies.mjs"
+      ],
+      "startedAt": "2026-10-27T20:13:03.488148+00:00",
+      "endedAt": "2026-10-27T20:13:03.639592+00:00",
+      "wallSeconds": 0.15145106398267671,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/case-index.log"
+    },
+    {
+      "label": "validate",
+      "command": [
+        "npm",
+        "run",
+        "research:validate"
+      ],
+      "startedAt": "2026-10-27T20:13:03.639848+00:00",
+      "endedAt": "2026-10-27T20:13:06.089134+00:00",
+      "wallSeconds": 2.449293478974141,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/validate.log"
+    },
+    {
+      "label": "strict-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-10-27T20:13:06.089397+00:00",
+      "endedAt": "2026-10-27T20:13:13.685746+00:00",
+      "wallSeconds": 7.596356319030747,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/strict-build.log"
+    },
+    {
+      "label": "public-build",
+      "command": [
+        "npm",
+        "run",
+        "build:app"
+      ],
+      "startedAt": "2026-10-27T20:13:13.686010+00:00",
+      "endedAt": "2026-10-27T20:13:18.464611+00:00",
+      "wallSeconds": 4.778609405970201,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/public-build.log"
+    },
+    {
+      "label": "e2e",
+      "command": [
+        "npm",
+        "run",
+        "test:e2e",
+        "--",
+        "tests/e2e/ai-imagery.spec.ts",
+        "tests/e2e/release-assets.spec.ts",
+        "--timeout=30000"
+      ],
+      "startedAt": "2026-10-27T20:13:18.464883+00:00",
+      "endedAt": "2026-10-27T20:13:51.357321+00:00",
+      "wallSeconds": 32.892444628989324,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/e2e.log"
+    },
+    {
+      "label": "public-e2e",
+      "command": [
+        "npm",
+        "run",
+        "test:e2e",
+        "--",
+        "tests/e2e/ai-imagery.spec.ts",
+        "tests/e2e/release-assets.spec.ts",
+        "--timeout=30000"
+      ],
+      "startedAt": "2026-10-27T20:13:51.357602+00:00",
+      "endedAt": "2026-10-27T20:14:18.676061+00:00",
+      "wallSeconds": 27.318469060992356,
+      "exitCode": 0,
+      "log": "research/runs/2026-10-27-sol-qwen-imagery/finalization/public-e2e.log"
+    }
+  ],
+  "preFinalizationSnapshotCount": 1826,
+  "changedExistingArchivePaths": [
+    "research/runs/2026-10-27-sol-qwen-imagery/continuation.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/continuation.md",
+    "research/runs/2026-10-27-sol-qwen-imagery/run.json"
+  ],
+  "unexpectedChangedPaths": [],
+  "originalHistoricalSnapshotRunFilesChanged": 0,
+  "publicAndDistPngs": "4 exact native archive matches; all decoded",
+  "firstArchiveAndPublicPngPreserved": true,
+  "modelGlbHashes": {
+    "public/assets/models/product.glb": "67b7986109c72f6fcc61745e4e2eef25833fbf5c43fa6ffc0f0cf4e9d9e91f41",
+    "public/assets/models/product-estuary.glb": "bc82c38a61513010d850d329d0e1e618fc7135bad0ab0bd11e5bd83cffe4834f",
+    "public/assets/models/product-estuary-safe.glb": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+  },
+  "case02RunCount": 0,
+  "ledger": {
+    "runCount": 31,
+    "astraRunCount": 7,
+    "completedAstraRuns": 7
+  },
+  "limitations": [
+    "No cloud execution/billing history recovered: runtime/job IDs/cost unknown, including failed attempt.",
+    "Four attempts inferred from user sequence, not authenticated history.",
+    "Native source+3 visual inspection and narrow asset E2E only; no heavy recapture.",
+    "No winner selected by Jay.",
+    "Standalone file-tool TypeScript lint produced dependency/target diagnostics; an automatic wrapper registry lookup failed EACCES without installing; native repository checks above passed."
+  ]
+}

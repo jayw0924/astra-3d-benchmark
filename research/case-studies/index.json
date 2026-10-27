@@ -1,0 +1,39 @@
+{
+  "$schema": "../schemas/case-studies.schema.json",
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "case01",
+      "title": "CarConcept: accepted car checkpoint",
+      "status": "frozen",
+      "checkpoint": "83ca4ec2e265e3d6c05bba95a7cbc6ba852966b8",
+      "assetIds": [
+        "primary-product",
+        "web-product-estuary-safe",
+        "refined-viewer-preview",
+        "qwen-imagery-source",
+        "qwen-imagery-first-result",
+        "qwen-imagery-seed42",
+        "qwen-imagery-seed12345"
+      ],
+      "runIds": [
+        "2026-10-26-sol-ground-contact",
+        "2026-10-26-sol-ground-finalization",
+        "2026-10-26-sol-material-diagnosis",
+        "2026-10-27-sol-qwen-imagery"
+      ],
+      "overviewPath": "research/case-studies/case01/README.md",
+      "intakePath": null
+    },
+    {
+      "id": "case02",
+      "title": "Astra + Blender: pending asset selection",
+      "status": "pending_asset",
+      "checkpoint": null,
+      "assetIds": [],
+      "runIds": [],
+      "overviewPath": "research/case-studies/case02/README.md",
+      "intakePath": "research/case-studies/case02/intake.json"
+    }
+  ]
+}

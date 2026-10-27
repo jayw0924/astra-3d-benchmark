@@ -276,6 +276,15 @@ h3 {
   background: #d7d7d4;
 }
 
+.ai-imagery-pair {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ai-imagery-pair .render-card > img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 .current-viewer-preview .render-card {
   max-width: 850px;
 }

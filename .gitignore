@@ -12,3 +12,5 @@ work/
 
 # Private local model-attribution evidence; publish hashes, not transcripts.
 research/runs/**/session.jsonl
+# Case-scoped private intake/provenance; never a public evidence directory.
+research/case-studies/**/private/

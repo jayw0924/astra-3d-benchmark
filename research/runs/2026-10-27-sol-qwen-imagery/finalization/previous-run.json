@@ -1,0 +1,321 @@
+{
+  "id": "2026-10-27-sol-qwen-imagery",
+  "title": "First Qwen AI-enhanced imagery — interpretive case01 retrospective registration",
+  "startedAt": "2026-10-27T19:25:38.312417+00:00",
+  "endedAt": "2026-10-27T19:25:38.368798+00:00",
+  "model": "Qwen Image 2.1 (embedded settings); Sol gpt-6.1-sol registration",
+  "provider": "Comfy Cloud (Jay manual UI); Sol openai-codex registration",
+  "interface": "Jay-operated Comfy Cloud; Sol prompt/guidance and local retrospective review",
+  "reasoningMode": "Not applicable to image diffusion; enhancer branch not selected",
+  "tools": [
+    "Comfy Cloud UI (Jay)",
+    "Pillow metadata inspection",
+    "terminal",
+    "file",
+    "native image visual review"
+  ],
+  "workPackage": "render",
+  "inputAssets": [
+    "primary-product",
+    "web-product-estuary-safe",
+    "qwen-imagery-source"
+  ],
+  "promptPath": "research/runs/2026-10-27-sol-qwen-imagery/prompt.md",
+  "outputPaths": [
+    "public/assets/study/ai-imagery/Qwen_image_2.1_00001.png",
+    "public/assets/study/ai-imagery/after-Carmine-side.png",
+    "research/runs/2026-10-27-sol-qwen-imagery/Qwen_image_2.1_00001.png",
+    "research/runs/2026-10-27-sol-qwen-imagery/after-Carmine-side.png",
+    "research/runs/2026-10-27-sol-qwen-imagery/archive.py",
+    "research/runs/2026-10-27-sol-qwen-imagery/before.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/case-index.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/continuation.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/continuation.md",
+    "research/runs/2026-10-27-sol-qwen-imagery/effective-positive.txt",
+    "research/runs/2026-10-27-sol-qwen-imagery/embedded-metadata.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/green-app.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/green-archive.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/green-e2e.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/lint.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/metadata.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/notes.md",
+    "research/runs/2026-10-27-sol-qwen-imagery/output-inventory.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/prompt.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/prompt.md",
+    "research/runs/2026-10-27-sol-qwen-imagery/public-app-build.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/public-e2e.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/red-app.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/red-archive.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/red-e2e.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/research-validate.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/strict-build.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/test.log",
+    "research/runs/2026-10-27-sol-qwen-imagery/verification.json",
+    "research/runs/2026-10-27-sol-qwen-imagery/verify.py",
+    "research/runs/2026-10-27-sol-qwen-imagery/workflow.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "public/assets/study/ai-imagery/Qwen_image_2.1_00001.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/after-Carmine-side.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/Qwen_image_2.1_00001.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/after-Carmine-side.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/archive.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/case-index.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/continuation.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/continuation.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/effective-positive.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/embedded-metadata.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/green-app.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/green-archive.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/green-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/metadata.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/prompt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/public-app-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/public-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/red-app.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/red-archive.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/red-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/research-validate.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/strict-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/test.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/verify.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-imagery/workflow.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "web-product-estuary-safe",
+          "qwen-imagery-source"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 0.056381,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Unknown original cloud generation cost/runtime. Schema interval measures retrospective archival registration only, not original generation or active/billed time."
+  },
+  "interventionLevel": 3,
+  "outcome": "partial",
+  "failureNotes": "Photographic improvement is subjective; wheel/tread reconstruction, trim/seam changes and synthesized grain limit fidelity. Input/output dimensions differ. Cloud input link is supervised UI/screenshot evidence, not independent upload-byte verification. Original execution time/job ID/cost unknown. Two additional manual generations are not executed.",
+  "reviewer": "Sol native-image technical review; Jay subjective approval of first-image report inclusion",
+  "publicSummary": "Case01 interpretive AI-enhanced imagery: Qwen generated the first image from the supervised original-input flow; Sol prompt/guidance, Jay manual UI execution. Not Astra image authorship or mesh/material improvement. Photographic appeal improves but wheels/tread, trim/seams and grain drift. Native 850×778 input and 864×768 output are not pixel aligned. Dates/elapsed interval denote retrospective registration only; original runtime/cost unknown. First image approved for report inclusion; two further manual generations planned, not executed."
+}

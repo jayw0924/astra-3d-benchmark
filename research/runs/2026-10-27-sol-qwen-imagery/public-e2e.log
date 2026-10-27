@@ -1,0 +1,18 @@
+
+> astra-3d-benchmark@0.1.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test tests/e2e/ai-imagery.spec.ts tests/e2e/release-assets.spec.ts
+
+
+Running 4 tests using 1 worker
+
+  ✓  1 [chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › AI imagery serves exact archived PNGs at native aspect ratios (6.1s)
+  ✓  2 [chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions (3.2s)
+  ✓  3 [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › AI imagery serves exact archived PNGs at native aspect ratios (6.4s)
+  ✓  4 [mobile-chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions (4.2s)
+
+  4 passed (22.5s)
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

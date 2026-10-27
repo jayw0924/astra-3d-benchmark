@@ -1,0 +1,30 @@
+✔ first Qwen image is archived losslessly with effective graph settings and case01 lineage (74.429459ms)
+✖ completed bounded comparison retains all four image identities, graph differences and historical inventory (0.317842ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 1
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 127.42308
+
+✖ failing tests:
+
+test at scripts/ai-imagery.test.mjs:50:1
+✖ completed bounded comparison retains all four image identities, graph differences and historical inventory (0.317842ms)
+  Error: ENOENT: no such file or directory, open 'research/runs/2026-10-27-sol-qwen-imagery/finalization/output-inventory.json'
+      at readFileSync (node:fs:620:20)
+      at json (file:///workspace/scripts/ai-imagery.test.mjs:8:35)
+      at TestContext.<anonymous> (file:///workspace/scripts/ai-imagery.test.mjs:51:21)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'research/runs/2026-10-27-sol-qwen-imagery/finalization/output-inventory.json'
+  }

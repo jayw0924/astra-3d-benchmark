@@ -1,0 +1,64 @@
+
+> astra-3d-benchmark@0.1.0 test:scripts
+> node --test scripts/*.test.mjs
+
+✔ first Qwen image is archived losslessly with effective graph settings and case01 lineage (100.75524ms)
+✔ completed bounded comparison retains all four image identities, graph differences and historical inventory (171.014222ms)
+✔ sorts public run summaries deterministically (42.49356ms)
+✔ rejects secret-bearing run records (27.232951ms)
+✔ does not count an unverified Astra model claim (41.183606ms)
+✔ does not count repeated Astra fields when the session export is invalid (34.600963ms)
+✔ Vercel builds the public app without requiring private session transcripts (6.724281ms)
+✔ refuses a download whose SHA-256 does not match (97.786651ms)
+✔ current explanatory copy uses static geometry-count terminology (7.293761ms)
+✔ pins the deterministic geometry toolchain explicitly (3.057338ms)
+✔ official validator parses the immutable Estuary control without errors (279.823866ms)
+✔ ships an exact upstream Basis-Universal-APACHE-2.0.txt copy (3.51766ms)
+✔ ships an exact upstream Basis-Universal-NOTICE.md copy (0.748119ms)
+✔ registers the exact native current viewer preview separately from historical renders (1.614572ms)
+✔ inspection commands distinguish current Safe runtime from historical control (0.566995ms)
+✔ historical handoffs explicitly stop Mobile reruns and link current lighting acceptance (6.609974ms)
+✔ reports exact geometry metrics for the integrated Estuary asset (298.637983ms)
+✔ rejects a project-relative symlink that escapes the project root (67.993124ms)
+✔ removes named trademark nodes from the written model (115.534527ms)
+✔ repository case index and pending intake validate without manufacturing evidence (46.351786ms)
+✔ rejects an entire case directory symlinked outside the repository (59.563349ms)
+✔ rejects duplicate cases (19.108705ms)
+✔ rejects unknown assets (17.29189ms)
+✔ rejects unknown runs (55.161542ms)
+✔ rejects pending evidence (16.588787ms)
+✔ rejects traversal (14.077044ms)
+✔ rejects absolute paths (14.184187ms)
+✔ rejects cross-case paths (47.500726ms)
+✔ rejects intake invented source ID (25.375318ms)
+✔ rejects intake unapproved promotion (17.992528ms)
+✔ rejects intake role substitution (15.065909ms)
+✔ rejects intake case mismatch (58.62514ms)
+✔ rejects intake missing budget field (14.67599ms)
+✔ rejects a run record whose identity differs from the linked directory (13.919886ms)
+✔ rejects invalid URI and date-time formats (149.179547ms)
+✔ rejects duplicate asset IDs (174.587658ms)
+✔ verifies byte count and SHA-256 for available assets (170.470341ms)
+✔ rejects unknown input assets, invalid timing, and missing output provenance (142.523065ms)
+✔ discovers nested run records and requires notes (173.936653ms)
+✔ rejects Astra attribution without persisted provider evidence (142.675483ms)
+✔ parses persisted Hermes session evidence instead of trusting repeated fields (175.146848ms)
+✔ requires evidence for a run-level Astra provenance claim (178.197864ms)
+✔ requires the run directory to match the run ID (141.373455ms)
+✔ rejects geometry reports that omit required measured metrics (178.768827ms)
+✔ rejects geometry reports for unknown assets (178.532389ms)
+✔ rejects geometry reports that do not identify the manifest asset bytes (138.246074ms)
+✔ rejects geometry reports whose measured values do not match the pinned GLB (543.206184ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4889.29049
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

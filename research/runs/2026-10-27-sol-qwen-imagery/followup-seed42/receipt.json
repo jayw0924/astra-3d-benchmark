@@ -1,0 +1,18 @@
+{
+  "recordedAtUtc": "2026-10-27T19:57:52.560337+00:00",
+  "outputFilename": "Qwen_image_2.1_seed42.png",
+  "originalReceivedFilename": "Qwen_image_2.1_00001.png",
+  "sha256": "2aa56bf1c84163a1c0b39e9584d7b1d69413a1dff63298fac5b0a081e76492dd",
+  "bytes": 872620,
+  "dimensions": [
+    864,
+    768
+  ],
+  "seed": 42,
+  "basis": "Embedded PNG execution metadata; user supplied after instructed retry. Not independent cloud execution authentication.",
+  "previousAttempt": "User reported intended seed42 failure: os.memfd_create missing; preserved separately.",
+  "jobId": null,
+  "cost": null,
+  "runtimeSeconds": null,
+  "firstOutputUnchanged": true
+}

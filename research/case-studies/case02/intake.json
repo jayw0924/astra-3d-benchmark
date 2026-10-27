@@ -1,0 +1,22 @@
+{
+  "caseId": "case02",
+  "status": "pending_asset",
+  "researchQuestion": "Can Astra use an editable Blender source to make one bounded, reproducible improvement on a different useful product asset while preserving semantic structure and browser delivery quality?",
+  "roles": {"author": "Astra", "verifier": "Sol", "approver": "Jay"},
+  "selectionApproval": "pending",
+  "sourcePageUrl": null,
+  "licenseEvidencePath": null,
+  "redistributionDecision": "pending",
+  "sourceBlendAssetId": null,
+  "baselineGlbAssetId": null,
+  "protocolPath": null,
+  "attemptBudget": null,
+  "preflight": {
+    "blender": "pending",
+    "texturesKtx2": "pending",
+    "variantsExtensions": "pending",
+    "immutableInputs": "pending",
+    "pairedTelemetry": "pending"
+  },
+  "promotion": "not_authorized"
+}
