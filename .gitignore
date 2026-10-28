@@ -14,3 +14,6 @@ work/
 research/runs/**/session.jsonl
 # Case-scoped private intake/provenance; never a public evidence directory.
 research/case-studies/**/private/
+
+# Wrangler local state
+.wrangler/

@@ -1,0 +1,9 @@
+# Weekly npm dependency updates. Security updates are enabled separately in the repo settings.
+# NOTE: every merge to main deploys astra.daedalwerks.com through Cloudflare Workers Builds.
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
