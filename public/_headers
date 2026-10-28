@@ -1,0 +1,17 @@
+# Security headers for every response served by the astra-3d-benchmark Worker (Workers Static Assets _headers).
+# CSP is strict (same-origin everything, no 'unsafe-inline') with ONE compromise, 'unsafe-eval' in script-src:
+#   script-src 'self' 'wasm-unsafe-eval' 'unsafe-eval'
+#       the app bundle is same-origin. The KTX2 (Basis) transcoder compiles WebAssembly, and its Emscripten/embind
+#       glue builds binding functions with `new Function(...)` inside the blob: worker, which inherits this page's
+#       policy, so without 'unsafe-eval' the 3D model never finishes loading (verified in Chrome). To drop it,
+#       the transcoder worker would have to be a same-origin file with its own CSP header instead of three's blob worker.
+#   worker-src 'self' blob:               three.js KTX2Loader runs transcoder Web Workers from a blob: URL
+#   img-src / connect-src blob: data:     GLTFLoader reads embedded textures through blob: URLs (ImageBitmap / fetch)
+#   style-src 'self'                      Vite emits one CSS file; React sets styles through the CSSOM, which CSP allows
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'unsafe-eval'; worker-src 'self' blob:; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: data:; media-src 'self'; manifest-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests
+  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), hid=(), magnetometer=(), microphone=(), midi=(), payment=(), publickey-credentials-get=(), serial=(), usb=(), xr-spatial-tracking=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
