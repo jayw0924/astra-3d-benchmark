@@ -1,0 +1,116 @@
+
+> astra-3d-benchmark@0.1.0 test
+> npm run test:unit && npm run test:scripts && npm run test:render-plan
+
+
+> astra-3d-benchmark@0.1.0 test:unit
+> vitest run
+
+
+ RUN  v5.0.5 /workspace
+
+
+ Test Files  7 passed (7)
+      Tests  44 passed (44)
+   Start at  23:09:35
+   Duration  8.32s (environment 50%, tests 38%, setup 7%, import 3%, transform 1%)
+
+Environment  jsdom was created 7 times · 3.81s total, 50% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
+
+> astra-3d-benchmark@0.1.0 test:scripts
+> node --test scripts/*.test.mjs
+
+✔ two-angle registration retains exact inputs, embedded graphs and separate public PNG identities (53.3495ms)
+✔ first Qwen image is archived losslessly with effective graph settings and case01 lineage (85.08599ms)
+✔ completed bounded comparison retains all four image identities, graph differences and historical inventory (161.928581ms)
+✔ sorts public run summaries deterministically (40.92435ms)
+✔ rejects secret-bearing run records (26.899201ms)
+✔ does not count an unverified Astra model claim (36.428741ms)
+✔ does not count repeated Astra fields when the session export is invalid (30.09947ms)
+✔ Vercel builds the public app without requiring private session transcripts (2.902062ms)
+✔ refuses a download whose SHA-256 does not match (84.656574ms)
+✔ current explanatory copy uses static geometry-count terminology (3.340695ms)
+✔ pins the deterministic geometry toolchain explicitly (3.028503ms)
+✔ official validator parses the immutable Estuary control without errors (270.547518ms)
+✔ four actual conditions have native public copies, reviewed metadata, source pins and case01-only lineage (58.355999ms)
+✔ independent pixel/graph checks retain exact repeat and protected core/edge invariants with cache caveat (1069.534714ms)
+✔ ships an exact upstream Basis-Universal-APACHE-2.0.txt copy (3.378517ms)
+✔ ships an exact upstream Basis-Universal-NOTICE.md copy (0.645906ms)
+✔ registers the exact native current viewer preview separately from historical renders (1.292756ms)
+✔ inspection commands distinguish current Safe runtime from historical control (3.776353ms)
+✔ historical handoffs explicitly stop Mobile reruns and link current lighting acceptance (6.704063ms)
+✔ reports exact geometry metrics for the integrated Estuary asset (299.257047ms)
+✔ rejects a project-relative symlink that escapes the project root (78.650656ms)
+✔ removes named trademark nodes from the written model (119.3927ms)
+✔ repository case index and pending intake validate without manufacturing evidence (76.10464ms)
+✔ rejects an entire case directory symlinked outside the repository (28.715011ms)
+✔ rejects duplicate cases (19.315959ms)
+✔ rejects unknown assets (49.20091ms)
+✔ rejects unknown runs (19.753719ms)
+✔ rejects pending evidence (18.147098ms)
+✔ rejects traversal (62.954634ms)
+✔ rejects absolute paths (20.73842ms)
+✔ rejects cross-case paths (18.868398ms)
+✔ rejects intake invented source ID (20.706649ms)
+✔ rejects intake unapproved promotion (49.742229ms)
+✔ rejects intake role substitution (16.569121ms)
+✔ rejects intake case mismatch (16.34244ms)
+✔ rejects intake missing budget field (17.6639ms)
+✔ rejects a run record whose identity differs from the linked directory (49.497384ms)
+✔ rejects invalid URI and date-time formats (172.196433ms)
+✔ rejects duplicate asset IDs (142.69027ms)
+✔ verifies byte count and SHA-256 for available assets (176.044272ms)
+✔ rejects unknown input assets, invalid timing, and missing output provenance (177.634923ms)
+✔ discovers nested run records and requires notes (146.20169ms)
+✔ rejects Astra attribution without persisted provider evidence (172.876696ms)
+✔ parses persisted Hermes session evidence instead of trusting repeated fields (179.995617ms)
+✔ requires evidence for a run-level Astra provenance claim (145.962986ms)
+✔ requires the run directory to match the run ID (174.520197ms)
+✔ rejects geometry reports that omit required measured metrics (185.874793ms)
+✔ rejects geometry reports for unknown assets (141.661256ms)
+✔ rejects geometry reports that do not identify the manifest asset bytes (173.30524ms)
+✔ rejects geometry reports whose measured values do not match the pinned GLB (518.199188ms)
+ℹ tests 50
+ℹ suites 0
+ℹ pass 50
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6174.621155
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
+
+> astra-3d-benchmark@0.1.0 test:render-plan
+> node --test research/runs/2026-10-20-sol-material-ab-render/*.test.mjs research/runs/2026-10-21-sol-geometry-baseline/*.test.mjs
+
+✔ blind handoff rejects candidate identity tokens and source paths (0.934455ms)
+✔ side close-up camera stays outside the surface using its actual world-space side (0.788858ms)
+✔ large secondary surfaces remain close enough to read as details (0.171476ms)
+✔ blind labels are deterministic, balanced, and do not leak candidate names (7.449479ms)
+✔ render plan uses identical exterior matrices and nine neutral close-ups per candidate (0.710319ms)
+✔ geometry baseline plan balances lineage views and isolates wireframe mode (1.174701ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 259.341423
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

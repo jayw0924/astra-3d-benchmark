@@ -1,0 +1,10 @@
+{
+  "reviewer": "Jay",
+  "statement": "i agree, this looks great",
+  "target": "composite-02.png",
+  "targetSha256": "96eda7c1547fb20084f7cd9123669821c656ff05c25a66d341b2f64efbef8599",
+  "decision": "Subjective visual approval of the protected-car composite with renderer-derived contact shadow",
+  "scope": "Approval of this candidate's appearance; pixel-preservation verification is separate technical evidence. Not physical relighting or general product-fidelity certification.",
+  "publicationAuthorized": false,
+  "additionalGenerationAuthorized": false
+}

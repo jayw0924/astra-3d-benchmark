@@ -1,0 +1,9 @@
+
+Running 4 tests using 1 worker
+
+  ✓  1 [chromium] › tests/e2e/imagery-followons.spec.ts:6:1 › completed imagery native assets, paired location hero and retained evidence render without GLB loading (20.1s)
+  ✓  2 [chromium] › tests/e2e/workflow-overview.spec.ts:6:1 › workflow explanation and six-stage index remain readable and linked (14.8s)
+  ✓  3 [mobile-chromium] › tests/e2e/imagery-followons.spec.ts:6:1 › completed imagery native assets, paired location hero and retained evidence render without GLB loading (22.3s)
+  ✓  4 [mobile-chromium] › tests/e2e/workflow-overview.spec.ts:6:1 › workflow explanation and six-stage index remain readable and linked (16.3s)
+
+  4 passed (1.3m)

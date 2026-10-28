@@ -1,0 +1,61 @@
+{
+  "status": "publish-ready locally; not committed, pushed or deployed",
+  "checks": {
+    "unitTestsPassed": 44,
+    "scriptTestsPassed": 51,
+    "renderPlanTestsPassed": 6,
+    "productionE2ETestsPassed": 10,
+    "protectedCompositeTestsPassed": 6,
+    "shadowTestsPassed": 2,
+    "registeredAssets": 38,
+    "registeredRuns": 34,
+    "newPublicPNGCount": 9,
+    "imagerySectionDecodedImageCount": 21,
+    "nativeArchiveCopiesVerified": 92,
+    "historicalFilesUnchanged": 2007,
+    "historicalChangedPaths": [],
+    "preexistingChangedPaths": [
+      "research/asset-manifest.json",
+      "research/case-studies/case01/README.md",
+      "research/case-studies/index.json",
+      "src/App.test.tsx",
+      "src/App.tsx",
+      "src/generated/study-data.json",
+      "src/styles.css",
+      "tests/e2e/ai-imagery.spec.ts"
+    ],
+    "case02ActualRuns": 0
+  },
+  "pixels": {
+    "repeat": {
+      "changedRGBPixels": 0,
+      "maxChannelDelta": 0,
+      "meanAbsoluteChannelDifference": 0.0,
+      "differenceBBox": null,
+      "decodedRGBAIdentical": true,
+      "executionGraphIdentical": true,
+      "editorGraphIdentical": false,
+      "fileBytesIdentical": false,
+      "freshSamplingProven": false,
+      "caveat": "Without executed/cached-node job history, fresh sampling versus Comfy cache reuse is unknown."
+    },
+    "protected": {
+      "protectedPixels": 107603,
+      "corePixels": 106452,
+      "boundaryPixels": 1151,
+      "changedProtectedPixels": 0,
+      "changedVs01": 11502,
+      "changedOutsideSupport": 0
+    }
+  },
+  "limits": [
+    "Visual approvals are not faithful-product, privacy or legal certification.",
+    "Cloud job IDs, time and billing including failed jobs unknown.",
+    "Cache versus fresh repeat sampling unknown.",
+    "No GLB load/heavy viewer matrix in this publication browser check.",
+    "Vite existing large-chunk warning remains; no dependency installation completed.",
+    "File-tool standalone TypeScript auto-lint attempted unrelated default settings/cache and errored; authoritative project lint/tsc/build and real browser tests passed."
+  ],
+  "evidence": "Actual command argv/start/exit records and logs in finalization; earlier work-packet logs unchanged. Discovery and file-tool edits are in the genuine session transcript, not reconstructed command events.",
+  "screenshots": "Initial screenshots retained. capture02 fixes inherited oversized captions after compact-red browser assertion (170px). Sticky site header hidden only via screenshot style to avoid element-capture overlay, not via an app change. Full location/protected desktop/mobile images actually inspected; all21 report images decoded with ratio/overflow checks."
+}

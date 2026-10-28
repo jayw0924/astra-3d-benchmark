@@ -1,0 +1,24 @@
+BROWSER debug [vite] connecting...
+BROWSER debug [vite] connected.
+PASS exact camera/model/mesh/material-name/caster parity; two explicit native frames, actual cached ShadowMaterial alpha. {
+  width: 850,
+  height: 778,
+  context: {
+    alpha: true,
+    antialias: true,
+    depth: true,
+    desynchronized: false,
+    failIfMajorPerformanceCaveat: false,
+    powerPreference: 'high-performance',
+    premultipliedAlpha: true,
+    preserveDrawingBuffer: false,
+    stencil: false,
+    xrCompatible: false
+  },
+  samples: 4,
+  toneMapping: 4,
+  exposure: 1.05,
+  outputColorSpace: 'srgb',
+  shadowType: 1,
+  shadowAutoUpdate: false
+}

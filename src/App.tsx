@@ -1,13 +1,52 @@
 import { lazy, Suspense } from 'react';
 import studyData from './generated/study-data.json';
+import ImageryFollowons from './components/ImageryFollowons';
 
 const Configurator = lazy(() => import('./components/Configurator'));
 
-const workPackages = [
-  ['01', 'Inspect', 'Verified asset hierarchy, materials, extensions, dimensions, and web risks.'],
-  ['02', 'Author', 'Two material candidates and a corrected Safe geometry derivative; failures retained.'],
-  ['03', 'Render', 'Thirty controlled browser renders with fixed, reproducible settings.'],
-  ['04', 'Integrate', 'The accepted Safe model in a tested desktop and mobile browser configurator.'],
+const workflowStages = [
+  {
+    title: 'Intake & sanitize',
+    flow: 'Licensed CarConcept → pinned source, inspected baseline and mark-node-removed web GLB.',
+    roles: 'glTF inspection and sanitize scripts; Sol baseline setup; Astra asset inspection. Original asset authors retain credit.',
+    status: 'Performed · reproducible derivative, not legal certification.',
+    href: '#geometry', evidence: 'Source lineage',
+  },
+  {
+    title: 'Material authoring',
+    flow: 'Sanitized GLB → Estuary and Fjord material candidates; Estuary selected by blind review.',
+    roles: 'Local glTF material/variant editing; Astra authoring; Sol controlled browser renders; Jay preference review.',
+    status: 'Performed · 30 historical comparison renders; no physical-material accuracy claim.',
+    href: '#output-title', evidence: 'Material comparison',
+  },
+  {
+    title: 'Geometry optimization',
+    flow: 'Estuary control → rejected Safe attempts → accepted FINAL Safe GLB.',
+    roles: 'Pinned non-Blender optimization toolchain; Astra direction; Sol fixed-view comparison, acceptance review and integration.',
+    status: 'Integrated locally · fixed-view acceptance, not measured runtime speedup.',
+    href: '#safe-result', evidence: 'Accepted Safe geometry',
+  },
+  {
+    title: 'Lighting & grounding',
+    flow: 'Accepted Safe GLB → refined browser lighting and corrected tire/ground contact; model/material bytes unchanged.',
+    roles: 'Three.js viewer, browser capture harness and tire-vertex receiver calculation; Sol authoring; Jay subjective review.',
+    status: 'Integrated locally · bundled presentation interventions, not isolated causal tests.',
+    href: '#configurator', evidence: 'Live viewer',
+  },
+  {
+    title: 'AI imagery',
+    flow: 'Original Carmine viewer captures → three side-seed and two angle interpretations; GLB unchanged.',
+    roles: 'Comfy Cloud / Qwen Image 2.1 template; Qwen generation; Sol guidance/review; Jay UI execution.',
+    status: 'Bounded comparison complete · fidelity unproven; cloud runtime/cost unknown.',
+    href: '#image-workflow-title', evidence: 'Image workflow & limits',
+  },
+  {
+    title: 'Completed image follow-ons',
+    flow: 'Original viewer sources → protected background/composite, original-seed repeat, Flux Kontext Pro and Qwen location results. Case 02: Blender-first, asset pending.',
+    roles: 'Comfy Cloud Qwen/Flux pixels; Sol coordination and deterministic local shadow composite; Jay UI operation and visual review. Engine streaming is deferred.',
+    status: 'Four follow-ons completed · visual approval is not fidelity certification; Case 02 not performed.',
+    href: '#ai-followons', evidence: 'Completed conditions & limits',
+  },
 ];
 
 const renderStudies = [
@@ -147,6 +186,8 @@ export default function App() {
             <p>Qwen Image 2.1 image generation; Sol prompt and guidance; Jay Comfy Cloud UI execution and review.
               This is generative image editing, not mesh or material improvement. The accepted 3D model is unchanged.</p>
           </div>
+          <ImageryFollowons />
+          <h3>Historical comparison · retained original evidence</h3>
           <h3>Side-view seed variation</h3>
           <div role="group" aria-label="Side-view seed variation" className="render-grid ai-imagery-pair">
             <article className="render-card">
@@ -172,6 +213,38 @@ export default function App() {
           <p className="geometry-note">Two additional successful outputs complete the bounded comparison; one reported cloud failure
             before the successful seed-42 retry is retained. No winner has been selected by Jay.
             Jay approved the first image for report inclusion, not blanket design fidelity. No more generation is authorized.</p>
+          <div className="image-workflow" role="group" aria-labelledby="image-workflow-title">
+            <h3 id="image-workflow-title">How the image was made</h3>
+            <p>In Comfy Cloud (ComfyUI), we adapted one existing image-edit template, “Image Edit (Qwen Image 2.1)”,
+              rather than building an image model or a new generation pipeline.</p>
+            <ol>
+              <li>Load a single original viewer image as the edit target; no generated result is fed into the next condition.</li>
+              <li>Apply Sol’s studio-photo instruction with prompt refinement off, then generate with Qwen Image 2.1.</li>
+              <li>Save the native PNG and compare it with the source. Jay operated the UI and reviewed the images;
+                Sol supplied prompt guidance and documented the comparison.</li>
+            </ol>
+            <p>The same template was adapted for three side-view seeds and two seed-42 camera-angle inputs:
+              not five independently designed workflows. The prompt and effective sampling settings stayed matched;
+              the seed or source view changed. These are independent image edits, not a shared 3D reconstruction.</p>
+            <figure className="workflow-screenshot">
+              <a href="/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png">
+                <img src="/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png"
+                  alt="Actual Comfy Cloud rear three-quarter workflow: load image, Qwen edit, save and compare"
+                  width="2400" height="1200" loading="lazy" />
+              </a>
+              <figcaption>Actual rear three-quarter Comfy Cloud session using the adapted Qwen Image 2.1 template:
+                Load Image → Image Edit → Save Image (Advanced) → Compare Images, with template notes.
+                This is an illustrative overview, not proof of precise settings or every run.
+                Small node text is not a substitute for retained machine-readable graphs and settings in the research records.{' '}
+                Screenshot credit: Jay’s actual session, ComfyUI interface; Sol coordinated the adaptation and publication.
+                Publication approval is not independent privacy or rights certification.{' '}
+                <a href="/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png">Open native workflow screenshot (2400 × 1200)</a>
+              </figcaption>
+            </figure>
+            <p>Upstream credit: <a href="https://github.com/Comfy-Org/workflow_templates">Comfy-Org workflow templates</a>
+              {' '}for the template family and <a href="https://huggingface.co/Comfy-Org/Qwen-Image-2.1">Qwen Image 2.1 model distribution</a>.
+              The Qwen team developed the image model, not this project. This adaptation is not Astra-authored image generation.</p>
+          </div>
           <details className="geometry-note">
             <summary>Technical settings, cloud failure and provenance limits</summary>
             <p>Embedded submitted graphs share the same original input reference and matching is_changed token, effective prompt,
@@ -219,8 +292,8 @@ export default function App() {
               with refinement off; LoadImage filename and change token differ. Tokens match measured local source hashes;
               cloud filenames do not. This corroborates the supervised input flow, not independently authenticated uploads.
               Cloud job IDs, actual generation time, cost and performance remain unknown.</p>
-            <p>All four follow-on conditions remain planned, not results: masked-background compositing, original-seed repeatability,
-              a second model, and location imagery. No further generation was performed for this publication.</p>
+            <p>The four follow-on conditions are now completed; see <a href="#ai-followons">completed conditions and limits</a>.
+              No new generation was performed during report finalization.</p>
           </div>
           <p className="geometry-note">Source CarConcept credits: Unity Fan, DGG and Eric Chadwick; historical Astra-directed
             Safe geometry and Sol viewer capture retained. Inherited CC BY 4.0 source attribution applies; the generated image is a disclosed interpretation.</p>
@@ -369,15 +442,29 @@ export default function App() {
             Jay approved grounding only: “yes tires feel planted”; this is not publication authorization.
             Historical desktop-before telemetry remains unavailable; mobile framing is cropped and sparse off-receiver pixel differences remain unexplained.
             Run: 2026-10-26-sol-ground-contact. Material diagnosis remains read-only; comparisons and candidates are pending.</p>
-          <ol className="method-list">
-            {workPackages.map(([number, title, copy]) => (
-              <li key={number}>
-                <span>{number}</span>
-                <h3>{title}</h3>
-                <p>{copy}</p>
-              </li>
-            ))}
-          </ol>
+          <div className="workflow-index" role="group" aria-labelledby="workflow-index-title">
+            <h3 id="workflow-index-title">Study-wide workflow index</h3>
+            <p>Six stages, not six generation workflows. Expand a stage for inputs, tools and roles;
+              the linked evidence and run log retain the detailed record.</p>
+            <ol>
+              {workflowStages.map((stage, index) => (
+                <li key={stage.title}>
+                  <div className="workflow-stage-heading"><span>0{index + 1}</span><h3>{stage.title}</h3></div>
+                  <div className="workflow-stage-body">
+                    <p><strong>Status</strong>{stage.status}</p>
+                    <details>
+                      <summary>Input, output, tools & roles</summary>
+                      <dl>
+                        <div><dt>Input → output</dt><dd>{stage.flow}</dd></div>
+                        <div><dt>Tools & roles</dt><dd>{stage.roles}</dd></div>
+                      </dl>
+                    </details>
+                    <a href={stage.href}>{stage.evidence} →</a>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </div>
           <div className="provenance-key" aria-label="Provenance categories">
             <h3>Four provenance lanes</h3>
             <p><strong>Sourced baseline</strong> — licensed external inputs.</p>

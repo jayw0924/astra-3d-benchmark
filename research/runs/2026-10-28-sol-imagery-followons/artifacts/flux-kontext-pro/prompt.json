@@ -1,0 +1,69 @@
+{
+  "83": {
+    "_meta": {
+      "cnr_id": "comfy-core",
+      "title": "Flux.1 Kontext [pro] Image",
+      "ver": "0.3.65"
+    },
+    "class_type": "FluxKontextProImageNode",
+    "inputs": {
+      "aspect_ratio": "850:778",
+      "guidance": 3.0,
+      "input_image": [
+        "84",
+        0
+      ],
+      "prompt": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle\u2019s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+      "prompt_upsampling": false,
+      "seed": 42,
+      "steps": 50
+    }
+  },
+  "84": {
+    "_meta": {
+      "cnr_id": "comfy-core",
+      "title": "Load Image",
+      "ver": "0.3.65"
+    },
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "69e92f11e6d8c4fcaa0d8405fcd1a24697f07cd4b5bc9fd3998fd93c11845714.png"
+    },
+    "is_changed": [
+      "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+    ]
+  },
+  "85": {
+    "_meta": {
+      "cnr_id": "comfy-core",
+      "title": "Save Image",
+      "ver": "0.3.65"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "83",
+        0
+      ]
+    }
+  },
+  "91": {
+    "_meta": {
+      "cnr_id": "comfy-core",
+      "title": "Stitch Images",
+      "ver": "0.3.65"
+    },
+    "class_type": "ImageStitch",
+    "inputs": {
+      "direction": "right",
+      "image1": [
+        "84",
+        0
+      ],
+      "match_image_size": true,
+      "spacing_color": "white",
+      "spacing_width": 8
+    }
+  }
+}

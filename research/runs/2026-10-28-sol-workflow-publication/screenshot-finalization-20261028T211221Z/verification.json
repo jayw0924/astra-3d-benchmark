@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-10-28T21:15:40.986017+00:00",
+  "protectedExistingFiles": 2063,
+  "changedProtectedFiles": [],
+  "unitTestsPassed": 43,
+  "scriptTestsPassed": 48,
+  "renderPlanTestsPassed": 6,
+  "productionE2ePassed": 6,
+  "assets": 29,
+  "runs": 33,
+  "newAssetsThisResume": 0,
+  "newExperiments": 0,
+  "sourceCopiesMatch": true,
+  "checks": [
+    "npm test",
+    "npm run lint",
+    "npm run research:validate",
+    "node scripts/validate-case-studies.mjs",
+    "npm run build",
+    "npm run build:app",
+    "production Playwright workflow-overview.spec.ts + ai-imagery.spec.ts (desktop/mobile)"
+  ],
+  "limits": [
+    "Screenshot implementation and registration already present on entry; no false new experiment claimed.",
+    "Earlier parent verification.json intentionally retained as historical blocker-era evidence; this additive record is current.",
+    "No independent privacy/rights certification; illustrative rear session not all-run settings proof.",
+    "Existing Vite >500kB chunk warning; standalone patch checker default TS flags incompatible, project build/lint passed.",
+    "No new generation, installation, commit, push or deployment."
+  ]
+}

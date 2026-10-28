@@ -1,0 +1,13 @@
+{
+  "snapshottedExistingFiles": 2145,
+  "changedExistingFiles": [],
+  "immutableBeforeSha256": "8b2aacb41095523a4962435ec9f152d2d314f26b85cac6cdeae5e207d954ee5a",
+  "gitHead": "702bf15bca32b5ba558216478270a587e5fc2c37",
+  "gitStatusAfter": " M research/asset-manifest.json\n M research/case-studies/index.json\n M scripts/ai-imagery.test.mjs\n M src/App.test.tsx\n M src/App.tsx\n M src/generated/study-data.json\n M src/styles.css\n?? public/assets/study/ai-imagery/workflow/\n?? research/runs/2026-10-28-sol-workflow-publication/\n?? tests/e2e/workflow-overview.spec.ts\n",
+  "versions": {
+    "python": "3.13.15",
+    "Pillow": "12.3.0",
+    "node": "v26.10.0"
+  },
+  "scope": "New ignored contact-shadow-02 only; no install, cloud job, app/GLB/report edit, commit, push or deploy."
+}

@@ -1,0 +1,20 @@
+
+> astra-3d-benchmark@0.1.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test tests/e2e/workflow-overview.spec.ts tests/e2e/ai-imagery.spec.ts
+
+
+Running 6 tests using 1 worker
+
+  ✓  1 [chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › two-angle group serves four native lossless PNGs without stretching or overflow (7.5s)
+  ✓  2 [chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios (4.8s)
+  ✓  3 [chromium] › tests/e2e/workflow-overview.spec.ts:6:1 › workflow explanation and six-stage index remain readable and linked (14.2s)
+  ✓  4 [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › two-angle group serves four native lossless PNGs without stretching or overflow (8.1s)
+  ✓  5 [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios (7.9s)
+  ✓  6 [mobile-chromium] › tests/e2e/workflow-overview.spec.ts:6:1 › workflow explanation and six-stage index remain readable and linked (12.4s)
+
+  6 passed (56.6s)
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,50 @@
+✖ four actual conditions have native public copies, reviewed metadata, source pins and case01-only lineage (0.75394ms)
+✖ independent pixel/graph checks retain exact repeat and protected core/edge invariants with cache caveat (12.644192ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 67.164779
+
+✖ failing tests:
+
+test at scripts/imagery-followons.test.mjs:9:1
+✖ four actual conditions have native public copies, reviewed metadata, source pins and case01-only lineage (0.75394ms)
+  Error: ENOENT: no such file or directory, open 'research/runs/2026-10-28-sol-imagery-followons/public-assets.json'
+      at readFileSync (node:fs:620:20)
+      at json (file:///workspace/scripts/imagery-followons.test.mjs:7:32)
+      at TestContext.<anonymous> (file:///workspace/scripts/imagery-followons.test.mjs:10:15)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'research/runs/2026-10-28-sol-imagery-followons/public-assets.json'
+  }
+
+test at scripts/imagery-followons.test.mjs:43:1
+✖ independent pixel/graph checks retain exact repeat and protected core/edge invariants with cache caveat (12.644192ms)
+  AssertionError [ERR_ASSERTION]: python: can't open file '/workspace/research/runs/2026-10-28-sol-imagery-followons/verify-pixels.py': [Errno 2] No such file or directory
+  
+  
+  2 !== 0
+  
+      at TestContext.<anonymous> (file:///workspace/scripts/imagery-followons.test.mjs:45:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

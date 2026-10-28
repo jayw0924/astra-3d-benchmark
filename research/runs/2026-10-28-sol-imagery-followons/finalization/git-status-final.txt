@@ -1,0 +1,19 @@
+ M research/asset-manifest.json
+ M research/case-studies/case01/README.md
+ M research/case-studies/index.json
+ M scripts/ai-imagery.test.mjs
+ M src/App.test.tsx
+ M src/App.tsx
+ M src/generated/study-data.json
+ M src/styles.css
+ M tests/e2e/ai-imagery.spec.ts
+?? public/assets/study/ai-imagery/followons/
+?? public/assets/study/ai-imagery/workflow/
+?? research/protocols/car-ai-imagery-followup-status.md
+?? research/runs/2026-10-28-sol-imagery-followons/
+?? research/runs/2026-10-28-sol-workflow-publication/
+?? scripts/imagery-followons.test.mjs
+?? src/ImageryFollowons.test.tsx
+?? src/components/ImageryFollowons.tsx
+?? tests/e2e/imagery-followons.spec.ts
+?? tests/e2e/workflow-overview.spec.ts

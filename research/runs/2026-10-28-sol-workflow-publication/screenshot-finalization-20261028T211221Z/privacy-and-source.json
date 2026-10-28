@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-10-28T21:13:55.573323+00:00",
+  "source": "work/comfy-workflow-rear.png",
+  "sha256": "c0917674942eee257e079beb3ce7729b747c8ea43cb9c3d55e2bda569dea388e",
+  "bytes": 520864,
+  "dimensions": [
+    2400,
+    1200
+  ],
+  "decoded": true,
+  "allMetadata": {
+    "Creation Time": "2026-10-28T10:19:25-0500",
+    "Software": "gnome-screenshot"
+  },
+  "exactCopies": [
+    "work/comfy-workflow-rear.png",
+    "research/runs/2026-10-28-sol-workflow-publication/source/comfy-workflow-rear.png",
+    "public/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png"
+  ],
+  "pixelsReview": "Full view plus native left/right halves: Load Image, Qwen Image Edit, Save Image Advanced, Compare Images, template notes, minimap. No obvious credentials, private account names, emails or private identifiers visible; avatar has no visible name. Small text requires native opening and is not machine-readable settings evidence.",
+  "limits": "Bounded human/assistant screening, not privacy/security/legal certification; rear session only, not every run. No crop/derivative created."
+}

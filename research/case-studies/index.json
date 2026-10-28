@@ -18,14 +18,25 @@
         "qwen-angle-front-source",
         "qwen-angle-front-generated-seed42",
         "qwen-angle-rear-source",
-        "qwen-angle-rear-generated-seed42"
+        "qwen-angle-rear-generated-seed42",
+        "imagery-followon-location",
+        "imagery-followon-flux",
+        "imagery-followon-repeat",
+        "imagery-followon-protected-source",
+        "imagery-followon-composite-01",
+        "imagery-followon-composite-02",
+        "imagery-followon-protection-mask",
+        "imagery-followon-empty-plate",
+        "imagery-followon-shadow-layer"
       ],
       "runIds": [
         "2026-10-26-sol-ground-contact",
         "2026-10-26-sol-ground-finalization",
         "2026-10-26-sol-material-diagnosis",
         "2026-10-27-sol-qwen-imagery",
-        "2026-10-27-sol-qwen-angle-comparison"
+        "2026-10-27-sol-qwen-angle-comparison",
+        "2026-10-28-sol-workflow-publication",
+        "2026-10-28-sol-imagery-followons"
       ],
       "overviewPath": "research/case-studies/case01/README.md",
       "intakePath": null

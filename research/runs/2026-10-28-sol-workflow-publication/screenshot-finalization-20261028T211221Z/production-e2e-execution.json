@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "npm",
+    "run",
+    "test:e2e",
+    "--",
+    "tests/e2e/workflow-overview.spec.ts",
+    "tests/e2e/ai-imagery.spec.ts"
+  ],
+  "baseURL": "http://127.0.0.1:4196",
+  "startedAt": "2026-10-28T21:16:29.387308+00:00",
+  "scope": "Final regenerated ledger build",
+  "exitCode": 0,
+  "endedAt": "2026-10-28T21:17:26.857889+00:00"
+}

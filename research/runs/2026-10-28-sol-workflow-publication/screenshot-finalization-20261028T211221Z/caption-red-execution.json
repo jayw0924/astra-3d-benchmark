@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "npx",
+    "vitest",
+    "run",
+    "src/App.test.tsx",
+    "-t",
+    "publishes the actual rear workflow"
+  ],
+  "startedAt": "2026-10-28T21:12:32.573605+00:00",
+  "exitCode": 1
+}

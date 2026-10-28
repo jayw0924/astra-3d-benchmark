@@ -1,0 +1,19 @@
+{
+  "label": "protected-six",
+  "argv": [
+    "env",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "work/ai-imagery-followup/protected-background",
+    "-p",
+    "test_composite.py"
+  ],
+  "cwd": "/home/jay/projects/external/configurator-demo (backend /workspace)",
+  "startedAt": "2026-10-28T23:10:36.878067+00:00",
+  "exitCode": 0,
+  "endedAt": "2026-10-28T23:10:37.096930+00:00"
+}

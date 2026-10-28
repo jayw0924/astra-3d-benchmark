@@ -1,0 +1,132 @@
+{
+  "qwen-location": {
+    "reference": "original side seed42 execution graph",
+    "completeDifferences": [
+      {
+        "path": "/459:484/inputs/on_false",
+        "before": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle\u2019s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+        "after": "Place the car from the reference image in a realistic automotive editorial photograph, parked on dry pavement outside a restrained modern concrete-and-glass building at dusk. Preserve the reference camera angle, vehicle silhouette, proportions, paint color, wheel design, headlights, windows, and panel seams. Keep the complete vehicle visible and stationary. Use soft dusk illumination, subtle warm light from the building, believable environmental reflections, and natural tire contact shadows. Keep the architecture understated and the background free of distracting objects. Do not add badges, emblems, logos, text, accessories, people, other vehicles, rain, motion blur, or vehicle design changes."
+      },
+      {
+        "path": "/459:500/inputs/prompt",
+        "before": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle\u2019s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+        "after": "Place the car from the reference image in a realistic automotive editorial photograph, parked on dry pavement outside a restrained modern concrete-and-glass building at dusk. Preserve the reference camera angle, vehicle silhouette, proportions, paint color, wheel design, headlights, windows, and panel seams. Keep the complete vehicle visible and stationary. Use soft dusk illumination, subtle warm light from the building, believable environmental reflections, and natural tire contact shadows. Keep the architecture understated and the background free of distracting objects. Do not add badges, emblems, logos, text, accessories, people, other vehicles, rain, motion blur, or vehicle design changes."
+      }
+    ],
+    "effectivePrompt": "Place the car from the reference image in a realistic automotive editorial photograph, parked on dry pavement outside a restrained modern concrete-and-glass building at dusk. Preserve the reference camera angle, vehicle silhouette, proportions, paint color, wheel design, headlights, windows, and panel seams. Keep the complete vehicle visible and stationary. Use soft dusk illumination, subtle warm light from the building, believable environmental reflections, and natural tire contact shadows. Keep the architecture understated and the background free of distracting objects. Do not add badges, emblems, logos, text, accessories, people, other vehicles, rain, motion blur, or vehicle design changes.",
+    "sampler": {
+      "cfg": 1.0,
+      "denoise": 1.0,
+      "latent_image": [
+        "459:468",
+        0
+      ],
+      "model": [
+        "459:469",
+        0
+      ],
+      "negative": [
+        "459:474",
+        1
+      ],
+      "positive": [
+        "459:474",
+        0
+      ],
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "seed": 42,
+      "steps": 25
+    },
+    "promptRefinement": false,
+    "sourceToken": [
+      "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+    ],
+    "limit": "Metadata corroboration, not authenticated cloud upload/execution/cost history."
+  },
+  "protected-background/received-background-01": {
+    "reference": "original side seed42 execution graph",
+    "completeDifferences": [
+      {
+        "path": "/459:484/inputs/on_false",
+        "before": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle\u2019s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+        "after": "Using the reference only to match camera viewpoint, floor perspective, framing and soft neutral studio illumination, create an empty automotive photography studio background plate. Remove the car completely, including all wheels, reflections of the car and its cast shadow. Leave the entire former car area as clean continuous empty studio space. Use a seamless light warm-gray cyclorama and matte neutral floor, a subtle soft tonal gradient, and broad diffuse softbox-style illumination compatible with the reference. Keep the same viewpoint and a quiet, low-contrast neutral studio treatment. No vehicle, people, props, architecture details, text, logos, dramatic lighting or outdoor scenery. Do not create a new car. Return only the empty background image."
+      },
+      {
+        "path": "/459:500/inputs/prompt",
+        "before": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle\u2019s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+        "after": "Using the reference only to match camera viewpoint, floor perspective, framing and soft neutral studio illumination, create an empty automotive photography studio background plate. Remove the car completely, including all wheels, reflections of the car and its cast shadow. Leave the entire former car area as clean continuous empty studio space. Use a seamless light warm-gray cyclorama and matte neutral floor, a subtle soft tonal gradient, and broad diffuse softbox-style illumination compatible with the reference. Keep the same viewpoint and a quiet, low-contrast neutral studio treatment. No vehicle, people, props, architecture details, text, logos, dramatic lighting or outdoor scenery. Do not create a new car. Return only the empty background image."
+      },
+      {
+        "path": "/470/inputs/image",
+        "before": "69e92f11e6d8c4fcaa0d8405fcd1a24697f07cd4b5bc9fd3998fd93c11845714.png",
+        "after": "1426d7bd20d25bb90dbfe3dfeb6ab394f6a1758763e7f127b54d85c90a588698.png"
+      },
+      {
+        "path": "/470/is_changed",
+        "before": [
+          "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+        ],
+        "after": [
+          "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+        ]
+      }
+    ],
+    "effectivePrompt": "Using the reference only to match camera viewpoint, floor perspective, framing and soft neutral studio illumination, create an empty automotive photography studio background plate. Remove the car completely, including all wheels, reflections of the car and its cast shadow. Leave the entire former car area as clean continuous empty studio space. Use a seamless light warm-gray cyclorama and matte neutral floor, a subtle soft tonal gradient, and broad diffuse softbox-style illumination compatible with the reference. Keep the same viewpoint and a quiet, low-contrast neutral studio treatment. No vehicle, people, props, architecture details, text, logos, dramatic lighting or outdoor scenery. Do not create a new car. Return only the empty background image.",
+    "sampler": {
+      "cfg": 1.0,
+      "denoise": 1.0,
+      "latent_image": [
+        "459:468",
+        0
+      ],
+      "model": [
+        "459:469",
+        0
+      ],
+      "negative": [
+        "459:474",
+        1
+      ],
+      "positive": [
+        "459:474",
+        0
+      ],
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "seed": 42,
+      "steps": 25
+    },
+    "promptRefinement": false,
+    "sourceToken": [
+      "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+    ],
+    "limit": "Metadata corroboration, not authenticated cloud upload/execution/cost history."
+  },
+  "flux-kontext-pro": {
+    "actualNode": {
+      "_meta": {
+        "cnr_id": "comfy-core",
+        "title": "Flux.1 Kontext [pro] Image",
+        "ver": "0.3.65"
+      },
+      "class_type": "FluxKontextProImageNode",
+      "inputs": {
+        "aspect_ratio": "850:778",
+        "guidance": 3.0,
+        "input_image": [
+          "84",
+          0
+        ],
+        "prompt": "Turn this rendered car into a realistic automotive studio photograph. Preserve the vehicle\u2019s existing design, silhouette, proportions, paint color, wheels, headlights, windows, panel seams, and camera angle. Use a neutral studio setting with large softbox reflections, believable paint and glass, and natural tire contact shadows. Do not redesign the car or add text, logos, accessories, or extra parts.",
+        "prompt_upsampling": false,
+        "seed": 42,
+        "steps": 50
+      }
+    },
+    "sourceToken": [
+      "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+    ],
+    "limit": "Different service graph, requested sizing not actual output sizing; seed42 across models is not paired randomness."
+  }
+}

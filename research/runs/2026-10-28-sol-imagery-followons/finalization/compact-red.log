@@ -1,0 +1,38 @@
+
+Running 1 test using 1 worker
+
+  ✘  1 [chromium] › tests/e2e/imagery-followons.spec.ts:6:1 › completed imagery native assets, paired location hero and retained evidence render without GLB loading (18.9s)
+
+
+  1) [chromium] › tests/e2e/imagery-followons.spec.ts:6:1 › completed imagery native assets, paired location hero and retained evidence render without GLB loading 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 140
+    Received:   170
+
+      52 |   for (const details of await report.locator('details').all()) await details.evaluate((node) => { (node as HTMLDetailsElement).open = false; });
+      53 |   await hero.scrollIntoViewIfNeeded();
+    > 54 |   expect(await hero.locator('figcaption').first().evaluate((node) => node.getBoundingClientRect().height)).toBeLessThan(140);
+         |                                                                                                            ^
+      55 |   await hero.screenshot({ path: `${base}/finalization/capture02/location-${test.info().project.name}.png`, style: '.site-header { visibility: hidden !important; }' });
+      56 |   const protectedResult = report.getByRole('group', { name: 'Protected product comparison' });
+      57 |   await protectedResult.screenshot({ path: `${base}/finalization/capture02/protected-${test.info().project.name}.png`, style: '.site-header { visibility: hidden !important; }' });
+        at /workspace/tests/e2e/imagery-followons.spec.ts:54:108
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/imagery-followons-complete-0d3e7--render-without-GLB-loading-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/imagery-followons-complete-0d3e7--render-without-GLB-loading-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/imagery-followons-complete-0d3e7--render-without-GLB-loading-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/imagery-followons-complete-0d3e7--render-without-GLB-loading-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/e2e/imagery-followons.spec.ts:6:1 › completed imagery native assets, paired location hero and retained evidence render without GLB loading 

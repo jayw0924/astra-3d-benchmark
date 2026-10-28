@@ -3,6 +3,54 @@ import { describe, expect, it } from 'vitest';
 import App from './App';
 
 describe('App', () => {
+  it('publishes the actual rear workflow screenshot with native same-origin access', () => {
+    render(<App />);
+    const workflow = screen.getByRole('group', { name: 'How the image was made' });
+    const image = within(workflow).getByRole('img', { name: 'Actual Comfy Cloud rear three-quarter workflow: load image, Qwen edit, save and compare' });
+    const path = '/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png';
+    expect(image).toHaveAttribute('src', path);
+    expect(image).toHaveAttribute('width', '2400');
+    expect(image).toHaveAttribute('height', '1200');
+    expect(image.closest('a')).toHaveAttribute('href', path);
+    expect(within(workflow).getByText(/small node text.*retained machine-readable graphs/i)).toBeVisible();
+    expect(within(workflow).getByText(/screenshot credit:.*ComfyUI interface.*not.*rights certification/i)).toBeVisible();
+    expect(within(workflow).getByRole('link', { name: 'Open native workflow screenshot (2400 × 1200)' })).toHaveAttribute('href', path);
+    expect(within(workflow).getByText(/overview, not proof of precise settings or every run/i)).toBeVisible();
+  });
+  it('indexes six study stages with inputs, tools, roles, status and real evidence anchors', () => {
+    render(<App />);
+    const index = screen.getByRole('group', { name: 'Study-wide workflow index' });
+    const stages = within(index).getAllByRole('listitem');
+    expect(stages).toHaveLength(6);
+    expect(stages.map((stage) => within(stage).getByRole('heading', { level: 3 }).textContent)).toEqual([
+      'Intake & sanitize', 'Material authoring', 'Geometry optimization', 'Lighting & grounding', 'AI imagery', 'Completed image follow-ons',
+    ]);
+    for (const stage of stages) {
+      for (const label of ['Input → output', 'Tools & roles', 'Status']) {
+        expect(within(stage).getByText(label, { exact: true })).toBeInTheDocument();
+      }
+      for (const link of within(stage).getAllByRole('link')) {
+        const href = link.getAttribute('href')!;
+        expect(href.startsWith('#')).toBe(true);
+        expect(document.getElementById(href.slice(1))).not.toBeNull();
+      }
+    }
+    expect(stages[4]).toHaveTextContent('Qwen generation; Sol guidance/review; Jay UI execution');
+    expect(stages[5]).toHaveTextContent('Four follow-ons completed');
+    expect(stages[5]).toHaveTextContent('Case 02: Blender-first');
+  });
+  it('explains the adapted image workflow before technical details without claiming original model authorship', () => {
+    render(<App />);
+    const workflow = screen.getByRole('group', { name: 'How the image was made' });
+    expect(within(workflow).getByText(/one existing image-edit template/i)).toBeVisible();
+    expect(within(workflow).getByText(/single original viewer image/i)).toBeVisible();
+    expect(within(workflow).getByText(/prompt refinement off/i)).toBeVisible();
+    expect(within(workflow).getByText(/not five independently designed workflows/i)).toBeVisible();
+    expect(within(workflow).getByRole('link', { name: 'Comfy-Org workflow templates' })).toHaveAttribute('href', 'https://github.com/Comfy-Org/workflow_templates');
+    expect(within(workflow).getByText(/Qwen team.*not this project/i)).toBeVisible();
+    const details = screen.getByText('Technical settings, cloud failure and provenance limits');
+    expect(workflow.compareDocumentPosition(details) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+  });
   it('separates the complete bounded Qwen comparison from 3D results', () => {
     render(<App />);
     const section = screen.getByRole('region', { name: 'AI-enhanced imagery' });
@@ -17,12 +65,12 @@ describe('App', () => {
       expect(within(angles).getByRole('img', { name: `${angle} three-quarter Qwen interpretation · seed 42` })).toHaveAttribute('width', '864');
     }
     expect(within(angles).getByText(/not evidence of coherent 3D/)).toBeVisible();
-    expect(within(angles).getByText(/All four follow-on conditions remain planned/)).toBeVisible();
+    expect(within(angles).getByText(/The four follow-on conditions are now completed/)).toBeVisible();
     expect(within(section).getByRole('img', { name: 'Qwen interpretation · seed 42' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_seed42.png');
     expect(within(section).getByRole('img', { name: 'Qwen interpretation · seed 12345' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png');
     expect(within(section).getByText(/Two additional successful outputs/)).toBeVisible();
     expect(within(section).getByText(/No winner has been selected/)).toBeVisible();
-    expect(within(section).getByText(/seed 891836227295375/)).toBeVisible();
+    expect(within(section).getByRole('heading', { name: 'First interpretation · seed 891836227295375 · 864×768' })).toBeVisible();
     expect(within(section).getByText(/Qwen Image 2.1 image generation; Sol prompt and guidance; Jay/)).toBeVisible();
     expect(within(section).getByText(/not an aligned pixel comparison/)).toBeVisible();
   });

@@ -1,0 +1,32 @@
+{
+  "sourceSha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+  "maskSha256": "d5eac49265b0c1b1987c02a17fc8c0265123af66a62407795c4f58ce2f6e0f8d",
+  "backgroundSha256": "d6e1ed83870024bab30eb66457907d75e3580ccab2526538a14e2c912eea4f2c",
+  "outputSha256": "9230f828ad8d6b824defe1b486aba3739ce8849a883b412343ac207ac4613c4c",
+  "backgroundTransform": {
+    "policy": "cover",
+    "originalSize": [
+      864,
+      768
+    ],
+    "nominalUniformScale": 1.0130208333333333,
+    "resizedSize": [
+      876,
+      778
+    ],
+    "effectiveScale": [
+      1.0138888888888888,
+      1.0130208333333333
+    ],
+    "cropBox": [
+      13,
+      0,
+      863,
+      778
+    ],
+    "resampling": "Pillow LANCZOS; background only; integer rounding disclosed"
+  },
+  "protectedChangedPixels": 0,
+  "boundaryPolicy": "Every native raster sample with nonzero coverage is fully protected. No feathering/blending; antialiased source edge includes original backdrop spill.",
+  "technicalSelftestOnly": false
+}

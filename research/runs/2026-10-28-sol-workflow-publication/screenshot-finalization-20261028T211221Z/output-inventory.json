@@ -1,0 +1,150 @@
+{
+  "scope": "Additive finalization exact inventory; excludes itself and mutable parent ledger/projection",
+  "files": [
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/before.json",
+      "bytes": 404343,
+      "sha256": "db6008e6fc7f80aea09a4e54c76ff9a9397291c74f0a9d897c9330e23857e9c9"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/caption-red-execution.json",
+      "bytes": 198,
+      "sha256": "09f433449e5e1bd1918dcb5cafacb4f22f9d50e15a13b2bb6c60c3695ff48d2b"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/caption-red.log",
+      "bytes": 5127,
+      "sha256": "63c980b03e73c1dadb7bb4a4270176d2c69a9871d67ceb0439639212e93c42d2"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/case-index-execution.json",
+      "bytes": 211,
+      "sha256": "f57dc61779067bf59f07eadccee72f3c6ced3e8cda416c97f8a4c022b57d3037"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/case-index.log",
+      "bytes": 70,
+      "sha256": "41f426fddd05fcf66a22acda9fbffd641ed65037a96b0f98372580600a3be3cf"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/lint-execution.json",
+      "bytes": 192,
+      "sha256": "7844e777ff32388a391e09963643893221fb067cadf78c954f2304d9f5d3abda"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/lint.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/notes.md",
+      "bytes": 1199,
+      "sha256": "1a9e0c159fdb2a9035e0d1a04005f59d2c8f4ef60fc7cb32e3de35d0ff636900"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/previous-notes.md",
+      "bytes": 4573,
+      "sha256": "86fbc59ecfb3acee56d1ba5cf4b1817537c3bc83a9b56cc32bbfab60262411e2"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/previous-output-inventory.json",
+      "bytes": 4678,
+      "sha256": "c58b847cd8e4540051b6d39c469c14b4e4c9bf321d81790f38051b899cbd7633"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/previous-run.json",
+      "bytes": 18140,
+      "sha256": "521e6c569b127b6f727c6228ec73830b1ca284c8e5000c8a90c7e44ee53bac22"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/previous-screenshot-output-inventory.json",
+      "bytes": 7268,
+      "sha256": "6c31c3c08c34bfd09c8806b44c57ff624a77703442024ab4693e746e632469a9"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/previous-verification.json",
+      "bytes": 1425,
+      "sha256": "ea5a2a1f7d502407507b555d7fcee35e36c844e59684136a42324113f9a5a561"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/privacy-and-source.json",
+      "bytes": 1094,
+      "sha256": "d9da764e271bcfce5748f4b6e3d790eb989ff46886d3c39f6c9e25c883c6ecc5"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/production-e2e-execution.json",
+      "bytes": 345,
+      "sha256": "8c5f647613f445ecee6d64094526c3187e622c307d2d89db005db62e83e6f31d"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/production-e2e.log",
+      "bytes": 1296,
+      "sha256": "69efec4efae0215a284de94599c96ff6e6f01a2365cf611fbdeceafaac5e8287"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/production-server.log",
+      "bytes": 39,
+      "sha256": "91b1ffccda17686bf83eaab9db528571f19b36449fd06e36b120e8ead7a92632"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/prompt.md",
+      "bytes": 545,
+      "sha256": "1ab4fcbfc87aa3886f770ea8d3a3b8bc3fb01442c98661408d56d83c373e876d"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/public-build-execution.json",
+      "bytes": 174,
+      "sha256": "54a786a44d287e47a03bd58597d45335d346110a9adcfd3afd36e824c9a9f9e1"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/public-build.log",
+      "bytes": 1220,
+      "sha256": "2964d5f2f1cc1da7394bbe5b12b0494f1c4745c4e80e415b225454763906a937"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/screenshot-production-chromium.png",
+      "bytes": 180254,
+      "sha256": "216e9fc73c605937a6239367dfef29c3c82617ed8260b4dea7422b9e35830320"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/screenshot-production-mobile-chromium.png",
+      "bytes": 288148,
+      "sha256": "f9e128dc80a8932bf52f652b9da37dfde4778b2c1e7f983fcacca96de597d8e7"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/strict-build-execution.json",
+      "bytes": 170,
+      "sha256": "33ff5c607c59e3eda7f3fce74cd8e608c809269e5c4a5105c7a99d1722477c54"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/strict-build.log",
+      "bytes": 1744,
+      "sha256": "9c83b8cfb7e4eafd54b5a5988a36ce0d2a02bbf9e9bdb96eb3db7a99e34ed50c"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/tests-execution.json",
+      "bytes": 181,
+      "sha256": "8776f877731734590d01a7c962ec5de67dd02cf5bdd8c14c7949ece88fbb581a"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/tests.log",
+      "bytes": 5802,
+      "sha256": "00960ad7369505266c5fba1c333f970b5790912c82c5e6ea40205d5b320b0aa8"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/validate-execution.json",
+      "bytes": 205,
+      "sha256": "06c18d81d069f90e3ba896c2dc02923444a76406dce51dd13ad8efc7f8f556dd"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/validate.log",
+      "bytes": 340,
+      "sha256": "7386e20f36e86c3ed54162c63ab17f00572657cbfa06662b4384f4a4de59fe82"
+    },
+    {
+      "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-finalization-20261028T211221Z/verification.json",
+      "bytes": 1171,
+      "sha256": "e4b38f338c1d9c59e232ddeb078911b78033f924deb8e210ba22cd0c6fb6b6dc"
+    }
+  ]
+}

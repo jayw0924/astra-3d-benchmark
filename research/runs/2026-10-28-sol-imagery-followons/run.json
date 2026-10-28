@@ -1,0 +1,1915 @@
+{
+  "id": "2026-10-28-sol-imagery-followons",
+  "title": "Four completed car imagery follow-ons: protected composite, exact-seed repeat, Flux and featured Qwen location",
+  "startedAt": "2026-10-28T23:07:14.858537+00:00",
+  "endedAt": "2026-10-28T23:07:15.023848+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Sol retrospective local registration of Jay-operated Comfy Cloud outputs; not authenticated cloud execution history",
+  "reasoningMode": "Not independently recorded",
+  "tools": [
+    "Comfy Cloud (Jay UI)",
+    "Qwen Image 2.1",
+    "Flux Kontext Pro",
+    "Python Pillow",
+    "Three.js",
+    "terminal",
+    "file"
+  ],
+  "workPackage": "render",
+  "inputAssets": [
+    "primary-product",
+    "web-product-estuary-safe",
+    "qwen-imagery-source",
+    "qwen-angle-front-source"
+  ],
+  "promptPath": "research/runs/2026-10-28-sol-imagery-followons/prompt.md",
+  "outputPaths": [
+    "research/runs/2026-10-28-sol-imagery-followons/archive-inventory.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/car-front-three-quarter.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/car-rear-three-quarter.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/original-output.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/prompt.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/receipt.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/workflow.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/README.md",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/boundary-mask.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/capture-mask.mjs",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/capture.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite-01.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite-01.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite.py",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/README.md",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/artifact-inventory.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble-retry-01.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble.py",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture-retry-01.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture-shadow.mjs",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/commands.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/comparison-source-01-02.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/composite-02.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/fitted-background.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/immutable-before.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/regression-original-six.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/regression-shadow-two.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/scope-verification.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-layer-effective.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-layer.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-overlay.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow.py",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/source-diagnostic.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-green-01.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-green-02.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-red-01.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-red-02.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test_shadow.py",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/user-approval.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/verification.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/core-mask.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/coverage-render.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/harness.html",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/inspect-overlay.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/mask-provenance.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/mask.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/material-audit.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/prepare-mask.py",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/original-qwen-background.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/prompt.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/receipt.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/workflow.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/scope-before.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/scope-verification.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/source-rerender.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/source.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/technical-selftest-identity.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/technical-selftest-identity.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/test_composite.py",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/original-output.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/prompt.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/receipt.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/user-approval.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/workflow.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/comparison.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/prompt.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/repeat-original-seed.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/workflow.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/capture.mjs",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/commands.jsonl",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/errors.jsonl",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/final-file-inventory.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-command.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-pose.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-readback-recovery.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-runtime-instrumentation.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/index.html",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/preflight.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-command.log",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-pose.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-runtime-instrumentation.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear.png",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/source-manifest.json",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/verify-and-package.py",
+    "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-diagnostic.json",
+    "research/runs/2026-10-28-sol-imagery-followons/conditions.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/app-build-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/app-build.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/assets-red.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/before.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/location-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/location-mobile-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/protected-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/protected-mobile-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/screenshot-production-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/screenshot-production-mobile-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index-retry-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index-retry.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/compact-red-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/compact-red.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/finalize-imagery-discovery.py",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/git-status-before.txt",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/git-status-final.txt",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/hero-green-02.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/hero-green.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/hero-red.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/historical-evidence-before.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-final-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-final.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-initial-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-initial.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/location-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/location-mobile-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/log-imagery-command.py",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/notes.md",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/output-inventory.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e-final-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e-final.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-mobile-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-six-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-six.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/register-imagery-followons.py",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/screenshot-production-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/screenshot-production-mobile-chromium.png",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/shadow-two-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/shadow-two.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build-final-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build-final.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-final-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-final.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-initial-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-initial.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/tests.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/validate-initial-execution.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/validate-initial.log",
+    "research/runs/2026-10-28-sol-imagery-followons/finalization/verification.json",
+    "research/runs/2026-10-28-sol-imagery-followons/finalize-publication.py",
+    "research/runs/2026-10-28-sol-imagery-followons/graph-comparisons.json",
+    "research/runs/2026-10-28-sol-imagery-followons/inputs/Qwen_image_2.1_00001.png",
+    "research/runs/2026-10-28-sol-imagery-followons/inputs/after-Carmine-side.png",
+    "research/runs/2026-10-28-sol-imagery-followons/notes.md",
+    "research/runs/2026-10-28-sol-imagery-followons/pixel-verification.json",
+    "research/runs/2026-10-28-sol-imagery-followons/privacy-review.json",
+    "research/runs/2026-10-28-sol-imagery-followons/prompt.md",
+    "research/runs/2026-10-28-sol-imagery-followons/public-assets.json",
+    "research/runs/2026-10-28-sol-imagery-followons/verify-graphs.py",
+    "research/runs/2026-10-28-sol-imagery-followons/verify-pixels.py",
+    "public/assets/study/ai-imagery/followons/location.png",
+    "public/assets/study/ai-imagery/followons/flux.png",
+    "public/assets/study/ai-imagery/followons/repeat.png",
+    "public/assets/study/ai-imagery/followons/protected-source.png",
+    "public/assets/study/ai-imagery/followons/composite-01.png",
+    "public/assets/study/ai-imagery/followons/composite-02.png",
+    "public/assets/study/ai-imagery/followons/protection-mask.png",
+    "public/assets/study/ai-imagery/followons/empty-plate.png",
+    "public/assets/study/ai-imagery/followons/shadow-layer.png"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/archive-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/car-front-three-quarter.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/car-rear-three-quarter.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/original-output.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/prompt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/receipt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/workflow.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/README.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/boundary-mask.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/capture-mask.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/capture.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite-01.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite-01.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/README.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/artifact-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble-retry-01.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture-retry-01.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture-shadow.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/commands.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/comparison-source-01-02.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/composite-02.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/fitted-background.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/immutable-before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/regression-original-six.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/regression-shadow-two.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/scope-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-layer-effective.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-layer.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-overlay.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/source-diagnostic.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-green-01.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-green-02.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-red-01.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-red-02.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test_shadow.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/user-approval.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/core-mask.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/coverage-render.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/harness.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/inspect-overlay.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/mask-provenance.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/mask.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/material-audit.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/prepare-mask.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/original-qwen-background.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/prompt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/receipt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/workflow.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/scope-before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/scope-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/source-rerender.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/source.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/technical-selftest-identity.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/technical-selftest-identity.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/test_composite.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/original-output.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/prompt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/receipt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/user-approval.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/workflow.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/comparison.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/prompt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/repeat-original-seed.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/workflow.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/commands.jsonl",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/errors.jsonl",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/final-file-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-command.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-pose.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-readback-recovery.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-runtime-instrumentation.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/preflight.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-command.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-pose.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-runtime-instrumentation.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/source-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/verify-and-package.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-diagnostic.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/conditions.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/app-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/app-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/assets-red.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/location-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/location-mobile-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/protected-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/protected-mobile-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/screenshot-production-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/capture02/screenshot-production-mobile-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index-retry-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/case-index.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/compact-red-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/compact-red.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/finalize-imagery-discovery.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/git-status-before.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/git-status-final.txt",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/hero-green-02.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/hero-green.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/hero-red.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/historical-evidence-before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-final-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-initial-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/lint-initial.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/location-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/location-mobile-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/log-imagery-command.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e-final-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/production-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-mobile-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-six-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/protected-six.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/register-imagery-followons.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/screenshot-production-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/screenshot-production-mobile-chromium.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/shadow-two-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/shadow-two.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build-final-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/strict-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-final-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-final.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-initial-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/tests-initial.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/tests.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/validate-initial-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/validate-initial.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalization/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/finalize-publication.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/graph-comparisons.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/inputs/Qwen_image_2.1_00001.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/inputs/after-Carmine-side.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/pixel-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/privacy-review.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/public-assets.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/verify-graphs.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-imagery-followons/verify-pixels.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/location.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/flux.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/repeat.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/protected-source.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/composite-01.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/composite-02.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/protection-mask.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/empty-plate.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/followons/shadow-layer.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 0.165311,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Cloud charges/runtime and failed-job billing unknown; ledger interval is retrospective registration only, not generation or active time."
+  },
+  "interventionLevel": 3,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Visual/editorial completion, not faithful-product certification. Floating01 retained; shadow repair local only. Flux emblem and view/design drift. Repeat cache/fresh-sampling unknown. No new cloud jobs.",
+  "reviewer": "Jay visual approvals and emblem observation; Sol technical checks, separate from fidelity/legal certification",
+  "publicSummary": "Four actual follow-ons completed: visually approved Qwen location and pixel-protected composite02; Flux photographic gain with invented emblem/design drift; original-seed repeat has identical decoded pixels but fresh sampling versus cache unknown. Sol coordination/local compositing, Jay cloud UI/review, Qwen/Flux pixels. Retrospective registration only; cloud runtime/cost unknown. Case02 unperformed; GLB unchanged."
+}

@@ -1,0 +1,10 @@
+ M research/asset-manifest.json
+ M research/case-studies/index.json
+ M scripts/ai-imagery.test.mjs
+ M src/App.test.tsx
+ M src/App.tsx
+ M src/generated/study-data.json
+ M src/styles.css
+?? public/assets/study/ai-imagery/workflow/
+?? research/runs/2026-10-28-sol-workflow-publication/
+?? tests/e2e/workflow-overview.spec.ts

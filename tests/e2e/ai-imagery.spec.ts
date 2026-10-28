@@ -27,7 +27,7 @@ test('two-angle group serves four native lossless PNGs without stretching or ove
     expect(createHash('sha256').update(bytes).digest('hex')).toBe(entry.sha256);
   }
   await expect(group.getByText(/not evidence of coherent 3D/)).toBeVisible();
-  await expect(group.getByText(/All four follow-on conditions remain planned/)).toBeVisible();
+  await expect(group.getByText(/The four follow-on conditions are now completed/)).toBeVisible();
 });
 
 test('AI imagery serves exact archived PNGs at native aspect ratios', async ({ page, request }) => {

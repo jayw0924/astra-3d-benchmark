@@ -1,0 +1,26 @@
+{
+  "sourceSha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+  "maskSha256": "d5eac49265b0c1b1987c02a17fc8c0265123af66a62407795c4f58ce2f6e0f8d",
+  "backgroundSha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+  "outputSha256": "e9c71c2f178ae7364072f6f7395a324309693d315313f12a808646e3765d880e",
+  "backgroundTransform": {
+    "policy": "strict",
+    "originalSize": [
+      850,
+      778
+    ],
+    "resizedSize": [
+      850,
+      778
+    ],
+    "cropBox": [
+      0,
+      0,
+      850,
+      778
+    ]
+  },
+  "protectedChangedPixels": 0,
+  "boundaryPolicy": "Every native raster sample with nonzero coverage is fully protected. No feathering/blending; antialiased source edge includes original backdrop spill.",
+  "technicalSelftestOnly": true
+}

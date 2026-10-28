@@ -52,7 +52,7 @@ test('completed bounded comparison retains all four image identities, graph diff
   assert.equal(inventory.displayedImageCount, 4);
   assert.deepEqual(readFileSync(`${base}/output-inventory.json`), readFileSync(`${base}/finalization/previous-output-inventory.json`));
   const manifest = json('research/asset-manifest.json');
-  assert.equal(manifest.assets.filter((a) => a.localPath.startsWith('public/assets/study/ai-imagery/') && !a.localPath.includes('/angles/')).length, 4);
+  assert.equal(manifest.assets.filter((a) => a.localPath.startsWith('public/assets/study/ai-imagery/') && a.localPath.split('/').length === 5).length, 4);
   const first = json(`${base}/prompt.json`);
   for (const [seed, expectedHash, bytes] of [
     [42, '2aa56bf1c84163a1c0b39e9584d7b1d69413a1dff63298fac5b0a081e76492dd', 872620],

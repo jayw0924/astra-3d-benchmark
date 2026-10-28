@@ -1,0 +1,554 @@
+[
+  {
+    "source": "work/ai-imagery-followup/car-front-three-quarter.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/car-front-three-quarter.png",
+    "bytes": 273749,
+    "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+  },
+  {
+    "source": "work/ai-imagery-followup/car-rear-three-quarter.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/car-rear-three-quarter.png",
+    "bytes": 251711,
+    "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15"
+  },
+  {
+    "source": "work/ai-imagery-followup/flux-kontext-pro/original-output.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/original-output.png",
+    "bytes": 1079545,
+    "sha256": "d6e2fabf684871007c8471a6d2379ddbe7a8e6cf45b791610d91d0cfe3e41f1d"
+  },
+  {
+    "source": "work/ai-imagery-followup/flux-kontext-pro/prompt.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/prompt.json",
+    "bytes": 1772,
+    "sha256": "61c12f4c4907ad2ab11fab58432fc3a999a77e786ce8cc54769207f259397e18"
+  },
+  {
+    "source": "work/ai-imagery-followup/flux-kontext-pro/receipt.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/receipt.json",
+    "bytes": 258,
+    "sha256": "59c05ade83b3a2fe2991fe67a015fb3553593f97bcd7302a70be81fcc36d29c4"
+  },
+  {
+    "source": "work/ai-imagery-followup/flux-kontext-pro/workflow.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/workflow.json",
+    "bytes": 15807,
+    "sha256": "f22a7f0afaf45fc667e251409dca57939d5570ae8949fb3c160ec37d63ceeec3"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/README.md",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/README.md",
+    "bytes": 9624,
+    "sha256": "daee8fb4f1ba1ff9e247c1c2c627089dec8611382c3c3cd85533195c216e5106"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/boundary-mask.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/boundary-mask.png",
+    "bytes": 2518,
+    "sha256": "876eb8465c08a343a5a089c5b0765c996b7fc84c84832c5697bbadf5942a40bb"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/capture-mask.mjs",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/capture-mask.mjs",
+    "bytes": 5402,
+    "sha256": "65d5a699123ac0e0ccbe6061dd333a0f299e179f820ccdc7058f553f85a5619b"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/capture.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/capture.json",
+    "bytes": 80163,
+    "sha256": "fc164a13a8903b6af10eb9a9291b69bdc96b77621c9b5176ebc61c9d70e439c5"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/composite-01.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite-01.json",
+    "bytes": 1015,
+    "sha256": "1e948083078ae293afe00f6500b977db416ccf1be81fcf0defa89dcdef505146"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/composite-01.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite-01.png",
+    "bytes": 582812,
+    "sha256": "9230f828ad8d6b824defe1b486aba3739ce8849a883b412343ac207ac4613c4c"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/composite.py",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite.py",
+    "bytes": 3579,
+    "sha256": "5daf5fd4dc8e18bf5ae43a5df8656b0f0260fca497f408ff47dccdf374ca70e4"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/README.md",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/README.md",
+    "bytes": 8408,
+    "sha256": "c951f7f45c4eca5012e8e9c5865223eb0e6215083f9a1d3650ae4fa16e169345"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/artifact-inventory.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/artifact-inventory.json",
+    "bytes": 4120,
+    "sha256": "cd3f6ec4de20a285b49cf91c06c97a71ddfe823ca16f9921b37638e44bdf39e2"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/assemble-retry-01.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble-retry-01.log",
+    "bytes": 3011,
+    "sha256": "496de3c0c526f7003776a9dacf1bad30d3aea3c657783a23a92cd3831ca09ecd"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/assemble.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble.log",
+    "bytes": 220,
+    "sha256": "d929040d56ee6869d32e787b080f36f9d70a55333e9879b9ce3db668f2ea4a87"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/assemble.py",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/assemble.py",
+    "bytes": 4938,
+    "sha256": "b1e932a3aed7784106ba300785e1dff1a1316217bab0af18b6d45dea95421ee4"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/capture-retry-01.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture-retry-01.log",
+    "bytes": 633,
+    "sha256": "6477f7da4529d2e1fc6c304184dc6a92d906ed37ab7c064948e454b8454a4abf"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/capture-shadow.mjs",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture-shadow.mjs",
+    "bytes": 7004,
+    "sha256": "68f19f07c61d89ac3cd7cc8db3977ce1beab7b947953e8c1cbc39c2721d0684d"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/capture.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture.json",
+    "bytes": 75037,
+    "sha256": "d2438d41988a788000940f6f9546641f9ee283ab5653163af3110890deeae589"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/capture.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/capture.log",
+    "bytes": 1149,
+    "sha256": "42323230b1287476c2a1a3a87280b0594f349942f11ab612c709e339caa6a23d"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/commands.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/commands.json",
+    "bytes": 4918,
+    "sha256": "87b0edaa64cee852004a2f0f3100ccd3a7f2adf3e7515cc12b968783fc16d711"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/comparison-source-01-02.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/comparison-source-01-02.png",
+    "bytes": 679482,
+    "sha256": "25056aba33b6de833c31f1cfbc4a0c1e4e73f4065ca1a1b4b80159bef3bd6740"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/composite-02.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/composite-02.png",
+    "bytes": 589791,
+    "sha256": "96eda7c1547fb20084f7cd9123669821c656ff05c25a66d341b2f64efbef8599"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/fitted-background.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/fitted-background.png",
+    "bytes": 478335,
+    "sha256": "eb1db480ba70da089030ca4ad5ec876848bb736a49530d74b1643698a3455292"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/immutable-before.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/immutable-before.json",
+    "bytes": 335029,
+    "sha256": "8b2aacb41095523a4962435ec9f152d2d314f26b85cac6cdeae5e207d954ee5a"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/regression-original-six.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/regression-original-six.log",
+    "bytes": 104,
+    "sha256": "540e151a687be84381245821a27ae0c613ef9b3f863a5bf8fd02e955d73375b5"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/regression-shadow-two.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/regression-shadow-two.log",
+    "bytes": 100,
+    "sha256": "a6707d4eff38012da33ddc34bc6dc076a3b17151cfc9aef223c8790cbe64c3da"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/scope-verification.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/scope-verification.json",
+    "bytes": 788,
+    "sha256": "eb5d86158fc07b8301c3e117972a97c0ff6ca164f27b570e7a7efbdddc03e728"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/shadow-layer-effective.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-layer-effective.png",
+    "bytes": 11049,
+    "sha256": "734becc79cb8d113f21c45ff9c42004a8281bd8768f2668f452370b9cac6048a"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/shadow-layer.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-layer.png",
+    "bytes": 33751,
+    "sha256": "8d67856eb4e233cf6d450438274b14133383c34ed6767f6734e43496840d5015"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/shadow-overlay.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-overlay.png",
+    "bytes": 584486,
+    "sha256": "fdcb31e0402c2f33ad19fb29d1b1ae9a1e156f1c4704b4a0c8db958ef13ff109"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/shadow.py",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow.py",
+    "bytes": 911,
+    "sha256": "6e772ceb0fe2db69966032ea1d7e21e3ec78280265edb154d43806a1ae7b7a90"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/source-diagnostic.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/source-diagnostic.png",
+    "bytes": 273722,
+    "sha256": "51e81edb9290a638aaf1833be669d7567e315a921c162270f4c3468afeb76cdf"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/test-green-01.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-green-01.log",
+    "bytes": 670,
+    "sha256": "b5fe62becee4d0b04fcfc1ac2a025477f491a85cc1e9e1aef4d08466c214b732"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/test-green-02.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-green-02.log",
+    "bytes": 100,
+    "sha256": "a6707d4eff38012da33ddc34bc6dc076a3b17151cfc9aef223c8790cbe64c3da"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/test-red-01.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-red-01.log",
+    "bytes": 872,
+    "sha256": "8fe939e5e07a535c4518acedc2762363836ec9bc832179707f2aae110a5f2731"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/test-red-02.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test-red-02.log",
+    "bytes": 1002,
+    "sha256": "4806534431245ab6c76ed4bdd8246a052a0ad90dd88ceb4af1e34f3e57febc82"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/test_shadow.py",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/test_shadow.py",
+    "bytes": 916,
+    "sha256": "5384dbc10b66a1a5dd90240f00954d9dd86b0b1aee50e1604185b0c237436fb1"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/user-approval.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/user-approval.json",
+    "bytes": 561,
+    "sha256": "893ae3b3fb838b91e60c863223aa924ec147dd48f44dd0f705f1fe4141153645"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/contact-shadow-02/verification.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/verification.json",
+    "bytes": 3011,
+    "sha256": "496de3c0c526f7003776a9dacf1bad30d3aea3c657783a23a92cd3831ca09ecd"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/core-mask.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/core-mask.png",
+    "bytes": 2691,
+    "sha256": "26a7be7182663144d7d130bdb0c5cb362371e4347e14c2187ee8b37832e0b818"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/coverage-render.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/coverage-render.png",
+    "bytes": 21589,
+    "sha256": "090e6394be54ccae6f70d392d2015b49fe2b22079a65925916a4c2e87e55d006"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/harness.html",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/harness.html",
+    "bytes": 488,
+    "sha256": "e46c1d847e01323dc00585b5a8c64926eee164b2b5b36ccd0748b231bcb79311"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/inspect-overlay.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/inspect-overlay.png",
+    "bytes": 169591,
+    "sha256": "bca9128da681aa459f1daa4392a291a6913d49674c6e8299374b2249661eeada"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/mask-provenance.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/mask-provenance.json",
+    "bytes": 677,
+    "sha256": "290baabf8bbd2322fa693a57313a15df6efb8bc2b3d6884af4dd911071d1d855"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/mask.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/mask.png",
+    "bytes": 2668,
+    "sha256": "d5eac49265b0c1b1987c02a17fc8c0265123af66a62407795c4f58ce2f6e0f8d"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/material-audit.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/material-audit.json",
+    "bytes": 84403,
+    "sha256": "2dd3b5b297e18e1524a73dd588a23fcabe7ee006056108f1aa2b9926bec88279"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/prepare-mask.py",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/prepare-mask.py",
+    "bytes": 1673,
+    "sha256": "81f4945a8aa91d18bc422c69d72a98c1b72bbe8f5c68c8bc6b4e7076285076ed"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/received-background-01/original-qwen-background.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/original-qwen-background.png",
+    "bytes": 612161,
+    "sha256": "d6e1ed83870024bab30eb66457907d75e3580ccab2526538a14e2c912eea4f2c"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/received-background-01/prompt.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/prompt.json",
+    "bytes": 17740,
+    "sha256": "dfe7a8440c6beffdc0838c1c3b4b9df15aa976f61dc3920efed5b5853a2c024c"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/received-background-01/receipt.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/receipt.json",
+    "bytes": 263,
+    "sha256": "5c123a88110d4247447296984fb6dd41bdda4786e27f036f87c74eb8f80384e9"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/received-background-01/workflow.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/workflow.json",
+    "bytes": 98327,
+    "sha256": "e5b62a1abeec4aa79a84158d83fd4ab137bcf000a2d206a40e91f444b42c198b"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/scope-before.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/scope-before.json",
+    "bytes": 330688,
+    "sha256": "0783c2e583e0cdcbd8328e2d7040eab2725af7dc97ec591c12d7b5da0f883b21"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/scope-verification.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/scope-verification.json",
+    "bytes": 193,
+    "sha256": "81ec8413d27c86bb8c65ef2b0ed8bb869fc3245f738127075af6b2f038714938"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/source-rerender.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/source-rerender.png",
+    "bytes": 273722,
+    "sha256": "51e81edb9290a638aaf1833be669d7567e315a921c162270f4c3468afeb76cdf"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/source.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/source.png",
+    "bytes": 273749,
+    "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/technical-selftest-identity.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/technical-selftest-identity.json",
+    "bytes": 804,
+    "sha256": "518e7402ec5697ffc63851ab55e8c618b3f8176023c07337eb5e83c4430bab8d"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/technical-selftest-identity.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/technical-selftest-identity.png",
+    "bytes": 186336,
+    "sha256": "e9c71c2f178ae7364072f6f7395a324309693d315313f12a808646e3765d880e"
+  },
+  {
+    "source": "work/ai-imagery-followup/protected-background/test_composite.py",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/test_composite.py",
+    "bytes": 1665,
+    "sha256": "3821912c1a63eda51e08802dbafa5e578bd2f64055f814be328341c71f0a235f"
+  },
+  {
+    "source": "work/ai-imagery-followup/qwen-location/original-output.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/original-output.png",
+    "bytes": 1062092,
+    "sha256": "752fedb6c920ca04e4a98e4fd66740c35f29f5ad2f3c3b5435de07995049475b"
+  },
+  {
+    "source": "work/ai-imagery-followup/qwen-location/prompt.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/prompt.json",
+    "bytes": 17626,
+    "sha256": "94598197db64ead13963e77eb04b3fc98ba8c84ab35f98d00deb9d7e5e33daaa"
+  },
+  {
+    "source": "work/ai-imagery-followup/qwen-location/receipt.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/receipt.json",
+    "bytes": 257,
+    "sha256": "e16d9503b79146e97b63e8baaae90dc8c823e563a57f2de09201546af6550782"
+  },
+  {
+    "source": "work/ai-imagery-followup/qwen-location/user-approval.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/user-approval.json",
+    "bytes": 440,
+    "sha256": "40fae75394f0263d9c91ccf7450653c95147dc7ec4d1f7fba38b1bab561f1bd2"
+  },
+  {
+    "source": "work/ai-imagery-followup/qwen-location/workflow.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/workflow.json",
+    "bytes": 98215,
+    "sha256": "d352e3fc787007cf3ca6fd7a3552f3e66bf46a7b7c9eb44dcbc2c21947c2b858"
+  },
+  {
+    "source": "work/ai-imagery-followup/repeatability-original-seed/comparison.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/comparison.json",
+    "bytes": 840,
+    "sha256": "ae876bb3c87d798984fa4a43d138a8209edc83c3e24cad0feb391457b14cb785"
+  },
+  {
+    "source": "work/ai-imagery-followup/repeatability-original-seed/prompt.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/prompt.json",
+    "bytes": 17064,
+    "sha256": "eb90b009375f6d4f561961f2555b2b482b786fc6e8e640995d0670aa6ed1325c"
+  },
+  {
+    "source": "work/ai-imagery-followup/repeatability-original-seed/repeat-original-seed.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/repeat-original-seed.png",
+    "bytes": 881269,
+    "sha256": "b734db7e01d2d632b8b83239b3165753d3e6907483e9fcdc9fbdbd57d338157b"
+  },
+  {
+    "source": "work/ai-imagery-followup/repeatability-original-seed/workflow.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/workflow.json",
+    "bytes": 97652,
+    "sha256": "71fbd7d23c77a48046c1a3d709f35db3d5e518f3d8381b3976be3afa95be26da"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/capture.mjs",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/capture.mjs",
+    "bytes": 9988,
+    "sha256": "e749af5439db73fcf00ee526385ba21c731a481a3a8876df26a89b19226fedeb"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/commands.jsonl",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/commands.jsonl",
+    "bytes": 1785,
+    "sha256": "0f4faddb0579fb69c4cc9da31f1a79c59218c320f69a6376df25ddf69852142b"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/errors.jsonl",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/errors.jsonl",
+    "bytes": 39369,
+    "sha256": "b419c90d41053d29843086b06f145f9d16dd8f273e97832c68026d13b94634f1"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/final-file-inventory.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/final-file-inventory.json",
+    "bytes": 1629,
+    "sha256": "835863f0e8445c3dd1a3c30ef7e72f0d7fde7acb10240f47bf60b4ebacd0c66a"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-command.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-command.log",
+    "bytes": 209328,
+    "sha256": "92a52bdd3918843e6829881d947a120438b2009ffd4ad8b11ed7238fb107bee4"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-pose.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-pose.json",
+    "bytes": 1892,
+    "sha256": "be3553e476d9e717b3db0d230d4a288b12cd906b92fc8f547938568a01880fd0"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-readback-recovery.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-readback-recovery.json",
+    "bytes": 487,
+    "sha256": "f9ae99d4873e8d266ecadb3169f7d226e711b03f82f084c9f45ba0b36084ce6f"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-runtime-instrumentation.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front-runtime-instrumentation.json",
+    "bytes": 379,
+    "sha256": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front.json",
+    "bytes": 181860,
+    "sha256": "215b4089d638fdbd06bccc3d9b3043f5c7b49320d5a0ea99e8ef1ab675d10cbc"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/front.png",
+    "bytes": 273749,
+    "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/index.html",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/index.html",
+    "bytes": 3006,
+    "sha256": "a85139e6175ebfb4459ec1acf11d9c9f9c74af0ce9e9ee1669b6b0b723cc6761"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/preflight.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/preflight.json",
+    "bytes": 301677,
+    "sha256": "e4fc404ec8db577e43574333971e1f169612489ff6a70edb93a36a14508ac20e"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear-command.log",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-command.log",
+    "bytes": 188,
+    "sha256": "6d3df3fee52b82c74030c7d8e92993d1aef6a13830540a569875e723a1b98611"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear-pose.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-pose.json",
+    "bytes": 1878,
+    "sha256": "0b3de9330bbb6ccfaa2b0dfe85be05b2549a090e89c8ee51cc828fcf3929fc85"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear-runtime-instrumentation.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear-runtime-instrumentation.json",
+    "bytes": 379,
+    "sha256": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear.json",
+    "bytes": 181845,
+    "sha256": "035c3baad78be898229ef1111481fec22bc925d5a7faf4cdd49488ee2dd8ca0f"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/rear.png",
+    "bytes": 251711,
+    "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/source-manifest.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/source-manifest.json",
+    "bytes": 7773,
+    "sha256": "c24d89c23a1e8765c5ca304ac01de2110e0215bbb0fb804eccf7a9803abab5a2"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/verify-and-package.py",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-captures/2026-10-27-current-carmine-two-angles/verify-and-package.py",
+    "bytes": 5573,
+    "sha256": "56979817f91500e50ce5695f92b685beee92a3ddd303b296056baf7a4b5a9ae7"
+  },
+  {
+    "source": "work/ai-imagery-followup/source-diagnostic.json",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/artifacts/source-diagnostic.json",
+    "bytes": 8223,
+    "sha256": "f9fa37a61a8a7e2a3af8bac6187e967ac297a13664ab7bc3e298850b0fe1f4a1"
+  },
+  {
+    "source": "research/runs/2026-10-27-sol-qwen-imagery/after-Carmine-side.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/inputs/after-Carmine-side.png",
+    "bytes": 315200,
+    "sha256": "79adecb53eddb16c5d7eb6478d8ef1ad0e6f0e68dc78d6d06eef0c59f017b252"
+  },
+  {
+    "source": "research/runs/2026-10-27-sol-qwen-imagery/Qwen_image_2.1_00001.png",
+    "archive": "research/runs/2026-10-28-sol-imagery-followons/inputs/Qwen_image_2.1_00001.png",
+    "bytes": 881194,
+    "sha256": "a8276bf9432f8d8d3b4fdfee189a7801333749608a9f2ab3a8c7647f796f9e03"
+  }
+]

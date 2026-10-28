@@ -1,0 +1,25 @@
+{
+  "receivedAtUtc": "2026-10-28T22:38:12.833162+00:00",
+  "originalSha256": "a8276bf9432f8d8d3b4fdfee189a7801333749608a9f2ab3a8c7647f796f9e03",
+  "repeatSha256": "b734db7e01d2d632b8b83239b3165753d3e6907483e9fcdc9fbdbd57d338157b",
+  "originalDimensions": [
+    864,
+    768
+  ],
+  "repeatDimensions": [
+    864,
+    768
+  ],
+  "executionGraphDifferences": [],
+  "jobId": null,
+  "cost": null,
+  "runtimeSeconds": null,
+  "changedRGBPixels": 0,
+  "maxChannelDelta": 0,
+  "meanAbsoluteChannelDifference": 0.0,
+  "differenceBBox": null,
+  "decodedRGBAIdentical": true,
+  "embeddedExecutionPromptIdentical": true,
+  "editorWorkflowMetadataIdentical": false,
+  "interpretationLimit": "Identical decoded output and submitted graph are observed. Without job history/cache-hit evidence this does not prove a fresh sampling computation occurred."
+}

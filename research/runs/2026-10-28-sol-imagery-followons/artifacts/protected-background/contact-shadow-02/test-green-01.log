@@ -1,0 +1,9 @@
+/workspace/work/ai-imagery-followup/protected-background/contact-shadow-02/shadow.py:7: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  if any(r or g or b for r,g,b,a in layer.getdata()):
+/workspace/work/ai-imagery-followup/protected-background/contact-shadow-02/test_shadow.py:10: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  self.assertEqual(list(out.getdata()),[(200,180,160),(160,144,128)])
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK

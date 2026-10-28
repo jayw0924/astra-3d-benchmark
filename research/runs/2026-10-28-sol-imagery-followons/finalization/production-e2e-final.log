@@ -1,0 +1,15 @@
+
+Running 10 tests using 1 worker
+
+  ✓   1 [chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › two-angle group serves four native lossless PNGs without stretching or overflow (7.8s)
+  ✓   2 [chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios (5.9s)
+  ✓   3 [chromium] › tests/e2e/imagery-followons.spec.ts:6:1 › completed imagery native assets, paired location hero and retained evidence render without GLB loading (18.6s)
+  ✓   4 [chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions (2.8s)
+  ✓   5 [chromium] › tests/e2e/workflow-overview.spec.ts:6:1 › workflow explanation and six-stage index remain readable and linked (13.5s)
+  ✓   6 [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › two-angle group serves four native lossless PNGs without stretching or overflow (8.3s)
+  ✓   7 [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios (7.7s)
+  ✓   8 [mobile-chromium] › tests/e2e/imagery-followons.spec.ts:6:1 › completed imagery native assets, paired location hero and retained evidence render without GLB loading (17.4s)
+  ✓   9 [mobile-chromium] › tests/e2e/release-assets.spec.ts:5:1 › release images and licenses retain exact bytes and native dimensions (2.8s)
+  ✓  10 [mobile-chromium] › tests/e2e/workflow-overview.spec.ts:6:1 › workflow explanation and six-stage index remain readable and linked (12.7s)
+
+  10 passed (1.7m)

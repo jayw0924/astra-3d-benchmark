@@ -1,0 +1,18 @@
+{
+  "label": "production-e2e",
+  "argv": [
+    "env",
+    "BASE_URL=http://127.0.0.1:4178",
+    "WORKFLOW_EVIDENCE_DIR=research/runs/2026-10-28-sol-imagery-followons/finalization",
+    "PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright",
+    "node",
+    "node_modules/@playwright/test/cli.js",
+    "test",
+    "tests/e2e/imagery-followons.spec.ts",
+    "tests/e2e/workflow-overview.spec.ts"
+  ],
+  "cwd": "/home/jay/projects/external/configurator-demo (backend /workspace)",
+  "startedAt": "2026-10-28T23:10:48.216013+00:00",
+  "exitCode": 0,
+  "endedAt": "2026-10-28T23:12:04.250747+00:00"
+}

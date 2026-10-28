@@ -1,0 +1,40 @@
+{
+  "registrationOnly": true,
+  "registeredAt": "2026-10-28T23:07:14.858537+00:00",
+  "cloudJobId": null,
+  "cloudRuntimeSeconds": null,
+  "cloudCost": null,
+  "freshSamplingProven": false,
+  "conditions": [
+    {
+      "id": "protected-background",
+      "status": "completed",
+      "cloudOutputsReceived": 1,
+      "source": "front three-quarter, not planned side",
+      "result": "composite02 visual approval; zero protected changes; composite01 floating failure retained",
+      "approval": "artifacts/protected-background/contact-shadow-02/user-approval.json"
+    },
+    {
+      "id": "original-seed-repeat",
+      "status": "completed",
+      "cloudOutputsReceived": 1,
+      "source": "original side",
+      "result": "identical decoded RGBA and execution graph; cache versus fresh sampling unknown"
+    },
+    {
+      "id": "second-model",
+      "status": "completed",
+      "cloudOutputsReceived": 1,
+      "source": "original side",
+      "result": "Flux Kontext Pro; photographic gain but camera/design drift and invented emblem; not a strict model-only comparison"
+    },
+    {
+      "id": "location",
+      "status": "completed",
+      "cloudOutputsReceived": 1,
+      "source": "original side",
+      "result": "Qwen concrete/glass building on dry pavement; Jay visual approval, fidelity unproven",
+      "approval": "artifacts/qwen-location/user-approval.json"
+    }
+  ]
+}

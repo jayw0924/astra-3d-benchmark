@@ -1,0 +1,491 @@
+{
+  "id": "2026-10-28-sol-workflow-publication",
+  "title": "Public workflow explanation, six-stage index and actual rear-session screenshot",
+  "startedAt": "2026-10-28T19:37:36.305125+00:00",
+  "endedAt": "2026-10-28T19:37:36.552187+00:00",
+  "model": "gpt-6.1-sol",
+  "provider": "openai-codex",
+  "interface": "Hermes delegated implementation session; terminal and file tools",
+  "reasoningMode": "Not independently recorded",
+  "tools": [
+    "terminal",
+    "file",
+    "Vitest",
+    "Playwright",
+    "ESLint",
+    "research validators",
+    "Vite"
+  ],
+  "workPackage": "integrate",
+  "inputAssets": [
+    "primary-product",
+    "web-product-estuary-safe",
+    "qwen-imagery-source",
+    "qwen-angle-front-source",
+    "qwen-angle-rear-source",
+    "comfy-cloud-rear-workflow"
+  ],
+  "promptPath": "research/runs/2026-10-28-sol-workflow-publication/prompt.md",
+  "outputPaths": [
+    "public/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png",
+    "research/asset-manifest.json",
+    "research/case-studies/index.json",
+    "research/runs/2026-10-28-sol-workflow-publication/finalize-screenshot.py",
+    "research/runs/2026-10-28-sol-workflow-publication/finalize.py",
+    "research/runs/2026-10-28-sol-workflow-publication/notes.md",
+    "research/runs/2026-10-28-sol-workflow-publication/output-inventory.json",
+    "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/notes.md",
+    "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/output-inventory.json",
+    "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/protected-files.json",
+    "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/run.before.json",
+    "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/verification.json",
+    "research/runs/2026-10-28-sol-workflow-publication/prompt.md",
+    "research/runs/2026-10-28-sol-workflow-publication/screenshot-green.log",
+    "research/runs/2026-10-28-sol-workflow-publication/screenshot-output-inventory.json",
+    "research/runs/2026-10-28-sol-workflow-publication/screenshot-red.log",
+    "research/runs/2026-10-28-sol-workflow-publication/source/comfy-workflow-rear.png",
+    "research/runs/2026-10-28-sol-workflow-publication/verification.json",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-case-index.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-e2e.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-explanation-mobile-stable.png",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-green-index.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-green-overview.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-index-desktop-stable.png",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-lint.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-public-build.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-public-e2e.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-red-index.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-red-overview.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-research-validate.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-strict-build.log",
+    "research/runs/2026-10-28-sol-workflow-publication/workflow-tests.log",
+    "src/App.test.tsx",
+    "src/App.tsx",
+    "src/styles.css",
+    "tests/e2e/workflow-overview.spec.ts"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/finalize.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-case-index.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-explanation-mobile-stable.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-green-index.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-green-overview.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-index-desktop-stable.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-public-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-public-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-red-index.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-red-overview.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-research-validate.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-strict-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/workflow-tests.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "src/App.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "src/App.test.tsx",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "src/styles.css",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "tests/e2e/workflow-overview.spec.ts",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/case-studies/index.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/asset-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/finalize-screenshot.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/protected-files.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/run.before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/pre-screenshot-finalization/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-green.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/screenshot-red.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-28-sol-workflow-publication/source/comfy-workflow-rear.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-imagery-source",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source",
+          "comfy-cloud-rear-workflow"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 0.247062,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Actual observed retrospective package verification/registration interval only; not full task duration, generation, active time or billing. Cost unavailable."
+  },
+  "interventionLevel": 3,
+  "outcome": "pass_with_intervention",
+  "failureNotes": "Historical screenshot source blocker resolved; previous partial records and logs retained in pre-screenshot-finalization. No new generation, 3D changes, commit or deployment.",
+  "reviewer": "Sol content/UI checks; user public-explanation approval; no new comparative image preference inferred",
+  "publicSummary": "Sol published an adapted Comfy Cloud/Qwen template explanation, six-stage workflow index and user-approved actual rear-three-quarter workflow screenshot with native access. Qwen model, Comfy-Org template, Sol guidance and Jay UI roles remain distinct. Screenshot is an overview, not proof of precise settings or every run. No new generation or historical model/image changes; follow-ons remain unperformed."
+}

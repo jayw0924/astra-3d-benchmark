@@ -1,0 +1,12 @@
+{
+  "receivedAtUtc": "2026-10-28T22:59:03.342858+00:00",
+  "sha256": "752fedb6c920ca04e4a98e4fd66740c35f29f5ad2f3c3b5435de07995049475b",
+  "dimensions": [
+    864,
+    768
+  ],
+  "bytes": 1062092,
+  "jobId": null,
+  "cost": null,
+  "runtimeSeconds": null
+}

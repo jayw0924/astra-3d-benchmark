@@ -1,0 +1,22 @@
+{
+  "repeat": {
+    "changedRGBPixels": 0,
+    "maxChannelDelta": 0,
+    "meanAbsoluteChannelDifference": 0.0,
+    "differenceBBox": null,
+    "decodedRGBAIdentical": true,
+    "executionGraphIdentical": true,
+    "editorGraphIdentical": false,
+    "fileBytesIdentical": false,
+    "freshSamplingProven": false,
+    "caveat": "Without executed/cached-node job history, fresh sampling versus Comfy cache reuse is unknown."
+  },
+  "protected": {
+    "protectedPixels": 107603,
+    "corePixels": 106452,
+    "boundaryPixels": 1151,
+    "changedProtectedPixels": 0,
+    "changedVs01": 11502,
+    "changedOutsideSupport": 0
+  }
+}

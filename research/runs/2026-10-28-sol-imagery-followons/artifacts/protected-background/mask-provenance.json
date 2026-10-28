@@ -1,0 +1,18 @@
+{
+  "sourceRerenderChangedPixels": 16,
+  "sourceRerenderMaxChannelDelta": 51,
+  "sourceRerenderChangedCoveredPixels": 16,
+  "coveredPixels": 107603,
+  "corePixels": 106452,
+  "rasterBoundaryPixels": 1151,
+  "maskBounds": [
+    119,
+    261,
+    705,
+    521
+  ],
+  "maskSha256": "d5eac49265b0c1b1987c02a17fc8c0265123af66a62407795c4f58ce2f6e0f8d",
+  "coverageSha256": "090e6394be54ccae6f70d392d2015b49fe2b22079a65925916a4c2e87e55d006",
+  "sourceSha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+  "policy": "All nonzero native MSAA coverage fully protected including glass/transmission and mirrors; floor/contact shadow excluded; no boundary blend."
+}

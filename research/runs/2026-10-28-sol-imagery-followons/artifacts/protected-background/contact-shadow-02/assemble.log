@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/workspace/work/ai-imagery-followup/protected-background/contact-shadow-02/assemble.py", line 4, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

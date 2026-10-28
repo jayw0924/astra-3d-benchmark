@@ -1,0 +1,26 @@
+{
+  "scope": "Local execution ledger; relative commands run from provided repository path. Shell wrappers printed retained logs and propagated return status. Inline setup/inspection is described explicitly; rendering/compositing implementation is preserved in the named scripts.",
+  "requestedWorkdir": "/home/jay/projects/external/configurator-demo",
+  "backendReportedCwd": "/workspace",
+  "pathNote": "Tools resolved the supplied host-workspace path onto this backend mount. Operations requested the supplied repository path; MEDIA uses the supplied host path, not /workspace.",
+  "commands": [
+    {"command":"pwd && git status --short", "result":"Existing unrelated workflow-publication edits observed and left intact."},
+    {"operation":"python inline inventory", "detail":"Enumerated work/ai-imagery-followup/protected-background with pathlib; read and inspected existing source/composite/mask harness and renderer files before writing."},
+    {"operation":"python inline immutable snapshot", "detail":"mkdir contact-shadow-02 with exist_ok=False; SHA-256 every existing file under src/research/scripts/public/tests/work/ai-imagery-followup; write immutable-before.json. Also print historical telemetry excluding model; no source writes.","result":"2145 pinned files; manifest SHA in scope-verification.json"},
+    {"command":"python -m unittest discover -s work/ai-imagery-followup/protected-background/contact-shadow-02 -p 'test_shadow.py'", "log":"test-red-01.log", "exit":1,"result":"Expected missing shadow module RED"},
+    {"command":"python -m unittest discover -s work/ai-imagery-followup/protected-background/contact-shadow-02 -p 'test_shadow.py'", "log":"test-green-01.log", "exit":0,"result":"One blend test GREEN; Pillow deprecation warnings subsequently removed using get_flattened_data"},
+    {"command":"python -m unittest discover -s work/ai-imagery-followup/protected-background/contact-shadow-02 -p 'test_shadow.py'", "log":"test-red-02.log", "exit":1,"result":"Expected missing protected_composite export RED"},
+    {"command":"node work/ai-imagery-followup/protected-background/contact-shadow-02/capture-shadow.mjs", "log":"capture.log", "exit":1,"result":"Launch blocked by absent default browser 1248; no render"},
+    {"operation":"python inline browser discovery", "detail":"shutil.which chromium/chromium-browser/google-chrome; pathlib glob/rglob /opt/playwright discovered existing 1243 executables; probing /root/.cache/ms-playwright returned permission denied. No installation or privilege escalation."},
+    {"command":"node work/ai-imagery-followup/protected-background/contact-shadow-02/capture-shadow.mjs", "log":"capture-retry-01.log", "exit":0,"result":"Explicit existing 1243 executable; exactly two explicit render calls; output exclusive writes"},
+    {"command":"PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s work/ai-imagery-followup/protected-background/contact-shadow-02 -p 'test_shadow.py'", "log":"test-green-02.log", "exit":0,"result":"Two tests GREEN"},
+    {"command":"PYTHONDONTWRITEBYTECODE=1 python work/ai-imagery-followup/protected-background/contact-shadow-02/assemble.py", "log":"assemble.log", "exit":1,"result":"numpy absent, before image output writes; no install"},
+    {"command":"PYTHONDONTWRITEBYTECODE=1 python work/ai-imagery-followup/protected-background/contact-shadow-02/assemble.py", "log":"assemble-retry-01.log", "exit":0,"result":"Pillow/stdlib-only implementation; native candidate and diagnostics saved exclusively"},
+    {"command":"PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s work/ai-imagery-followup/protected-background -p 'test_composite.py'", "log":"regression-original-six.log", "exit":0,"result":"6 original tests pass"},
+    {"command":"PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s work/ai-imagery-followup/protected-background/contact-shadow-02 -p 'test_shadow.py'", "log":"regression-shadow-two.log", "exit":0,"result":"2 new tests pass"},
+    {"operation":"python inline scope verification", "detail":"Read immutable-before.json and hash each exact target; capture git rev-parse HEAD, git status --short, platform.python_version, PIL version, node --version; exclusive scope-verification.json write", "result":"All 2145 old files unchanged"},
+    {"operation":"vision_analyze", "detail":"Opened actual source.png and composite-01.png before implementation; opened full native composite-02.png, comparison-source-01-02.png and shadow-overlay.png after implementation. Visual judgment recorded in README.md."}
+  ],
+  "authorship":"Sol implemented local disposable capture and composition, authored tests and technical notes, and reviewed actual images. No generated-car pixels or new generation model were used.",
+  "priorPlate":"Existing user-provided Comfy/Qwen Image 2.1 empty-studio output; receipt/workflow/prompt preserved in ../received-background-01; no new job in this refinement."
+}

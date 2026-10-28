@@ -1,0 +1,16 @@
+
+> astra-3d-benchmark@0.1.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test tests/e2e/workflow-overview.spec.ts
+
+
+Running 2 tests using 1 worker
+
+  ✓  1 [chromium] › tests/e2e/workflow-overview.spec.ts:4:1 › workflow explanation and six-stage index remain readable and linked (14.8s)
+  ✓  2 [mobile-chromium] › tests/e2e/workflow-overview.spec.ts:4:1 › workflow explanation and six-stage index remain readable and linked (13.5s)
+
+  2 passed (30.9s)
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,71 @@
+[
+  {
+    "file": "public/assets/study/ai-imagery/followons/location.png",
+    "metadataKeys": [
+      "prompt",
+      "workflow",
+      "aspect"
+    ],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/flux.png",
+    "metadataKeys": [
+      "prompt",
+      "workflow"
+    ],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/repeat.png",
+    "metadataKeys": [
+      "prompt",
+      "workflow",
+      "aspect"
+    ],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/protected-source.png",
+    "metadataKeys": [],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/composite-01.png",
+    "metadataKeys": [],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/composite-02.png",
+    "metadataKeys": [],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/protection-mask.png",
+    "metadataKeys": [],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/empty-plate.png",
+    "metadataKeys": [
+      "prompt",
+      "workflow",
+      "aspect"
+    ],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  },
+  {
+    "file": "public/assets/study/ai-imagery/followons/shadow-layer.png",
+    "metadataKeys": [],
+    "credentialOrPrivatePathMatches": [],
+    "review": "Upstream template/model documentation and opaque cloud image references/editor graph IDs retained; not authentication or privacy/rights certification. No executable public download."
+  }
+]

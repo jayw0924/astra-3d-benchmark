@@ -1,0 +1,10 @@
+{
+  "reviewer": "Jay",
+  "statement": "love the last one!",
+  "target": "original-output.png",
+  "sha256": "752fedb6c920ca04e4a98e4fd66740c35f29f5ad2f3c3b5435de07995049475b",
+  "decision": "Positive subjective visual assessment of Qwen location imagery",
+  "scope": "Approval of visual direction, not exact product fidelity or physical accuracy certification.",
+  "publicationAuthorized": false,
+  "additionalGenerationAuthorized": false
+}

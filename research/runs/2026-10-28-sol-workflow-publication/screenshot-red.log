@@ -1,0 +1,138 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/App.test.tsx (11 tests | 1 failed | 10 skipped) 302ms
+   ❯ App (11)
+     × publishes the actual rear workflow screenshot with native same-origin access 299ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > App > publishes the actual rear workflow screenshot with native same-origin access
+TestingLibraryElementError: Unable to find an accessible element with the role "img" and name "Actual Comfy Cloud rear three-quarter workflow: load image, Qwen edit, save and compare"
+
+Here are the accessible roles:
+
+  heading:
+
+  Name "How the image was made":
+  [36m<h3[39m
+    [33mid[39m=[32m"image-workflow-title"[39m
+  [36m/>[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------list:
+
+  Name "":
+  [36m<ol />[39m
+
+  --------------------------------------------------
+  listitem:
+
+  Name "":
+  [36m<li />[39m
+
+  Name "":
+  [36m<li />[39m
+
+  Name "":
+  [36m<li />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "Comfy-Org workflow templates":
+  [36m<a[39m
+    [33mhref[39m=[32m"https://github.com/Comfy-Org/workflow_templates"[39m
+  [36m/>[39m
+
+  Name "Qwen Image 2.1 model distribution":
+  [36m<a[39m
+    [33mhref[39m=[32m"https://huggingface.co/Comfy-Org/Qwen-Image-2.1"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33maria-labelledby[39m=[32m"image-workflow-title"[39m
+  [33mclass[39m=[32m"image-workflow"[39m
+  [33mrole[39m=[32m"group"[39m
+[36m>[39m
+  [36m<h3[39m
+    [33mid[39m=[32m"image-workflow-title"[39m
+  [36m>[39m
+    [0mHow the image was made[0m
+  [36m</h3>[39m
+  [36m<p>[39m
+    [0mIn Comfy Cloud (ComfyUI), we adapted one existing image-edit template, “Image Edit (Qwen Image 2.1)”, rather than building an image model or a new generation pipeline.[0m
+  [36m</p>[39m
+  [36m<ol>[39m
+    [36m<li>[39m
+      [0mLoad a single original viewer image as the edit target; no generated result is fed into the next condition.[0m
+    [36m</li>[39m
+    [36m<li>[39m
+      [0mApply Sol’s studio-photo instruction with prompt refinement off, then generate with Qwen Image 2.1.[0m
+    [36m</li>[39m
+    [36m<li>[39m
+      [0mSave the native PNG and compare it with the source. Jay operated the UI and reviewed the images; Sol supplied prompt guidance and documented the comparison.[0m
+    [36m</li>[39m
+  [36m</ol>[39m
+  [36m<p>[39m
+    [0mThe same template was adapted for three side-view seeds and two seed-42 camera-angle inputs: not five independently designed workflows. The prompt and effective sampling settings stayed matched; the seed or source view changed. These are independent image edits, not a shared 3D reconstruction.[0m
+  [36m</p>[39m
+  [36m<p>[39m
+    [0mUpstream credit: [0m
+    [36m<a[39m
+      [33mhref[39m=[32m"https://github.com/Comfy-Org/workflow_templates"[39m
+    [36m>[39m
+      [0mComfy-Org workflow templates[0m
+    [36m</a>[39m
+    [0m [0m
+    [0mfor the template family and [0m
+    [36m<a[39m
+      [33mhref[39m=[32m"https://huggingface.co/Comfy-Org/Qwen-Image-2.1"[39m
+    [36m>[39m
+      [0mQwen Image 2.1 model distribution[0m
+    [36m</a>[39m
+    [0m. The Qwen team developed the image model, not this project. This adaptation is not Astra-authored image generation.[0m
+  [36m</p>[39m
+[36m</div>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:9:36
+      7|     render(<App />);
+      8|     const workflow = screen.getByRole('group', { name: 'How the image …
+      9|     const image = within(workflow).getByRole('img', { name: 'Actual Co…
+       |                                    ^
+     10|     const path = '/assets/study/ai-imagery/workflow/comfy-cloud-rear-w…
+     11|     expect(image).toHaveAttribute('src', path);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 10 skipped (11)
+   Start at  19:50:12
+   Duration  1.18s (environment 55%, tests 29%, setup 7%, transform 7%, import 2%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

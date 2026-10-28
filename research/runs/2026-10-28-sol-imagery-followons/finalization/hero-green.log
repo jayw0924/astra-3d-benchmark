@@ -1,0 +1,39 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/ImageryFollowons.test.tsx (1 test | 1 failed) 393ms
+   ❯ completed imagery follow-ons (1)
+     × leads with the visually approved location and its actual side input without replacing the viewer 391ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/ImageryFollowons.test.tsx > completed imagery follow-ons > leads with the visually approved location and its actual side input without replacing the viewer
+AssertionError: expected [ <img …(5)></img>, …(5) ] to have a length of 3 but got 6
+
+- Expected
++ Received
+
+- 3
++ 6
+
+ ❯ src/ImageryFollowons.test.tsx:15:55
+     13|     expect(screen.getByRole('img', { name: 'Pre-ground-correction refi…
+     14|     const protectedPair = screen.getByRole('group', { name: 'Protected…
+     15|     expect(within(protectedPair).getAllByRole('img')).toHaveLength(3);
+       |                                                       ^
+     16|     expect(protectedPair).toHaveTextContent('107,603');
+     17|     expect(protectedPair).toHaveTextContent('1,151');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed (1)
+   Start at  23:05:15
+   Duration  1.50s (environment 47%, tests 33%, transform 12%, setup 6%, import 2%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

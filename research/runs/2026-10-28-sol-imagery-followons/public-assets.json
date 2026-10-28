@@ -1,0 +1,101 @@
+[
+  {
+    "id": "imagery-followon-location",
+    "publicPath": "public/assets/study/ai-imagery/followons/location.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/qwen-location/original-output.png",
+    "bytes": 1062092,
+    "sha256": "752fedb6c920ca04e4a98e4fd66740c35f29f5ad2f3c3b5435de07995049475b",
+    "dimensions": [
+      864,
+      768
+    ]
+  },
+  {
+    "id": "imagery-followon-flux",
+    "publicPath": "public/assets/study/ai-imagery/followons/flux.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/flux-kontext-pro/original-output.png",
+    "bytes": 1079545,
+    "sha256": "d6e2fabf684871007c8471a6d2379ddbe7a8e6cf45b791610d91d0cfe3e41f1d",
+    "dimensions": [
+      1104,
+      944
+    ]
+  },
+  {
+    "id": "imagery-followon-repeat",
+    "publicPath": "public/assets/study/ai-imagery/followons/repeat.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/repeatability-original-seed/repeat-original-seed.png",
+    "bytes": 881269,
+    "sha256": "b734db7e01d2d632b8b83239b3165753d3e6907483e9fcdc9fbdbd57d338157b",
+    "dimensions": [
+      864,
+      768
+    ]
+  },
+  {
+    "id": "imagery-followon-protected-source",
+    "publicPath": "public/assets/study/ai-imagery/followons/protected-source.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/source.png",
+    "bytes": 273749,
+    "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+    "dimensions": [
+      850,
+      778
+    ]
+  },
+  {
+    "id": "imagery-followon-composite-01",
+    "publicPath": "public/assets/study/ai-imagery/followons/composite-01.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/composite-01.png",
+    "bytes": 582812,
+    "sha256": "9230f828ad8d6b824defe1b486aba3739ce8849a883b412343ac207ac4613c4c",
+    "dimensions": [
+      850,
+      778
+    ]
+  },
+  {
+    "id": "imagery-followon-composite-02",
+    "publicPath": "public/assets/study/ai-imagery/followons/composite-02.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/composite-02.png",
+    "bytes": 589791,
+    "sha256": "96eda7c1547fb20084f7cd9123669821c656ff05c25a66d341b2f64efbef8599",
+    "dimensions": [
+      850,
+      778
+    ]
+  },
+  {
+    "id": "imagery-followon-protection-mask",
+    "publicPath": "public/assets/study/ai-imagery/followons/protection-mask.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/mask.png",
+    "bytes": 2668,
+    "sha256": "d5eac49265b0c1b1987c02a17fc8c0265123af66a62407795c4f58ce2f6e0f8d",
+    "dimensions": [
+      850,
+      778
+    ]
+  },
+  {
+    "id": "imagery-followon-empty-plate",
+    "publicPath": "public/assets/study/ai-imagery/followons/empty-plate.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/received-background-01/original-qwen-background.png",
+    "bytes": 612161,
+    "sha256": "d6e1ed83870024bab30eb66457907d75e3580ccab2526538a14e2c912eea4f2c",
+    "dimensions": [
+      864,
+      768
+    ]
+  },
+  {
+    "id": "imagery-followon-shadow-layer",
+    "publicPath": "public/assets/study/ai-imagery/followons/shadow-layer.png",
+    "archivePath": "research/runs/2026-10-28-sol-imagery-followons/artifacts/protected-background/contact-shadow-02/shadow-layer.png",
+    "bytes": 33751,
+    "sha256": "8d67856eb4e233cf6d450438274b14133383c34ed6767f6734e43496840d5015",
+    "dimensions": [
+      850,
+      778
+    ]
+  }
+]

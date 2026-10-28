@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+  "dimensions": [
+    850,
+    778
+  ],
+  "nonbackgroundBBox": [
+    114,
+    261,
+    705,
+    541
+  ],
+  "issue": "Post-write assertion compared JSON-roundtripped telemetry against JS undefined and negative-zero fields. Captured PNG and same-frame JSON were already persisted. No recapture; retained original error log. Harness readback now compares JSON-normalized expected data."
+}

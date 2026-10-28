@@ -1,0 +1,106 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/App.test.tsx (11 tests | 1 failed | 10 skipped) 293ms
+   ❯ App (11)
+     × publishes the actual rear workflow screenshot with native same-origin access 291ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > App > publishes the actual rear workflow screenshot with native same-origin access
+TestingLibraryElementError: Unable to find an element with the text: /small node text.*retained machine-readable graphs/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33maria-labelledby[39m=[32m"image-workflow-title"[39m
+  [33mclass[39m=[32m"image-workflow"[39m
+  [33mrole[39m=[32m"group"[39m
+[36m>[39m
+  [36m<h3[39m
+    [33mid[39m=[32m"image-workflow-title"[39m
+  [36m>[39m
+    [0mHow the image was made[0m
+  [36m</h3>[39m
+  [36m<p>[39m
+    [0mIn Comfy Cloud (ComfyUI), we adapted one existing image-edit template, “Image Edit (Qwen Image 2.1)”, rather than building an image model or a new generation pipeline.[0m
+  [36m</p>[39m
+  [36m<ol>[39m
+    [36m<li>[39m
+      [0mLoad a single original viewer image as the edit target; no generated result is fed into the next condition.[0m
+    [36m</li>[39m
+    [36m<li>[39m
+      [0mApply Sol’s studio-photo instruction with prompt refinement off, then generate with Qwen Image 2.1.[0m
+    [36m</li>[39m
+    [36m<li>[39m
+      [0mSave the native PNG and compare it with the source. Jay operated the UI and reviewed the images; Sol supplied prompt guidance and documented the comparison.[0m
+    [36m</li>[39m
+  [36m</ol>[39m
+  [36m<p>[39m
+    [0mThe same template was adapted for three side-view seeds and two seed-42 camera-angle inputs: not five independently designed workflows. The prompt and effective sampling settings stayed matched; the seed or source view changed. These are independent image edits, not a shared 3D reconstruction.[0m
+  [36m</p>[39m
+  [36m<figure[39m
+    [33mclass[39m=[32m"workflow-screenshot"[39m
+  [36m>[39m
+    [36m<a[39m
+      [33mhref[39m=[32m"/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m"Actual Comfy Cloud rear three-quarter workflow: load image, Qwen edit, save and compare"[39m
+        [33mheight[39m=[32m"1200"[39m
+        [33mloading[39m=[32m"lazy"[39m
+        [33msrc[39m=[32m"/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png"[39m
+        [33mwidth[39m=[32m"2400"[39m
+      [36m/>[39m
+    [36m</a>[39m
+    [36m<figcaption>[39m
+      [0mActual rear three-quarter Comfy Cloud session using the adapted Qwen Image 2.1 template: Load Image → Image Edit → Save Image (Advanced) → Compare Images, with template notes. This is an overview, not proof of precise settings or every run.[0m
+      [0m [0m
+      [36m<a[39m
+        [33mhref[39m=[32m"/assets/study/ai-imagery/workflow/comfy-cloud-rear-workflow.png"[39m
+      [36m>[39m
+        [0mOpen native workflow screenshot (2400 × 1200)[0m
+      [36m</a>[39m
+    [36m</figcaption>[39m
+  [36m</figure>[39m
+  [36m<p>[39m
+    [0mUpstream credit: [0m
+    [36m<a[39m
+      [33mhref[39m=[32m"https://github.com/Comfy-Org/workflow_templates"[39m
+    [36m>[39m
+      [0mComfy-Org workflow templates[0m
+    [36m</a>[39m
+    [0m [0m
+    [0mfor the template family and [0m
+    [36m<a[39m
+      [33mhref[39m=[32m"https://huggingface.co/Comfy-Org/Qwen-Image-2.1"[39m
+    [36m>[39m
+      [0mQwen Image 2.1 model distribution[0m
+    [36m</a>[39m
+    [0m. The Qwen team developed the image model, not this project. This adaptation is not Astra-authored image generation.[0m
+  [36m</p>[39m
+[36m</div>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:15:29
+     13|     expect(image).toHaveAttribute('height', '1200');
+     14|     expect(image.closest('a')).toHaveAttribute('href', path);
+     15|     expect(within(workflow).getByText(/small node text.*retained machi…
+       |                             ^
+     16|     expect(within(workflow).getByText(/screenshot credit:.*ComfyUI int…
+     17|     expect(within(workflow).getByRole('link', { name: 'Open native wor…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 10 skipped (11)
+   Start at  21:12:33
+   Duration  1.21s (environment 54%, tests 27%, setup 7%, transform 6%, import 5%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

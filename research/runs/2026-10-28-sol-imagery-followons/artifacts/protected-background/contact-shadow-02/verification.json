@@ -1,0 +1,106 @@
+{
+  "nativeDimensions": [
+    850,
+    778
+  ],
+  "sourceSha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+  "composite01Sha256": "9230f828ad8d6b824defe1b486aba3739ce8849a883b412343ac207ac4613c4c",
+  "plateSha256": "d6e1ed83870024bab30eb66457907d75e3580ccab2526538a14e2c912eea4f2c",
+  "maskSha256": "d5eac49265b0c1b1987c02a17fc8c0265123af66a62407795c4f58ce2f6e0f8d",
+  "backgroundTransform": {
+    "policy": "cover",
+    "originalSize": [
+      864,
+      768
+    ],
+    "nominalUniformScale": 1.0130208333333333,
+    "resizedSize": [
+      876,
+      778
+    ],
+    "effectiveScale": [
+      1.0138888888888888,
+      1.0130208333333333
+    ],
+    "cropBox": [
+      13,
+      0,
+      863,
+      778
+    ],
+    "resampling": "Pillow LANCZOS; background only; integer rounding disclosed"
+  },
+  "sourceTransforms": "None: source RGB copied at identical integer coordinates, no filtering, feathering or resizing",
+  "formula": "A = native exported ShadowMaterial alpha/255. T=round((1-A)*B) in stored sRGB byte space via Pillow alpha_composite (black RGB). C=M*S+(1-M)*T for binary M. Effective layer alpha=A*(1-M).",
+  "protectedPixels": 107603,
+  "protectedChangedPixels": 0,
+  "corePixels": 106452,
+  "coreChangedPixels": 0,
+  "boundaryPixels": 1151,
+  "boundaryChangedPixels": 0,
+  "rawShadowNonzeroPixels": 57875,
+  "rawAlphaMax": 36,
+  "exposedShadowNonzeroPixels": 11502,
+  "changedVsComposite01": 11502,
+  "changedVs01OutsideShadowSupport": 0,
+  "oldStudioAlphaReconstruction": {
+    "reference": "Observed source top-left uniform background RGB, NOT transferred floor RGB",
+    "backgroundRGB": [
+      221,
+      217,
+      208
+    ],
+    "outsideProtectedChangedPixels": 9375,
+    "outsideProtectedMaxChannelDelta": 1,
+    "outsideProtectedAboveOneChannelDeltaPixels": 0
+  },
+  "rgbRerenderResidual": {
+    "changedPixels": 16,
+    "maxChannelDelta": 51,
+    "outsideProtectedChangedPixels": 0
+  },
+  "outputs": {
+    "composite-02.png": {
+      "sha256": "96eda7c1547fb20084f7cd9123669821c656ff05c25a66d341b2f64efbef8599",
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    "shadow-layer.png": {
+      "sha256": "8d67856eb4e233cf6d450438274b14133383c34ed6767f6734e43496840d5015",
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    "shadow-layer-effective.png": {
+      "sha256": "734becc79cb8d113f21c45ff9c42004a8281bd8768f2668f452370b9cac6048a",
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    "shadow-overlay.png": {
+      "sha256": "fdcb31e0402c2f33ad19fb29d1b1ae9a1e156f1c4704b4a0c8db958ef13ff109",
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    "fitted-background.png": {
+      "sha256": "eb1db480ba70da089030ca4ad5ec876848bb736a49530d74b1643698a3455292",
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    "source-diagnostic.png": {
+      "sha256": "51e81edb9290a638aaf1833be669d7567e315a921c162270f4c3468afeb76cdf",
+      "dimensions": [
+        850,
+        778
+      ]
+    }
+  }
+}
