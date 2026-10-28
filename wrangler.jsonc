@@ -3,6 +3,7 @@
   "name": "astra-3d-benchmark",
   "compatibility_date": "2026-10-01",
   "workers_dev": true,
+  "routes": [{ "pattern": "astra.daedalwerks.com", "custom_domain": true }],
   "assets": {
     "directory": "./dist"
   }
