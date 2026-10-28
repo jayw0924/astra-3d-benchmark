@@ -1,0 +1,358 @@
+{
+  "observedAt": "2026-10-27T21:53:32.938978+00:00",
+  "exclusions": [
+    "This inventory excludes its own digest and run.json to avoid checksum cycles; run.json is separately schema-validated. Python __pycache__ is not research evidence."
+  ],
+  "files": [
+    {
+      "path": "public/assets/study/ai-imagery/angles/front-generated-seed42.png",
+      "bytes": 845450,
+      "sha256": "d23e3fb01812bcdf6a74f79f1bbd2cd586393596bedb601505c3f17be55bc615"
+    },
+    {
+      "path": "public/assets/study/ai-imagery/angles/front-source.png",
+      "bytes": 273749,
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+    },
+    {
+      "path": "public/assets/study/ai-imagery/angles/rear-generated-seed42.png",
+      "bytes": 845697,
+      "sha256": "11dbc760c7b561d766d550867ccc6e6b686cca821575b6ab04b78892fb4f8432"
+    },
+    {
+      "path": "public/assets/study/ai-imagery/angles/rear-source.png",
+      "bytes": 251711,
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/before.json",
+      "bytes": 12469,
+      "sha256": "34bda4910003523ed0a3dfb4187e473cba0b4269508ffe2c817916445dd6fcaf"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/checks.py",
+      "bytes": 1772,
+      "sha256": "9d4598d0ccb75a353c09cedd022983f2813e0f82715bebd1973dc82c4bbd0695"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/copy-verification.json",
+      "bytes": 9331,
+      "sha256": "0ffb23b23a773c1e30df26dcdda1fff1af8700dcdaf6c7ac16352eae33271d1f"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/effective-comparison.json",
+      "bytes": 6013,
+      "sha256": "f76364c714d9556d0508c6183f57efbf7802320d2591b7fb6c4f3e252ca801b2"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/fast-tests-execution.json",
+      "bytes": 209,
+      "sha256": "8166c2da08b63094766624659091c8af92da6fbb17f70b701038b76ae897250b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/fast-tests.log",
+      "bytes": 5806,
+      "sha256": "04dd3ddb0c84e405c1d90b29319aaae5c81a92f0d6492f35c3b7c337fb69f970"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/finalize.py",
+      "bytes": 3146,
+      "sha256": "b354e47267b0e1b0290106ae266d7501bc7e80d359c0c4aa2a7147f7c6b177a5"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-execution.json",
+      "bytes": 290,
+      "sha256": "cb23f238a343083f9fa0bdec37052a85780622ca5eadfa607dc336937e8d7410"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-retry-execution.json",
+      "bytes": 296,
+      "sha256": "f6d2ad3b832e32ce3545e901d116177d7611147132afd25038cd5a90891009f1"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-retry.log",
+      "bytes": 978,
+      "sha256": "db1df36b9296ff5ab88bbcc3446dbccbd7bf46c17ba2671f54413d91e2b2d750"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e.log",
+      "bytes": 7930,
+      "sha256": "2845429dffa8465049437c23f707751657881761f3353cc4e2b5fd58edc8abfd"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-generated-seed42.png",
+      "bytes": 845450,
+      "sha256": "d23e3fb01812bcdf6a74f79f1bbd2cd586393596bedb601505c3f17be55bc615"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-prompt.json",
+      "bytes": 17038,
+      "sha256": "18ee4db82c9feed3ef71c80f23edd5f90a52868debf956bae9b920804666871e"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-receipt.json",
+      "bytes": 826,
+      "sha256": "891d27a22e49dd7e55cf8b4720f6eefd77ad18420750629621767a2fb65ca525"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-source.png",
+      "bytes": 273749,
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-workflow.json",
+      "bytes": 97627,
+      "sha256": "57c98aacbfa7c0908a14c62219614f8d8c1241b44cc3e2265975a60f4dc63429"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/generation-status.json",
+      "bytes": 494,
+      "sha256": "917631ea9e4ea5fd32e512a57b101702eff8f58982c8fbd2ffd7e58cf09d84da"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/green-archive.log",
+      "bytes": 229,
+      "sha256": "fa470c827952ae77be115a57a89c65d177038c05a2470b3c968c926579a27d02"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/green-unit-retry.log",
+      "bytes": 394,
+      "sha256": "b570e8dd93ec9b6fa6a3646919837edfaf00ab37004f64be63fe6605c8eb45b1"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/green-unit.log",
+      "bytes": 9522,
+      "sha256": "538cd1ee247dfa090fffdf8e3d05e0283320ece7d263de46fd581348b817ef8d"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/image-inventory.json",
+      "bytes": 1793,
+      "sha256": "2c296a62ded329f3d76b2d5312663244288b8ac503e7c4ac39139d745bed0ba3"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/integrity.json",
+      "bytes": 26453,
+      "sha256": "44675dbb184388b67a52fa1eac4c0ef639ce0bfaa3a8f0cf471f64993e031d1b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-execution.json",
+      "bytes": 214,
+      "sha256": "99d1d869724b2e947e3accfa66ff924592e5b76c0fe586f1919bb0718ff2679c"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-retry-execution.json",
+      "bytes": 220,
+      "sha256": "ab3520ba150995f89aae7e9f822d6a968b6cebb72bb1ecb5536dcb3c53d48970"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-retry.log",
+      "bytes": 254,
+      "sha256": "7614660ae393abfe84a8341319a3ae3694dc6c8bc38482ab08118642306cf552"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint.log",
+      "bytes": 1189,
+      "sha256": "bd2df1e64ba1fb45fbe3387a035aa6c39ec9dd27eaf1d8a7f4f5de69b4fd79fb"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/metadata-privacy-review.json",
+      "bytes": 1340,
+      "sha256": "acc2650b71d0dd428dc2d002a57b01d7baadebf483795d2c8336a9c85a623000"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/notes.md",
+      "bytes": 6084,
+      "sha256": "3ba95af14d66b741285f191ebdec005fd21b188db54cd1e6b22eaa6ff17af894"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/package.py",
+      "bytes": 11025,
+      "sha256": "b78f2cd33628929b02bb7936d8b632600154c347efa3e1e5a222f010360d94ed"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/production-http.json",
+      "bytes": 1393,
+      "sha256": "dc5b04d21067c77f6f0c9d13a7fe76f3860304f2d51c9a979201997688b6451e"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/prompt.md",
+      "bytes": 1330,
+      "sha256": "941a05c236066ac8bc39c96e72419c3f2fba6a1eb3495afcd1115780358ae607"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-build-execution.json",
+      "bytes": 227,
+      "sha256": "5758b79f035acf8e391da25c9b9f5e671f8ba6e6f77aaa94245d01c5cf52c440"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-build.log",
+      "bytes": 1220,
+      "sha256": "9f1781360de8e3c95ee4b3f411c60594434a2d63ce7341040c24534b371b1784"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-e2e-execution.json",
+      "bytes": 289,
+      "sha256": "ae45ac66224fd64e7e9422a4842f3168a3167bbdddad5ab25fa3fc1d772de4a6"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-e2e.log",
+      "bytes": 977,
+      "sha256": "7e5059dfc232e7533893b062526e053fd041a5c438f31ecc53c5f1a37d28fe0e"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-generated-seed42.png",
+      "bytes": 845697,
+      "sha256": "11dbc760c7b561d766d550867ccc6e6b686cca821575b6ab04b78892fb4f8432"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-prompt.json",
+      "bytes": 17038,
+      "sha256": "22a51ace5915e7f0bd00d12cd06f0176c461958f8c2400968a364320557c7a5c"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-receipt.json",
+      "bytes": 1220,
+      "sha256": "24bb9c378b0d2f0560a2c53836a512cf0bb3912a2730e111671ec5689b3abbeb"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-source.png",
+      "bytes": 251711,
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-workflow.json",
+      "bytes": 97625,
+      "sha256": "344eb5695e9402935b85b9d2c140eb5e43facc0d2f3e92ea2c3adf76f0f0eeb2"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/red-archive.log",
+      "bytes": 1137,
+      "sha256": "5bf2f7b30ae0ec2144cac38895364b092f61921ccd5eaa89946b09301f622c1e"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/red-unit.log",
+      "bytes": 13051,
+      "sha256": "275945774bbd20958ef1d5b2242ed10f97d54dd923058629619db2d4e7fc262b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/register.py",
+      "bytes": 909,
+      "sha256": "db955044204d523f9bd02beca5919ca9c2ed480d31410687502340202b563e58"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/capture.mjs",
+      "bytes": 9988,
+      "sha256": "e749af5439db73fcf00ee526385ba21c731a481a3a8876df26a89b19226fedeb"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/commands.jsonl",
+      "bytes": 1785,
+      "sha256": "0f4faddb0579fb69c4cc9da31f1a79c59218c320f69a6376df25ddf69852142b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/errors.jsonl",
+      "bytes": 39369,
+      "sha256": "b419c90d41053d29843086b06f145f9d16dd8f273e97832c68026d13b94634f1"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/final-file-inventory.json",
+      "bytes": 1629,
+      "sha256": "835863f0e8445c3dd1a3c30ef7e72f0d7fde7acb10240f47bf60b4ebacd0c66a"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-command.log",
+      "bytes": 209328,
+      "sha256": "92a52bdd3918843e6829881d947a120438b2009ffd4ad8b11ed7238fb107bee4"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-pose.json",
+      "bytes": 1892,
+      "sha256": "be3553e476d9e717b3db0d230d4a288b12cd906b92fc8f547938568a01880fd0"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-readback-recovery.json",
+      "bytes": 487,
+      "sha256": "f9ae99d4873e8d266ecadb3169f7d226e711b03f82f084c9f45ba0b36084ce6f"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-runtime-instrumentation.json",
+      "bytes": 379,
+      "sha256": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.json",
+      "bytes": 181860,
+      "sha256": "215b4089d638fdbd06bccc3d9b3043f5c7b49320d5a0ea99e8ef1ab675d10cbc"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.png",
+      "bytes": 273749,
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/index.html",
+      "bytes": 3006,
+      "sha256": "a85139e6175ebfb4459ec1acf11d9c9f9c74af0ce9e9ee1669b6b0b723cc6761"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/preflight.json",
+      "bytes": 301677,
+      "sha256": "e4fc404ec8db577e43574333971e1f169612489ff6a70edb93a36a14508ac20e"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-command.log",
+      "bytes": 188,
+      "sha256": "6d3df3fee52b82c74030c7d8e92993d1aef6a13830540a569875e723a1b98611"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-pose.json",
+      "bytes": 1878,
+      "sha256": "0b3de9330bbb6ccfaa2b0dfe85be05b2549a090e89c8ee51cc828fcf3929fc85"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-runtime-instrumentation.json",
+      "bytes": 379,
+      "sha256": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.json",
+      "bytes": 181845,
+      "sha256": "035c3baad78be898229ef1111481fec22bc925d5a7faf4cdd49488ee2dd8ca0f"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.png",
+      "bytes": 251711,
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/source-manifest.json",
+      "bytes": 7773,
+      "sha256": "c24d89c23a1e8765c5ca304ac01de2110e0215bbb0fb804eccf7a9803abab5a2"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/verify-and-package.py",
+      "bytes": 5573,
+      "sha256": "56979817f91500e50ce5695f92b685beee92a3ddd303b296056baf7a4b5a9ae7"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/strict-build-execution.json",
+      "bytes": 223,
+      "sha256": "e579a8e46180d1dcd40ce5f53296471ca426eabe2fe2b2903a01c4938da8693f"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/strict-build.log",
+      "bytes": 1744,
+      "sha256": "6f0706d909d615084eaa3b8c03c91c919624bef3fc8a0117b9ce572e3a45953e"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/validation-notes.md",
+      "bytes": 2457,
+      "sha256": "7c1c2cf95061d162ce1de5fd94fc92c575e6e2779df1786e9e377dc0b87fb81b"
+    },
+    {
+      "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/verification.json",
+      "bytes": 3070,
+      "sha256": "d9850d497423c39d04c52f0c12c456f170c966411a9478b69573d7a6f30de1f8"
+    }
+  ]
+}

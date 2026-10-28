@@ -1,0 +1,37 @@
+{
+  "images": [
+    {
+      "file": "front-source.png",
+      "metadataKeys": [],
+      "sensitiveKeyScan": "pass; manual review of metadata/cloud opaque IDs and retained capture harness found no credentials",
+      "metadataPreserved": true
+    },
+    {
+      "file": "front-generated-seed42.png",
+      "metadataKeys": [
+        "prompt",
+        "workflow",
+        "aspect"
+      ],
+      "sensitiveKeyScan": "pass; manual review of metadata/cloud opaque IDs and retained capture harness found no credentials",
+      "metadataPreserved": true
+    },
+    {
+      "file": "rear-source.png",
+      "metadataKeys": [],
+      "sensitiveKeyScan": "pass; manual review of metadata/cloud opaque IDs and retained capture harness found no credentials",
+      "metadataPreserved": true
+    },
+    {
+      "file": "rear-generated-seed42.png",
+      "metadataKeys": [
+        "prompt",
+        "workflow",
+        "aspect"
+      ],
+      "sensitiveKeyScan": "pass; manual review of metadata/cloud opaque IDs and retained capture harness found no credentials",
+      "metadataPreserved": true
+    }
+  ],
+  "scope": "Native PNG metadata (including parsed embedded prompt/workflow), reviewed opaque cloud filenames and graph ID; local telemetry/logs remain research-only. No credentials identified. Provider output rights not independently audited."
+}

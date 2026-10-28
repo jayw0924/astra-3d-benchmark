@@ -147,7 +147,8 @@ export default function App() {
             <p>Qwen Image 2.1 image generation; Sol prompt and guidance; Jay Comfy Cloud UI execution and review.
               This is generative image editing, not mesh or material improvement. The accepted 3D model is unchanged.</p>
           </div>
-          <div className="render-grid ai-imagery-pair">
+          <h3>Side-view seed variation</h3>
+          <div role="group" aria-label="Side-view seed variation" className="render-grid ai-imagery-pair">
             <article className="render-card">
               <img src="/assets/study/ai-imagery/after-Carmine-side.png" alt="Original Carmine viewer input" width="850" height="778" loading="lazy" />
               <div className="render-card-body"><h3>Original viewer input · 850×778</h3></div>
@@ -191,6 +192,36 @@ export default function App() {
               Original workflow exports remain in the research archive; no separate public workflow download is added
               because editor graphs include cloud-specific metadata. The native PNGs retain their reviewed embedded graphs.</p>
           </details>
+          <div role="group" aria-label="Two-angle comparison">
+            <h3>Two-angle comparison · seed 42</h3>
+            <p>Fresh current-app Carmine sources with corrected grounding: front and rear three-quarter views.
+              Qwen generation, Sol coordination and review, Jay manual cloud execution. Source camera telemetry is retained;
+              generated perspective is not geometrically certified.</p>
+            <div className="render-grid ai-imagery-pair">
+              {(['front', 'rear'] as const).map((angle) => {
+                const label = angle === 'front' ? 'Front' : 'Rear';
+                return [
+                  <article className="render-card" key={`${angle}-source`}>
+                    <img src={`/assets/study/ai-imagery/angles/${angle}-source.png`} alt={`${label} three-quarter source`} width="850" height="778" loading="lazy" />
+                    <div className="render-card-body"><h4>{label} source · 850×778</h4><a href={`/assets/study/ai-imagery/angles/${angle}-source.png`} download>Download {angle} source PNG</a></div>
+                  </article>,
+                  <article className="render-card" key={`${angle}-generated`}>
+                    <img src={`/assets/study/ai-imagery/angles/${angle}-generated-seed42.png`} alt={`${label} three-quarter Qwen interpretation · seed 42`} width="864" height="768" loading="lazy" />
+                    <div className="render-card-body"><h4>{label} interpretation · seed 42 · 864×768</h4><a href={`/assets/study/ai-imagery/angles/${angle}-generated-seed42.png`} download>Download {angle} interpretation PNG</a></div>
+                  </article>,
+                ];
+              })}
+            </div>
+            <p>Native aspect ratios differ; these are separate source/output pairs, not pixel-aligned overlays.
+              Studio floor, glass and body response look more photographic, but wheels, tread and product details are reconstructed.
+              These independent edits are not evidence of coherent 3D or improved GLB geometry/materials. No angle winner is attributed to Jay.</p>
+            <p>Embedded graphs match the side seed-42 effective prompt, models, 25 steps, CFG 1, Euler/simple and denoise 1,
+              with refinement off; LoadImage filename and change token differ. Tokens match measured local source hashes;
+              cloud filenames do not. This corroborates the supervised input flow, not independently authenticated uploads.
+              Cloud job IDs, actual generation time, cost and performance remain unknown.</p>
+            <p>All four follow-on conditions remain planned, not results: masked-background compositing, original-seed repeatability,
+              a second model, and location imagery. No further generation was performed for this publication.</p>
+          </div>
           <p className="geometry-note">Source CarConcept credits: Unity Fan, DGG and Eric Chadwick; historical Astra-directed
             Safe geometry and Sol viewer capture retained. Inherited CC BY 4.0 source attribution applies; the generated image is a disclosed interpretation.</p>
         </section>

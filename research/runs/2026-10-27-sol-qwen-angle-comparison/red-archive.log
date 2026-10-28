@@ -1,0 +1,27 @@
+✖ two-angle registration retains exact inputs, embedded graphs and separate public PNG identities (0.702803ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 54.279806
+
+✖ failing tests:
+
+test at scripts/ai-angle-imagery.test.mjs:10:1
+✖ two-angle registration retains exact inputs, embedded graphs and separate public PNG identities (0.702803ms)
+  Error: ENOENT: no such file or directory, open 'research/runs/2026-10-27-sol-qwen-angle-comparison/image-inventory.json'
+      at readFileSync (node:fs:620:20)
+      at json (file:///workspace/scripts/ai-angle-imagery.test.mjs:7:32)
+      at TestContext.<anonymous> (file:///workspace/scripts/ai-angle-imagery.test.mjs:11:21)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'research/runs/2026-10-27-sol-qwen-angle-comparison/image-inventory.json'
+  }

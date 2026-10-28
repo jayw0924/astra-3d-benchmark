@@ -1,0 +1,6 @@
+{
+  "url": "http://127.0.0.1:5187/src/lib/threeViewer.ts",
+  "originalSha256": "976c782637d91c77132e7d1e90006f00928fbd4586dbd44aece5eb199b3a8d99",
+  "instrumentedSha256": "e46378e72271195a6cef417e07a30a7330d23cb0623ac52a5c456cbfc57d53cb",
+  "change": "Expose existing app objects and Three bounds/vector utilities only. No camera, renderer, material, scene or rig replacement."
+}

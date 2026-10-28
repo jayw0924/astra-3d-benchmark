@@ -1,0 +1,62 @@
+{
+  "receivedAtUtc": "2026-10-27T21:40:51.626451+00:00",
+  "sourceBasis": "Supervised user upload of specified rear source; embedded source token requires separate comparison.",
+  "files": [
+    {
+      "name": "source.png",
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+      "bytes": 251711,
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    {
+      "name": "generated-seed42.png",
+      "sha256": "11dbc760c7b561d766d550867ccc6e6b686cca821575b6ab04b78892fb4f8432",
+      "bytes": 845697,
+      "dimensions": [
+        864,
+        768
+      ]
+    }
+  ],
+  "changesVsFrontExecutionGraph": [
+    {
+      "id": "470",
+      "type": "LoadImage",
+      "changedInputs": [
+        "image"
+      ]
+    }
+  ],
+  "sampler": [
+    {
+      "cfg": 1.0,
+      "denoise": 1.0,
+      "latent_image": [
+        "459:468",
+        0
+      ],
+      "model": [
+        "459:469",
+        0
+      ],
+      "negative": [
+        "459:474",
+        1
+      ],
+      "positive": [
+        "459:474",
+        0
+      ],
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "seed": 42,
+      "steps": 25
+    }
+  ],
+  "jobId": null,
+  "cost": null,
+  "runtimeSeconds": null
+}

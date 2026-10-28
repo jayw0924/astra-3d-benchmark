@@ -1,0 +1,117 @@
+{
+  "observedAt": "2026-10-27T21:53:32.935903+00:00",
+  "protectedFileCount": 87,
+  "allProtectedUnchanged": true,
+  "sourcePinCount": 6,
+  "executions": {
+    "lint-execution": {
+      "argv": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:46:19.167513+00:00",
+      "endedAt": "2026-10-27T21:46:25.052723+00:00",
+      "exitCode": 2,
+      "log": "lint.log"
+    },
+    "fast-tests-execution": {
+      "argv": [
+        "npm",
+        "test"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:53:19.004863+00:00",
+      "endedAt": "2026-10-27T21:53:32.830332+00:00",
+      "exitCode": 0,
+      "log": "fast-tests.log"
+    },
+    "focused-e2e-execution": {
+      "argv": [
+        "npm",
+        "run",
+        "test:e2e",
+        "--",
+        "tests/e2e/ai-imagery.spec.ts",
+        "--workers=1"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:46:19.167794+00:00",
+      "endedAt": "2026-10-27T21:47:18.981998+00:00",
+      "exitCode": 1,
+      "log": "focused-e2e.log"
+    },
+    "lint-retry-execution": {
+      "argv": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:48:00.972611+00:00",
+      "endedAt": "2026-10-27T21:48:07.749852+00:00",
+      "exitCode": 0,
+      "log": "lint-retry.log"
+    },
+    "focused-e2e-retry-execution": {
+      "argv": [
+        "npm",
+        "run",
+        "test:e2e",
+        "--",
+        "tests/e2e/ai-imagery.spec.ts",
+        "--workers=1"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:48:07.786912+00:00",
+      "endedAt": "2026-10-27T21:48:44.368080+00:00",
+      "exitCode": 0,
+      "log": "focused-e2e-retry.log"
+    },
+    "strict-build-execution": {
+      "argv": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:52:14.788178+00:00",
+      "endedAt": "2026-10-27T21:52:22.536650+00:00",
+      "exitCode": 0,
+      "log": "strict-build.log"
+    },
+    "public-build-execution": {
+      "argv": [
+        "npm",
+        "run",
+        "build:app"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:52:22.574350+00:00",
+      "endedAt": "2026-10-27T21:52:27.426145+00:00",
+      "exitCode": 0,
+      "log": "public-build.log"
+    },
+    "public-e2e-execution": {
+      "argv": [
+        "npm",
+        "run",
+        "test:e2e",
+        "--",
+        "tests/e2e/ai-imagery.spec.ts",
+        "--workers=1"
+      ],
+      "cwd": "/workspace",
+      "startedAt": "2026-10-27T21:52:27.463803+00:00",
+      "endedAt": "2026-10-27T21:52:58.329809+00:00",
+      "exitCode": 0,
+      "log": "public-e2e.log"
+    }
+  },
+  "limits": [
+    "Cloud job IDs/runtime/cost and submitted-job total unknown.",
+    "No new generation or heavy source capture; GLB requests aborted in focused page tests.",
+    "Lint/E2E first concurrent run failed: directory-scanning race and substring locator ambiguity; separate successful retries retained."
+  ]
+}

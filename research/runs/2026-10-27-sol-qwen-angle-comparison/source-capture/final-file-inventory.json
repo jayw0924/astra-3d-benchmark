@@ -1,0 +1,20 @@
+{
+  "preflight.json": "e4fc404ec8db577e43574333971e1f169612489ff6a70edb93a36a14508ac20e",
+  "capture.mjs": "e749af5439db73fcf00ee526385ba21c731a481a3a8876df26a89b19226fedeb",
+  "front-command.log": "92a52bdd3918843e6829881d947a120438b2009ffd4ad8b11ed7238fb107bee4",
+  "commands.jsonl": "0f4faddb0579fb69c4cc9da31f1a79c59218c320f69a6376df25ddf69852142b",
+  "front-runtime-instrumentation.json": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8",
+  "front-pose.json": "be3553e476d9e717b3db0d230d4a288b12cd906b92fc8f547938568a01880fd0",
+  "front.png": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+  "front.json": "215b4089d638fdbd06bccc3d9b3043f5c7b49320d5a0ea99e8ef1ab675d10cbc",
+  "errors.jsonl": "b419c90d41053d29843086b06f145f9d16dd8f273e97832c68026d13b94634f1",
+  "front-readback-recovery.json": "f9ae99d4873e8d266ecadb3169f7d226e711b03f82f084c9f45ba0b36084ce6f",
+  "rear-command.log": "6d3df3fee52b82c74030c7d8e92993d1aef6a13830540a569875e723a1b98611",
+  "rear-runtime-instrumentation.json": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8",
+  "rear-pose.json": "0b3de9330bbb6ccfaa2b0dfe85be05b2549a090e89c8ee51cc828fcf3929fc85",
+  "rear.png": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+  "rear.json": "035c3baad78be898229ef1111481fec22bc925d5a7faf4cdd49488ee2dd8ca0f",
+  "verify-and-package.py": "56979817f91500e50ce5695f92b685beee92a3ddd303b296056baf7a4b5a9ae7",
+  "source-manifest.json": "c24d89c23a1e8765c5ca304ac01de2110e0215bbb0fb804eccf7a9803abab5a2",
+  "index.html": "a85139e6175ebfb4459ec1acf11d9c9f9c74af0ce9e9ee1669b6b0b723cc6761"
+}

@@ -1,0 +1,348 @@
+
+ RUN  v5.0.5 /workspace
+
+ ❯ src/App.test.tsx (8 tests | 1 failed) 1211ms
+   ❯ App (8)
+     × separates the complete bounded Qwen comparison from 3D results 323ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/App.test.tsx > App > separates the complete bounded Qwen comparison from 3D results
+TestingLibraryElementError: Unable to find an accessible element with the role "group" and name "Side-view seed variation"
+
+Here are the accessible roles:
+
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "AI-enhanced imagery":
+  [36m<h2[39m
+    [33mid[39m=[32m"ai-imagery-title"[39m
+  [36m/>[39m
+
+  --------------------------------------------------article:
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<article[39m
+    [33mclass[39m=[32m"render-card"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  img:
+
+  Name "Original Carmine viewer input":
+  [36m<img[39m
+    [33malt[39m=[32m"Original Carmine viewer input"[39m
+    [33mheight[39m=[32m"778"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/ai-imagery/after-Carmine-side.png"[39m
+    [33mwidth[39m=[32m"850"[39m
+  [36m/>[39m
+
+  Name "First Qwen Image 2.1 interpretation":
+  [36m<img[39m
+    [33malt[39m=[32m"First Qwen Image 2.1 interpretation"[39m
+    [33mheight[39m=[32m"768"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_00001.png"[39m
+    [33mwidth[39m=[32m"864"[39m
+  [36m/>[39m
+
+  Name "Qwen interpretation · seed 42":
+  [36m<img[39m
+    [33malt[39m=[32m"Qwen interpretation · seed 42"[39m
+    [33mheight[39m=[32m"768"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed42.png"[39m
+    [33mwidth[39m=[32m"864"[39m
+  [36m/>[39m
+
+  Name "Qwen interpretation · seed 12345":
+  [36m<img[39m
+    [33malt[39m=[32m"Qwen interpretation · seed 12345"[39m
+    [33mheight[39m=[32m"768"[39m
+    [33mloading[39m=[32m"lazy"[39m
+    [33msrc[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png"[39m
+    [33mwidth[39m=[32m"864"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "Original viewer input · 850×778":
+  [36m<h3 />[39m
+
+  Name "First interpretation · seed 891836227295375 · 864×768":
+  [36m<h3 />[39m
+
+  Name "Second interpretation · seed 42 · 864×768":
+  [36m<h3 />[39m
+
+  Name "Third interpretation · seed 12345 · 864×768":
+  [36m<h3 />[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  link:
+
+  Name "Download seed 42 PNG":
+  [36m<a[39m
+    [33mdownload[39m=[32m""[39m
+    [33mhref[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed42.png"[39m
+  [36m/>[39m
+
+  Name "Download seed 12345 PNG":
+  [36m<a[39m
+    [33mdownload[39m=[32m""[39m
+    [33mhref[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png"[39m
+  [36m/>[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m/>[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m/>[39m
+
+  --------------------------------------------------group:
+
+  Name "":
+  [36m<details[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<section[39m
+  [33maria-labelledby[39m=[32m"ai-imagery-title"[39m
+  [33mclass[39m=[32m"output-overview ai-imagery"[39m
+  [33mid[39m=[32m"ai-imagery"[39m
+[36m>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"section-heading"[39m
+  [36m>[39m
+    [36m<p[39m
+      [33mclass[39m=[32m"eyebrow"[39m
+    [36m>[39m
+      [0mCase 01 · Separate interpretive experiment[0m
+    [36m</p>[39m
+    [36m<h2[39m
+      [33mid[39m=[32m"ai-imagery-title"[39m
+    [36m>[39m
+      [0mAI-enhanced imagery[0m
+    [36m</h2>[39m
+    [36m<p>[39m
+      [0mQwen Image 2.1 image generation; Sol prompt and guidance; Jay Comfy Cloud UI execution and review. This is generative image editing, not mesh or material improvement. The accepted 3D model is unchanged.[0m
+    [36m</p>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"render-grid ai-imagery-pair"[39m
+  [36m>[39m
+    [36m<article[39m
+      [33mclass[39m=[32m"render-card"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m"Original Carmine viewer input"[39m
+        [33mheight[39m=[32m"778"[39m
+        [33mloading[39m=[32m"lazy"[39m
+        [33msrc[39m=[32m"/assets/study/ai-imagery/after-Carmine-side.png"[39m
+        [33mwidth[39m=[32m"850"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"render-card-body"[39m
+      [36m>[39m
+        [36m<h3>[39m
+          [0mOriginal viewer input · 850×778[0m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</article>[39m
+    [36m<article[39m
+      [33mclass[39m=[32m"render-card"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m"First Qwen Image 2.1 interpretation"[39m
+        [33mheight[39m=[32m"768"[39m
+        [33mloading[39m=[32m"lazy"[39m
+        [33msrc[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_00001.png"[39m
+        [33mwidth[39m=[32m"864"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"render-card-body"[39m
+      [36m>[39m
+        [36m<h3>[39m
+          [0mFirst interpretation · seed 891836227295375 · 864×768[0m
+        [36m</h3>[39m
+      [36m</div>[39m
+    [36m</article>[39m
+    [36m<article[39m
+      [33mclass[39m=[32m"render-card"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m"Qwen interpretation · seed 42"[39m
+        [33mheight[39m=[32m"768"[39m
+        [33mloading[39m=[32m"lazy"[39m
+        [33msrc[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed42.png"[39m
+        [33mwidth[39m=[32m"864"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"render-card-body"[39m
+      [36m>[39m
+        [36m<h3>[39m
+          [0mSecond interpretation · seed 42 · 864×768[0m
+        [36m</h3>[39m
+        [36m<p>[39m
+          [0mInvented door handle, more angular body treatment and reconstructed grain.[0m
+        [36m</p>[39m
+        [36m<a[39m
+          [33mdownload[39m=[32m""[39m
+          [33mhref[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed42.png"[39m
+        [36m>[39m
+          [0mDownload seed 42 PNG[0m
+        [36m</a>[39m
+      [36m</div>[39m
+    [36m</article>[39m
+    [36m<article[39m
+      [33mclass[39m=[32m"render-card"[39m
+    [36m>[39m
+      [36m<img[39m
+        [33malt[39m=[32m"Qwen interpretation · seed 12345"[39m
+        [33mheight[39m=[32m"768"[39m
+        [33mloading[39m=[32m"lazy"[39m
+        [33msrc[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png"[39m
+        [33mwidth[39m=[32m"864"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"render-card-body"[39m
+      [36m>[39m
+        [36m<h3>[39m
+          [0mThird interpretation · seed 12345 · 864×768[0m
+        [36m</h3>[39m
+        [36m<p>[39m
+          [0mApparent perspective, roof and framing drift; wheel details reconstructed.[0m
+        [36m</p>[39m
+        [36m<a[39m
+          [33mdownload[39m=[32m""[39m
+          [33mhref[39m=[32m"/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png"[39m
+        [36m>[39m
+          [0mDownload seed 12345 PNG[0m
+        [36m</a>[39m
+      [36m</div>[39m
+    [36m</article>[39m
+  [36m</div>[39m
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m>[39m
+    [0mExact native PNG copies displayed responsively; not an aligned pixel comparison. The studio floor, contact shadow and reflections read more photographically, but wheel spokes/tread, lower trim, seams and surface grain are reconstructed. Faithful product imagery is not established.[0m
+  [36m</p>[39m
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m>[39m
+    [0mTwo additional successful outputs complete the bounded comparison; one reported cloud failure before the successful seed-42 retry is retained. No winner has been selected by Jay. Jay approved the first image for report inclusion, not blanket design fidelity. No more generation is authorized.[0m
+  [36m</p>[39m
+  [36m<details[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m>[39m
+    [36m<summary>[39m
+      [0mTechnical settings, cloud failure and provenance limits[0m
+    [36m</summary>[39m
+    [36m<p>[39m
+      [0mEmbedded submitted graphs share the same original input reference and matching is_changed token, effective prompt, models and sampling settings: 25 steps, CFG 1, Euler/simple, denoise 1; prompt refinement is off. Differences are the sampler seed and the inactive text-enhancer seed, not a different prompt or model. Editor exports also change post-run seed control from randomize to fixed, layout and input/link ordering; this is not a claim that all workflow bytes differ only by seed. Diffusion: qwen_image_2.1_int8_convrot.safetensors; encoder: qwen3vl_8b_int8_convrot.safetensors; VAE: qwen_image_2.1_vae_bf16.safetensors.[0m
+    [36m</p>[39m
+    [36m<p>[39m
+      [0mThe reported KSampler failure was AttributeError: module 'os' has no attribute 'memfd_create', a cloud runtime boundary, not evidence that seed 42 is invalid. The retry produced an image; the root cause and any service fix remain unverified. Three successful PNGs plus one reported failure imply four attempted jobs from the user sequence, not authenticated cloud history. Job IDs, actual cloud runtime and cost, including the failed attempt, are unknown and not reconstructed.[0m
+    [36m</p>[39m
+    [36m<p>[39m
+      [0mEmbedded settings corroborate the supervised input flow, not independent cloud-upload authentication, billing history or exact reproducibility. The ledger interval denotes first retrospective registration only. All three look more photographic but reconstruct product details; this small sample does not establish reliability. Original workflow exports remain in the research archive; no separate public workflow download is added because editor graphs include cloud-specific metadata. The native PNGs retain their reviewed embedded graphs.[0m
+    [36m</p>[39m
+  [36m</details>[39m
+  [36m<p[39m
+    [33mclass[39m=[32m"geometry-note"[39m
+  [36m>[39m
+    [0mSource CarConcept credits: Unity Fan, DGG and Eric Chadwick; historical Astra-directed Safe geometry and Sol viewer capture retained. Inherited CC BY 4.0 source attribution applies; the generated image is a disclosed interpretation.[0m
+  [36m</p>[39m
+[36m</section>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/App.test.tsx:12:35
+     10|     expect(within(section).getByRole('img', { name: 'First Qwen Image …
+     11|     expect(within(section).getByText(/not mesh or material improvement…
+     12|     expect(within(within(section).getByRole('group', { name: 'Side-vie…
+       |                                   ^
+     13|     const angles = within(section).getByRole('group', { name: 'Two-ang…
+     14|     expect(within(angles).getAllByRole('img')).toHaveLength(4);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 7 passed (8)
+   Start at  21:42:22
+   Duration  2.09s (tests 62%, environment 28%, transform 4%, setup 3%, import 3%)
+
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,55 @@
+{
+  "registeredAt": "2026-10-27T21:44:26.989810+00:00",
+  "images": [
+    {
+      "angle": "front",
+      "role": "source",
+      "archivePath": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-source.png",
+      "publicPath": "public/assets/study/ai-imagery/angles/front-source.png",
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+      "bytes": 273749,
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    {
+      "angle": "front",
+      "role": "generated-seed42",
+      "archivePath": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-generated-seed42.png",
+      "publicPath": "public/assets/study/ai-imagery/angles/front-generated-seed42.png",
+      "sha256": "d23e3fb01812bcdf6a74f79f1bbd2cd586393596bedb601505c3f17be55bc615",
+      "bytes": 845450,
+      "dimensions": [
+        864,
+        768
+      ]
+    },
+    {
+      "angle": "rear",
+      "role": "source",
+      "archivePath": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-source.png",
+      "publicPath": "public/assets/study/ai-imagery/angles/rear-source.png",
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+      "bytes": 251711,
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    {
+      "angle": "rear",
+      "role": "generated-seed42",
+      "archivePath": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-generated-seed42.png",
+      "publicPath": "public/assets/study/ai-imagery/angles/rear-generated-seed42.png",
+      "sha256": "11dbc760c7b561d766d550867ccc6e6b686cca821575b6ab04b78892fb4f8432",
+      "bytes": 845697,
+      "dimensions": [
+        864,
+        768
+      ]
+    }
+  ],
+  "nativeCopies": true,
+  "alignment": "None; input and output dimensions/aspects differ."
+}

@@ -1,0 +1,90 @@
+
+> astra-3d-benchmark@0.1.0 test:e2e
+> PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test tests/e2e/ai-imagery.spec.ts --workers=1
+
+
+Running 4 tests using 1 worker
+
+  ✓  1 [chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › two-angle group serves four native lossless PNGs without stretching or overflow (15.0s)
+  ✘  2 [chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios (7.7s)
+  ✓  3 [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:5:1 › two-angle group serves four native lossless PNGs without stretching or overflow (15.1s)
+  ✘  4 [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios (10.8s)
+
+
+  1) [chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios 
+
+    Error: locator.scrollIntoViewIfNeeded: Error: strict mode violation: getByRole('region', { name: 'AI-enhanced imagery' }).getByRole('img', { name: 'Qwen interpretation · seed 42' }) resolved to 3 elements:
+        1) <img width="864" height="768" loading="lazy" alt="Qwen interpretation · seed 42" src="/assets/study/ai-imagery/Qwen_image_2.1_seed42.png"/> aka getByRole('img', { name: 'Qwen interpretation · seed 42', exact: true })
+        2) <img width="864" height="768" loading="lazy" alt="Front three-quarter Qwen interpretation · seed 42" src="/assets/study/ai-imagery/angles/front-generated-seed42.png"/> aka getByRole('img', { name: 'Front three-quarter Qwen' })
+        3) <img width="864" height="768" loading="lazy" alt="Rear three-quarter Qwen interpretation · seed 42" src="/assets/study/ai-imagery/angles/rear-generated-seed42.png"/> aka getByRole('img', { name: 'Rear three-quarter Qwen' })
+
+    Call log:
+      - waiting for getByRole('region', { name: 'AI-enhanced imagery' }).getByRole('img', { name: 'Qwen interpretation · seed 42' })
+
+
+      47 |   for (const [label, file, width, height] of pairs) {
+      48 |     const image = section.getByRole('img', { name: label });
+    > 49 |     await image.scrollIntoViewIfNeeded();
+         |                 ^
+      50 |     await expect.poll(() => image.evaluate((node: HTMLImageElement) => [node.naturalWidth, node.naturalHeight])).toEqual([width, height]);
+      51 |     const displayed = await image.evaluate((node) => { const rect = node.getBoundingClientRect(); return [rect.width, rect.height]; });
+      52 |     expect(displayed[0] / displayed[1]).toBeCloseTo(width / height, 2);
+        at /workspace/tests/e2e/ai-imagery.spec.ts:49:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios 
+
+    Error: locator.scrollIntoViewIfNeeded: Error: strict mode violation: getByRole('region', { name: 'AI-enhanced imagery' }).getByRole('img', { name: 'Qwen interpretation · seed 42' }) resolved to 3 elements:
+        1) <img width="864" height="768" loading="lazy" alt="Qwen interpretation · seed 42" src="/assets/study/ai-imagery/Qwen_image_2.1_seed42.png"/> aka getByRole('img', { name: 'Qwen interpretation · seed 42', exact: true })
+        2) <img width="864" height="768" loading="lazy" alt="Front three-quarter Qwen interpretation · seed 42" src="/assets/study/ai-imagery/angles/front-generated-seed42.png"/> aka getByRole('img', { name: 'Front three-quarter Qwen' })
+        3) <img width="864" height="768" loading="lazy" alt="Rear three-quarter Qwen interpretation · seed 42" src="/assets/study/ai-imagery/angles/rear-generated-seed42.png"/> aka getByRole('img', { name: 'Rear three-quarter Qwen' })
+
+    Call log:
+      - waiting for getByRole('region', { name: 'AI-enhanced imagery' }).getByRole('img', { name: 'Qwen interpretation · seed 42' })
+
+
+      47 |   for (const [label, file, width, height] of pairs) {
+      48 |     const image = section.getByRole('img', { name: label });
+    > 49 |     await image.scrollIntoViewIfNeeded();
+         |                 ^
+      50 |     await expect.poll(() => image.evaluate((node: HTMLImageElement) => [node.naturalWidth, node.naturalHeight])).toEqual([width, height]);
+      51 |     const displayed = await image.evaluate((node) => { const rect = node.getBoundingClientRect(); return [rect.width, rect.height]; });
+      52 |     expect(displayed[0] / displayed[1]).toBeCloseTo(width / height, 2);
+        at /workspace/tests/e2e/ai-imagery.spec.ts:49:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-mobile-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-mobile-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-mobile-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/ai-imagery-AI-imagery-serv-eece8-NGs-at-native-aspect-ratios-mobile-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios 
+    [mobile-chromium] › tests/e2e/ai-imagery.spec.ts:33:1 › AI imagery serves exact archived PNGs at native aspect ratios 
+  2 passed (56.6s)
+npm notice
+npm notice New major version of npm available! 11.19.1 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

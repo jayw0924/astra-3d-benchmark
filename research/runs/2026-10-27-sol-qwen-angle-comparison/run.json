@@ -1,0 +1,824 @@
+{
+  "id": "2026-10-27-sol-qwen-angle-comparison",
+  "title": "Two-angle Qwen comparison \u2014 Sol coordination, Jay manual execution; retrospective registration",
+  "startedAt": "2026-10-27T21:44:26.989810+00:00",
+  "endedAt": "2026-10-27T21:44:27.066516+00:00",
+  "model": "Qwen Image 2.1 (embedded submitted graphs); Sol gpt-6.1-sol coordination/registration",
+  "provider": "Comfy Cloud (Jay manual UI); Sol openai-codex registration",
+  "interface": "Jay-operated cloud UI; Sol guidance, capture harness and retrospective local evidence registration",
+  "reasoningMode": "Not applicable to image diffusion; prompt refinement off",
+  "tools": [
+    "Comfy Cloud UI (Jay)",
+    "Pillow metadata inspection",
+    "terminal",
+    "file",
+    "native image visual review"
+  ],
+  "workPackage": "render",
+  "inputAssets": [
+    "primary-product",
+    "web-product-estuary-safe",
+    "qwen-angle-front-source",
+    "qwen-angle-rear-source"
+  ],
+  "promptPath": "research/runs/2026-10-27-sol-qwen-angle-comparison/prompt.md",
+  "outputPaths": [
+    "public/assets/study/ai-imagery/angles/front-generated-seed42.png",
+    "public/assets/study/ai-imagery/angles/front-source.png",
+    "public/assets/study/ai-imagery/angles/rear-generated-seed42.png",
+    "public/assets/study/ai-imagery/angles/rear-source.png",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/before.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/checks.py",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/copy-verification.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/effective-comparison.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/fast-tests-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/fast-tests.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/finalize.py",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-retry-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-retry.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/front-generated-seed42.png",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/front-prompt.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/front-receipt.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/front-source.png",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/front-workflow.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/generation-status.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/green-archive.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/green-unit-retry.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/green-unit.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/image-inventory.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/integrity.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-retry-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-retry.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/lint.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/metadata-privacy-review.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/notes.md",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/output-inventory.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/package.py",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/production-http.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/prompt.md",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/public-build-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/public-build.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/public-e2e-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/public-e2e.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-generated-seed42.png",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-prompt.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-receipt.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-source.png",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-workflow.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/red-archive.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/red-unit.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/register.py",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/capture.mjs",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/commands.jsonl",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/errors.jsonl",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/final-file-inventory.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-command.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-pose.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-readback-recovery.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-runtime-instrumentation.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.png",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/index.html",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/preflight.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-command.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-pose.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-runtime-instrumentation.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.png",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/source-manifest.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/verify-and-package.py",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/strict-build-execution.json",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/strict-build.log",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/validation-notes.md",
+    "research/runs/2026-10-27-sol-qwen-angle-comparison/verification.json"
+  ],
+  "provenance": {
+    "lane": "non_astra_authored_baseline",
+    "outputs": [
+      {
+        "path": "public/assets/study/ai-imagery/angles/front-generated-seed42.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/angles/front-source.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/angles/rear-generated-seed42.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "public/assets/study/ai-imagery/angles/rear-source.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/before.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/checks.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/copy-verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/effective-comparison.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/fast-tests-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/fast-tests.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/finalize.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-retry-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/focused-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-generated-seed42.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-prompt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-receipt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-source.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-workflow.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/generation-status.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/green-archive.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/green-unit-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/green-unit.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/image-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/integrity.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-retry-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint-retry.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/lint.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/metadata-privacy-review.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/output-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/package.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/production-http.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/prompt.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-e2e-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/public-e2e.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-generated-seed42.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-prompt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-receipt.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-source.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-workflow.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/red-archive.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/red-unit.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/register.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/capture.mjs",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/commands.jsonl",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/errors.jsonl",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/final-file-inventory.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-command.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-pose.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-readback-recovery.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-runtime-instrumentation.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/index.html",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/preflight.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-command.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-pose.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-runtime-instrumentation.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.png",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/source-manifest.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/verify-and-package.py",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/strict-build-execution.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/strict-build.log",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/validation-notes.md",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      },
+      {
+        "path": "research/runs/2026-10-27-sol-qwen-angle-comparison/verification.json",
+        "lane": "non_astra_authored_baseline",
+        "sourceAssets": [
+          "primary-product",
+          "web-product-estuary-safe",
+          "qwen-angle-front-source",
+          "qwen-angle-rear-source"
+        ]
+      }
+    ]
+  },
+  "elapsedSeconds": 0.076706,
+  "cost": {
+    "amount": null,
+    "currency": "USD",
+    "basis": "Unknown original cloud generation cost/runtime. Observed schema interval measures retrospective lossless packet registration/copy only, not generation, capture, full review/session, active time or billed time."
+  },
+  "interventionLevel": 3,
+  "outcome": "partial",
+  "failureNotes": "Both images reconstruct wheels/tread, trim, glazing and paint response; geometry and multiview coherence are not established. Actual cloud job IDs/time/cost unknown. Source front capture command exited 1 after PNG/telemetry persisted due to JSON readback undefined/-0 normalization; raw logs and readback recovery retained, no recapture. Four follow-on conditions remain planned.",
+  "reviewer": "Sol native-image review; Jay source-angle approval and manual execution; no angle winner or blanket fidelity approval attributed",
+  "publicSummary": "Case01 two-angle follow-up: exact front/rear current-grounded sources and two independent Qwen seed-42 interpretations. Qwen generation; Sol coordination/guidance/review; Jay manual Comfy Cloud execution. More photographic studio presentation, reconstructed product details; no improved GLB/materials or coherent 3D established. Cost, runtime and job IDs unknown. Ledger timestamps cover retrospective packet registration only. Masked-background, repeatability, second-model and location conditions remain planned, not results."
+}

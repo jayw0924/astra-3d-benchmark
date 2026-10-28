@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-27T21:25:38.418517+00:00",
+  "scope": "Exactly two fresh unchanged-current-app framebuffer sources, private user review only; no generation, run registration or publication.",
+  "head": "88886b1ac75574d61b52a168449a5da11b705f4c",
+  "hostRepositoryPath": "/home/jay/projects/external/configurator-demo",
+  "captureCount": 2,
+  "captures": [
+    {
+      "view": "front-three-quarter",
+      "file": "front.png",
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+      "bytes": 273749,
+      "dimensions": [
+        850,
+        778
+      ],
+      "nonbackgroundBBox": [
+        114,
+        261,
+        705,
+        541
+      ],
+      "telemetry": "front.json",
+      "camera": {
+        "position": [
+          5.1182388968791805,
+          3.0999999999999996,
+          8.003351210241432
+        ],
+        "quaternion": [
+          -0.12548936421738263,
+          0.2782525288275202,
+          0.036694947005704664,
+          0.951567880150258
+        ],
+        "projection": [
+          3.192009926244973,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0002000200020003,
+          -1,
+          0,
+          0,
+          -0.020002000200020003,
+          0
+        ],
+        "matrixWorld": [
+          0.8424580221306771,
+          0,
+          -0.5387619891451767,
+          0,
+          -0.13967093173777778,
+          0.9658118006651313,
+          -0.2184023729804185,
+          0,
+          0.5203426868662311,
+          0.25924422017853516,
+          0.8136558993388142,
+          0,
+          5.1182388968791805,
+          3.0999999999999996,
+          8.003351210241432,
+          1
+        ],
+        "target": [
+          0,
+          0.55,
+          0
+        ],
+        "fov": 32,
+        "aspect": 1.0925449871465296,
+        "near": 0.01,
+        "far": 100,
+        "zoom": 1
+      },
+      "azimuthFromModelFrontDegrees": 45.00000000000001,
+      "elevationDegrees": 15.025221579448981,
+      "visualReview": {
+        "actualNativePNGInspected": true,
+        "correctFrontOrRear": true,
+        "substantialSideVisible": true,
+        "fullCarUncropped": true,
+        "visibleNearSideTireContacts": true,
+        "limitations": "Far-side tires are naturally occluded; no claim all four tire contacts are simultaneously visible. Existing model material/geometry appearance retained; not a photorealism certification."
+      },
+      "convenienceCopy": "work/ai-imagery-followup/car-front-three-quarter.png",
+      "copyHashEquality": true
+    },
+    {
+      "view": "rear-three-quarter",
+      "file": "rear.png",
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+      "bytes": 251711,
+      "dimensions": [
+        850,
+        778
+      ],
+      "nonbackgroundBBox": [
+        171,
+        278,
+        770,
+        555
+      ],
+      "telemetry": "rear.json",
+      "camera": {
+        "position": [
+          8.003351210241432,
+          3.0999999999999996,
+          -5.1182388968791805
+        ],
+        "quaternion": [
+          -0.06278713454188496,
+          0.8696143508298002,
+          0.1146816262679145,
+          0.4761058507973104
+        ],
+        "projection": [
+          3.192009926244973,
+          0,
+          0,
+          0,
+          0,
+          3.4874144438409087,
+          0,
+          0,
+          0,
+          0,
+          -1.0002000200020003,
+          -1,
+          0,
+          0,
+          -0.020002000200020003,
+          0
+        ],
+        "matrixWorld": [
+          -0.5387619891451769,
+          0,
+          -0.842458022130677,
+          0,
+          -0.21840237298041845,
+          0.9658118006651313,
+          0.1396709317377778,
+          0,
+          0.8136558993388141,
+          0.25924422017853516,
+          -0.5203426868662311,
+          0,
+          8.003351210241432,
+          3.0999999999999996,
+          -5.1182388968791805,
+          1
+        ],
+        "target": [
+          0,
+          0.55,
+          0
+        ],
+        "fov": 32,
+        "aspect": 1.0925449871465296,
+        "near": 0.01,
+        "far": 100,
+        "zoom": 1
+      },
+      "azimuthFromModelFrontDegrees": 135,
+      "elevationDegrees": 15.025221579448981,
+      "visualReview": {
+        "actualNativePNGInspected": true,
+        "correctFrontOrRear": true,
+        "substantialSideVisible": true,
+        "fullCarUncropped": true,
+        "visibleNearSideTireContacts": true,
+        "limitations": "Far-side tires are naturally occluded; no claim all four tire contacts are simultaneously visible. Existing model material/geometry appearance retained; not a photorealism certification."
+      },
+      "convenienceCopy": "work/ai-imagery-followup/car-rear-three-quarter.png",
+      "copyHashEquality": true
+    }
+  ],
+  "sourcePins": {
+    "src/lib/threeViewer.ts": "16620bdac00cfc608a1a479c838645605c44ea1db5b40a00c3484c0808b321a3",
+    "src/lib/viewerLighting.ts": "8943174891711038f08a0f1fbf659fb491b8ea126551d84a8ae0a162e6acafdb",
+    "src/lib/configuration.ts": "832267ee7b044d4f55eb69fe02f977fe0722d692445676bdfbeb7bcd495db01c",
+    "src/styles.css": "e016ff085b5cd4ce59268020b6aa149766fa53ab6ec81616487cfafb5e49a382",
+    "package-lock.json": "8abaf3bca6ab9a4c29b474250f79e794b3cf97ba0d6e0d1313054f5539576fbe",
+    "public/assets/models/product-estuary-safe.glb": "01b2c67ee3554de0182538e29127ea3b80405841107bee69b931b63797eac3c4"
+  },
+  "recipe": "grounded-studio-refined",
+  "receiverY": 0.1585579729696714,
+  "unchangedPairAssertions": [
+    "model transforms and every applied mesh material",
+    "lights",
+    "floor",
+    "shadow",
+    "renderer",
+    "variant assignments"
+  ],
+  "preservedHistoricalAndSourceFileCount": 1892,
+  "allPreservedFilesHashEqual": true,
+  "appPublicDependencyGitDiffEmpty": true,
+  "instrumentation": {
+    "rafPacingMs": 500,
+    "originalAppAnimation": true,
+    "cameraOnlyPresentationChange": true,
+    "dampingDrainedBeforePose": true,
+    "stableControlUpdates": 12
+  },
+  "renderer": {
+    "toneMapping": 4,
+    "exposure": 1.05,
+    "outputColorSpace": "srgb",
+    "dpr": 1,
+    "width": 850,
+    "height": 778,
+    "canvasClientWidth": 850,
+    "canvasClientHeight": 778,
+    "environment": true,
+    "background": "ddd9d0",
+    "shadows": {
+      "enabled": true,
+      "type": 1,
+      "autoUpdate": false,
+      "needsUpdate": false
+    },
+    "drawCalls": 215,
+    "triangles": 366236,
+    "glRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "orientationBasis": "Transformed precise bounds centers of actual BodyHeadlights minus BodyTaillights; horizontal front axis, equal longitudinal and lateral orbit components; no model transformation changes.",
+  "damping": "Disabled and updated to drain pending deltas before setting camera; re-enabled; 12 stable controls updates plus same-frame final camera verified within 1e-12.",
+  "issue": "First front command exited 1 after successfully persisting PNG and telemetry: JSON-readback comparison encountered undefined properties and negative zero. Preserved logs, verified saved front without recapture; normalized assertion for rear. Exactly two captures, no capture retries.",
+  "limits": [
+    "SwiftShader CPU with 500ms RAF scheduling instrumentation, not production GPU performance.",
+    "Framebuffer-only PNG; no DOM overlays, resizing, cropping, image synthesis or pixel retouching.",
+    "Technical source gate passed; Jay source preference/review and public publication remain pending.",
+    "SSH hostname is not available in the isolated container; use existing verified SSH host alias, not container hostname."
+  ]
+}

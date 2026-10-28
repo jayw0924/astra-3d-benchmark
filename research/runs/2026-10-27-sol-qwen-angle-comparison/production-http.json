@@ -1,0 +1,40 @@
+{
+  "baseUrl": "http://127.0.0.1:5198",
+  "checks": [
+    {
+      "route": "/",
+      "file": "dist/index.html",
+      "bytes": 505,
+      "sha256": "1f2cd3aa89c5ef0f7526c348725811084520258d5b3387d2cc6fd44a386bb986",
+      "exact": true
+    },
+    {
+      "route": "/assets/study/ai-imagery/angles/front-source.png",
+      "file": "dist/assets/study/ai-imagery/angles/front-source.png",
+      "bytes": 273749,
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+      "exact": true
+    },
+    {
+      "route": "/assets/study/ai-imagery/angles/front-generated-seed42.png",
+      "file": "dist/assets/study/ai-imagery/angles/front-generated-seed42.png",
+      "bytes": 845450,
+      "sha256": "d23e3fb01812bcdf6a74f79f1bbd2cd586393596bedb601505c3f17be55bc615",
+      "exact": true
+    },
+    {
+      "route": "/assets/study/ai-imagery/angles/rear-source.png",
+      "file": "dist/assets/study/ai-imagery/angles/rear-source.png",
+      "bytes": 251711,
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+      "exact": true
+    },
+    {
+      "route": "/assets/study/ai-imagery/angles/rear-generated-seed42.png",
+      "file": "dist/assets/study/ai-imagery/angles/rear-generated-seed42.png",
+      "bytes": 845697,
+      "sha256": "11dbc760c7b561d766d550867ccc6e6b686cca821575b6ab04b78892fb4f8432",
+      "exact": true
+    }
+  ]
+}

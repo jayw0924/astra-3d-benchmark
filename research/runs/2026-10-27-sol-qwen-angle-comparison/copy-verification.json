@@ -1,0 +1,179 @@
+{
+  "copies": [
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/capture.mjs",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/capture.mjs",
+      "sha256": "e749af5439db73fcf00ee526385ba21c731a481a3a8876df26a89b19226fedeb",
+      "bytes": 9988
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/commands.jsonl",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/commands.jsonl",
+      "sha256": "0f4faddb0579fb69c4cc9da31f1a79c59218c320f69a6376df25ddf69852142b",
+      "bytes": 1785
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/errors.jsonl",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/errors.jsonl",
+      "sha256": "b419c90d41053d29843086b06f145f9d16dd8f273e97832c68026d13b94634f1",
+      "bytes": 39369
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/final-file-inventory.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/final-file-inventory.json",
+      "sha256": "835863f0e8445c3dd1a3c30ef7e72f0d7fde7acb10240f47bf60b4ebacd0c66a",
+      "bytes": 1629
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-command.log",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-command.log",
+      "sha256": "92a52bdd3918843e6829881d947a120438b2009ffd4ad8b11ed7238fb107bee4",
+      "bytes": 209328
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-pose.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-pose.json",
+      "sha256": "be3553e476d9e717b3db0d230d4a288b12cd906b92fc8f547938568a01880fd0",
+      "bytes": 1892
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-readback-recovery.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-readback-recovery.json",
+      "sha256": "f9ae99d4873e8d266ecadb3169f7d226e711b03f82f084c9f45ba0b36084ce6f",
+      "bytes": 487
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front-runtime-instrumentation.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front-runtime-instrumentation.json",
+      "sha256": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8",
+      "bytes": 379
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.json",
+      "sha256": "215b4089d638fdbd06bccc3d9b3043f5c7b49320d5a0ea99e8ef1ab675d10cbc",
+      "bytes": 181860
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/front.png",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/front.png",
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+      "bytes": 273749
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/index.html",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/index.html",
+      "sha256": "a85139e6175ebfb4459ec1acf11d9c9f9c74af0ce9e9ee1669b6b0b723cc6761",
+      "bytes": 3006
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/preflight.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/preflight.json",
+      "sha256": "e4fc404ec8db577e43574333971e1f169612489ff6a70edb93a36a14508ac20e",
+      "bytes": 301677
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear-command.log",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-command.log",
+      "sha256": "6d3df3fee52b82c74030c7d8e92993d1aef6a13830540a569875e723a1b98611",
+      "bytes": 188
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear-pose.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-pose.json",
+      "sha256": "0b3de9330bbb6ccfaa2b0dfe85be05b2549a090e89c8ee51cc828fcf3929fc85",
+      "bytes": 1878
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear-runtime-instrumentation.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear-runtime-instrumentation.json",
+      "sha256": "bea95e2d67dbc18237c6bd626e4aa2a6b276c933e66fa90b33fc5350d28015d8",
+      "bytes": 379
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.json",
+      "sha256": "035c3baad78be898229ef1111481fec22bc925d5a7faf4cdd49488ee2dd8ca0f",
+      "bytes": 181845
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/rear.png",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/rear.png",
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+      "bytes": 251711
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/source-manifest.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/source-manifest.json",
+      "sha256": "c24d89c23a1e8765c5ca304ac01de2110e0215bbb0fb804eccf7a9803abab5a2",
+      "bytes": 7773
+    },
+    {
+      "from": "work/ai-imagery-followup/source-captures/2026-10-27-current-carmine-two-angles/verify-and-package.py",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/source-capture/verify-and-package.py",
+      "sha256": "56979817f91500e50ce5695f92b685beee92a3ddd303b296056baf7a4b5a9ae7",
+      "bytes": 5573
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-imagery/angle-followup/front-three-quarter/receipt.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-receipt.json",
+      "sha256": "891d27a22e49dd7e55cf8b4720f6eefd77ad18420750629621767a2fb65ca525",
+      "bytes": 826
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-imagery/angle-followup/front-three-quarter/source.png",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-source.png",
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+      "bytes": 273749
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-source.png",
+      "to": "public/assets/study/ai-imagery/angles/front-source.png",
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+      "bytes": 273749
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-imagery/angle-followup/front-three-quarter/generated-seed42.png",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-generated-seed42.png",
+      "sha256": "d23e3fb01812bcdf6a74f79f1bbd2cd586393596bedb601505c3f17be55bc615",
+      "bytes": 845450
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-angle-comparison/front-generated-seed42.png",
+      "to": "public/assets/study/ai-imagery/angles/front-generated-seed42.png",
+      "sha256": "d23e3fb01812bcdf6a74f79f1bbd2cd586393596bedb601505c3f17be55bc615",
+      "bytes": 845450
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-imagery/angle-followup/rear-three-quarter/receipt.json",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-receipt.json",
+      "sha256": "24bb9c378b0d2f0560a2c53836a512cf0bb3912a2730e111671ec5689b3abbeb",
+      "bytes": 1220
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-imagery/angle-followup/rear-three-quarter/source.png",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-source.png",
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+      "bytes": 251711
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-source.png",
+      "to": "public/assets/study/ai-imagery/angles/rear-source.png",
+      "sha256": "6511901c87c30a79318e24c881ec5f1c000f2e374292223b97c57ad905157b15",
+      "bytes": 251711
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-imagery/angle-followup/rear-three-quarter/generated-seed42.png",
+      "to": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-generated-seed42.png",
+      "sha256": "11dbc760c7b561d766d550867ccc6e6b686cca821575b6ab04b78892fb4f8432",
+      "bytes": 845697
+    },
+    {
+      "from": "research/runs/2026-10-27-sol-qwen-angle-comparison/rear-generated-seed42.png",
+      "to": "public/assets/study/ai-imagery/angles/rear-generated-seed42.png",
+      "sha256": "11dbc760c7b561d766d550867ccc6e6b686cca821575b6ab04b78892fb4f8432",
+      "bytes": 845697
+    }
+  ],
+  "allHashesEqual": true
+}

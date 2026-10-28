@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "npm",
+    "test"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-27T21:53:19.004863+00:00",
+  "endedAt": "2026-10-27T21:53:32.830332+00:00",
+  "exitCode": 0,
+  "log": "fast-tests.log"
+}

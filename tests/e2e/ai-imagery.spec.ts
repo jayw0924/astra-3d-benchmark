@@ -2,6 +2,34 @@ import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import { expect, test } from '@playwright/test';
 
+test('two-angle group serves four native lossless PNGs without stretching or overflow', async ({ page, request }) => {
+  await page.route('**/assets/models/*.glb', (route) => route.abort());
+  await page.goto('/');
+  const group = page.getByRole('group', { name: 'Two-angle comparison' });
+  await expect(group.getByRole('img')).toHaveCount(4);
+  const inventory = JSON.parse(await readFile('research/runs/2026-10-27-sol-qwen-angle-comparison/image-inventory.json', 'utf8'));
+  for (const entry of inventory.images) {
+    const url = `/${entry.publicPath.replace(/^public\//, '')}`;
+    const img = group.locator(`img[src="${url}"]`);
+    await img.scrollIntoViewIfNeeded();
+    await expect.poll(() => img.evaluate((el: HTMLImageElement) => [el.naturalWidth, el.naturalHeight])).toEqual(entry.dimensions);
+    const rect = await img.boundingBox();
+    expect(rect).not.toBeNull();
+    expect(rect!.width / rect!.height).toBeCloseTo(entry.dimensions[0] / entry.dimensions[1], 2);
+    expect(rect!.x).toBeGreaterThanOrEqual(0);
+    expect(rect!.x + rect!.width).toBeLessThanOrEqual(page.viewportSize()!.width);
+    await expect(group.locator(`a[href="${url}"]`)).toHaveAttribute('download', '');
+    const response = await request.get(url);
+    expect(response.ok()).toBe(true);
+    const bytes = await response.body();
+    expect(bytes).toEqual(await readFile(entry.archivePath));
+    expect(bytes.length).toBe(entry.bytes);
+    expect(createHash('sha256').update(bytes).digest('hex')).toBe(entry.sha256);
+  }
+  await expect(group.getByText(/not evidence of coherent 3D/)).toBeVisible();
+  await expect(group.getByText(/All four follow-on conditions remain planned/)).toBeVisible();
+});
+
 test('AI imagery serves exact archived PNGs at native aspect ratios', async ({ page, request }) => {
   await page.route('**/assets/models/*.glb', (route) => route.abort());
   await page.goto('/');
@@ -13,11 +41,11 @@ test('AI imagery serves exact archived PNGs at native aspect ratios', async ({ p
     ['Qwen interpretation · seed 42', 'Qwen_image_2.1_seed42.png', 864, 768],
     ['Qwen interpretation · seed 12345', 'Qwen_image_2.1_seed12345.png', 864, 768],
   ] as const;
-  await expect(section.getByRole('img')).toHaveCount(4);
+  await expect(section.getByRole('group', { name: 'Side-view seed variation' }).getByRole('img')).toHaveCount(4);
   await expect(section.getByRole('link', { name: 'Download seed 42 PNG' })).toHaveAttribute('href', '/assets/study/ai-imagery/Qwen_image_2.1_seed42.png');
   const manifest = JSON.parse(await readFile('research/asset-manifest.json', 'utf8'));
   for (const [label, file, width, height] of pairs) {
-    const image = section.getByRole('img', { name: label });
+    const image = section.getByRole('group', { name: 'Side-view seed variation' }).getByRole('img', { name: label, exact: true });
     await image.scrollIntoViewIfNeeded();
     await expect.poll(() => image.evaluate((node: HTMLImageElement) => [node.naturalWidth, node.naturalHeight])).toEqual([width, height]);
     const displayed = await image.evaluate((node) => { const rect = node.getBoundingClientRect(); return [rect.width, rect.height]; });

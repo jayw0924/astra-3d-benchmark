@@ -1,0 +1,36 @@
+{
+  "receivedAtUtc": "2026-10-27T21:37:21.923874+00:00",
+  "sourceBasis": "User instructed upload of verified front-three-quarter source; compare embedded source token separately.",
+  "files": [
+    {
+      "name": "source.png",
+      "bytes": 273749,
+      "sha256": "a23adfe1d1ba992ce736f55ca6915f62f7b54d8afa96e9600a6181d8437c1c3b",
+      "dimensions": [
+        850,
+        778
+      ]
+    },
+    {
+      "name": "generated-seed42.png",
+      "bytes": 845450,
+      "sha256": "d23e3fb01812bcdf6a74f79f1bbd2cd586393596bedb601505c3f17be55bc615",
+      "dimensions": [
+        864,
+        768
+      ]
+    }
+  ],
+  "graphChangesVsSideSeed42": [
+    {
+      "id": "470",
+      "type": "LoadImage",
+      "changedInputKeys": [
+        "image"
+      ]
+    }
+  ],
+  "jobId": null,
+  "durationSeconds": null,
+  "credits": null
+}

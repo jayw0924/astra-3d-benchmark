@@ -1,0 +1,18 @@
+{
+  "successfulReceivedOutputs": 2,
+  "originalCloudStartedAt": null,
+  "originalCloudEndedAt": null,
+  "jobIds": null,
+  "durationSeconds": null,
+  "cost": null,
+  "submittedJobCount": null,
+  "additionalGenerationsDuringRegistration": 0,
+  "plannedNotExecuted": [
+    "masked-background compositing",
+    "original-seed repeatability",
+    "second-model comparison",
+    "location imagery"
+  ],
+  "userPreference": null,
+  "protocolPath": "research/protocols/car-ai-imagery-followup-v1.md"
+}

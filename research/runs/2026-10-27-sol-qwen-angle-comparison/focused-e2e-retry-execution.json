@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "npm",
+    "run",
+    "test:e2e",
+    "--",
+    "tests/e2e/ai-imagery.spec.ts",
+    "--workers=1"
+  ],
+  "cwd": "/workspace",
+  "startedAt": "2026-10-27T21:48:07.786912+00:00",
+  "endedAt": "2026-10-27T21:48:44.368080+00:00",
+  "exitCode": 0,
+  "log": "focused-e2e-retry.log"
+}

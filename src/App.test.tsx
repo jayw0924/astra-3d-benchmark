@@ -9,13 +9,21 @@ describe('App', () => {
     expect(within(section).getByRole('img', { name: 'Original Carmine viewer input' })).toHaveAttribute('src', '/assets/study/ai-imagery/after-Carmine-side.png');
     expect(within(section).getByRole('img', { name: 'First Qwen Image 2.1 interpretation' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_00001.png');
     expect(within(section).getByText(/not mesh or material improvement/)).toBeVisible();
-    expect(within(section).getAllByRole('img')).toHaveLength(4);
+    expect(within(within(section).getByRole('group', { name: 'Side-view seed variation' })).getAllByRole('img')).toHaveLength(4);
+    const angles = within(section).getByRole('group', { name: 'Two-angle comparison' });
+    expect(within(angles).getAllByRole('img')).toHaveLength(4);
+    for (const angle of ['Front', 'Rear']) {
+      expect(within(angles).getByRole('img', { name: `${angle} three-quarter source` })).toHaveAttribute('width', '850');
+      expect(within(angles).getByRole('img', { name: `${angle} three-quarter Qwen interpretation · seed 42` })).toHaveAttribute('width', '864');
+    }
+    expect(within(angles).getByText(/not evidence of coherent 3D/)).toBeVisible();
+    expect(within(angles).getByText(/All four follow-on conditions remain planned/)).toBeVisible();
     expect(within(section).getByRole('img', { name: 'Qwen interpretation · seed 42' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_seed42.png');
     expect(within(section).getByRole('img', { name: 'Qwen interpretation · seed 12345' })).toHaveAttribute('src', '/assets/study/ai-imagery/Qwen_image_2.1_seed12345.png');
     expect(within(section).getByText(/Two additional successful outputs/)).toBeVisible();
     expect(within(section).getByText(/No winner has been selected/)).toBeVisible();
     expect(within(section).getByText(/seed 891836227295375/)).toBeVisible();
-    expect(within(section).getByText(/Qwen.*Sol.*Jay/)).toBeVisible();
+    expect(within(section).getByText(/Qwen Image 2.1 image generation; Sol prompt and guidance; Jay/)).toBeVisible();
     expect(within(section).getByText(/not an aligned pixel comparison/)).toBeVisible();
   });
   it('distinguishes current refined preview from historical evidence and discloses lighting authorship', () => {
