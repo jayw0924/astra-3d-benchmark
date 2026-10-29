@@ -3,6 +3,45 @@ import { describe, expect, it } from 'vitest';
 import App from './App';
 
 describe('App', () => {
+  it('discloses repeated angle settings on demand while leaving fidelity warnings visible', () => {
+    render(<App />);
+    const angles = screen.getByRole('group', { name: 'Two-angle comparison' });
+    const disclosure = within(angles).getByText('Angle settings & source verification').closest('details')!;
+    expect(disclosure).not.toHaveAttribute('open');
+    expect(disclosure).toHaveTextContent('25 steps, CFG 1, Euler/simple and denoise 1');
+    expect(disclosure).toHaveTextContent('actual generation time, cost and performance remain unknown');
+    expect(within(angles).getByText(/not evidence of coherent 3D/)).toBeVisible();
+    const protectedPair = screen.getByRole('group', { name: 'Protected product comparison' });
+    expect(within(protectedPair).getByText(/original glass and mirror reflections/)).toBeVisible();
+    const details = within(protectedPair).getByText('Empty plate, deterministic composite and shadow repair').closest('details')!;
+    expect(details).toHaveTextContent('107,603');
+    expect(details).not.toHaveAttribute('open');
+  });
+  it('leads with the workflow lab title and decision-first findings linked to retained evidence', () => {
+    render(<App />);
+    expect(screen.getByRole('heading', { level: 1, name: 'AI-assisted 3D Workflow Lab' })).toBeVisible();
+    expect(screen.getByText('Case 01 · CarConcept')).toBeVisible();
+    expect(screen.getByText('Materials, optimization & imagery')).toBeVisible();
+    const summary = screen.getByRole('region', { name: 'What we learned' });
+    expect(summary).toHaveTextContent('9.34%');
+    expect(summary).toHaveTextContent('not measured runtime speedup');
+    expect(summary).toHaveTextContent('not product fidelity');
+    expect(summary).toHaveTextContent('renderer-derived mask');
+    expect(summary).toHaveTextContent('Astra');
+    expect(summary).toHaveTextContent('Sol');
+    for (const href of ['#safe-result', '#ai-followons', '#configurator', '#workflow-index-title', '#evidence']) {
+      expect(within(summary).getAllByRole('link').some((link) => link.getAttribute('href') === href)).toBe(true);
+      expect(document.getElementById(href.slice(1))).not.toBeNull();
+    }
+    expect(summary.compareDocumentPosition(screen.getByRole('heading', { name: 'Historical material comparison' })) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+  });
+  it('offers every section through native study navigation links', () => {
+    render(<App />);
+    const nav = screen.getByRole('navigation', { name: 'Study navigation' });
+    const targets = ['#geometry', '#configurator', '#ai-imagery', '#workflow-index-title', '#methods', '#evidence'];
+    expect(within(nav).getAllByRole('link').map((link) => link.getAttribute('href'))).toEqual(targets);
+    for (const href of targets) expect(document.getElementById(href.slice(1))).not.toBeNull();
+  });
   it('publishes the actual rear workflow screenshot with native same-origin access', () => {
     render(<App />);
     const workflow = screen.getByRole('group', { name: 'How the image was made' });
@@ -113,7 +152,7 @@ describe('App', () => {
   it('presents outputs, methods, evidence, and deferred streaming honestly', () => {
     render(<App />);
     expect(
-      screen.getByRole('heading', { level: 1, name: /Astra 3D benchmark/i }),
+      screen.getByRole('heading', { level: 1, name: /AI-assisted 3D Workflow Lab/i }),
     ).toBeInTheDocument();
     expect(
       screen.getByRole('heading', { name: /real-time configurator/i }),
@@ -127,7 +166,7 @@ describe('App', () => {
   it('presents the completed Estuary integration instead of pending placeholders', () => {
     render(<App />);
 
-    expect(screen.getByText('Safe result integrated locally')).toBeVisible();
+    expect(screen.getByText('Safe result published in the viewer')).toBeVisible();
     expect(screen.getByText(/\d+ verified Astra runs · Safe geometry integrated/i)).toBeVisible();
     expect(screen.getByText(/30 controlled browser renders/i)).toBeVisible();
     expect(screen.getByText(/three supplied finishes plus Estuary Enamel/i)).toBeVisible();

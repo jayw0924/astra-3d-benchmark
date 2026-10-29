@@ -74,6 +74,10 @@ footer {
 }
 
 .site-header nav a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  white-space: nowrap;
   color: var(--muted);
   font-size: 0.66rem;
   text-decoration: none;
@@ -84,8 +88,18 @@ footer {
   color: var(--signal);
 }
 
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 4px;
+}
+
 main {
-  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.section-grid > * {
+  min-width: 0;
 }
 
 section {
@@ -124,12 +138,60 @@ p {
 }
 
 h1 {
-  max-width: 8ch;
+  max-width: 13ch;
   margin-bottom: 2rem;
-  font-size: clamp(4rem, 10.5vw, 10rem);
+  font-size: clamp(3.5rem, 7.5vw, 7.5rem);
   font-weight: 500;
   letter-spacing: -0.075em;
-  line-height: 0.82;
+  line-height: 0.95;
+}
+
+.hero-subtitle {
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  color: var(--signal);
+}
+
+.current-findings {
+  background: var(--surface);
+}
+
+.current-findings .section-heading {
+  margin-bottom: 2rem;
+}
+
+.findings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.findings-grid article {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--ink);
+}
+
+.findings-grid p,
+.findings-credit {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.findings-credit {
+  max-width: 90ch;
+  margin: 2rem 0 1rem;
+  font-size: 0.85rem;
+}
+
+.findings-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+
+.findings-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }
 
 h2 {
@@ -782,7 +844,7 @@ footer a {
   .split-heading,
   .streaming-section,
   .credits-section {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .hero {
@@ -823,8 +885,20 @@ footer a {
 }
 
 @media (max-width: 620px) {
-  .site-header nav a:not(:first-child) {
-    display: none;
+  .site-header {
+    display: block;
+    padding: 0.6rem 1.2rem 0;
+  }
+
+  .site-header nav {
+    gap: 1.25rem;
+    overflow-x: auto;
+    padding: 0 0.3rem 0.3rem;
+    scroll-padding-inline: 0.3rem;
+  }
+
+  [id] {
+    scroll-margin-top: 7rem;
   }
 
   section {
@@ -832,7 +906,10 @@ footer a {
   }
 
   h1 {
-    font-size: clamp(3.8rem, 21vw, 6rem);
+    max-width: 100%;
+    font-size: clamp(2.8rem, 14vw, 5rem);
+    line-height: 0.95;
+    overflow-wrap: anywhere;
   }
 
   .hero-object {
@@ -847,6 +924,7 @@ footer a {
 
   .render-grid,
   .geometry-lineage,
+  .findings-grid,
   .geometry-metrics,
   .evidence-grid {
     grid-template-columns: 1fr;
@@ -901,6 +979,20 @@ footer a {
 .image-workflow p,
 .image-workflow ol {
   max-width: 80ch;
+}
+
+.technical-details,
+details.geometry-note {
+  margin-block: 1.5rem;
+  line-height: 1.65;
+}
+
+summary {
+  cursor: pointer;
+}
+
+summary + p {
+  margin-top: 1rem;
 }
 
 .workflow-screenshot {

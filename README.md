@@ -1,4 +1,8 @@
-# AI-assisted 3D benchmark
+# AI-assisted 3D Workflow Lab
+
+Public site: https://astra.daedalwerks.com — Case 01 · CarConcept: materials,
+optimization and imagery. The public title does not rename historical Astra runs,
+the repository, model IDs or the domain.
 
 This repository contains a reproducible, evidence-backed case study of Astra assisting a realistic 3D content workflow. It includes a controlled baseline, evidence-verified Astra runs, a blind material comparison, and the selected Estuary Enamel integration.
 
@@ -119,7 +123,7 @@ npm run dev
 ```
 
 `npm run build` is the strict local research build and requires the private,
-gitignored Astra session exports. Vercel uses `npm run build:app` to compile the
+gitignored Astra session exports. The Cloudflare public deployment uses `npm run build:app` to compile the
 already validated public application from tracked files without weakening the
 local attribution gate.
 

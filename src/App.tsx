@@ -23,14 +23,14 @@ const workflowStages = [
     title: 'Geometry optimization',
     flow: 'Estuary control → rejected Safe attempts → accepted FINAL Safe GLB.',
     roles: 'Pinned non-Blender optimization toolchain; Astra direction; Sol fixed-view comparison, acceptance review and integration.',
-    status: 'Integrated locally · fixed-view acceptance, not measured runtime speedup.',
+    status: 'Published in the viewer · fixed-view acceptance, not measured runtime speedup.',
     href: '#safe-result', evidence: 'Accepted Safe geometry',
   },
   {
     title: 'Lighting & grounding',
     flow: 'Accepted Safe GLB → refined browser lighting and corrected tire/ground contact; model/material bytes unchanged.',
     roles: 'Three.js viewer, browser capture harness and tire-vertex receiver calculation; Sol authoring; Jay subjective review.',
-    status: 'Integrated locally · bundled presentation interventions, not isolated causal tests.',
+    status: 'Published in the viewer · bundled presentation interventions, not isolated causal tests.',
     href: '#configurator', evidence: 'Live viewer',
   },
   {
@@ -98,12 +98,14 @@ export default function App() {
   return (
     <>
       <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="Astra 3D benchmark home">
-          A3D / 01
+        <a className="wordmark" href="#top" aria-label="AI-assisted 3D Workflow Lab home">
+          3D Workflow Lab / 01
         </a>
         <nav aria-label="Study navigation">
           <a href="#geometry">Geometry</a>
           <a href="#configurator">Configurator</a>
+          <a href="#ai-imagery">AI imagery</a>
+          <a href="#workflow-index-title">Workflows</a>
           <a href="#methods">Methods</a>
           <a href="#evidence">Evidence</a>
         </nav>
@@ -112,8 +114,9 @@ export default function App() {
       <main id="top">
         <section className="hero section-grid" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <p className="eyebrow">AI-assisted 3D workflow study · Case 01</p>
-            <h1 id="hero-title">Astra 3D benchmark</h1>
+            <p className="eyebrow">Case 01 · CarConcept</p>
+            <h1 id="hero-title">AI-assisted 3D Workflow Lab</h1>
+            <p className="hero-subtitle">Materials, optimization &amp; imagery</p>
             <p className="lede">
               A transparent experiment in product visualization: source a real asset,
               direct an AI-assisted 3D workflow, ship an interactive result, and keep
@@ -123,7 +126,7 @@ export default function App() {
           <aside className="study-status" aria-label="Study status">
             <span className="status-dot" aria-hidden="true" />
             <div>
-              <strong>Safe result integrated locally</strong>
+              <strong>Safe result published in the viewer</strong>
               <p>{studyData.summary.astraRunCount} verified Astra runs · Safe geometry integrated</p>
             </div>
           </aside>
@@ -132,6 +135,20 @@ export default function App() {
             <strong>CarConcept</strong>
             <small>CC BY 4.0 · Khronos sample asset</small>
           </div>
+        </section>
+
+        <section className="current-findings" aria-labelledby="findings-title">
+          <div className="section-heading">
+            <p className="eyebrow">Current findings · start here</p>
+            <h2 id="findings-title">What we learned</h2>
+          </div>
+          <div className="findings-grid">
+            <article><h3>Keep the Safe geometry</h3><p>A modest 9.34% smaller GLB passed fixed-view acceptance — not measured runtime speedup or arbitrary-view certification.</p><a href="#safe-result">Accepted result &amp; comparison →</a></article>
+            <article><h3>Use AI images for interpretation</h3><p>More photographic presentation, not product fidelity: wheels, trim and even marks can be invented. The GLB is unchanged.</p><a href="#ai-followons">Current images &amp; original sources →</a></article>
+            <article><h3>Protect pixels when design matters</h3><p>The approved composite preserves source RGB only inside a renderer-derived mask. Frozen reflections and edge spill remain; this is not whole-vehicle truth or relighting.</p><a href="#ai-followons">Protected comparison &amp; limits →</a></article>
+          </div>
+          <p className="findings-credit">Astra authored Estuary materials and directed Safe optimization; Sol authored viewer presentation, comparisons and local compositing; Jay operated and reviewed the cloud UI. Qwen and Flux generated image pixels. Costs and fresh-sampling versus cache reuse remain unknown.</p>
+          <div className="findings-links"><a href="#configurator">Open the viewer →</a><a href="#workflow-index-title">Explore workflows →</a><a href="#evidence">Read the evidence →</a></div>
         </section>
 
         <section className="output-overview" aria-labelledby="output-title">
@@ -288,10 +305,12 @@ export default function App() {
             <p>Native aspect ratios differ; these are separate source/output pairs, not pixel-aligned overlays.
               Studio floor, glass and body response look more photographic, but wheels, tread and product details are reconstructed.
               These independent edits are not evidence of coherent 3D or improved GLB geometry/materials. No angle winner is attributed to Jay.</p>
+            <details className="technical-details"><summary>Angle settings &amp; source verification</summary>
             <p>Embedded graphs match the side seed-42 effective prompt, models, 25 steps, CFG 1, Euler/simple and denoise 1,
               with refinement off; LoadImage filename and change token differ. Tokens match measured local source hashes;
               cloud filenames do not. This corroborates the supervised input flow, not independently authenticated uploads.
               Cloud job IDs, actual generation time, cost and performance remain unknown.</p>
+            </details>
             <p>The four follow-on conditions are now completed; see <a href="#ai-followons">completed conditions and limits</a>.
               No new generation was performed during report finalization.</p>
           </div>
@@ -301,7 +320,7 @@ export default function App() {
 
         <section id="safe-result" className="geometry-section" aria-labelledby="safe-title">
           <div className="section-heading">
-            <p className="eyebrow">Decision · Accepted and integrated locally</p>
+            <p className="eyebrow">Decision · Accepted and published in the viewer</p>
             <h2 id="safe-title">Accepted Safe geometry</h2>
             <p>
               9.34% smaller payload: 9,239,404 bytes versus the 10,191,496-byte control.
@@ -580,7 +599,7 @@ export default function App() {
       </main>
 
       <footer>
-        <span>Astra 3D benchmark · Research build</span>
+        <span>AI-assisted 3D Workflow Lab · Research build</span>
         <a href="#top">Back to top</a>
       </footer>
     </>
